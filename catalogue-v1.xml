@@ -8,6 +8,12 @@
     xmlns:in2="https://github.com/erasmus-without-paper/ewp-specs-api-institutions/blob/stable-v2/manifest-entry.xsd"
     xmlns:ou2="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/blob/stable-v2/manifest-entry.xsd"
     xmlns:r1="https://github.com/erasmus-without-paper/ewp-specs-api-registry/blob/stable-v1/manifest-entry.xsd"
+    xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
+    xmlns:sec-A0="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-none/tree/stable-v1"
+    xmlns:sec-A1="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
+    xmlns:sec-B1="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
+    xmlns:sec-C1="https://github.com/erasmus-without-paper/ewp-specs-sec-reqencr-tls/tree/stable-v1"
+    xmlns:sec-D1="https://github.com/erasmus-without-paper/ewp-specs-sec-resencr-tls/tree/stable-v1"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="
         https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd
@@ -36,22 +42,63 @@
 
         https://github.com/erasmus-without-paper/ewp-specs-api-iia-cnr/blob/stable-v2/manifest-entry.xsd
         https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-api-iia-cnr/stable-v2/manifest-entry.xsd
+
+        https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2
+        https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-sec-intro/stable-v2/schema.xsd
+
+        https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-none/tree/stable-v1
+        https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-sec-cliauth-none/stable-v1/security-entries.xsd
+
+        https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1
+        https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/stable-v1/security-entries.xsd
+
+        https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1
+        https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/stable-v1/security-entries.xsd
+
+        https://github.com/erasmus-without-paper/ewp-specs-sec-reqencr-tls/tree/stable-v1
+        https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-sec-reqencr-tls/stable-v1/security-entries.xsd
+
+        https://github.com/erasmus-without-paper/ewp-specs-sec-resencr-tls/tree/stable-v1
+        https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-sec-resencr-tls/stable-v1/security-entries.xsd
     "
 >
     <host>
         <ewp:admin-email>rygielski@mimuw.edu.pl</ewp:admin-email>
         <ewp:admin-notes>This host handles the EWP Registry Service.</ewp:admin-notes>
         <apis-implemented>
-            <d4:discovery version="4.0.0">
+            <d4:discovery version="4.1.0">
                 <d4:url>https://registry.erasmuswithoutpaper.eu/manifest.xml</d4:url>
             </d4:discovery>
-            <r1:registry version="1.0.0">
+            <r1:registry version="1.3.0">
                 <r1:catalogue-url>https://registry.erasmuswithoutpaper.eu/catalogue-v1.xml</r1:catalogue-url>
             </r1:registry>
+            <fake-api-without-a-version xmlns="https://github.com/erasmus-without-paper/ewp-registry-service/issues/8"/>
         </apis-implemented>
         <client-credentials-in-use>
-            <certificate sha-256="3e9dc184af39059f01757f615fdde2bd2e303b51268aef19dc9a25dead9d9c04"/>
+            <certificate sha-256="9ae540bf7a663f1f8b05967d79103edaa5e4d78749cea03de3d513c3ca28fd72"/>
+            <rsa-public-key sha-256="2fab973225cbd5dbe28204cd4e5268e7329f62ea6d49b092653c6b731bd6e7ea"/>
         </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="2c319e3d6a0e6f04e150f73fbfe55b0f990ea4e433b508e80e97d234432d4220"/>
+        </server-credentials-in-use>
     </host>
     <institutions/>
+    <binaries>
+        <rsa-public-key sha-256="2c319e3d6a0e6f04e150f73fbfe55b0f990ea4e433b508e80e97d234432d4220">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmZnLgECfGsAfodghemybgJYw34JLeSRv
+            I9qGC5b3Ff6RuRHYn++aeI3XC5GCoU5IjRmWMRXsOmwoYRWc8Zkj+53S3NIYwfpB8/pWrlD7vGnM
+            TOTqzBqro4P8kz14kAtZDQH8D+1Y5KmQA6qyg1znK4G4cDYWn+iueUGAVPhN2ZNJ9LipXjS77lkT
+            cqGttHpgt/HPz5X1y7vDso4slzzCA8/rA9U/1aZFZw0F2Y0y8CeEzCihFJVPIcN0o3BEdXn2ea7B
+            nWAWz9CXmV6jNadIruC2wpC4vSuIjAjEHkwuNv6MQwH8bWN4horBxrSy4MBN6SJZ+ZuE955WQwPx
+            PzsGkQIDAQAB
+        </rsa-public-key>
+        <rsa-public-key sha-256="2fab973225cbd5dbe28204cd4e5268e7329f62ea6d49b092653c6b731bd6e7ea">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjaboprDsDN1Q1hFXDJB0JTOon0yzc8Ai
+            hmMtZPTPOvGsu3mnr+cp77RXbfbYqRDtX1ZWFG231uNIhuzPfUNMVl9z8WdX8GvhIw28UH4qAqsI
+            qt5bzdsivtzKPyLqm8giHNOTkDkYr4aiX/GRuYqXfXE5aUNs2tacxQAB8+mb8BJ+biqdQq0uT5aI
+            zgTJ2+AP8pw96jrxvb0onaWce1Yvxi2A2GDcPeoiFAYHZZuM8oYrrMlB8+65MG8sZLGL3a2CEgnC
+            qrVvMrnNiymPjTPJBpHM8QcR703iOzYurnrrDdDFgtw8OKuJM7zHkhcoEHWS8qX+MuXVI3Ot6tl8
+            mRRjKQIDAQAB
+        </rsa-public-key>
+    </binaries>
 </catalogue>

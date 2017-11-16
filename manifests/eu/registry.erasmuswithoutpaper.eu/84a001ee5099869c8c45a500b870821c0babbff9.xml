@@ -25,19 +25,24 @@
     <r:apis-implemented>
         <discovery
             xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v4/manifest-entry.xsd"
-            version="4.0.0"
+            version="4.1.0"
         >
             <url>https://registry.erasmuswithoutpaper.eu/manifest.xml</url>
         </discovery>
         <registry
             xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-registry/blob/stable-v1/manifest-entry.xsd"
-            version="1.0.0"
+            version="1.3.0"
         >
             <catalogue-url>https://registry.erasmuswithoutpaper.eu/catalogue-v1.xml</catalogue-url>
         </registry>
+        <fake-api-without-a-version xmlns="https://github.com/erasmus-without-paper/ewp-registry-service/issues/8"/>
     </r:apis-implemented>
     <institutions-covered/>
     <client-credentials-in-use>
-        <certificate>MIIDLzCCAhegAwIBAgICMDkwDQYJKoZIhvcNAQELBQAwRDETMBEGA1UEAwwKRWNob1Rlc3RlcjENMAsGA1UECwwETm9uZTEPMA0GA1UECgwGTm9uZSBMMQ0wCwYDVQQGEwROb25lMB4XDTE3MTAwNjAxMTYxOFoXDTI3MTEwMzAxMTYxOFowcTFAMD4GA1UEAww3RHluYW1pY2FsbHkgR2VuZXJhdGVkIENlcnRpZmljYXRlIGZvciB0ZXN0aW5nIEVjaG8gQVBJczENMAsGA1UECwwETm9uZTEPMA0GA1UECgwGTm9uZSBMMQ0wCwYDVQQGEwROb25lMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqhS7tK/24mQNYxWOFKrXiRO50h9Remh1nEf3oBiGZuv6YXomZBEBSjgqxr/l0fQGrxD7MeqERE6Ttam/DSGM50NOHnF+hQPO35FPR20wswYBCNMOaAE4zsp2wPNQR+I30kJVErSFrvAdGPcrTcLA4O+euWijJ2cXII44UuywkS/olwtrf3fddkzGL1+LslCqlj1dufDumhtqYj34KQdz3gY9CLca4YHVPfQ6KFyKfnqh5omi12qsSvbFPPcNOAQH83wsw3rB+PSyI9dIeWnGDQPw89yYO9smIz8LrRRA7ZKBzAhsutblIgVp7b0WracKCoDIyiHxJJ81bKuDiTVuAQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQBf6kh0nU7R9BYN/GRmESCN4X4Tdkc/P0AKBPvuwGalT7yiL7bm5ycBt8sqMySWnVlvq94aH299e1fudNKDuyygNF0aoRrtFO9DGlP4QKkhFnI9JsIgb6HPFhOR4NI8iMT+LgmokogAFt7AqWLtTEBIxmZB54x5a/XufHLWt0/P+BbL96c2SOBXReZ/yPNrGTTCJ7Z3Srcg2tLP749erx7XVZrKpsiOx5pfkxIf2F0RDaPye9EjAEMwZlkWWFy+xyJGuV4Z0XZ7RdY5InEZsIe60q+z07/xbGP+OJGjoCWBp8DY8BvLWrDLsAw1Cfcg1Q+LXK0Yx/lES7a4lfBqnLyD</certificate>
+        <certificate>MIIDLzCCAhegAwIBAgICMDkwDQYJKoZIhvcNAQELBQAwRDETMBEGA1UEAwwKRWNob1Rlc3RlcjENMAsGA1UECwwETm9uZTEPMA0GA1UECgwGTm9uZSBMMQ0wCwYDVQQGEwROb25lMB4XDTE3MTAxNzE1MTU1NloXDTI3MTExNDE1MTU1NlowcTFAMD4GA1UEAww3RHluYW1pY2FsbHkgR2VuZXJhdGVkIENlcnRpZmljYXRlIGZvciB0ZXN0aW5nIEVjaG8gQVBJczENMAsGA1UECwwETm9uZTEPMA0GA1UECgwGTm9uZSBMMQ0wCwYDVQQGEwROb25lMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5RYznn0q5zOlGOyiQMh84zPQZYAZa/nO0HeIbNAmkWmIs1KwKNf9CeAjm8Suxp74pbyrNsjS7FIQ5iT8TY4R0YR9rHS/0a3Qy8M3Me+vNkUU6eAOdWAJyOZV/mNtq9qgG4/mMtw2CIluJQ0lDG2x7XtxbyDw6UVZRe7gKJw4J0nFwLp4NH/bRhCJXomFlQtfH7+CLv0HPGXA+3LYgnCa0r3xh1mMSVVXbkJKoV01fwZDLDmPtFIeeuJaBrCPlLoPGsysImOAu2npKDuus3g9p3q9RhB+/4sS6vR45oygYKr4OAq7QRTnroVQyy3Iz5u9Wt8QF+AKD9/PHSajyPx2dwIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQCDri/utz8ma5vYIrxl6b1ghosFTA3xhQSi/0L14R2aqYGtnm1jlwgOgCBZq3kY0f7Gj0bjqHiMMQuAjPGSxfpoIYR8603KlZJzhWOzxZVq7trJkJ0uczVpvGvqri0XEkO11cUJvzp+Tx1kfnCXzc9wNiJDPBmpQTnm+6xRW3sS8TKp6tPDVNHe/FTOpsM4tzXnzxVZZRfPSSViaBLeRuBW+slsn/Xy0QZNAPBsOEElW5+FwiXecNnfMCfAIhkUIG1k4GEW5ioN42FCATL1xLZMS/gRS3JjkmU97jhJapR6Ko4UOdahkXZItL56SBuglNyKVfGtQq6+AlzHWtMlgmjV</certificate>
+        <rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjaboprDsDN1Q1hFXDJB0JTOon0yzc8AihmMtZPTPOvGsu3mnr+cp77RXbfbYqRDtX1ZWFG231uNIhuzPfUNMVl9z8WdX8GvhIw28UH4qAqsIqt5bzdsivtzKPyLqm8giHNOTkDkYr4aiX/GRuYqXfXE5aUNs2tacxQAB8+mb8BJ+biqdQq0uT5aIzgTJ2+AP8pw96jrxvb0onaWce1Yvxi2A2GDcPeoiFAYHZZuM8oYrrMlB8+65MG8sZLGL3a2CEgnCqrVvMrnNiymPjTPJBpHM8QcR703iOzYurnrrDdDFgtw8OKuJM7zHkhcoEHWS8qX+MuXVI3Ot6tl8mRRjKQIDAQAB</rsa-public-key>
     </client-credentials-in-use>
+    <server-credentials-in-use>
+        <rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmZnLgECfGsAfodghemybgJYw34JLeSRvI9qGC5b3Ff6RuRHYn++aeI3XC5GCoU5IjRmWMRXsOmwoYRWc8Zkj+53S3NIYwfpB8/pWrlD7vGnMTOTqzBqro4P8kz14kAtZDQH8D+1Y5KmQA6qyg1znK4G4cDYWn+iueUGAVPhN2ZNJ9LipXjS77lkTcqGttHpgt/HPz5X1y7vDso4slzzCA8/rA9U/1aZFZw0F2Y0y8CeEzCihFJVPIcN0o3BEdXn2ea7BnWAWz9CXmV6jNadIruC2wpC4vSuIjAjEHkwuNv6MQwH8bWN4horBxrSy4MBN6SJZ+ZuE955WQwPxPzsGkQIDAQAB</rsa-public-key>
+    </server-credentials-in-use>
 </manifest>
