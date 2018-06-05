@@ -22,4 +22,64 @@
     xmlns:ns7="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-tors/blob/stable-v1/manifest-entry.xsd"
     xmlns:ns8="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-cnr/blob/stable-v1/manifest-entry.xsd"
     xmlns:ns9="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v1/manifest-entry.xsd"
-/>
+>
+    <ns3:host>
+        <admin-email>tech-support@sop.co.at</admin-email>
+        <ns2:apis-implemented>
+            <ns19:discovery version="5.0.0">
+                <admin-email>tech-support@sop.co.at</admin-email>
+                <ns19:url>https://mobility-online.unibw.de/mobility/ewp/manifest?api=all</ns19:url>
+            </ns19:discovery>
+            <ns18:echo version="2.0.0">
+                <admin-email>tech-support@sop.co.at</admin-email>
+                <ns18:http-security>
+                    <ns5:client-auth-methods>
+                        <ns20:httpsig/>
+                        <ns21:tlscert allows-self-signed="true"/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns22:httpsig/>
+                        <ns23:tlscert/>
+                    </ns5:server-auth-methods>
+                </ns18:http-security>
+                <ns18:url>https://mobility-online.unibw.de/mobility/ewp/echo</ns18:url>
+            </ns18:echo>
+        </ns2:apis-implemented>
+        <ns3:institutions-covered/>
+        <ns3:client-credentials-in-use>
+            <ns3:certificate>MIIDdjCCAl4CCQCd5R2yvmuiBjANBgkqhkiG9w0BAQUFADB9MQswCQYDVQQGEwJBVDEPMA0GA1UE&#xD;
+CAwGVmllbm5hMQ8wDQYDVQQHDAZWaWVubmExGDAWBgNVBAoMD01vYmlsaXR5LU9ubGluZTEPMA0G&#xD;
+A1UECwwGTU8gRVdQMSEwHwYDVQQDDBhtb2JpbGl0eS1vbmxpbmUudW5pYncuZGUwHhcNMTgwNTI5&#xD;
+MTU1MjI0WhcNMjgwNTI2MTU1MjI0WjB9MQswCQYDVQQGEwJBVDEPMA0GA1UECAwGVmllbm5hMQ8w&#xD;
+DQYDVQQHDAZWaWVubmExGDAWBgNVBAoMD01vYmlsaXR5LU9ubGluZTEPMA0GA1UECwwGTU8gRVdQ&#xD;
+MSEwHwYDVQQDDBhtb2JpbGl0eS1vbmxpbmUudW5pYncuZGUwggEiMA0GCSqGSIb3DQEBAQUAA4IB&#xD;
+DwAwggEKAoIBAQCw7k+AuvT+Vz7jzuBk6Xa0o9mgIvx3XO4HM7TCC+24xWgRIFlTIrMHLVwj6vpo&#xD;
+jia4o3YQaZD6sKlmzRqvQzZdU47E1nlMWD2Xmg2xXXPgdk+ZQxjs3wp4ua6PldwV7JOHcigeTWrb&#xD;
+Jm8HAUa0C78EOHBLac518HPXFkX1qGmD5GiJ1JcgD/0dDyKThyWP4HoCRpwG2uEgl8O1TRUNHxDl&#xD;
+/9xZhGEmiuqvxRptd3lrT7i60U9qje5AEwsXHbY0hOoXlFcQCSp1aQ1dQh0rcxuXGgdq4hVg9tRX&#xD;
+HmW1F10BlNQF6wes/d6Fr35XkmWnejPtg3pH3r3c9aYxvbP8J0m3AgMBAAEwDQYJKoZIhvcNAQEF&#xD;
+BQADggEBAEUug41DN2bVOHW8Ls9PqdTGdQV57mUqdvP+iyRONU5e/DBILmAXnN4IcW7XCErMcaTm&#xD;
+p1wtE5AC6u7DExy00Y6X1b5LUJ9KjR6w1/V7Us2z5PIATj6W/AKLjlBofkE8tVEqCOWNbGhQTfoK&#xD;
+vK9kG0Ut2xqYbLBA++KuwNrJOF8PJDX+oVU1BkXp5OkeHjlndrOOGc7FB+1kV56iaX5DDxiRdcvq&#xD;
+vFI05mcQF8Qwd4B5a658/mmwXG+iJsYleu5XYxYrlQkW/yMjGfUHyqRxa+I1h8dqc/HnCmoW8zxF&#xD;
+UcNyYeNAZsadx/+mUA6udlggvWryVNEyolnjr/smDZwZ+hY=&#xD;
+</ns3:certificate>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsO5PgLr0/lc+487gZOl2tKPZoCL8d1zu&#xD;
+BzO0wgvtuMVoESBZUyKzBy1cI+r6aI4muKN2EGmQ+rCpZs0ar0M2XVOOxNZ5TFg9l5oNsV1z4HZP&#xD;
+mUMY7N8KeLmuj5XcFeyTh3IoHk1q2yZvBwFGtAu/BDhwS2nOdfBz1xZF9ahpg+RoidSXIA/9HQ8i&#xD;
+k4clj+B6AkacBtrhIJfDtU0VDR8Q5f/cWYRhJorqr8UabXd5a0+4utFPao3uQBMLFx22NITqF5RX&#xD;
+EAkqdWkNXUIdK3MblxoHauIVYPbUVx5ltRddAZTUBesHrP3eha9+V5Jlp3oz7YN6R9693PWmMb2z&#xD;
+/CdJtwIDAQAB&#xD;
+</ns3:rsa-public-key>
+        </ns3:client-credentials-in-use>
+        <ns3:server-credentials-in-use>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsO5PgLr0/lc+487gZOl2tKPZoCL8d1zu&#xD;
+BzO0wgvtuMVoESBZUyKzBy1cI+r6aI4muKN2EGmQ+rCpZs0ar0M2XVOOxNZ5TFg9l5oNsV1z4HZP&#xD;
+mUMY7N8KeLmuj5XcFeyTh3IoHk1q2yZvBwFGtAu/BDhwS2nOdfBz1xZF9ahpg+RoidSXIA/9HQ8i&#xD;
+k4clj+B6AkacBtrhIJfDtU0VDR8Q5f/cWYRhJorqr8UabXd5a0+4utFPao3uQBMLFx22NITqF5RX&#xD;
+EAkqdWkNXUIdK3MblxoHauIVYPbUVx5ltRddAZTUBesHrP3eha9+V5Jlp3oz7YN6R9693PWmMb2z&#xD;
+/CdJtwIDAQAB&#xD;
+</ns3:rsa-public-key>
+        </ns3:server-credentials-in-use>
+    </ns3:host>
+</ns3:manifest>
