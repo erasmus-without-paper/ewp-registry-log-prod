@@ -400,6 +400,36 @@
         <apis-implemented>
             <d5:discovery version="5.0.0">
                 <ewp:admin-email>tech-support@sop.co.at</ewp:admin-email>
+                <d5:url>https://mobility-international.uni-bonn.de/mobility/ewp/manifest?api=all</d5:url>
+            </d5:discovery>
+            <e2:echo version="2.0.0">
+                <ewp:admin-email>tech-support@sop.co.at</ewp:admin-email>
+                <e2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </e2:http-security>
+                <e2:url>https://mobility-international.uni-bonn.de/mobility/ewp/echo</e2:url>
+            </e2:echo>
+        </apis-implemented>
+        <client-credentials-in-use>
+            <certificate sha-256="8024ceb29ee4e62778627fd7421dd4870aa37c0d811a3761ca8379c1ae2b8fbe"/>
+            <rsa-public-key sha-256="4b809b28c1b50e07e6e7c5ee34a70c0a3401ca8f1c758babb653cd8b98a3156a"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="4b809b28c1b50e07e6e7c5ee34a70c0a3401ca8f1c758babb653cd8b98a3156a"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <ewp:admin-email>tech-support@sop.co.at</ewp:admin-email>
+        <apis-implemented>
+            <d5:discovery version="5.0.0">
+                <ewp:admin-email>tech-support@sop.co.at</ewp:admin-email>
                 <d5:url>https://mobility-online.univ-nantes.fr/mobility/ewp/manifest?api=all</d5:url>
             </d5:discovery>
             <e2:echo version="2.0.0">
@@ -434,6 +464,14 @@
             yLg8ZJRSSdLwYr30BvyAp5sV4wjmDWET4vpcwLSX+/zu1HesEiel2XNaO+tN6MSd+oyV4K2Uijbj
             ZTLfqvGXlFJZiBOnIw48/E2swxr4g8Jz/nPpEoS0ZZBJyi6lEeBZWEpL/uBCHziPgSMEx2wwBnEw
             jzmNPQIDAQAB
+        </rsa-public-key>
+        <rsa-public-key sha-256="4b809b28c1b50e07e6e7c5ee34a70c0a3401ca8f1c758babb653cd8b98a3156a">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzjhuPEVb9jvsfiYMeFTwjqgljRge66Rb
+            aeBV4JGNeh/VhJI0vKhFIOmPHpt8XQRTfoRsVrLCbovlngF+qx/7JcrMBie069M+yGqCf5/o0B8o
+            UR3eDHBfudc47+dqQZt6ueK+N/07f96W9s5zpHx1hsL8TspMYHsTCN2dKFgShSpIcVurhlbrbDFX
+            1JRt4nYN2MjzcT4dpzO1Mv81dMBfSkbBDSRHochm7Vyhf4rQC1Lx/QsWTqekrTpU7OAZ4y31/bEF
+            F8m8HEyaJah1gJUScJCbVmlICje7CXlRD/n5giFiwq6BdOh62/4mS9o3sAwTQAz44Za2ohJNDiSY
+            WwgI5QIDAQAB
         </rsa-public-key>
         <rsa-public-key sha-256="57d71f6a394f8382461b6ca1ded1f63856f06cfbbc1c4c8fbd7109df5393edd8">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsO5PgLr0/lc+487gZOl2tKPZoCL8d1zu
