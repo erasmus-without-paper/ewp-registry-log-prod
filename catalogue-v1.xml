@@ -872,6 +872,36 @@
         <apis-implemented>
             <d5:discovery version="5.0.0">
                 <ewp:admin-email>tech-support@sop.co.at</ewp:admin-email>
+                <d5:url>https://mobility.int.uzh.ch/mobility/ewp/manifest?api=all</d5:url>
+            </d5:discovery>
+            <e2:echo version="2.0.0">
+                <ewp:admin-email>tech-support@sop.co.at</ewp:admin-email>
+                <e2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </e2:http-security>
+                <e2:url>https://mobility.int.uzh.ch/mobility/ewp/echo</e2:url>
+            </e2:echo>
+        </apis-implemented>
+        <client-credentials-in-use>
+            <certificate sha-256="e456d3a78efd43babadcdfa37b6886f0485a8aa513cc6629a5e35ee2d0927634"/>
+            <rsa-public-key sha-256="4aec4d7e3591724383e8b7c39202cbb6c36f9a2570583f6a39aa8c001fd3592f"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="4aec4d7e3591724383e8b7c39202cbb6c36f9a2570583f6a39aa8c001fd3592f"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <ewp:admin-email>tech-support@sop.co.at</ewp:admin-email>
+        <apis-implemented>
+            <d5:discovery version="5.0.0">
+                <ewp:admin-email>tech-support@sop.co.at</ewp:admin-email>
                 <d5:url>https://mobility.univie.ac.at/mobility/ewp/manifest?api=all</d5:url>
             </d5:discovery>
             <e2:echo version="2.0.0">
@@ -1095,6 +1125,14 @@
             ysqjJkXI9mWxvy7wwlNp/z80jcx17gCu8Dw08m9hcT++Z+0eOZO5ESy0iPUUFCvd5LGCFLR56fM3
             5a3ZZKxOiL1ykJP6Dbwnk7a9pmqItvQO0XoTwdROHqJ0C6f5McorD8gL5H1XApC7DBgO2/mfeyOH
             71x+IwIDAQAB
+        </rsa-public-key>
+        <rsa-public-key sha-256="4aec4d7e3591724383e8b7c39202cbb6c36f9a2570583f6a39aa8c001fd3592f">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyrP6mxiw1C8ORb6mgLZz/cUtqXvBj2Z1
+            B0XZjfL287ntJH6TE+3bsX7C8LmRIsi6QboLFuInpM+koIA3qa3We1ekOj5vNbN5W+GyrdUul7jT
+            06xvPgLVshrKbLVi5SvbUIyZxQtQtInbJnSTjB4rqS3kA0AiZyEAMn42ux8SL6u+Q6+E74+8frSN
+            1hnFAP4SQbg53+Ot0kOnrXWsOEGDG8iN0JHbCVJun01UaTtiXXe5js8hYYx6js2axRB7y2FxE24W
+            pttJ2wbQsUVJmFu0Z/xu1G4+3VNb/toexyc4MD5PPfXhyD8ZqhXvSzYezY2CcV/PfHqPlG2V6TMM
+            vVzZ1wIDAQAB
         </rsa-public-key>
         <rsa-public-key sha-256="4b809b28c1b50e07e6e7c5ee34a70c0a3401ca8f1c758babb653cd8b98a3156a">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzjhuPEVb9jvsfiYMeFTwjqgljRge66Rb
