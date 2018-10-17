@@ -892,61 +892,6 @@
     <host>
         <ewp:admin-email>tech-support@sop.co.at</ewp:admin-email>
         <apis-implemented>
-            <in2:institutions version="2.0.0">
-                <ewp:admin-email>tech-support@sop.co.at</ewp:admin-email>
-                <in2:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A2:httpsig/>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B2:httpsig/>
-                        <sec-B1:tlscert/>
-                    </sec:server-auth-methods>
-                </in2:http-security>
-                <in2:url>https://mobility-online.fh-rosenheim.de/mobility/ewp/institutions</in2:url>
-                <in2:max-hei-ids>3</in2:max-hei-ids>
-            </in2:institutions>
-        </apis-implemented>
-        <client-credentials-in-use>
-            <certificate sha-256="9e979a37815ddc63e7793c153fb4df0685eb52df1459738d0b6b569236b60859"/>
-            <rsa-public-key sha-256="68e9d17f53607d644c63316b10ea38334a3ef412387e53db57ee5c22e92ede0c"/>
-        </client-credentials-in-use>
-        <server-credentials-in-use>
-            <rsa-public-key sha-256="68e9d17f53607d644c63316b10ea38334a3ef412387e53db57ee5c22e92ede0c"/>
-        </server-credentials-in-use>
-    </host>
-    <host>
-        <ewp:admin-email>tech-support@sop.co.at</ewp:admin-email>
-        <apis-implemented>
-            <ou2:organizational-units version="2.0.0">
-                <ewp:admin-email>tech-support@sop.co.at</ewp:admin-email>
-                <ou2:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A2:httpsig/>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B2:httpsig/>
-                        <sec-B1:tlscert/>
-                    </sec:server-auth-methods>
-                </ou2:http-security>
-                <ou2:url>https://mobility-online.fh-rosenheim.de/mobility/ewp/ounits</ou2:url>
-                <ou2:max-ounit-ids>3</ou2:max-ounit-ids>
-                <ou2:max-ounit-codes>3</ou2:max-ounit-codes>
-            </ou2:organizational-units>
-        </apis-implemented>
-        <client-credentials-in-use>
-            <certificate sha-256="9e979a37815ddc63e7793c153fb4df0685eb52df1459738d0b6b569236b60859"/>
-            <rsa-public-key sha-256="68e9d17f53607d644c63316b10ea38334a3ef412387e53db57ee5c22e92ede0c"/>
-        </client-credentials-in-use>
-        <server-credentials-in-use>
-            <rsa-public-key sha-256="68e9d17f53607d644c63316b10ea38334a3ef412387e53db57ee5c22e92ede0c"/>
-        </server-credentials-in-use>
-    </host>
-    <host>
-        <ewp:admin-email>tech-support@sop.co.at</ewp:admin-email>
-        <apis-implemented>
             <d5:discovery version="5.0.0">
                 <ewp:admin-email>tech-support@sop.co.at</ewp:admin-email>
                 <d5:url>https://mobility.uni-konstanz.de/mobility/ewp/manifest?api=all</d5:url>
