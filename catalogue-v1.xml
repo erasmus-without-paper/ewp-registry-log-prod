@@ -93,11 +93,11 @@
             <fake-api-without-a-version xmlns="https://github.com/erasmus-without-paper/ewp-registry-service/issues/8"/>
         </apis-implemented>
         <client-credentials-in-use>
-            <certificate sha-256="89ff4e53c2f75949a331d2540def1aaed16dd63162a0e367ffa908f84d3e9a8b"/>
-            <rsa-public-key sha-256="89f8ec2dd02f5b51bccde989cd5ad9e6501b201afe60c7f238a0d9ad05388777"/>
+            <certificate sha-256="d3f0293357bb92e991dc18b3f4aee796577bc26d4c3c7f4f9ec0aed0d811a7de"/>
+            <rsa-public-key sha-256="6d16f2db9ed9bfd3eb3a3a8a516e27e6b52f799b2002526c9c47910d155fb248"/>
         </client-credentials-in-use>
         <server-credentials-in-use>
-            <rsa-public-key sha-256="9089f4786abb2371a4fff9b4b4c4d18cceaf0eec9ee25e01dea166d98d58806f"/>
+            <rsa-public-key sha-256="ecd9839ce161db2aa0da18b2bc3ea0d6a422ead721607a2046a12ed916715092"/>
         </server-credentials-in-use>
     </host>
     <host>
@@ -1566,6 +1566,14 @@
             12MsM0R2uD5ZpPJ2xdoSCiBALDQkmS3PEDzn2RYBZnY4VaD2P6dd8JWZguQQbr/rBD/2T+KF8lx4
             H/dXswIDAQAB
         </rsa-public-key>
+        <rsa-public-key sha-256="6d16f2db9ed9bfd3eb3a3a8a516e27e6b52f799b2002526c9c47910d155fb248">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApR2QAY+DTOiggDJEqrWnvcigFFp3kowh
+            q8WbswejntHN6piVhZ4ihH54NdLJmNxRvevG2f491zx3DcDreUKwJW+5TRYfczpLP4sH0JbzJD80
+            UV71b/+juhNx/Lnr169CszqjpRAPoyTE7LkUqcoy537IxQQt/zczGPjZf/moIbj+44IdfuxgJS6u
+            a6bgh7y0FFtGt2SIE5DtHfwlYtPS0y/j+pkMTkGcEZH2VqNZuNqzQXXGWovzHFFs/lpC0gOv8XiU
+            aJccGwn4NumAWBk9qwa8uChV1MgLBRwQV6EOGZDHvW36VIgvOA+oLrRR3g4UgfP+AEXDqQUMbw4C
+            2K8/2QIDAQAB
+        </rsa-public-key>
         <rsa-public-key sha-256="769c7a9c8bac71a238ea9e78dda3e49bcabbaf695f56fbc99dd4d6e8f777756a">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxy4PBPNsKRJHn9+rESq+pqzRpj+QB6RD
             wmuSR6gkWlSqkv1dEqlya8thIqEUJwmc9ZgZmiQ0MB+s0xkAElz//a8EX2n3y6jlvAt+bouvhVMa
@@ -1597,22 +1605,6 @@
             Mz5/mM0nH0xgRkYX3gKW+CbIqD2jR4iIs2QePqMQKjHLAlSXyHMDZ8TEAEYEbjosc9vO64qFP+fP
             ybBBgtMmxzHsdyMMh/eyTmq5UN7qhocWN+f3etHUX/0DuX6Pqr8vfFCKh0MeHXED51HQnwDWVFJF
             ojesjwIDAQAB
-        </rsa-public-key>
-        <rsa-public-key sha-256="89f8ec2dd02f5b51bccde989cd5ad9e6501b201afe60c7f238a0d9ad05388777">
-            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAm2vGwF77Yy1QIhx3V+2PnuRvr8vGoru2
-            DJD0MKow7jvmLZFpy23aROp1+aVRaU3YpSVm4K12u2UGFI0KYFz7pw+NhwiSuHESngQC1D7Aw1eC
-            0URAfd5POvRcbnEmezGdIbdaD0vKrUyF8hsaaDvm4NzVfuZ+DhQI4QWw+k3ONjiESBxXspCkUVtR
-            x620rhqiOf19ypeG9p62M8RU5Iz99syG9XUANmlcrvTvL6Mycj8ujGwyAho1I3Ov3+hbm1/bTjF+
-            PDOr5Hl+YZIgDBogZOwl7XojM70bAfVXawbMmd694AxXC6uR6OyqhQ5uJE9TMoo+9FUyPIGJxlLz
-            L7udLwIDAQAB
-        </rsa-public-key>
-        <rsa-public-key sha-256="9089f4786abb2371a4fff9b4b4c4d18cceaf0eec9ee25e01dea166d98d58806f">
-            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4K+4mJh0Br4mjkWVDGzkZIcyIMzjg3fb
-            Ky0FUqlvIJFbeDqOcR4KBKwTgiHlmoJj1vw9deU11vQr8cljbf5bY0Re0g2qI58ktpiP95yE52/P
-            pkhEb+UlDZXpA8svAWEu/hLjL6izFzGCdhhIlOmeu4b+nx26ENB4SkbTHo1VsCwhbckrswak8L90
-            KrPxiturHvw8trimbbtWIpxP2yJ+sX3009Zobt1Na+svP4OBBU6ejHCTdS2mH2kpxCmDnv7377xa
-            yC3jSOcPATLYwvWFu6dciWu/JG8VeU/Jc6z/AvgDGBaVchJsWjYPnr1z441Y2xoeQ0daDDX2pAcG
-            QblyUwIDAQAB
         </rsa-public-key>
         <rsa-public-key sha-256="95f854813df5c5f359932a98909cfd394c2900d5e7af572a8e55b04daf04a76b">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsMdmrinror4/oMBwsrQvn2ZB4GTNYhcS
@@ -1701,6 +1693,14 @@
             bPbhsQslqqc5MTSuKWRkL2uLhh9WkPQ2Zz1XWFhL79fGpblL8CIcqCYjoU8tYj5Xc+UG1m4GZAFt
             DoTsgOBs/smaDen8d8Bp8B7zrP5rsGGyphxNCDCcwRm/sc6KAjjZU9YsxQtEK++Lh/45DF768kJC
             cD3B/wIDAQAB
+        </rsa-public-key>
+        <rsa-public-key sha-256="ecd9839ce161db2aa0da18b2bc3ea0d6a422ead721607a2046a12ed916715092">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjOKv9bUgHnvQlb1fs3MenmcMvIELaOQ6
+            kgr4zEKSo36kv3/0LGPTYcJHiby9Tr5tLhLgTQ1sq6zU0WsHl4qBW2XUrc29T8NeY9dkD8Qvu5O6
+            qV24PPpyUtn2nhQsHEIt/50iQSQXEba0t0XSwUQUpTupU8Qip2hUazOxhpnqf2mq2+7x0f3Yabr/
+            r+ffq9nPR6l718y/noPoX9xWKvzFhmmm00mN3gwdHRzeTUIHt38nnxNwK3qh12Pw2hVo7ilpObYv
+            /n4u/OUTng4nEuxTwxg0oVdW6VDm1LLWAWDmx0iSHIYC2xyfAHDWhOscwxZXomBEJnKcS0F8WySI
+            nqd94QIDAQAB
         </rsa-public-key>
         <rsa-public-key sha-256="f1aba14d6ccd682db6132c00d05dba0d684358e4aa9ef09f084ccbb96e7a32d0">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA17+1jr43ELIMkrUpSQbV0yBLbhREmiQO
