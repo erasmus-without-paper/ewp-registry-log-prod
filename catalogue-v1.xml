@@ -1376,6 +1376,62 @@
             <rsa-public-key sha-256="22d0ef3bae0bfa8f5efb61e3c6d6348b1926fde691c0dc54b45207e978cc557b"/>
         </server-credentials-in-use>
     </host>
+    <host>
+        <ewp:admin-email>oasis+ewp@dict.ugent.be</ewp:admin-email>
+        <apis-implemented>
+            <d5:discovery version="5.0.0">
+                <d5:url>https://ewp.ugent.be/public-api/discovery/manifest.xml</d5:url>
+            </d5:discovery>
+            <e2:echo version="2.0.0">
+                <e2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </e2:http-security>
+                <e2:url>https://ewp.ugent.be/secure-api/echo</e2:url>
+            </e2:echo>
+            <in2:institutions version="2.0.0">
+                <in2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </in2:http-security>
+                <in2:url>https://ewp.ugent.be/secure-api/institutions</in2:url>
+                <in2:max-hei-ids>1</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.0.0">
+                <ou2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </ou2:http-security>
+                <ou2:url>https://ewp.ugent.be/secure-api/ounits</ou2:url>
+                <ou2:max-ounit-ids>1</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>1</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>ugent.be</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <rsa-public-key sha-256="412c158e2fc5ac48df96d18a9d2e5018998d36aacbc119fcaf99bd431b247d26"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="412c158e2fc5ac48df96d18a9d2e5018998d36aacbc119fcaf99bd431b247d26"/>
+        </server-credentials-in-use>
+    </host>
     <institutions>
         <hei id="diak.fi">
             <other-id type="erasmus">HELSINK19</other-id>
@@ -1437,6 +1493,12 @@
             <other-id type="pic">999986387</other-id>
             <name xml:lang="en">UNIVERSITY OF BARCELONA</name>
             <name xml:lang="es">UNIVERSITAT DE BARCELONA</name>
+        </hei>
+        <hei id="ugent.be">
+            <other-id type="erasmus">B  GENT01</other-id>
+            <other-id type="pic">999986096</other-id>
+            <name xml:lang="en">Ghent University</name>
+            <name xml:lang="nl">Universiteit Gent</name>
         </hei>
         <hei id="uni-augsburg.de">
             <other-id type="erasmus">D  AUGSBUR01</other-id>
@@ -1518,6 +1580,18 @@
             /aS00A/8bmYCjcP49jFahvWjzgJLF3sWGTlFEvJOPqYDUSMlosh+Tr4kCUaWBQ89RysTcLSOtv+Z
             ejq/RMrc/4cntJi8FFULuorbZ+5zx7mjPyTmw5ve2qO+0y7McnKkhsRw60SIC2WhltiYJ99p9kVl
             aax4/wIDAQAB
+        </rsa-public-key>
+        <rsa-public-key sha-256="412c158e2fc5ac48df96d18a9d2e5018998d36aacbc119fcaf99bd431b247d26">
+            MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA2VV8iIHvS4hy6KvrMQEE5rQZdHKAusaN
+            tqJNL0B1BLwaHPrs9sqbLbhXTdZdOSsfXy/wA8oEeVFvOWmv4Hs2ByYA4HCvmCSosn/bTB0P2uVF
+            RahAhL55YcW3YaZCu3WvVVvdxeEn0Go5hgk0K5/UawT1ai0pTU4iDLI6PobzmNWNalZkP6IZyQmL
+            5K9UXBA1d+vu6S/cGDhKqoh+CKdEdBVNRL3qbN36UIKGz1p7/EzSQxWJ7HhmIJVWFKUisVf+FPYQ
+            G0vTCsR2OlXHkDjpIJIjQCCb2idG4dmpK1Tv2YHdH4XaDEhCLPTCB4SJgM6o+iZ/tQMxhmp6DLcT
+            Z3IwWIehJqwAUAJsLlwo7svoYJ9scS9YOD/6JvumBoNhwAc2PV/QY92q2Z/su0vWIGUZpX3Fyvx0
+            qoq3yNXUo/J13awnXY9iSJE1BrTqXO2tTc264S54IJkbtz0UMn+2DJyo51avVr9fBJYamNJVmKyJ
+            7KdPZGvu8K5A/Qod3lCPTWyK4L9+mBTo4HCcvBVT+quA6/ljcN3zln3X7Eg5/bhPJROzJ+ateLLw
+            WU1TXyIpT5k2IGUQgHjUVlpO44ZEY3my5CsWhcjacp6xFE30DqwYHQMAMPg74fLswGudg+VPF78I
+            jMVoP0LKILRtw5pGdfm0LMDCO/oOw07VtpAU5ny+xfUCAwEAAQ==
         </rsa-public-key>
         <rsa-public-key sha-256="49554338fd305ec16063df917c0fe3bea1bb012a71685648f2f9bcd8c5f9a91a">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApUwUGC8t0nIvyWSbEtlntxK71hpIVmAj
