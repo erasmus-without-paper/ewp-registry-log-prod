@@ -1470,7 +1470,7 @@
             <d5:discovery version="5.0.0">
                 <d5:url>https://fsws.usit.no/ewp/manifest</d5:url>
             </d5:discovery>
-            <e2:echo version="2.0.0">
+            <e2:echo version="2.0.1">
                 <e2:http-security>
                     <sec:client-auth-methods>
                         <sec-A2:httpsig/>
@@ -1482,7 +1482,7 @@
                 </e2:http-security>
                 <e2:url>https://fsws.usit.no/ewp/echo</e2:url>
             </e2:echo>
-            <in2:institutions version="2.0.0">
+            <in2:institutions version="2.1.0">
                 <in2:http-security>
                     <sec:client-auth-methods>
                         <sec-A2:httpsig/>
@@ -1495,7 +1495,7 @@
                 <in2:url>https://fsws.usit.no/ewp/institutions</in2:url>
                 <in2:max-hei-ids>1</in2:max-hei-ids>
             </in2:institutions>
-            <ou2:organizational-units version="2.0.0">
+            <ou2:organizational-units version="2.1.0">
                 <ou2:http-security>
                     <sec:client-auth-methods>
                         <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-architecturepecs-sec-cliauth-httpsig/tree/stable-v1"/>
