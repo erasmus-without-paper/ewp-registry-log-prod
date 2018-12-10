@@ -1433,6 +1433,116 @@
             <rsa-public-key sha-256="412c158e2fc5ac48df96d18a9d2e5018998d36aacbc119fcaf99bd431b247d26"/>
         </server-credentials-in-use>
     </host>
+    <host>
+        <ewp:admin-email>matija.puzar@unit.no</ewp:admin-email>
+        <ewp:admin-notes>Manifest file for Norway.</ewp:admin-notes>
+        <apis-implemented>
+            <d5:discovery version="5.0.0">
+                <d5:url>https://fsws.usit.no/ewp/manifest</d5:url>
+            </d5:discovery>
+            <e2:echo version="2.0.0">
+                <e2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </e2:http-security>
+                <e2:url>https://fsws.usit.no/ewp/echo</e2:url>
+            </e2:echo>
+            <in2:institutions version="2.0.0">
+                <in2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </in2:http-security>
+                <in2:url>https://fsws.usit.no/ewp/institutions</in2:url>
+                <in2:max-hei-ids>1</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.0.0">
+                <ou2:http-security>
+                    <sec:client-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-architecturepecs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </ou2:http-security>
+                <ou2:url>https://fsws.usit.no/ewp/ounits</ou2:url>
+                <ou2:max-ounit-ids>1</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>1</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+            <ia2:iias version="2.0.0">
+                <ia2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </ia2:http-security>
+                <ia2:get-url>https://fsws.usit.no/ewp/iias/get</ia2:get-url>
+                <ia2:max-iia-ids>1</ia2:max-iia-ids>
+                <ia2:max-iia-codes>1</ia2:max-iia-codes>
+                <ia2:index-url>https://fsws.usit.no/ewp/iias/index</ia2:index-url>
+            </ia2:iias>
+            <c1:courses
+                xmlns:c1="https://github.com/erasmus-without-paper/ewp-specs-api-courses/blob/stable-v1/manifest-entry.xsd"
+                version="0.7.0"
+            >
+                <c1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </c1:http-security>
+                <c1:url>https://fsws.usit.no/ewp/courses</c1:url>
+                <c1:max-los-ids>1</c1:max-los-ids>
+                <c1:max-los-codes>1</c1:max-los-codes>
+            </c1:courses>
+            <cr1:simple-course-replication
+                xmlns:cr1="https://github.com/erasmus-without-paper/ewp-specs-api-course-replication/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <cr1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </cr1:http-security>
+                <cr1:url>https://fsws.usit.no/ewp/course-replication</cr1:url>
+                <cr1:allows-anonymous-access>false</cr1:allows-anonymous-access>
+                <cr1:supports-modified-since>true</cr1:supports-modified-since>
+            </cr1:simple-course-replication>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>uio.no</hei-id>
+            <hei-id>ntnu.no</hei-id>
+            <hei-id>uib.no</hei-id>
+            <hei-id>uit.no</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="2b191e2f2920fdcff47088c199b81cebbc89912d55c83cfda9da53613b0430ac"/>
+            <rsa-public-key sha-256="350396ab93700b1bea9fab518aad99f216c86c4264dab082f143f872c3dd01a6"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="350396ab93700b1bea9fab518aad99f216c86c4264dab082f143f872c3dd01a6"/>
+        </server-credentials-in-use>
+    </host>
     <institutions>
         <hei id="diak.fi">
             <other-id type="erasmus">HELSINK19</other-id>
@@ -1473,6 +1583,12 @@
         <hei id="kea.dk">
             <name xml:lang="da">KEA Copenhagen School of Design and Technology</name>
         </hei>
+        <hei id="ntnu.no">
+            <other-id type="erasmus">N TRONDHE01</other-id>
+            <other-id type="pic">999977851</other-id>
+            <name xml:lang="en">Norwegian University of Science and Technology</name>
+            <name xml:lang="no">Norges teknisk-naturvitenskapelige universitet</name>
+        </hei>
         <hei id="ph-ooe.at">
             <other-id type="erasmus">A  LINZ03</other-id>
             <other-id type="euc">29268-IC-1-2002-1-AT-ERASMUS-EUC-1</other-id>
@@ -1506,6 +1622,24 @@
             <other-id type="pic">999986096</other-id>
             <name xml:lang="en">Ghent University</name>
             <name xml:lang="nl">Universiteit Gent</name>
+        </hei>
+        <hei id="uib.no">
+            <other-id type="erasmus">N BERGEN01</other-id>
+            <other-id type="pic">999974456</other-id>
+            <name xml:lang="en">University of Bergen</name>
+            <name xml:lang="no">Universitetet i Bergen</name>
+        </hei>
+        <hei id="uio.no">
+            <other-id type="erasmus">N OSLO01</other-id>
+            <other-id type="pic">999975814</other-id>
+            <name xml:lang="en">University of Oslo</name>
+            <name xml:lang="no">Universitetet i Oslo</name>
+        </hei>
+        <hei id="uit.no">
+            <other-id type="erasmus">N TROMS001</other-id>
+            <other-id type="pic">913175849</other-id>
+            <name xml:lang="en">UiT The Arctic University of Norway</name>
+            <name xml:lang="no">UiT Norges arktiske universitet</name>
         </hei>
         <hei id="uni-augsburg.de">
             <other-id type="erasmus">D  AUGSBUR01</other-id>
@@ -1579,6 +1713,14 @@
             EOKTYGqD5dvQRxzywP9Y91yKWjYUmbhqrJxSqJHZc490EuFQn6HPcGiIHVUk3LUz7o/o0qaKgI7Y
             fyMkvWj+5CShvbqVdXUBIYRHwOAvOP1qSA0GUlh0Njs98rz6U4tDS5oRuIuDO9odpHvyq5sa2ALr
             5eGI5QIDAQAB
+        </rsa-public-key>
+        <rsa-public-key sha-256="350396ab93700b1bea9fab518aad99f216c86c4264dab082f143f872c3dd01a6">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnImuhavC/SRBJ2rayROW657vV/zFM6oz
+            M81mz8wZrHHmpQ4EDxF3rjLMTuKkz3LOnGh159F6P+XQfIOldY1K58SjGEeHSSVB+UDznIlgITa2
+            tMR7Z3vncRMWVMSjrgkmtKvSfwbRj4gJtpPjxx5Hlda0jeZkq3LBWc0Mk2mAydTol1F5gcLHSMOj
+            U5GRm4gvAGu7prGLECi2BDYKkoTFdB7hFkh3oKMKSSXv8KfhpQpawR6q+it4khlkQNuwocklWpUc
+            oyqNv/IU96sBpjDAhkCvVAg9wxDX6WYEeKIrLTU3iC4HUQ9EAiblgPZWpmNjp1tHls7Y9XMg5ilV
+            yfUYgwIDAQAB
         </rsa-public-key>
         <rsa-public-key sha-256="3a77236856bb6efc7a0dbdb93ce3217526eac0df4c3e97d2ec724a0072ecaf37">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2hMcygwfrhEmMGSeKl2JCPzeDGSUVebM
