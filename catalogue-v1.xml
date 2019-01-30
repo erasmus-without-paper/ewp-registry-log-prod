@@ -1649,6 +1649,87 @@
             <rsa-public-key sha-256="112d6355f7724d6ce3ca3cbc98129d4edaf00d9d0c87363e4f6f5b6c2ab74adf"/>
         </server-credentials-in-use>
     </host>
+    <host>
+        <ewp:admin-email>fpeixoto@uporto.pt</ewp:admin-email>
+        <ewp:admin-notes>Manifest File for Mobility Tool.</ewp:admin-notes>
+        <apis-implemented>
+            <d5:discovery version="5.0.0">
+                <d5:url>https://mt.erasmuswithoutpaper.eu/rest/manifest</d5:url>
+            </d5:discovery>
+            <e2:echo version="2.0.1">
+                <e2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </e2:http-security>
+                <e2:url>https://mt.erasmuswithoutpaper.eu/rest/echo</e2:url>
+            </e2:echo>
+            <mt-institutions
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-mt-institutions/blob/stable-v1/manifest-entry.xsd"
+                version="0.1.0"
+            >
+                <http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </http-security>
+                <url>https://mt.erasmuswithoutpaper.eu/rest/institutions</url>
+                <max-ids>1</max-ids>
+            </mt-institutions>
+            <mt-dictionaries
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-mt-dictionaries/blob/stable-v1/manifest-entry.xsd"
+                version="0.1.0"
+            >
+                <http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </http-security>
+                <url>https://mt.erasmuswithoutpaper.eu/rest/dictionaries</url>
+            </mt-dictionaries>
+            <mt-projects
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-mt-projects/blob/stable-v1/manifest-entry.xsd"
+                version="0.1.0"
+            >
+                <http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </http-security>
+                <url>https://mt.erasmuswithoutpaper.eu/rest/projects</url>
+            </mt-projects>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>ec.europa.eu</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="dd1d727f95b6f9f3930eaa4d6cee2ba6e1ef7fcfc00fa66b30ab6b4424cfeeff"/>
+            <rsa-public-key sha-256="d0ee53e481ce5200ca0dd17f5aad3c0b96a039f84b075d34f20b087b19d05bde"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="d0ee53e481ce5200ca0dd17f5aad3c0b96a039f84b075d34f20b087b19d05bde"/>
+        </server-credentials-in-use>
+    </host>
     <institutions>
         <hei id="arteveldehs.be">
             <other-id type="erasmus">B  GENT39</other-id>
@@ -1661,6 +1742,9 @@
             <other-id type="euc">29524-IC-1-2007-1-FI-ERASMUS-EUCX-1</other-id>
             <other-id type="pic">947255635</other-id>
             <name xml:lang="en">Diaconia University of Applied Sciences</name>
+        </hei>
+        <hei id="ec.europa.eu">
+            <name xml:lang="en">Mobility Tool+</name>
         </hei>
         <hei id="esaip.org">
             <other-id type="erasmus">F  ANJOU02</other-id>
@@ -2008,6 +2092,14 @@
             TVKNM40oltPKafiEvNc8l/WthyaMQ77lUh6of/KxOBXbozaErmkefLr+vnOephpIo+p6Ll6qvGcJ
             aTVCNd4r04xSSLVy99uBe9Cf5T/GbvR+0oqSWVrKfKQmyga3p6nf1JRpa6boHnDR5ghZB4YhBxei
             es7ecwIDAQAB
+        </rsa-public-key>
+        <rsa-public-key sha-256="d0ee53e481ce5200ca0dd17f5aad3c0b96a039f84b075d34f20b087b19d05bde">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnqDZYAM7C3VadxkJZAFxEvyykCkfAca+
+            bGkS6nVr0HWcUDYWs0+pwVddets1Aw7og5fFuCrmuzjFpUaeHOOfpAPq6JzzOHyRPxMoSbP1Jsfq
+            JVcMHYYXDN9m+VLIrrYD3v2yzAxnx8QNAJ9AtIaFEN5+MWa16ABxZkeSOEe9ZEfRHDCVzYTs24KV
+            dRHYQMYMriezHZh+qiVWlIPrlDb+0c2WHq0yWkorHbS6TRFbrs5GyABzAD7RrrB0nyBjGbGV6pXd
+            SEiZBThKirmsas7f222w3eEDl1J6HixAtUnDKGk1eg9Q8a/NyalwE0yRaH2lGUDcK+p9zZ5k7rM5
+            OROfsQIDAQAB
         </rsa-public-key>
         <rsa-public-key sha-256="d1c8e8e8589874f5de13ece67c4a015103acaf687b92376cb4ec322198d6a058">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4aADF2tvPGOslZSfW+gvQj0wJTYh5MLH
