@@ -61,6 +61,9 @@
         <r:other-id type="pic">999869793</r:other-id>
         <r:name xml:lang="en">Universit? Paris Descartes</r:name>
       </r:hei>
+      <r:hei id="ensas">
+        <r:name xml:lang="en">Ecole Nationale Sup?rieure d'Architecture de Strasbourg</r:name>
+      </r:hei>
       <r:hei id="ehess">
         <r:other-id type="erasmus">F  PARIS057</r:other-id>
         <r:other-id type="euc">28334</r:other-id>
@@ -81,6 +84,12 @@
       </r:hei>
       <r:hei id="essca">
         <r:name xml:lang="en">Ecole Sup?rieure des Sciences Commerciales d'Angers (ESSCA)</r:name>
+      </r:hei>
+      <r:hei id="descartes01">
+        <r:other-id type="erasmus">F  PARIS005</r:other-id>
+        <r:other-id type="euc">28144</r:other-id>
+        <r:other-id type="pic">999869793</r:other-id>
+        <r:name xml:lang="en">Universit? Paris Descartes</r:name>
       </r:hei>
       <r:hei id="inpt">
         <r:other-id type="erasmus">F  TOULOUS28</r:other-id>
@@ -124,6 +133,9 @@
         <r:other-id type="pic">999878620</r:other-id>
         <r:name xml:lang="en">Universit? du Luxembourg</r:name>
       </r:hei>
+      <r:hei id="tlse3">
+        <r:name xml:lang="en">Universit? Paul Sabatier - Toulouse III</r:name>
+      </r:hei>
       <r:hei id="ubx">
         <r:other-id type="erasmus">F  BORDEAU58</r:other-id>
         <r:other-id type="pic">949735440</r:other-id>
@@ -134,6 +146,9 @@
         <r:other-id type="euc">28677</r:other-id>
         <r:other-id type="pic">949204268</r:other-id>
         <r:name xml:lang="en">Universit? Catholique de Lille</r:name>
+      </r:hei>
+      <r:hei id="uga">
+        <r:name xml:lang="en">UGA - Universit? Grenoble Alpes</r:name>
       </r:hei>
       <r:hei id="uha">
         <r:name xml:lang="en">Universit? de Haute-Alsace</r:name>
@@ -268,6 +283,9 @@
         <r:other-id type="euc">29323</r:other-id>
         <r:other-id type="pic">949241613</r:other-id>
         <r:name xml:lang="en">Yrkeshögskolan Arcada</r:name>
+      </r:hei>
+      <r:hei id="akdn">
+        <r:name xml:lang="en">Aga Khan Development Network</r:name>
       </r:hei>
       <r:hei id="bham">
         <r:other-id type="erasmus">UK BIRMING02</r:other-id>
@@ -1015,6 +1033,12 @@
       <r:hei id="lehigh02">
         <r:name xml:lang="en">Lehigh University</r:name>
       </r:hei>
+      <r:hei id="paris13">
+        <r:other-id type="erasmus">F  PARIS013</r:other-id>
+        <r:other-id type="euc">28176</r:other-id>
+        <r:other-id type="pic">999489941</r:other-id>
+        <r:name xml:lang="en">Universit? Paris 13</r:name>
+      </r:hei>
       <r:hei id="au">
         <r:name xml:lang="en">Aarhus University</r:name>
       </r:hei>
@@ -1478,6 +1502,51 @@ Rv0AZv5Q11+ZRFf0ptjDNog=
     <r:apis-implemented>
       <in2:institutions version="2.0.0">
         <admin-email>umesh@qs.com</admin-email>
+        <in2:url>https://ensas-ewp.moveon4.fr/v1/institution</in2:url>
+        <in2:max-hei-ids>10</in2:max-hei-ids>
+      </in2:institutions>
+      <ou2:organizational-units version="2.0.0">
+        <admin-email>umesh@qs.com</admin-email>
+        <ou2:url>https://ensas-ewp.moveon4.fr/v1/ounit</ou2:url>
+        <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
+        <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
+      </ou2:organizational-units>
+    </r:apis-implemented>
+    <ns3:institutions-covered>
+      <r:hei id="ensas">
+        <r:name xml:lang="en">Ecole Nationale Sup?rieure d'Architecture de Strasbourg</r:name>
+      </r:hei>
+    </ns3:institutions-covered>
+    <ns3:client-credentials-in-use>
+      <ns3:certificate>MIIDzTCCArWgAwIBAgIJAL7XxcPtzdxOMA0GCSqGSIb3DQEBCwUAMHwxCzAJBgNV
+BAYTAklOMRIwEAYDVQQIDAlLYXJuYXRha2ExEjAQBgNVBAcMCUJhbmdhbG9yZTEL
+MAkGA1UECgwCUVMxCzAJBgNVBAsMAklUMQ4wDAYDVQQDDAVVbWVzaDEbMBkGCSqG
+SIb3DQEJARYMdW1lc2hAcXMuY29tMCAXDTE4MDgxMTA0NDAxMloYDzIxMTgwNzE4
+MDQ0MDEyWjB8MQswCQYDVQQGEwJJTjESMBAGA1UECAwJS2FybmF0YWthMRIwEAYD
+VQQHDAlCYW5nYWxvcmUxCzAJBgNVBAoMAlFTMQswCQYDVQQLDAJJVDEOMAwGA1UE
+AwwFVW1lc2gxGzAZBgkqhkiG9w0BCQEWDHVtZXNoQHFzLmNvbTCCASIwDQYJKoZI
+hvcNAQEBBQADggEPADCCAQoCggEBAM9rvH2YtDFp2vJt0lgxd8FD4kRRh2LlWE9U
+C6e+F63vZroL+8ZC94D6lFNHa88zb+pJ7Xu99tSKSmWSlMRJ/AqYIf1sY2QMpmr6
+jFrYa8qGRe0fEG6QLyJavUuahqOVRgtFmSKk4aOlkxAIEPGv7rEnL0mTWd7Qsmef
+e2e4bvVyLxLOTHePKi2VMxaIeqPa9TMVVBGjBo24Bb0ZtMRzSfs2XlNp3V1zrPgh
+tDWdY4i+G9Nx0X5gYMC6mWUtV6LtQ2nT9OMizTyOvE7YGW3ctNLpwC3msurfBgoM
+L3i3otstmSn8KV9VcD05hGg4IIpzcKRMlllSDJWKy70RVTsn/F0CAwEAAaNQME4w
+HQYDVR0OBBYEFEKsH81v1onrMZ41+AFdb5TBxjJ0MB8GA1UdIwQYMBaAFEKsH81v
+1onrMZ41+AFdb5TBxjJ0MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEB
+ACZ1lhJEJ+TICzLWmuvkpw2zE3VZs7pgdH7lpmwUPNrb9D9dunhKOyg8GP6x77KW
+jMAIxitWTKyL1DpTdwzS/slyFKw00AZlVXBj0bwZ3KoYt2h1rxv95K7+p7CLHTEK
+MZmtw3fFsg+dm6EvNbyXpQO8YJ3hXJ+uVSiuy/bf3zCcY9EqgbjlP0Vr9OLq/sPn
+WmaUL4zI2ABDGCnRwXxfl4xAqBPyI+L4DbhOUg4KKLpapIJx6naS3Y6+iH5zNXP8
+OfBflFtjx6aIdjOqVT2uHLLGBGAGrbKjvW2I0zQjpKlDah5AOiLc8jknncglAtCF
+Rv0AZv5Q11+ZRFf0ptjDNog=
+</ns3:certificate>
+    </ns3:client-credentials-in-use>
+  </ns3:host>
+  <ns3:host>
+    <admin-email>umesh@qs.com</admin-email>
+    <r:apis-implemented>
+      <in2:institutions version="2.0.0">
+        <admin-email>umesh@qs.com</admin-email>
         <in2:url>https://ehess-ewp.moveon4.fr/v1/institution</in2:url>
         <in2:max-hei-ids>10</in2:max-hei-ids>
       </in2:institutions>
@@ -1677,6 +1746,54 @@ Rv0AZv5Q11+ZRFf0ptjDNog=
     <ns3:institutions-covered>
       <r:hei id="essca">
         <r:name xml:lang="en">Ecole Sup?rieure des Sciences Commerciales d'Angers (ESSCA)</r:name>
+      </r:hei>
+    </ns3:institutions-covered>
+    <ns3:client-credentials-in-use>
+      <ns3:certificate>MIIDzTCCArWgAwIBAgIJAL7XxcPtzdxOMA0GCSqGSIb3DQEBCwUAMHwxCzAJBgNV
+BAYTAklOMRIwEAYDVQQIDAlLYXJuYXRha2ExEjAQBgNVBAcMCUJhbmdhbG9yZTEL
+MAkGA1UECgwCUVMxCzAJBgNVBAsMAklUMQ4wDAYDVQQDDAVVbWVzaDEbMBkGCSqG
+SIb3DQEJARYMdW1lc2hAcXMuY29tMCAXDTE4MDgxMTA0NDAxMloYDzIxMTgwNzE4
+MDQ0MDEyWjB8MQswCQYDVQQGEwJJTjESMBAGA1UECAwJS2FybmF0YWthMRIwEAYD
+VQQHDAlCYW5nYWxvcmUxCzAJBgNVBAoMAlFTMQswCQYDVQQLDAJJVDEOMAwGA1UE
+AwwFVW1lc2gxGzAZBgkqhkiG9w0BCQEWDHVtZXNoQHFzLmNvbTCCASIwDQYJKoZI
+hvcNAQEBBQADggEPADCCAQoCggEBAM9rvH2YtDFp2vJt0lgxd8FD4kRRh2LlWE9U
+C6e+F63vZroL+8ZC94D6lFNHa88zb+pJ7Xu99tSKSmWSlMRJ/AqYIf1sY2QMpmr6
+jFrYa8qGRe0fEG6QLyJavUuahqOVRgtFmSKk4aOlkxAIEPGv7rEnL0mTWd7Qsmef
+e2e4bvVyLxLOTHePKi2VMxaIeqPa9TMVVBGjBo24Bb0ZtMRzSfs2XlNp3V1zrPgh
+tDWdY4i+G9Nx0X5gYMC6mWUtV6LtQ2nT9OMizTyOvE7YGW3ctNLpwC3msurfBgoM
+L3i3otstmSn8KV9VcD05hGg4IIpzcKRMlllSDJWKy70RVTsn/F0CAwEAAaNQME4w
+HQYDVR0OBBYEFEKsH81v1onrMZ41+AFdb5TBxjJ0MB8GA1UdIwQYMBaAFEKsH81v
+1onrMZ41+AFdb5TBxjJ0MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEB
+ACZ1lhJEJ+TICzLWmuvkpw2zE3VZs7pgdH7lpmwUPNrb9D9dunhKOyg8GP6x77KW
+jMAIxitWTKyL1DpTdwzS/slyFKw00AZlVXBj0bwZ3KoYt2h1rxv95K7+p7CLHTEK
+MZmtw3fFsg+dm6EvNbyXpQO8YJ3hXJ+uVSiuy/bf3zCcY9EqgbjlP0Vr9OLq/sPn
+WmaUL4zI2ABDGCnRwXxfl4xAqBPyI+L4DbhOUg4KKLpapIJx6naS3Y6+iH5zNXP8
+OfBflFtjx6aIdjOqVT2uHLLGBGAGrbKjvW2I0zQjpKlDah5AOiLc8jknncglAtCF
+Rv0AZv5Q11+ZRFf0ptjDNog=
+</ns3:certificate>
+    </ns3:client-credentials-in-use>
+  </ns3:host>
+  <ns3:host>
+    <admin-email>umesh@qs.com</admin-email>
+    <r:apis-implemented>
+      <in2:institutions version="2.0.0">
+        <admin-email>umesh@qs.com</admin-email>
+        <in2:url>https://descartes01-ewp.moveon4.fr/v1/institution</in2:url>
+        <in2:max-hei-ids>10</in2:max-hei-ids>
+      </in2:institutions>
+      <ou2:organizational-units version="2.0.0">
+        <admin-email>umesh@qs.com</admin-email>
+        <ou2:url>https://descartes01-ewp.moveon4.fr/v1/ounit</ou2:url>
+        <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
+        <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
+      </ou2:organizational-units>
+    </r:apis-implemented>
+    <ns3:institutions-covered>
+      <r:hei id="descartes01">
+        <r:other-id type="erasmus">F  PARIS005</r:other-id>
+        <r:other-id type="euc">28144</r:other-id>
+        <r:other-id type="pic">999869793</r:other-id>
+        <r:name xml:lang="en">Universit? Paris Descartes</r:name>
       </r:hei>
     </ns3:institutions-covered>
     <ns3:client-credentials-in-use>
@@ -2129,6 +2246,51 @@ Rv0AZv5Q11+ZRFf0ptjDNog=
     <r:apis-implemented>
       <in2:institutions version="2.0.0">
         <admin-email>umesh@qs.com</admin-email>
+        <in2:url>https://tlse3-ewp.moveon4.fr/v1/institution</in2:url>
+        <in2:max-hei-ids>10</in2:max-hei-ids>
+      </in2:institutions>
+      <ou2:organizational-units version="2.0.0">
+        <admin-email>umesh@qs.com</admin-email>
+        <ou2:url>https://tlse3-ewp.moveon4.fr/v1/ounit</ou2:url>
+        <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
+        <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
+      </ou2:organizational-units>
+    </r:apis-implemented>
+    <ns3:institutions-covered>
+      <r:hei id="tlse3">
+        <r:name xml:lang="en">Universit? Paul Sabatier - Toulouse III</r:name>
+      </r:hei>
+    </ns3:institutions-covered>
+    <ns3:client-credentials-in-use>
+      <ns3:certificate>MIIDzTCCArWgAwIBAgIJAL7XxcPtzdxOMA0GCSqGSIb3DQEBCwUAMHwxCzAJBgNV
+BAYTAklOMRIwEAYDVQQIDAlLYXJuYXRha2ExEjAQBgNVBAcMCUJhbmdhbG9yZTEL
+MAkGA1UECgwCUVMxCzAJBgNVBAsMAklUMQ4wDAYDVQQDDAVVbWVzaDEbMBkGCSqG
+SIb3DQEJARYMdW1lc2hAcXMuY29tMCAXDTE4MDgxMTA0NDAxMloYDzIxMTgwNzE4
+MDQ0MDEyWjB8MQswCQYDVQQGEwJJTjESMBAGA1UECAwJS2FybmF0YWthMRIwEAYD
+VQQHDAlCYW5nYWxvcmUxCzAJBgNVBAoMAlFTMQswCQYDVQQLDAJJVDEOMAwGA1UE
+AwwFVW1lc2gxGzAZBgkqhkiG9w0BCQEWDHVtZXNoQHFzLmNvbTCCASIwDQYJKoZI
+hvcNAQEBBQADggEPADCCAQoCggEBAM9rvH2YtDFp2vJt0lgxd8FD4kRRh2LlWE9U
+C6e+F63vZroL+8ZC94D6lFNHa88zb+pJ7Xu99tSKSmWSlMRJ/AqYIf1sY2QMpmr6
+jFrYa8qGRe0fEG6QLyJavUuahqOVRgtFmSKk4aOlkxAIEPGv7rEnL0mTWd7Qsmef
+e2e4bvVyLxLOTHePKi2VMxaIeqPa9TMVVBGjBo24Bb0ZtMRzSfs2XlNp3V1zrPgh
+tDWdY4i+G9Nx0X5gYMC6mWUtV6LtQ2nT9OMizTyOvE7YGW3ctNLpwC3msurfBgoM
+L3i3otstmSn8KV9VcD05hGg4IIpzcKRMlllSDJWKy70RVTsn/F0CAwEAAaNQME4w
+HQYDVR0OBBYEFEKsH81v1onrMZ41+AFdb5TBxjJ0MB8GA1UdIwQYMBaAFEKsH81v
+1onrMZ41+AFdb5TBxjJ0MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEB
+ACZ1lhJEJ+TICzLWmuvkpw2zE3VZs7pgdH7lpmwUPNrb9D9dunhKOyg8GP6x77KW
+jMAIxitWTKyL1DpTdwzS/slyFKw00AZlVXBj0bwZ3KoYt2h1rxv95K7+p7CLHTEK
+MZmtw3fFsg+dm6EvNbyXpQO8YJ3hXJ+uVSiuy/bf3zCcY9EqgbjlP0Vr9OLq/sPn
+WmaUL4zI2ABDGCnRwXxfl4xAqBPyI+L4DbhOUg4KKLpapIJx6naS3Y6+iH5zNXP8
+OfBflFtjx6aIdjOqVT2uHLLGBGAGrbKjvW2I0zQjpKlDah5AOiLc8jknncglAtCF
+Rv0AZv5Q11+ZRFf0ptjDNog=
+</ns3:certificate>
+    </ns3:client-credentials-in-use>
+  </ns3:host>
+  <ns3:host>
+    <admin-email>umesh@qs.com</admin-email>
+    <r:apis-implemented>
+      <in2:institutions version="2.0.0">
+        <admin-email>umesh@qs.com</admin-email>
         <in2:url>https://ubx-ewp.moveon4.fr/v1/institution</in2:url>
         <in2:max-hei-ids>10</in2:max-hei-ids>
       </in2:institutions>
@@ -2192,6 +2354,51 @@ Rv0AZv5Q11+ZRFf0ptjDNog=
         <r:other-id type="euc">28677</r:other-id>
         <r:other-id type="pic">949204268</r:other-id>
         <r:name xml:lang="en">Universit? Catholique de Lille</r:name>
+      </r:hei>
+    </ns3:institutions-covered>
+    <ns3:client-credentials-in-use>
+      <ns3:certificate>MIIDzTCCArWgAwIBAgIJAL7XxcPtzdxOMA0GCSqGSIb3DQEBCwUAMHwxCzAJBgNV
+BAYTAklOMRIwEAYDVQQIDAlLYXJuYXRha2ExEjAQBgNVBAcMCUJhbmdhbG9yZTEL
+MAkGA1UECgwCUVMxCzAJBgNVBAsMAklUMQ4wDAYDVQQDDAVVbWVzaDEbMBkGCSqG
+SIb3DQEJARYMdW1lc2hAcXMuY29tMCAXDTE4MDgxMTA0NDAxMloYDzIxMTgwNzE4
+MDQ0MDEyWjB8MQswCQYDVQQGEwJJTjESMBAGA1UECAwJS2FybmF0YWthMRIwEAYD
+VQQHDAlCYW5nYWxvcmUxCzAJBgNVBAoMAlFTMQswCQYDVQQLDAJJVDEOMAwGA1UE
+AwwFVW1lc2gxGzAZBgkqhkiG9w0BCQEWDHVtZXNoQHFzLmNvbTCCASIwDQYJKoZI
+hvcNAQEBBQADggEPADCCAQoCggEBAM9rvH2YtDFp2vJt0lgxd8FD4kRRh2LlWE9U
+C6e+F63vZroL+8ZC94D6lFNHa88zb+pJ7Xu99tSKSmWSlMRJ/AqYIf1sY2QMpmr6
+jFrYa8qGRe0fEG6QLyJavUuahqOVRgtFmSKk4aOlkxAIEPGv7rEnL0mTWd7Qsmef
+e2e4bvVyLxLOTHePKi2VMxaIeqPa9TMVVBGjBo24Bb0ZtMRzSfs2XlNp3V1zrPgh
+tDWdY4i+G9Nx0X5gYMC6mWUtV6LtQ2nT9OMizTyOvE7YGW3ctNLpwC3msurfBgoM
+L3i3otstmSn8KV9VcD05hGg4IIpzcKRMlllSDJWKy70RVTsn/F0CAwEAAaNQME4w
+HQYDVR0OBBYEFEKsH81v1onrMZ41+AFdb5TBxjJ0MB8GA1UdIwQYMBaAFEKsH81v
+1onrMZ41+AFdb5TBxjJ0MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEB
+ACZ1lhJEJ+TICzLWmuvkpw2zE3VZs7pgdH7lpmwUPNrb9D9dunhKOyg8GP6x77KW
+jMAIxitWTKyL1DpTdwzS/slyFKw00AZlVXBj0bwZ3KoYt2h1rxv95K7+p7CLHTEK
+MZmtw3fFsg+dm6EvNbyXpQO8YJ3hXJ+uVSiuy/bf3zCcY9EqgbjlP0Vr9OLq/sPn
+WmaUL4zI2ABDGCnRwXxfl4xAqBPyI+L4DbhOUg4KKLpapIJx6naS3Y6+iH5zNXP8
+OfBflFtjx6aIdjOqVT2uHLLGBGAGrbKjvW2I0zQjpKlDah5AOiLc8jknncglAtCF
+Rv0AZv5Q11+ZRFf0ptjDNog=
+</ns3:certificate>
+    </ns3:client-credentials-in-use>
+  </ns3:host>
+  <ns3:host>
+    <admin-email>umesh@qs.com</admin-email>
+    <r:apis-implemented>
+      <in2:institutions version="2.0.0">
+        <admin-email>umesh@qs.com</admin-email>
+        <in2:url>https://uga-ewp.moveon4.fr/v1/institution</in2:url>
+        <in2:max-hei-ids>10</in2:max-hei-ids>
+      </in2:institutions>
+      <ou2:organizational-units version="2.0.0">
+        <admin-email>umesh@qs.com</admin-email>
+        <ou2:url>https://uga-ewp.moveon4.fr/v1/ounit</ou2:url>
+        <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
+        <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
+      </ou2:organizational-units>
+    </r:apis-implemented>
+    <ns3:institutions-covered>
+      <r:hei id="uga">
+        <r:name xml:lang="en">UGA - Universit? Grenoble Alpes</r:name>
       </r:hei>
     </ns3:institutions-covered>
     <ns3:client-credentials-in-use>
@@ -3838,6 +4045,51 @@ Rv0AZv5Q11+ZRFf0ptjDNog=
         <r:other-id type="euc">29323</r:other-id>
         <r:other-id type="pic">949241613</r:other-id>
         <r:name xml:lang="en">Yrkeshögskolan Arcada</r:name>
+      </r:hei>
+    </ns3:institutions-covered>
+    <ns3:client-credentials-in-use>
+      <ns3:certificate>MIIDzTCCArWgAwIBAgIJAL7XxcPtzdxOMA0GCSqGSIb3DQEBCwUAMHwxCzAJBgNV
+BAYTAklOMRIwEAYDVQQIDAlLYXJuYXRha2ExEjAQBgNVBAcMCUJhbmdhbG9yZTEL
+MAkGA1UECgwCUVMxCzAJBgNVBAsMAklUMQ4wDAYDVQQDDAVVbWVzaDEbMBkGCSqG
+SIb3DQEJARYMdW1lc2hAcXMuY29tMCAXDTE4MDgxMTA0NDAxMloYDzIxMTgwNzE4
+MDQ0MDEyWjB8MQswCQYDVQQGEwJJTjESMBAGA1UECAwJS2FybmF0YWthMRIwEAYD
+VQQHDAlCYW5nYWxvcmUxCzAJBgNVBAoMAlFTMQswCQYDVQQLDAJJVDEOMAwGA1UE
+AwwFVW1lc2gxGzAZBgkqhkiG9w0BCQEWDHVtZXNoQHFzLmNvbTCCASIwDQYJKoZI
+hvcNAQEBBQADggEPADCCAQoCggEBAM9rvH2YtDFp2vJt0lgxd8FD4kRRh2LlWE9U
+C6e+F63vZroL+8ZC94D6lFNHa88zb+pJ7Xu99tSKSmWSlMRJ/AqYIf1sY2QMpmr6
+jFrYa8qGRe0fEG6QLyJavUuahqOVRgtFmSKk4aOlkxAIEPGv7rEnL0mTWd7Qsmef
+e2e4bvVyLxLOTHePKi2VMxaIeqPa9TMVVBGjBo24Bb0ZtMRzSfs2XlNp3V1zrPgh
+tDWdY4i+G9Nx0X5gYMC6mWUtV6LtQ2nT9OMizTyOvE7YGW3ctNLpwC3msurfBgoM
+L3i3otstmSn8KV9VcD05hGg4IIpzcKRMlllSDJWKy70RVTsn/F0CAwEAAaNQME4w
+HQYDVR0OBBYEFEKsH81v1onrMZ41+AFdb5TBxjJ0MB8GA1UdIwQYMBaAFEKsH81v
+1onrMZ41+AFdb5TBxjJ0MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEB
+ACZ1lhJEJ+TICzLWmuvkpw2zE3VZs7pgdH7lpmwUPNrb9D9dunhKOyg8GP6x77KW
+jMAIxitWTKyL1DpTdwzS/slyFKw00AZlVXBj0bwZ3KoYt2h1rxv95K7+p7CLHTEK
+MZmtw3fFsg+dm6EvNbyXpQO8YJ3hXJ+uVSiuy/bf3zCcY9EqgbjlP0Vr9OLq/sPn
+WmaUL4zI2ABDGCnRwXxfl4xAqBPyI+L4DbhOUg4KKLpapIJx6naS3Y6+iH5zNXP8
+OfBflFtjx6aIdjOqVT2uHLLGBGAGrbKjvW2I0zQjpKlDah5AOiLc8jknncglAtCF
+Rv0AZv5Q11+ZRFf0ptjDNog=
+</ns3:certificate>
+    </ns3:client-credentials-in-use>
+  </ns3:host>
+  <ns3:host>
+    <admin-email>umesh@qs.com</admin-email>
+    <r:apis-implemented>
+      <in2:institutions version="2.0.0">
+        <admin-email>umesh@qs.com</admin-email>
+        <in2:url>https://akdn-ewp.moveon4.com/v1/institution</in2:url>
+        <in2:max-hei-ids>10</in2:max-hei-ids>
+      </in2:institutions>
+      <ou2:organizational-units version="2.0.0">
+        <admin-email>umesh@qs.com</admin-email>
+        <ou2:url>https://akdn-ewp.moveon4.com/v1/ounit</ou2:url>
+        <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
+        <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
+      </ou2:organizational-units>
+    </r:apis-implemented>
+    <ns3:institutions-covered>
+      <r:hei id="akdn">
+        <r:name xml:lang="en">Aga Khan Development Network</r:name>
       </r:hei>
     </ns3:institutions-covered>
     <ns3:client-credentials-in-use>
@@ -10842,6 +11094,54 @@ Rv0AZv5Q11+ZRFf0ptjDNog=
     <ns3:institutions-covered>
       <r:hei id="lehigh02">
         <r:name xml:lang="en">Lehigh University</r:name>
+      </r:hei>
+    </ns3:institutions-covered>
+    <ns3:client-credentials-in-use>
+      <ns3:certificate>MIIDzTCCArWgAwIBAgIJAL7XxcPtzdxOMA0GCSqGSIb3DQEBCwUAMHwxCzAJBgNV
+BAYTAklOMRIwEAYDVQQIDAlLYXJuYXRha2ExEjAQBgNVBAcMCUJhbmdhbG9yZTEL
+MAkGA1UECgwCUVMxCzAJBgNVBAsMAklUMQ4wDAYDVQQDDAVVbWVzaDEbMBkGCSqG
+SIb3DQEJARYMdW1lc2hAcXMuY29tMCAXDTE4MDgxMTA0NDAxMloYDzIxMTgwNzE4
+MDQ0MDEyWjB8MQswCQYDVQQGEwJJTjESMBAGA1UECAwJS2FybmF0YWthMRIwEAYD
+VQQHDAlCYW5nYWxvcmUxCzAJBgNVBAoMAlFTMQswCQYDVQQLDAJJVDEOMAwGA1UE
+AwwFVW1lc2gxGzAZBgkqhkiG9w0BCQEWDHVtZXNoQHFzLmNvbTCCASIwDQYJKoZI
+hvcNAQEBBQADggEPADCCAQoCggEBAM9rvH2YtDFp2vJt0lgxd8FD4kRRh2LlWE9U
+C6e+F63vZroL+8ZC94D6lFNHa88zb+pJ7Xu99tSKSmWSlMRJ/AqYIf1sY2QMpmr6
+jFrYa8qGRe0fEG6QLyJavUuahqOVRgtFmSKk4aOlkxAIEPGv7rEnL0mTWd7Qsmef
+e2e4bvVyLxLOTHePKi2VMxaIeqPa9TMVVBGjBo24Bb0ZtMRzSfs2XlNp3V1zrPgh
+tDWdY4i+G9Nx0X5gYMC6mWUtV6LtQ2nT9OMizTyOvE7YGW3ctNLpwC3msurfBgoM
+L3i3otstmSn8KV9VcD05hGg4IIpzcKRMlllSDJWKy70RVTsn/F0CAwEAAaNQME4w
+HQYDVR0OBBYEFEKsH81v1onrMZ41+AFdb5TBxjJ0MB8GA1UdIwQYMBaAFEKsH81v
+1onrMZ41+AFdb5TBxjJ0MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEB
+ACZ1lhJEJ+TICzLWmuvkpw2zE3VZs7pgdH7lpmwUPNrb9D9dunhKOyg8GP6x77KW
+jMAIxitWTKyL1DpTdwzS/slyFKw00AZlVXBj0bwZ3KoYt2h1rxv95K7+p7CLHTEK
+MZmtw3fFsg+dm6EvNbyXpQO8YJ3hXJ+uVSiuy/bf3zCcY9EqgbjlP0Vr9OLq/sPn
+WmaUL4zI2ABDGCnRwXxfl4xAqBPyI+L4DbhOUg4KKLpapIJx6naS3Y6+iH5zNXP8
+OfBflFtjx6aIdjOqVT2uHLLGBGAGrbKjvW2I0zQjpKlDah5AOiLc8jknncglAtCF
+Rv0AZv5Q11+ZRFf0ptjDNog=
+</ns3:certificate>
+    </ns3:client-credentials-in-use>
+  </ns3:host>
+  <ns3:host>
+    <admin-email>umesh@qs.com</admin-email>
+    <r:apis-implemented>
+      <in2:institutions version="2.0.0">
+        <admin-email>umesh@qs.com</admin-email>
+        <in2:url>https://paris13-ewp.moveon4.fr/v1/institution</in2:url>
+        <in2:max-hei-ids>10</in2:max-hei-ids>
+      </in2:institutions>
+      <ou2:organizational-units version="2.0.0">
+        <admin-email>umesh@qs.com</admin-email>
+        <ou2:url>https://paris13-ewp.moveon4.fr/v1/ounit</ou2:url>
+        <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
+        <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
+      </ou2:organizational-units>
+    </r:apis-implemented>
+    <ns3:institutions-covered>
+      <r:hei id="paris13">
+        <r:other-id type="erasmus">F  PARIS013</r:other-id>
+        <r:other-id type="euc">28176</r:other-id>
+        <r:other-id type="pic">999489941</r:other-id>
+        <r:name xml:lang="en">Universit? Paris 13</r:name>
       </r:hei>
     </ns3:institutions-covered>
     <ns3:client-credentials-in-use>
