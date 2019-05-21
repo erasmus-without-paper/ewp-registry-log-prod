@@ -93,11 +93,11 @@
             <fake-api-without-a-version xmlns="https://github.com/erasmus-without-paper/ewp-registry-service/issues/8"/>
         </apis-implemented>
         <client-credentials-in-use>
-            <certificate sha-256="d7d133d9740c534d90c29cd7de4f77425102f7389ed874f9e87613948594fd52"/>
-            <rsa-public-key sha-256="f1fc2d95702f44524c17164238bc5af1b5a61681355755f38e3db7ecb8994cf1"/>
+            <certificate sha-256="8ef6f1a70867e1ef7252ad487a8fb7c87b8b95df084903311af77d69e78ad9eb"/>
+            <rsa-public-key sha-256="21eecf05442abb40d3116c5c95a838a65eb82e0d8560fb75813e237051063f07"/>
         </client-credentials-in-use>
         <server-credentials-in-use>
-            <rsa-public-key sha-256="1afde03e7e400fca9d2fd1a852e0b0d5e1658de8050c65c39fa741137c6f8080"/>
+            <rsa-public-key sha-256="aa6b9af9bb42eb3d7e1a87116b1e8d1f3c680c49162173e6def6e6c92eb19c01"/>
         </server-credentials-in-use>
     </host>
     <host>
@@ -1502,11 +1502,11 @@
                 <ia2:max-iia-codes>1</ia2:max-iia-codes>
                 <ia2:index-url>https://fsws.usit.no/ewp/iias/index</ia2:index-url>
             </ia2:iias>
-            <c1:courses
-                xmlns:c1="https://github.com/erasmus-without-paper/ewp-specs-api-courses/blob/stable-v1/manifest-entry.xsd"
+            <co1:courses
+                xmlns:co1="https://github.com/erasmus-without-paper/ewp-specs-api-courses/blob/stable-v1/manifest-entry.xsd"
                 version="0.7.0"
             >
-                <c1:http-security>
+                <co1:http-security>
                     <sec:client-auth-methods>
                         <sec-A2:httpsig/>
                     </sec:client-auth-methods>
@@ -1514,11 +1514,11 @@
                         <sec-B1:tlscert/>
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
-                </c1:http-security>
-                <c1:url>https://fsws.usit.no/ewp/courses</c1:url>
-                <c1:max-los-ids>1</c1:max-los-ids>
-                <c1:max-los-codes>1</c1:max-los-codes>
-            </c1:courses>
+                </co1:http-security>
+                <co1:url>https://fsws.usit.no/ewp/courses</co1:url>
+                <co1:max-los-ids>1</co1:max-los-ids>
+                <co1:max-los-codes>1</co1:max-los-codes>
+            </co1:courses>
             <cr1:simple-course-replication
                 xmlns:cr1="https://github.com/erasmus-without-paper/ewp-specs-api-course-replication/blob/stable-v1/manifest-entry.xsd"
                 version="1.0.0"
@@ -1702,11 +1702,11 @@
                 <omc1:url>https://ewp.uw.edu.pl/ewp/omobilities/cnr</omc1:url>
                 <omc1:max-omobility-ids>100</omc1:max-omobility-ids>
             </omc1:omobility-cnr>
-            <c1:courses
-                xmlns:c1="https://github.com/erasmus-without-paper/ewp-specs-api-courses/blob/stable-v1/manifest-entry.xsd"
+            <co1:courses
+                xmlns:co1="https://github.com/erasmus-without-paper/ewp-specs-api-courses/blob/stable-v1/manifest-entry.xsd"
                 version="0.7.0"
             >
-                <c1:http-security>
+                <co1:http-security>
                     <sec:client-auth-methods>
                         <sec-A1:tlscert allows-self-signed="true"/>
                         <sec-A2:httpsig/>
@@ -1715,11 +1715,11 @@
                         <sec-B1:tlscert/>
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
-                </c1:http-security>
-                <c1:url>https://ewp.uw.edu.pl/ewp/courses</c1:url>
-                <c1:max-los-ids>100</c1:max-los-ids>
-                <c1:max-los-codes>100</c1:max-los-codes>
-            </c1:courses>
+                </co1:http-security>
+                <co1:url>https://ewp.uw.edu.pl/ewp/courses</co1:url>
+                <co1:max-los-ids>100</co1:max-los-ids>
+                <co1:max-los-codes>100</co1:max-los-codes>
+            </co1:courses>
             <imt1:imobility-tors
                 xmlns:imt1="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-tors/blob/stable-v1/manifest-entry.xsd"
                 version="0.7.0"
@@ -8741,14 +8741,6 @@
             Q4sf/Si5Z6OHekjk4WlqPbd5pR1M3bSzgbn5X+Rd86laFb2xDdekrUATbkf2o1Ve8DEsIsEwpqYV
             uf3+bwIDAQAB
         </rsa-public-key>
-        <rsa-public-key sha-256="1afde03e7e400fca9d2fd1a852e0b0d5e1658de8050c65c39fa741137c6f8080">
-            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAy8DjBK5a6CeduDlcbyrTUBsDR3yWTe+o
-            IpL4cpkSiK8hw1JHKeGZ3iRGZW/lEdgljua3vv6Z9FaRpsBtS3LvoBqdxA1ql4R/wX1UicrZYNCm
-            zUMfYN4kis5+se+61d0AEcwgoXoVkpBAJaSQ0eMHWGDuAiV9JwCA4ydFBmM3JcCRrSpk3Zy3eckG
-            GhzXqfXGUkWiNFJe+RgUikosAoZsnhD7WqaRWPxAAhSBKJY4qnKiOnq9q+F3x5gCsAnzdzcitpPL
-            Odwqbpj7ZL8ibXuLIaXlx7dAC3a4X5h0IUaUa93vloyXclgXmO9fCMgkA0Q/IhORzsfb7awe9fT/
-            etEC0wIDAQAB
-        </rsa-public-key>
         <rsa-public-key sha-256="1ee31546b02ed338702a9753576e427774f4c0eebcd81c7f021853f14378b61b">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA79IZTc6wlux9vMRopgcqe1DEZT5hETxU
             UmCdtAjWzvEmeru3LkD5D9hErRgV8r+SmIysUCgs/aJxP5L785aKFL9qCms9vpLElZLwv09jHrE4
@@ -8756,6 +8748,14 @@
             +Aw7GT5B6HbOKQo1CrrNSX2Jvey+SpIISVRQ6K8br2Re6pJcNFjjAPJE0vdxmGyQbAqgs/OpE8TB
             U8Z15AVLN78r9VoElYExFbwFaxfN8em9Txoc4kRrjX77hT/ldUCK3CCCSAjaxVdtjq1dDDeuT+4c
             xk1egwIDAQAB
+        </rsa-public-key>
+        <rsa-public-key sha-256="21eecf05442abb40d3116c5c95a838a65eb82e0d8560fb75813e237051063f07">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkO3sn5D+XFOuYSBZ1Tfq9kp1mhqxDxss
+            gLlve2gGuZVhLYmVtrQF8Kop18sCsZ2gGHnA8B0SD/P4x9ptuk/qZBGZwEYMRtshE4CjPKM97OJW
+            SH7eprn8apyYeBbRLbhPl/CSzx0afzWPNcDTHbPhVVu8KdesDqbAvbYG4OBzS9Ecnw62y6WeEGhO
+            iae/3GsgbzLWnzOcWLmgS5ZAI2/mfdVu2whLcepEnLZpUiJYUJ/1tBvhkfmFM+dZloOqhWhqbwQn
+            CtMIKdH4kdhJt7s8mLLZWWkX+kK+ckXUqzDiWPvbdgwIcSO4RIDwcIrN7C7zqXtoB/caVEc0bw9n
+            ueMqZQIDAQAB
         </rsa-public-key>
         <rsa-public-key sha-256="22d0ef3bae0bfa8f5efb61e3c6d6348b1926fde691c0dc54b45207e978cc557b">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApSw+mcJ17WZ3F8Wv7HT+D5CyMp7jts/3
@@ -8897,6 +8897,14 @@
             m8Sq5P4JLeDdTs4MgmSSRuKT6JDa1Mw79fuqDlgyZLnM6FU3+6oXl1cTk6SD1Fcwhc1/72XQK90E
             5csqNwIDAQAB
         </rsa-public-key>
+        <rsa-public-key sha-256="aa6b9af9bb42eb3d7e1a87116b1e8d1f3c680c49162173e6def6e6c92eb19c01">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAixF/8tdpt0iuDYRNwynqtH4LAshJCpji
+            aNQ9MHhYHxbRXP02RDAkUOPaoVFGWUNYW9HYhsu2n+AmY7baxB6zYRreTJH/FMY+9AYzDR7LFJaW
+            jEJbfCA/Mu33tiUt6hLt3wz593Tz7+F89g4Brs7GLDfCJwHxjsb1pEkyZx6NGj5EC/msynYHFXTV
+            50w7IElAhH5ty6CnI03Z3wDGvdSqvRjsMfN7Dqq48EAnXHk8kLGXWwDad57JwU86hjBjtCrQKDYC
+            JqTwUl/Jr/Bv1TJQZtV1H3WeHWxDgK23AU3j/R6jJzKvIFqSbQ07ofpa4TFoXxP7pvfTRm2xnz+E
+            g6JvOwIDAQAB
+        </rsa-public-key>
         <rsa-public-key sha-256="b22125ec7cee1efcdea49ba8e8a5c97e0a002d92659b817e608f939091752e36">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3zeBU0cZP2mZltN3Q0X5Z1ecL5/1OE+q
             9HRToulaRRlSdGDR5p71LQJezHGrvJXD4DtwJ2oAXMIT0tcjJQFsZAf8QLCZZRqpQGiyAOU5F5m/
@@ -8976,14 +8984,6 @@
             stmj/SjGF5oEcB7/jIUdwHx6inEF4fH4WC27pJ5LRGC6FVN1OVaWIqo99o2MDQOs9ZSWtWGiX4Xm
             fnr82UcublUPpvdLDQrk7iwZ8n6xxv33j5rXIGUUv/iDpme1ufIlnjhlTNURxGQebN9je3sc0Uzv
             LQi5KwIDAQAB
-        </rsa-public-key>
-        <rsa-public-key sha-256="f1fc2d95702f44524c17164238bc5af1b5a61681355755f38e3db7ecb8994cf1">
-            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwQ2Tw27TXzyRNUQzieU4sgNZ6ctI6adm
-            Y71pujTR07Sx37yQyvJrqcXpPe/vYhPB1AMMJLR8X3lKY8VvNw+6ezHXzbGS02/4GLyXg7lflI15
-            gUZYAm8hGqjz+PdfdQ8WXsaEkcilYRcOGe0Xn//mAFQiVwsoDzHsuY67kA+l/30CaK7rBGBk9Re1
-            t1VB8iP7PyEPAMy++BWsctAUXxNnFgHGkf+HAx3aT7xGz6sBBC21Ba7U5WEAZAPGjecbRJcrAPFa
-            /A4w4/7wR1+CXLjic7uC4TlDnZS9p0pli9gogr4S2GDgTrgdWIpsu71lgbLL9g4qCKsVRyXnzjxK
-            K5PFYwIDAQAB
         </rsa-public-key>
         <rsa-public-key sha-256="f40a5866a18e09dbc56ee5307b9b2c756dc4f2f802d52b007412893dcdd3ca23">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuhpFjSH/H2pMruv7fyVM/l65GShPQ+Ox
