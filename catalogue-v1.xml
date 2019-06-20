@@ -2378,11 +2378,9 @@
             <hei-id>merge1kp-ewp.moveon4.de</hei-id>
             <hei-id>upem-ewp.moveonfr.com</hei-id>
             <hei-id>ucsj-ewp.moveon4.com</hei-id>
-            <hei-id>ref11-ewp.moveon4.com</hei-id>
             <hei-id>malmo-ewp.moveon4.de</hei-id>
             <hei-id>hh-ewp.moveon4.com</hei-id>
             <hei-id>ref-ewp.moveon4.com</hei-id>
-            <hei-id>irmref11-ewp.moveon4.com</hei-id>
             <hei-id>ucc-ewp.moveon4.com</hei-id>
             <hei-id>montevideo01-ewp.moveon4.com</hei-id>
             <hei-id>studialis-ewp.moveon4.com</hei-id>
@@ -8772,28 +8770,6 @@
         <apis-implemented>
             <in2:institutions version="2.0.0">
                 <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <in2:url>https://ref11-ewp.moveon4.com/v1/institution</in2:url>
-                <in2:max-hei-ids>10</in2:max-hei-ids>
-            </in2:institutions>
-            <ou2:organizational-units version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <ou2:url>https://ref11-ewp.moveon4.com/v1/ounit</ou2:url>
-                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
-                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
-            </ou2:organizational-units>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>ref11-ewp.moveon4.com</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <certificate sha-256="778d5f8c0ed991f125a1542ad0f60ea0986ed868bd6082186831c96f0ff8bb6f"/>
-        </client-credentials-in-use>
-    </host>
-    <host>
-        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-        <apis-implemented>
-            <in2:institutions version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
                 <in2:url>https://malmo01-ewp.moveon4.de/v1/institution</in2:url>
                 <in2:max-hei-ids>10</in2:max-hei-ids>
             </in2:institutions>
@@ -8850,28 +8826,6 @@
         </apis-implemented>
         <institutions-covered>
             <hei-id>ref-ewp.moveon4.com</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <certificate sha-256="778d5f8c0ed991f125a1542ad0f60ea0986ed868bd6082186831c96f0ff8bb6f"/>
-        </client-credentials-in-use>
-    </host>
-    <host>
-        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-        <apis-implemented>
-            <in2:institutions version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <in2:url>https://irmref11-ewp.moveon4.com/v1/institution</in2:url>
-                <in2:max-hei-ids>10</in2:max-hei-ids>
-            </in2:institutions>
-            <ou2:organizational-units version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <ou2:url>https://irmref11-ewp.moveon4.com/v1/ounit</ou2:url>
-                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
-                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
-            </ou2:organizational-units>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>irmref11-ewp.moveon4.com</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="778d5f8c0ed991f125a1542ad0f60ea0986ed868bd6082186831c96f0ff8bb6f"/>
@@ -9703,12 +9657,6 @@
             <other-id type="pic">972374658</other-id>
             <name xml:lang="en">Instituto Polit?cnico de Coimbra</name>
         </hei>
-        <hei id="irmref11-ewp.moveon4.com">
-            <other-id type="erasmus">LUXLUX-VIL01</other-id>
-            <other-id type="euc">240779</other-id>
-            <other-id type="pic">999878620</other-id>
-            <name xml:lang="en">Universit? du Luxembourg</name>
-        </hei>
         <hei id="isep-ewp.moveonfr.com">
             <name xml:lang="en">ISEP</name>
         </hei>
@@ -10039,12 +9987,6 @@
             <other-id type="euc">240779</other-id>
             <other-id type="pic">999878620</other-id>
             <name xml:lang="en">Université du Luxembourg</name>
-        </hei>
-        <hei id="ref11-ewp.moveon4.com">
-            <other-id type="erasmus">LUXLUX-VIL01</other-id>
-            <other-id type="euc">240779</other-id>
-            <other-id type="pic">999878620</other-id>
-            <name xml:lang="en">Universit? du Luxembourg</name>
         </hei>
         <hei id="rgu-ewp.moveon4.com">
             <name xml:lang="en">The Robert Gordon University</name>
