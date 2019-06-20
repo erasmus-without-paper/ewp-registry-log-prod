@@ -2148,29 +2148,19 @@
             <hei-id>arizona-ewp.moveonca.com</hei-id>
             <hei-id>auburn-ewp.moveonca.com</hei-id>
             <hei-id>berkeley-ewp.moveonca.com</hei-id>
-            <hei-id>dal-ewp.moveonca.com</hei-id>
             <hei-id>duke-ewp.moveonca.com</hei-id>
-            <hei-id>etsmtl-ewp.moveonca.com</hei-id>
             <hei-id>gwu-ewp.moveonca.com</hei-id>
-            <hei-id>laval-ewp.moveonca.com</hei-id>
-            <hei-id>laval10-ewp.moveonca.com</hei-id>
             <hei-id>lehigh-ewp.moveonca.com</hei-id>
-            <hei-id>macewan-ewp.moveonca.com</hei-id>
             <hei-id>montana-ewp.moveonca.com</hei-id>
             <hei-id>ohio-ewp.moveonca.com</hei-id>
-            <hei-id>polymtl-ewp.moveonca.com</hei-id>
             <hei-id>ref05clv23-ewp.moveonca.com</hei-id>
             <hei-id>ref05clv24-ewp.moveonca.com</hei-id>
-            <hei-id>ryerson-ewp.moveonca.com</hei-id>
-            <hei-id>senecaco-ewp.moveonca.com</hei-id>
-            <hei-id>sfu-ewp.moveonca.com</hei-id>
             <hei-id>udes-ewp.moveonca.com</hei-id>
             <hei-id>txstate-ewp.moveonca.com</hei-id>
             <hei-id>ucalgary-ewp.moveonca.com</hei-id>
             <hei-id>ucdavis-ewp.moveonca.com</hei-id>
             <hei-id>ucsd1-ewp.moveonca.com</hei-id>
             <hei-id>umanitoba-ewp.moveonca.com</hei-id>
-            <hei-id>udes-ewp.moveonca.com</hei-id>
             <hei-id>ufvabroad-ewp.moveonca.com</hei-id>
             <hei-id>umanitoba03-ewp.moveonca.com</hei-id>
             <hei-id>umanitoba04-ewp.moveonca.com</hei-id>
@@ -2180,8 +2170,6 @@
             <hei-id>upc-ewp.moveonca.com</hei-id>
             <hei-id>uofs-ewp.moveonca.com</hei-id>
             <hei-id>upcalima-ewp.moveonca.com</hei-id>
-            <hei-id>uqac-ewp.moveonca.com</hei-id>
-            <hei-id>uqtr-ewp.moveonca.com</hei-id>
             <hei-id>utmiec-ewp.moveonca.com</hei-id>
             <hei-id>uwm-ewp.moveonca.com</hei-id>
             <hei-id>aalto-ewp.moveon4.com</hei-id>
@@ -2406,7 +2394,6 @@
             <hei-id>wuerzburg-ewp.moveon4.de</hei-id>
             <hei-id>wwum-ewp.moveon4.de</hei-id>
             <hei-id>zwickau-ewp.moveon4.de</hei-id>
-            <hei-id>umontreal-ewp.moveonca.com</hei-id>
             <hei-id>rwthaachen01-ewp.moveon4.de</hei-id>
             <hei-id>slu01-ewp.moveon4.de</hei-id>
             <hei-id>bpc-ewp.moveonfr.com</hei-id>
@@ -2421,7 +2408,6 @@
             <hei-id>ucsj-ewp.moveon4.com</hei-id>
             <hei-id>ref11-ewp.moveon4.com</hei-id>
             <hei-id>malmo-ewp.moveon4.de</hei-id>
-            <hei-id>umontreal01-ewp.moveonca.com</hei-id>
             <hei-id>hh-ewp.moveon4.com</hei-id>
             <hei-id>ref-ewp.moveon4.com</hei-id>
             <hei-id>irmref11-ewp.moveon4.com</hei-id>
@@ -3724,28 +3710,6 @@
         <apis-implemented>
             <in2:institutions version="2.0.0">
                 <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <in2:url>https://dal-ewp.moveon4.ca/v1/institution</in2:url>
-                <in2:max-hei-ids>10</in2:max-hei-ids>
-            </in2:institutions>
-            <ou2:organizational-units version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <ou2:url>https://dal-ewp.moveon4.ca/v1/ounit</ou2:url>
-                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
-                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
-            </ou2:organizational-units>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>dal-ewp.moveonca.com</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <certificate sha-256="778d5f8c0ed991f125a1542ad0f60ea0986ed868bd6082186831c96f0ff8bb6f"/>
-        </client-credentials-in-use>
-    </host>
-    <host>
-        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-        <apis-implemented>
-            <in2:institutions version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
                 <in2:url>https://duke-ewp.moveon4.ca/v1/institution</in2:url>
                 <in2:max-hei-ids>10</in2:max-hei-ids>
             </in2:institutions>
@@ -3758,28 +3722,6 @@
         </apis-implemented>
         <institutions-covered>
             <hei-id>duke-ewp.moveonca.com</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <certificate sha-256="778d5f8c0ed991f125a1542ad0f60ea0986ed868bd6082186831c96f0ff8bb6f"/>
-        </client-credentials-in-use>
-    </host>
-    <host>
-        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-        <apis-implemented>
-            <in2:institutions version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <in2:url>https://etsmtl-ewp.moveon4.ca/v1/institution</in2:url>
-                <in2:max-hei-ids>10</in2:max-hei-ids>
-            </in2:institutions>
-            <ou2:organizational-units version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <ou2:url>https://etsmtl-ewp.moveon4.ca/v1/ounit</ou2:url>
-                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
-                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
-            </ou2:organizational-units>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>etsmtl-ewp.moveonca.com</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="778d5f8c0ed991f125a1542ad0f60ea0986ed868bd6082186831c96f0ff8bb6f"/>
@@ -3812,50 +3754,6 @@
         <apis-implemented>
             <in2:institutions version="2.0.0">
                 <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <in2:url>https://laval-ewp.moveon4.ca/v1/institution</in2:url>
-                <in2:max-hei-ids>10</in2:max-hei-ids>
-            </in2:institutions>
-            <ou2:organizational-units version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <ou2:url>https://laval-ewp.moveon4.ca/v1/ounit</ou2:url>
-                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
-                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
-            </ou2:organizational-units>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>laval-ewp.moveonca.com</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <certificate sha-256="778d5f8c0ed991f125a1542ad0f60ea0986ed868bd6082186831c96f0ff8bb6f"/>
-        </client-credentials-in-use>
-    </host>
-    <host>
-        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-        <apis-implemented>
-            <in2:institutions version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <in2:url>https://laval10-ewp.moveon4.ca/v1/institution</in2:url>
-                <in2:max-hei-ids>10</in2:max-hei-ids>
-            </in2:institutions>
-            <ou2:organizational-units version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <ou2:url>https://laval10-ewp.moveon4.ca/v1/ounit</ou2:url>
-                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
-                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
-            </ou2:organizational-units>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>laval10-ewp.moveonca.com</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <certificate sha-256="778d5f8c0ed991f125a1542ad0f60ea0986ed868bd6082186831c96f0ff8bb6f"/>
-        </client-credentials-in-use>
-    </host>
-    <host>
-        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-        <apis-implemented>
-            <in2:institutions version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
                 <in2:url>https://lehigh-ewp.moveon4.ca/v1/institution</in2:url>
                 <in2:max-hei-ids>10</in2:max-hei-ids>
             </in2:institutions>
@@ -3868,28 +3766,6 @@
         </apis-implemented>
         <institutions-covered>
             <hei-id>lehigh-ewp.moveonca.com</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <certificate sha-256="778d5f8c0ed991f125a1542ad0f60ea0986ed868bd6082186831c96f0ff8bb6f"/>
-        </client-credentials-in-use>
-    </host>
-    <host>
-        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-        <apis-implemented>
-            <in2:institutions version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <in2:url>https://macewan-ewp.moveon4.ca/v1/institution</in2:url>
-                <in2:max-hei-ids>10</in2:max-hei-ids>
-            </in2:institutions>
-            <ou2:organizational-units version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <ou2:url>https://macewan-ewp.moveon4.ca/v1/ounit</ou2:url>
-                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
-                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
-            </ou2:organizational-units>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>macewan-ewp.moveonca.com</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="778d5f8c0ed991f125a1542ad0f60ea0986ed868bd6082186831c96f0ff8bb6f"/>
@@ -3944,28 +3820,6 @@
         <apis-implemented>
             <in2:institutions version="2.0.0">
                 <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <in2:url>https://polymtl-ewp.moveon4.ca/v1/institution</in2:url>
-                <in2:max-hei-ids>10</in2:max-hei-ids>
-            </in2:institutions>
-            <ou2:organizational-units version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <ou2:url>https://polymtl-ewp.moveon4.ca/v1/ounit</ou2:url>
-                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
-                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
-            </ou2:organizational-units>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>polymtl-ewp.moveonca.com</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <certificate sha-256="778d5f8c0ed991f125a1542ad0f60ea0986ed868bd6082186831c96f0ff8bb6f"/>
-        </client-credentials-in-use>
-    </host>
-    <host>
-        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-        <apis-implemented>
-            <in2:institutions version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
                 <in2:url>https://ref05clv23-ewp.moveon4.ca/v1/institution</in2:url>
                 <in2:max-hei-ids>10</in2:max-hei-ids>
             </in2:institutions>
@@ -4000,72 +3854,6 @@
         </apis-implemented>
         <institutions-covered>
             <hei-id>ref05clv24-ewp.moveonca.com</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <certificate sha-256="778d5f8c0ed991f125a1542ad0f60ea0986ed868bd6082186831c96f0ff8bb6f"/>
-        </client-credentials-in-use>
-    </host>
-    <host>
-        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-        <apis-implemented>
-            <in2:institutions version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <in2:url>https://ryerson-ewp.moveon4.ca/v1/institution</in2:url>
-                <in2:max-hei-ids>10</in2:max-hei-ids>
-            </in2:institutions>
-            <ou2:organizational-units version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <ou2:url>https://ryerson-ewp.moveon4.ca/v1/ounit</ou2:url>
-                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
-                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
-            </ou2:organizational-units>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>ryerson-ewp.moveonca.com</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <certificate sha-256="778d5f8c0ed991f125a1542ad0f60ea0986ed868bd6082186831c96f0ff8bb6f"/>
-        </client-credentials-in-use>
-    </host>
-    <host>
-        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-        <apis-implemented>
-            <in2:institutions version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <in2:url>https://senecaco-ewp.moveon4.ca/v1/institution</in2:url>
-                <in2:max-hei-ids>10</in2:max-hei-ids>
-            </in2:institutions>
-            <ou2:organizational-units version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <ou2:url>https://senecaco-ewp.moveon4.ca/v1/ounit</ou2:url>
-                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
-                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
-            </ou2:organizational-units>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>senecaco-ewp.moveonca.com</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <certificate sha-256="778d5f8c0ed991f125a1542ad0f60ea0986ed868bd6082186831c96f0ff8bb6f"/>
-        </client-credentials-in-use>
-    </host>
-    <host>
-        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-        <apis-implemented>
-            <in2:institutions version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <in2:url>https://sfu-ewp.moveon4.ca/v1/institution</in2:url>
-                <in2:max-hei-ids>10</in2:max-hei-ids>
-            </in2:institutions>
-            <ou2:organizational-units version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <ou2:url>https://sfu-ewp.moveon4.ca/v1/ounit</ou2:url>
-                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
-                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
-            </ou2:organizational-units>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>sfu-ewp.moveonca.com</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="778d5f8c0ed991f125a1542ad0f60ea0986ed868bd6082186831c96f0ff8bb6f"/>
@@ -4198,28 +3986,6 @@
         </apis-implemented>
         <institutions-covered>
             <hei-id>umanitoba-ewp.moveonca.com</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <certificate sha-256="778d5f8c0ed991f125a1542ad0f60ea0986ed868bd6082186831c96f0ff8bb6f"/>
-        </client-credentials-in-use>
-    </host>
-    <host>
-        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-        <apis-implemented>
-            <in2:institutions version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <in2:url>https://udes-ewp.moveon4.ca/v1/institution</in2:url>
-                <in2:max-hei-ids>10</in2:max-hei-ids>
-            </in2:institutions>
-            <ou2:organizational-units version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <ou2:url>https://udes-ewp.moveon4.ca/v1/ounit</ou2:url>
-                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
-                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
-            </ou2:organizational-units>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>udes-ewp.moveonca.com</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="778d5f8c0ed991f125a1542ad0f60ea0986ed868bd6082186831c96f0ff8bb6f"/>
@@ -4418,50 +4184,6 @@
         </apis-implemented>
         <institutions-covered>
             <hei-id>upcalima-ewp.moveonca.com</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <certificate sha-256="778d5f8c0ed991f125a1542ad0f60ea0986ed868bd6082186831c96f0ff8bb6f"/>
-        </client-credentials-in-use>
-    </host>
-    <host>
-        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-        <apis-implemented>
-            <in2:institutions version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <in2:url>https://uqac-ewp.moveon4.ca/v1/institution</in2:url>
-                <in2:max-hei-ids>10</in2:max-hei-ids>
-            </in2:institutions>
-            <ou2:organizational-units version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <ou2:url>https://uqac-ewp.moveon4.ca/v1/ounit</ou2:url>
-                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
-                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
-            </ou2:organizational-units>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>uqac-ewp.moveonca.com</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <certificate sha-256="778d5f8c0ed991f125a1542ad0f60ea0986ed868bd6082186831c96f0ff8bb6f"/>
-        </client-credentials-in-use>
-    </host>
-    <host>
-        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-        <apis-implemented>
-            <in2:institutions version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <in2:url>https://uqtr-ewp.moveon4.ca/v1/institution</in2:url>
-                <in2:max-hei-ids>10</in2:max-hei-ids>
-            </in2:institutions>
-            <ou2:organizational-units version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <ou2:url>https://uqtr-ewp.moveon4.ca/v1/ounit</ou2:url>
-                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
-                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
-            </ou2:organizational-units>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>uqtr-ewp.moveonca.com</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="778d5f8c0ed991f125a1542ad0f60ea0986ed868bd6082186831c96f0ff8bb6f"/>
@@ -9438,28 +9160,6 @@
         <apis-implemented>
             <in2:institutions version="2.0.0">
                 <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <in2:url>https://umontreal-ewp.moveon4.ca/v1/institution</in2:url>
-                <in2:max-hei-ids>10</in2:max-hei-ids>
-            </in2:institutions>
-            <ou2:organizational-units version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <ou2:url>https://umontreal-ewp.moveon4.ca/v1/ounit</ou2:url>
-                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
-                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
-            </ou2:organizational-units>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>umontreal-ewp.moveonca.com</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <certificate sha-256="778d5f8c0ed991f125a1542ad0f60ea0986ed868bd6082186831c96f0ff8bb6f"/>
-        </client-credentials-in-use>
-    </host>
-    <host>
-        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-        <apis-implemented>
-            <in2:institutions version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
                 <in2:url>https://rwthaachen01-ewp.moveon4.de/v1/institution</in2:url>
                 <in2:max-hei-ids>10</in2:max-hei-ids>
             </in2:institutions>
@@ -9758,28 +9458,6 @@
         </apis-implemented>
         <institutions-covered>
             <hei-id>malmo-ewp.moveon4.de</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <certificate sha-256="778d5f8c0ed991f125a1542ad0f60ea0986ed868bd6082186831c96f0ff8bb6f"/>
-        </client-credentials-in-use>
-    </host>
-    <host>
-        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-        <apis-implemented>
-            <in2:institutions version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <in2:url>https://umontreal01-ewp.moveon4.ca/v1/institution</in2:url>
-                <in2:max-hei-ids>10</in2:max-hei-ids>
-            </in2:institutions>
-            <ou2:organizational-units version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <ou2:url>https://umontreal01-ewp.moveon4.ca/v1/ounit</ou2:url>
-                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
-                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
-            </ou2:organizational-units>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>umontreal01-ewp.moveonca.com</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="778d5f8c0ed991f125a1542ad0f60ea0986ed868bd6082186831c96f0ff8bb6f"/>
@@ -10362,9 +10040,6 @@
             <other-id type="pic">999980373</other-id>
             <name xml:lang="en">Chalmers tekniska h?gskola</name>
         </hei>
-        <hei id="dal-ewp.moveonca.com">
-            <name xml:lang="en">Dalhousie University</name>
-        </hei>
         <hei id="dalarna-ewp.moveon4.de">
             <other-id type="erasmus">S  FALUN01</other-id>
             <other-id type="euc">29445</other-id>
@@ -10476,9 +10151,6 @@
         </hei>
         <hei id="essex-ewp.moveon4.com">
             <name xml:lang="en">University of Essex</name>
-        </hei>
-        <hei id="etsmtl-ewp.moveonca.com">
-            <name xml:lang="en">PROGRAMMES : ?cole de Technologie Sup?rieure</name>
         </hei>
         <hei id="eu.edu.ge">
             <other-id type="pic">916061114</other-id>
@@ -10996,12 +10668,6 @@
         <hei id="lauintprog-ewp.moveon4.com">
             <name xml:lang="en">Lebanese American University</name>
         </hei>
-        <hei id="laval-ewp.moveonca.com">
-            <name xml:lang="en">Universit? Laval</name>
-        </hei>
-        <hei id="laval10-ewp.moveonca.com">
-            <name xml:lang="en">Universit? Laval</name>
-        </hei>
         <hei id="lavillette-ewp.moveon4.com">
             <other-id type="erasmus">F  PARIS126</other-id>
             <other-id type="euc">28515</other-id>
@@ -11040,9 +10706,6 @@
             <other-id type="euc">28436</other-id>
             <other-id type="pic">999857765</other-id>
             <name xml:lang="en">Universität zu Lübeck</name>
-        </hei>
-        <hei id="macewan-ewp.moveonca.com">
-            <name xml:lang="en">MacEwan University</name>
         </hei>
         <hei id="malmo-ewp.moveon4.de">
             <other-id type="erasmus">S  MALMO01</other-id>
@@ -11214,9 +10877,6 @@
             <other-id type="pic">986446157</other-id>
             <name xml:lang="en">University College Copenhagen</name>
         </hei>
-        <hei id="polymtl-ewp.moveonca.com">
-            <name xml:lang="en">?cole Polytechnique de Montr?al</name>
-        </hei>
         <hei id="potsdam-ewp.moveon4.de">
             <other-id type="erasmus">D  POTSDAM01</other-id>
             <other-id type="euc">28276</other-id>
@@ -11300,15 +10960,6 @@
             <other-id type="euc">29982</other-id>
             <other-id type="pic">999983962</other-id>
             <name xml:lang="en">Rheinisch-Westfälische Technische Hochschule Aachen</name>
-        </hei>
-        <hei id="ryerson-ewp.moveonca.com">
-            <name xml:lang="en">Ryerson University</name>
-        </hei>
-        <hei id="senecaco-ewp.moveonca.com">
-            <name xml:lang="en">Seneca College</name>
-        </hei>
-        <hei id="sfu-ewp.moveonca.com">
-            <name xml:lang="en">Simon Fraser University</name>
         </hei>
         <hei id="siegen-ewp.moveon4.de">
             <other-id type="erasmus">D  SIEGEN01</other-id>
@@ -11660,12 +11311,6 @@
         <hei id="umanitoba04-ewp.moveonca.com">
             <name xml:lang="en">University of Manitoba</name>
         </hei>
-        <hei id="umontreal-ewp.moveonca.com">
-            <name xml:lang="en">Universit? de Montr?al</name>
-        </hei>
-        <hei id="umontreal01-ewp.moveonca.com">
-            <name xml:lang="en">Universit? de Montr?al</name>
-        </hei>
         <hei id="unak.is">
             <other-id type="eche">29904-EPP-1-2014-1-IS-EPPKA3-ECHE</other-id>
             <other-id type="erasmus">IS AKUREYR01</other-id>
@@ -11919,12 +11564,6 @@
             <other-id type="euc">28497</other-id>
             <other-id type="pic">984247943</other-id>
             <name xml:lang="en">Université Paul Valéry Montpellier</name>
-        </hei>
-        <hei id="uqac-ewp.moveonca.com">
-            <name xml:lang="en">Universit? du Qu?bec ? Chicoutimi</name>
-        </hei>
-        <hei id="uqtr-ewp.moveonca.com">
-            <name xml:lang="en">Universit? du Qu?bec ? Trois-Rivi?res</name>
         </hei>
         <hei id="ur-ewp.moveon4.de">
             <name xml:lang="en">Universität Regensburg</name>
