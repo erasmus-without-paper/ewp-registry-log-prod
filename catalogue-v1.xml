@@ -2161,7 +2161,6 @@
             <hei-id>eal-ewp.moveon4.com</hei-id>
             <hei-id>ecp-ewp.moveon4.com</hei-id>
             <hei-id>ensicaen1-ewp.moveon4.com</hei-id>
-            <hei-id>ensapm-ewp.moveon4.com</hei-id>
             <hei-id>essex-ewp.moveon4.com</hei-id>
             <hei-id>europauni-ewp.moveon4.com</hei-id>
             <hei-id>gcu-ewp.moveon4.com</hei-id>
@@ -2186,7 +2185,6 @@
             <hei-id>ism-ewp.moveon4.com</hei-id>
             <hei-id>juancarlos-ewp.moveon4.com</hei-id>
             <hei-id>kau-ewp.moveon4.com</hei-id>
-            <hei-id>kedge-ewp.moveon4.com</hei-id>
             <hei-id>kpz-ewp.moveon4.com</hei-id>
             <hei-id>kulantwerp-ewp.moveon4.com</hei-id>
             <hei-id>lancaster-ewp.moveon4.com</hei-id>
@@ -2196,7 +2194,6 @@
             <hei-id>mdh-ewp.moveon4.com</hei-id>
             <hei-id>mitt-ewp.moveon4.com</hei-id>
             <hei-id>nu-ewp.moveon4.com</hei-id>
-            <hei-id>nhtv-ewp.moveon4.com</hei-id>
             <hei-id>oamk-ewp.moveon4.com</hei-id>
             <hei-id>oru-ewp.moveon4.com</hei-id>
             <hei-id>paris13-ewp.moveon4.com</hei-id>
@@ -3932,28 +3929,6 @@
         <apis-implemented>
             <in2:institutions version="2.0.0">
                 <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <in2:url>https://ensapm-ewp.moveon4.com/v1/institution</in2:url>
-                <in2:max-hei-ids>10</in2:max-hei-ids>
-            </in2:institutions>
-            <ou2:organizational-units version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <ou2:url>https://ensapm-ewp.moveon4.com/v1/ounit</ou2:url>
-                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
-                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
-            </ou2:organizational-units>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>ensapm-ewp.moveon4.com</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <certificate sha-256="778d5f8c0ed991f125a1542ad0f60ea0986ed868bd6082186831c96f0ff8bb6f"/>
-        </client-credentials-in-use>
-    </host>
-    <host>
-        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-        <apis-implemented>
-            <in2:institutions version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
                 <in2:url>https://essex-ewp.moveon4.com/v1/institution</in2:url>
                 <in2:max-hei-ids>10</in2:max-hei-ids>
             </in2:institutions>
@@ -4482,28 +4457,6 @@
         <apis-implemented>
             <in2:institutions version="2.0.0">
                 <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <in2:url>https://kedge-ewp.moveon4.com/v1/institution</in2:url>
-                <in2:max-hei-ids>10</in2:max-hei-ids>
-            </in2:institutions>
-            <ou2:organizational-units version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <ou2:url>https://kedge-ewp.moveon4.com/v1/ounit</ou2:url>
-                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
-                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
-            </ou2:organizational-units>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>kedge-ewp.moveon4.com</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <certificate sha-256="778d5f8c0ed991f125a1542ad0f60ea0986ed868bd6082186831c96f0ff8bb6f"/>
-        </client-credentials-in-use>
-    </host>
-    <host>
-        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-        <apis-implemented>
-            <in2:institutions version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
                 <in2:url>https://kpz-ewp.moveon4.com/v1/institution</in2:url>
                 <in2:max-hei-ids>10</in2:max-hei-ids>
             </in2:institutions>
@@ -4692,28 +4645,6 @@
         </apis-implemented>
         <institutions-covered>
             <hei-id>nu-ewp.moveon4.com</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <certificate sha-256="778d5f8c0ed991f125a1542ad0f60ea0986ed868bd6082186831c96f0ff8bb6f"/>
-        </client-credentials-in-use>
-    </host>
-    <host>
-        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-        <apis-implemented>
-            <in2:institutions version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <in2:url>https://nhtv-ewp.moveon4.com/v1/institution</in2:url>
-                <in2:max-hei-ids>10</in2:max-hei-ids>
-            </in2:institutions>
-            <ou2:organizational-units version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <ou2:url>https://nhtv-ewp.moveon4.com/v1/ounit</ou2:url>
-                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
-                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
-            </ou2:organizational-units>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>nhtv-ewp.moveon4.com</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="778d5f8c0ed991f125a1542ad0f60ea0986ed868bd6082186831c96f0ff8bb6f"/>
@@ -8134,12 +8065,6 @@
             <other-id type="pic">949190203</other-id>
             <name xml:lang="en">Ecole Nationale Sup?rieure d'Architecture et de Paysage de Lille</name>
         </hei>
-        <hei id="ensapm-ewp.moveon4.com">
-            <other-id type="erasmus">F  PARIS319</other-id>
-            <other-id type="euc">99231</other-id>
-            <other-id type="pic">944923561</other-id>
-            <name xml:lang="en">Ecole Nationale Supérieure d'Architecture Paris-Malaquais</name>
-        </hei>
         <hei id="ensas-ewp.moveonfr.com">
             <name xml:lang="en">Ecole Nationale Sup?rieure d'Architecture de Strasbourg</name>
         </hei>
@@ -8602,9 +8527,6 @@
             <name xml:lang="da">KEA Copenhagen School of Design and Technology</name>
             <name xml:lang="en">KEA Copenhagen School of Design and Technology</name>
         </hei>
-        <hei id="kedge-ewp.moveon4.com">
-            <name xml:lang="en">KEDGE Business School</name>
-        </hei>
         <hei id="khberlin-ewp.moveon4.de">
             <other-id type="erasmus">D  BERLIN18</other-id>
             <other-id type="euc">29777</other-id>
@@ -8704,12 +8626,6 @@
         </hei>
         <hei id="montaigne-ewp.moveonfr.com">
             <name xml:lang="en">Universit? Michel de Montaigne - Bordeaux 3</name>
-        </hei>
-        <hei id="nhtv-ewp.moveon4.com">
-            <other-id type="erasmus">NL BREDA10</other-id>
-            <other-id type="euc">29011</other-id>
-            <other-id type="pic">997819989</other-id>
-            <name xml:lang="en">NHTV Internationale Hogeschool Breda</name>
         </hei>
         <hei id="ntnu.no">
             <other-id type="erasmus">N TRONDHE01</other-id>
