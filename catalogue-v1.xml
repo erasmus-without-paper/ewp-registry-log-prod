@@ -1430,34 +1430,6 @@
         </server-credentials-in-use>
     </host>
     <host>
-        <ewp:admin-email>tech-support@sop.co.at</ewp:admin-email>
-        <apis-implemented>
-            <ou2:organizational-units version="2.1.0">
-                <ewp:admin-email>tech-support@sop.co.at</ewp:admin-email>
-                <ou2:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A2:httpsig/>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B2:httpsig/>
-                        <sec-B1:tlscert/>
-                    </sec:server-auth-methods>
-                </ou2:http-security>
-                <ou2:url>https://www.service4mobility.com/mobility_connect/ewp/ounits</ou2:url>
-                <ou2:max-ounit-ids>3</ou2:max-ounit-ids>
-                <ou2:max-ounit-codes>3</ou2:max-ounit-codes>
-            </ou2:organizational-units>
-        </apis-implemented>
-        <client-credentials-in-use>
-            <certificate sha-256="99ef37d8edd0f5962e3368bcb4bcb817e3d5a0e9d9d79545499e2804327f0609"/>
-            <rsa-public-key sha-256="b6ef9808b999d46b24a47737451012987b9edb40562e963d204111fa9f7eacf1"/>
-        </client-credentials-in-use>
-        <server-credentials-in-use>
-            <rsa-public-key sha-256="b6ef9808b999d46b24a47737451012987b9edb40562e963d204111fa9f7eacf1"/>
-        </server-credentials-in-use>
-    </host>
-    <host>
         <ewp:admin-email>oasis+ewp@dict.ugent.be</ewp:admin-email>
         <apis-implemented>
             <d5:discovery version="5.0.0">
