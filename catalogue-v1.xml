@@ -866,6 +866,69 @@
         <apis-implemented>
             <d5:discovery version="5.0.0">
                 <ewp:admin-email>tech-support@sop.co.at</ewp:admin-email>
+                <d5:url>https://mobility.uni.li/mobility/ewp/manifest?api=all</d5:url>
+            </d5:discovery>
+            <e2:echo version="2.0.0">
+                <ewp:admin-email>tech-support@sop.co.at</ewp:admin-email>
+                <e2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </e2:http-security>
+                <e2:url>https://mobility.uni.li/mobility/ewp/echo</e2:url>
+            </e2:echo>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>uni.li</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="ce950be55ae387d0057a0e56d45e572991aba8612851846d388342fa594d3a26"/>
+            <rsa-public-key sha-256="485c056a8a4a18bbba51eb740d51ab499dbcd1e9bbbfb7713c0962d90082c36a"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="485c056a8a4a18bbba51eb740d51ab499dbcd1e9bbbfb7713c0962d90082c36a"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <ewp:admin-email>tech-support@sop.co.at</ewp:admin-email>
+        <apis-implemented>
+            <in2:institutions version="2.1.0">
+                <ewp:admin-email>tech-support@sop.co.at</ewp:admin-email>
+                <in2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </in2:http-security>
+                <in2:url>https://mobility.uni.li/mobility/ewp/institutions</in2:url>
+                <in2:max-hei-ids>3</in2:max-hei-ids>
+            </in2:institutions>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>uni.li</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="ce950be55ae387d0057a0e56d45e572991aba8612851846d388342fa594d3a26"/>
+            <rsa-public-key sha-256="485c056a8a4a18bbba51eb740d51ab499dbcd1e9bbbfb7713c0962d90082c36a"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="485c056a8a4a18bbba51eb740d51ab499dbcd1e9bbbfb7713c0962d90082c36a"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <ewp:admin-email>tech-support@sop.co.at</ewp:admin-email>
+        <apis-implemented>
+            <d5:discovery version="5.0.0">
+                <ewp:admin-email>tech-support@sop.co.at</ewp:admin-email>
                 <d5:url>https://mobility-online.unibe.ch/mobility/ewp/manifest?api=all</d5:url>
             </d5:discovery>
             <e2:echo version="2.0.0">
@@ -8785,9 +8848,12 @@
             <other-id type="eche">28700-EPP-1-2014-1-LI-EPPKA3-ECHE</other-id>
             <other-id type="erasmus">LI VADUZ01</other-id>
             <other-id type="euc">28700-IC-1-2007-1-LI-ERASMUS-EUCX-1</other-id>
+            <other-id type="euc">28700-LA-1-2014-1-LI-E4AKA1-ECHE</other-id>
             <other-id type="pic">974688496</other-id>
+            <name xml:lang="DE">UNIVERSITÄT LIECHTENSTEIN</name>
             <name xml:lang="de">UNIVERSITAT LIECHTENSTEIN</name>
             <name xml:lang="en">UNIVERSITAT LIECHTENSTEIN</name>
+            <name xml:lang="en">UNIVERSITÄT LIECHTENSTEIN</name>
         </hei>
         <hei id="unibas-ewp.moveon4.de">
             <other-id type="erasmus">CH BASEL01</other-id>
@@ -9107,6 +9173,14 @@
             7KdPZGvu8K5A/Qod3lCPTWyK4L9+mBTo4HCcvBVT+quA6/ljcN3zln3X7Eg5/bhPJROzJ+ateLLw
             WU1TXyIpT5k2IGUQgHjUVlpO44ZEY3my5CsWhcjacp6xFE30DqwYHQMAMPg74fLswGudg+VPF78I
             jMVoP0LKILRtw5pGdfm0LMDCO/oOw07VtpAU5ny+xfUCAwEAAQ==
+        </rsa-public-key>
+        <rsa-public-key sha-256="485c056a8a4a18bbba51eb740d51ab499dbcd1e9bbbfb7713c0962d90082c36a">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3AbiZPBwoUKvjtordM3zqMi3HBuo+qa9
+            NLPJD2bCK6qH7waASWLzQi3gYgRoCd6AikYNXSvaDoJ/xb9331O2HsT3nkCuAhO/wanfsHpcBpMg
+            HZxOujqPReJzPbU9UoqdrcFsbn40RR18qcXAzqjpRYEIQnUpP0f1WP12MqhZ4n/W4CPlNumYzF3S
+            041rMewmHCZdBlt9jdSouFjRxaGmxs3AP4KsrLDDI+Srw15iGOZVIhE7+Fr9oVK6hU3w+bs30/lv
+            xw9Ct8MCzZP65UhhBlJG2JDJuQhRMjq1diemguL/A6URlBmLPhvbuegFhvFP82HY6fr9DoL7jOS4
+            nmyyjwIDAQAB
         </rsa-public-key>
         <rsa-public-key sha-256="49554338fd305ec16063df917c0fe3bea1bb012a71685648f2f9bcd8c5f9a91a">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApUwUGC8t0nIvyWSbEtlntxK71hpIVmAj
