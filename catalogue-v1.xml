@@ -93,11 +93,11 @@
             <fake-api-without-a-version xmlns="https://github.com/erasmus-without-paper/ewp-registry-service/issues/8"/>
         </apis-implemented>
         <client-credentials-in-use>
-            <certificate sha-256="4a30f6532b2e125a93d3c8b8dcf8bf12e1b689ec9944afac4725de63e8eb22b0"/>
-            <rsa-public-key sha-256="fa7a0ae56827406bd18e1ed416412050feaf141b0c3ba7cb4e4779c36c0661fe"/>
+            <certificate sha-256="021e770b4e7bc8644f8f8c220a23bbf5d4cc3c3430cbdf372e98b2bd9166ab10"/>
+            <rsa-public-key sha-256="a6a37cd06919c64f63159d3e29fcb78f1cf39c10b078d5398f5814247f911308"/>
         </client-credentials-in-use>
         <server-credentials-in-use>
-            <rsa-public-key sha-256="38be9efca3b9947c632ac589362ba034228d5223a1923ed41cc351444fcaa9bc"/>
+            <rsa-public-key sha-256="30977c5b25d00c9a87b58cb2adc41b60fdd593891f106ce59e40d9cca5aeb80f"/>
         </server-credentials-in-use>
     </host>
     <host>
@@ -335,29 +335,7 @@
     </host>
     <host>
         <ewp:admin-email>tech-support@sop.co.at</ewp:admin-email>
-        <apis-implemented>
-            <om1:omobilities
-                xmlns:om1="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd"
-                version="0.15.0"
-            >
-                <ewp:admin-email>tech-support@sop.co.at</ewp:admin-email>
-                <om1:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A2:httpsig/>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B2:httpsig/>
-                        <sec-B1:tlscert/>
-                    </sec:server-auth-methods>
-                </om1:http-security>
-                <om1:get-url>https://www.service4mobility.com/europe/ewp/mobility_out/get</om1:get-url>
-                <om1:index-url>https://www.service4mobility.com/europe/ewp/mobility_out/index</om1:index-url>
-                <om1:max-omobility-ids>1</om1:max-omobility-ids>
-                <om1:sends-notifications/>
-                <om1:supported-update-types/>
-            </om1:omobilities>
-        </apis-implemented>
+        <apis-implemented/>
         <institutions-covered>
             <hei-id>diak.fi</hei-id>
             <hei-id>jyu.fi</hei-id>
@@ -1735,27 +1713,6 @@
                 </iac2:http-security>
                 <iac2:url>https://ewp.uw.edu.pl/ewp/iia/cnr</iac2:url>
             </iac2:iia-cnr>
-            <om1:omobilities
-                xmlns:om1="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd"
-                version="0.15.0"
-            >
-                <om1:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B1:tlscert/>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </om1:http-security>
-                <om1:get-url>https://ewp.uw.edu.pl/ewp/omobilities/get</om1:get-url>
-                <om1:index-url>https://ewp.uw.edu.pl/ewp/omobilities/index</om1:index-url>
-                <om1:update-url>https://ewp.uw.edu.pl/ewp/omobilities/update</om1:update-url>
-                <om1:max-omobility-ids>100</om1:max-omobility-ids>
-                <om1:sends-notifications/>
-                <om1:supported-update-types/>
-            </om1:omobilities>
             <omc1:omobility-cnr
                 xmlns:omc1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/blob/stable-v1/manifest-entry.xsd"
                 version="0.4.0"
@@ -8804,6 +8761,14 @@
             VPaHxU5tIDarLB3vUfo61+MTYch5As4tISwxGD/DxqEyMC7prPvPOTyC9H45UG3A0PYqRtJ3Nz+s
             TNBYEQIDAQAB
         </rsa-public-key>
+        <rsa-public-key sha-256="30977c5b25d00c9a87b58cb2adc41b60fdd593891f106ce59e40d9cca5aeb80f">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqNkLccGpJph1EON2lKmQEme+yP5vbdHg
+            4ZamiIQR37n/CpN9iChMvvfk83l0wfQlXX/rPvDAJnQ2Nt88vxArm0YthKTD2aJKSiUq1tVA0hNQ
+            MKBL7m9pv1WjqqJXT169eq74JlEm+oOD61T3EjEJc1k4dP1Vih7tXSKZq+UBWN8LJjpvMyPto0rG
+            M0ZMZpYrV/2UyOSFxSYzirTE6pJMI3JI1ls1WNKECtAbNi9P3NYqTTpcKT/W0XfHoM1pOWkr7TT1
+            8V9g9YLolYyJfAIkPiRxNRd5bw+ddcGWvlzvLlO4fQQIlUldsjtGGfnTWh068sF1N4ts0mhAlMsT
+            OPJXNwIDAQAB
+        </rsa-public-key>
         <rsa-public-key sha-256="350396ab93700b1bea9fab518aad99f216c86c4264dab082f143f872c3dd01a6">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnImuhavC/SRBJ2rayROW657vV/zFM6oz
             M81mz8wZrHHmpQ4EDxF3rjLMTuKkz3LOnGh159F6P+XQfIOldY1K58SjGEeHSSVB+UDznIlgITa2
@@ -8811,14 +8776,6 @@
             U5GRm4gvAGu7prGLECi2BDYKkoTFdB7hFkh3oKMKSSXv8KfhpQpawR6q+it4khlkQNuwocklWpUc
             oyqNv/IU96sBpjDAhkCvVAg9wxDX6WYEeKIrLTU3iC4HUQ9EAiblgPZWpmNjp1tHls7Y9XMg5ilV
             yfUYgwIDAQAB
-        </rsa-public-key>
-        <rsa-public-key sha-256="38be9efca3b9947c632ac589362ba034228d5223a1923ed41cc351444fcaa9bc">
-            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1mHm8Ci67+eCqdhucJjyP6wWOtcazbY9
-            3kmlPe3MwPRw07Kl8kT/022Ysr2R1sCtShHSQ5EGjU+YYfazTkLkIYAt43SWmW28SWC0iSLk/LCe
-            ww4KopZ36l9m9abNzoSAYEqQlx/833+WafsFENfxp50Dk+981cU+UDTIINnQ5w+F7yKar1Bz/6Kj
-            NDjKBMwg0WhIGXYv3/9Aub2OGHh84aOJNCAuL8SE5rTAXCAP9bDG6ozpSd3lNCFx/9K6qAws1NB0
-            rO7fJFuOwle+1BfR1c6wYaiypiGTtQknQKDWDSrSQY5yjc6tP/euYG0a4e97FqOkZEDW2WYZ5uTj
-            0QPkVQIDAQAB
         </rsa-public-key>
         <rsa-public-key sha-256="3a77236856bb6efc7a0dbdb93ce3217526eac0df4c3e97d2ec724a0072ecaf37">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2hMcygwfrhEmMGSeKl2JCPzeDGSUVebM
@@ -8952,6 +8909,14 @@
             m8Sq5P4JLeDdTs4MgmSSRuKT6JDa1Mw79fuqDlgyZLnM6FU3+6oXl1cTk6SD1Fcwhc1/72XQK90E
             5csqNwIDAQAB
         </rsa-public-key>
+        <rsa-public-key sha-256="a6a37cd06919c64f63159d3e29fcb78f1cf39c10b078d5398f5814247f911308">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjyOY/tqcw0LYCUfoZ5JyuJi5D4Lc+oiJ
+            00mCxSMTXxzWyeLc86UOnv7sChdY4Aq/YDhxE9PxFnmohfBea4rbd4Qm0amU/VhywaNI5yZox/D/
+            QpBP+v2OLeEMn+IO6qP9ZgOvulTPmKnXK4R1mj/I2XjDVFUX2AYUAlkXdTRaeujSg7+ETi0rvwvs
+            ODZCJXfZfUd6IpnMUVXHg8iADFNdKo0ENjDaFyxAyR7in+h3AispAs5FIQw3RTR2eqRSbK+fh+IT
+            D7fI3EzhTbmOPqn37Uu+lm839UYk1hm8qQNLiD8JBPZ+eeh/xDmzyu8oosM1yfecXp7A28/LPOBE
+            hNvH0wIDAQAB
+        </rsa-public-key>
         <rsa-public-key sha-256="b22125ec7cee1efcdea49ba8e8a5c97e0a002d92659b817e608f939091752e36">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3zeBU0cZP2mZltN3Q0X5Z1ecL5/1OE+q
             9HRToulaRRlSdGDR5p71LQJezHGrvJXD4DtwJ2oAXMIT0tcjJQFsZAf8QLCZZRqpQGiyAOU5F5m/
@@ -9031,14 +8996,6 @@
             EY2Bt4vRyQ/TeAHnWshkxB711Y8ILQsQB68wxd+xP782Nykmq+kfgOj2t3swxNFo0kvNTym1bEdX
             ArHy6zYqxtSTrFiPNl/M8/lIGXZKKGfGFrrTSK11SMMtVQ3tVSsrF3RwmJJKjWlESilWRITKVzDm
             +kqoywIDAQAB
-        </rsa-public-key>
-        <rsa-public-key sha-256="fa7a0ae56827406bd18e1ed416412050feaf141b0c3ba7cb4e4779c36c0661fe">
-            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAj5kPG58ykeYx6FxIkl2as6bY01o2Crra
-            r7Ha8Zsfc9hGrsRw/E7RN72WlYchN8JIMGV01QkoQ7HUYMnZOBAiUDSLxHyrorkmZR93qjZ09ciM
-            wT8KcByMu22ShKFL0YmhRyEOhE1T1ukyrh492wlj6kyZBm/kRLAwgnT05kRjFmzdblLjYXUg0AHS
-            B1HV/eP4Ge9fftgQNP0d+83YWgEk1nzh6vjzQqp3awXGiRx536eUVaqq73MRj83QtQCmwVNzGrK0
-            4N+IGjNGTtKEbLGJcbmHLYjVi6zHH9UOrYfLza+V11F5j/zDYHU9YDjvNVddsLjl91N6QgxwoVj4
-            DsJo9QIDAQAB
         </rsa-public-key>
     </binaries>
 </catalogue>
