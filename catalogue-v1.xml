@@ -93,11 +93,11 @@
             <fake-api-without-a-version xmlns="https://github.com/erasmus-without-paper/ewp-registry-service/issues/8"/>
         </apis-implemented>
         <client-credentials-in-use>
-            <certificate sha-256="08eb395c507f04602e08317817d17ba7265c1a22c0baeb6bf9e0fd5af2b03e1f"/>
-            <rsa-public-key sha-256="e8a259fb3a0a562ea4824163d2a91d7fdfd7323be5cd097c78a64392cd38f569"/>
+            <certificate sha-256="035d761f91f410fbeaae7913e1f96303fc048ec69f3c44536cf0088d18add5af"/>
+            <rsa-public-key sha-256="bcc0cf506e92481521e14a173e1f4624b14da381143d50735432d767259d9635"/>
         </client-credentials-in-use>
         <server-credentials-in-use>
-            <rsa-public-key sha-256="77bd684ba8d677433af35959aace5ce780e9059b49b3b72e9b3a68da6e294beb"/>
+            <rsa-public-key sha-256="f38f27ce284ddb74407b3a4e23d76025fe8b291bd3e87704d7aac01b9ba2997a"/>
         </server-credentials-in-use>
     </host>
     <host>
@@ -2453,11 +2453,11 @@
                 </e2:http-security>
                 <e2:url>https://mt.erasmuswithoutpaper.eu/rest/echo</e2:url>
             </e2:echo>
-            <mt-institutions
-                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-mt-institutions/blob/stable-v1/manifest-entry.xsd"
+            <mti1:mt-institutions
+                xmlns:mti1="https://github.com/erasmus-without-paper/ewp-specs-api-mt-institutions/blob/stable-v1/manifest-entry.xsd"
                 version="0.1.0"
             >
-                <http-security>
+                <mti1:http-security>
                     <sec:client-auth-methods>
                         <sec-A1:tlscert allows-self-signed="true"/>
                         <sec-A2:httpsig/>
@@ -2466,15 +2466,15 @@
                         <sec-B1:tlscert/>
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
-                </http-security>
-                <url>https://mt.erasmuswithoutpaper.eu/rest/institutions</url>
-                <max-ids>1</max-ids>
-            </mt-institutions>
-            <mt-dictionaries
-                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-mt-dictionaries/blob/stable-v1/manifest-entry.xsd"
+                </mti1:http-security>
+                <mti1:url>https://mt.erasmuswithoutpaper.eu/rest/institutions</mti1:url>
+                <mti1:max-ids>1</mti1:max-ids>
+            </mti1:mt-institutions>
+            <mtd1:mt-dictionaries
+                xmlns:mtd1="https://github.com/erasmus-without-paper/ewp-specs-api-mt-dictionaries/blob/stable-v1/manifest-entry.xsd"
                 version="0.1.0"
             >
-                <http-security>
+                <mtd1:http-security>
                     <sec:client-auth-methods>
                         <sec-A1:tlscert allows-self-signed="true"/>
                         <sec-A2:httpsig/>
@@ -2483,14 +2483,14 @@
                         <sec-B1:tlscert/>
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
-                </http-security>
-                <url>https://mt.erasmuswithoutpaper.eu/rest/dictionaries</url>
-            </mt-dictionaries>
-            <mt-projects
-                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-mt-projects/blob/stable-v1/manifest-entry.xsd"
+                </mtd1:http-security>
+                <mtd1:url>https://mt.erasmuswithoutpaper.eu/rest/dictionaries</mtd1:url>
+            </mtd1:mt-dictionaries>
+            <mtp1:mt-projects
+                xmlns:mtp1="https://github.com/erasmus-without-paper/ewp-specs-api-mt-projects/blob/stable-v1/manifest-entry.xsd"
                 version="0.1.0"
             >
-                <http-security>
+                <mtp1:http-security>
                     <sec:client-auth-methods>
                         <sec-A1:tlscert allows-self-signed="true"/>
                         <sec-A2:httpsig/>
@@ -2499,9 +2499,9 @@
                         <sec-B1:tlscert/>
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
-                </http-security>
-                <url>https://mt.erasmuswithoutpaper.eu/rest/projects</url>
-            </mt-projects>
+                </mtp1:http-security>
+                <mtp1:url>https://mt.erasmuswithoutpaper.eu/rest/projects</mtp1:url>
+            </mtp1:mt-projects>
         </apis-implemented>
         <institutions-covered>
             <hei-id>ec.europa.eu</hei-id>
@@ -9574,14 +9574,6 @@
             ClCsH0zaGWAtynyHNJ7eNOL5JCZtULgdrlKP3FOwt3SEqRKMtOlv82dNgKrcp88ueEVMIvnWjqSu
             Vhm1ywIDAQAB
         </rsa-public-key>
-        <rsa-public-key sha-256="77bd684ba8d677433af35959aace5ce780e9059b49b3b72e9b3a68da6e294beb">
-            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAg5C0oXD6QsWVNUSltrltetGNjaTEusCo
-            4HzesXVPx045vH/+6XwJ4LolchL7evwPH8I+XyjyJuBlYTWNTCqs+0HjC8hdfvBRYLjrfGoJ/7gt
-            krnYJ7ulRWr6qbpPo6zwVSy0YJRIz59gU3d2ww++t+7cMjpsFZYoLCPI5PvElomIS5ERFPuK7qhK
-            CViymkLkYtCF49pkn8CexFBKNPabBOoKWG+0/AjSWZIv1Em0neYYqi0TOr+YpOQeL149eNF3xeal
-            7keWm6BViMtie3A3QOI6N4MH6/znh+foX4CVKZcU4mf8kPJvUPPVto8PdTDe/P+m3Ex69/PXEBXs
-            dc5DcwIDAQAB
-        </rsa-public-key>
         <rsa-public-key sha-256="7a42a1ba6de163d08c90e2cda78cc8545578483991c16db1bdddb31c9f803c5d">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA9d7aS0S3lStfaiJnmr1vkPjL+wP1Bs6c
             fN/Gbm1nwG4N/cvxYd6NshooCIWVJXMNRr/KKBZPSB7j6AhU1KFlKJnSNGcVc5bbV2wNEp3keBJ1
@@ -9678,6 +9670,14 @@
             kfl7DLqhZXVevyBM5qPshCSbbmYAupIuowFKRnQapHAaH4Wequ6NeKmRtghEuk7U3SRZ00Pge4xb
             JqRXTwIDAQAB
         </rsa-public-key>
+        <rsa-public-key sha-256="bcc0cf506e92481521e14a173e1f4624b14da381143d50735432d767259d9635">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhZYwtdo5yMobuFZIz+I6bVIgdTOnJ1lz
+            f8+ZwbqYK+3BxsUN4zqWZ+RivgNnTzbNQB8542+5bZ1iPWsba/QaIT4ZkPPtQlT4lbvoFa18aqCr
+            Lw5uiS8fPO4O5+fmxsraAk6ScLQqZTp6YmHlhY6NBiucRzewRjwjgpce7BBL+Jh3jNEvL//pZB2R
+            riACyDfLS8cw7FRKdc48VURNcpTVT4hE5ZjmvWAV1bPl0LYQpbUjUuA5I0wpFUFdU7mkcDE78mz+
+            M9ToRdknWCiKJ802Y3MSOUgcKdUAj3wsRXciVomVUcjvGv2uzTL3mCKlAbRzljDuysdLtW1kAHmH
+            sOtK7QIDAQAB
+        </rsa-public-key>
         <rsa-public-key sha-256="cbf8f8dec7dd772b8c6ca1a5492a8e5c78805f543813f8bfa1ee04480c8a4c35">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlcEYM0vAWp/f3jPrFqDiCW5kbBDmnulW
             YAwtjdXgqh8vT3Hqa1ZS4WANpvQ7wcwsnxS0wjUPnYK5eeaE8S97aTr+jJlmvdS5TgXqakTMKeyj
@@ -9726,14 +9726,6 @@
             DoTsgOBs/smaDen8d8Bp8B7zrP5rsGGyphxNCDCcwRm/sc6KAjjZU9YsxQtEK++Lh/45DF768kJC
             cD3B/wIDAQAB
         </rsa-public-key>
-        <rsa-public-key sha-256="e8a259fb3a0a562ea4824163d2a91d7fdfd7323be5cd097c78a64392cd38f569">
-            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiAJiz13xNKf2qh7Tia8lf7ClkfZ4R1LP
-            yjuC9+ahXio7dRnmSeUTSnB2Q9HvEGEOT6Op98galpXNt6N2f+3sUkbJ2/yCPAkwHUwkZRiLW6ci
-            eMbC1X3r1s9f5DLEOWIjMsoSykRgQGAAyys2nyLqKoBpFEo5LpBUx1Q+czT4yXC/prX9+xUwAUGC
-            1ShSx5AULnxEQxsYOKIqZaqRWMeWKdz0CA81cRQbAtnmr6EndlHletrlnB3haQAA546V2JAhhAnk
-            cte4RtYc2IHy8IKP/hjwuKD1IQIKXYnDTY6hMWa8VS2lRY2K9TNXnxkG/4GVZJZzP3qfUA+RG9zE
-            4tET/wIDAQAB
-        </rsa-public-key>
         <rsa-public-key sha-256="ec11cbcba4a59ad500af78306e3eec6c679271a1678d4cb9701f36251c0e3c14">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA8Gb8KdW83wahitbayxOMe4sux0pFIrmj
             dB/Cn9fxlHKIa35Re9OTfsJrZjvbhg7lj1w1cG1j07X5vdmybL/6mV1oC6zqpbi//Eo9a3c7BoHY
@@ -9749,6 +9741,14 @@
             stmj/SjGF5oEcB7/jIUdwHx6inEF4fH4WC27pJ5LRGC6FVN1OVaWIqo99o2MDQOs9ZSWtWGiX4Xm
             fnr82UcublUPpvdLDQrk7iwZ8n6xxv33j5rXIGUUv/iDpme1ufIlnjhlTNURxGQebN9je3sc0Uzv
             LQi5KwIDAQAB
+        </rsa-public-key>
+        <rsa-public-key sha-256="f38f27ce284ddb74407b3a4e23d76025fe8b291bd3e87704d7aac01b9ba2997a">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlSaeB1VKeMZLzd+UtN9dYwPvbZHWwqC/
+            P6aikJ5J29ZVJXVRWKd9Pku2FWzGdmzT5lewJWf0rcRHA9o75fVLl3rFEFZY0xOw/B0ipAo9YhN6
+            OVTVkFEwChoK0S8VORes5NsHO8fe5QhlklSo/kQ+npBV9P2tZ57RkxLzprU9fNFJZcc/kp1Z5ARJ
+            JT8rxDo8MFWMjQPafki0UbjploEIsDQPWdvFjqqq1v9gnpIQWbC68thTWMivFlvtBZR5pSgO3jI9
+            XH4Nj7urLFmrdKqyemnfMzA7BQzB1LuQC90WCxlZ3U08wuc+W9Yt7m3n8veAG9u2ruhnGLVQUeld
+            nL6qnQIDAQAB
         </rsa-public-key>
         <rsa-public-key sha-256="f40a5866a18e09dbc56ee5307b9b2c756dc4f2f802d52b007412893dcdd3ca23">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuhpFjSH/H2pMruv7fyVM/l65GShPQ+Ox
