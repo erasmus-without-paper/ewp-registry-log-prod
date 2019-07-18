@@ -25,14 +25,14 @@
     xmlns:ns9="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v1/manifest-entry.xsd"
 >
     <ns3:host>
-        <admin-email>tech-support@sop.co.at</admin-email>
+        <admin-email>connect-ewp@service4mobility.com</admin-email>
         <ns2:apis-implemented>
             <ns19:discovery version="5.0.0">
-                <admin-email>tech-support@sop.co.at</admin-email>
+                <admin-email>connect-ewp@service4mobility.com</admin-email>
                 <ns19:url>https://www.service4mobility.com/mobility/ewp/manifest?api=all</ns19:url>
             </ns19:discovery>
             <ns18:echo version="2.0.0">
-                <admin-email>tech-support@sop.co.at</admin-email>
+                <admin-email>connect-ewp@service4mobility.com</admin-email>
                 <ns18:http-security>
                     <ns5:client-auth-methods>
                         <ns22:httpsig/>
@@ -52,6 +52,11 @@
                 <ns2:name xml:lang="de">University of Applied Sciences BFI Vienna</ns2:name>
                 <ns2:name xml:lang="en">University of Applied Sciences BFI Vienna</ns2:name>
             </ns2:hei>
+            <ns2:hei id="fh-wien.ac.at">
+                <ns2:other-id type="erasmus">A WIEN21</ns2:other-id>
+                <ns2:name xml:lang="de">FHWien-Studiengänge der WKW</ns2:name>
+                <ns2:name xml:lang="en">FHWien-Studiengänge der WKW</ns2:name>
+            </ns2:hei>
             <ns2:hei id="ph-ooe.at">
                 <ns2:other-id type="pic">949233853</ns2:other-id>
                 <ns2:other-id type="erasmus">A  LINZ03</ns2:other-id>
@@ -66,6 +71,70 @@
                 <ns2:name xml:lang="de">Universität für Bodenkultur Wien</ns2:name>
                 <ns2:name xml:lang="en">Universität für Bodenkultur Wien</ns2:name>
             </ns2:hei>
+            <ns2:hei id="fh-kaernten.at">
+                <ns2:other-id type="pic">998204885</ns2:other-id>
+                <ns2:other-id type="erasmus">A  SPITTAL01</ns2:other-id>
+                <ns2:other-id type="euc">29298-IC-1-2007-1-AT-ERASMUS-EUC-1</ns2:other-id>
+                <ns2:name xml:lang="de">FACHHOCHSCHULE KÄRNTEN</ns2:name>
+                <ns2:name xml:lang="en">FACHHOCHSCHULE KÄRNTEN</ns2:name>
+            </ns2:hei>
+            <ns2:hei id="sbg.ac.at">
+                <ns2:other-id type="pic">999868047</ns2:other-id>
+                <ns2:other-id type="erasmus">A  SALZBUR01</ns2:other-id>
+                <ns2:other-id type="euc">29320-IC-1-2007-1-AT-ERASMUS-EUCX-1</ns2:other-id>
+                <ns2:name xml:lang="de">UNIVERSITÄT SALZBURG</ns2:name>
+                <ns2:name xml:lang="en">UNIVERSITÄT SALZBURG</ns2:name>
+            </ns2:hei>
+            <ns2:hei id="vetmeduni.ac.at">
+                <ns2:other-id type="pic">999851848</ns2:other-id>
+                <ns2:other-id type="erasmus">A  WIEN04</ns2:other-id>
+                <ns2:other-id type="eche">27489-LA-1-2014-1-AT-E4AKA1-ECHE</ns2:other-id>
+                <ns2:name xml:lang="de">VETERINAERMEDIZINISCHE UNIVERSITAET WIEN</ns2:name>
+                <ns2:name xml:lang="en">VETERINAERMEDIZINISCHE UNIVERSITAET WIEN</ns2:name>
+            </ns2:hei>
+            <ns2:hei id="phst.at">
+                <ns2:other-id type="pic">949027437</ns2:other-id>
+                <ns2:other-id type="erasmus">A  GRAZ04</ns2:other-id>
+                <ns2:other-id type="euc">28516-IC-1-2010-1-AT-ERASMUS-EUCX-1</ns2:other-id>
+                <ns2:name xml:lang="de">Pädagogische Hochschule Steiermark</ns2:name>
+                <ns2:name xml:lang="en">Pädagogische Hochschule Steiermark</ns2:name>
+            </ns2:hei>
+            <ns2:hei id="tugraz.at">
+                <ns2:other-id type="pic">999977948</ns2:other-id>
+                <ns2:other-id type="erasmus">A  GRAZ02</ns2:other-id>
+                <ns2:other-id type="euc">29283-IC-1-2007-1-AT-ERASMUS-EUCX-1</ns2:other-id>
+                <ns2:other-id type="eche">29283-EPP-1-2014-1-AT-EPPKA3-ECHE</ns2:other-id>
+                <ns2:name xml:lang="de">Technische Universität Graz</ns2:name>
+                <ns2:name xml:lang="en">Technische Universität Graz</ns2:name>
+            </ns2:hei>
+            <ns2:hei id="unileoben.ac.at">
+                <ns2:other-id type="pic">999898117</ns2:other-id>
+                <ns2:other-id type="erasmus">A  LEOBEN01</ns2:other-id>
+                <ns2:other-id type="euc">29325-IC-1-2007-1-AT-ERASMUS-EUCX-1</ns2:other-id>
+                <ns2:name xml:lang="de">Montanuniversität Leoben</ns2:name>
+                <ns2:name xml:lang="en">Montanuniversität Leoben</ns2:name>
+            </ns2:hei>
+            <ns2:hei id="kug.ac.at">
+                <ns2:other-id type="pic">957574301</ns2:other-id>
+                <ns2:other-id type="erasmus">A  GRAZ03</ns2:other-id>
+                <ns2:other-id type="euc">29302-IC-1-2007-1-AT-ERASMUS-EUCX-1</ns2:other-id>
+                <ns2:other-id type="eche">29302-EPP-1-2014-1-AT-EPPKA3-ECHE</ns2:other-id>
+                <ns2:name xml:lang="de">Universität für Musik und darstellende Kunst Graz</ns2:name>
+                <ns2:name xml:lang="en">Universität für Musik und darstellende Kunst Graz</ns2:name>
+            </ns2:hei>
+            <ns2:hei id="akbild.ac.at">
+                <ns2:other-id type="pic">989289809</ns2:other-id>
+                <ns2:other-id type="erasmus">A  WIEN01</ns2:other-id>
+                <ns2:name xml:lang="de">Akademie der bildenden Künste Wien</ns2:name>
+                <ns2:name xml:lang="en">Akademie der bildenden Künste Wien</ns2:name>
+            </ns2:hei>
+            <ns2:hei id="mdw.ac.at">
+                <ns2:other-id type="pic">949634851</ns2:other-id>
+                <ns2:other-id type="erasmus">A  WIEN08</ns2:other-id>
+                <ns2:other-id type="euc">28558-IC-1-2007-1-AT-ERASMUS-EUC-1</ns2:other-id>
+                <ns2:name xml:lang="de">Universität für Musik und darstellende Kunst Wien</ns2:name>
+                <ns2:name xml:lang="en">Universität für Musik und darstellende Kunst Wien</ns2:name>
+            </ns2:hei>
             <ns2:hei id="technikum-wien.at">
                 <ns2:other-id type="pic">998521105</ns2:other-id>
                 <ns2:other-id type="erasmus">A  WIEN20</ns2:other-id>
@@ -73,6 +142,13 @@
                 <ns2:other-id type="eche">50550-EPP-1-2014-1-AT-EPPKA3-ECHE</ns2:other-id>
                 <ns2:name xml:lang="de">FACHHOCHSCHULE TECHNIKUM WIEN</ns2:name>
                 <ns2:name xml:lang="en">FACHHOCHSCHULE TECHNIKUM WIEN</ns2:name>
+            </ns2:hei>
+            <ns2:hei id="fh-wien.ac.at">
+                <ns2:other-id type="pic">949205820</ns2:other-id>
+                <ns2:other-id type="erasmus">A  WIEN21</ns2:other-id>
+                <ns2:other-id type="euc">29261-IC-1-2007-1-AT-ERASMUS-EUCX-1</ns2:other-id>
+                <ns2:name xml:lang="de">FHWien der WKW</ns2:name>
+                <ns2:name xml:lang="en">FHWien der WKW</ns2:name>
             </ns2:hei>
         </ns3:institutions-covered>
         <ns3:client-credentials-in-use>
@@ -112,10 +188,10 @@ l6EzpwIDAQAB&#xD;
         </ns3:server-credentials-in-use>
     </ns3:host>
     <ns3:host>
-        <admin-email>tech-support@sop.co.at</admin-email>
+        <admin-email>connect-ewp@service4mobility.com</admin-email>
         <ns2:apis-implemented>
             <ns17:institutions version="2.1.0">
-                <admin-email>tech-support@sop.co.at</admin-email>
+                <admin-email>connect-ewp@service4mobility.com</admin-email>
                 <ns17:http-security>
                     <ns5:client-auth-methods>
                         <ns22:httpsig/>
@@ -189,10 +265,10 @@ l6EzpwIDAQAB&#xD;
         </ns3:server-credentials-in-use>
     </ns3:host>
     <ns3:host>
-        <admin-email>tech-support@sop.co.at</admin-email>
+        <admin-email>connect-ewp@service4mobility.com</admin-email>
         <ns2:apis-implemented>
             <ns16:organizational-units version="2.1.0">
-                <admin-email>tech-support@sop.co.at</admin-email>
+                <admin-email>connect-ewp@service4mobility.com</admin-email>
                 <ns16:http-security>
                     <ns5:client-auth-methods>
                         <ns22:httpsig/>
