@@ -1038,36 +1038,6 @@
     <host>
         <ewp:admin-email>connect-ewp@service4mobility.com</ewp:admin-email>
         <apis-implemented>
-            <in2:institutions version="2.1.0">
-                <ewp:admin-email>connect-ewp@service4mobility.com</ewp:admin-email>
-                <in2:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A2:httpsig/>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B2:httpsig/>
-                        <sec-B1:tlscert/>
-                    </sec:server-auth-methods>
-                </in2:http-security>
-                <in2:url>https://mobility.uni.li/mobility/ewp/institutions</in2:url>
-                <in2:max-hei-ids>3</in2:max-hei-ids>
-            </in2:institutions>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>uni.li</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <certificate sha-256="ce950be55ae387d0057a0e56d45e572991aba8612851846d388342fa594d3a26"/>
-            <rsa-public-key sha-256="485c056a8a4a18bbba51eb740d51ab499dbcd1e9bbbfb7713c0962d90082c36a"/>
-        </client-credentials-in-use>
-        <server-credentials-in-use>
-            <rsa-public-key sha-256="485c056a8a4a18bbba51eb740d51ab499dbcd1e9bbbfb7713c0962d90082c36a"/>
-        </server-credentials-in-use>
-    </host>
-    <host>
-        <ewp:admin-email>connect-ewp@service4mobility.com</ewp:admin-email>
-        <apis-implemented>
             <d5:discovery version="5.0.0">
                 <ewp:admin-email>connect-ewp@service4mobility.com</ewp:admin-email>
                 <d5:url>https://mobility-online.unibe.ch/mobility/ewp/manifest?api=all</d5:url>
