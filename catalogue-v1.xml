@@ -1377,37 +1377,6 @@
     <host>
         <ewp:admin-email>connect-ewp@service4mobility.com</ewp:admin-email>
         <apis-implemented>
-            <ou2:organizational-units version="2.1.0">
-                <ewp:admin-email>connect-ewp@service4mobility.com</ewp:admin-email>
-                <ou2:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A2:httpsig/>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B2:httpsig/>
-                        <sec-B1:tlscert/>
-                    </sec:server-auth-methods>
-                </ou2:http-security>
-                <ou2:url>https://mobility-online.fh-rosenheim.de/mobility/ewp/ounits</ou2:url>
-                <ou2:max-ounit-ids>3</ou2:max-ounit-ids>
-                <ou2:max-ounit-codes>3</ou2:max-ounit-codes>
-            </ou2:organizational-units>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>fh-rosenheim.de</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <certificate sha-256="9e979a37815ddc63e7793c153fb4df0685eb52df1459738d0b6b569236b60859"/>
-            <rsa-public-key sha-256="68e9d17f53607d644c63316b10ea38334a3ef412387e53db57ee5c22e92ede0c"/>
-        </client-credentials-in-use>
-        <server-credentials-in-use>
-            <rsa-public-key sha-256="68e9d17f53607d644c63316b10ea38334a3ef412387e53db57ee5c22e92ede0c"/>
-        </server-credentials-in-use>
-    </host>
-    <host>
-        <ewp:admin-email>connect-ewp@service4mobility.com</ewp:admin-email>
-        <apis-implemented>
             <d5:discovery version="5.0.0">
                 <ewp:admin-email>connect-ewp@service4mobility.com</ewp:admin-email>
                 <d5:url>https://mobility.uni-konstanz.de/mobility/ewp/manifest?api=all</d5:url>
