@@ -3076,7 +3076,6 @@
             <hei-id>bristol-ewp.moveon4.com</hei-id>
             <hei-id>cbs-ewp.moveon4.com</hei-id>
             <hei-id>corktest2-ewp.moveon4.com</hei-id>
-            <hei-id>cth-ewp.moveon4.com</hei-id>
             <hei-id>dauphine-ewp.moveon4.com</hei-id>
             <hei-id>devinci-ewp.moveon4.com</hei-id>
             <hei-id>ecp-ewp.moveon4.com</hei-id>
@@ -3121,7 +3120,6 @@
             <hei-id>ucsyd-ewp.moveon4.com</hei-id>
             <hei-id>udc-ewp.moveon4.com</hei-id>
             <hei-id>udl-ewp.moveon4.com</hei-id>
-            <hei-id>ulb-ewp.moveon4.com</hei-id>
             <hei-id>uia-ewp.moveon4.com</hei-id>
             <hei-id>ulster-ewp.moveon4.com</hei-id>
             <hei-id>um-ewp.moveon4.com</hei-id>
@@ -3246,9 +3244,10 @@
             <hei-id>bayreuth-ewp.moveon4.com</hei-id>
             <hei-id>corktest2-ewp.moveon4.com</hei-id>
             <hei-id>hh-ewp.moveon4.de</hei-id>
+            <hei-id>mdh-ewp.moveon4.de</hei-id>
             <hei-id>oru-ewp.moveon4.de</hei-id>
             <hei-id>uem-ewp.moveon4.com</hei-id>
-            <hei-id>ulb-ewp.moveon4.com</hei-id>
+            <hei-id>ulb-ewp.moveon4.de</hei-id>
             <hei-id>kpz-ewp.moveon4.com</hei-id>
             <hei-id>arcada-ewp.moveon4.com</hei-id>
             <hei-id>ism-ewp.moveon4.com</hei-id>
@@ -4582,28 +4581,6 @@
         <apis-implemented>
             <in2:institutions version="2.0.0">
                 <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <in2:url>https://cth-ewp.moveon4.com/v1/institution</in2:url>
-                <in2:max-hei-ids>10</in2:max-hei-ids>
-            </in2:institutions>
-            <ou2:organizational-units version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <ou2:url>https://cth-ewp.moveon4.com/v1/ounit</ou2:url>
-                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
-                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
-            </ou2:organizational-units>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>cth-ewp.moveon4.com</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
-        </client-credentials-in-use>
-    </host>
-    <host>
-        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-        <apis-implemented>
-            <in2:institutions version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
                 <in2:url>https://dauphine-ewp.moveon4.com/v1/institution</in2:url>
                 <in2:max-hei-ids>10</in2:max-hei-ids>
             </in2:institutions>
@@ -5581,28 +5558,6 @@
         </apis-implemented>
         <institutions-covered>
             <hei-id>udl-ewp.moveon4.com</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
-        </client-credentials-in-use>
-    </host>
-    <host>
-        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-        <apis-implemented>
-            <in2:institutions version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <in2:url>https://ulb-ewp.moveon4.com/v1/institution</in2:url>
-                <in2:max-hei-ids>10</in2:max-hei-ids>
-            </in2:institutions>
-            <ou2:organizational-units version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <ou2:url>https://ulb-ewp.moveon4.com/v1/ounit</ou2:url>
-                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
-                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
-            </ou2:organizational-units>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>ulb-ewp.moveon4.com</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
@@ -8341,6 +8296,28 @@
         <apis-implemented>
             <in2:institutions version="2.0.0">
                 <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <in2:url>https://mdh-ewp.moveon4.de/v1/institution</in2:url>
+                <in2:max-hei-ids>10</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.0.0">
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <ou2:url>https://mdh-ewp.moveon4.de/v1/ounit</ou2:url>
+                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>mdh-ewp.moveon4.de</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
+        </client-credentials-in-use>
+    </host>
+    <host>
+        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+        <apis-implemented>
+            <in2:institutions version="2.0.0">
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
                 <in2:url>https://oru-ewp.moveon4.de/v1/institution</in2:url>
                 <in2:max-hei-ids>10</in2:max-hei-ids>
             </in2:institutions>
@@ -8396,7 +8373,7 @@
             </ou2:organizational-units>
         </apis-implemented>
         <institutions-covered>
-            <hei-id>ulb-ewp.moveon4.com</hei-id>
+            <hei-id>ulb-ewp.moveon4.de</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
@@ -9287,12 +9264,6 @@
             <other-id type="euc">28454</other-id>
             <other-id type="pic">999975717</other-id>
             <name xml:lang="en">University College Cork</name>
-        </hei>
-        <hei id="cth-ewp.moveon4.com">
-            <other-id type="erasmus">S  GOTEBOR02</other-id>
-            <other-id type="euc">29399</other-id>
-            <other-id type="pic">999980373</other-id>
-            <name xml:lang="en">Chalmers tekniska högskola</name>
         </hei>
         <hei id="dalarna-ewp.moveon4.de">
             <other-id type="erasmus">S  FALUN01</other-id>
@@ -10211,6 +10182,12 @@
         <hei id="mbs-ewp.moveon4.de">
             <name xml:lang="en">Munich Business School</name>
         </hei>
+        <hei id="mdh-ewp.moveon4.de">
+            <other-id type="erasmus">S  VASTERA01</other-id>
+            <other-id type="euc">29369</other-id>
+            <other-id type="pic">999881530</other-id>
+            <name xml:lang="en">Mälardalens högskola</name>
+        </hei>
         <hei id="mdw.ac.at">
             <other-id type="erasmus">A  WIEN08</other-id>
             <other-id type="euc">28558-IC-1-2007-1-AT-ERASMUS-EUC-1</other-id>
@@ -10867,7 +10844,7 @@
             <name xml:lang="en">UiT The Arctic University of Norway</name>
             <name xml:lang="no">UiT Norges arktiske universitet</name>
         </hei>
-        <hei id="ulb-ewp.moveon4.com">
+        <hei id="ulb-ewp.moveon4.de">
             <other-id type="erasmus">B  BRUXEL04</other-id>
             <other-id type="euc">28203</other-id>
             <other-id type="pic">999986290</other-id>
