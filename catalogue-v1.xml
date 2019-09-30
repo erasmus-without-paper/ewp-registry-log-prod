@@ -3087,14 +3087,12 @@
             <hei-id>hanz2-ewp.moveon4.com</hei-id>
             <hei-id>herts-ewp.moveon4.com</hei-id>
             <hei-id>hesso-ewp.moveon4.com</hei-id>
-            <hei-id>hof-ewp.moveon4.com</hei-id>
             <hei-id>hogent-ewp.moveon4.com</hei-id>
             <hei-id>hsleiden-ewp.moveon4.com</hei-id>
             <hei-id>hull-ewp.moveon4.com</hei-id>
             <hei-id>inholland-ewp.moveon4.com</hei-id>
             <hei-id>insacvl-ewp.moveon4.com</hei-id>
             <hei-id>ipc-ewp.moveon4.com</hei-id>
-            <hei-id>ism-ewp.moveon4.com</hei-id>
             <hei-id>juancarlos-ewp.moveon4.com</hei-id>
             <hei-id>kau-ewp.moveon4.com</hei-id>
             <hei-id>kulantwerp-ewp.moveon4.com</hei-id>
@@ -3240,7 +3238,7 @@
             <hei-id>ulb-ewp.moveon4.de</hei-id>
             <hei-id>kpz-ewp.moveon4.de</hei-id>
             <hei-id>arcada-ewp.moveon4.com</hei-id>
-            <hei-id>ism-ewp.moveon4.com</hei-id>
+            <hei-id>ism-ewp.moveon4.de</hei-id>
             <hei-id>hof-ewp.moveon4.com</hei-id>
             <hei-id>ucn-ewp.moveon4.com</hei-id>
             <hei-id>dauphine-ewp.moveon4.com</hei-id>
@@ -4812,28 +4810,6 @@
         <apis-implemented>
             <in2:institutions version="2.0.0">
                 <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <in2:url>https://hof-ewp.moveon4.com/v1/institution</in2:url>
-                <in2:max-hei-ids>10</in2:max-hei-ids>
-            </in2:institutions>
-            <ou2:organizational-units version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <ou2:url>https://hof-ewp.moveon4.com/v1/ounit</ou2:url>
-                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
-                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
-            </ou2:organizational-units>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>hof-ewp.moveon4.com</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
-        </client-credentials-in-use>
-    </host>
-    <host>
-        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-        <apis-implemented>
-            <in2:institutions version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
                 <in2:url>https://hogent-ewp.moveon4.com/v1/institution</in2:url>
                 <in2:max-hei-ids>10</in2:max-hei-ids>
             </in2:institutions>
@@ -4956,28 +4932,6 @@
         </apis-implemented>
         <institutions-covered>
             <hei-id>ipc-ewp.moveon4.com</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
-        </client-credentials-in-use>
-    </host>
-    <host>
-        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-        <apis-implemented>
-            <in2:institutions version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <in2:url>https://ism-ewp.moveon4.com/v1/institution</in2:url>
-                <in2:max-hei-ids>10</in2:max-hei-ids>
-            </in2:institutions>
-            <ou2:organizational-units version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <ou2:url>https://ism-ewp.moveon4.com/v1/ounit</ou2:url>
-                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
-                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
-            </ou2:organizational-units>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>ism-ewp.moveon4.com</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
@@ -8208,7 +8162,7 @@
             </ou2:organizational-units>
         </apis-implemented>
         <institutions-covered>
-            <hei-id>ism-ewp.moveon4.com</hei-id>
+            <hei-id>ism-ewp.moveon4.de</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
@@ -9737,7 +9691,7 @@
         <hei id="isep-ewp.moveonfr.com">
             <name xml:lang="en">ISEP</name>
         </hei>
-        <hei id="ism-ewp.moveon4.com">
+        <hei id="ism-ewp.moveon4.de">
             <other-id type="erasmus">D  DORTMUN04</other-id>
             <other-id type="euc">210610</other-id>
             <other-id type="pic">949283614</other-id>
