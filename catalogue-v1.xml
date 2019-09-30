@@ -3102,7 +3102,6 @@
             <hei-id>lavillette-ewp.moveon4.com</hei-id>
             <hei-id>ltu-ewp.moveon4.com</hei-id>
             <hei-id>nu-ewp.moveon4.com</hei-id>
-            <hei-id>oamk-ewp.moveon4.com</hei-id>
             <hei-id>rgu-ewp.moveon4.com</hei-id>
             <hei-id>surrey-ewp.moveon4.com</hei-id>
             <hei-id>tlse2-ewp.moveon4.com</hei-id>
@@ -3111,8 +3110,6 @@
             <hei-id>ucatt-ewp.moveon4.com</hei-id>
             <hei-id>ucm-ewp.moveon4.com</hei-id>
             <hei-id>ucn-ewp.moveon4.com</hei-id>
-            <hei-id>ucsyd-ewp.moveon4.com</hei-id>
-            <hei-id>udc-ewp.moveon4.com</hei-id>
             <hei-id>udl-ewp.moveon4.com</hei-id>
             <hei-id>uia-ewp.moveon4.com</hei-id>
             <hei-id>ulster-ewp.moveon4.com</hei-id>
@@ -3247,17 +3244,17 @@
             <hei-id>hof-ewp.moveon4.com</hei-id>
             <hei-id>ucn-ewp.moveon4.com</hei-id>
             <hei-id>dauphine-ewp.moveon4.com</hei-id>
-            <hei-id>ucsyd-ewp.moveon4.com</hei-id>
+            <hei-id>ucsyd-ewp.moveon4.de</hei-id>
             <hei-id>dauphine-ewp.moveonfr.com</hei-id>
             <hei-id>liu-ewp.moveon4.de</hei-id>
-            <hei-id>oamk-ewp.moveon4.com</hei-id>
+            <hei-id>oamk-ewp.moveon4.de</hei-id>
             <hei-id>cbs-ewp.moveon4.com</hei-id>
             <hei-id>uvic-ewp.moveon4.de</hei-id>
             <hei-id>kulantwerp-ewp.moveon4.com</hei-id>
             <hei-id>corktest2-ewp.moveon4.com</hei-id>
             <hei-id>unibz-ewp.moveon4.com</hei-id>
-            <hei-id>howest-ewp.moveon4.com</hei-id>
-            <hei-id>udc-ewp.moveon4.com</hei-id>
+            <hei-id>howest-ewp.moveon4.de</hei-id>
+            <hei-id>udc-ewp.moveonfr.com</hei-id>
             <hei-id>uax-ewp.moveon4.com</hei-id>
             <hei-id>lavillette-ewp.moveon4.com</hei-id>
             <hei-id>ucm-ewp.moveon4.com</hei-id>
@@ -5145,28 +5142,6 @@
         <apis-implemented>
             <in2:institutions version="2.0.0">
                 <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <in2:url>https://oamk-ewp.moveon4.com/v1/institution</in2:url>
-                <in2:max-hei-ids>10</in2:max-hei-ids>
-            </in2:institutions>
-            <ou2:organizational-units version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <ou2:url>https://oamk-ewp.moveon4.com/v1/ounit</ou2:url>
-                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
-                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
-            </ou2:organizational-units>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>oamk-ewp.moveon4.com</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
-        </client-credentials-in-use>
-    </host>
-    <host>
-        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-        <apis-implemented>
-            <in2:institutions version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
                 <in2:url>https://rgu-ewp.moveon4.com/v1/institution</in2:url>
                 <in2:max-hei-ids>10</in2:max-hei-ids>
             </in2:institutions>
@@ -5353,50 +5328,6 @@
                 <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
             </ou2:organizational-units>
         </apis-implemented>
-        <client-credentials-in-use>
-            <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
-        </client-credentials-in-use>
-    </host>
-    <host>
-        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-        <apis-implemented>
-            <in2:institutions version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <in2:url>https://ucsyd-ewp.moveon4.com/v1/institution</in2:url>
-                <in2:max-hei-ids>10</in2:max-hei-ids>
-            </in2:institutions>
-            <ou2:organizational-units version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <ou2:url>https://ucsyd-ewp.moveon4.com/v1/ounit</ou2:url>
-                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
-                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
-            </ou2:organizational-units>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>ucsyd-ewp.moveon4.com</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
-        </client-credentials-in-use>
-    </host>
-    <host>
-        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-        <apis-implemented>
-            <in2:institutions version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <in2:url>https://udc-ewp.moveon4.com/v1/institution</in2:url>
-                <in2:max-hei-ids>10</in2:max-hei-ids>
-            </in2:institutions>
-            <ou2:organizational-units version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <ou2:url>https://udc-ewp.moveon4.com/v1/ounit</ou2:url>
-                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
-                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
-            </ou2:organizational-units>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>udc-ewp.moveon4.com</hei-id>
-        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
         </client-credentials-in-use>
@@ -8365,7 +8296,7 @@
             </ou2:organizational-units>
         </apis-implemented>
         <institutions-covered>
-            <hei-id>ucsyd-ewp.moveon4.com</hei-id>
+            <hei-id>ucsyd-ewp.moveon4.de</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
@@ -8431,7 +8362,7 @@
             </ou2:organizational-units>
         </apis-implemented>
         <institutions-covered>
-            <hei-id>oamk-ewp.moveon4.com</hei-id>
+            <hei-id>oamk-ewp.moveon4.de</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
@@ -8563,7 +8494,7 @@
             </ou2:organizational-units>
         </apis-implemented>
         <institutions-covered>
-            <hei-id>howest-ewp.moveon4.com</hei-id>
+            <hei-id>howest-ewp.moveon4.de</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
@@ -8585,7 +8516,7 @@
             </ou2:organizational-units>
         </apis-implemented>
         <institutions-covered>
-            <hei-id>udc-ewp.moveon4.com</hei-id>
+            <hei-id>udc-ewp.moveonfr.com</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
@@ -9541,7 +9472,7 @@
             <name xml:lang="en">UNIVERSITY COLLEGE GHENT</name>
             <name xml:lang="nl">Hogeschool Gent</name>
         </hei>
-        <hei id="howest-ewp.moveon4.com">
+        <hei id="howest-ewp.moveon4.de">
             <other-id type="erasmus">B  KORTRIJ03</other-id>
             <other-id type="euc">27931</other-id>
             <other-id type="pic">998686684</other-id>
@@ -10054,7 +9985,7 @@
         <hei id="nu-ewp.moveon4.com">
             <name xml:lang="en">Northumbria University</name>
         </hei>
-        <hei id="oamk-ewp.moveon4.com">
+        <hei id="oamk-ewp.moveon4.de">
             <other-id type="erasmus">SF OULU11</other-id>
             <other-id type="euc">29497</other-id>
             <other-id type="pic">949566466</other-id>
@@ -10596,14 +10527,13 @@
             <other-id type="pic">950017710</other-id>
             <name xml:lang="en">Professionshøjskolen University College Nordjylland</name>
         </hei>
-        <hei id="ucsyd-ewp.moveon4.com">
+        <hei id="ucsyd-ewp.moveon4.de">
             <name xml:lang="en">University College South Denmark</name>
         </hei>
-        <hei id="udc-ewp.moveon4.com">
+        <hei id="udc-ewp.moveonfr.com">
             <other-id type="erasmus">E  LA-CORU01</other-id>
             <other-id type="euc">28678</other-id>
             <other-id type="pic">999629718</other-id>
-            <name xml:lang="en">Universidade da CoruÃ±a</name>
             <name xml:lang="en">Universidade da Coruña</name>
         </hei>
         <hei id="udk-ewp.moveon4.de">
