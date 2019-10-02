@@ -2470,6 +2470,8 @@
         <institutions-covered>
             <hei-id>sepr.edu</hei-id>
             <hei-id>aec-music.eu</hei-id>
+            <hei-id>uni-bge.hu</hei-id>
+            <hei-id>usi.ch</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="9497576369d8a978672bdceaa2f2fbf5ff5966ff854d1bec7a7b964ef67b0df2"/>
@@ -2501,6 +2503,8 @@
         <institutions-covered>
             <hei-id>sepr.edu</hei-id>
             <hei-id>aec-music.eu</hei-id>
+            <hei-id>uni-bge.hu</hei-id>
+            <hei-id>usi.ch</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="9497576369d8a978672bdceaa2f2fbf5ff5966ff854d1bec7a7b964ef67b0df2"/>
@@ -2533,6 +2537,76 @@
         <institutions-covered>
             <hei-id>sepr.edu</hei-id>
             <hei-id>aec-music.eu</hei-id>
+            <hei-id>uni-bge.hu</hei-id>
+            <hei-id>usi.ch</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="9497576369d8a978672bdceaa2f2fbf5ff5966ff854d1bec7a7b964ef67b0df2"/>
+            <rsa-public-key sha-256="769c7a9c8bac71a238ea9e78dda3e49bcabbaf695f56fbc99dd4d6e8f777756a"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="769c7a9c8bac71a238ea9e78dda3e49bcabbaf695f56fbc99dd4d6e8f777756a"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <ewp:admin-email>connect-ewp@service4mobility.com</ewp:admin-email>
+        <apis-implemented>
+            <om1:omobilities
+                xmlns:om1="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd"
+                version="0.15.0"
+            >
+                <ewp:admin-email>connect-ewp@service4mobility.com</ewp:admin-email>
+                <om1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </om1:http-security>
+                <om1:get-url>https://www.service4mobility.com/mobility_connect/ewp/mobility_out/get</om1:get-url>
+                <om1:index-url>https://www.service4mobility.com/mobility_connect/ewp/mobility_out/index</om1:index-url>
+                <om1:max-omobility-ids>1</om1:max-omobility-ids>
+                <om1:sends-notifications/>
+            </om1:omobilities>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>uni-bge.hu</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="9497576369d8a978672bdceaa2f2fbf5ff5966ff854d1bec7a7b964ef67b0df2"/>
+            <rsa-public-key sha-256="769c7a9c8bac71a238ea9e78dda3e49bcabbaf695f56fbc99dd4d6e8f777756a"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="769c7a9c8bac71a238ea9e78dda3e49bcabbaf695f56fbc99dd4d6e8f777756a"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <ewp:admin-email>connect-ewp@service4mobility.com</ewp:admin-email>
+        <apis-implemented>
+            <imc1:imobility-cnr
+                xmlns:imc1="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="0.1.1"
+            >
+                <ewp:admin-email>connect-ewp@service4mobility.com</ewp:admin-email>
+                <imc1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </imc1:http-security>
+                <imc1:url>https://www.service4mobility.com/mobility_connect/ewp/mobility_in/cnr</imc1:url>
+                <imc1:max-omobility-ids>1</imc1:max-omobility-ids>
+            </imc1:imobility-cnr>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>uni-bge.hu</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="9497576369d8a978672bdceaa2f2fbf5ff5966ff854d1bec7a7b964ef67b0df2"/>
@@ -10609,6 +10683,13 @@
             <name xml:lang="de">Universität Augsburg</name>
             <name xml:lang="en">Universität Augsburg</name>
         </hei>
+        <hei id="uni-bge.hu">
+            <other-id type="eche">51693-EPP-1-2014-1-HU-EPPKA3-ECHE</other-id>
+            <other-id type="erasmus">HU BUDAPES20</other-id>
+            <other-id type="pic">947274259</other-id>
+            <name xml:lang="en">Budapest Business School</name>
+            <name xml:lang="hu">Budapest Business School</name>
+        </hei>
         <hei id="uni-bielefeld.de">
             <other-id type="erasmus">D  BIELEFE01</other-id>
             <other-id type="euc">29885-IC-1-2007-1-DE-ERASMUS-EUCX-1</other-id>
@@ -10931,6 +11012,13 @@
             <other-id type="euc">28675</other-id>
             <other-id type="pic">999880560</other-id>
             <name xml:lang="en">Universitat Rovira i Virgili</name>
+        </hei>
+        <hei id="usi.ch">
+            <other-id type="eche">259340-EPP-1-2014-1-CH-EPPKA3-ECHE</other-id>
+            <other-id type="erasmus">CH LUGANO01</other-id>
+            <other-id type="pic">999585874</other-id>
+            <name xml:lang="de">Università della Svizzera italiana  Servizio ricerca</name>
+            <name xml:lang="en">Università della Svizzera italiana  Servizio ricerca</name>
         </hei>
         <hei id="usj-ewp.moveon4.com">
             <name xml:lang="en">Universidad San Jorge</name>
