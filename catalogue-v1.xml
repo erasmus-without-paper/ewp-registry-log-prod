@@ -2280,6 +2280,35 @@
         </server-credentials-in-use>
     </host>
     <host>
+        <apis-implemented>
+            <ou2:organizational-units version="2.1.0">
+                <ou2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </ou2:http-security>
+                <ou2:url>https://mobility.hslu.ch/mobility/ewp/ounits</ou2:url>
+                <ou2:max-ounit-ids>3</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>3</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>hslu.ch</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="c308051a1923a41d5413d2cf526c0d285009b1f522857b361b46d136ee8967b7"/>
+            <rsa-public-key sha-256="22d0ef3bae0bfa8f5efb61e3c6d6348b1926fde691c0dc54b45207e978cc557b"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="22d0ef3bae0bfa8f5efb61e3c6d6348b1926fde691c0dc54b45207e978cc557b"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
         <ewp:admin-email>connect-ewp@service4mobility.com</ewp:admin-email>
         <apis-implemented>
             <d5:discovery version="5.0.0">
