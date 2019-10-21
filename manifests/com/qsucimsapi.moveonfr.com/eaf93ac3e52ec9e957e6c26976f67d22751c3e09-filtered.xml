@@ -53,6 +53,12 @@
             <r:hei id="ensas-ewp.moveonfr.com">
                 <r:name xml:lang="en">Ecole Nationale Sup?rieure d'Architecture de Strasbourg</r:name>
             </r:hei>
+            <r:hei id="ehess-ewp.moveonfr.com">
+                <r:other-id type="erasmus">F  PARIS057</r:other-id>
+                <r:other-id type="euc">28334</r:other-id>
+                <r:other-id type="pic">999510117</r:other-id>
+                <r:name xml:lang="en">Ecole des Hautes Etudes en Sciences Sociales</r:name>
+            </r:hei>
             <r:hei id="icp-ewp.moveonfr.com">
                 <r:name xml:lang="en">Institut Catholique de Paris</r:name>
             </r:hei>
@@ -329,6 +335,12 @@
                 <r:other-id type="pic">999876874</r:other-id>
                 <r:name xml:lang="en">Luleå tekniska universitet</r:name>
             </r:hei>
+            <r:hei id="tlse2-ewp.moveon4.com">
+                <r:other-id type="erasmus">F  TOULOUS02</r:other-id>
+                <r:other-id type="euc">27953</r:other-id>
+                <r:other-id type="pic">999501096</r:other-id>
+                <r:name xml:lang="en">Université Toulouse - Jean Jaurès</r:name>
+            </r:hei>
             <r:hei id="tm-ewp.moveon4.com">
                 <r:other-id type="erasmus">B  MECHELE14</r:other-id>
                 <r:other-id type="euc">28142</r:other-id>
@@ -412,6 +424,9 @@
                 <r:other-id type="euc">28675</r:other-id>
                 <r:other-id type="pic">999880560</r:other-id>
                 <r:name xml:lang="en">Universitat Rovira i Virgili</r:name>
+            </r:hei>
+            <r:hei id="viauc-ewp.moveon4.com">
+                <r:name xml:lang="en">VIA University College</r:name>
             </r:hei>
             <r:hei id="zagreb-ewp.moveon4.com">
                 <r:other-id type="erasmus">HR ZAGREB01</r:other-id>
@@ -672,6 +687,12 @@
                 <r:other-id type="euc">28770</r:other-id>
                 <r:other-id type="pic">999863682</r:other-id>
                 <r:name xml:lang="en">Universität Trier</r:name>
+            </r:hei>
+            <r:hei id="uu-ewp.moveon4.de">
+                <r:other-id type="erasmus">S  UPPSALA01</r:other-id>
+                <r:other-id type="euc">29350</r:other-id>
+                <r:other-id type="pic">999985029</r:other-id>
+                <r:name xml:lang="en">Uppsala universitet</r:name>
             </r:hei>
             <r:hei id="west-ewp.moveon4.de">
                 <r:other-id type="erasmus">D  HEIDE01</r:other-id>
@@ -1363,7 +1384,14 @@ maEQrVEuDvM0fOqeuI3HsdzZuVFQvbRdNwk2kZY3FfNen9ZmMPHIpzGx88G6M3Dz
                 <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
             </ou2:organizational-units>
         </r:apis-implemented>
-        <ns3:institutions-covered/>
+        <ns3:institutions-covered>
+            <r:hei id="ehess-ewp.moveonfr.com">
+                <r:other-id type="erasmus">F  PARIS057</r:other-id>
+                <r:other-id type="euc">28334</r:other-id>
+                <r:other-id type="pic">999510117</r:other-id>
+                <r:name xml:lang="en">Ecole des Hautes Etudes en Sciences Sociales</r:name>
+            </r:hei>
+        </ns3:institutions-covered>
         <ns3:client-credentials-in-use>
             <ns3:certificate>MIIDnTCCAoWgAwIBAgIJAOiDLUc/o7t5MA0GCSqGSIb3DQEBBQUAMGQxCzAJBgNV
 BAYTAklOMRIwEAYDVQQIDAlLQVJOQVRBS0ExEjAQBgNVBAcMCUJBTkdBTE9SRTEL
@@ -4656,7 +4684,14 @@ maEQrVEuDvM0fOqeuI3HsdzZuVFQvbRdNwk2kZY3FfNen9ZmMPHIpzGx88G6M3Dz
                 <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
             </ou2:organizational-units>
         </r:apis-implemented>
-        <ns3:institutions-covered/>
+        <ns3:institutions-covered>
+            <r:hei id="tlse2-ewp.moveon4.com">
+                <r:other-id type="erasmus">F  TOULOUS02</r:other-id>
+                <r:other-id type="euc">27953</r:other-id>
+                <r:other-id type="pic">999501096</r:other-id>
+                <r:name xml:lang="en">Université Toulouse - Jean Jaurès</r:name>
+            </r:hei>
+        </ns3:institutions-covered>
         <ns3:client-credentials-in-use>
             <ns3:certificate>MIIDnTCCAoWgAwIBAgIJAOiDLUc/o7t5MA0GCSqGSIb3DQEBBQUAMGQxCzAJBgNV
 BAYTAklOMRIwEAYDVQQIDAlLQVJOQVRBS0ExEjAQBgNVBAcMCUJBTkdBTE9SRTEL
@@ -5556,7 +5591,11 @@ maEQrVEuDvM0fOqeuI3HsdzZuVFQvbRdNwk2kZY3FfNen9ZmMPHIpzGx88G6M3Dz
                 <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
             </ou2:organizational-units>
         </r:apis-implemented>
-        <ns3:institutions-covered/>
+        <ns3:institutions-covered>
+            <r:hei id="viauc-ewp.moveon4.com">
+                <r:name xml:lang="en">VIA University College</r:name>
+            </r:hei>
+        </ns3:institutions-covered>
         <ns3:client-credentials-in-use>
             <ns3:certificate>MIIDnTCCAoWgAwIBAgIJAOiDLUc/o7t5MA0GCSqGSIb3DQEBBQUAMGQxCzAJBgNV
 BAYTAklOMRIwEAYDVQQIDAlLQVJOQVRBS0ExEjAQBgNVBAcMCUJBTkdBTE9SRTEL
@@ -9145,7 +9184,14 @@ maEQrVEuDvM0fOqeuI3HsdzZuVFQvbRdNwk2kZY3FfNen9ZmMPHIpzGx88G6M3Dz
                 <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
             </ou2:organizational-units>
         </r:apis-implemented>
-        <ns3:institutions-covered/>
+        <ns3:institutions-covered>
+            <r:hei id="uu-ewp.moveon4.de">
+                <r:other-id type="erasmus">S  UPPSALA01</r:other-id>
+                <r:other-id type="euc">29350</r:other-id>
+                <r:other-id type="pic">999985029</r:other-id>
+                <r:name xml:lang="en">Uppsala universitet</r:name>
+            </r:hei>
+        </ns3:institutions-covered>
         <ns3:client-credentials-in-use>
             <ns3:certificate>MIIDnTCCAoWgAwIBAgIJAOiDLUc/o7t5MA0GCSqGSIb3DQEBBQUAMGQxCzAJBgNV
 BAYTAklOMRIwEAYDVQQIDAlLQVJOQVRBS0ExEjAQBgNVBAcMCUJBTkdBTE9SRTEL

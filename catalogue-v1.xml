@@ -3208,6 +3208,7 @@
             <hei-id>insarouen-ewp.moveonfr.com</hei-id>
             <hei-id>descartes-ewp.moveonfr.com</hei-id>
             <hei-id>ensas-ewp.moveonfr.com</hei-id>
+            <hei-id>ehess-ewp.moveonfr.com</hei-id>
             <hei-id>icp-ewp.moveonfr.com</hei-id>
             <hei-id>inpb-ewp.moveonfr.com</hei-id>
             <hei-id>ieprennes-ewp.moveonfr.com</hei-id>
@@ -3265,6 +3266,7 @@
             <hei-id>kulantwerp-ewp.moveon4.com</hei-id>
             <hei-id>lavillette-ewp.moveon4.com</hei-id>
             <hei-id>ltu-ewp.moveon4.com</hei-id>
+            <hei-id>tlse2-ewp.moveon4.com</hei-id>
             <hei-id>tm-ewp.moveon4.com</hei-id>
             <hei-id>uax-ewp.moveon4.com</hei-id>
             <hei-id>ucatt-ewp.moveon4.com</hei-id>
@@ -3281,6 +3283,7 @@
             <hei-id>uorleans-ewp.moveon4.com</hei-id>
             <hei-id>upm-ewp.moveon4.com</hei-id>
             <hei-id>urv-ewp.moveon4.com</hei-id>
+            <hei-id>viauc-ewp.moveon4.com</hei-id>
             <hei-id>zagreb-ewp.moveon4.com</hei-id>
             <hei-id>adbk-ewp.moveon4.de</hei-id>
             <hei-id>bth-ewp.moveon4.de</hei-id>
@@ -3330,6 +3333,7 @@
             <hei-id>unileipzig-ewp.moveon4.de</hei-id>
             <hei-id>unilux-ewp.moveon4.de</hei-id>
             <hei-id>unitrier-ewp.moveon4.de</hei-id>
+            <hei-id>uu-ewp.moveon4.de</hei-id>
             <hei-id>west-ewp.moveon4.de</hei-id>
             <hei-id>wuerzburg-ewp.moveon4.de</hei-id>
             <hei-id>wwum-ewp.moveon4.de</hei-id>
@@ -3600,6 +3604,9 @@
                 <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
             </ou2:organizational-units>
         </apis-implemented>
+        <institutions-covered>
+            <hei-id>ehess-ewp.moveonfr.com</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
         </client-credentials-in-use>
@@ -5177,6 +5184,9 @@
                 <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
             </ou2:organizational-units>
         </apis-implemented>
+        <institutions-covered>
+            <hei-id>tlse2-ewp.moveon4.com</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
         </client-credentials-in-use>
@@ -5605,6 +5615,9 @@
                 <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
             </ou2:organizational-units>
         </apis-implemented>
+        <institutions-covered>
+            <hei-id>viauc-ewp.moveon4.com</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
         </client-credentials-in-use>
@@ -7310,6 +7323,9 @@
                 <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
             </ou2:organizational-units>
         </apis-implemented>
+        <institutions-covered>
+            <hei-id>uu-ewp.moveon4.de</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
         </client-credentials-in-use>
@@ -8884,6 +8900,12 @@
             <name xml:lang="de">Evangelische Hochschule Darmstadt</name>
             <name xml:lang="en">EVANGELISCHE HOCHSCHULE DARMSTADT, UNIVERSITY OF APPLIED SCIENCES</name>
         </hei>
+        <hei id="ehess-ewp.moveonfr.com">
+            <other-id type="erasmus">F  PARIS057</other-id>
+            <other-id type="euc">28334</other-id>
+            <other-id type="pic">999510117</other-id>
+            <name xml:lang="en">Ecole des Hautes Etudes en Sciences Sociales</name>
+        </hei>
         <hei id="ektf.hu">
             <other-id type="erasmus">HU EGER02</other-id>
             <other-id type="pic">999566765</other-id>
@@ -9933,6 +9955,12 @@
             <name xml:lang="en">TIO University of Applied Sciences</name>
             <name xml:lang="nl">TIO University of Applied Sciences</name>
         </hei>
+        <hei id="tlse2-ewp.moveon4.com">
+            <other-id type="erasmus">F  TOULOUS02</other-id>
+            <other-id type="euc">27953</other-id>
+            <other-id type="pic">999501096</other-id>
+            <name xml:lang="en">Université Toulouse - Jean Jaurès</name>
+        </hei>
         <hei id="tlse3-ewp.moveonfr.com">
             <name xml:lang="en">Universit? Paul Sabatier - Toulouse III</name>
         </hei>
@@ -10539,6 +10567,12 @@
             <name xml:lang="en">UNIVERSITY OF TWENTE</name>
             <name xml:lang="nl">UNIVERSITEIT TWENTE</name>
         </hei>
+        <hei id="uu-ewp.moveon4.de">
+            <other-id type="erasmus">S  UPPSALA01</other-id>
+            <other-id type="euc">29350</other-id>
+            <other-id type="pic">999985029</other-id>
+            <name xml:lang="en">Uppsala universitet</name>
+        </hei>
         <hei id="uva-ewp.moveon4.de">
             <other-id type="erasmus">SF VAASA01</other-id>
             <other-id type="euc">29553</other-id>
@@ -10571,6 +10605,9 @@
             <other-id type="pic">999851848</other-id>
             <name xml:lang="de">VETERINAERMEDIZINISCHE UNIVERSITAET WIEN</name>
             <name xml:lang="en">VETERINAERMEDIZINISCHE UNIVERSITAET WIEN</name>
+        </hei>
+        <hei id="viauc-ewp.moveon4.com">
+            <name xml:lang="en">VIA University College</name>
         </hei>
         <hei id="vid.no">
             <other-id type="erasmus">N  OSLO67</other-id>
