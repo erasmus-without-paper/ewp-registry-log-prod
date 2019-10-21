@@ -3254,6 +3254,7 @@
             <hei-id>gcu-ewp.moveon4.com</hei-id>
             <hei-id>gsa-ewp.moveon4.com</hei-id>
             <hei-id>hahe-ewp.moveon4.com</hei-id>
+            <hei-id>han-ewp.moveon4.com</hei-id>
             <hei-id>hanz2-ewp.moveon4.com</hei-id>
             <hei-id>herts-ewp.moveon4.com</hei-id>
             <hei-id>hogent-ewp.moveon4.com</hei-id>
@@ -3270,7 +3271,6 @@
             <hei-id>tm-ewp.moveon4.com</hei-id>
             <hei-id>ucatt-ewp.moveon4.com</hei-id>
             <hei-id>ucm-ewp.moveon4.com</hei-id>
-            <hei-id>ucn-ewp.moveon4.de</hei-id>
             <hei-id>uia-ewp.moveon4.com</hei-id>
             <hei-id>ulster-ewp.moveon4.com</hei-id>
             <hei-id>um-ewp.moveon4.com</hei-id>
@@ -3385,7 +3385,6 @@
             <hei-id>europauni-ewp.moveon4.com</hei-id>
             <hei-id>ensicaen1-ewp.moveon4.com</hei-id>
             <hei-id>unileon-ewp.moveon4.com</hei-id>
-            <hei-id>han-ewp.moveon4.com</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
@@ -4800,6 +4799,9 @@
                 <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
             </ou2:organizational-units>
         </apis-implemented>
+        <institutions-covered>
+            <hei-id>han-ewp.moveon4.com</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
         </client-credentials-in-use>
@@ -5265,28 +5267,6 @@
         </apis-implemented>
         <institutions-covered>
             <hei-id>ucm-ewp.moveon4.com</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
-        </client-credentials-in-use>
-    </host>
-    <host>
-        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-        <apis-implemented>
-            <in2:institutions version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <in2:url>https://ucn-ewp.moveon4.com/v1/institution</in2:url>
-                <in2:max-hei-ids>10</in2:max-hei-ids>
-            </in2:institutions>
-            <ou2:organizational-units version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <ou2:url>https://ucn-ewp.moveon4.com/v1/ounit</ou2:url>
-                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
-                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
-            </ou2:organizational-units>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>ucn-ewp.moveon4.de</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
@@ -8523,28 +8503,6 @@
         </client-credentials-in-use>
     </host>
     <host>
-        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-        <apis-implemented>
-            <in2:institutions version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <in2:url>https://han-ewp.moveon4.de/v1/institution</in2:url>
-                <in2:max-hei-ids>10</in2:max-hei-ids>
-            </in2:institutions>
-            <ou2:organizational-units version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <ou2:url>https://han-ewp.moveon4.de/v1/ounit</ou2:url>
-                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
-                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
-            </ou2:organizational-units>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>han-ewp.moveon4.com</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
-        </client-credentials-in-use>
-    </host>
-    <host>
         <ewp:admin-email>fpeixoto@uporto.pt</ewp:admin-email>
         <ewp:admin-notes>Manifest File for University of Porto.</ewp:admin-notes>
         <apis-implemented>
@@ -10190,11 +10148,7 @@
             <name xml:lang="en">Universidad Complutense de Madrid</name>
         </hei>
         <hei id="ucn-ewp.moveon4.de">
-            <other-id type="erasmus">SF MIKKELI07</other-id>
-            <other-id type="euc">245615</other-id>
-            <other-id type="pic">950017710</other-id>
             <name xml:lang="en">Professionshøjskolen University College Nordjylland</name>
-            <name xml:lang="en">South-Eastern Finland University of Applied Sciences</name>
         </hei>
         <hei id="ucsyd-ewp.moveon4.de">
             <name xml:lang="en">University College South Denmark</name>
