@@ -3230,6 +3230,7 @@
             <hei-id>aston-ewp.moveon4.com</hei-id>
             <hei-id>bayreuth-ewp.moveon4.com</hei-id>
             <hei-id>bham-ewp.moveon4.com</hei-id>
+            <hei-id>bfh-ewp.moveon4.com</hei-id>
             <hei-id>bi-ewp.moveon4.com</hei-id>
             <hei-id>bristol-ewp.moveon4.com</hei-id>
             <hei-id>cbs-ewp.moveon4.com</hei-id>
@@ -3268,6 +3269,7 @@
             <hei-id>viauc-ewp.moveon4.com</hei-id>
             <hei-id>zagreb-ewp.moveon4.com</hei-id>
             <hei-id>adbk-ewp.moveon4.de</hei-id>
+            <hei-id>ash-ewp.moveon4.de</hei-id>
             <hei-id>bth-ewp.moveon4.de</hei-id>
             <hei-id>btu-ewp.moveon4.de</hei-id>
             <hei-id>burghalle-ewp.moveon4.de</hei-id>
@@ -3292,6 +3294,7 @@
             <hei-id>hsessling-ewp.moveon4.de</hei-id>
             <hei-id>hsfurtw-ewp.moveon4.de</hei-id>
             <hei-id>hsharz-ewp.moveon4.de</hei-id>
+            <hei-id>hska-ewp.moveon4.de</hei-id>
             <hei-id>hsludwhf-ewp.moveon4.de</hei-id>
             <hei-id>hsreutl-ewp.moveon4.de</hei-id>
             <hei-id>hsrw-ewp.moveon4.de</hei-id>
@@ -3364,7 +3367,7 @@
             <hei-id>kulantwerp-ewp.moveon4.com</hei-id>
             <hei-id>howest-ewp.moveon4.de</hei-id>
             <hei-id>uax-ewp.moveon4.com</hei-id>
-            <hei-id>lavillette-ewp.moveon4.com</hei-id>
+            <hei-id>lavillette-ewp.moveonfr.com</hei-id>
             <hei-id>hahe-ewp.moveon4.com</hei-id>
             <hei-id>europauni-ewp.moveon4.com</hei-id>
             <hei-id>ensicaen1-ewp.moveon4.com</hei-id>
@@ -4511,6 +4514,9 @@
                 <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
             </ou2:organizational-units>
         </apis-implemented>
+        <institutions-covered>
+            <hei-id>bfh-ewp.moveon4.com</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
         </client-credentials-in-use>
@@ -5613,6 +5619,9 @@
                 <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
             </ou2:organizational-units>
         </apis-implemented>
+        <institutions-covered>
+            <hei-id>ash-ewp.moveon4.de</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
         </client-credentials-in-use>
@@ -6255,6 +6264,9 @@
                 <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
             </ou2:organizational-units>
         </apis-implemented>
+        <institutions-covered>
+            <hei-id>hska-ewp.moveon4.de</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
         </client-credentials-in-use>
@@ -8315,7 +8327,7 @@
             </ou2:organizational-units>
         </apis-implemented>
         <institutions-covered>
-            <hei-id>lavillette-ewp.moveon4.com</hei-id>
+            <hei-id>lavillette-ewp.moveonfr.com</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
@@ -8649,6 +8661,12 @@
             <other-id type="pic">986308514</other-id>
             <name xml:lang="en">Arteveldehogeschool</name>
         </hei>
+        <hei id="ash-ewp.moveon4.de">
+            <other-id type="erasmus">D  BERLIN05</other-id>
+            <other-id type="euc">29763</other-id>
+            <other-id type="pic">949249858</other-id>
+            <name xml:lang="en">Alice Salomon Hochschule Berlin</name>
+        </hei>
         <hei id="aston-ewp.moveon4.com">
             <other-id type="erasmus">UK BIRMING01</other-id>
             <other-id type="euc">28074</other-id>
@@ -8671,6 +8689,11 @@
             <other-id type="erasmus">IL BERL01</other-id>
             <name xml:lang="en">Beit Berl College</name>
             <name xml:lang="he">Beit Berl College</name>
+        </hei>
+        <hei id="bfh-ewp.moveon4.com">
+            <other-id type="erasmus">CH BERN11</other-id>
+            <other-id type="euc">259460</other-id>
+            <name xml:lang="en">BFH Berner Fachhochschule</name>
         </hei>
         <hei id="bham-ewp.moveon4.com">
             <other-id type="erasmus">UK BIRMING02</other-id>
@@ -9289,6 +9312,12 @@
             <other-id type="pic">989910027</other-id>
             <name xml:lang="en">Hochschule Harz - Hochschule für Angewandte Wissenschaften (FH)</name>
         </hei>
+        <hei id="hska-ewp.moveon4.de">
+            <other-id type="erasmus">D  KARLSRU05</other-id>
+            <other-id type="euc">28173</other-id>
+            <other-id type="pic">997543927</other-id>
+            <name xml:lang="en">Hochschule Karlsruhe - Technik und Wirtschaft</name>
+        </hei>
         <hei id="hsleiden-ewp.moveon4.com">
             <name xml:lang="en">Hogeschool Leiden </name>
         </hei>
@@ -9554,8 +9583,13 @@
             <other-id type="erasmus">F  PARIS126</other-id>
             <other-id type="euc">28515</other-id>
             <other-id type="pic">949530867</other-id>
-            <name xml:lang="en">Ecole Nationale Sup?rieure d'Architecture de Paris-La-Villette</name>
             <name xml:lang="en">Ecole Nationale Supérieure d'Architecture de Paris-La-Villette</name>
+        </hei>
+        <hei id="lavillette-ewp.moveonfr.com">
+            <other-id type="erasmus">F  PARIS126</other-id>
+            <other-id type="euc">28515</other-id>
+            <other-id type="pic">949530867</other-id>
+            <name xml:lang="en">Ecole Nationale Sup?rieure d'Architecture de Paris-La-Villette</name>
         </hei>
         <hei id="leosachsen-ewp.moveon4.de">
             <name xml:lang="en">Leonardo Büro Sachsen</name>
