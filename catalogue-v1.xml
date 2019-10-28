@@ -1486,6 +1486,37 @@
                 <e2:url>https://mycampus.ku.de/mobility/ewp/echo</e2:url>
             </e2:echo>
         </apis-implemented>
+        <institutions-covered>
+            <hei-id>ku.de</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="223469c26ab0c3243e002ad9be33ba0a07c47a5211a46c2e7a7c735384a9bd4d"/>
+            <rsa-public-key sha-256="d1c8e8e8589874f5de13ece67c4a015103acaf687b92376cb4ec322198d6a058"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="d1c8e8e8589874f5de13ece67c4a015103acaf687b92376cb4ec322198d6a058"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <in2:institutions version="2.1.0">
+                <in2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </in2:http-security>
+                <in2:url>https://mycampus.ku.de/mobility/ewp/institutions</in2:url>
+                <in2:max-hei-ids>3</in2:max-hei-ids>
+            </in2:institutions>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>ku.de</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="223469c26ab0c3243e002ad9be33ba0a07c47a5211a46c2e7a7c735384a9bd4d"/>
             <rsa-public-key sha-256="d1c8e8e8589874f5de13ece67c4a015103acaf687b92376cb4ec322198d6a058"/>
@@ -9445,6 +9476,13 @@
             <other-id type="pic">950913505</other-id>
             <name xml:lang="en">KÁROLI GÁSPÁR UNIVERSITY OF THE REFORMED CHURCH IN HUNGARY</name>
             <name xml:lang="hu">KÁROLI GÁSPÁR REFORMÁTUS EGYETEM</name>
+        </hei>
+        <hei id="ku.de">
+            <other-id type="erasmus">D  EICHSTA01</other-id>
+            <other-id type="euc">29755</other-id>
+            <other-id type="pic">997154666</other-id>
+            <name xml:lang="de">Katholische Universität Eichstätt-Ingolstadt</name>
+            <name xml:lang="en">Katholische Universität Eichstätt-Ingolstadt</name>
         </hei>
         <hei id="kug.ac.at">
             <other-id type="eche">29302-EPP-1-2014-1-AT-EPPKA3-ECHE</other-id>
