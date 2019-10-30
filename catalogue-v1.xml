@@ -3383,7 +3383,6 @@
             <hei-id>kulantwerp-ewp.moveon4.com</hei-id>
             <hei-id>howest-ewp.moveon4.de</hei-id>
             <hei-id>uax-ewp.moveon4.com</hei-id>
-            <hei-id>ucm-ewp.moveon4.de</hei-id>
             <hei-id>hahe-ewp.moveon4.com</hei-id>
             <hei-id>ensicaen1-ewp.moveon4.com</hei-id>
             <hei-id>unileon-ewp.moveon4.com</hei-id>
@@ -8238,28 +8237,6 @@
         <apis-implemented>
             <in2:institutions version="2.0.0">
                 <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <in2:url>https://ucm-ewp.moveon4.de/v1/institution</in2:url>
-                <in2:max-hei-ids>10</in2:max-hei-ids>
-            </in2:institutions>
-            <ou2:organizational-units version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <ou2:url>https://ucm-ewp.moveon4.de/v1/ounit</ou2:url>
-                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
-                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
-            </ou2:organizational-units>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>ucm-ewp.moveon4.de</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
-        </client-credentials-in-use>
-    </host>
-    <host>
-        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-        <apis-implemented>
-            <in2:institutions version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
                 <in2:url>https://hahe-ewp.moveon4.de/v1/institution</in2:url>
                 <in2:max-hei-ids>10</in2:max-hei-ids>
             </in2:institutions>
@@ -9977,12 +9954,6 @@
             <name xml:lang="nl">UCLouvain</name>
         </hei>
         <hei id="ucm-ewp.moveon4.com">
-            <other-id type="erasmus">E  MADRID03</other-id>
-            <other-id type="euc">28606</other-id>
-            <other-id type="pic">999874546</other-id>
-            <name xml:lang="en">Universidad Complutense de Madrid</name>
-        </hei>
-        <hei id="ucm-ewp.moveon4.de">
             <other-id type="erasmus">E  MADRID03</other-id>
             <other-id type="euc">28606</other-id>
             <other-id type="pic">999874546</other-id>
