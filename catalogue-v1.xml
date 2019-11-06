@@ -3348,7 +3348,6 @@
             <hei-id>capitole-ewp.moveonfr.com</hei-id>
             <hei-id>paris13-ewp.moveonfr.com</hei-id>
             <hei-id>upem-ewp.moveonfr.com</hei-id>
-            <hei-id>hh-ewp.moveon4.de</hei-id>
             <hei-id>studialis-ewp.moveonfr.com</hei-id>
             <hei-id>kp-ewp.moveon4.de</hei-id>
             <hei-id>uem-ewp.moveon4.com</hei-id>
@@ -4050,25 +4049,6 @@
         <apis-implemented>
             <in2:institutions version="2.0.0">
                 <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <in2:url>https://unicaen-ewp.moveonfr.com/v1/institution</in2:url>
-                <in2:max-hei-ids>10</in2:max-hei-ids>
-            </in2:institutions>
-            <ou2:organizational-units version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <ou2:url>https://unicaen-ewp.moveonfr.com/v1/ounit</ou2:url>
-                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
-                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
-            </ou2:organizational-units>
-        </apis-implemented>
-        <client-credentials-in-use>
-            <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
-        </client-credentials-in-use>
-    </host>
-    <host>
-        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-        <apis-implemented>
-            <in2:institutions version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
                 <in2:url>https://unimontpel-ewp.moveonfr.com/v1/institution</in2:url>
                 <in2:max-hei-ids>10</in2:max-hei-ids>
             </in2:institutions>
@@ -4498,25 +4478,6 @@
         <institutions-covered>
             <hei-id>bristol-ewp.moveon4.com</hei-id>
         </institutions-covered>
-        <client-credentials-in-use>
-            <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
-        </client-credentials-in-use>
-    </host>
-    <host>
-        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-        <apis-implemented>
-            <in2:institutions version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <in2:url>https://cbs-ewp.moveon4.com/v1/institution</in2:url>
-                <in2:max-hei-ids>10</in2:max-hei-ids>
-            </in2:institutions>
-            <ou2:organizational-units version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <ou2:url>https://cbs-ewp.moveon4.com/v1/ounit</ou2:url>
-                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
-                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
-            </ou2:organizational-units>
-        </apis-implemented>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
         </client-credentials-in-use>
@@ -7369,28 +7330,6 @@
         <apis-implemented>
             <in2:institutions version="2.0.0">
                 <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <in2:url>https://hh-ewp.moveon4.de/v1/institution</in2:url>
-                <in2:max-hei-ids>10</in2:max-hei-ids>
-            </in2:institutions>
-            <ou2:organizational-units version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <ou2:url>https://hh-ewp.moveon4.de/v1/ounit</ou2:url>
-                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
-                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
-            </ou2:organizational-units>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>hh-ewp.moveon4.de</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
-        </client-credentials-in-use>
-    </host>
-    <host>
-        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-        <apis-implemented>
-            <in2:institutions version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
                 <in2:url>https://studialis-ewp.moveonfr.com/v1/institution</in2:url>
                 <in2:max-hei-ids>10</in2:max-hei-ids>
             </in2:institutions>
@@ -8725,12 +8664,6 @@
             <other-id type="euc">219252</other-id>
             <other-id type="pic">999936335</other-id>
             <name xml:lang="en">Deutsche Telekom Hochschule für Telekommunikation, Leipzig (FH)</name>
-        </hei>
-        <hei id="hh-ewp.moveon4.de">
-            <other-id type="erasmus">S  HALMSTA01</other-id>
-            <other-id type="euc">29380</other-id>
-            <other-id type="pic">998196931</other-id>
-            <name xml:lang="en">Högskolan i Halmstad</name>
         </hei>
         <hei id="hhs.se">
             <other-id type="erasmus">S  STOCKHO05</other-id>
