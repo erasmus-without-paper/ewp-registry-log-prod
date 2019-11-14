@@ -3244,7 +3244,6 @@
             <hei-id>rub-ewp.moveon4.de</hei-id>
             <hei-id>rwthaachen-ewp.moveon4.de</hei-id>
             <hei-id>siegen-ewp.moveon4.de</hei-id>
-            <hei-id>stralsund-ewp.moveon4.de</hei-id>
             <hei-id>tudo-ewp.moveon4.de</hei-id>
             <hei-id>tum-ewp.moveon4.de</hei-id>
             <hei-id>udk-ewp.moveon4.de</hei-id>
@@ -3275,7 +3274,6 @@
             <hei-id>corktest2-ewp.moveon4.com</hei-id>
             <hei-id>mdh-ewp.moveon4.de</hei-id>
             <hei-id>universidadeuropea-ewp.moveon4.de</hei-id>
-            <hei-id>ulb-ewp.moveon4.de</hei-id>
             <hei-id>ism-ewp.moveon4.de</hei-id>
             <hei-id>ucn-ewp.moveon4.de</hei-id>
             <hei-id>dauphine-ewp.moveon4.com</hei-id>
@@ -3284,6 +3282,10 @@
             <hei-id>uax-ewp.moveon4.com</hei-id>
             <hei-id>hahe-ewp.moveon4.com</hei-id>
             <hei-id>ensicaen1-ewp.moveon4.com</hei-id>
+            <hei-id>inholland-ewp.moveon4.com</hei-id>
+            <hei-id>tm-ewp.moveon4.com</hei-id>
+            <hei-id>viauc-ewp.moveon4.com</hei-id>
+            <hei-id>zagreb-ewp.moveon4.com</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
@@ -6466,9 +6468,6 @@
                 <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
             </ou2:organizational-units>
         </apis-implemented>
-        <institutions-covered>
-            <hei-id>stralsund-ewp.moveon4.de</hei-id>
-        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
         </client-credentials-in-use>
@@ -7376,9 +7375,6 @@
                 <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
             </ou2:organizational-units>
         </apis-implemented>
-        <institutions-covered>
-            <hei-id>ulb-ewp.moveon4.de</hei-id>
-        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
         </client-credentials-in-use>
@@ -7745,6 +7741,132 @@
                 <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
             </ou2:organizational-units>
         </apis-implemented>
+        <client-credentials-in-use>
+            <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
+        </client-credentials-in-use>
+    </host>
+    <host>
+        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+        <apis-implemented>
+            <in2:institutions version="2.0.0">
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <in2:url>https://insacvl-ewp.moveonfr.com/v1/institution</in2:url>
+                <in2:max-hei-ids>10</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.0.0">
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <ou2:url>https://insacvl-ewp.moveonfr.com/v1/ounit</ou2:url>
+                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <client-credentials-in-use>
+            <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
+        </client-credentials-in-use>
+    </host>
+    <host>
+        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+        <apis-implemented>
+            <in2:institutions version="2.0.0">
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <in2:url>https://inholland-ewp.moveon4.de/v1/institution</in2:url>
+                <in2:max-hei-ids>10</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.0.0">
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <ou2:url>https://inholland-ewp.moveon4.de/v1/ounit</ou2:url>
+                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>inholland-ewp.moveon4.com</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
+        </client-credentials-in-use>
+    </host>
+    <host>
+        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+        <apis-implemented>
+            <in2:institutions version="2.0.0">
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <in2:url>https://tm-ewp.moveon4.de/v1/institution</in2:url>
+                <in2:max-hei-ids>10</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.0.0">
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <ou2:url>https://tm-ewp.moveon4.de/v1/ounit</ou2:url>
+                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>tm-ewp.moveon4.com</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
+        </client-credentials-in-use>
+    </host>
+    <host>
+        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+        <apis-implemented>
+            <in2:institutions version="2.0.0">
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <in2:url>https://usj-ewp.moveon4.de/v1/institution</in2:url>
+                <in2:max-hei-ids>10</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.0.0">
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <ou2:url>https://usj-ewp.moveon4.de/v1/ounit</ou2:url>
+                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <client-credentials-in-use>
+            <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
+        </client-credentials-in-use>
+    </host>
+    <host>
+        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+        <apis-implemented>
+            <in2:institutions version="2.0.0">
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <in2:url>https://viauc-ewp.moveon4.de/v1/institution</in2:url>
+                <in2:max-hei-ids>10</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.0.0">
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <ou2:url>https://viauc-ewp.moveon4.de/v1/ounit</ou2:url>
+                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>viauc-ewp.moveon4.com</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
+        </client-credentials-in-use>
+    </host>
+    <host>
+        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+        <apis-implemented>
+            <in2:institutions version="2.0.0">
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <in2:url>https://zagreb-ewp.moveon4.de/v1/institution</in2:url>
+                <in2:max-hei-ids>10</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.0.0">
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <ou2:url>https://zagreb-ewp.moveon4.de/v1/ounit</ou2:url>
+                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>zagreb-ewp.moveon4.com</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
         </client-credentials-in-use>
@@ -9028,9 +9150,6 @@
             <name xml:lang="en">Peter the Great St. Petersburg Polytechnic University</name>
             <name xml:lang="ru">Peter the Great St. Petersburg Polytechnic University</name>
         </hei>
-        <hei id="stralsund-ewp.moveon4.de">
-            <name xml:lang="en">Hochschule Stralsund, University of Applied Sciences</name>
-        </hei>
         <hei id="strath.ac.uk">
             <other-id type="erasmus">UK GLASGOW02</other-id>
             <other-id type="pic">999974068</other-id>
@@ -9288,12 +9407,6 @@
             <other-id type="pic">913175849</other-id>
             <name xml:lang="en">UiT The Arctic University of Norway</name>
             <name xml:lang="no">UiT Norges arktiske universitet</name>
-        </hei>
-        <hei id="ulb-ewp.moveon4.de">
-            <other-id type="erasmus">B  BRUXEL04</other-id>
-            <other-id type="euc">28203</other-id>
-            <other-id type="pic">999986290</other-id>
-            <name xml:lang="en">Université Libre de Bruxelles</name>
         </hei>
         <hei id="ull.es">
             <other-id type="erasmus">E  TENERIF01</other-id>
