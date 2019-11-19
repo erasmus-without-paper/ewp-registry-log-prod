@@ -3178,8 +3178,6 @@
             <hei-id>ecp-ewp.moveon4.com</hei-id>
             <hei-id>essex-ewp.moveon4.com</hei-id>
             <hei-id>gcu-ewp.moveon4.com</hei-id>
-            <hei-id>hanz2-ewp.moveon4.com</hei-id>
-            <hei-id>hogent-ewp.moveon4.com</hei-id>
             <hei-id>hsleiden-ewp.moveon4.com</hei-id>
             <hei-id>inholland-ewp.moveon4.com</hei-id>
             <hei-id>ipc-ewp.moveon4.com</hei-id>
@@ -4512,28 +4510,6 @@
         <apis-implemented>
             <in2:institutions version="2.0.0">
                 <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <in2:url>https://hanz2-ewp.moveon4.com/v1/institution</in2:url>
-                <in2:max-hei-ids>10</in2:max-hei-ids>
-            </in2:institutions>
-            <ou2:organizational-units version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <ou2:url>https://hanz2-ewp.moveon4.com/v1/ounit</ou2:url>
-                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
-                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
-            </ou2:organizational-units>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>hanz2-ewp.moveon4.com</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
-        </client-credentials-in-use>
-    </host>
-    <host>
-        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-        <apis-implemented>
-            <in2:institutions version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
                 <in2:url>https://herts-ewp.moveon4.com/v1/institution</in2:url>
                 <in2:max-hei-ids>10</in2:max-hei-ids>
             </in2:institutions>
@@ -4563,28 +4539,6 @@
                 <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
             </ou2:organizational-units>
         </apis-implemented>
-        <client-credentials-in-use>
-            <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
-        </client-credentials-in-use>
-    </host>
-    <host>
-        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-        <apis-implemented>
-            <in2:institutions version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <in2:url>https://hogent-ewp.moveon4.com/v1/institution</in2:url>
-                <in2:max-hei-ids>10</in2:max-hei-ids>
-            </in2:institutions>
-            <ou2:organizational-units version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <ou2:url>https://hogent-ewp.moveon4.com/v1/ounit</ou2:url>
-                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
-                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
-            </ou2:organizational-units>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>hogent-ewp.moveon4.com</hei-id>
-        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
         </client-credentials-in-use>
@@ -8425,12 +8379,6 @@
             <name xml:lang="en">HANKEN SVENSKA HANDELSHÖGSKOLAN</name>
             <name xml:lang="fi">HANKEN SVENSKA HANDELSHÖGSKOLAN</name>
         </hei>
-        <hei id="hanz2-ewp.moveon4.com">
-            <other-id type="erasmus">NL GRONING03</other-id>
-            <other-id type="euc">29019</other-id>
-            <other-id type="pic">996747848</other-id>
-            <name xml:lang="en">Hanzehogeschool Groningen</name>
-        </hei>
         <hei id="haw-hamburg.de">
             <other-id type="erasmus">D  HAMBURG06</other-id>
             <other-id type="euc">29782-IC-1-2007-1-DE-ERASMUS-EUCX-1</other-id>
@@ -8491,12 +8439,6 @@
             <other-id type="euc">28778</other-id>
             <other-id type="pic">998322837</other-id>
             <name xml:lang="en">Hochschule München</name>
-        </hei>
-        <hei id="hogent-ewp.moveon4.com">
-            <other-id type="erasmus">B  GENT25</other-id>
-            <other-id type="euc">28106</other-id>
-            <other-id type="pic">949465392</other-id>
-            <name xml:lang="en">Hogeschool Gent</name>
         </hei>
         <hei id="hogent.be">
             <other-id type="erasmus">B  GENT25</other-id>
