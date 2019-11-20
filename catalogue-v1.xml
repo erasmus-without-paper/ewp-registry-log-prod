@@ -3193,7 +3193,6 @@
             <hei-id>unav-ewp.moveon4.com</hei-id>
             <hei-id>unecon-ewp.moveon4.com</hei-id>
             <hei-id>uns-ewp.moveon4.com</hei-id>
-            <hei-id>upm-ewp.moveon4.com</hei-id>
             <hei-id>urv-ewp.moveon4.com</hei-id>
             <hei-id>viauc-ewp.moveon4.com</hei-id>
             <hei-id>zagreb-ewp.moveon4.com</hei-id>
@@ -3259,7 +3258,6 @@
             <hei-id>uu-ewp.moveon4.de</hei-id>
             <hei-id>west-ewp.moveon4.de</hei-id>
             <hei-id>wuerzburg-ewp.moveon4.de</hei-id>
-            <hei-id>wwum-ewp.moveon4.de</hei-id>
             <hei-id>zwickau-ewp.moveon4.de</hei-id>
             <hei-id>scpobx-ewp.moveonfr.com</hei-id>
             <hei-id>ubo-ewp.moveonfr.com</hei-id>
@@ -3284,6 +3282,8 @@
             <hei-id>tm-ewp.moveon4.com</hei-id>
             <hei-id>viauc-ewp.moveon4.com</hei-id>
             <hei-id>zagreb-ewp.moveon4.com</hei-id>
+            <hei-id>devinci-ewp.moveon4.com</hei-id>
+            <hei-id>tlse2-ewp.moveon4.com</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
@@ -5059,9 +5059,6 @@
                 <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
             </ou2:organizational-units>
         </apis-implemented>
-        <institutions-covered>
-            <hei-id>upm-ewp.moveon4.com</hei-id>
-        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
         </client-credentials-in-use>
@@ -6948,9 +6945,6 @@
                 <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
             </ou2:organizational-units>
         </apis-implemented>
-        <institutions-covered>
-            <hei-id>wwum-ewp.moveon4.de</hei-id>
-        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
         </client-credentials-in-use>
@@ -7826,6 +7820,69 @@
         </client-credentials-in-use>
     </host>
     <host>
+        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+        <apis-implemented>
+            <in2:institutions version="2.0.0">
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <in2:url>https://devinci-ewp.moveonfr.com/v1/institution</in2:url>
+                <in2:max-hei-ids>10</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.0.0">
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <ou2:url>https://devinci-ewp.moveonfr.com/v1/ounit</ou2:url>
+                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>devinci-ewp.moveon4.com</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
+        </client-credentials-in-use>
+    </host>
+    <host>
+        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+        <apis-implemented>
+            <in2:institutions version="2.0.0">
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <in2:url>https://tlse2-ewp.moveonfr.com/v1/institution</in2:url>
+                <in2:max-hei-ids>10</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.0.0">
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <ou2:url>https://tlse2-ewp.moveonfr.com/v1/ounit</ou2:url>
+                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>tlse2-ewp.moveon4.com</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
+        </client-credentials-in-use>
+    </host>
+    <host>
+        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+        <apis-implemented>
+            <in2:institutions version="2.0.0">
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <in2:url>https://bi-ewp.moveon4.de/v1/institution</in2:url>
+                <in2:max-hei-ids>10</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.0.0">
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <ou2:url>https://bi-ewp.moveon4.de/v1/ounit</ou2:url>
+                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <client-credentials-in-use>
+            <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
+        </client-credentials-in-use>
+    </host>
+    <host>
         <ewp:admin-email>fpeixoto@uporto.pt</ewp:admin-email>
         <ewp:admin-notes>Manifest File for University of Porto.</ewp:admin-notes>
         <apis-implemented>
@@ -8106,6 +8163,7 @@
             <other-id type="erasmus">F  PARIS270</other-id>
             <other-id type="euc">60442</other-id>
             <other-id type="pic">949658034</other-id>
+            <name xml:lang="en">P?le Universitaire L?onard de Vinci</name>
             <name xml:lang="en">Pôle Universitaire Léonard de Vinci</name>
         </hei>
         <hei id="diak.fi">
@@ -9164,6 +9222,7 @@
             <other-id type="erasmus">F  TOULOUS02</other-id>
             <other-id type="euc">27953</other-id>
             <other-id type="pic">999501096</other-id>
+            <name xml:lang="en">Universit? Toulouse - Jean Jaur?s</name>
             <name xml:lang="en">Université Toulouse - Jean Jaurès</name>
         </hei>
         <hei id="tlse3-ewp.moveonfr.com">
@@ -9691,9 +9750,6 @@
         <hei id="upicardie-ewp.moveonfr.com">
             <name xml:lang="en">Universit? de Picardie Jules Verne</name>
         </hei>
-        <hei id="upm-ewp.moveon4.com">
-            <name xml:lang="en">Universidad Politécnica de Madrid</name>
-        </hei>
         <hei id="upr.si">
             <other-id type="erasmus">SI KOPER03</other-id>
             <other-id type="pic">998802793</other-id>
@@ -9819,12 +9875,6 @@
             <other-id type="euc">29952</other-id>
             <other-id type="pic">999853206</other-id>
             <name xml:lang="en">Julius-Maximilians-Universität Würzburg</name>
-        </hei>
-        <hei id="wwum-ewp.moveon4.de">
-            <other-id type="erasmus">D  MUNSTER01</other-id>
-            <other-id type="euc">28449</other-id>
-            <other-id type="pic">999853691</other-id>
-            <name xml:lang="en">Westfälische Wilhelms-Universität Münster</name>
         </hei>
         <hei id="www.kth.se">
             <other-id type="erasmus">S  STOCKHO04</other-id>
