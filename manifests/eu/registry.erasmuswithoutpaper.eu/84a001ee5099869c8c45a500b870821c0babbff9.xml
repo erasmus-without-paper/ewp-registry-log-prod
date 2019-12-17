@@ -44,26 +44,13 @@
         <r:apis-implemented>
             <fake-api-without-a-version xmlns="https://github.com/erasmus-without-paper/ewp-registry-service/issues/8"/>
         </r:apis-implemented>
-        <institutions-covered>
-            <hei
-                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
-                id="validator-hei01.developers.erasmuswithoutpaper.eu"
-            >
-                <name>Artificial HEI for testing APIs</name>
-            </hei>
-            <hei
-                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
-                id="validator-hei02.developers.erasmuswithoutpaper.eu"
-            >
-                <name>Artificial HEI for testing APIs</name>
-            </hei>
-        </institutions-covered>
+        <institutions-covered/>
         <client-credentials-in-use>
-            <certificate>MIIDKjCCAhKgAwIBAgICMDkwDQYJKoZIhvcNAQELBQAwRDETMBEGA1UEAwwKRWNob1Rlc3RlcjENMAsGA1UECwwETm9uZTEPMA0GA1UECgwGTm9uZSBMMQ0wCwYDVQQGEwROb25lMB4XDTE5MTEwMzEyMTcxNVoXDTI5MTEzMDEyMTcxNVowbDE7MDkGA1UEAwwyRHluYW1pY2FsbHkgR2VuZXJhdGVkIENlcnRpZmljYXRlIGZvciB0ZXN0aW5nIEFQSXMxDTALBgNVBAsMBE5vbmUxDzANBgNVBAoMBk5vbmUgTDENMAsGA1UEBhMETm9uZTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAI9k0QreBbFKhBMQMCSyyQs8YMRkCHdPKb0H1vfl3mls0qmpQqgOILtr7Ogqeg6vIZLMAGdAmdbYb1t7iXubnzsul2GXGQgqdy1CldtsAs/IFkf0wzsB8wmxfLJlDygWdCnbEsak7EarGsBJ2x2TdFa6M488SPQ+bZ00alf5D196ilbW2SveA9bfrEFKfbMgE77vCzZRdZjczZEJxZNSWBR/PJ4C0qVeH2MDMTvBF0oMrANs65Ch5IDUvGGhFMTtBAC2ZauKhgKbP+AZ300ugZCPFMVmT7MgAukGNeXj3vonaUAnQunq2dghFmLCJEDpBUky4Me7TmfNNBkxsVBUyqsCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAfa+AAfdIGWx8K3iXZ63S9cMmIig+VSGlEX8Ww6E0XaK+BZXCrKEhm44Gc20D847joR56ldPCKmGn4n/U/wgc0NEUD31fgE2RxLUXFoYcElAIPV/CdSR9stHL9wDEE3m5N5Is96NmD519UGTeAbwWnBimpPybkkVv8u+KzKqGhqyt43Tdl43sR+43cQEF7a6i10Q9zFXlDO7ByK9ztWeN/fGHXOe60JDzIs6eJ1UGyWUjWNDXQ6U7XtPKauEBlUwhX5y5SIR70DzHLS2lUasTct3NnoWsSeXwcRbLjLYabOtj/oKkpkzV6ybccdXAmV+/7HLWwOZ5q3NeXFb6Jk2vMw==</certificate>
-            <rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAm9m7MxRKdG6NUc/j2MErTqljhlhAsHLBEl+EY++KLNUwyT+ateOYbxzyDrv1j94r40cOs0roEUjPFWmKetVQonP4imIhd9V2q+GmVJe59F2FvWEZ9tgng90aU5bcviNfANuPwbbgsx8vvSc68jWOn1NtvOCYUCDSeor56fajyKDdf7ZoL5ALCHEJuNHQy4rS88ct+A/L2Szg8BxQFj6JQQapILwHm45YTXX3G7z83EwJXzY4v7ZIsNDb05O7NtGMcz8TBqvGLsFDXPCwET1FfZ2FZL9nVhONotUSkDRWFSWX4PXFz804Pc8jioWSEnNZ8nOA2VCw0JXly3skHlXd+wIDAQAB</rsa-public-key>
+            <certificate>MIIDKjCCAhKgAwIBAgICMDkwDQYJKoZIhvcNAQELBQAwRDETMBEGA1UEAwwKRWNob1Rlc3RlcjENMAsGA1UECwwETm9uZTEPMA0GA1UECgwGTm9uZSBMMQ0wCwYDVQQGEwROb25lMB4XDTE5MTExNzA4NTk0NFoXDTI5MTIxNDA4NTk0NFowbDE7MDkGA1UEAwwyRHluYW1pY2FsbHkgR2VuZXJhdGVkIENlcnRpZmljYXRlIGZvciB0ZXN0aW5nIEFQSXMxDTALBgNVBAsMBE5vbmUxDzANBgNVBAoMBk5vbmUgTDENMAsGA1UEBhMETm9uZTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALG3iUbHmqY7+KIMwyQH/fu7MZJbkgcELoKhAqSVNNBSRDE80CcOFy9256Iv2BUXk/3YhDZTMILoivEBsEzQhoN8Ed+rHHxJuZ0jrkJR2CsXhV1YWLp+QvXuiXyb9BIRCJlOlPjWhfJNPWd3AeTeb53XCXT2LFhvG1AvNjdvoiEVPMSsAyuB/TxkgE+hroScQ3jN9ISZdC8ecb7BTcMIuHYpuOklty/fDJ7UqchbODmUoFDzcZM4jkR+CW9LgAl+rZgdilif7jjYtalX1U6OQOOoZ/6n9h4aymrUnbUwYcNV604gQ/Bnkcyc8uB/7C5vHWMYjSwesWufTS5USRf4wPsCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAMFDZ/BU5i6JyNhc7GLt0pYsceqEDTTH8f3IfmxJymMMezlGlGDU5H/pgCXFyseGM7tCAIt8gv7gFsI7/SgJSKuir6Orr0uDwhs1NZM+nC648BjgZQZo9YAlM5XVi8HUWOoAHnx14T72gCsA+5wvRmJWg2DPfHAaEkSUj25dfQzT3+FT3BCIvaeLkuMSVpwaIShsgOWohkh0YTom9JZaGEXFV3oj8yNw+53Q7zUYo2E3HyU0bebcMVpqs8lBMBWCYYkkQCGtQGv/A9NYe5qodfMHrOZ2HKhNyJpHVbAyoOmQ/Zq32y0EsGw3SIrgWvUy4IEyW9XX95O5rGGaGsiEeEQ==</certificate>
+            <rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvFf7R79SseHueRVbZW1XbpcTmguRJ9NOW8yYPe3oXKpBFT1TWSlAP2RnXflV+d1wOR7FwKEdlTk2lTWlKdzguEfIAyyWzk14Lgg6azhuzc16m+zZKyTgNXbFC1ipK9NxJXUcJmkAhgROkEHT0FYPD4IVnXa+0qjJjoK1Jq/n9ZRvsPpxKrzben9vZPJ7hrmJ1DNnm9gRTyFC/P1Avw5VOYvBALLrCtcKs8UVWBbtjI1kmY2dxz3wH8OEY/BP6xG8t6CXx5YiEt8v2RWxK7PdZ2DQP3zkZBAtEx8n19VKgjT0WM2zCudjtaibw/9xix6kF0Jj0mw0AL5EqIF1usozEwIDAQAB</rsa-public-key>
         </client-credentials-in-use>
         <server-credentials-in-use>
-            <rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqDm3ZzOCEFwLA5YEAyCOJFJ7HkBYlo3I6ftcyA3un8vN6sa2biGt2Cscu6RzcDC4J/O9VdjNS8Y6yCnmM9kXpPKVJx+InbJG0pBMBO7dd4K0UuUdbuy7jghUBscVRWTCO0SGP9B1kuje5hwfoYptmAzXR7nDuNjOKmJA3P1dCn/qQy8HnnwtpnNiSV0Nad2hgq8ZIuGlYEaZaF5SpFDYKMbYzMTRh7uWW8SiFy+yXGEYbDe4nY2od6aZWmVLQV+j0Gk6oxkUYRb02fsQjX28sn2lMiETzj9hHmhPPrXhWpIIZlENwEgXkaF4Xhlx9pSvRO2jLtUruF5WroFu5Tf6pwIDAQAB</rsa-public-key>
+            <rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAr12WbH2Ze6p2aRwmQAJDVOR3zjZTXu3ZcEJuixfeqiosIGhh0al5FyDu3EcwjpeR7MEcGq5yotUHnO9AFp9n2TrmkkQFya3e7spyoIxtVso2rkfIiDDyvlY/MSq/p7Wg6tVvw6daIiokxHuPJbHopCBCYRIAoHhhwAjJ/1e1dHkhMnCaoJMruXrLfMFByB5zAmVzDRKvQfoNfDTbVisnCXGFA6BkttV2X22JLGSVNqRvX4rRdFnjlq6IF7BSnfGRtua8f0kilC3lnIb+UYVlNBdL/Ibg4/7BiJsOdux4l5B8JfeSgJNe7ipy7xlUAeuwGJeI0rfW3dV85aeg3x1GdQIDAQAB</rsa-public-key>
         </server-credentials-in-use>
     </host>
 </manifest>
