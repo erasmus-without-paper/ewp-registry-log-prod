@@ -1698,6 +1698,99 @@
                 <e2:url>https://mobility-online.hs-augsburg.de/mobility/ewp/echo</e2:url>
             </e2:echo>
         </apis-implemented>
+        <institutions-covered>
+            <hei-id>hs-augsburg.de</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="5c819ec3cbccc0cabdfbba76593008d206f202ce3b7714a9351699b8240e4cc1"/>
+            <rsa-public-key sha-256="640bd05b7a581a755749224e84139e40adc8b38d44eb08ee1ac42a653aa322ad"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="640bd05b7a581a755749224e84139e40adc8b38d44eb08ee1ac42a653aa322ad"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <in2:institutions version="2.1.0">
+                <in2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </in2:http-security>
+                <in2:url>https://mobility-online.hs-augsburg.de/mobility/ewp/institutions</in2:url>
+                <in2:max-hei-ids>3</in2:max-hei-ids>
+            </in2:institutions>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>hs-augsburg.de</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="5c819ec3cbccc0cabdfbba76593008d206f202ce3b7714a9351699b8240e4cc1"/>
+            <rsa-public-key sha-256="640bd05b7a581a755749224e84139e40adc8b38d44eb08ee1ac42a653aa322ad"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="640bd05b7a581a755749224e84139e40adc8b38d44eb08ee1ac42a653aa322ad"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <ou2:organizational-units version="2.1.0">
+                <ou2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </ou2:http-security>
+                <ou2:url>https://mobility-online.hs-augsburg.de/mobility/ewp/ounits</ou2:url>
+                <ou2:max-ounit-ids>3</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>3</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>hs-augsburg.de</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="5c819ec3cbccc0cabdfbba76593008d206f202ce3b7714a9351699b8240e4cc1"/>
+            <rsa-public-key sha-256="640bd05b7a581a755749224e84139e40adc8b38d44eb08ee1ac42a653aa322ad"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="640bd05b7a581a755749224e84139e40adc8b38d44eb08ee1ac42a653aa322ad"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <om1:omobilities
+                xmlns:om1="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd"
+                version="0.15.0"
+            >
+                <om1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </om1:http-security>
+                <om1:get-url>https://mobility-online.hs-augsburg.de/mobility/ewp/mobility_out/get</om1:get-url>
+                <om1:index-url>https://mobility-online.hs-augsburg.de/mobility/ewp/mobility_out/index</om1:index-url>
+                <om1:max-omobility-ids>1</om1:max-omobility-ids>
+                <om1:sends-notifications/>
+            </om1:omobilities>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>hs-augsburg.de</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="5c819ec3cbccc0cabdfbba76593008d206f202ce3b7714a9351699b8240e4cc1"/>
             <rsa-public-key sha-256="640bd05b7a581a755749224e84139e40adc8b38d44eb08ee1ac42a653aa322ad"/>
@@ -8653,6 +8746,12 @@
             <other-id type="pic">973276273</other-id>
             <name xml:lang="de">Hochschule Aalen</name>
             <name xml:lang="en">AALEN UNIVERSITY</name>
+        </hei>
+        <hei id="hs-augsburg.de">
+            <other-id type="erasmus">D  AUGSBUR02</other-id>
+            <other-id type="pic">949261692</other-id>
+            <name xml:lang="de">Hochschule Augsburg</name>
+            <name xml:lang="en">Hochschule Augsburg</name>
         </hei>
         <hei id="hs-bremen.de">
             <other-id type="erasmus">D  BREMEN04</other-id>
