@@ -403,6 +403,12 @@
                 <r:other-id type="pic">999878523</r:other-id>
                 <r:name xml:lang="en">Universität Passau</r:name>
             </r:hei>
+            <r:hei id="uni-potsdam.de">
+                <r:other-id type="erasmus">D  POTSDAM01</r:other-id>
+                <r:other-id type="euc">28276</r:other-id>
+                <r:other-id type="pic">999854855</r:other-id>
+                <r:name xml:lang="en">Universität Potsdam</r:name>
+            </r:hei>
             <r:hei id="rwth-aachen.de">
                 <r:other-id type="erasmus">D  AACHEN01</r:other-id>
                 <r:other-id type="euc">29982</r:other-id>
@@ -616,6 +622,12 @@
                 <r:other-id type="pic">999874546</r:other-id>
                 <r:name xml:lang="en">Universidad Complutense de Madrid</r:name>
             </r:hei>
+            <r:hei id="europa-uni.de">
+                <r:other-id type="erasmus">D  FRANKFU08</r:other-id>
+                <r:other-id type="euc">29850</r:other-id>
+                <r:other-id type="pic">996853869</r:other-id>
+                <r:name xml:lang="en">Europa-UniversitÃ¤t Viadrina Frankfurt (Oder)</r:name>
+            </r:hei>
             <r:hei id="udl.cat">
                 <r:name xml:lang="en">Universitat de Lleida</r:name>
             </r:hei>
@@ -670,6 +682,12 @@
                 <r:other-id type="euc">257712</r:other-id>
                 <r:other-id type="pic">991256096</r:other-id>
                 <r:name xml:lang="en">Aalto-yliopisto</r:name>
+            </r:hei>
+            <r:hei id="univ-amu.fr">
+                <r:other-id type="erasmus">F  MARSEIL84</r:other-id>
+                <r:other-id type="euc">218004</r:other-id>
+                <r:other-id type="pic">943379224</r:other-id>
+                <r:name xml:lang="en">Ecole Nationale Supérieure d'Architecture de Marseille</r:name>
             </r:hei>
         </ns3:institutions-covered>
         <ns3:client-credentials-in-use>
@@ -4087,7 +4105,14 @@ maEQrVEuDvM0fOqeuI3HsdzZuVFQvbRdNwk2kZY3FfNen9ZmMPHIpzGx88G6M3Dz
                 <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
             </ou2:organizational-units>
         </r:apis-implemented>
-        <ns3:institutions-covered/>
+        <ns3:institutions-covered>
+            <r:hei id="uni-potsdam.de">
+                <r:other-id type="erasmus">D  POTSDAM01</r:other-id>
+                <r:other-id type="euc">28276</r:other-id>
+                <r:other-id type="pic">999854855</r:other-id>
+                <r:name xml:lang="en">Universität Potsdam</r:name>
+            </r:hei>
+        </ns3:institutions-covered>
         <ns3:client-credentials-in-use>
             <ns3:certificate>MIIDnTCCAoWgAwIBAgIJAOiDLUc/o7t5MA0GCSqGSIb3DQEBBQUAMGQxCzAJBgNV
 BAYTAklOMRIwEAYDVQQIDAlLQVJOQVRBS0ExEjAQBgNVBAcMCUJBTkdBTE9SRTEL
@@ -5980,7 +6005,14 @@ maEQrVEuDvM0fOqeuI3HsdzZuVFQvbRdNwk2kZY3FfNen9ZmMPHIpzGx88G6M3Dz
                 <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
             </ou2:organizational-units>
         </r:apis-implemented>
-        <ns3:institutions-covered/>
+        <ns3:institutions-covered>
+            <r:hei id="europa-uni.de">
+                <r:other-id type="erasmus">D  FRANKFU08</r:other-id>
+                <r:other-id type="euc">29850</r:other-id>
+                <r:other-id type="pic">996853869</r:other-id>
+                <r:name xml:lang="en">Europa-UniversitÃ¤t Viadrina Frankfurt (Oder)</r:name>
+            </r:hei>
+        </ns3:institutions-covered>
         <ns3:client-credentials-in-use>
             <ns3:certificate>MIIDnTCCAoWgAwIBAgIJAOiDLUc/o7t5MA0GCSqGSIb3DQEBBQUAMGQxCzAJBgNV
 BAYTAklOMRIwEAYDVQQIDAlLQVJOQVRBS0ExEjAQBgNVBAcMCUJBTkdBTE9SRTEL
@@ -6526,7 +6558,14 @@ maEQrVEuDvM0fOqeuI3HsdzZuVFQvbRdNwk2kZY3FfNen9ZmMPHIpzGx88G6M3Dz
                 <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
             </ou2:organizational-units>
         </r:apis-implemented>
-        <ns3:institutions-covered/>
+        <ns3:institutions-covered>
+            <r:hei id="univ-amu.fr">
+                <r:other-id type="erasmus">F  MARSEIL84</r:other-id>
+                <r:other-id type="euc">218004</r:other-id>
+                <r:other-id type="pic">943379224</r:other-id>
+                <r:name xml:lang="en">Ecole Nationale Supérieure d'Architecture de Marseille</r:name>
+            </r:hei>
+        </ns3:institutions-covered>
         <ns3:client-credentials-in-use>
             <ns3:certificate>MIIEFzCCAv+gAwIBAgIJAJjr1fTNoKYzMA0GCSqGSIb3DQEBCwUAMIGgMQswCQYD
 VQQGEwJGUjESMBAGA1UECAwJTWFyc2VpbGxlMRIwEAYDVQQHDAlNYXJzZWlsbGUx

@@ -3749,6 +3749,7 @@
             <hei-id>uni-osnabrueck.de</hei-id>
             <hei-id>ovgu.de</hei-id>
             <hei-id>uni-passau.de</hei-id>
+            <hei-id>uni-potsdam.de</hei-id>
             <hei-id>rwth-aachen.de</hei-id>
             <hei-id>ruhr-uni-bochum.de</hei-id>
             <hei-id>hochschule-stralsund.de</hei-id>
@@ -3789,6 +3790,7 @@
             <hei-id>uvic.cat</hei-id>
             <hei-id>udc.es</hei-id>
             <hei-id>ucm.es</hei-id>
+            <hei-id>europa-uni.de</hei-id>
             <hei-id>udl.cat</hei-id>
             <hei-id>han.nl</hei-id>
             <hei-id>insa-centrevaldeloire.fr</hei-id>
@@ -3800,6 +3802,7 @@
             <hei-id>bi.no</hei-id>
             <hei-id>bfh.ch</hei-id>
             <hei-id>aalto.fi</hei-id>
+            <hei-id>univ-amu.fr</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
@@ -5426,6 +5429,9 @@
                 <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
             </ou2:organizational-units>
         </apis-implemented>
+        <institutions-covered>
+            <hei-id>uni-potsdam.de</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
         </client-credentials-in-use>
@@ -6325,6 +6331,9 @@
                 <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
             </ou2:organizational-units>
         </apis-implemented>
+        <institutions-covered>
+            <hei-id>europa-uni.de</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
         </client-credentials-in-use>
@@ -6586,6 +6595,9 @@
                 <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
             </ou2:organizational-units>
         </apis-implemented>
+        <institutions-covered>
+            <hei-id>univ-amu.fr</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="d516b08f62a610d6dcc6d49c1251fa0548eb76b0c19c5cdee1745f83468f5598"/>
         </client-credentials-in-use>
@@ -6967,6 +6979,12 @@
             <other-id type="euc">28345</other-id>
             <other-id type="pic">949646588</other-id>
             <name xml:lang="en">Ecole Superieure des Sciences Commerciales d'Angers (ESSCA)</name>
+        </hei>
+        <hei id="europa-uni.de">
+            <other-id type="erasmus">D  FRANKFU08</other-id>
+            <other-id type="euc">29850</other-id>
+            <other-id type="pic">996853869</other-id>
+            <name xml:lang="en">Europa-UniversitÃ¤t Viadrina Frankfurt (Oder)</name>
         </hei>
         <hei id="fau.de">
             <other-id type="eche">28318-LA-1-2014-1-DE-E4AKA1</other-id>
@@ -8253,6 +8271,12 @@
             <other-id type="pic">999878523</other-id>
             <name xml:lang="en">Universität Passau</name>
         </hei>
+        <hei id="uni-potsdam.de">
+            <other-id type="erasmus">D  POTSDAM01</other-id>
+            <other-id type="euc">28276</other-id>
+            <other-id type="pic">999854855</other-id>
+            <name xml:lang="en">Universität Potsdam</name>
+        </hei>
         <hei id="uni-rostock.de">
             <other-id type="eche">28465-LA-1-2014-1-DE-E4AKA1-ECHE</other-id>
             <other-id type="erasmus">D  ROSTOCK01</other-id>
@@ -8320,6 +8344,12 @@
             <other-id type="pic">999898117</other-id>
             <name xml:lang="de">Montanuniversität Leoben</name>
             <name xml:lang="en">Montanuniversität Leoben</name>
+        </hei>
+        <hei id="univ-amu.fr">
+            <other-id type="erasmus">F  MARSEIL84</other-id>
+            <other-id type="euc">218004</other-id>
+            <other-id type="pic">943379224</other-id>
+            <name xml:lang="en">Ecole Nationale Supérieure d'Architecture de Marseille</name>
         </hei>
         <hei id="univ-angers.fr">
             <name xml:lang="en">Universit? d'Angers</name>
