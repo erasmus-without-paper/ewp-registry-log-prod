@@ -3357,6 +3357,36 @@
     <host>
         <apis-implemented>
             <d5:discovery version="5.0.0">
+                <d5:url>https://kvl.it.helsinki.fi/mobility/ewp/manifest?api=all</d5:url>
+            </d5:discovery>
+            <e2:echo version="2.0.0">
+                <e2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </e2:http-security>
+                <e2:url>https://kvl.it.helsinki.fi/mobility/ewp/echo</e2:url>
+            </e2:echo>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>helsinki.fi</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="1bcb9c813555824d7d8699bde2842b92af495824c5317985e46fadae961e2b2a"/>
+            <rsa-public-key sha-256="c20118d80cad0f1e71e100d534a27bf9437ab4b79a811440b96dfa5941d3171b"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="c20118d80cad0f1e71e100d534a27bf9437ab4b79a811440b96dfa5941d3171b"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <d5:discovery version="5.0.0">
                 <d5:url>https://www.service4mobility.com/mobility_connect/ewp/manifest?api=all</d5:url>
             </d5:discovery>
             <e2:echo version="2.0.0">
@@ -7545,6 +7575,13 @@
             <name xml:lang="de">Hochschule der Medien</name>
             <name xml:lang="en">Hochschule der Medien</name>
         </hei>
+        <hei id="helsinki.fi">
+            <other-id type="erasmus">SF HELSINK01</other-id>
+            <other-id type="euc">29604</other-id>
+            <other-id type="pic">999994535</other-id>
+            <name xml:lang="en">University of Helsinki</name>
+            <name xml:lang="fi">University of Helsinki</name>
+        </hei>
         <hei id="herts.ac.uk">
             <other-id type="erasmus">UK HATFIEL01</other-id>
             <other-id type="euc">28632</other-id>
@@ -9273,6 +9310,14 @@
             irzU54/+rVhCiB3vbmzNO+ojMN2XAXg8BxXBed+i9H0cPf6Pdya2ousJNSDAnt8SZHwWJMtXz+kZ
             kfl7DLqhZXVevyBM5qPshCSbbmYAupIuowFKRnQapHAaH4Wequ6NeKmRtghEuk7U3SRZ00Pge4xb
             JqRXTwIDAQAB
+        </rsa-public-key>
+        <rsa-public-key sha-256="c20118d80cad0f1e71e100d534a27bf9437ab4b79a811440b96dfa5941d3171b">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA9AIpxER9yddm25Fd4MF38rznnllgbwv8
+            UiW3ppB+q4tUSnFzD7Mg0cR+rKEO3iqI27e59HJnJb5EqC9I+HpXqdcctKzqxCMUzbxcNuGPnZpT
+            yHeeTMniQShxxBGNqYbjfff1WoIhilhdkWR4Sz7xm/Ojm1p4DSiY5cQvg8r7KICF9ZTNxD7jppn9
+            iQmAOR0tUEBmYzKKvw7ML8vLps+ScgJ/vJ3GUNj/16+KdzueLmY15BffarUTvOOREYYZVHIWBRjg
+            ov2jrl5iM+8EhBkD+QVbkViMcoGxw+1E+L2xwnXX+Do9NexxBPudxcgyevNNkAnnJ4eK9S5mnu5v
+            QbtJkwIDAQAB
         </rsa-public-key>
         <rsa-public-key sha-256="cbf8f8dec7dd772b8c6ca1a5492a8e5c78805f543813f8bfa1ee04480c8a4c35">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlcEYM0vAWp/f3jPrFqDiCW5kbBDmnulW
