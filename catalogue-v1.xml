@@ -2125,6 +2125,34 @@
     </host>
     <host>
         <apis-implemented>
+            <in2:institutions version="2.1.0">
+                <in2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </in2:http-security>
+                <in2:url>https://www.hdm-stuttgart.de/mobility/ewp/institutions</in2:url>
+                <in2:max-hei-ids>3</in2:max-hei-ids>
+            </in2:institutions>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>hdm-stuttgart.de</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="b93ad506525743e5e1995ea0f5500a79f97bbd6429ad64c2c17af290e5b100b9"/>
+            <rsa-public-key sha-256="b25ddc8bb97ad6979a182c70c47c5d4d1ec87e938239de2da7e2cee036e52d65"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="b25ddc8bb97ad6979a182c70c47c5d4d1ec87e938239de2da7e2cee036e52d65"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
             <d5:discovery version="5.0.0">
                 <d5:url>https://registration.exchange.unisg.ch/mobility/ewp/manifest?api=all</d5:url>
             </d5:discovery>
