@@ -3164,66 +3164,6 @@
                 <e2:url>https://mobility.hslu.ch/mobility/ewp/echo</e2:url>
             </e2:echo>
         </apis-implemented>
-        <institutions-covered>
-            <hei-id>hslu.ch</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <certificate sha-256="c308051a1923a41d5413d2cf526c0d285009b1f522857b361b46d136ee8967b7"/>
-            <rsa-public-key sha-256="22d0ef3bae0bfa8f5efb61e3c6d6348b1926fde691c0dc54b45207e978cc557b"/>
-        </client-credentials-in-use>
-        <server-credentials-in-use>
-            <rsa-public-key sha-256="22d0ef3bae0bfa8f5efb61e3c6d6348b1926fde691c0dc54b45207e978cc557b"/>
-        </server-credentials-in-use>
-    </host>
-    <host>
-        <apis-implemented>
-            <in2:institutions version="2.1.0">
-                <in2:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A2:httpsig/>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B2:httpsig/>
-                        <sec-B1:tlscert/>
-                    </sec:server-auth-methods>
-                </in2:http-security>
-                <in2:url>https://mobility.hslu.ch/mobility/ewp/institutions</in2:url>
-                <in2:max-hei-ids>3</in2:max-hei-ids>
-            </in2:institutions>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>hslu.ch</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <certificate sha-256="c308051a1923a41d5413d2cf526c0d285009b1f522857b361b46d136ee8967b7"/>
-            <rsa-public-key sha-256="22d0ef3bae0bfa8f5efb61e3c6d6348b1926fde691c0dc54b45207e978cc557b"/>
-        </client-credentials-in-use>
-        <server-credentials-in-use>
-            <rsa-public-key sha-256="22d0ef3bae0bfa8f5efb61e3c6d6348b1926fde691c0dc54b45207e978cc557b"/>
-        </server-credentials-in-use>
-    </host>
-    <host>
-        <apis-implemented>
-            <ou2:organizational-units version="2.1.0">
-                <ou2:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A2:httpsig/>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B2:httpsig/>
-                        <sec-B1:tlscert/>
-                    </sec:server-auth-methods>
-                </ou2:http-security>
-                <ou2:url>https://mobility.hslu.ch/mobility/ewp/ounits</ou2:url>
-                <ou2:max-ounit-ids>3</ou2:max-ounit-ids>
-                <ou2:max-ounit-codes>3</ou2:max-ounit-codes>
-            </ou2:organizational-units>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>hslu.ch</hei-id>
-        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="c308051a1923a41d5413d2cf526c0d285009b1f522857b361b46d136ee8967b7"/>
             <rsa-public-key sha-256="22d0ef3bae0bfa8f5efb61e3c6d6348b1926fde691c0dc54b45207e978cc557b"/>
@@ -7882,11 +7822,6 @@
         </hei>
         <hei id="hs-worms.de">
             <name xml:lang="en">Hochschule Worms</name>
-        </hei>
-        <hei id="hslu.ch">
-            <other-id type="erasmus">CH LUZERN14</other-id>
-            <name xml:lang="de">Hochschule Luzern</name>
-            <name xml:lang="en">Hochschule Luzern</name>
         </hei>
         <hei id="hswt.de">
             <other-id type="erasmus">D  FREISIN01</other-id>
