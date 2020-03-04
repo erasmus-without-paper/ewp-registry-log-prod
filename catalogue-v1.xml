@@ -4287,7 +4287,6 @@
             <hei-id>bi.no</hei-id>
             <hei-id>bfh.ch</hei-id>
             <hei-id>aalto.fi</hei-id>
-            <hei-id>upm.es</hei-id>
             <hei-id>univ-amu.fr</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
@@ -7125,28 +7124,6 @@
         <apis-implemented>
             <in2:institutions version="2.0.0">
                 <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <in2:url>https://upm-ewp.moveon4.de/v1/institution</in2:url>
-                <in2:max-hei-ids>10</in2:max-hei-ids>
-            </in2:institutions>
-            <ou2:organizational-units version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <ou2:url>https://upm-ewp.moveon4.de/v1/ounit</ou2:url>
-                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
-                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
-            </ou2:organizational-units>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>upm.es</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
-        </client-credentials-in-use>
-    </host>
-    <host>
-        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-        <apis-implemented>
-            <in2:institutions version="2.0.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
                 <in2:url>https://moveon-admin.univ-amu.fr/v1/institution</in2:url>
                 <in2:max-hei-ids>10</in2:max-hei-ids>
             </in2:institutions>
@@ -9035,12 +9012,6 @@
             <other-id type="euc">28032</other-id>
             <other-id type="pic">999884537</other-id>
             <name xml:lang="en">Universit? Polytechnique Hauts-de-France</name>
-        </hei>
-        <hei id="upm.es">
-            <other-id type="erasmus">E  MADRID05</other-id>
-            <other-id type="euc">29462</other-id>
-            <other-id type="pic">999974844</other-id>
-            <name xml:lang="en">Universidad Politécnica de Madrid</name>
         </hei>
         <hei id="upr.si">
             <other-id type="erasmus">SI KOPER03</other-id>
