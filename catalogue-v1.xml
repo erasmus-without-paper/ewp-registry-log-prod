@@ -2619,6 +2619,39 @@
     </host>
     <host>
         <apis-implemented>
+            <om1:omobilities
+                xmlns:om1="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd"
+                version="0.15.0"
+            >
+                <om1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </om1:http-security>
+                <om1:get-url>https://mobility.zv.uni-freiburg.de/mobility/ewp/mobility_out/get</om1:get-url>
+                <om1:index-url>https://mobility.zv.uni-freiburg.de/mobility/ewp/mobility_out/index</om1:index-url>
+                <om1:max-omobility-ids>1</om1:max-omobility-ids>
+                <om1:sends-notifications/>
+            </om1:omobilities>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>uni-freiburg.de</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="1d98decc6425b6f48e1798db48cae45cfce1c586de09cae6d7597dd82116bec9"/>
+            <rsa-public-key sha-256="05fc6e9a16685d0b8817ca9b1f2b66ecd7a5f390238de244ad2b1ae6996c21d8"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="05fc6e9a16685d0b8817ca9b1f2b66ecd7a5f390238de244ad2b1ae6996c21d8"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
             <d5:discovery version="5.0.0">
                 <d5:url>https://mobility.zuv.uni-heidelberg.de/mobility/ewp/manifest?api=all</d5:url>
             </d5:discovery>
