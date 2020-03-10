@@ -1,47 +1,55 @@
 <ns3:manifest
     xmlns:ns3="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v5"
     xmlns="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
-    xmlns:ns10="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/blob/stable-v1/manifest-entry.xsd"
-    xmlns:ns11="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd"
-    xmlns:ns12="https://github.com/erasmus-without-paper/ewp-specs-api-course-replication/blob/stable-v1/manifest-entry.xsd"
-    xmlns:ns13="https://github.com/erasmus-without-paper/ewp-specs-api-courses/blob/stable-v1/manifest-entry.xsd"
-    xmlns:ns14="https://github.com/erasmus-without-paper/ewp-specs-api-iia-cnr/blob/stable-v2/manifest-entry.xsd"
-    xmlns:ns15="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v2/manifest-entry.xsd"
-    xmlns:ns16="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/blob/stable-v2/manifest-entry.xsd"
-    xmlns:ns17="https://github.com/erasmus-without-paper/ewp-specs-api-institutions/blob/stable-v2/manifest-entry.xsd"
-    xmlns:ns18="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd"
-    xmlns:ns19="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v5/manifest-entry.xsd"
+    xmlns:ns10="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-tor-cnr/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns11="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-tors/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns12="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-cnr/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns13="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns14="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns15="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns16="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns17="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns18="https://github.com/erasmus-without-paper/ewp-specs-api-course-replication/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns19="https://github.com/erasmus-without-paper/ewp-specs-api-courses/blob/stable-v1/manifest-entry.xsd"
     xmlns:ns2="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
-    xmlns:ns20="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
-    xmlns:ns21="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-none/tree/stable-v1"
-    xmlns:ns22="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
-    xmlns:ns23="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
-    xmlns:ns24="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
+    xmlns:ns20="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns21="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns22="https://github.com/erasmus-without-paper/ewp-specs-api-iia-cnr/blob/stable-v2/manifest-entry.xsd"
+    xmlns:ns23="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v2/manifest-entry.xsd"
+    xmlns:ns24="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/blob/stable-v2/manifest-entry.xsd"
+    xmlns:ns25="https://github.com/erasmus-without-paper/ewp-specs-api-institutions/blob/stable-v2/manifest-entry.xsd"
+    xmlns:ns26="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd"
+    xmlns:ns27="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v5/manifest-entry.xsd"
+    xmlns:ns28="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
+    xmlns:ns29="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-none/tree/stable-v1"
+    xmlns:ns30="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
+    xmlns:ns31="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
+    xmlns:ns32="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
     xmlns:ns4="https://github.com/erasmus-without-paper/ewp-specs-api-registry/blob/stable-v1/manifest-entry.xsd"
     xmlns:ns5="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
-    xmlns:ns6="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-tor-cnr/blob/stable-v1/manifest-entry.xsd"
-    xmlns:ns7="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-tors/blob/stable-v1/manifest-entry.xsd"
-    xmlns:ns8="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-cnr/blob/stable-v1/manifest-entry.xsd"
-    xmlns:ns9="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns6="https://github.com/erasmus-without-paper/ewp-specs-api-mt-mobilities/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns7="https://github.com/erasmus-without-paper/ewp-specs-api-mt-projects/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns8="https://github.com/erasmus-without-paper/ewp-specs-api-mt-dictionaries/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns9="https://github.com/erasmus-without-paper/ewp-specs-api-mt-institutions/blob/stable-v1/manifest-entry.xsd"
 >
     <ns3:host>
         <ns2:apis-implemented>
-            <ns19:discovery version="5.0.0">
-                <ns19:url>https://www.service4mobility.com/europe/ewp/manifest?api=all</ns19:url>
-            </ns19:discovery>
-            <ns18:echo version="2.0.0">
-                <ns18:http-security>
+            <ns27:discovery version="5.0.0">
+                <ns27:url>https://www.service4mobility.com/europe/ewp/manifest?api=all</ns27:url>
+            </ns27:discovery>
+            <ns26:echo version="2.0.0">
+                <ns26:http-security>
                     <ns5:client-auth-methods>
-                        <ns22:httpsig/>
-                        <ns20:tlscert allows-self-signed="true"/>
+                        <ns30:httpsig/>
+                        <ns28:tlscert allows-self-signed="true"/>
                     </ns5:client-auth-methods>
                     <ns5:server-auth-methods>
-                        <ns23:httpsig/>
-                        <ns24:tlscert/>
+                        <ns31:httpsig/>
+                        <ns32:tlscert/>
                     </ns5:server-auth-methods>
-                </ns18:http-security>
-                <ns18:url>https://www.service4mobility.com/europe/ewp/echo</ns18:url>
-            </ns18:echo>
+                </ns26:http-security>
+                <ns26:url>https://www.service4mobility.com/europe/ewp/echo</ns26:url>
+            </ns26:echo>
         </ns2:apis-implemented>
         <ns3:institutions-covered>
             <ns2:hei id="uni-bremen.de">
@@ -81,7 +89,7 @@
                 <ns2:other-id type="euc">27954-LA-1-2014-1-BE-E4AKA1-ECHE-1</ns2:other-id>
                 <ns2:other-id type="eche">27954-EPP-1-2014-1-BE-EPPKA3-ECHE</ns2:other-id>
                 <ns2:name xml:lang="nl">Erasmushogeschool Brussel</ns2:name>
-                <ns2:name xml:lang="en">Erasmus Brussels University of Applied Sciences and Arts</ns2:name>
+                <ns2:name xml:lang="en">Erasmushogeschool Brussel</ns2:name>
             </ns2:hei>
             <ns2:hei id="hanken.fi">
                 <ns2:other-id type="pic">986118976</ns2:other-id>
@@ -113,13 +121,13 @@
                 <ns2:other-id type="erasmus">SF KAUNIAI03</ns2:other-id>
                 <ns2:other-id type="euc">49027-IC-1-2007-1-FI-ERASMUS-EUC-1</ns2:other-id>
                 <ns2:name xml:lang="fi">HUMANISTINEN AMMATTIKORKEAKOULU</ns2:name>
-                <ns2:name xml:lang="en">HUMAK UNIVERSITY OF APPLIED SCIENCE</ns2:name>
+                <ns2:name xml:lang="en">HUMANISTINEN AMMATTIKORKEAKOULU</ns2:name>
             </ns2:hei>
             <ns2:hei id="ulpgc.es">
                 <ns2:other-id type="pic">999929739</ns2:other-id>
                 <ns2:other-id type="erasmus">E  LAS-PAL01</ns2:other-id>
                 <ns2:name xml:lang="es">UNIVERSIDAD DE LAS PALMAS DE GRAN CANARIA</ns2:name>
-                <ns2:name xml:lang="en">UNIVERSITY OF LAS PALMAS OF GRAN CANARIA</ns2:name>
+                <ns2:name xml:lang="en">UNIVERSIDAD DE LAS PALMAS DE GRAN CANARIA</ns2:name>
             </ns2:hei>
             <ns2:hei id="ed.ac.uk">
                 <ns2:other-id type="pic">999974941</ns2:other-id>
@@ -132,14 +140,14 @@
                 <ns2:other-id type="erasmus">S  KRISTIA01</ns2:other-id>
                 <ns2:other-id type="euc">29409-IC-1-2007-1-SE-ERASMUS-EUCX-1</ns2:other-id>
                 <ns2:name xml:lang="sv">HÖGSKOLAN KRISTIANSTAD</ns2:name>
-                <ns2:name xml:lang="en">KRISTIANSTAD UNIVERSITY</ns2:name>
+                <ns2:name xml:lang="en">HÖGSKOLAN KRISTIANSTAD</ns2:name>
             </ns2:hei>
             <ns2:hei id="jyu.fi">
                 <ns2:other-id type="pic">999842245</ns2:other-id>
                 <ns2:other-id type="erasmus">SF JYVASKY01</ns2:other-id>
                 <ns2:other-id type="euc">29549-IC-1-2007-1-FI-ERASMUS-EUCX-1</ns2:other-id>
                 <ns2:name xml:lang="fi">JYVÄSKYLÄN YLIOPISTO</ns2:name>
-                <ns2:name xml:lang="en">UNIVERSITY OF JYVÄSKYLÄ</ns2:name>
+                <ns2:name xml:lang="en">JYVÄSKYLÄN YLIOPISTO</ns2:name>
             </ns2:hei>
             <ns2:hei id="ub.edu">
                 <ns2:other-id type="pic">999986387</ns2:other-id>
@@ -153,7 +161,7 @@
                 <ns2:other-id type="erasmus">B  HASSELT22</ns2:other-id>
                 <ns2:other-id type="euc">381703-IC-1-2013-1-BE-ERASMUS-EUCX-1</ns2:other-id>
                 <ns2:name xml:lang="nl">Hogeschool PXL</ns2:name>
-                <ns2:name xml:lang="en">PXL UNIVERSITY COLLEGE</ns2:name>
+                <ns2:name xml:lang="en">Hogeschool PXL</ns2:name>
             </ns2:hei>
             <ns2:hei id="xios.be">
                 <ns2:other-id type="erasmus">B  HASSELT03</ns2:other-id>
@@ -165,7 +173,7 @@
                 <ns2:other-id type="pic">999825270</ns2:other-id>
                 <ns2:other-id type="erasmus">E  TENERIF01</ns2:other-id>
                 <ns2:name xml:lang="es">UNIVERSIDAD DE LA LAGUNA</ns2:name>
-                <ns2:name xml:lang="en">UNIVERSITY OF LA LAGUNA</ns2:name>
+                <ns2:name xml:lang="en">UNIVERSIDAD DE LA LAGUNA</ns2:name>
             </ns2:hei>
             <ns2:hei id="metropolia.fi">
                 <ns2:other-id type="pic">997340033</ns2:other-id>
@@ -229,7 +237,7 @@
                 <ns2:other-id type="erasmus">E  ALMERIA01</ns2:other-id>
                 <ns2:other-id type="euc">29569-IC-1-2007-1-ES-ERASMUS-EUCX-1</ns2:other-id>
                 <ns2:name xml:lang="es">Universidad de Almería</ns2:name>
-                <ns2:name xml:lang="en">UNIVERSITY OF ALMERÍA</ns2:name>
+                <ns2:name xml:lang="en">Universidad de Almería</ns2:name>
             </ns2:hei>
             <ns2:hei id="ppke.hu">
                 <ns2:other-id type="pic">999879687</ns2:other-id>
@@ -265,7 +273,7 @@
                 <ns2:other-id type="pic">950913505</ns2:other-id>
                 <ns2:other-id type="erasmus">HU BUDAPES10</ns2:other-id>
                 <ns2:name xml:lang="hu">KÁROLI GÁSPÁR REFORMÁTUS EGYETEM</ns2:name>
-                <ns2:name xml:lang="en">KÁROLI GÁSPÁR UNIVERSITY OF THE REFORMED CHURCH IN HUNGARY</ns2:name>
+                <ns2:name xml:lang="en">KÁROLI GÁSPÁR REFORMÁTUS EGYETEM</ns2:name>
             </ns2:hei>
             <ns2:hei id="fontys.edu">
                 <ns2:other-id type="pic">998501802</ns2:other-id>
@@ -318,14 +326,14 @@
                 <ns2:other-id type="erasmus">D  HAMBURG06</ns2:other-id>
                 <ns2:other-id type="euc">29782-IC-1-2007-1-DE-ERASMUS-EUCX-1</ns2:other-id>
                 <ns2:name xml:lang="de">HOCHSCHULE FÜR ANGEWANDTE WISSENSCHAFTEN HAMBURG</ns2:name>
-                <ns2:name xml:lang="en">HAMBURG UNIVERSITY OF APPLIED SCIENCES</ns2:name>
+                <ns2:name xml:lang="en">HOCHSCHULE FÜR ANGEWANDTE WISSENSCHAFTEN HAMBURG</ns2:name>
             </ns2:hei>
             <ns2:hei id="uni-kiel.de">
                 <ns2:other-id type="pic">999839529</ns2:other-id>
                 <ns2:other-id type="erasmus">D  KIEL01</ns2:other-id>
                 <ns2:other-id type="euc">28321-IC-1-2007-1-DE-ERASMUS-EUCX-1</ns2:other-id>
                 <ns2:name xml:lang="de">Christian-Albrechts-Universität zu Kiel</ns2:name>
-                <ns2:name xml:lang="en">KIEL UNIVERSITY</ns2:name>
+                <ns2:name xml:lang="en">Christian-Albrechts-Universität zu Kiel</ns2:name>
             </ns2:hei>
             <ns2:hei id="www.kth.se">
                 <ns2:other-id type="pic">999990946</ns2:other-id>
@@ -367,7 +375,7 @@
                 <ns2:other-id type="erasmus">D  STUTTGA02</ns2:other-id>
                 <ns2:other-id type="euc">29776-IC-1-2007-1-DE-ERASMUS-EUCX-1</ns2:other-id>
                 <ns2:name xml:lang="de">Universität Hohenheim</ns2:name>
-                <ns2:name xml:lang="en">UNIVERSITY OF HOHENHEIM</ns2:name>
+                <ns2:name xml:lang="en">Universität Hohenheim</ns2:name>
             </ns2:hei>
             <ns2:hei id="ph-heidelberg.de">
                 <ns2:other-id type="pic">986249538</ns2:other-id>
@@ -387,14 +395,14 @@
                 <ns2:other-id type="euc">28252-IC-1-2007-1-DE-ERASMUS-EUCX-1</ns2:other-id>
                 <ns2:other-id type="eche">28252-EPP-1-2014-1-DE-EPPKA3-ECHE</ns2:other-id>
                 <ns2:name xml:lang="de">Universität Stuttgart</ns2:name>
-                <ns2:name xml:lang="en">UNIVERSITY OF STUTTGART</ns2:name>
+                <ns2:name xml:lang="en">Universität Stuttgart</ns2:name>
             </ns2:hei>
             <ns2:hei id="hs-offenburg.de">
                 <ns2:other-id type="pic">961360405</ns2:other-id>
                 <ns2:other-id type="erasmus">D  OFFENBU01</ns2:other-id>
                 <ns2:other-id type="euc">29803-IC-1-2007-1-DE-ERASMUS-EUCX-1</ns2:other-id>
                 <ns2:name xml:lang="de">HOCHSCHULE OFFENBURG - HOCHSCHULE FÜR TECHNIK, WIRTSCHAFT UND MEDIEN</ns2:name>
-                <ns2:name xml:lang="en">UNIVERSITY OF APPLIED SCIENCES OFFENBURG</ns2:name>
+                <ns2:name xml:lang="en">HOCHSCHULE OFFENBURG - HOCHSCHULE FÜR TECHNIK, WIRTSCHAFT UND MEDIEN</ns2:name>
             </ns2:hei>
             <ns2:hei id="uni-augsburg.de">
                 <ns2:other-id type="pic">999598678</ns2:other-id>
@@ -421,7 +429,7 @@
                 <ns2:other-id type="euc">29697-IC-1-2007-1-DE-ERASMUS-EUCX-1</ns2:other-id>
                 <ns2:other-id type="eche">29697-EPP-1-2014-1-DE-EPPKA3-ECHE</ns2:other-id>
                 <ns2:name xml:lang="de">HOCHSCHULE HEILBRONN</ns2:name>
-                <ns2:name xml:lang="en">HEILBRONN UNIVERSITY</ns2:name>
+                <ns2:name xml:lang="en">HOCHSCHULE HEILBRONN</ns2:name>
             </ns2:hei>
             <ns2:hei id="frankfurt-university.de">
                 <ns2:other-id type="pic">991538075</ns2:other-id>
@@ -464,7 +472,7 @@
                 <ns2:other-id type="erasmus">D  AALEN01</ns2:other-id>
                 <ns2:other-id type="euc">29718-IC-1-2007-1-DE-ERASMUS-EUCX-1</ns2:other-id>
                 <ns2:name xml:lang="de">Hochschule Aalen</ns2:name>
-                <ns2:name xml:lang="en">AALEN UNIVERSITY</ns2:name>
+                <ns2:name xml:lang="en">Hochschule Aalen</ns2:name>
             </ns2:hei>
             <ns2:hei id="uni-hamburg.de">
                 <ns2:other-id type="pic">999905101</ns2:other-id>
@@ -500,7 +508,7 @@
                 <ns2:other-id type="euc">260099-LA-1-20147-1CH-E4AKA1-ECHE</ns2:other-id>
                 <ns2:other-id type="eche">260099-LA-1-20147-1CH-E4AKA1-ECHE</ns2:other-id>
                 <ns2:name xml:lang="de">Pädagogische Hochschule Zürich</ns2:name>
-                <ns2:name xml:lang="en">ZURICH UNIVERSITY OF TEACHER EDUCATION</ns2:name>
+                <ns2:name xml:lang="en">Pädagogische Hochschule Zürich</ns2:name>
             </ns2:hei>
             <ns2:hei id="windesheim.nl">
                 <ns2:other-id type="pic">951107893</ns2:other-id>
@@ -531,7 +539,7 @@
                 <ns2:other-id type="erasmus">D  MAINZ05</ns2:other-id>
                 <ns2:other-id type="euc">251003-IC-1-2009-1-DE-ERASMUS-EUCX-1</ns2:other-id>
                 <ns2:name xml:lang="de">KATHOLISCHE HOCHSCHULE MAINZ</ns2:name>
-                <ns2:name xml:lang="en">CATHOLIC UNIVERSITY OF APPLIED SCIENCES</ns2:name>
+                <ns2:name xml:lang="en">KATHOLISCHE HOCHSCHULE MAINZ</ns2:name>
             </ns2:hei>
             <ns2:hei id="hhs.se">
                 <ns2:other-id type="pic">949489351</ns2:other-id>
@@ -542,7 +550,7 @@
             <ns2:hei id="phbern.ch">
                 <ns2:other-id type="erasmus">CH BERN12</ns2:other-id>
                 <ns2:name xml:lang="de">Pädagogische Hochschule PHBern</ns2:name>
-                <ns2:name xml:lang="en">PHBERN - UNIVERSITY OF TEACHER EDUCATION</ns2:name>
+                <ns2:name xml:lang="en">Pädagogische Hochschule PHBern</ns2:name>
             </ns2:hei>
             <ns2:hei id="fh-kiel.de">
                 <ns2:other-id type="pic">997918056</ns2:other-id>
@@ -593,7 +601,7 @@
                 <ns2:other-id type="erasmus">D  KONSTAN02</ns2:other-id>
                 <ns2:other-id type="euc">29859-IC-1-2007-1-DE-ERASMUS-EUCX-1</ns2:other-id>
                 <ns2:name xml:lang="de">Hochschule Konstanz</ns2:name>
-                <ns2:name xml:lang="en">HOCHSCHULE KONSTANZ UNIVERSITY OF APPLIED SCIENCES</ns2:name>
+                <ns2:name xml:lang="en">Hochschule Konstanz</ns2:name>
             </ns2:hei>
             <ns2:hei id="hs-niederrhein.de">
                 <ns2:other-id type="pic">996687029</ns2:other-id>
@@ -607,7 +615,7 @@
                 <ns2:other-id type="erasmus">D  BIELEFE02</ns2:other-id>
                 <ns2:other-id type="euc">29725-IC-1-2007-1-DE-ERASMUS-EUCX-1</ns2:other-id>
                 <ns2:name xml:lang="de">Fachhochschule Bielefeld</ns2:name>
-                <ns2:name xml:lang="en">BIELEFELD UNIVERSITY OF APPLIED SCIENCES</ns2:name>
+                <ns2:name xml:lang="en">Fachhochschule Bielefeld</ns2:name>
             </ns2:hei>
             <ns2:hei id="univ-lyon2.fr">
                 <ns2:other-id type="pic">999855825</ns2:other-id>
@@ -641,7 +649,7 @@
                 <ns2:other-id type="erasmus">SK BRATISL02</ns2:other-id>
                 <ns2:other-id type="euc">52135-LA-1-2014-1-SK-E4AKA1-ECHE</ns2:other-id>
                 <ns2:name xml:lang="sk">Univerzita Komenského v Bratislave</ns2:name>
-                <ns2:name xml:lang="en">COMENIUS UNIVERSITY IN BRATISLAVA</ns2:name>
+                <ns2:name xml:lang="en">Univerzita Komenského v Bratislave</ns2:name>
             </ns2:hei>
             <ns2:hei id="vid.no">
                 <ns2:other-id type="pic">915635520</ns2:other-id>
@@ -660,7 +668,7 @@
                 <ns2:other-id type="pic">999846416</ns2:other-id>
                 <ns2:other-id type="erasmus">D  OSNABRU02</ns2:other-id>
                 <ns2:name xml:lang="de">HOCHSCHULE OSNABRÜCK</ns2:name>
-                <ns2:name xml:lang="en">HOCHSCHULE OSNABRÜCK UNIVERSITY OF APPLIED SCIENCES</ns2:name>
+                <ns2:name xml:lang="en">HOCHSCHULE OSNABRÜCK</ns2:name>
             </ns2:hei>
             <ns2:hei id="uni-ulm.de">
                 <ns2:other-id type="pic">999882209</ns2:other-id>
@@ -675,7 +683,7 @@
                 <ns2:other-id type="erasmus">D  DARMSTA03</ns2:other-id>
                 <ns2:other-id type="euc">29734-IC-1-2007-1-DE-ERASMUS-EUCX-1</ns2:other-id>
                 <ns2:name xml:lang="de">Evangelische Hochschule Darmstadt</ns2:name>
-                <ns2:name xml:lang="en">EVANGELISCHE HOCHSCHULE DARMSTADT, UNIVERSITY OF APPLIED SCIENCES</ns2:name>
+                <ns2:name xml:lang="en">Evangelische Hochschule Darmstadt</ns2:name>
             </ns2:hei>
             <ns2:hei id="hs-neu-ulm.de">
                 <ns2:other-id type="erasmus">D  ULM03</ns2:other-id>
@@ -715,7 +723,7 @@
                 <ns2:other-id type="erasmus">D  POTSDAM03</ns2:other-id>
                 <ns2:other-id type="euc">28857-IC-1-2007-1-DE-ERASMUS-EUCX-1</ns2:other-id>
                 <ns2:name xml:lang="de">FACHHOCHSCHULE POTSDAM</ns2:name>
-                <ns2:name xml:lang="en">UNIVERSITY OF APPLIED SCIENCES POTSDAM</ns2:name>
+                <ns2:name xml:lang="en">FACHHOCHSCHULE POTSDAM</ns2:name>
             </ns2:hei>
             <ns2:hei id="york.ac.uk">
                 <ns2:other-id type="erasmus">UK YORK01</ns2:other-id>
@@ -735,32 +743,32 @@
                 <ns2:other-id type="erasmus">B  MONS21</ns2:other-id>
                 <ns2:other-id type="euc">256525-IC-1-2010-1-BE-ERASMUS-EUCX-1</ns2:other-id>
                 <ns2:name xml:lang="fr">UNIVERSITÉ DE MONS</ns2:name>
-                <ns2:name xml:lang="en">UNIVERSITY OF MONS</ns2:name>
+                <ns2:name xml:lang="en">UNIVERSITÉ DE MONS</ns2:name>
             </ns2:hei>
             <ns2:hei id="hogent.be">
                 <ns2:other-id type="pic">998961291</ns2:other-id>
                 <ns2:other-id type="erasmus">B  GENT25</ns2:other-id>
                 <ns2:name xml:lang="nl">Hogeschool Gent</ns2:name>
-                <ns2:name xml:lang="en">UNIVERSITY COLLEGE GHENT</ns2:name>
+                <ns2:name xml:lang="en">Hogeschool Gent</ns2:name>
             </ns2:hei>
             <ns2:hei id="uni-wuppertal.de">
                 <ns2:other-id type="pic">999858735</ns2:other-id>
                 <ns2:other-id type="erasmus">D  WUPPERT01</ns2:other-id>
                 <ns2:other-id type="euc">29681-IC-1-2007-1-DE-ERASMUS-EUCX-1</ns2:other-id>
                 <ns2:name xml:lang="de">Bergische Universität Wuppertal</ns2:name>
-                <ns2:name xml:lang="en">UNIVERSITY OF WUPPERTAL</ns2:name>
+                <ns2:name xml:lang="en">Bergische Universität Wuppertal</ns2:name>
             </ns2:hei>
             <ns2:hei id="tilburguniversity.edu">
                 <ns2:other-id type="pic">999899475</ns2:other-id>
                 <ns2:other-id type="erasmus">NL TILBURG01</ns2:other-id>
                 <ns2:name xml:lang="nl">Tilburg University</ns2:name>
-                <ns2:name xml:lang="en">TILBURG UNIVERSITY</ns2:name>
+                <ns2:name xml:lang="en">Tilburg University</ns2:name>
             </ns2:hei>
             <ns2:hei id="sh.se">
                 <ns2:other-id type="pic">998344080</ns2:other-id>
                 <ns2:other-id type="erasmus">S  HUDDING01</ns2:other-id>
                 <ns2:name xml:lang="sv">SÖDERTÖRNS HÖGSKOLA</ns2:name>
-                <ns2:name xml:lang="en">SÖDERTÖRN UNIVERSITY</ns2:name>
+                <ns2:name xml:lang="en">SÖDERTÖRNS HÖGSKOLA</ns2:name>
             </ns2:hei>
             <ns2:hei id="nordakademie.de">
                 <ns2:other-id type="pic">949555893</ns2:other-id>
@@ -780,7 +788,7 @@
                 <ns2:other-id type="pic">999974553</ns2:other-id>
                 <ns2:other-id type="erasmus">NL LEIDEN01</ns2:other-id>
                 <ns2:name xml:lang="nl">UNIVERSITEIT LEIDEN</ns2:name>
-                <ns2:name xml:lang="en">LEIDEN UNIVERSITY</ns2:name>
+                <ns2:name xml:lang="en">UNIVERSITEIT LEIDEN</ns2:name>
             </ns2:hei>
             <ns2:hei id="uir.ac.ma">
                 <ns2:other-id type="erasmus">MA 951928707</ns2:other-id>
@@ -791,7 +799,7 @@
                 <ns2:other-id type="pic">999977269</ns2:other-id>
                 <ns2:other-id type="erasmus">NL EINDHOV17</ns2:other-id>
                 <ns2:name xml:lang="nl">TECHNISCHE UNIVERSITEIT EINDHOVEN</ns2:name>
-                <ns2:name xml:lang="en">EINDHOVEN UNIVERSITY OF TECHNOLOGY</ns2:name>
+                <ns2:name xml:lang="en">TECHNISCHE UNIVERSITEIT EINDHOVEN</ns2:name>
             </ns2:hei>
             <ns2:hei id="universita.corsica">
                 <ns2:other-id type="pic">949486732</ns2:other-id>
@@ -810,14 +818,14 @@
                 <ns2:other-id type="erasmus">D  ST-AUGU02</ns2:other-id>
                 <ns2:other-id type="euc">220438-IC-1-2007-1-DE-ERASMUS-EUCX-1</ns2:other-id>
                 <ns2:name xml:lang="de">HOCHSCHULE BONN-RHEIN-SIEG</ns2:name>
-                <ns2:name xml:lang="en">UNIVERSITY OF APPLIED SCIENCES BONN-RHEIN-SIEG</ns2:name>
+                <ns2:name xml:lang="en">HOCHSCHULE BONN-RHEIN-SIEG</ns2:name>
             </ns2:hei>
             <ns2:hei id="em-lyon.com">
                 <ns2:other-id type="pic">951481343</ns2:other-id>
                 <ns2:other-id type="erasmus">F  LYON23</ns2:other-id>
                 <ns2:other-id type="euc">27999-IC-1-2007-1-FR-ERASMUS-EUCX-1</ns2:other-id>
                 <ns2:name xml:lang="fr">emlyon business school</ns2:name>
-                <ns2:name xml:lang="en">EMLYON BUSINESS SCHOOL</ns2:name>
+                <ns2:name xml:lang="en">emlyon business school</ns2:name>
             </ns2:hei>
             <ns2:hei id="jamk.fi">
                 <ns2:other-id type="pic">996682955</ns2:other-id>
@@ -835,7 +843,7 @@
                 <ns2:other-id type="erasmus">F  LILLE14</ns2:other-id>
                 <ns2:other-id type="euc">28111-IC-1-2007-1-FR-ERASMUS-EUCX-1</ns2:other-id>
                 <ns2:name xml:lang="fr">ECOLE CENTRALE DE LILLE</ns2:name>
-                <ns2:name xml:lang="en">CENTRALE LILLE GRADUATE SCHOOL</ns2:name>
+                <ns2:name xml:lang="en">ECOLE CENTRALE DE LILLE</ns2:name>
             </ns2:hei>
             <ns2:hei id="ua.aw">
                 <ns2:other-id type="pic">942944373</ns2:other-id>
@@ -871,7 +879,7 @@
                 <ns2:other-id type="erasmus">D  OESTRIC01</ns2:other-id>
                 <ns2:other-id type="euc">210375-IC-1-2007-1-DE-ERASMUS-EUCX-1</ns2:other-id>
                 <ns2:name xml:lang="de">EBS Universität für Wirtschaft und Recht</ns2:name>
-                <ns2:name xml:lang="en">EBS UNIVERSITY FOR BUSINESS AND LAW</ns2:name>
+                <ns2:name xml:lang="en">EBS Universität für Wirtschaft und Recht</ns2:name>
             </ns2:hei>
             <ns2:hei id="beitberl.ac.il">
                 <ns2:other-id type="erasmus">IL BERL01</ns2:other-id>
@@ -924,20 +932,20 @@ Vhm1ywIDAQAB&#xD;
     </ns3:host>
     <ns3:host>
         <ns2:apis-implemented>
-            <ns17:institutions version="2.1.0">
-                <ns17:http-security>
+            <ns25:institutions version="2.1.0">
+                <ns25:http-security>
                     <ns5:client-auth-methods>
-                        <ns22:httpsig/>
-                        <ns20:tlscert allows-self-signed="true"/>
+                        <ns30:httpsig/>
+                        <ns28:tlscert allows-self-signed="true"/>
                     </ns5:client-auth-methods>
                     <ns5:server-auth-methods>
-                        <ns23:httpsig/>
-                        <ns24:tlscert/>
+                        <ns31:httpsig/>
+                        <ns32:tlscert/>
                     </ns5:server-auth-methods>
-                </ns17:http-security>
-                <ns17:url>https://www.service4mobility.com/europe/ewp/institutions</ns17:url>
-                <ns17:max-hei-ids>3</ns17:max-hei-ids>
-            </ns17:institutions>
+                </ns25:http-security>
+                <ns25:url>https://www.service4mobility.com/europe/ewp/institutions</ns25:url>
+                <ns25:max-hei-ids>3</ns25:max-hei-ids>
+            </ns25:institutions>
         </ns2:apis-implemented>
         <ns3:institutions-covered>
             <ns2:hei id="uni-bremen.de">
@@ -970,7 +978,7 @@ Vhm1ywIDAQAB&#xD;
                 <ns2:other-id type="euc">27954-LA-1-2014-1-BE-E4AKA1-ECHE-1</ns2:other-id>
                 <ns2:other-id type="eche">27954-EPP-1-2014-1-BE-EPPKA3-ECHE</ns2:other-id>
                 <ns2:name xml:lang="nl">Erasmushogeschool Brussel</ns2:name>
-                <ns2:name xml:lang="en">Erasmus Brussels University of Applied Sciences and Arts</ns2:name>
+                <ns2:name xml:lang="en">Erasmushogeschool Brussel</ns2:name>
             </ns2:hei>
             <ns2:hei id="hanken.fi">
                 <ns2:other-id type="pic">986118976</ns2:other-id>
@@ -984,14 +992,14 @@ Vhm1ywIDAQAB&#xD;
                 <ns2:other-id type="erasmus">S  KRISTIA01</ns2:other-id>
                 <ns2:other-id type="euc">29409-IC-1-2007-1-SE-ERASMUS-EUCX-1</ns2:other-id>
                 <ns2:name xml:lang="sv">HÖGSKOLAN KRISTIANSTAD</ns2:name>
-                <ns2:name xml:lang="en">KRISTIANSTAD UNIVERSITY</ns2:name>
+                <ns2:name xml:lang="en">HÖGSKOLAN KRISTIANSTAD</ns2:name>
             </ns2:hei>
             <ns2:hei id="jyu.fi">
                 <ns2:other-id type="pic">999842245</ns2:other-id>
                 <ns2:other-id type="erasmus">SF JYVASKY01</ns2:other-id>
                 <ns2:other-id type="euc">29549-IC-1-2007-1-FI-ERASMUS-EUCX-1</ns2:other-id>
                 <ns2:name xml:lang="fi">JYVÄSKYLÄN YLIOPISTO</ns2:name>
-                <ns2:name xml:lang="en">UNIVERSITY OF JYVÄSKYLÄ</ns2:name>
+                <ns2:name xml:lang="en">JYVÄSKYLÄN YLIOPISTO</ns2:name>
             </ns2:hei>
             <ns2:hei id="ub.edu">
                 <ns2:other-id type="pic">999986387</ns2:other-id>
@@ -1005,7 +1013,7 @@ Vhm1ywIDAQAB&#xD;
                 <ns2:other-id type="erasmus">B  HASSELT22</ns2:other-id>
                 <ns2:other-id type="euc">381703-IC-1-2013-1-BE-ERASMUS-EUCX-1</ns2:other-id>
                 <ns2:name xml:lang="nl">Hogeschool PXL</ns2:name>
-                <ns2:name xml:lang="en">PXL UNIVERSITY COLLEGE</ns2:name>
+                <ns2:name xml:lang="en">Hogeschool PXL</ns2:name>
             </ns2:hei>
             <ns2:hei id="arteveldehs.be">
                 <ns2:other-id type="pic">986308514</ns2:other-id>
@@ -1054,14 +1062,14 @@ Vhm1ywIDAQAB&#xD;
                 <ns2:other-id type="erasmus">D  HAMBURG06</ns2:other-id>
                 <ns2:other-id type="euc">29782-IC-1-2007-1-DE-ERASMUS-EUCX-1</ns2:other-id>
                 <ns2:name xml:lang="de">HOCHSCHULE FÜR ANGEWANDTE WISSENSCHAFTEN HAMBURG</ns2:name>
-                <ns2:name xml:lang="en">HAMBURG UNIVERSITY OF APPLIED SCIENCES</ns2:name>
+                <ns2:name xml:lang="en">HOCHSCHULE FÜR ANGEWANDTE WISSENSCHAFTEN HAMBURG</ns2:name>
             </ns2:hei>
             <ns2:hei id="uni-kiel.de">
                 <ns2:other-id type="pic">999839529</ns2:other-id>
                 <ns2:other-id type="erasmus">D  KIEL01</ns2:other-id>
                 <ns2:other-id type="euc">28321-IC-1-2007-1-DE-ERASMUS-EUCX-1</ns2:other-id>
                 <ns2:name xml:lang="de">Christian-Albrechts-Universität zu Kiel</ns2:name>
-                <ns2:name xml:lang="en">KIEL UNIVERSITY</ns2:name>
+                <ns2:name xml:lang="en">Christian-Albrechts-Universität zu Kiel</ns2:name>
             </ns2:hei>
             <ns2:hei id="ap.be">
                 <ns2:other-id type="pic">949316982</ns2:other-id>
@@ -1075,7 +1083,7 @@ Vhm1ywIDAQAB&#xD;
                 <ns2:other-id type="erasmus">D  STUTTGA02</ns2:other-id>
                 <ns2:other-id type="euc">29776-IC-1-2007-1-DE-ERASMUS-EUCX-1</ns2:other-id>
                 <ns2:name xml:lang="de">Universität Hohenheim</ns2:name>
-                <ns2:name xml:lang="en">UNIVERSITY OF HOHENHEIM</ns2:name>
+                <ns2:name xml:lang="en">Universität Hohenheim</ns2:name>
             </ns2:hei>
             <ns2:hei id="uni-stuttgart.de">
                 <ns2:other-id type="pic">999974747</ns2:other-id>
@@ -1083,14 +1091,14 @@ Vhm1ywIDAQAB&#xD;
                 <ns2:other-id type="euc">28252-IC-1-2007-1-DE-ERASMUS-EUCX-1</ns2:other-id>
                 <ns2:other-id type="eche">28252-EPP-1-2014-1-DE-EPPKA3-ECHE</ns2:other-id>
                 <ns2:name xml:lang="de">Universität Stuttgart</ns2:name>
-                <ns2:name xml:lang="en">UNIVERSITY OF STUTTGART</ns2:name>
+                <ns2:name xml:lang="en">Universität Stuttgart</ns2:name>
             </ns2:hei>
             <ns2:hei id="hs-offenburg.de">
                 <ns2:other-id type="pic">961360405</ns2:other-id>
                 <ns2:other-id type="erasmus">D  OFFENBU01</ns2:other-id>
                 <ns2:other-id type="euc">29803-IC-1-2007-1-DE-ERASMUS-EUCX-1</ns2:other-id>
                 <ns2:name xml:lang="de">HOCHSCHULE OFFENBURG - HOCHSCHULE FÜR TECHNIK, WIRTSCHAFT UND MEDIEN</ns2:name>
-                <ns2:name xml:lang="en">UNIVERSITY OF APPLIED SCIENCES OFFENBURG</ns2:name>
+                <ns2:name xml:lang="en">HOCHSCHULE OFFENBURG - HOCHSCHULE FÜR TECHNIK, WIRTSCHAFT UND MEDIEN</ns2:name>
             </ns2:hei>
             <ns2:hei id="uni-augsburg.de">
                 <ns2:other-id type="pic">999598678</ns2:other-id>
@@ -1111,7 +1119,7 @@ Vhm1ywIDAQAB&#xD;
                 <ns2:other-id type="euc">29697-IC-1-2007-1-DE-ERASMUS-EUCX-1</ns2:other-id>
                 <ns2:other-id type="eche">29697-EPP-1-2014-1-DE-EPPKA3-ECHE</ns2:other-id>
                 <ns2:name xml:lang="de">HOCHSCHULE HEILBRONN</ns2:name>
-                <ns2:name xml:lang="en">HEILBRONN UNIVERSITY</ns2:name>
+                <ns2:name xml:lang="en">HOCHSCHULE HEILBRONN</ns2:name>
             </ns2:hei>
             <ns2:hei id="telecom-paris.fr">
                 <ns2:other-id type="pic">945908014</ns2:other-id>
@@ -1124,7 +1132,7 @@ Vhm1ywIDAQAB&#xD;
                 <ns2:other-id type="erasmus">D  AALEN01</ns2:other-id>
                 <ns2:other-id type="euc">29718-IC-1-2007-1-DE-ERASMUS-EUCX-1</ns2:other-id>
                 <ns2:name xml:lang="de">Hochschule Aalen</ns2:name>
-                <ns2:name xml:lang="en">AALEN UNIVERSITY</ns2:name>
+                <ns2:name xml:lang="en">Hochschule Aalen</ns2:name>
             </ns2:hei>
             <ns2:hei id="uni-hamburg.de">
                 <ns2:other-id type="pic">999905101</ns2:other-id>
@@ -1143,7 +1151,7 @@ Vhm1ywIDAQAB&#xD;
                 <ns2:other-id type="euc">260099-LA-1-20147-1CH-E4AKA1-ECHE</ns2:other-id>
                 <ns2:other-id type="eche">260099-LA-1-20147-1CH-E4AKA1-ECHE</ns2:other-id>
                 <ns2:name xml:lang="de">Pädagogische Hochschule Zürich</ns2:name>
-                <ns2:name xml:lang="en">ZURICH UNIVERSITY OF TEACHER EDUCATION</ns2:name>
+                <ns2:name xml:lang="en">Pädagogische Hochschule Zürich</ns2:name>
             </ns2:hei>
             <ns2:hei id="windesheim.nl">
                 <ns2:other-id type="pic">951107893</ns2:other-id>
@@ -1176,7 +1184,7 @@ Vhm1ywIDAQAB&#xD;
                 <ns2:other-id type="erasmus">D  BIELEFE02</ns2:other-id>
                 <ns2:other-id type="euc">29725-IC-1-2007-1-DE-ERASMUS-EUCX-1</ns2:other-id>
                 <ns2:name xml:lang="de">Fachhochschule Bielefeld</ns2:name>
-                <ns2:name xml:lang="en">BIELEFELD UNIVERSITY OF APPLIED SCIENCES</ns2:name>
+                <ns2:name xml:lang="en">Fachhochschule Bielefeld</ns2:name>
             </ns2:hei>
             <ns2:hei id="kit.edu">
                 <ns2:other-id type="erasmus">D  KARLSRU01</ns2:other-id>
@@ -1209,7 +1217,7 @@ Vhm1ywIDAQAB&#xD;
                 <ns2:other-id type="pic">999846416</ns2:other-id>
                 <ns2:other-id type="erasmus">D  OSNABRU02</ns2:other-id>
                 <ns2:name xml:lang="de">HOCHSCHULE OSNABRÜCK</ns2:name>
-                <ns2:name xml:lang="en">HOCHSCHULE OSNABRÜCK UNIVERSITY OF APPLIED SCIENCES</ns2:name>
+                <ns2:name xml:lang="en">HOCHSCHULE OSNABRÜCK</ns2:name>
             </ns2:hei>
             <ns2:hei id="uta.fi">
                 <ns2:other-id type="pic">902999288</ns2:other-id>
@@ -1235,13 +1243,13 @@ Vhm1ywIDAQAB&#xD;
                 <ns2:other-id type="pic">998961291</ns2:other-id>
                 <ns2:other-id type="erasmus">B  GENT25</ns2:other-id>
                 <ns2:name xml:lang="nl">Hogeschool Gent</ns2:name>
-                <ns2:name xml:lang="en">UNIVERSITY COLLEGE GHENT</ns2:name>
+                <ns2:name xml:lang="en">Hogeschool Gent</ns2:name>
             </ns2:hei>
             <ns2:hei id="tue.nl">
                 <ns2:other-id type="pic">999977269</ns2:other-id>
                 <ns2:other-id type="erasmus">NL EINDHOV17</ns2:other-id>
                 <ns2:name xml:lang="nl">TECHNISCHE UNIVERSITEIT EINDHOVEN</ns2:name>
-                <ns2:name xml:lang="en">EINDHOVEN UNIVERSITY OF TECHNOLOGY</ns2:name>
+                <ns2:name xml:lang="en">TECHNISCHE UNIVERSITEIT EINDHOVEN</ns2:name>
             </ns2:hei>
             <ns2:hei id="univ-lehavre.fr">
                 <ns2:other-id type="erasmus">F  LE-HAVR11</ns2:other-id>
@@ -1313,21 +1321,21 @@ Vhm1ywIDAQAB&#xD;
     </ns3:host>
     <ns3:host>
         <ns2:apis-implemented>
-            <ns16:organizational-units version="2.1.0">
-                <ns16:http-security>
+            <ns24:organizational-units version="2.1.0">
+                <ns24:http-security>
                     <ns5:client-auth-methods>
-                        <ns22:httpsig/>
-                        <ns20:tlscert allows-self-signed="true"/>
+                        <ns30:httpsig/>
+                        <ns28:tlscert allows-self-signed="true"/>
                     </ns5:client-auth-methods>
                     <ns5:server-auth-methods>
-                        <ns23:httpsig/>
-                        <ns24:tlscert/>
+                        <ns31:httpsig/>
+                        <ns32:tlscert/>
                     </ns5:server-auth-methods>
-                </ns16:http-security>
-                <ns16:url>https://www.service4mobility.com/europe/ewp/ounits</ns16:url>
-                <ns16:max-ounit-ids>3</ns16:max-ounit-ids>
-                <ns16:max-ounit-codes>3</ns16:max-ounit-codes>
-            </ns16:organizational-units>
+                </ns24:http-security>
+                <ns24:url>https://www.service4mobility.com/europe/ewp/ounits</ns24:url>
+                <ns24:max-ounit-ids>3</ns24:max-ounit-ids>
+                <ns24:max-ounit-codes>3</ns24:max-ounit-codes>
+            </ns24:organizational-units>
         </ns2:apis-implemented>
         <ns3:institutions-covered>
             <ns2:hei id="uni-bremen.de">
@@ -1360,7 +1368,7 @@ Vhm1ywIDAQAB&#xD;
                 <ns2:other-id type="euc">27954-LA-1-2014-1-BE-E4AKA1-ECHE-1</ns2:other-id>
                 <ns2:other-id type="eche">27954-EPP-1-2014-1-BE-EPPKA3-ECHE</ns2:other-id>
                 <ns2:name xml:lang="nl">Erasmushogeschool Brussel</ns2:name>
-                <ns2:name xml:lang="en">Erasmus Brussels University of Applied Sciences and Arts</ns2:name>
+                <ns2:name xml:lang="en">Erasmushogeschool Brussel</ns2:name>
             </ns2:hei>
             <ns2:hei id="hanken.fi">
                 <ns2:other-id type="pic">986118976</ns2:other-id>
@@ -1374,7 +1382,7 @@ Vhm1ywIDAQAB&#xD;
                 <ns2:other-id type="erasmus">SF JYVASKY01</ns2:other-id>
                 <ns2:other-id type="euc">29549-IC-1-2007-1-FI-ERASMUS-EUCX-1</ns2:other-id>
                 <ns2:name xml:lang="fi">JYVÄSKYLÄN YLIOPISTO</ns2:name>
-                <ns2:name xml:lang="en">UNIVERSITY OF JYVÄSKYLÄ</ns2:name>
+                <ns2:name xml:lang="en">JYVÄSKYLÄN YLIOPISTO</ns2:name>
             </ns2:hei>
             <ns2:hei id="ub.edu">
                 <ns2:other-id type="pic">999986387</ns2:other-id>
@@ -1388,7 +1396,7 @@ Vhm1ywIDAQAB&#xD;
                 <ns2:other-id type="erasmus">B  HASSELT22</ns2:other-id>
                 <ns2:other-id type="euc">381703-IC-1-2013-1-BE-ERASMUS-EUCX-1</ns2:other-id>
                 <ns2:name xml:lang="nl">Hogeschool PXL</ns2:name>
-                <ns2:name xml:lang="en">PXL UNIVERSITY COLLEGE</ns2:name>
+                <ns2:name xml:lang="en">Hogeschool PXL</ns2:name>
             </ns2:hei>
             <ns2:hei id="arteveldehs.be">
                 <ns2:other-id type="pic">986308514</ns2:other-id>
@@ -1432,7 +1440,7 @@ Vhm1ywIDAQAB&#xD;
                 <ns2:other-id type="erasmus">D  KIEL01</ns2:other-id>
                 <ns2:other-id type="euc">28321-IC-1-2007-1-DE-ERASMUS-EUCX-1</ns2:other-id>
                 <ns2:name xml:lang="de">Christian-Albrechts-Universität zu Kiel</ns2:name>
-                <ns2:name xml:lang="en">KIEL UNIVERSITY</ns2:name>
+                <ns2:name xml:lang="en">Christian-Albrechts-Universität zu Kiel</ns2:name>
             </ns2:hei>
             <ns2:hei id="ap.be">
                 <ns2:other-id type="pic">949316982</ns2:other-id>
@@ -1446,14 +1454,14 @@ Vhm1ywIDAQAB&#xD;
                 <ns2:other-id type="erasmus">D  STUTTGA02</ns2:other-id>
                 <ns2:other-id type="euc">29776-IC-1-2007-1-DE-ERASMUS-EUCX-1</ns2:other-id>
                 <ns2:name xml:lang="de">Universität Hohenheim</ns2:name>
-                <ns2:name xml:lang="en">UNIVERSITY OF HOHENHEIM</ns2:name>
+                <ns2:name xml:lang="en">Universität Hohenheim</ns2:name>
             </ns2:hei>
             <ns2:hei id="hs-offenburg.de">
                 <ns2:other-id type="pic">961360405</ns2:other-id>
                 <ns2:other-id type="erasmus">D  OFFENBU01</ns2:other-id>
                 <ns2:other-id type="euc">29803-IC-1-2007-1-DE-ERASMUS-EUCX-1</ns2:other-id>
                 <ns2:name xml:lang="de">HOCHSCHULE OFFENBURG - HOCHSCHULE FÜR TECHNIK, WIRTSCHAFT UND MEDIEN</ns2:name>
-                <ns2:name xml:lang="en">UNIVERSITY OF APPLIED SCIENCES OFFENBURG</ns2:name>
+                <ns2:name xml:lang="en">HOCHSCHULE OFFENBURG - HOCHSCHULE FÜR TECHNIK, WIRTSCHAFT UND MEDIEN</ns2:name>
             </ns2:hei>
             <ns2:hei id="uni-augsburg.de">
                 <ns2:other-id type="pic">999598678</ns2:other-id>
@@ -1473,7 +1481,7 @@ Vhm1ywIDAQAB&#xD;
                 <ns2:other-id type="erasmus">D  AALEN01</ns2:other-id>
                 <ns2:other-id type="euc">29718-IC-1-2007-1-DE-ERASMUS-EUCX-1</ns2:other-id>
                 <ns2:name xml:lang="de">Hochschule Aalen</ns2:name>
-                <ns2:name xml:lang="en">AALEN UNIVERSITY</ns2:name>
+                <ns2:name xml:lang="en">Hochschule Aalen</ns2:name>
             </ns2:hei>
             <ns2:hei id="kea.dk">
                 <ns2:name xml:lang="da">KEA Copenhagen School of Design and Technology</ns2:name>
@@ -1498,7 +1506,7 @@ Vhm1ywIDAQAB&#xD;
                 <ns2:other-id type="erasmus">D  BIELEFE02</ns2:other-id>
                 <ns2:other-id type="euc">29725-IC-1-2007-1-DE-ERASMUS-EUCX-1</ns2:other-id>
                 <ns2:name xml:lang="de">Fachhochschule Bielefeld</ns2:name>
-                <ns2:name xml:lang="en">BIELEFELD UNIVERSITY OF APPLIED SCIENCES</ns2:name>
+                <ns2:name xml:lang="en">Fachhochschule Bielefeld</ns2:name>
             </ns2:hei>
             <ns2:hei id="kit.edu">
                 <ns2:other-id type="erasmus">D  KARLSRU01</ns2:other-id>
@@ -1530,7 +1538,7 @@ Vhm1ywIDAQAB&#xD;
                 <ns2:other-id type="pic">998961291</ns2:other-id>
                 <ns2:other-id type="erasmus">B  GENT25</ns2:other-id>
                 <ns2:name xml:lang="nl">Hogeschool Gent</ns2:name>
-                <ns2:name xml:lang="en">UNIVERSITY COLLEGE GHENT</ns2:name>
+                <ns2:name xml:lang="en">Hogeschool Gent</ns2:name>
             </ns2:hei>
             <ns2:hei id="jamk.fi">
                 <ns2:other-id type="pic">996682955</ns2:other-id>
@@ -1585,21 +1593,21 @@ Vhm1ywIDAQAB&#xD;
     </ns3:host>
     <ns3:host>
         <ns2:apis-implemented>
-            <ns13:courses version="0.7.1">
-                <ns13:http-security>
+            <ns19:courses version="0.7.1">
+                <ns19:http-security>
                     <ns5:client-auth-methods>
-                        <ns22:httpsig/>
-                        <ns20:tlscert allows-self-signed="true"/>
+                        <ns30:httpsig/>
+                        <ns28:tlscert allows-self-signed="true"/>
                     </ns5:client-auth-methods>
                     <ns5:server-auth-methods>
-                        <ns23:httpsig/>
-                        <ns24:tlscert/>
+                        <ns31:httpsig/>
+                        <ns32:tlscert/>
                     </ns5:server-auth-methods>
-                </ns13:http-security>
-                <ns13:url>https://www.service4mobility.com/europe/ewp/courses</ns13:url>
-                <ns13:max-los-ids>50</ns13:max-los-ids>
-                <ns13:max-los-codes>50</ns13:max-los-codes>
-            </ns13:courses>
+                </ns19:http-security>
+                <ns19:url>https://www.service4mobility.com/europe/ewp/courses</ns19:url>
+                <ns19:max-los-ids>50</ns19:max-los-ids>
+                <ns19:max-los-codes>50</ns19:max-los-codes>
+            </ns19:courses>
         </ns2:apis-implemented>
         <ns3:institutions-covered>
             <ns2:hei id="diak.fi">
@@ -1626,7 +1634,7 @@ Vhm1ywIDAQAB&#xD;
                 <ns2:other-id type="erasmus">B  HASSELT22</ns2:other-id>
                 <ns2:other-id type="euc">381703-IC-1-2013-1-BE-ERASMUS-EUCX-1</ns2:other-id>
                 <ns2:name xml:lang="nl">Hogeschool PXL</ns2:name>
-                <ns2:name xml:lang="en">PXL UNIVERSITY COLLEGE</ns2:name>
+                <ns2:name xml:lang="en">Hogeschool PXL</ns2:name>
             </ns2:hei>
             <ns2:hei id="arteveldehs.be">
                 <ns2:other-id type="pic">986308514</ns2:other-id>
@@ -1672,7 +1680,7 @@ Vhm1ywIDAQAB&#xD;
                 <ns2:other-id type="pic">999846416</ns2:other-id>
                 <ns2:other-id type="erasmus">D  OSNABRU02</ns2:other-id>
                 <ns2:name xml:lang="de">HOCHSCHULE OSNABRÜCK</ns2:name>
-                <ns2:name xml:lang="en">HOCHSCHULE OSNABRÜCK UNIVERSITY OF APPLIED SCIENCES</ns2:name>
+                <ns2:name xml:lang="en">HOCHSCHULE OSNABRÜCK</ns2:name>
             </ns2:hei>
             <ns2:hei id="jamk.fi">
                 <ns2:other-id type="pic">996682955</ns2:other-id>
@@ -1720,21 +1728,21 @@ Vhm1ywIDAQAB&#xD;
     </ns3:host>
     <ns3:host>
         <ns2:apis-implemented>
-            <ns12:simple-course-replication version="1.0.0">
-                <ns12:http-security>
+            <ns18:simple-course-replication version="1.0.0">
+                <ns18:http-security>
                     <ns5:client-auth-methods>
-                        <ns22:httpsig/>
-                        <ns20:tlscert allows-self-signed="true"/>
+                        <ns30:httpsig/>
+                        <ns28:tlscert allows-self-signed="true"/>
                     </ns5:client-auth-methods>
                     <ns5:server-auth-methods>
-                        <ns23:httpsig/>
-                        <ns24:tlscert/>
+                        <ns31:httpsig/>
+                        <ns32:tlscert/>
                     </ns5:server-auth-methods>
-                </ns12:http-security>
-                <ns12:url>https://www.service4mobility.com/europe/ewp/courserep</ns12:url>
-                <ns12:allows-anonymous-access>false</ns12:allows-anonymous-access>
-                <ns12:supports-modified-since>true</ns12:supports-modified-since>
-            </ns12:simple-course-replication>
+                </ns18:http-security>
+                <ns18:url>https://www.service4mobility.com/europe/ewp/courserep</ns18:url>
+                <ns18:allows-anonymous-access>false</ns18:allows-anonymous-access>
+                <ns18:supports-modified-since>true</ns18:supports-modified-since>
+            </ns18:simple-course-replication>
         </ns2:apis-implemented>
         <ns3:institutions-covered>
             <ns2:hei id="diak.fi">
@@ -1761,7 +1769,7 @@ Vhm1ywIDAQAB&#xD;
                 <ns2:other-id type="erasmus">B  HASSELT22</ns2:other-id>
                 <ns2:other-id type="euc">381703-IC-1-2013-1-BE-ERASMUS-EUCX-1</ns2:other-id>
                 <ns2:name xml:lang="nl">Hogeschool PXL</ns2:name>
-                <ns2:name xml:lang="en">PXL UNIVERSITY COLLEGE</ns2:name>
+                <ns2:name xml:lang="en">Hogeschool PXL</ns2:name>
             </ns2:hei>
             <ns2:hei id="arteveldehs.be">
                 <ns2:other-id type="pic">986308514</ns2:other-id>
@@ -1807,7 +1815,7 @@ Vhm1ywIDAQAB&#xD;
                 <ns2:other-id type="pic">999846416</ns2:other-id>
                 <ns2:other-id type="erasmus">D  OSNABRU02</ns2:other-id>
                 <ns2:name xml:lang="de">HOCHSCHULE OSNABRÜCK</ns2:name>
-                <ns2:name xml:lang="en">HOCHSCHULE OSNABRÜCK UNIVERSITY OF APPLIED SCIENCES</ns2:name>
+                <ns2:name xml:lang="en">HOCHSCHULE OSNABRÜCK</ns2:name>
             </ns2:hei>
             <ns2:hei id="jamk.fi">
                 <ns2:other-id type="pic">996682955</ns2:other-id>
@@ -1855,22 +1863,22 @@ Vhm1ywIDAQAB&#xD;
     </ns3:host>
     <ns3:host>
         <ns2:apis-implemented>
-            <ns11:omobilities version="0.15.0">
-                <ns11:http-security>
+            <ns17:omobilities version="0.15.0">
+                <ns17:http-security>
                     <ns5:client-auth-methods>
-                        <ns22:httpsig/>
-                        <ns20:tlscert allows-self-signed="true"/>
+                        <ns30:httpsig/>
+                        <ns28:tlscert allows-self-signed="true"/>
                     </ns5:client-auth-methods>
                     <ns5:server-auth-methods>
-                        <ns23:httpsig/>
-                        <ns24:tlscert/>
+                        <ns31:httpsig/>
+                        <ns32:tlscert/>
                     </ns5:server-auth-methods>
-                </ns11:http-security>
-                <ns11:get-url>https://www.service4mobility.com/europe/ewp/mobility_out/get</ns11:get-url>
-                <ns11:index-url>https://www.service4mobility.com/europe/ewp/mobility_out/index</ns11:index-url>
-                <ns11:max-omobility-ids>1</ns11:max-omobility-ids>
-                <ns11:sends-notifications/>
-            </ns11:omobilities>
+                </ns17:http-security>
+                <ns17:get-url>https://www.service4mobility.com/europe/ewp/mobility_out/get</ns17:get-url>
+                <ns17:index-url>https://www.service4mobility.com/europe/ewp/mobility_out/index</ns17:index-url>
+                <ns17:max-omobility-ids>1</ns17:max-omobility-ids>
+                <ns17:sends-notifications/>
+            </ns17:omobilities>
         </ns2:apis-implemented>
         <ns3:institutions-covered>
             <ns2:hei id="diak.fi">
@@ -1891,14 +1899,14 @@ Vhm1ywIDAQAB&#xD;
                 <ns2:other-id type="euc">27954-LA-1-2014-1-BE-E4AKA1-ECHE-1</ns2:other-id>
                 <ns2:other-id type="eche">27954-EPP-1-2014-1-BE-EPPKA3-ECHE</ns2:other-id>
                 <ns2:name xml:lang="nl">Erasmushogeschool Brussel</ns2:name>
-                <ns2:name xml:lang="en">Erasmus Brussels University of Applied Sciences and Arts</ns2:name>
+                <ns2:name xml:lang="en">Erasmushogeschool Brussel</ns2:name>
             </ns2:hei>
             <ns2:hei id="jyu.fi">
                 <ns2:other-id type="pic">999842245</ns2:other-id>
                 <ns2:other-id type="erasmus">SF JYVASKY01</ns2:other-id>
                 <ns2:other-id type="euc">29549-IC-1-2007-1-FI-ERASMUS-EUCX-1</ns2:other-id>
                 <ns2:name xml:lang="fi">JYVÄSKYLÄN YLIOPISTO</ns2:name>
-                <ns2:name xml:lang="en">UNIVERSITY OF JYVÄSKYLÄ</ns2:name>
+                <ns2:name xml:lang="en">JYVÄSKYLÄN YLIOPISTO</ns2:name>
             </ns2:hei>
             <ns2:hei id="ub.edu">
                 <ns2:other-id type="pic">999986387</ns2:other-id>
@@ -2004,20 +2012,20 @@ Vhm1ywIDAQAB&#xD;
     </ns3:host>
     <ns3:host>
         <ns2:apis-implemented>
-            <ns8:imobility-cnr version="0.1.1">
-                <ns8:http-security>
+            <ns12:imobility-cnr version="0.1.1">
+                <ns12:http-security>
                     <ns5:client-auth-methods>
-                        <ns22:httpsig/>
-                        <ns20:tlscert allows-self-signed="true"/>
+                        <ns30:httpsig/>
+                        <ns28:tlscert allows-self-signed="true"/>
                     </ns5:client-auth-methods>
                     <ns5:server-auth-methods>
-                        <ns23:httpsig/>
-                        <ns24:tlscert/>
+                        <ns31:httpsig/>
+                        <ns32:tlscert/>
                     </ns5:server-auth-methods>
-                </ns8:http-security>
-                <ns8:url>https://www.service4mobility.com/europe/ewp/mobility_in/cnr</ns8:url>
-                <ns8:max-omobility-ids>1</ns8:max-omobility-ids>
-            </ns8:imobility-cnr>
+                </ns12:http-security>
+                <ns12:url>https://www.service4mobility.com/europe/ewp/mobility_in/cnr</ns12:url>
+                <ns12:max-omobility-ids>1</ns12:max-omobility-ids>
+            </ns12:imobility-cnr>
         </ns2:apis-implemented>
         <ns3:institutions-covered>
             <ns2:hei id="diak.fi">
@@ -2037,7 +2045,7 @@ Vhm1ywIDAQAB&#xD;
                 <ns2:other-id type="erasmus">SF JYVASKY01</ns2:other-id>
                 <ns2:other-id type="euc">29549-IC-1-2007-1-FI-ERASMUS-EUCX-1</ns2:other-id>
                 <ns2:name xml:lang="fi">JYVÄSKYLÄN YLIOPISTO</ns2:name>
-                <ns2:name xml:lang="en">UNIVERSITY OF JYVÄSKYLÄ</ns2:name>
+                <ns2:name xml:lang="en">JYVÄSKYLÄN YLIOPISTO</ns2:name>
             </ns2:hei>
             <ns2:hei id="ub.edu">
                 <ns2:other-id type="pic">999986387</ns2:other-id>
@@ -2119,21 +2127,21 @@ Vhm1ywIDAQAB&#xD;
     </ns3:host>
     <ns3:host>
         <ns2:apis-implemented>
-            <ns9:imobilities version="0.3.0">
-                <ns9:http-security>
+            <ns13:imobilities version="0.3.0">
+                <ns13:http-security>
                     <ns5:client-auth-methods>
-                        <ns22:httpsig/>
-                        <ns20:tlscert allows-self-signed="true"/>
+                        <ns30:httpsig/>
+                        <ns28:tlscert allows-self-signed="true"/>
                     </ns5:client-auth-methods>
                     <ns5:server-auth-methods>
-                        <ns23:httpsig/>
-                        <ns24:tlscert/>
+                        <ns31:httpsig/>
+                        <ns32:tlscert/>
                     </ns5:server-auth-methods>
-                </ns9:http-security>
-                <ns9:get-url>https://www.service4mobility.com/europe/ewp/mobility_in/get</ns9:get-url>
-                <ns9:max-omobility-ids>1</ns9:max-omobility-ids>
-                <ns9:sends-notifications/>
-            </ns9:imobilities>
+                </ns13:http-security>
+                <ns13:get-url>https://www.service4mobility.com/europe/ewp/mobility_in/get</ns13:get-url>
+                <ns13:max-omobility-ids>1</ns13:max-omobility-ids>
+                <ns13:sends-notifications/>
+            </ns13:imobilities>
         </ns2:apis-implemented>
         <ns3:institutions-covered>
             <ns2:hei id="diak.fi">
@@ -2154,14 +2162,14 @@ Vhm1ywIDAQAB&#xD;
                 <ns2:other-id type="euc">27954-LA-1-2014-1-BE-E4AKA1-ECHE-1</ns2:other-id>
                 <ns2:other-id type="eche">27954-EPP-1-2014-1-BE-EPPKA3-ECHE</ns2:other-id>
                 <ns2:name xml:lang="nl">Erasmushogeschool Brussel</ns2:name>
-                <ns2:name xml:lang="en">Erasmus Brussels University of Applied Sciences and Arts</ns2:name>
+                <ns2:name xml:lang="en">Erasmushogeschool Brussel</ns2:name>
             </ns2:hei>
             <ns2:hei id="jyu.fi">
                 <ns2:other-id type="pic">999842245</ns2:other-id>
                 <ns2:other-id type="erasmus">SF JYVASKY01</ns2:other-id>
                 <ns2:other-id type="euc">29549-IC-1-2007-1-FI-ERASMUS-EUCX-1</ns2:other-id>
                 <ns2:name xml:lang="fi">JYVÄSKYLÄN YLIOPISTO</ns2:name>
-                <ns2:name xml:lang="en">UNIVERSITY OF JYVÄSKYLÄ</ns2:name>
+                <ns2:name xml:lang="en">JYVÄSKYLÄN YLIOPISTO</ns2:name>
             </ns2:hei>
             <ns2:hei id="ub.edu">
                 <ns2:other-id type="pic">999986387</ns2:other-id>
@@ -2247,20 +2255,20 @@ Vhm1ywIDAQAB&#xD;
     </ns3:host>
     <ns3:host>
         <ns2:apis-implemented>
-            <ns10:omobility-cnr version="0.4.1">
-                <ns10:http-security>
+            <ns16:omobility-cnr version="0.4.1">
+                <ns16:http-security>
                     <ns5:client-auth-methods>
-                        <ns22:httpsig/>
-                        <ns20:tlscert allows-self-signed="true"/>
+                        <ns30:httpsig/>
+                        <ns28:tlscert allows-self-signed="true"/>
                     </ns5:client-auth-methods>
                     <ns5:server-auth-methods>
-                        <ns23:httpsig/>
-                        <ns24:tlscert/>
+                        <ns31:httpsig/>
+                        <ns32:tlscert/>
                     </ns5:server-auth-methods>
-                </ns10:http-security>
-                <ns10:url>https://www.service4mobility.com/europe/ewp/mobility_out/cnr</ns10:url>
-                <ns10:max-omobility-ids>1</ns10:max-omobility-ids>
-            </ns10:omobility-cnr>
+                </ns16:http-security>
+                <ns16:url>https://www.service4mobility.com/europe/ewp/mobility_out/cnr</ns16:url>
+                <ns16:max-omobility-ids>1</ns16:max-omobility-ids>
+            </ns16:omobility-cnr>
         </ns2:apis-implemented>
         <ns3:institutions-covered>
             <ns2:hei id="diak.fi">
@@ -2280,7 +2288,7 @@ Vhm1ywIDAQAB&#xD;
                 <ns2:other-id type="erasmus">SF JYVASKY01</ns2:other-id>
                 <ns2:other-id type="euc">29549-IC-1-2007-1-FI-ERASMUS-EUCX-1</ns2:other-id>
                 <ns2:name xml:lang="fi">JYVÄSKYLÄN YLIOPISTO</ns2:name>
-                <ns2:name xml:lang="en">UNIVERSITY OF JYVÄSKYLÄ</ns2:name>
+                <ns2:name xml:lang="en">JYVÄSKYLÄN YLIOPISTO</ns2:name>
             </ns2:hei>
             <ns2:hei id="ub.edu">
                 <ns2:other-id type="pic">999986387</ns2:other-id>
