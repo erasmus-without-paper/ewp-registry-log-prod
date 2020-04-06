@@ -7659,6 +7659,20 @@
         <ewp:admin-email>adapps@it.auth.gr</ewp:admin-email>
         <ewp:admin-notes>This is a EWP reference connector instance for AUTH.</ewp:admin-notes>
         <apis-implemented>
+            <in2:institutions version="2.1.0">
+                <in2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="false"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </in2:http-security>
+                <in2:url>https://ewp.auth.gr/rest/institutions</in2:url>
+                <in2:max-hei-ids>1</in2:max-hei-ids>
+            </in2:institutions>
             <e2:echo version="2.0.1">
                 <e2:http-security>
                     <sec:client-auth-methods>
@@ -7693,20 +7707,6 @@
             <d5:discovery version="5.0.0">
                 <d5:url>https://ewp.auth.gr/rest/manifest</d5:url>
             </d5:discovery>
-            <in2:institutions version="2.1.0">
-                <in2:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A1:tlscert allows-self-signed="false"/>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B1:tlscert/>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </in2:http-security>
-                <in2:url>https://ewp.auth.gr/rest/institutions</in2:url>
-                <in2:max-hei-ids>1</in2:max-hei-ids>
-            </in2:institutions>
             <ou2:organizational-units version="2.1.0">
                 <ou2:http-security>
                     <sec:client-auth-methods>
