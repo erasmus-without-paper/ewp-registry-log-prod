@@ -1318,6 +1318,35 @@
     </host>
     <host>
         <apis-implemented>
+            <ou2:organizational-units version="2.1.0">
+                <ou2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </ou2:http-security>
+                <ou2:url>https://www.service4mobility.com/uniluzern/ewp/ounits</ou2:url>
+                <ou2:max-ounit-ids>3</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>3</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>unilu.ch</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="f4c773829ee104f5302ce3ea80688087c7629b048c2cf2c49cbea26b98382951"/>
+            <rsa-public-key sha-256="95f854813df5c5f359932a98909cfd394c2900d5e7af572a8e55b04daf04a76b"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="95f854813df5c5f359932a98909cfd394c2900d5e7af572a8e55b04daf04a76b"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
             <d5:discovery version="5.0.0">
                 <d5:url>https://www.service4mobility.com/HU/ewp/manifest?api=all</d5:url>
             </d5:discovery>
