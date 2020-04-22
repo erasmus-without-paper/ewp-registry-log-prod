@@ -1508,6 +1508,102 @@
                 <e2:url>https://mobilityonline.fhv.at/fhv/ewp/echo</e2:url>
             </e2:echo>
         </apis-implemented>
+        <institutions-covered>
+            <hei-id>fhv.at</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="b7db407f68a939dbe15d66dae732521fcbb428612e6b673459546c1fbf8e1bd8"/>
+            <rsa-public-key sha-256="a122fb9cdb71733aa7c3eb0ce719d9588c9af9207d64d6bc5bbb025d83577ca0"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="a122fb9cdb71733aa7c3eb0ce719d9588c9af9207d64d6bc5bbb025d83577ca0"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <in2:institutions version="2.1.0">
+                <in2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </in2:http-security>
+                <in2:url>https://mobilityonline.fhv.at/fhv/ewp/institutions</in2:url>
+                <in2:max-hei-ids>3</in2:max-hei-ids>
+            </in2:institutions>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>fhv.at</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="b7db407f68a939dbe15d66dae732521fcbb428612e6b673459546c1fbf8e1bd8"/>
+            <rsa-public-key sha-256="a122fb9cdb71733aa7c3eb0ce719d9588c9af9207d64d6bc5bbb025d83577ca0"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="a122fb9cdb71733aa7c3eb0ce719d9588c9af9207d64d6bc5bbb025d83577ca0"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <om1:omobilities
+                xmlns:om1="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd"
+                version="0.15.0"
+            >
+                <om1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </om1:http-security>
+                <om1:get-url>https://mobilityonline.fhv.at/fhv/ewp/mobility_out/get</om1:get-url>
+                <om1:index-url>https://mobilityonline.fhv.at/fhv/ewp/mobility_out/index</om1:index-url>
+                <om1:max-omobility-ids>1</om1:max-omobility-ids>
+                <om1:sends-notifications/>
+            </om1:omobilities>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>fhv.at</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="b7db407f68a939dbe15d66dae732521fcbb428612e6b673459546c1fbf8e1bd8"/>
+            <rsa-public-key sha-256="a122fb9cdb71733aa7c3eb0ce719d9588c9af9207d64d6bc5bbb025d83577ca0"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="a122fb9cdb71733aa7c3eb0ce719d9588c9af9207d64d6bc5bbb025d83577ca0"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <im1:imobilities
+                xmlns:im1="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v1/manifest-entry.xsd"
+                version="0.3.0"
+            >
+                <im1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </im1:http-security>
+                <im1:get-url>https://mobilityonline.fhv.at/fhv/ewp/mobility_in/get</im1:get-url>
+                <im1:max-omobility-ids>1</im1:max-omobility-ids>
+                <im1:sends-notifications/>
+            </im1:imobilities>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>fhv.at</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b7db407f68a939dbe15d66dae732521fcbb428612e6b673459546c1fbf8e1bd8"/>
             <rsa-public-key sha-256="a122fb9cdb71733aa7c3eb0ce719d9588c9af9207d64d6bc5bbb025d83577ca0"/>
@@ -8800,6 +8896,12 @@
             <other-id type="erasmus">A WIEN38</other-id>
             <name xml:lang="de">University of Applied Sciences BFI Vienna</name>
             <name xml:lang="en">University of Applied Sciences BFI Vienna</name>
+        </hei>
+        <hei id="fhv.at">
+            <other-id type="erasmus">A DORNBIR01</other-id>
+            <other-id type="euc">29270-IC-1-2002-1-AT-ERASMUS-EUC-1</other-id>
+            <name xml:lang="de">Fachhochschule Vorarlberg GmbH</name>
+            <name xml:lang="en">Fachhochschule Vorarlberg GmbH</name>
         </hei>
         <hei id="fhws.de">
             <other-id type="erasmus">D  WURZBUR03</other-id>
