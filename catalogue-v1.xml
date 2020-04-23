@@ -4451,6 +4451,35 @@
         </server-credentials-in-use>
     </host>
     <host>
+        <apis-implemented>
+            <ou2:organizational-units version="2.1.0">
+                <ou2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </ou2:http-security>
+                <ou2:url>https://mobility.univ-lorraine.fr/mobility/ewp/ounits</ou2:url>
+                <ou2:max-ounit-ids>3</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>3</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>univ-lorraine.fr</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="e9c80a2acbf332bb7dceaee8a81c11ac308a35589806929f91537aecf4b156dc"/>
+            <rsa-public-key sha-256="3310d13c4313caf73c68786934a860ce8e408c6120b2e97aeaf6b2f61051418f"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="3310d13c4313caf73c68786934a860ce8e408c6120b2e97aeaf6b2f61051418f"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
         <ewp:admin-email>oasis-ewp@ugent.be</ewp:admin-email>
         <apis-implemented>
             <d5:discovery version="5.0.0">
