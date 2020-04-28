@@ -3269,6 +3269,34 @@
     </host>
     <host>
         <apis-implemented>
+            <in2:institutions version="2.1.0">
+                <in2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </in2:http-security>
+                <in2:url>https://mobility.zuv.uni-heidelberg.de/mobility/ewp/institutions</in2:url>
+                <in2:max-hei-ids>3</in2:max-hei-ids>
+            </in2:institutions>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>uni-heidelberg.de</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="0f1657e145481e336bd3bb72954ec79ddb4e8a61f224283650e2c1eb41b867fe"/>
+            <rsa-public-key sha-256="68b39969a10445ebb24cfba0c8c72ee045da97a1e8de8010550ed60a68b5d09c"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="68b39969a10445ebb24cfba0c8c72ee045da97a1e8de8010550ed60a68b5d09c"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
             <d5:discovery version="5.0.0">
                 <d5:url>https://mobility.int.uzh.ch/mobility/ewp/manifest</d5:url>
             </d5:discovery>
