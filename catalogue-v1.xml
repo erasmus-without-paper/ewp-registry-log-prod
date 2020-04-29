@@ -3672,6 +3672,34 @@
     </host>
     <host>
         <apis-implemented>
+            <in2:institutions version="2.1.0">
+                <in2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </in2:http-security>
+                <in2:url>https://mobility.univie.ac.at/mobility/ewp/institutions</in2:url>
+                <in2:max-hei-ids>3</in2:max-hei-ids>
+            </in2:institutions>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>univie.ac.at</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="9f4eb4a05b66ebc86ebf67f8b74f459a25c8550d92c58a902bd06d4bc5db37af"/>
+            <rsa-public-key sha-256="f1aba14d6ccd682db6132c00d05dba0d684358e4aa9ef09f084ccbb96e7a32d0"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="f1aba14d6ccd682db6132c00d05dba0d684358e4aa9ef09f084ccbb96e7a32d0"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
             <d5:discovery version="5.0.0">
                 <d5:url>https://mobility.fh-joanneum.at/mobility/ewp/manifest</d5:url>
             </d5:discovery>
