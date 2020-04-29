@@ -4079,6 +4079,37 @@
                 <e2:url>https://mobility-online.fhstp.ac.at/mobility/ewp/echo</e2:url>
             </e2:echo>
         </apis-implemented>
+        <institutions-covered>
+            <hei-id>fhstp.ac.at</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="0b16757af633f4e04497d1b0cba6c76c287516a3a5729c5c5f976c83ece1221b"/>
+            <rsa-public-key sha-256="7d2b6c5d43f6cc5b1edea18325352a121cbeca3f4b8db98190cc05a628edb5fe"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="7d2b6c5d43f6cc5b1edea18325352a121cbeca3f4b8db98190cc05a628edb5fe"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <in2:institutions version="2.1.0">
+                <in2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </in2:http-security>
+                <in2:url>https://mobility-online.fhstp.ac.at/mobility/ewp/institutions</in2:url>
+                <in2:max-hei-ids>3</in2:max-hei-ids>
+            </in2:institutions>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>fhstp.ac.at</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="0b16757af633f4e04497d1b0cba6c76c287516a3a5729c5c5f976c83ece1221b"/>
             <rsa-public-key sha-256="7d2b6c5d43f6cc5b1edea18325352a121cbeca3f4b8db98190cc05a628edb5fe"/>
@@ -9084,6 +9115,14 @@
             <other-id type="erasmus">A WIEN38</other-id>
             <name xml:lang="de">University of Applied Sciences BFI Vienna</name>
             <name xml:lang="en">University of Applied Sciences BFI Vienna</name>
+        </hei>
+        <hei id="fhstp.ac.at">
+            <other-id type="eche">83637-LA-1-2014-1-AT-E4AKA1-ECHE</other-id>
+            <other-id type="erasmus">A  ST-POLT03</other-id>
+            <other-id type="euc">83637-IC-1-2007-1-AT-ERASMUS-EUCX-1</other-id>
+            <other-id type="pic">954490477</other-id>
+            <name xml:lang="de">Fachhochschule St. Pölten GmbH</name>
+            <name xml:lang="en">Fachhochschule St. Pölten GmbH</name>
         </hei>
         <hei id="fhv.at">
             <other-id type="erasmus">A DORNBIR01</other-id>
