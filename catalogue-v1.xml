@@ -2637,6 +2637,34 @@
     </host>
     <host>
         <apis-implemented>
+            <in2:institutions version="2.1.0">
+                <in2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </in2:http-security>
+                <in2:url>https://mobility.uni-konstanz.de/mobility/ewp/institutions</in2:url>
+                <in2:max-hei-ids>3</in2:max-hei-ids>
+            </in2:institutions>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>uni-konstanz.de</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="5ff15353d9d8a327f85d1b88269c102433e6668ab108ab6ea62e275abb1484fd"/>
+            <rsa-public-key sha-256="7cfdc46c9c42a1a090b805e76a5d3fd0df87db0025c9487461292959ca90e6e8"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="7cfdc46c9c42a1a090b805e76a5d3fd0df87db0025c9487461292959ca90e6e8"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
             <d5:discovery version="5.0.0">
                 <d5:url>https://mycampus.ku.de/mobility/ewp/manifest?api=all</d5:url>
             </d5:discovery>
