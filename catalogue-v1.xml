@@ -1730,6 +1730,37 @@
                 <e2:url>https://mobility-online.business.fhnw.ch/mobility/ewp/echo</e2:url>
             </e2:echo>
         </apis-implemented>
+        <institutions-covered>
+            <hei-id>fhnw.ch</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="07b62131b730c10e2f88850a3543515192cb5c11b95356e2220ab1b5fa13f282"/>
+            <rsa-public-key sha-256="b22125ec7cee1efcdea49ba8e8a5c97e0a002d92659b817e608f939091752e36"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="b22125ec7cee1efcdea49ba8e8a5c97e0a002d92659b817e608f939091752e36"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <in2:institutions version="2.1.0">
+                <in2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </in2:http-security>
+                <in2:url>https://mobility-online.business.fhnw.ch/mobility/ewp/institutions</in2:url>
+                <in2:max-hei-ids>3</in2:max-hei-ids>
+            </in2:institutions>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>fhnw.ch</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="07b62131b730c10e2f88850a3543515192cb5c11b95356e2220ab1b5fa13f282"/>
             <rsa-public-key sha-256="b22125ec7cee1efcdea49ba8e8a5c97e0a002d92659b817e608f939091752e36"/>
@@ -9416,6 +9447,11 @@
             <other-id type="erasmus">A WIEN38</other-id>
             <name xml:lang="de">University of Applied Sciences BFI Vienna</name>
             <name xml:lang="en">University of Applied Sciences BFI Vienna</name>
+        </hei>
+        <hei id="fhnw.ch">
+            <other-id type="erasmus">CH BRUGG02</other-id>
+            <name xml:lang="de">Fachhochschule Nordwestschweiz FHNW</name>
+            <name xml:lang="en">Fachhochschule Nordwestschweiz FHNW</name>
         </hei>
         <hei id="fhstp.ac.at">
             <other-id type="eche">83637-LA-1-2014-1-AT-E4AKA1-ECHE</other-id>
