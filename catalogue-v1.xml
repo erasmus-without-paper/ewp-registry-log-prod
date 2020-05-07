@@ -808,7 +808,7 @@
     <host>
         <apis-implemented>
             <d5:discovery version="5.0.0">
-                <d5:url>https://www.service4mobility.com/mobility/ewp/manifest</d5:url>
+                <d5:url>https://www.service4mobility.com/mobility/ewp/manifest?api=all</d5:url>
             </d5:discovery>
             <e2:echo version="2.0.0">
                 <e2:http-security>
@@ -987,6 +987,42 @@
     </host>
     <host>
         <apis-implemented>
+            <iias-approval
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
+                version="0.1.0"
+            >
+                <http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </http-security>
+                <url>https://www.service4mobility.com/mobility/ewp/iias/approve</url>
+                <max-iia-ids>3</max-iia-ids>
+                <sends-notifications/>
+            </iias-approval>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>ph-ooe.at</hei-id>
+            <hei-id>boku.ac.at</hei-id>
+            <hei-id>tugraz.at</hei-id>
+            <hei-id>unileoben.ac.at</hei-id>
+            <hei-id>mdw.ac.at</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="7b0c611d7dc513804eb6053a8c3672083b2a699fd2271b71aacc2d16ecb7643d"/>
+            <rsa-public-key sha-256="7a42a1ba6de163d08c90e2cda78cc8545578483991c16db1bdddb31c9f803c5d"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="7a42a1ba6de163d08c90e2cda78cc8545578483991c16db1bdddb31c9f803c5d"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
             <om1:omobilities
                 xmlns:om1="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd"
                 version="0.15.0"
@@ -1111,6 +1147,46 @@
             <hei-id>fh-vie.ac.at</hei-id>
             <hei-id>ph-ooe.at</hei-id>
             <hei-id>tugraz.at</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="7b0c611d7dc513804eb6053a8c3672083b2a699fd2271b71aacc2d16ecb7643d"/>
+            <rsa-public-key sha-256="7a42a1ba6de163d08c90e2cda78cc8545578483991c16db1bdddb31c9f803c5d"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="7a42a1ba6de163d08c90e2cda78cc8545578483991c16db1bdddb31c9f803c5d"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <factsheet
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
+                version="0.1.0"
+            >
+                <http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </http-security>
+                <url>https://www.service4mobility.com/mobility/ewp/factsheets</url>
+                <max-hei-ids>3</max-hei-ids>
+            </factsheet>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>fh-vie.ac.at</hei-id>
+            <hei-id>ph-ooe.at</hei-id>
+            <hei-id>boku.ac.at</hei-id>
+            <hei-id>vetmeduni.ac.at</hei-id>
+            <hei-id>tugraz.at</hei-id>
+            <hei-id>unileoben.ac.at</hei-id>
+            <hei-id>kug.ac.at</hei-id>
+            <hei-id>akbild.ac.at</hei-id>
+            <hei-id>mdw.ac.at</hei-id>
+            <hei-id>technikum-wien.at</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="7b0c611d7dc513804eb6053a8c3672083b2a699fd2271b71aacc2d16ecb7643d"/>
