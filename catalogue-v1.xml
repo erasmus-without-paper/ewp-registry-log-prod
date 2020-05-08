@@ -6182,6 +6182,7 @@
             <hei-id>univ-paris13.fr</hei-id>
             <hei-id>univ-gustave-eiffel.fr</hei-id>
             <hei-id>tudublin.ie</hei-id>
+            <hei-id>arcada.fi</hei-id>
             <hei-id>udc.es</hei-id>
             <hei-id>insa-centrevaldeloire.fr</hei-id>
             <hei-id>univ-tlse2.fr</hei-id>
@@ -7372,6 +7373,28 @@
         <apis-implemented>
             <in2:institutions version="2.0.0">
                 <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <in2:url>https://arcada-ewp.moveon4.de/v1/institution</in2:url>
+                <in2:max-hei-ids>10</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.0.0">
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <ou2:url>https://arcada-ewp.moveon4.de/v1/ounit</ou2:url>
+                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>arcada.fi</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
+        </client-credentials-in-use>
+    </host>
+    <host>
+        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+        <apis-implemented>
+            <in2:institutions version="2.0.0">
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
                 <in2:url>https://udc-ewp.moveonfr.com/v1/institution</in2:url>
                 <in2:max-hei-ids>10</in2:max-hei-ids>
             </in2:institutions>
@@ -7759,6 +7782,12 @@
             <other-id type="pic">949316982</other-id>
             <name xml:lang="en">ARTESIS PLANTIJN HOGESCHOOL ANTWERPEN</name>
             <name xml:lang="nl">ARTESIS PLANTIJN HOGESCHOOL ANTWERPEN</name>
+        </hei>
+        <hei id="arcada.fi">
+            <other-id type="erasmus">SF HELSINK39</other-id>
+            <other-id type="euc">29323</other-id>
+            <other-id type="pic">949241613</other-id>
+            <name xml:lang="en">Yrkeshögskolan Arcada</name>
         </hei>
         <hei id="arteveldehs.be">
             <other-id type="erasmus">B  GENT39</other-id>
