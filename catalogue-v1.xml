@@ -4203,6 +4203,64 @@
     </host>
     <host>
         <apis-implemented>
+            <ia2:iias version="2.1.0">
+                <ia2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </ia2:http-security>
+                <ia2:get-url>https://mobility.int.uzh.ch/mobility/ewp/iias/get</ia2:get-url>
+                <ia2:max-iia-ids>3</ia2:max-iia-ids>
+                <ia2:max-iia-codes>3</ia2:max-iia-codes>
+                <ia2:index-url>https://mobility.int.uzh.ch/mobility/ewp/iias/index</ia2:index-url>
+                <ia2:sends-notifications/>
+            </ia2:iias>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>int.uzh.ch</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="e456d3a78efd43babadcdfa37b6886f0485a8aa513cc6629a5e35ee2d0927634"/>
+            <rsa-public-key sha-256="4aec4d7e3591724383e8b7c39202cbb6c36f9a2570583f6a39aa8c001fd3592f"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="4aec4d7e3591724383e8b7c39202cbb6c36f9a2570583f6a39aa8c001fd3592f"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <iac2:iia-cnr version="2.0.2">
+                <iac2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </iac2:http-security>
+                <iac2:url>https://mobility.int.uzh.ch/mobility/ewp/iias/cnr</iac2:url>
+            </iac2:iia-cnr>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>int.uzh.ch</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="e456d3a78efd43babadcdfa37b6886f0485a8aa513cc6629a5e35ee2d0927634"/>
+            <rsa-public-key sha-256="4aec4d7e3591724383e8b7c39202cbb6c36f9a2570583f6a39aa8c001fd3592f"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="4aec4d7e3591724383e8b7c39202cbb6c36f9a2570583f6a39aa8c001fd3592f"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
             <om1:omobilities
                 xmlns:om1="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd"
                 version="0.15.0"
