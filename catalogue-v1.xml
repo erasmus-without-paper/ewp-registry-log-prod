@@ -3843,6 +3843,66 @@
                 <e2:url>https://mobility.univ-fcomte.fr/mobility/ewp/echo</e2:url>
             </e2:echo>
         </apis-implemented>
+        <institutions-covered>
+            <hei-id>univ-fcomte.fr</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="061f179cd6a190f6880684a64207ce899edbbf9a0175b72fcb2d142c6fd6395a"/>
+            <rsa-public-key sha-256="940f4b7b2b9f36020bf0357a41db00d819ff706ab50e61acdc23ac143045dfaa"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="940f4b7b2b9f36020bf0357a41db00d819ff706ab50e61acdc23ac143045dfaa"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <in2:institutions version="2.1.0">
+                <in2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </in2:http-security>
+                <in2:url>https://mobility.univ-fcomte.fr/mobility/ewp/institutions</in2:url>
+                <in2:max-hei-ids>3</in2:max-hei-ids>
+            </in2:institutions>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>univ-fcomte.fr</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="061f179cd6a190f6880684a64207ce899edbbf9a0175b72fcb2d142c6fd6395a"/>
+            <rsa-public-key sha-256="940f4b7b2b9f36020bf0357a41db00d819ff706ab50e61acdc23ac143045dfaa"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="940f4b7b2b9f36020bf0357a41db00d819ff706ab50e61acdc23ac143045dfaa"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <ou2:organizational-units version="2.1.0">
+                <ou2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </ou2:http-security>
+                <ou2:url>https://mobility.univ-fcomte.fr/mobility/ewp/ounits</ou2:url>
+                <ou2:max-ounit-ids>3</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>3</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>univ-fcomte.fr</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="061f179cd6a190f6880684a64207ce899edbbf9a0175b72fcb2d142c6fd6395a"/>
             <rsa-public-key sha-256="940f4b7b2b9f36020bf0357a41db00d819ff706ab50e61acdc23ac143045dfaa"/>
@@ -11916,6 +11976,12 @@
             <other-id type="euc">28512</other-id>
             <other-id type="pic">999877068</other-id>
             <name xml:lang="en">Universit? d'Artois</name>
+        </hei>
+        <hei id="univ-fcomte.fr">
+            <other-id type="erasmus">F  BESANCO01</other-id>
+            <other-id type="euc">27762-IC-1-2007-1-FR-ERASMUS-EUCX-1</other-id>
+            <name xml:lang="en">UNIVERSITE DE FRANCHE-COMTE</name>
+            <name xml:lang="fr">UNIVERSITE DE FRANCHE-COMTE</name>
         </hei>
         <hei id="univ-grenoble-alpes.fr">
             <other-id type="erasmus">F  GRENOBL55</other-id>
