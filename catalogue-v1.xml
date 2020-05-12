@@ -3000,35 +3000,6 @@
     </host>
     <host>
         <apis-implemented>
-            <ou2:organizational-units version="2.1.0">
-                <ou2:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A2:httpsig/>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B2:httpsig/>
-                        <sec-B1:tlscert/>
-                    </sec:server-auth-methods>
-                </ou2:http-security>
-                <ou2:url>https://mobility.uni-konstanz.de/mobility/ewp/ounits</ou2:url>
-                <ou2:max-ounit-ids>3</ou2:max-ounit-ids>
-                <ou2:max-ounit-codes>3</ou2:max-ounit-codes>
-            </ou2:organizational-units>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>uni-konstanz.de</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <certificate sha-256="5ff15353d9d8a327f85d1b88269c102433e6668ab108ab6ea62e275abb1484fd"/>
-            <rsa-public-key sha-256="7cfdc46c9c42a1a090b805e76a5d3fd0df87db0025c9487461292959ca90e6e8"/>
-        </client-credentials-in-use>
-        <server-credentials-in-use>
-            <rsa-public-key sha-256="7cfdc46c9c42a1a090b805e76a5d3fd0df87db0025c9487461292959ca90e6e8"/>
-        </server-credentials-in-use>
-    </host>
-    <host>
-        <apis-implemented>
             <ia2:iias version="2.1.0">
                 <ia2:http-security>
                     <sec:client-auth-methods>
