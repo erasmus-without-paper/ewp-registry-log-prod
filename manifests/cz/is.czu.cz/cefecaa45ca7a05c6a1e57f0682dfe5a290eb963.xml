@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns1:manifest xmlns="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd" xmlns:ns1="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v5" xmlns:ns2="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1" xmlns:d1="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v5/manifest-entry.xsd" xmlns:e1="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd" xmlns:sec-cs="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1" xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2" xmlns:sec-cc="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1" xmlns:sec-ss="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1" xmlns:sec-sc="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1" xmlns:in2="https://github.com/erasmus-without-paper/ewp-specs-api-institutions/blob/stable-v2/manifest-entry.xsd" xmlns:ou2="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/blob/stable-v2/manifest-entry.xsd"><ns1:host><admin-email>uis-support@is4u.cz</admin-email><ns2:apis-implemented><d1:discovery version="5.0.0"><d1:url>https://is.czu.cz/ewp/manifest.pl</d1:url></d1:discovery><e1:echo version="2.0.1"><e1:http-security><sec:client-auth-methods><sec-cs:httpsig/></sec:client-auth-methods><sec:server-auth-methods><sec-sc:tlscert/></sec:server-auth-methods></e1:http-security><e1:url>https://is.czu.cz/ewp/echo.pl</e1:url></e1:echo><in2:institutions version="2.1.0"><in2:http-security><sec:client-auth-methods><sec-cs:httpsig/></sec:client-auth-methods><sec:server-auth-methods><sec-sc:tlscert/></sec:server-auth-methods></in2:http-security><in2:url>https://is.czu.cz/ewp/institutions.pl</in2:url><in2:max-hei-ids>1</in2:max-hei-ids></in2:institutions><ou2:organizational-units version="2.1.1"><ou2:http-security><sec:client-auth-methods><sec-cs:httpsig/></sec:client-auth-methods><sec:server-auth-methods><sec-sc:tlscert/></sec:server-auth-methods></ou2:http-security><ou2:url>https://is.czu.cz/ewp/organizational_units.pl</ou2:url><ou2:max-ounit-ids>20</ou2:max-ounit-ids><ou2:max-ounit-codes>20</ou2:max-ounit-codes></ou2:organizational-units></ns2:apis-implemented><ns1:institutions-covered><ns2:hei id="czu.cz"><ns2:name xml:lang="cz">Česká zemědělská univerzita v Praze</ns2:name><ns2:name xml:lang="sk">Česká poľnohospodárska univerzita v Prahe</ns2:name><ns2:name xml:lang="en">Czech University of Life Sciences Prague</ns2:name></ns2:hei></ns1:institutions-covered><ns1:client-credentials-in-use><ns1:certificate>MIIC/jCCAeagAwIBAgIBXTANBgkqhkiG9w0BAQsFADAuMQswCQYDVQQGEwJDWjEN
+MAsGA1UEChMESVM0VTEQMA4GA1UEAxMHSVM0VSBDQTAeFw0xOTAyMDQxMzM0MzVa
+Fw0yOTAyMDExMzM0MzVaMD4xCzAJBgNVBAYTAkNaMQ0wCwYDVQQKEwRJUzRVMQww
+CgYDVQQLEwNVSVMxEjAQBgNVBAMTCWlzLmN6dS5jejCCASIwDQYJKoZIhvcNAQEB
+BQADggEPADCCAQoCggEBAK7HAak0Q3Fr1vj/cNetmjv1RVb/vMngXBsch0/5GivR
+QMnfsgUu+Pn1dDMPlAbxoQlcdaRsvxWsQLfa11h2vpI/rs2VU7GUcfUFeLwHb60Z
+yABlWnfPC060X8ZUrkjuODShTtRh7e1z4dqZiPiqYxQ55cfJ8V7oD/v6N/Z2cKyp
+Jsur87PIrrFWDzVchXMEWQRuaHTMk2aGnob8ZmCypUmV+qCZ+LZH/jE0exJqeyOs
+lWdKAMEy8jHbUqQYEvHnvX2kf9gEr3VLgyRtyF01J0/zvmE/D+R8DaEwJxblDnS3
+QrJRFThyxuoKNTJmy5YNdTX9m0SYS3n5uijoGqGZOscCAwEAAaMXMBUwEwYDVR0l
+BAwwCgYIKwYBBQUHAwIwDQYJKoZIhvcNAQELBQADggEBACoM8yK48mdqolp0rPQF
+e1D5f7r8JtzNuvAJZkM2huQ9hZUxqpay8IiNIagxowDRDiBnfvyDZt2TUcEsY7MH
+vxPW0p+8g5qlYyzNEf5G8LxTT3iEUSZSWV/THd+MdwcpbWE5qONJT3zVdDJ0w8nV
+3GBRg9WK98/fHasoKg10eSmRJlOb8wcRI6yZghjloOkc4jcMmBvPtDDIzW2RO9Vf
+7G9MO4WP6BnpQRDYjumYDtwom6nQyPWkA/JH0qzrBSugwgENbDLiJGq3TyfQnBt7
+YE8jUO6+XtdVlpxv9Tk4ww9V6v/d3VsRyTRvwrJwrwfR7yBc5kAxuxARGPpAhWDG
+uiI=</ns1:certificate><ns1:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArscBqTRDcWvW+P9w162a
+O/VFVv+8yeBcGxyHT/kaK9FAyd+yBS74+fV0Mw+UBvGhCVx1pGy/FaxAt9rXWHa+
+kj+uzZVTsZRx9QV4vAdvrRnIAGVad88LTrRfxlSuSO44NKFO1GHt7XPh2pmI+Kpj
+FDnlx8nxXugP+/o39nZwrKkmy6vzs8iusVYPNVyFcwRZBG5odMyTZoaehvxmYLKl
+SZX6oJn4tkf+MTR7Emp7I6yVZ0oAwTLyMdtSpBgS8ee9faR/2ASvdUuDJG3IXTUn
+T/O+YT8P5HwNoTAnFuUOdLdCslEVOHLG6go1MmbLlg11Nf2bRJhLefm6KOgaoZk6
+xwIDAQAB</ns1:rsa-public-key></ns1:client-credentials-in-use><ns1:server-credentials-in-use><ns1:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArscBqTRDcWvW+P9w162a
+O/VFVv+8yeBcGxyHT/kaK9FAyd+yBS74+fV0Mw+UBvGhCVx1pGy/FaxAt9rXWHa+
+kj+uzZVTsZRx9QV4vAdvrRnIAGVad88LTrRfxlSuSO44NKFO1GHt7XPh2pmI+Kpj
+FDnlx8nxXugP+/o39nZwrKkmy6vzs8iusVYPNVyFcwRZBG5odMyTZoaehvxmYLKl
+SZX6oJn4tkf+MTR7Emp7I6yVZ0oAwTLyMdtSpBgS8ee9faR/2ASvdUuDJG3IXTUn
+T/O+YT8P5HwNoTAnFuUOdLdCslEVOHLG6go1MmbLlg11Nf2bRJhLefm6KOgaoZk6
+xwIDAQAB</ns1:rsa-public-key></ns1:server-credentials-in-use></ns1:host></ns1:manifest>

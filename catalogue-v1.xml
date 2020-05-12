@@ -10356,6 +10356,60 @@
             <rsa-public-key sha-256="13e9d6d00afb9c8ac538dc002804816a42eb4bb6eb2a887d7c5dc373121a9a7d"/>
         </server-credentials-in-use>
     </host>
+    <host>
+        <ewp:admin-email>uis-support@is4u.cz</ewp:admin-email>
+        <apis-implemented>
+            <d5:discovery version="5.0.0">
+                <d5:url>https://is.czu.cz/ewp/manifest.pl</d5:url>
+            </d5:discovery>
+            <e2:echo version="2.0.1">
+                <e2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </e2:http-security>
+                <e2:url>https://is.czu.cz/ewp/echo.pl</e2:url>
+            </e2:echo>
+            <in2:institutions version="2.1.0">
+                <in2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </in2:http-security>
+                <in2:url>https://is.czu.cz/ewp/institutions.pl</in2:url>
+                <in2:max-hei-ids>1</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.1.1">
+                <ou2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </ou2:http-security>
+                <ou2:url>https://is.czu.cz/ewp/organizational_units.pl</ou2:url>
+                <ou2:max-ounit-ids>20</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>20</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>czu.cz</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="6f96ac203f772b0008613f4ea7a663da074e0737c48ab9e9776c787345983d20"/>
+            <rsa-public-key sha-256="fc501810bf0e921d82088ab35ecbedef1276286b070ede86fde388f3005e8aa0"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="fc501810bf0e921d82088ab35ecbedef1276286b070ede86fde388f3005e8aa0"/>
+        </server-credentials-in-use>
+    </host>
     <institutions>
         <hei id="3il.fr">
             <other-id type="erasmus">F LIMOGES20</other-id>
@@ -10534,6 +10588,11 @@
         <hei id="conservatoire.be">
             <other-id type="erasmus">B BRUXEL07</other-id>
             <name>Conservatoire royal de Bruxelles</name>
+        </hei>
+        <hei id="czu.cz">
+            <name xml:lang="cz">Česká zemědělská univerzita v Praze</name>
+            <name xml:lang="en">Czech University of Life Sciences Prague</name>
+            <name xml:lang="sk">Česká poľnohospodárska univerzita v Prahe</name>
         </hei>
         <hei id="demo.eu">
             <other-id type="erasmus">LV OLAINE01</other-id>
@@ -13100,6 +13159,14 @@
             sjNRjjggRdMAauxWjlFmuz+We47dnftsOYCH4/JrVwNGLWGsFM3hhLoTJwjJaH8MILTOS0WjmJIx
             DTPku2nxXjJEH2maMVNIl0xgCvQfeNkqe6kep+Nw1FUiwZWUffi1AecLX3Ve1sjULlj5S72nrwWr
             8UfhpwIDAQAB
+        </rsa-public-key>
+        <rsa-public-key sha-256="fc501810bf0e921d82088ab35ecbedef1276286b070ede86fde388f3005e8aa0">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArscBqTRDcWvW+P9w162aO/VFVv+8yeBc
+            GxyHT/kaK9FAyd+yBS74+fV0Mw+UBvGhCVx1pGy/FaxAt9rXWHa+kj+uzZVTsZRx9QV4vAdvrRnI
+            AGVad88LTrRfxlSuSO44NKFO1GHt7XPh2pmI+KpjFDnlx8nxXugP+/o39nZwrKkmy6vzs8iusVYP
+            NVyFcwRZBG5odMyTZoaehvxmYLKlSZX6oJn4tkf+MTR7Emp7I6yVZ0oAwTLyMdtSpBgS8ee9faR/
+            2ASvdUuDJG3IXTUnT/O+YT8P5HwNoTAnFuUOdLdCslEVOHLG6go1MmbLlg11Nf2bRJhLefm6KOga
+            oZk6xwIDAQAB
         </rsa-public-key>
     </binaries>
 </catalogue>
