@@ -3317,6 +3317,35 @@
     </host>
     <host>
         <apis-implemented>
+            <ou2:organizational-units version="2.1.0">
+                <ou2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </ou2:http-security>
+                <ou2:url>https://mycampus.ku.de/mobility/ewp/ounits</ou2:url>
+                <ou2:max-ounit-ids>3</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>3</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>ku.de</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="223469c26ab0c3243e002ad9be33ba0a07c47a5211a46c2e7a7c735384a9bd4d"/>
+            <rsa-public-key sha-256="d1c8e8e8589874f5de13ece67c4a015103acaf687b92376cb4ec322198d6a058"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="d1c8e8e8589874f5de13ece67c4a015103acaf687b92376cb4ec322198d6a058"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
             <ia2:iias version="2.1.0">
                 <ia2:http-security>
                     <sec:client-auth-methods>
