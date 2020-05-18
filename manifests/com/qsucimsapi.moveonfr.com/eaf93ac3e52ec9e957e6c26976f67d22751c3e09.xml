@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ns3:manifest xmlns:ns3="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v5" xmlns="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd" xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1" xmlns:d5="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v5/manifest-entry.xsd" xmlns:e2="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd" xmlns:in2="https://github.com/erasmus-without-paper/ewp-specs-api-institutions/blob/stable-v2/manifest-entry.xsd" xmlns:ou2="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/blob/stable-v2/manifest-entry.xsd">
+<ns3:manifest xmlns:ns3="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v5" xmlns="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd" xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1" xmlns:d5="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v5/manifest-entry.xsd" xmlns:e2="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd" xmlns:in2="https://github.com/erasmus-without-paper/ewp-specs-api-institutions/blob/stable-v2/manifest-entry.xsd" xmlns:ou2="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/blob/stable-v2/manifest-entry.xsd" xmlns:ia2="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v2/manifest-entry.xsd" xmlns:iac2="https://github.com/erasmus-without-paper/ewp-specs-api-iia-cnr/blob/stable-v2/manifest-entry.xsd" xmlns:im1="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v1/manifest-entry.xsd" xmlns:imc1="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-cnr/blob/stable-v1/manifest-entry.xsd" xmlns:om1="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd" xmlns:omc1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/blob/stable-v1/manifest-entry.xsd" xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2" xmlns:sec-A1="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1" xmlns:sec-A2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1" xmlns:sec-B1="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1" xmlns:sec-B2="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1">
   <ns3:host>
     <admin-email>umesh@qs.com</admin-email>
     <r:apis-implemented>
@@ -9,6 +9,15 @@
       </d5:discovery>
       <e2:echo version="2.0.0">
         <admin-email>umesh@qs.com</admin-email>
+        <e2:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+          </sec:server-auth-methods>
+        </e2:http-security>
         <e2:url>https://qsucimsapi.moveonfr.com/ewpapi/echo</e2:url>
       </e2:echo>
     </r:apis-implemented>
@@ -872,6 +881,14 @@ maEQrVEuDvM0fOqeuI3HsdzZuVFQvbRdNwk2kZY3FfNen9ZmMPHIpzGx88G6M3Dz
 5KSB0ju8T7KQqKAYm5ViICxvxYfKekX4Y23ytLgkz7XgKLkFBHksMYstUpgDL5gW
 3AZ1r8XT0gt9bHrlZj9ESkA=
 </ns3:certificate>
+      <rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5JZdEMbx434Wb1uOtL4o
+Ht8DcyTzgrAdTBBSbZHPw/FSKfgiiR/fqlm/7oO6q230IBzS8hHjoQAbcatHwjAE
+uwRMeA+bsO5/6Z93s00H1RV2mJQNLcvY2NXExM1TatHXuV3gUJhvpdny1Xg8TR/0
+89Su5q7kEOQ3zXJIMxzDaDxAsErkUOhd+X2pmkRlbWlkVovsu6gLSo5TZAWy0cgu
+7sh8uZRmbBVjmkVYtaEi0VAiCHg0BJVzsk6mrrG7qmnqTiM7hXLENiEUxYUgrmnl
+97sN6Tl75OnK6Ptwyp3QwEroz61Mk+NMYgT2X+YTom0n62ZEkZX+Ql42la1/migh
+IwIDAQAB
+</rsa-public-key>
     </ns3:client-credentials-in-use>
   </ns3:host>
   <ns3:host>
@@ -8097,55 +8114,6 @@ AL6Kgp4oqnOxWicy6J+gZMiR/yr3e6PadiTZu2O0O+ADzQwRvCbYQ1V7QmXHC7VK
 maEQrVEuDvM0fOqeuI3HsdzZuVFQvbRdNwk2kZY3FfNen9ZmMPHIpzGx88G6M3Dz
 5KSB0ju8T7KQqKAYm5ViICxvxYfKekX4Y23ytLgkz7XgKLkFBHksMYstUpgDL5gW
 3AZ1r8XT0gt9bHrlZj9ESkA=
-</ns3:certificate>
-    </ns3:client-credentials-in-use>
-  </ns3:host>
-  <ns3:host>
-    <admin-email>umesh@qs.com</admin-email>
-    <r:apis-implemented>
-      <in2:institutions version="2.0.0">
-        <admin-email>umesh@qs.com</admin-email>
-        <in2:url>https://moveon-admin.univ-amu.fr/v1/institution</in2:url>
-        <in2:max-hei-ids>10</in2:max-hei-ids>
-      </in2:institutions>
-      <ou2:organizational-units version="2.0.0">
-        <admin-email>umesh@qs.com</admin-email>
-        <ou2:url>https://moveon-admin.univ-amu.fr/v1/ounit</ou2:url>
-        <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
-        <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
-      </ou2:organizational-units>
-    </r:apis-implemented>
-    <ns3:institutions-covered>
-      <r:hei id="univ-amu.fr">
-        <r:other-id type="erasmus">F  MARSEIL84</r:other-id>
-        <r:other-id type="euc">218004</r:other-id>
-        <r:other-id type="pic">943379224</r:other-id>
-        <r:name xml:lang="en">Ecole Nationale Supérieure d'Architecture de Marseille</r:name>
-      </r:hei>
-    </ns3:institutions-covered>
-    <ns3:client-credentials-in-use>
-      <ns3:certificate>MIIEFzCCAv+gAwIBAgIJAJjr1fTNoKYzMA0GCSqGSIb3DQEBCwUAMIGgMQswCQYD
-VQQGEwJGUjESMBAGA1UECAwJTWFyc2VpbGxlMRIwEAYDVQQHDAlNYXJzZWlsbGUx
-IzAhBgNVBAoMGlVOSVZFUlNJVEUgRCdBSVggTUFSU0VJTExFMQ0wCwYDVQQLDARE
-T1NJMRQwEgYDVQQDDAt1bml2LWFtdS5mcjEfMB0GCSqGSIb3DQEJARYQaXRzdXBw
-b3J0QHFzLmNvbTAgFw0yMDAxMjEwOTU4MjRaGA8yMTE5MTIyODA5NTgyNFowgaAx
-CzAJBgNVBAYTAkZSMRIwEAYDVQQIDAlNYXJzZWlsbGUxEjAQBgNVBAcMCU1hcnNl
-aWxsZTEjMCEGA1UECgwaVU5JVkVSU0lURSBEJ0FJWCBNQVJTRUlMTEUxDTALBgNV
-BAsMBERPU0kxFDASBgNVBAMMC3VuaXYtYW11LmZyMR8wHQYJKoZIhvcNAQkBFhBp
-dHN1cHBvcnRAcXMuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA
-sR1HVrOFdJXf+x0sRu61YNmANOr6j1B7+L46aVKEkRIWh2KT2XX+WYayVfm2T2pO
-h6zpCNVne8uigIG+hWI9Kjepl97qLw0wkaSzQMiKIqHWLJ+bPnlSh/yslTyTE3rF
-PBerU/Fa5sZUkww0eesAtAYr+kpUrODbS+RJQfI32CHrURipE1R3yf5CTV6zBFz/
-+jodLULNWhbMCr7J/4Zvt0dhud4pUZKwXlHT2Vbny7hiTbxEWQkxCn/yrabFf8CE
-0Efl8f/unbv1MnvEH9AQ9noIAzs4y8yqlmNE3MyU0fQ9tVT9YO6ojmvpCvA99zrC
-QnduXeeu/xIucuVUBggbWwIDAQABo1AwTjAdBgNVHQ4EFgQUKToLmNqQK05deZkU
-t2bF8k9/t4UwHwYDVR0jBBgwFoAUKToLmNqQK05deZkUt2bF8k9/t4UwDAYDVR0T
-BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAb0ZE5qujGfWi+Rx61sOfT2GtQYI5
-Qo63KCLuErkCnsfCCY5E/WZKHEQHHNMGLCHRuOgbofSNF5zuDENFBEUhb+9kTt0J
-A1F6XgNFA79xFhhcVaNYMKYuy1As1m9QcEpsXBPiz8PZ51dLGC7vyjf6lUvsvlIt
-pVvdGP3WVRtG5RZFFaSsdhlc8CPTz5MuA14/R5yS32fVPZox6bZ4jltoD5hvoPbA
-2f58KPEdmF6YHR59PMXccRkojyl38shRiaBi9wtL/z08wujFc47C2CCAv4RjxRSK
-y5JqaGBB5X0HpEWijvjOEA6oz/aY0yIfFF+L6F0NPvXw4EwQS8FhU5ulWw==
 </ns3:certificate>
     </ns3:client-credentials-in-use>
   </ns3:host>
