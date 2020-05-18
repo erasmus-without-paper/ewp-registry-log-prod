@@ -11020,10 +11020,10 @@
             >
                 <f1:http-security>
                     <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
                         <sec-A2:httpsig/>
                     </sec:client-auth-methods>
                     <sec:server-auth-methods>
-                        <sec-B1:tlscert/>
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
                 </f1:http-security>
@@ -11033,71 +11033,190 @@
         </apis-implemented>
         <institutions-covered>
             <hei-id>ac.at</hei-id>
+            <hei-id>ufg.at</hei-id>
             <hei-id>fh-kaernten.at</hei-id>
+            <hei-id>ndu.ac.at</hei-id>
             <hei-id>muk.ac.at</hei-id>
             <hei-id>http://webster.ac.at/</hei-id>
             <hei-id>conservatoire.be</hei-id>
+            <hei-id>heldb.be</hei-id>
             <hei-id>ugent.be</hei-id>
             <hei-id>helmo.be</hei-id>
+            <hei-id>B NAMUR11</hei-id>
             <hei-id>bfu.bg</hei-id>
             <hei-id>unwe.bg</hei-id>
+            <hei-id>uacg.bg</hei-id>
             <hei-id>uni-svishtov.bg</hei-id>
             <hei-id>uhk.cz</hei-id>
             <hei-id>amu.cz</hei-id>
             <hei-id>vsup.cz</hei-id>
             <hei-id>vso.cz</hei-id>
+            <hei-id>hs-aalen.de</hei-id>
+            <hei-id>udk-berlin.de</hei-id>
+            <hei-id>ruhr-uni-bochum.de</hei-id>
+            <hei-id>th-brandenburg.de</hei-id>
+            <hei-id>jacobs-university.de</hei-id>
+            <hei-id>eufh.de</hei-id>
             <hei-id>htw-dresden.de</hei-id>
+            <hei-id>de</hei-id>
+            <hei-id>hnee.de</hei-id>
+            <hei-id>fauad.fau.eu</hei-id>
+            <hei-id>eh-freiburg.de</hei-id>
             <hei-id>burg-halle.de</hei-id>
             <hei-id>hfbk-hamburg.de</hei-id>
+            <hei-id>fh-westkueste.de</hei-id>
+            <hei-id>hs-karlsruhe.de</hei-id>
             <hei-id>ovgu.de</hei-id>
             <hei-id>hs-merseburg.de</hei-id>
+            <hei-id>adbk.de</hei-id>
+            <hei-id>uni-osnabrueck.de</hei-id>
+            <hei-id>fhdw.de</hei-id>
+            <hei-id>hs-pforzheim.de</hei-id>
             <hei-id>hs-albsig.de</hei-id>
+            <hei-id>dhbw-stuttgart.de</hei-id>
+            <hei-id>aarch.dk</hei-id>
             <hei-id>ucavila.es</hei-id>
             <hei-id>ehu.eus</hei-id>
+            <hei-id>ubu.es</hei-id>
             <hei-id>uca.es</hei-id>
             <hei-id>udc.es</hei-id>
+            <hei-id>iessanclemente.net</hei-id>
             <hei-id>ulpgc.es</hei-id>
+            <hei-id>madrid.universidadeuropea.es</hei-id>
+            <hei-id>easd.es</hei-id>
+            <hei-id>us.es</hei-id>
             <hei-id>upv.es</hei-id>
+            <hei-id>uchceu.es</hei-id>
+            <hei-id>edem.eu</hei-id>
+            <hei-id>valencia.universidadeuropea.es</hei-id>
+            <hei-id>uemc.es</hei-id>
+            <hei-id>csmvigo.com</hei-id>
+            <hei-id>cpilosenlaces.com</hei-id>
+            <hei-id>ebs.ee</hei-id>
             <hei-id>ut.edu.ee</hei-id>
+            <hei-id>imt-mines-albi.fr</hei-id>
+            <hei-id>.fr</hei-id>
+            <hei-id>ubfc.fr</hei-id>
+            <hei-id>ensta-bretagne.fr</hei-id>
+            <hei-id>ecam-epmi.com</hei-id>
+            <hei-id>u-bourgogne.fr</hei-id>
+            <hei-id>Architecture</hei-id>
+            <hei-id>brassart.fr</hei-id>
+            <hei-id>ices.fr</hei-id>
+            <hei-id>em-normandie.fr</hei-id>
+            <hei-id>univ-catholille.fr</hei-id>
             <hei-id>3il.fr</hei-id>
+            <hei-id>enil.fr</hei-id>
             <hei-id>institutoptique.fr</hei-id>
             <hei-id>efrei.fr</hei-id>
+            <hei-id>ipsa.fr</hei-id>
             <hei-id>groupe-espi.fr</hei-id>
+            <hei-id>ensai.fr</hei-id>
             <hei-id>ifpek.org</hei-id>
+            <hei-id>isae-supaero.fr</hei-id>
+            <hei-id>ecole.archi-toulouse.fr</hei-id>
+            <hei-id>inp-toulouse.fr</hei-id>
+            <hei-id>sse.gr</hei-id>
+            <hei-id>haf.gr</hei-id>
+            <hei-id>uoc.gr</hei-id>
+            <hei-id>unipu.hr</hei-id>
+            <hei-id>unist.hr</hei-id>
+            <hei-id>tvz.hr</hei-id>
+            <hei-id>ebus.hr</hei-id>
+            <hei-id>uni-neumann.hu</hei-id>
             <hei-id>unimol.it</hei-id>
+            <hei-id>accademialigustica.it</hei-id>
+            <hei-id>univaq.it</hei-id>
+            <hei-id>iulm.it</hei-id>
+            <hei-id>ied.it</hei-id>
             <hei-id>unimore.it</hei-id>
             <hei-id>ciels.it</hei-id>
+            <hei-id>unipr.it</hei-id>
+            <hei-id>unistrapg.it</hei-id>
             <hei-id>sns.it</hei-id>
             <hei-id>unitn.it</hei-id>
             <hei-id>cit.ie</hei-id>
+            <hei-id>mu.ie</hei-id>
             <hei-id>unak.is</hei-id>
+            <hei-id>ru.is</hei-id>
             <hei-id>ktu.edu</hei-id>
             <hei-id>kaunokolegija.lt</hei-id>
             <hei-id>ltvk.lt</hei-id>
             <hei-id>vu.lt</hei-id>
+            <hei-id>vda.lt</hei-id>
+            <hei-id>mruni.eu</hei-id>
+            <hei-id>ttvam.lt</hei-id>
+            <hei-id>ksu.lt</hei-id>
+            <hei-id>liepu.lv</hei-id>
             <hei-id>demo.eu</hei-id>
+            <hei-id>vrk.rs.gov.lv</hei-id>
             <hei-id>lu.lv</hei-id>
             <hei-id>sseriga.edu</hei-id>
+            <hei-id>riseba.lv</hei-id>
+            <hei-id>inn.no</hei-id>
+            <hei-id>fjellhaug.no</hei-id>
             <hei-id>che.nl</hei-id>
             <hei-id>ru.nl</hei-id>
             <hei-id>na1.demo.eu</hei-id>
             <hei-id>oranjestad.nl</hei-id>
+            <hei-id>inholland.nl</hei-id>
+            <hei-id>ipca.pt</hei-id>
+            <hei-id>iseclisboa.pt</hei-id>
             <hei-id>maieutica.pt</hei-id>
             <hei-id>ipp.pt</hei-id>
+            <hei-id>uportu.pt</hei-id>
+            <hei-id>cespu.pt</hei-id>
+            <hei-id>ipvc.pt</hei-id>
+            <hei-id>pswbp.pl</hei-id>
+            <hei-id>tyszkiewicz.edu.pl</hei-id>
+            <hei-id>kpu.krosno.pl</hei-id>
             <hei-id>san.edu.pl</hei-id>
+            <hei-id>wsei.lublin.pl</hei-id>
+            <hei-id>puss.pila.pl</hei-id>
+            <hei-id>ump.edu.pl</hei-id>
+            <hei-id>wsb.net.pl</hei-id>
             <hei-id>apsl.edu.pl</hei-id>
             <hei-id>zut.edu.pl</hei-id>
+            <hei-id>wwsi.edu.pl</hei-id>
             <hei-id>ue.wroc.pl</hei-id>
+            <hei-id>umed.wroc.pl</hei-id>
+            <hei-id>.pl</hei-id>
+            <hei-id>unefsb.ro</hei-id>
+            <hei-id>spiruharet.ro</hei-id>
+            <hei-id>sapientia.ro</hei-id>
+            <hei-id>ucv.ro</hei-id>
             <hei-id>uaic.ro</hei-id>
+            <hei-id>umfiasi.ro</hei-id>
+            <hei-id>tuiasi.ro</hei-id>
+            <hei-id>uem.ro</hei-id>
+            <hei-id>ulbsibiu.ro</hei-id>
+            <hei-id>utgjiu.ro</hei-id>
+            <hei-id>uvt.ro</hei-id>
+            <hei-id>hhs.se</hei-id>
+            <hei-id>rkh.se</hei-id>
             <hei-id>lnu.se</hei-id>
             <hei-id>tuni.fi</hei-id>
             <hei-id>utu.fi</hei-id>
+            <hei-id>fuds.si</hei-id>
             <hei-id>umb.sk</hei-id>
+            <hei-id>euba.sk</hei-id>
+            <hei-id>vsvu.sk</hei-id>
+            <hei-id>vsmu.sk</hei-id>
+            <hei-id>paneurouni.com</hei-id>
+            <hei-id>vsemvs.sk</hei-id>
             <hei-id>ujs.sk</hei-id>
             <hei-id>ukf.sk</hei-id>
             <hei-id>tnuni.sk</hei-id>
+            <hei-id>vsm.sk</hei-id>
             <hei-id>ucm.sk</hei-id>
+            <hei-id>uniza.sk</hei-id>
+            <hei-id>ufuk.edu.tr</hei-id>
+            <hei-id>balikesir.edu.tr</hei-id>
+            <hei-id>istmedipol</hei-id>
             <hei-id>istinye.edu.tr</hei-id>
+            <hei-id>mersin.edu.tr</hei-id>
+            <hei-id>ktu.edu.tr</hei-id>
+            <hei-id>hw.ac.uk</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="5f9e52e4a034ef28a3c599288abd9875208c344c320cb4d15e5e0fffe9f970f2"/>
@@ -11115,10 +11234,10 @@
             <ia2:iias version="2.1.0">
                 <ia2:http-security>
                     <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
                         <sec-A2:httpsig/>
                     </sec:client-auth-methods>
                     <sec:server-auth-methods>
-                        <sec-B1:tlscert/>
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
                 </ia2:http-security>
@@ -11148,15 +11267,22 @@
         </apis-implemented>
         <institutions-covered>
             <hei-id>ac.at</hei-id>
+            <hei-id>ufg.at</hei-id>
+            <hei-id>fhgooe.ac.at</hei-id>
             <hei-id>fh-kaernten.at</hei-id>
+            <hei-id>ndu.ac.at</hei-id>
             <hei-id>muk.ac.at</hei-id>
             <hei-id>http://webster.ac.at/</hei-id>
             <hei-id>conservatoire.be</hei-id>
+            <hei-id>heldb.be</hei-id>
             <hei-id>uliege.be</hei-id>
             <hei-id>helmo.be</hei-id>
             <hei-id>helha.be</hei-id>
+            <hei-id>B NAMUR11</hei-id>
             <hei-id>bfu.bg</hei-id>
+            <hei-id>au-plovdiv.bg</hei-id>
             <hei-id>unwe.bg</hei-id>
+            <hei-id>uacg.bg</hei-id>
             <hei-id>uni-svishtov.bg</hei-id>
             <hei-id>ucy.ac.cy</hei-id>
             <hei-id>uhk.cz</hei-id>
@@ -11165,80 +11291,242 @@
             <hei-id>vsup.cz</hei-id>
             <hei-id>vse.cz</hei-id>
             <hei-id>vso.cz</hei-id>
+            <hei-id>udk-berlin.de</hei-id>
+            <hei-id>ipu-berlin.de</hei-id>
+            <hei-id>ruhr-uni-bochum.de</hei-id>
+            <hei-id>th-brandenburg.de</hei-id>
+            <hei-id>jacobs-university.de</hei-id>
+            <hei-id>eufh.de</hei-id>
             <hei-id>htw-dresden.de</hei-id>
+            <hei-id>de</hei-id>
+            <hei-id>hnee.de</hei-id>
+            <hei-id>fham.de</hei-id>
+            <hei-id>.de</hei-id>
             <hei-id>europa-uni.de</hei-id>
+            <hei-id>eh-freiburg.de</hei-id>
             <hei-id>hs-fulda.de</hei-id>
             <hei-id>burg-halle.de</hei-id>
             <hei-id>hfbk-hamburg.de</hei-id>
+            <hei-id>fh-westkueste.de</hei-id>
             <hei-id>ph-heidelberg.de</hei-id>
+            <hei-id>hof-university.de</hei-id>
+            <hei-id>fh-swf.de</hei-id>
+            <hei-id>hs-kl.de</hei-id>
+            <hei-id>hs-karlsruhe.de</hei-id>
+            <hei-id>unikoeln-bo.moveon4.de</hei-id>
+            <hei-id>th-owl.de</hei-id>
             <hei-id>ovgu.de</hei-id>
             <hei-id>hs-merseburg.de</hei-id>
+            <hei-id>hs-mittweida.de</hei-id>
+            <hei-id>adbk.de</hei-id>
+            <hei-id>nds.de</hei-id>
+            <hei-id>uni-osnabrueck.de</hei-id>
+            <hei-id>fhdw.de</hei-id>
+            <hei-id>hs-pforzheim.de</hei-id>
             <hei-id>hs-albsig.de</hei-id>
+            <hei-id>dhbw-stuttgart.de</hei-id>
+            <hei-id>ph-weingarten.de</hei-id>
+            <hei-id>aarch.dk</hei-id>
             <hei-id>uah.es</hei-id>
             <hei-id>ucavila.es</hei-id>
+            <hei-id>esdap.cat</hei-id>
+            <hei-id>institutdelteatre.cat</hei-id>
+            <hei-id>deiadisseny.cat</hei-id>
+            <hei-id>fje.edu</hei-id>
             <hei-id>ehu.eus</hei-id>
+            <hei-id>ubu.es</hei-id>
+            <hei-id>ui1.es</hei-id>
             <hei-id>uca.es</hei-id>
+            <hei-id>demo.com</hei-id>
+            <hei-id>umh.es</hei-id>
             <hei-id>udc.es</hei-id>
+            <hei-id>iessanclemente.net</hei-id>
             <hei-id>ulpgc.es</hei-id>
+            <hei-id>demo.ue</hei-id>
+            <hei-id>madrid.universidadeuropea.es</hei-id>
+            <hei-id>easd.es</hei-id>
+            <hei-id>us.es</hei-id>
+            <hei-id>universidadeuropea.es</hei-id>
             <hei-id>upv.es</hei-id>
+            <hei-id>uchceu.es</hei-id>
+            <hei-id>universidadviu.com</hei-id>
             <hei-id>easdvalencia.com</hei-id>
+            <hei-id>edem.eu</hei-id>
+            <hei-id>valencia.universidadeuropea.es</hei-id>
+            <hei-id>csmvigo.com</hei-id>
+            <hei-id>esadgalicia.com</hei-id>
+            <hei-id>cpilosenlaces.com</hei-id>
+            <hei-id>ebs.ee</hei-id>
+            <hei-id>taltech.ee</hei-id>
+            <hei-id>tktk.ee</hei-id>
             <hei-id>ut.edu.ee</hei-id>
+            <hei-id>imt-mines-albi.fr</hei-id>
+            <hei-id>.fr</hei-id>
+            <hei-id>talm.fr</hei-id>
+            <hei-id>ubfc.fr</hei-id>
             <hei-id>kedge.edu</hei-id>
+            <hei-id>ensta-bretagne.fr</hei-id>
+            <hei-id>ecam-epmi.com</hei-id>
+            <hei-id>naturapolis36.fr</hei-id>
+            <hei-id>u-bourgogne.fr</hei-id>
+            <hei-id>Architecture</hei-id>
+            <hei-id>brassart.fr</hei-id>
+            <hei-id>ices.fr</hei-id>
+            <hei-id>em-normandie.fr</hei-id>
+            <hei-id>univ-catholille.fr</hei-id>
             <hei-id>3il.fr</hei-id>
+            <hei-id>enil.fr</hei-id>
+            <hei-id>oniris-nantes.fr</hei-id>
             <hei-id>institutoptique.fr</hei-id>
             <hei-id>efrei.fr</hei-id>
+            <hei-id>ipsa.fr</hei-id>
             <hei-id>groupe-espi.fr</hei-id>
+            <hei-id>lyceedelasalle.fr</hei-id>
+            <hei-id>ensai.fr</hei-id>
+            <hei-id>agrocampus-ouest.fr</hei-id>
             <hei-id>ifpek.org</hei-id>
+            <hei-id>esadtpm.fr</hei-id>
+            <hei-id>isae-supaero.fr</hei-id>
+            <hei-id>ecole.archi-toulouse.fr</hei-id>
+            <hei-id>inp-toulouse.fr</hei-id>
+            <hei-id>sse.gr</hei-id>
+            <hei-id>haf.gr</hei-id>
+            <hei-id>uoc.gr</hei-id>
+            <hei-id>unios.hr</hei-id>
+            <hei-id>unipu.hr</hei-id>
             <hei-id>uniri.hr</hei-id>
+            <hei-id>unist.hr</hei-id>
             <hei-id>unizd.hr</hei-id>
+            <hei-id>tvz.hr</hei-id>
+            <hei-id>zsem.hr</hei-id>
+            <hei-id>ebus.hr</hei-id>
+            <hei-id>uni-neumann.hu</hei-id>
             <hei-id>unimol.it</hei-id>
+            <hei-id>steffani.it</hei-id>
+            <hei-id>accademialigustica.it</hei-id>
+            <hei-id>univaq.it</hei-id>
+            <hei-id>it</hei-id>
+            <hei-id>iulm.it</hei-id>
+            <hei-id>ied.it</hei-id>
             <hei-id>unicollegessml.it</hei-id>
             <hei-id>unimore.it</hei-id>
             <hei-id>unisob.na.it</hei-id>
             <hei-id>ciels.it</hei-id>
+            <hei-id>unipr.it</hei-id>
+            <hei-id>unistrapg.it</hei-id>
             <hei-id>sns.it</hei-id>
+            <hei-id>conservatorio.sassari.it</hei-id>
             <hei-id>unitn.it</hei-id>
             <hei-id>unive.it</hei-id>
             <hei-id>cit.ie</hei-id>
+            <hei-id>tcd.ie</hei-id>
+            <hei-id>dcu.ie</hei-id>
             <hei-id>gmit.ie</hei-id>
+            <hei-id>mu.ie</hei-id>
             <hei-id>unak.is</hei-id>
+            <hei-id>ru.is</hei-id>
             <hei-id>ktu.edu</hei-id>
             <hei-id>kaunokolegija.lt</hei-id>
+            <hei-id>lsmuni.lt</hei-id>
             <hei-id>ltvk.lt</hei-id>
             <hei-id>vu.lt</hei-id>
+            <hei-id>vda.lt</hei-id>
+            <hei-id>mruni.eu</hei-id>
+            <hei-id>vtdko.lt</hei-id>
+            <hei-id>ttvam.lt</hei-id>
+            <hei-id>ksu.lt</hei-id>
+            <hei-id>liepu.lv</hei-id>
             <hei-id>demo.eu</hei-id>
             <hei-id>rta.lv</hei-id>
+            <hei-id>vrk.rs.gov.lv</hei-id>
             <hei-id>lu.lv</hei-id>
             <hei-id>sseriga.edu</hei-id>
+            <hei-id>riseba.lv</hei-id>
+            <hei-id>inn.no</hei-id>
             <hei-id>nmh.no</hei-id>
+            <hei-id>fjellhaug.no</hei-id>
+            <hei-id>uva.nl</hei-id>
             <hei-id>vu.nl</hei-id>
             <hei-id>che.nl</hei-id>
             <hei-id>ru.nl</hei-id>
             <hei-id>na1.demo.eu</hei-id>
             <hei-id>oranjestad.nl</hei-id>
+            <hei-id>inholland.nl</hei-id>
             <hei-id>hz.nl</hei-id>
+            <hei-id>ipca.pt</hei-id>
+            <hei-id>iseclisboa.pt</hei-id>
             <hei-id>maieutica.pt</hei-id>
             <hei-id>ipp.pt</hei-id>
+            <hei-id>uportu.pt</hei-id>
+            <hei-id>cespu.pt</hei-id>
+            <hei-id>ipvc.pt</hei-id>
+            <hei-id>pswbp.pl</hei-id>
+            <hei-id>tyszkiewicz.edu.pl</hei-id>
+            <hei-id>ujk.edu.pl</hei-id>
+            <hei-id>kpu.krosno.pl</hei-id>
             <hei-id>san.edu.pl</hei-id>
+            <hei-id>wsei.lublin.pl</hei-id>
+            <hei-id>puss.pila.pl</hei-id>
+            <hei-id>ump.edu.pl</hei-id>
+            <hei-id>cdv.pl</hei-id>
+            <hei-id>wseit.edu.pl</hei-id>
+            <hei-id>wsb.net.pl</hei-id>
             <hei-id>uph.edu.pl</hei-id>
             <hei-id>apsl.edu.pl</hei-id>
             <hei-id>zut.edu.pl</hei-id>
+            <hei-id>wwsi.edu.pl</hei-id>
             <hei-id>ue.wroc.pl</hei-id>
+            <hei-id>umed.wroc.pl</hei-id>
+            <hei-id>.pl</hei-id>
+            <hei-id>edu.pl</hei-id>
+            <hei-id>uvvg.ro</hei-id>
             <hei-id>unitbv.ro</hei-id>
+            <hei-id>unefsb.ro</hei-id>
+            <hei-id>unibuc.ro</hei-id>
             <hei-id>usamv.ro</hei-id>
+            <hei-id>utm.ro</hei-id>
+            <hei-id>spiruharet.ro</hei-id>
+            <hei-id>usamvcluj.ro</hei-id>
+            <hei-id>sapientia.ro</hei-id>
+            <hei-id>ucv.ro</hei-id>
             <hei-id>uaic.ro</hei-id>
+            <hei-id>umfiasi.ro</hei-id>
+            <hei-id>tuiasi.ro</hei-id>
+            <hei-id>uem.ro</hei-id>
+            <hei-id>ulbsibiu.ro</hei-id>
+            <hei-id>utgjiu.ro</hei-id>
+            <hei-id>uvt.ro</hei-id>
             <hei-id>upt.ro</hei-id>
+            <hei-id>uns.ac.rs</hei-id>
             <hei-id>hkr.se</hei-id>
+            <hei-id>hhs.se</hei-id>
+            <hei-id>rkh.se</hei-id>
             <hei-id>lnu.se</hei-id>
             <hei-id>hamk.fi</hei-id>
             <hei-id>tuni.fi</hei-id>
             <hei-id>utu.fi</hei-id>
+            <hei-id>fuds.si</hei-id>
+            <hei-id>euba.sk</hei-id>
+            <hei-id>vsvu.sk</hei-id>
+            <hei-id>vsmu.sk</hei-id>
+            <hei-id>paneurouni.com</hei-id>
+            <hei-id>vsemvs.sk</hei-id>
             <hei-id>ujs.sk</hei-id>
+            <hei-id>vsbm.sk</hei-id>
             <hei-id>ukf.sk</hei-id>
             <hei-id>unipo.sk</hei-id>
             <hei-id>tnuni.sk</hei-id>
+            <hei-id>vsm.sk</hei-id>
             <hei-id>ucm.sk</hei-id>
+            <hei-id>uniza.sk</hei-id>
+            <hei-id>ufuk.edu.tr</hei-id>
+            <hei-id>balikesir.edu.tr</hei-id>
+            <hei-id>istmedipol</hei-id>
             <hei-id>istinye.edu.tr</hei-id>
+            <hei-id>gtu.edu.tr</hei-id>
+            <hei-id>mersin.edu.tr</hei-id>
+            <hei-id>ktu.edu.tr</hei-id>
+            <hei-id>hw.ac.uk</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="5f9e52e4a034ef28a3c599288abd9875208c344c320cb4d15e5e0fffe9f970f2"/>
@@ -11259,10 +11547,10 @@
             <e2:echo version="2.0.1">
                 <e2:http-security>
                     <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
                         <sec-A2:httpsig/>
                     </sec:client-auth-methods>
                     <sec:server-auth-methods>
-                        <sec-B1:tlscert/>
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
                 </e2:http-security>
@@ -11347,9 +11635,29 @@
         </server-credentials-in-use>
     </host>
     <institutions>
+        <hei id=".de">
+            <other-id type="erasmus">D FRANKFU06</other-id>
+            <name>D FRANKFU06</name>
+        </hei>
+        <hei id=".fr">
+            <other-id type="erasmus">F ANGERS04</other-id>
+            <name>F ANGERS04</name>
+        </hei>
+        <hei id=".pl">
+            <other-id type="erasmus">PL WROCLAW07</other-id>
+            <name>PL WROCLAW07</name>
+        </hei>
         <hei id="3il.fr">
             <other-id type="erasmus">F LIMOGES20</other-id>
-            <name>Groupe 3iL</name>
+            <name>F LIMOGES20</name>
+        </hei>
+        <hei id="Architecture">
+            <other-id type="erasmus">F GRENOBL16</other-id>
+            <name>F GRENOBL16</name>
+        </hei>
+        <hei id="B NAMUR11">
+            <other-id type="erasmus">B NAMUR11</other-id>
+            <name>B NAMUR11</name>
         </hei>
         <hei id="aalto.fi">
             <other-id type="erasmus">SF ESPOO12</other-id>
@@ -11362,17 +11670,24 @@
             <other-id type="erasmus">DK ARHUS04</other-id>
             <other-id type="euc">28964</other-id>
             <other-id type="pic">968659849</other-id>
+            <name>DK ARHUS04</name>
             <name xml:lang="da">AARHUS SCHOOL OF ARCHITECTURE</name>
             <name xml:lang="en">AARHUS SCHOOL OF ARCHITECTURE</name>
         </hei>
         <hei id="ac.at">
             <other-id type="erasmus">A KREMS05</other-id>
-            <name>UNIVERSITAET FUER WEITERBILDUNG KREMS</name>
+            <name>A KREMS05</name>
+        </hei>
+        <hei id="accademialigustica.it">
+            <other-id type="erasmus">I GENOVA03</other-id>
+            <name>I GENOVA03</name>
         </hei>
         <hei id="adbk.de">
             <other-id type="erasmus">D  MUNCHEN04</other-id>
+            <other-id type="erasmus">D MUNCHEN04</other-id>
             <other-id type="euc">29685</other-id>
             <other-id type="pic">947272416</other-id>
+            <name>D MUNCHEN04</name>
             <name xml:lang="en">Akademie der Bildenden Künste München</name>
         </hei>
         <hei id="aec-music.eu">
@@ -11382,6 +11697,10 @@
             <name xml:lang="en">Conservatoire of Music Licinio Refice, Frosinone</name>
             <name xml:lang="it">Conservatoire of Music Licinio Refice, Frosinone</name>
         </hei>
+        <hei id="agrocampus-ouest.fr">
+            <other-id type="erasmus">F RENNES47</other-id>
+            <name>F RENNES47</name>
+        </hei>
         <hei id="akbild.ac.at">
             <other-id type="erasmus">A  WIEN01</other-id>
             <other-id type="pic">989289809</other-id>
@@ -11390,7 +11709,7 @@
         </hei>
         <hei id="amu.cz">
             <other-id type="erasmus">CZ PRAHA04</other-id>
-            <name>AKADEMIE MUZICKYCH UMENI V PRAZE</name>
+            <name>CZ PRAHA04</name>
         </hei>
         <hei id="aon.edu.pl">
             <other-id type="erasmus">PL WARSZAW68</other-id>
@@ -11407,7 +11726,7 @@
         </hei>
         <hei id="apsl.edu.pl">
             <other-id type="erasmus">PL SLUPSK01</other-id>
-            <name>AKADEMIA POMORSKA W SLUPSKU</name>
+            <name>PL SLUPSK01</name>
         </hei>
         <hei id="arcada.fi">
             <other-id type="erasmus">SF HELSINK39</other-id>
@@ -11433,6 +11752,10 @@
             <other-id type="pic">999896953</other-id>
             <name xml:lang="en">Aston University</name>
         </hei>
+        <hei id="au-plovdiv.bg">
+            <other-id type="erasmus">BG PLOVDIV01</other-id>
+            <name>BG PLOVDIV01</name>
+        </hei>
         <hei id="au.dk">
             <name xml:lang="en">Aarhus University</name>
         </hei>
@@ -11448,6 +11771,10 @@
             <other-id type="pic">999888223</other-id>
             <name xml:lang="en">Brandenburgische Technische Universität Cottbus-Senftenberg</name>
         </hei>
+        <hei id="balikesir.edu.tr">
+            <other-id type="erasmus">TR BALIKES01</other-id>
+            <name>TR BALIKES01</name>
+        </hei>
         <hei id="beitberl.ac.il">
             <other-id type="erasmus">IL BERL01</other-id>
             <name xml:lang="en">Beit Berl College</name>
@@ -11460,7 +11787,7 @@
         </hei>
         <hei id="bfu.bg">
             <other-id type="erasmus">BG BOURGAS01</other-id>
-            <name>BUGARSKI SVOBODEN UNIVERSITET</name>
+            <name>BG BOURGAS01</name>
         </hei>
         <hei id="bham.ac.uk">
             <other-id type="erasmus">UK BIRMING02</other-id>
@@ -11480,6 +11807,10 @@
             <other-id type="pic">999987357</other-id>
             <name xml:lang="de">Universität für Bodenkultur Wien</name>
             <name xml:lang="en">Universität für Bodenkultur Wien</name>
+        </hei>
+        <hei id="brassart.fr">
+            <other-id type="erasmus">F GRENOBL49</other-id>
+            <name>F GRENOBL49</name>
         </hei>
         <hei id="bristol.ac.uk">
             <other-id type="erasmus">UK BRISTOL01</other-id>
@@ -11502,13 +11833,17 @@
         </hei>
         <hei id="burg-halle.de">
             <other-id type="erasmus">D HALLE03</other-id>
-            <name>BURG GIEBICHENSTEIN Kunsthochschule Halle</name>
+            <name>D HALLE03</name>
         </hei>
         <hei id="cbs.dk">
             <other-id type="erasmus">DK KOBENHA05</other-id>
             <other-id type="euc">28999</other-id>
             <other-id type="pic">998706666</other-id>
             <name xml:lang="en">Handelshøjskolen i København</name>
+        </hei>
+        <hei id="cdv.pl">
+            <other-id type="erasmus">PL POZNAN16</other-id>
+            <name>PL POZNAN16</name>
         </hei>
         <hei id="centralelille.fr">
             <other-id type="erasmus">F  LILLE14</other-id>
@@ -11524,32 +11859,72 @@
             <name xml:lang="en">CESI Ecole d'Ingénieurs</name>
             <name xml:lang="fr">CESI Ecole d'Ingénieurs</name>
         </hei>
+        <hei id="cespu.pt">
+            <other-id type="erasmus">P PORTO56</other-id>
+            <name>P PORTO56</name>
+        </hei>
         <hei id="che.nl">
             <other-id type="erasmus">NL EDE01</other-id>
-            <name>Christelijke Hogeschool Ede, Christian University of Applied Sciences</name>
+            <name>NL EDE01</name>
         </hei>
         <hei id="ciels.it">
             <other-id type="erasmus">I PADOVA05</other-id>
-            <name>Scuola Superiore per Mediatori Linguistici CIELS</name>
+            <name>I PADOVA05</name>
         </hei>
         <hei id="cit.ie">
             <other-id type="erasmus">IRLCORK04</other-id>
-            <name>CORK INSTITUTE OF TECHNOLOGY</name>
+            <name>IRLCORK04</name>
         </hei>
         <hei id="conservatoire.be">
             <other-id type="erasmus">B BRUXEL07</other-id>
-            <name>Conservatoire royal de Bruxelles</name>
+            <name>B BRUXEL07</name>
+        </hei>
+        <hei id="conservatorio.sassari.it">
+            <other-id type="erasmus">I SASSARI02</other-id>
+            <name>I SASSARI02</name>
+        </hei>
+        <hei id="cpilosenlaces.com">
+            <other-id type="erasmus">E ZARAGOZ16</other-id>
+            <name>E ZARAGOZ16</name>
+        </hei>
+        <hei id="csmvigo.com">
+            <other-id type="erasmus">E VIGO03</other-id>
+            <name>E VIGO03</name>
         </hei>
         <hei id="czu.cz">
             <other-id type="erasmus">CZ PRAHA02</other-id>
-            <name>CESKA ZEMEDELSKA UNIVERZITA V PRAZE</name>
+            <name>CZ PRAHA02</name>
             <name xml:lang="cz">Česká zemědělská univerzita v Praze</name>
             <name xml:lang="en">Czech University of Life Sciences Prague</name>
             <name xml:lang="sk">Česká poľnohospodárska univerzita v Prahe</name>
         </hei>
+        <hei id="dcu.ie">
+            <other-id type="erasmus">IRLDUBLIN04</other-id>
+            <name>IRLDUBLIN04</name>
+        </hei>
+        <hei id="de">
+            <other-id type="erasmus">D DUSSELD08</other-id>
+            <name>D DUSSELD08</name>
+        </hei>
+        <hei id="deiadisseny.cat">
+            <other-id type="erasmus">E BARCELO32</other-id>
+            <name>E BARCELO32</name>
+        </hei>
+        <hei id="demo.com">
+            <other-id type="erasmus">E CADIZ28</other-id>
+            <name>E CADIZ28</name>
+        </hei>
         <hei id="demo.eu">
             <other-id type="erasmus">LV OLAINE01</other-id>
-            <name>Olaines Mehanikas un tehnologijas koledza</name>
+            <name>LV OLAINE01</name>
+        </hei>
+        <hei id="demo.ue">
+            <other-id type="erasmus">E LAS-PAL28</other-id>
+            <name>E LAS-PAL28</name>
+        </hei>
+        <hei id="dhbw-stuttgart.de">
+            <other-id type="erasmus">D STUTTGA10</other-id>
+            <name>D STUTTGA10</name>
         </hei>
         <hei id="diak.fi">
             <other-id type="erasmus">SF HELSINK19</other-id>
@@ -11561,9 +11936,13 @@
             <other-id type="erasmus">UK DURHAM01</other-id>
             <name xml:lang="en">Durham University</name>
         </hei>
+        <hei id="easd.es">
+            <other-id type="erasmus">E SANTIAG02</other-id>
+            <name>E SANTIAG02</name>
+        </hei>
         <hei id="easdvalencia.com">
             <other-id type="erasmus">E VALENCI13</other-id>
-            <name>Escuela de arte y superior de Diseño de Valencia</name>
+            <name>E VALENCI13</name>
         </hei>
         <hei id="ebs.edu">
             <other-id type="erasmus">D  OESTRIC01</other-id>
@@ -11571,6 +11950,14 @@
             <other-id type="pic">949630486</other-id>
             <name xml:lang="de">EBS Universität für Wirtschaft und Recht</name>
             <name xml:lang="en">EBS UNIVERSITY FOR BUSINESS AND LAW</name>
+        </hei>
+        <hei id="ebs.ee">
+            <other-id type="erasmus">EE TALLINN02</other-id>
+            <name>EE TALLINN02</name>
+        </hei>
+        <hei id="ebus.hr">
+            <other-id type="erasmus">HR ZAGREB07</other-id>
+            <name>HR ZAGREB07</name>
         </hei>
         <hei id="ec-lyon.fr">
             <other-id type="erasmus">F  LYON11</other-id>
@@ -11580,6 +11967,10 @@
         <hei id="ec.europa.eu">
             <name xml:lang="en">Mobility Tool+</name>
         </hei>
+        <hei id="ecam-epmi.com">
+            <other-id type="erasmus">F CERGY-P03</other-id>
+            <name>F CERGY-P03</name>
+        </hei>
         <hei id="ecam.be">
             <other-id type="erasmus">B  BRUXEL87</other-id>
             <other-id type="euc">27983-IC-1-2007-1-BE-ERASMUS-EUCX-1</other-id>
@@ -11587,15 +11978,27 @@
             <name xml:lang="en">ECAM Brussels Engineering School</name>
             <name xml:lang="fr">ECAM Brussels Engineering School</name>
         </hei>
+        <hei id="ecole.archi-toulouse.fr">
+            <other-id type="erasmus">F TOULOUS24</other-id>
+            <name>F TOULOUS24</name>
+        </hei>
         <hei id="ed.ac.uk">
             <other-id type="erasmus">UK EDINBUR01</other-id>
             <other-id type="euc">28291-IC-1-2007-1-UK-ERASMUS-EUCX-1</other-id>
             <other-id type="pic">999974941</other-id>
             <name xml:lang="en">University of Edinburgh</name>
         </hei>
+        <hei id="edem.eu">
+            <other-id type="erasmus">E VALENCI90</other-id>
+            <name>E VALENCI90</name>
+        </hei>
+        <hei id="edu.pl">
+            <other-id type="erasmus">PL WROCLAW21</other-id>
+            <name>PL WROCLAW21</name>
+        </hei>
         <hei id="efrei.fr">
             <other-id type="erasmus">F PARIS066</other-id>
-            <name>Groupe Efrei Paris Sud</name>
+            <name>F PARIS066</name>
         </hei>
         <hei id="eh-darmstadt.de">
             <other-id type="erasmus">D  DARMSTA03</other-id>
@@ -11603,6 +12006,10 @@
             <other-id type="pic">974822356</other-id>
             <name xml:lang="de">Evangelische Hochschule Darmstadt</name>
             <name xml:lang="en">EVANGELISCHE HOCHSCHULE DARMSTADT, UNIVERSITY OF APPLIED SCIENCES</name>
+        </hei>
+        <hei id="eh-freiburg.de">
+            <other-id type="erasmus">D FREIBUR05</other-id>
+            <name>D FREIBUR05</name>
         </hei>
         <hei id="ehess.fr">
             <other-id type="erasmus">F  PARIS057</other-id>
@@ -11612,7 +12019,7 @@
         </hei>
         <hei id="ehu.eus">
             <other-id type="erasmus">E BILBAO01</other-id>
-            <name>UNIVERSIDAD DEL PAIS VASCO/ EUSKAL HERRIKO UNIBERTSITATEA</name>
+            <name>E BILBAO01</name>
         </hei>
         <hei id="ektf.hu">
             <other-id type="erasmus">HU EGER02</other-id>
@@ -11632,11 +12039,27 @@
             <name xml:lang="en">EMLYON BUSINESS SCHOOL</name>
             <name xml:lang="fr">emlyon business school</name>
         </hei>
+        <hei id="em-normandie.fr">
+            <other-id type="erasmus">F LE-HAVR04</other-id>
+            <name>F LE-HAVR04</name>
+        </hei>
+        <hei id="enil.fr">
+            <other-id type="erasmus">F MAMIROL02</other-id>
+            <name>F MAMIROL02</name>
+        </hei>
+        <hei id="ensai.fr">
+            <other-id type="erasmus">F RENNES32</other-id>
+            <name>F RENNES32</name>
+        </hei>
         <hei id="enscm.fr">
             <other-id type="erasmus">F  MONTPEL08</other-id>
             <other-id type="euc">28407</other-id>
             <other-id type="pic">943378545</other-id>
             <name xml:lang="en">Ecole Nationale Sup?rieure de Chimie de Montpellier</name>
+        </hei>
+        <hei id="ensta-bretagne.fr">
+            <other-id type="erasmus">F BREST08</other-id>
+            <name>F BREST08</name>
         </hei>
         <hei id="epf.fr">
             <other-id type="erasmus">F  SCEAUX01</other-id>
@@ -11658,12 +12081,24 @@
             <name xml:lang="en">Erasmus Brussels University of Applied Sciences and Arts</name>
             <name xml:lang="nl">Erasmushogeschool Brussel</name>
         </hei>
+        <hei id="esadgalicia.com">
+            <other-id type="erasmus">E VIGO08</other-id>
+            <name>E VIGO08</name>
+        </hei>
+        <hei id="esadtpm.fr">
+            <other-id type="erasmus">F TOULON21</other-id>
+            <name>F TOULON21</name>
+        </hei>
         <hei id="esaip.org">
             <other-id type="erasmus">F  ANJOU02</other-id>
             <other-id type="euc">47379-IC-1-2007-1-FR-ERASMUS-EUCX-1</other-id>
             <other-id type="pic">949296321</other-id>
             <name xml:lang="en">ESAIP</name>
             <name xml:lang="fr">ESAIP</name>
+        </hei>
+        <hei id="esdap.cat">
+            <other-id type="erasmus">E BARCELO111</other-id>
+            <name>E BARCELO111</name>
         </hei>
         <hei id="essca.fr">
             <other-id type="erasmus">F  ANGERS10</other-id>
@@ -11674,12 +12109,20 @@
         <hei id="essex.ac.uk">
             <name xml:lang="en">University of Essex</name>
         </hei>
+        <hei id="euba.sk">
+            <other-id type="erasmus">SK BRATISL03</other-id>
+            <name>SK BRATISL03</name>
+        </hei>
+        <hei id="eufh.de">
+            <other-id type="erasmus">D BRUHL01</other-id>
+            <name>D BRUHL01</name>
+        </hei>
         <hei id="europa-uni.de">
             <other-id type="erasmus">D  FRANKFU08</other-id>
             <other-id type="erasmus">D FRANKFU08</other-id>
             <other-id type="euc">29850</other-id>
             <other-id type="pic">996853869</other-id>
-            <name>EUROPA-UNIVERSITAT VIADRINA EUROPA-UNIVERSITAT VIADRINA FRANKFURT (ODER)</name>
+            <name>D FRANKFU08</name>
             <name xml:lang="en">Europa-Universität Viadrina Frankfurt (Oder)</name>
         </hei>
         <hei id="fau.de">
@@ -11689,6 +12132,10 @@
             <other-id type="pic">999995408</other-id>
             <name xml:lang="de">Friedrich-Alexander-Universität Erlangen-Nürnberg</name>
             <name xml:lang="en">Friedrich-Alexander-Universität Erlangen-Nürnberg</name>
+        </hei>
+        <hei id="fauad.fau.eu">
+            <other-id type="erasmus">D ERLANGE01</other-id>
+            <name>D ERLANGE01</name>
         </hei>
         <hei id="fernuni-hagen.de">
             <other-id type="eche">53071-EPP-1-2014-1-DE-EPPKA3-ECHE</other-id>
@@ -11719,7 +12166,7 @@
             <other-id type="erasmus">A SPITTAL01</other-id>
             <other-id type="euc">29298-IC-1-2007-1-AT-ERASMUS-EUC-1</other-id>
             <other-id type="pic">998204885</other-id>
-            <name>Fachhochschule Kärnten - gemeinnützige Privatstiftung</name>
+            <name>A SPITTAL01</name>
             <name xml:lang="de">FACHHOCHSCHULE KÄRNTEN</name>
             <name xml:lang="en">FACHHOCHSCHULE KÄRNTEN</name>
         </hei>
@@ -11752,6 +12199,10 @@
             <name xml:lang="de">Hochschule Nordhausen</name>
             <name xml:lang="en">Hochschule Nordhausen</name>
         </hei>
+        <hei id="fh-swf.de">
+            <other-id type="erasmus">D ISERLOH01</other-id>
+            <name>D ISERLOH01</name>
+        </hei>
         <hei id="fh-vie.ac.at">
             <other-id type="erasmus">A WIEN38</other-id>
             <name xml:lang="de">University of Applied Sciences BFI Vienna</name>
@@ -11759,9 +12210,23 @@
         </hei>
         <hei id="fh-westkueste.de">
             <other-id type="erasmus">D  HEIDE01</other-id>
+            <other-id type="erasmus">D HEIDE01</other-id>
             <other-id type="euc">28762</other-id>
             <other-id type="pic">949478681</other-id>
+            <name>D HEIDE01</name>
             <name xml:lang="en">Fachhochschule Westküste</name>
+        </hei>
+        <hei id="fham.de">
+            <other-id type="erasmus">D ERDING01</other-id>
+            <name>D ERDING01</name>
+        </hei>
+        <hei id="fhdw.de">
+            <other-id type="erasmus">D PADERBO04</other-id>
+            <name>D PADERBO04</name>
+        </hei>
+        <hei id="fhgooe.ac.at">
+            <other-id type="erasmus">A LINZ23</other-id>
+            <name>A LINZ23</name>
         </hei>
         <hei id="fhnw.ch">
             <other-id type="erasmus">CH BRUGG02</other-id>
@@ -11789,6 +12254,14 @@
             <other-id type="pic">948698995</other-id>
             <name xml:lang="en">Hochschule für angewandte Wissenschaften Würzburg-Schweinfurt</name>
         </hei>
+        <hei id="fje.edu">
+            <other-id type="erasmus">E BARCELO34</other-id>
+            <name>E BARCELO34</name>
+        </hei>
+        <hei id="fjellhaug.no">
+            <other-id type="erasmus">N OSLO65</other-id>
+            <name>N OSLO65</name>
+        </hei>
         <hei id="fontys.edu">
             <other-id type="erasmus">NL EINDHOV03</other-id>
             <other-id type="pic">998501802</other-id>
@@ -11814,9 +12287,13 @@
             <other-id type="pic">999994826</other-id>
             <name xml:lang="en">Freie Universität Berlin</name>
         </hei>
+        <hei id="fuds.si">
+            <other-id type="erasmus">SI NOVA-GO02</other-id>
+            <name>SI NOVA-GO02</name>
+        </hei>
         <hei id="gmit.ie">
             <other-id type="erasmus">IRLGALWAY02</other-id>
-            <name>GALWAY MAYO INSTITUTE OF TECHNOLOGY</name>
+            <name>IRLGALWAY02</name>
         </hei>
         <hei id="grenoble-inp.fr">
             <other-id type="erasmus">F  GRENOBL22</other-id>
@@ -11826,13 +12303,17 @@
         </hei>
         <hei id="groupe-espi.fr">
             <other-id type="erasmus">F PARIS414</other-id>
-            <name>ECOLE SUPERIEURE DES PROFESSIONS IMMOBILIERES</name>
+            <name>F PARIS414</name>
         </hei>
         <hei id="gsa.ac.uk">
             <other-id type="erasmus">UK GLASGOW03</other-id>
             <other-id type="euc">28123</other-id>
             <other-id type="pic">968480496</other-id>
             <name xml:lang="en">The Glasgow School of Art</name>
+        </hei>
+        <hei id="gtu.edu.tr">
+            <other-id type="erasmus">TR KOCAELI01</other-id>
+            <name>TR KOCAELI01</name>
         </hei>
         <hei id="gu.se">
             <other-id type="erasmus">S  GOTEBOR01</other-id>
@@ -11854,9 +12335,13 @@
             <name xml:lang="en">Haaga-Helia University of Applied Sciences</name>
             <name xml:lang="fi">Haaga-Helia University of Applied Sciences</name>
         </hei>
+        <hei id="haf.gr">
+            <other-id type="erasmus">G ATHINE55</other-id>
+            <name>G ATHINE55</name>
+        </hei>
         <hei id="hamk.fi">
             <other-id type="erasmus">SF HAMEENL09</other-id>
-            <name>HAMEEN AMMATTIKORKEAKOULU OY</name>
+            <name>SF HAMEENL09</name>
         </hei>
         <hei id="han.nl">
             <name xml:lang="en">Hogeschool van Arnhem en Nijmegen</name>
@@ -11889,13 +12374,17 @@
             <name xml:lang="de">Hochschule der Medien</name>
             <name xml:lang="en">Hochschule der Medien</name>
         </hei>
+        <hei id="heldb.be">
+            <other-id type="erasmus">B BRUXEL88</other-id>
+            <name>B BRUXEL88</name>
+        </hei>
         <hei id="helha.be">
             <other-id type="erasmus">B MONS22</other-id>
-            <name>HELHa</name>
+            <name>B MONS22</name>
         </hei>
         <hei id="helmo.be">
             <other-id type="erasmus">B LIEGE37</other-id>
-            <name>Haute Ecole Libre Mosane</name>
+            <name>B LIEGE37</name>
         </hei>
         <hei id="helsinki.fi">
             <other-id type="erasmus">SF HELSINK01</other-id>
@@ -11917,7 +12406,7 @@
         </hei>
         <hei id="hfbk-hamburg.de">
             <other-id type="erasmus">D HAMBURG04</other-id>
-            <name>Hochschule für bildende Künste Hamburg</name>
+            <name>D HAMBURG04</name>
         </hei>
         <hei id="hfwu.de">
             <other-id type="eche">29872-EPP-1-2014-1-DE-EPPKA3-ECHE</other-id>
@@ -11928,7 +12417,9 @@
         </hei>
         <hei id="hhs.se">
             <other-id type="erasmus">S  STOCKHO05</other-id>
+            <other-id type="erasmus">S STOCKHO05</other-id>
             <other-id type="pic">949489351</other-id>
+            <name>S STOCKHO05</name>
             <name xml:lang="en">Stockholm School of Economics</name>
             <name xml:lang="sv">Stockholm School of Economics</name>
         </hei>
@@ -11937,7 +12428,7 @@
             <other-id type="erasmus">S KRISTIA01</other-id>
             <other-id type="euc">29409-IC-1-2007-1-SE-ERASMUS-EUCX-1</other-id>
             <other-id type="pic">999892103</other-id>
-            <name>HOEGSKOLAN KRISTIANSTAD</name>
+            <name>S KRISTIA01</name>
             <name xml:lang="en">KRISTIANSTAD UNIVERSITY</name>
             <name xml:lang="sv">HÖGSKOLAN KRISTIANSTAD</name>
         </hei>
@@ -11954,6 +12445,10 @@
             <other-id type="pic">946469450</other-id>
             <name xml:lang="de">University of Music and Performing Arts Munich</name>
             <name xml:lang="en">University of Music and Performing Arts Munich</name>
+        </hei>
+        <hei id="hnee.de">
+            <other-id type="erasmus">D EBERSWA01</other-id>
+            <name>D EBERSWA01</name>
         </hei>
         <hei id="hochschule-biberach.de">
             <other-id type="erasmus">D  BIBERAC01</other-id>
@@ -11972,8 +12467,10 @@
         </hei>
         <hei id="hof-university.de">
             <other-id type="erasmus">D  HOF01</other-id>
+            <other-id type="erasmus">D HOF01</other-id>
             <other-id type="euc">28328</other-id>
             <other-id type="pic">949478002</other-id>
+            <name>D HOF01</name>
             <name xml:lang="en">Hochschule Hof</name>
         </hei>
         <hei id="hogent.be">
@@ -11997,14 +12494,16 @@
         </hei>
         <hei id="hs-aalen.de">
             <other-id type="erasmus">D  AALEN01</other-id>
+            <other-id type="erasmus">D AALEN01</other-id>
             <other-id type="euc">29718-IC-1-2007-1-DE-ERASMUS-EUCX-1</other-id>
             <other-id type="pic">973276273</other-id>
+            <name>D AALEN01</name>
             <name xml:lang="de">Hochschule Aalen</name>
             <name xml:lang="en">AALEN UNIVERSITY</name>
         </hei>
         <hei id="hs-albsig.de">
             <other-id type="erasmus">D SIGMARI01</other-id>
-            <name>FACHHOCHSCHULE ALBSTADT-SIGMARINGEN</name>
+            <name>D SIGMARI01</name>
         </hei>
         <hei id="hs-anhalt.de">
             <other-id type="eche">29740-EPP-1-2014-1-DE-EPPKA3-ECHE</other-id>
@@ -12054,7 +12553,7 @@
         </hei>
         <hei id="hs-fulda.de">
             <other-id type="erasmus">D FULDA01</other-id>
-            <name>HOCHSCHULE FULDA-UNIVERSITY OF APPLIED SCIENCES</name>
+            <name>D FULDA01</name>
         </hei>
         <hei id="hs-furtwangen.de">
             <other-id type="erasmus">D  FURTWAN01</other-id>
@@ -12085,18 +12584,26 @@
         </hei>
         <hei id="hs-karlsruhe.de">
             <other-id type="erasmus">D  KARLSRU05</other-id>
+            <other-id type="erasmus">D KARLSRU05</other-id>
             <other-id type="euc">28173</other-id>
             <other-id type="pic">997543927</other-id>
+            <name>D KARLSRU05</name>
             <name xml:lang="en">Hochschule Karlsruhe - Technik und Wirtschaft</name>
+        </hei>
+        <hei id="hs-kl.de">
+            <other-id type="erasmus">D KAISERS02</other-id>
+            <name>D KAISERS02</name>
         </hei>
         <hei id="hs-merseburg.de">
             <other-id type="erasmus">D MERSEB02</other-id>
-            <name>HOCHSCHULE MERSEBURG</name>
+            <name>D MERSEB02</name>
         </hei>
         <hei id="hs-mittweida.de">
             <other-id type="erasmus">D  MITTWEI01</other-id>
+            <other-id type="erasmus">D MITTWEI01</other-id>
             <other-id type="euc">29767</other-id>
             <other-id type="pic">998994853</other-id>
+            <name>D MITTWEI01</name>
             <name xml:lang="en">Hochschule Mittweida</name>
         </hei>
         <hei id="hs-niederrhein.de">
@@ -12119,6 +12626,10 @@
             <other-id type="pic">999846416</other-id>
             <name xml:lang="de">HOCHSCHULE OSNABRÜCK</name>
             <name xml:lang="en">HOCHSCHULE OSNABRÜCK UNIVERSITY OF APPLIED SCIENCES</name>
+        </hei>
+        <hei id="hs-pforzheim.de">
+            <other-id type="erasmus">D PFORZHE01</other-id>
+            <name>D PFORZHE01</name>
         </hei>
         <hei id="hs-rm.de">
             <other-id type="erasmus">D  WIESBAD01</other-id>
@@ -12151,7 +12662,7 @@
         </hei>
         <hei id="http://webster.ac.at/">
             <other-id type="erasmus">A WIEN75</other-id>
-            <name>BILDUNGSVEREIN FUR DIE FREUNDE DERWEBSTER UNIVERSITY (ST. LOUIS, USA)</name>
+            <name>A WIEN75</name>
         </hei>
         <hei id="htw-berlin.de">
             <other-id type="erasmus">D  BERLIN14</other-id>
@@ -12162,7 +12673,7 @@
         </hei>
         <hei id="htw-dresden.de">
             <other-id type="erasmus">D DRESDEN01</other-id>
-            <name>Hochschule fuer Technik und Wirtschaft Dresden</name>
+            <name>D DRESDEN01</name>
         </hei>
         <hei id="htwg-konstanz.de">
             <other-id type="erasmus">D  KONSTAN02</other-id>
@@ -12179,6 +12690,10 @@
         </hei>
         <hei id="hull.ac.uk">
             <name xml:lang="en">University of Hull</name>
+        </hei>
+        <hei id="hw.ac.uk">
+            <other-id type="erasmus">UK EDINBUR02</other-id>
+            <name>UK EDINBUR02</name>
         </hei>
         <hei id="hwg-lu.de">
             <other-id type="erasmus">D  LUDWIGH01</other-id>
@@ -12197,7 +12712,7 @@
             <other-id type="erasmus">NL VLISSIN01</other-id>
             <other-id type="euc">27563</other-id>
             <other-id type="pic">949468302</other-id>
-            <name>HZ University of Applied Sciences</name>
+            <name>NL VLISSIN01</name>
             <name xml:lang="en">HZ University of Applied Sciences</name>
         </hei>
         <hei id="ib-hochschule.de">
@@ -12212,15 +12727,40 @@
             <name xml:lang="da">International Business Academy (IBA)</name>
             <name xml:lang="en">International Business Academy (IBA)</name>
         </hei>
+        <hei id="ices.fr">
+            <other-id type="erasmus">F LAROCHE01</other-id>
+            <name>F LAROCHE01</name>
+        </hei>
+        <hei id="ied.it">
+            <other-id type="erasmus">I MILANO18</other-id>
+            <name>I MILANO18</name>
+        </hei>
+        <hei id="iessanclemente.net">
+            <other-id type="erasmus">E LA-CORU09</other-id>
+            <name>E LA-CORU09</name>
+        </hei>
         <hei id="ifpek.org">
             <other-id type="erasmus">F RENNES52</other-id>
-            <name>INSTITUT DE FORMATION EN PEDICURIE-PODOLOGIE, ERGOTHERAPIE, MASSO-KINESITHERAPIE</name>
+            <name>F RENNES52</name>
+        </hei>
+        <hei id="imt-mines-albi.fr">
+            <other-id type="erasmus">F ALBI05</other-id>
+            <name>F ALBI05</name>
         </hei>
         <hei id="inholland.nl">
             <other-id type="erasmus">NL S-GRAVE37</other-id>
             <other-id type="euc">218652</other-id>
             <other-id type="pic">949596148</other-id>
+            <name>NL S-GRAVE37</name>
             <name xml:lang="en">Hogeschool Inholland</name>
+        </hei>
+        <hei id="inn.no">
+            <other-id type="erasmus">N ELVERUM02</other-id>
+            <name>N ELVERUM02</name>
+        </hei>
+        <hei id="inp-toulouse.fr">
+            <other-id type="erasmus">F TOULOUS28</other-id>
+            <name>F TOULOUS28</name>
         </hei>
         <hei id="insa-centrevaldeloire.fr">
             <other-id type="erasmus">F  BLOIS13</other-id>
@@ -12250,18 +12790,46 @@
             <name xml:lang="en">INSA Toulouse</name>
             <name xml:lang="fr">INSA Toulouse</name>
         </hei>
+        <hei id="institutdelteatre.cat">
+            <other-id type="erasmus">E BARCELO22</other-id>
+            <name>E BARCELO22</name>
+        </hei>
         <hei id="institutoptique.fr">
             <other-id type="erasmus">F ORSAY02</other-id>
-            <name>INSTITUT D’OPTIQUE THEORIQUE ET APPLIQUEE IOTA - SUPOPTIQUE</name>
+            <name>F ORSAY02</name>
         </hei>
         <hei id="int.uzh.ch">
             <other-id type="erasmus">CH ZURICH01</other-id>
             <name xml:lang="de">Universität Zürich</name>
             <name xml:lang="en">Universität Zürich</name>
         </hei>
+        <hei id="ipca.pt">
+            <other-id type="erasmus">P ARCOZEL01</other-id>
+            <name>P ARCOZEL01</name>
+        </hei>
         <hei id="ipp.pt">
             <other-id type="erasmus">P PORTO05</other-id>
-            <name>INSTITUTO POLITECNICO DO PORTO</name>
+            <name>P PORTO05</name>
+        </hei>
+        <hei id="ipsa.fr">
+            <other-id type="erasmus">F PARIS342</other-id>
+            <name>F PARIS342</name>
+        </hei>
+        <hei id="ipu-berlin.de">
+            <other-id type="erasmus">D BERLIN32</other-id>
+            <name>D BERLIN32</name>
+        </hei>
+        <hei id="ipvc.pt">
+            <other-id type="erasmus">P VIANA-D01</other-id>
+            <name>P VIANA-D01</name>
+        </hei>
+        <hei id="isae-supaero.fr">
+            <other-id type="erasmus">F TOULOUS16</other-id>
+            <name>F TOULOUS16</name>
+        </hei>
+        <hei id="iseclisboa.pt">
+            <other-id type="erasmus">P LISBOA104</other-id>
+            <name>P LISBOA104</name>
         </hei>
         <hei id="isep.fr">
             <name xml:lang="en">ISEP</name>
@@ -12274,7 +12842,23 @@
         </hei>
         <hei id="istinye.edu.tr">
             <other-id type="erasmus">TR ISTANBU61</other-id>
-            <name>Istinye Universitesi</name>
+            <name>TR ISTANBU61</name>
+        </hei>
+        <hei id="istmedipol">
+            <other-id type="erasmus">TR ISTANBU36</other-id>
+            <name>TR ISTANBU36</name>
+        </hei>
+        <hei id="it">
+            <other-id type="erasmus">I LUCCA04</other-id>
+            <name>I LUCCA04</name>
+        </hei>
+        <hei id="iulm.it">
+            <other-id type="erasmus">I MILANO05</other-id>
+            <name>I MILANO05</name>
+        </hei>
+        <hei id="jacobs-university.de">
+            <other-id type="erasmus">D BREMEN09</other-id>
+            <name>D BREMEN09</name>
         </hei>
         <hei id="jamk.fi">
             <other-id type="eche">29483-EPP-1-2014-1-FI-EPPKA3-ECHE</other-id>
@@ -12306,7 +12890,7 @@
         </hei>
         <hei id="kaunokolegija.lt">
             <other-id type="erasmus">LT KAUNAS08</other-id>
-            <name>KAUNO KOLEGIJA</name>
+            <name>LT KAUNAS08</name>
         </hei>
         <hei id="kdg.be">
             <other-id type="erasmus">B ANTWERP59</other-id>
@@ -12320,7 +12904,7 @@
         </hei>
         <hei id="kedge.edu">
             <other-id type="erasmus">F BORDEAU57</other-id>
-            <name>GROUPE KEDGE BUSINESS SCHOOL</name>
+            <name>F BORDEAU57</name>
         </hei>
         <hei id="kh-berlin.de">
             <other-id type="erasmus">D  BERLIN18</other-id>
@@ -12354,6 +12938,10 @@
             <name xml:lang="de">Private University College of Teacher Education Graz</name>
             <name xml:lang="en">Private University College of Teacher Education Graz</name>
         </hei>
+        <hei id="kpu.krosno.pl">
+            <other-id type="erasmus">PL KROSNO01</other-id>
+            <name>PL KROSNO01</name>
+        </hei>
         <hei id="kpz.nl">
             <name xml:lang="en">Katholieke Pabo Zwolle Teacher Training College</name>
         </hei>
@@ -12363,9 +12951,17 @@
             <name xml:lang="en">KÁROLI GÁSPÁR UNIVERSITY OF THE REFORMED CHURCH IN HUNGARY</name>
             <name xml:lang="hu">KÁROLI GÁSPÁR REFORMÁTUS EGYETEM</name>
         </hei>
+        <hei id="ksu.lt">
+            <other-id type="erasmus">LT VILNIUS24</other-id>
+            <name>LT VILNIUS24</name>
+        </hei>
         <hei id="ktu.edu">
             <other-id type="erasmus">LT KAUNAS02</other-id>
-            <name>KAUNO TECHNOLOGIJOS UNIVERSITETAS</name>
+            <name>LT KAUNAS02</name>
+        </hei>
+        <hei id="ktu.edu.tr">
+            <other-id type="erasmus">TR TRABZON01</other-id>
+            <name>TR TRABZON01</name>
         </hei>
         <hei id="ku.de">
             <other-id type="eche">29755-EPP-1-2014-1-DE-EPPKA3-ECHE</other-id>
@@ -12409,6 +13005,10 @@
         <hei id="leuphana.de">
             <name xml:lang="en">Leuphana Universität Lüneburg</name>
         </hei>
+        <hei id="liepu.lv">
+            <other-id type="erasmus">LV LIEPAJA01</other-id>
+            <name>LV LIEPAJA01</name>
+        </hei>
         <hei id="liu.se">
             <other-id type="erasmus">S  LINKOPI01</other-id>
             <other-id type="euc">29359</other-id>
@@ -12422,15 +13022,19 @@
         </hei>
         <hei id="lnu.se">
             <other-id type="erasmus">S VAXJO03</other-id>
-            <name>LINNEUNIVERSITETET</name>
+            <name>S VAXJO03</name>
+        </hei>
+        <hei id="lsmuni.lt">
+            <other-id type="erasmus">LT KAUNAS13</other-id>
+            <name>LT KAUNAS13</name>
         </hei>
         <hei id="ltvk.lt">
             <other-id type="erasmus">LT KLAIPED07</other-id>
-            <name>Lietuvos verslo kolegija</name>
+            <name>LT KLAIPED07</name>
         </hei>
         <hei id="lu.lv">
             <other-id type="erasmus">LV RIGA01</other-id>
-            <name>LATVIJAS UNIVERSITATE</name>
+            <name>LV RIGA01</name>
         </hei>
         <hei id="lut.fi">
             <other-id type="erasmus">SF LAPPEEN01</other-id>
@@ -12439,15 +13043,23 @@
             <name xml:lang="en">LUT University</name>
             <name xml:lang="fi">LUT University</name>
         </hei>
+        <hei id="lyceedelasalle.fr">
+            <other-id type="erasmus">F RENNES23</other-id>
+            <name>F RENNES23</name>
+        </hei>
         <hei id="maastrichtuniversity.nl">
             <other-id type="erasmus">NL MAASTRI01</other-id>
             <other-id type="euc">28843</other-id>
             <other-id type="pic">999975911</other-id>
             <name xml:lang="en">Maastricht University</name>
         </hei>
+        <hei id="madrid.universidadeuropea.es">
+            <other-id type="erasmus">E MADRID18</other-id>
+            <name>E MADRID18</name>
+        </hei>
         <hei id="maieutica.pt">
             <other-id type="erasmus">P MAIA01</other-id>
-            <name>MAIEUTICA COOPERATIVA DE ENSINO SUPERIOR CRL</name>
+            <name>P MAIA01</name>
         </hei>
         <hei id="mau.se">
             <other-id type="erasmus">S  MALMO01</other-id>
@@ -12469,6 +13081,10 @@
             <name xml:lang="de">mdw - Universität für Musik und darstellende Kunst Wien</name>
             <name xml:lang="en">mdw - Universität für Musik und darstellende Kunst Wien</name>
         </hei>
+        <hei id="mersin.edu.tr">
+            <other-id type="erasmus">TR MERSIN01</other-id>
+            <name>TR MERSIN01</name>
+        </hei>
         <hei id="metropolia.fi">
             <other-id type="erasmus">SF HELSINK41</other-id>
             <other-id type="euc">242663</other-id>
@@ -12489,6 +13105,10 @@
             <other-id type="pic">999579860</other-id>
             <name xml:lang="en">Mittuniversitetet</name>
         </hei>
+        <hei id="mruni.eu">
+            <other-id type="erasmus">LT VILNIUS06</other-id>
+            <name>LT VILNIUS06</name>
+        </hei>
         <hei id="mta.ro">
             <other-id type="eche">78921-EPP-1-2014-1-RO-EPPKA3-ECHE</other-id>
             <other-id type="erasmus">RO BUCURES02</other-id>
@@ -12496,17 +13116,33 @@
             <name xml:lang="en">MILITARY TECHNICAL ACADEMY "FERDINAND I"</name>
             <name xml:lang="ro">MILITARY TECHNICAL ACADEMY "FERDINAND I"</name>
         </hei>
+        <hei id="mu.ie">
+            <other-id type="erasmus">IRLMAYNOOT01</other-id>
+            <name>IRLMAYNOOT01</name>
+        </hei>
         <hei id="muk.ac.at">
             <other-id type="erasmus">A WIEN52</other-id>
-            <name>Musik und Kunst Privatuniversität der Stadt Wien GmbH</name>
+            <name>A WIEN52</name>
         </hei>
         <hei id="na1.demo.eu">
             <other-id type="erasmus">NL ORANJES03</other-id>
-            <name>Demo account 1</name>
+            <name>NL ORANJES03</name>
+        </hei>
+        <hei id="naturapolis36.fr">
+            <other-id type="erasmus">F CHATEAU04</other-id>
+            <name>F CHATEAU04</name>
+        </hei>
+        <hei id="nds.de">
+            <other-id type="erasmus">D NIENBUR01</other-id>
+            <name>D NIENBUR01</name>
+        </hei>
+        <hei id="ndu.ac.at">
+            <other-id type="erasmus">A ST-POLT10</other-id>
+            <name>A ST-POLT10</name>
         </hei>
         <hei id="nmh.no">
             <other-id type="erasmus">N OSLO03</other-id>
-            <name>Norges musikkhøgskole</name>
+            <name>N OSLO03</name>
         </hei>
         <hei id="nordakademie.de">
             <other-id type="erasmus">D  ELMSHOR01</other-id>
@@ -12530,9 +13166,13 @@
             <other-id type="pic">949566466</other-id>
             <name xml:lang="en">Oulun ammattikorkeakoulu</name>
         </hei>
+        <hei id="oniris-nantes.fr">
+            <other-id type="erasmus">F NANTES65</other-id>
+            <name>F NANTES65</name>
+        </hei>
         <hei id="oranjestad.nl">
             <other-id type="erasmus">NL ORANJES05</other-id>
-            <name>Demo account 3</name>
+            <name>NL ORANJES05</name>
         </hei>
         <hei id="oru.se">
             <other-id type="erasmus">S  OREBRO01</other-id>
@@ -12557,8 +13197,12 @@
             <other-id type="erasmus">D MAGDEBU01</other-id>
             <other-id type="euc">28744</other-id>
             <other-id type="pic">999873285</other-id>
-            <name>OTTO-VON-GUERICKE-UNIVERSITAET MAGDEBURG</name>
+            <name>D MAGDEBU01</name>
             <name xml:lang="en">Otto-Von-Guericke-Universität Magdeburg</name>
+        </hei>
+        <hei id="paneurouni.com">
+            <other-id type="erasmus">SK BRATISL08</other-id>
+            <name>SK BRATISL08</name>
         </hei>
         <hei id="parisnanterre.fr">
             <other-id type="erasmus">F  PARIS010</other-id>
@@ -12571,7 +13215,7 @@
             <other-id type="erasmus">D HEIDELB02</other-id>
             <other-id type="euc">29894-IC-1-2007-1-DE-ERASMUS-EUCX-1</other-id>
             <other-id type="pic">986249538</other-id>
-            <name>PADAGOGISCHE HOCHSCHULE HEIDELBERG</name>
+            <name>D HEIDELB02</name>
             <name xml:lang="de">Pädagogische Hochschule Heidelberg</name>
             <name xml:lang="en">Pädagogische Hochschule Heidelberg</name>
         </hei>
@@ -12592,8 +13236,10 @@
         </hei>
         <hei id="ph-weingarten.de">
             <other-id type="erasmus">D  WEINGAR01</other-id>
+            <other-id type="erasmus">D WEINGAR01</other-id>
             <other-id type="euc">28719</other-id>
             <other-id type="pic">985590326</other-id>
+            <name>D WEINGAR01</name>
             <name xml:lang="de">Pädagogische Hochschule Weingarten</name>
             <name xml:lang="en">Pädagogische Hochschule Weingarten</name>
         </hei>
@@ -12644,6 +13290,14 @@
             <other-id type="pic">999879687</other-id>
             <name xml:lang="en">Pázmány Péter Catholic University</name>
         </hei>
+        <hei id="pswbp.pl">
+            <other-id type="erasmus">PL BIALA01</other-id>
+            <name>PL BIALA01</name>
+        </hei>
+        <hei id="puss.pila.pl">
+            <other-id type="erasmus">PL PILA02</other-id>
+            <name>PL PILA02</name>
+        </hei>
         <hei id="pxl.be">
             <other-id type="erasmus">B  HASSELT22</other-id>
             <other-id type="euc">381703-IC-1-2013-1-BE-ERASMUS-EUCX-1</other-id>
@@ -12668,18 +13322,32 @@
             <name xml:lang="en">RIGA GRADUATE SCHOOL OF LAW</name>
             <name xml:lang="lv">RIGA GRADUATE SCHOOL OF LAW</name>
         </hei>
+        <hei id="riseba.lv">
+            <other-id type="erasmus">LV RIGA29</other-id>
+            <name>LV RIGA29</name>
+        </hei>
+        <hei id="rkh.se">
+            <other-id type="erasmus">S STOCKHO18</other-id>
+            <name>S STOCKHO18</name>
+        </hei>
         <hei id="rta.lv">
             <other-id type="erasmus">LV REZEKNE02</other-id>
-            <name>REZEKNES TEHNOLOGIJU AKADEMIJA</name>
+            <name>LV REZEKNE02</name>
+        </hei>
+        <hei id="ru.is">
+            <other-id type="erasmus">IS REYKJAV05</other-id>
+            <name>IS REYKJAV05</name>
         </hei>
         <hei id="ru.nl">
             <other-id type="erasmus">NL NIJMEGE01</other-id>
-            <name>STICHTING KATHOLIEKE UNIVERSITEIT</name>
+            <name>NL NIJMEGE01</name>
         </hei>
         <hei id="ruhr-uni-bochum.de">
             <other-id type="erasmus">D  BOCHUM01</other-id>
+            <other-id type="erasmus">D BOCHUM01</other-id>
             <other-id type="euc">29880</other-id>
             <other-id type="pic">999988812</other-id>
+            <name>D BOCHUM01</name>
             <name xml:lang="en">Ruhr-Universität Bochum</name>
         </hei>
         <hei id="rwth-aachen.de">
@@ -12690,7 +13358,11 @@
         </hei>
         <hei id="san.edu.pl">
             <other-id type="erasmus">PL LODZ09</other-id>
-            <name>SPOLECZNA AKADEMIA NAUK</name>
+            <name>PL LODZ09</name>
+        </hei>
+        <hei id="sapientia.ro">
+            <other-id type="erasmus">RO CLUJNAP07</other-id>
+            <name>RO CLUJNAP07</name>
         </hei>
         <hei id="savonia.fi">
             <other-id type="erasmus">SF KUOPIO08</other-id>
@@ -12739,7 +13411,7 @@
         </hei>
         <hei id="sns.it">
             <other-id type="erasmus">I PISA02</other-id>
-            <name>SCUOLA NORMALE SUPERIORE</name>
+            <name>I PISA02</name>
         </hei>
         <hei id="sorbonne-universite.fr">
             <other-id type="erasmus">FR PARIS468</other-id>
@@ -12751,9 +13423,21 @@
             <name xml:lang="en">Peter the Great St. Petersburg Polytechnic University</name>
             <name xml:lang="ru">Peter the Great St. Petersburg Polytechnic University</name>
         </hei>
+        <hei id="spiruharet.ro">
+            <other-id type="erasmus">RO BUCURES20</other-id>
+            <name>RO BUCURES20</name>
+        </hei>
+        <hei id="sse.gr">
+            <other-id type="erasmus">G ATHINE54</other-id>
+            <name>G ATHINE54</name>
+        </hei>
         <hei id="sseriga.edu">
             <other-id type="erasmus">LV RIGA14</other-id>
-            <name>STOCKHOLM SCHOOL OF ECONOMICS IN RIGA SIA</name>
+            <name>LV RIGA14</name>
+        </hei>
+        <hei id="steffani.it">
+            <other-id type="erasmus">I CASTELF01</other-id>
+            <name>I CASTELF01</name>
         </hei>
         <hei id="strath.ac.uk">
             <other-id type="erasmus">UK GLASGOW02</other-id>
@@ -12786,9 +13470,19 @@
             <name xml:lang="en">SZENT ISTVÁN EGYETEM</name>
             <name xml:lang="hu">SZENT ISTVÁN EGYETEM</name>
         </hei>
+        <hei id="talm.fr">
+            <other-id type="erasmus">F ANGERS30</other-id>
+            <name>F ANGERS30</name>
+        </hei>
+        <hei id="taltech.ee">
+            <other-id type="erasmus">EE TALLINN04</other-id>
+            <name>EE TALLINN04</name>
+        </hei>
         <hei id="tcd.ie">
             <other-id type="erasmus">IR DUBLIN01</other-id>
+            <other-id type="erasmus">IRLDUBLIN01</other-id>
             <other-id type="pic">999845446</other-id>
+            <name>IRLDUBLIN01</name>
             <name xml:lang="en">UNIVERSITY OF DUBLIN - TRINITY COLLEGE</name>
         </hei>
         <hei id="technikum-wien.at">
@@ -12811,12 +13505,20 @@
             <other-id type="pic">949582665</other-id>
             <name xml:lang="en">Technische Hochschule Aschaffenburg</name>
         </hei>
+        <hei id="th-brandenburg.de">
+            <other-id type="erasmus">D BRANDEN01</other-id>
+            <name>D BRANDEN01</name>
+        </hei>
         <hei id="th-koeln.de">
             <other-id type="eche">29852-LA-1-2014-1-DE-E4AKA1-ECHE</other-id>
             <other-id type="erasmus">D KOLN04</other-id>
             <other-id type="pic">998122629</other-id>
             <name xml:lang="de">TH Köln</name>
             <name xml:lang="en">TH Köln</name>
+        </hei>
+        <hei id="th-owl.de">
+            <other-id type="erasmus">D LEMGO01</other-id>
+            <name>D LEMGO01</name>
         </hei>
         <hei id="th-rosenheim.de">
             <other-id type="erasmus">D  ROSENHE01</other-id>
@@ -12867,15 +13569,23 @@
             <name xml:lang="en">TIO University of Applied Sciences</name>
             <name xml:lang="nl">TIO University of Applied Sciences</name>
         </hei>
+        <hei id="tktk.ee">
+            <other-id type="erasmus">EE TALLINN06</other-id>
+            <name>EE TALLINN06</name>
+        </hei>
         <hei id="tnuni.sk">
             <other-id type="erasmus">SK TRENCIN01</other-id>
-            <name>TRENCIANSKA UNIVERZITA ALEXANDRA DUBCEKA V TRENCINE</name>
+            <name>SK TRENCIN01</name>
         </hei>
         <hei id="toulouse-inp.fr">
             <other-id type="erasmus">F  TOULOUS28</other-id>
             <other-id type="euc">27984</other-id>
             <other-id type="pic">999836037</other-id>
             <name xml:lang="en">Institut National Polytechnique de Toulouse</name>
+        </hei>
+        <hei id="ttvam.lt">
+            <other-id type="erasmus">LT VILNIUS15</other-id>
+            <name>LT VILNIUS15</name>
         </hei>
         <hei id="tu-berlin.de">
             <other-id type="erasmus">D  BERLIN02</other-id>
@@ -12949,9 +13659,13 @@
             <name xml:lang="de">TECHNISCHE UNIVERSITAET HAMBURG</name>
             <name xml:lang="en">TECHNISCHE UNIVERSITAET HAMBURG</name>
         </hei>
+        <hei id="tuiasi.ro">
+            <other-id type="erasmus">RO IASI05</other-id>
+            <name>RO IASI05</name>
+        </hei>
         <hei id="tuni.fi">
             <other-id type="erasmus">SF TAMPERE06</other-id>
-            <name>TAMPEREEN AMMATTIKORKEAKOULU OY</name>
+            <name>SF TAMPERE06</name>
         </hei>
         <hei id="turkuamk.fi">
             <other-id type="erasmus">SF TURKU05</other-id>
@@ -12964,6 +13678,14 @@
             <other-id type="pic">990343811</other-id>
             <name xml:lang="en">TAMPEREEN YLIOPISTO</name>
         </hei>
+        <hei id="tvz.hr">
+            <other-id type="erasmus">HR ZAGREB05</other-id>
+            <name>HR ZAGREB05</name>
+        </hei>
+        <hei id="tyszkiewicz.edu.pl">
+            <other-id type="erasmus">PL BIELSKO01</other-id>
+            <name>PL BIELSKO01</name>
+        </hei>
         <hei id="u-bordeaux-montaigne.fr">
             <other-id type="erasmus">F  BORDEAU03</other-id>
             <other-id type="euc">28250</other-id>
@@ -12974,6 +13696,10 @@
             <other-id type="erasmus">F  BORDEAU58</other-id>
             <other-id type="pic">949735440</other-id>
             <name xml:lang="en">Universit? de Bordeaux</name>
+        </hei>
+        <hei id="u-bourgogne.fr">
+            <other-id type="erasmus">F DIJON01</other-id>
+            <name>F DIJON01</name>
         </hei>
         <hei id="u-cergy.fr">
             <other-id type="erasmus">F CERGY-P11</other-id>
@@ -12996,18 +13722,22 @@
             <name xml:lang="en">University of Aruba</name>
             <name xml:lang="nl">University of Aruba</name>
         </hei>
+        <hei id="uacg.bg">
+            <other-id type="erasmus">BG SOFIA04</other-id>
+            <name>BG SOFIA04</name>
+        </hei>
         <hei id="uah.es">
             <other-id type="eche">29533-EPP-1-2014-1-ES-EPPKA3-ECHE</other-id>
             <other-id type="erasmus">E  ALCAL-H01</other-id>
             <other-id type="erasmus">E ALCAL-H01</other-id>
             <other-id type="pic">999835746</other-id>
-            <name>UNIVERSIDAD DE ALCALA</name>
+            <name>E ALCAL-H01</name>
             <name xml:lang="en">UNIVERSIDAD DE ALCALA</name>
             <name xml:lang="es">UNIVERSIDAD DE ALCALA</name>
         </hei>
         <hei id="uaic.ro">
             <other-id type="erasmus">RO IASI02</other-id>
-            <name>UNIVERSITATEA ALEXANDRU IOAN CUZA DIN IASI</name>
+            <name>RO IASI02</name>
         </hei>
         <hei id="ual.es">
             <other-id type="erasmus">E  ALMERIA01</other-id>
@@ -13034,16 +13764,28 @@
             <name xml:lang="en">UNIVERSITAT DE BARCELONA</name>
             <name xml:lang="es">UNIVERSITAT DE BARCELONA</name>
         </hei>
+        <hei id="ubfc.fr">
+            <other-id type="erasmus">F BESANCO27</other-id>
+            <name>F BESANCO27</name>
+        </hei>
+        <hei id="ubu.es">
+            <other-id type="erasmus">E BURGOS01</other-id>
+            <name>E BURGOS01</name>
+        </hei>
         <hei id="uca.es">
             <other-id type="erasmus">E CADIZ01</other-id>
-            <name>UNIVERSIDAD DE CADIZ</name>
+            <name>E CADIZ01</name>
         </hei>
         <hei id="uca.fr">
             <name xml:lang="en">Universit? Clermont Auvergne</name>
         </hei>
         <hei id="ucavila.es">
             <other-id type="erasmus">E AVILA01</other-id>
-            <name>UNIVERSIDAD CATOLICA SANTA TERESA DE JESUS DE AVILA</name>
+            <name>E AVILA01</name>
+        </hei>
+        <hei id="uchceu.es">
+            <other-id type="erasmus">E VALENCI08</other-id>
+            <name>E VALENCI08</name>
         </hei>
         <hei id="ucl.dk">
             <name xml:lang="en">UCL University College</name>
@@ -13063,7 +13805,7 @@
         </hei>
         <hei id="ucm.sk">
             <other-id type="erasmus">SK TRNAVA02</other-id>
-            <name>UNIVERZITA SV CYRILA A METODA V TRNAVE</name>
+            <name>SK TRNAVA02</name>
         </hei>
         <hei id="ucn.dk">
             <name xml:lang="en">Professionshøjskolen University College Nordjylland</name>
@@ -13071,22 +13813,28 @@
         <hei id="ucsyd.dk">
             <name xml:lang="en">University College South Denmark</name>
         </hei>
+        <hei id="ucv.ro">
+            <other-id type="erasmus">RO CRAIOVA01</other-id>
+            <name>RO CRAIOVA01</name>
+        </hei>
         <hei id="ucy.ac.cy">
             <other-id type="erasmus">CY NICOSIA01</other-id>
-            <name>UNIVERSITY OF CYPRUS</name>
+            <name>CY NICOSIA01</name>
         </hei>
         <hei id="udc.es">
             <other-id type="erasmus">E  LA-CORU01</other-id>
             <other-id type="erasmus">E LA-CORU01</other-id>
             <other-id type="euc">28678</other-id>
             <other-id type="pic">999629718</other-id>
-            <name>UNIVERSIDADE DA CORUNA</name>
+            <name>E LA-CORU01</name>
             <name xml:lang="en">Universidade da Coruña</name>
         </hei>
         <hei id="udk-berlin.de">
             <other-id type="erasmus">D  BERLIN03</other-id>
+            <other-id type="erasmus">D BERLIN03</other-id>
             <other-id type="euc">28395</other-id>
             <other-id type="pic">945595577</other-id>
+            <name>D BERLIN03</name>
             <name xml:lang="en">Universität der Künste Berlin</name>
         </hei>
         <hei id="udl.cat">
@@ -13094,13 +13842,29 @@
         </hei>
         <hei id="ue.wroc.pl">
             <other-id type="erasmus">PL WROCLAW03</other-id>
-            <name>UNIWERSYTET EKONOMICZNY WE WROCLAWIU</name>
+            <name>PL WROCLAW03</name>
         </hei>
         <hei id="uel.ac.uk">
             <other-id type="eche">27885-EPP-1-2014-1-UK-EPPKA3-ECHE</other-id>
             <other-id type="erasmus">UK LONDON064</other-id>
             <other-id type="pic">999853594</other-id>
             <name xml:lang="en">UNIVERSITY OF EAST LONDON</name>
+        </hei>
+        <hei id="uem.ro">
+            <other-id type="erasmus">RO RESITA01</other-id>
+            <name>RO RESITA01</name>
+        </hei>
+        <hei id="uemc.es">
+            <other-id type="erasmus">E VALLADO03</other-id>
+            <name>E VALLADO03</name>
+        </hei>
+        <hei id="ufg.at">
+            <other-id type="erasmus">A LINZ02</other-id>
+            <name>A LINZ02</name>
+        </hei>
+        <hei id="ufuk.edu.tr">
+            <other-id type="erasmus">TR ANKARA19</other-id>
+            <name>TR ANKARA19</name>
         </hei>
         <hei id="ugal.ro">
             <other-id type="eche">56018-EPP-1-2014-1-RO-EPPKA3-ECHE</other-id>
@@ -13113,7 +13877,7 @@
             <other-id type="erasmus">B  GENT01</other-id>
             <other-id type="erasmus">B GENT01</other-id>
             <other-id type="pic">999986096</other-id>
-            <name>UNIVERSITEIT GENT</name>
+            <name>B GENT01</name>
             <name xml:lang="en">Ghent University</name>
             <name xml:lang="nl">Universiteit Gent</name>
         </hei>
@@ -13122,7 +13886,11 @@
         </hei>
         <hei id="uhk.cz">
             <other-id type="erasmus">CZ HRADEC01</other-id>
-            <name>UNIVERZITA HRADEC KRALOVE</name>
+            <name>CZ HRADEC01</name>
+        </hei>
+        <hei id="ui1.es">
+            <other-id type="erasmus">E BURGOS20</other-id>
+            <name>E BURGOS20</name>
         </hei>
         <hei id="uib.no">
             <other-id type="erasmus">N BERGEN01</other-id>
@@ -13147,13 +13915,17 @@
             <name xml:lang="en">UiT The Arctic University of Norway</name>
             <name xml:lang="no">UiT Norges arktiske universitet</name>
         </hei>
+        <hei id="ujk.edu.pl">
+            <other-id type="erasmus">PL KIELCE02</other-id>
+            <name>PL KIELCE02</name>
+        </hei>
         <hei id="ujs.sk">
             <other-id type="erasmus">SK KOMARNO01</other-id>
-            <name>Univerzita J. Selyeho</name>
+            <name>SK KOMARNO01</name>
         </hei>
         <hei id="ukf.sk">
             <other-id type="erasmus">SK NITRA01</other-id>
-            <name>UNIVERZITA KONSTANTINA FILOZOFA V NITRE</name>
+            <name>SK NITRA01</name>
         </hei>
         <hei id="ulb.be">
             <other-id type="erasmus">B  BRUXEL04</other-id>
@@ -13161,9 +13933,13 @@
             <other-id type="pic">999986290</other-id>
             <name xml:lang="en">Université Libre de Bruxelles</name>
         </hei>
+        <hei id="ulbsibiu.ro">
+            <other-id type="erasmus">RO SIBIU01</other-id>
+            <name>RO SIBIU01</name>
+        </hei>
         <hei id="uliege.be">
             <other-id type="erasmus">B LIEGE01</other-id>
-            <name>UNIVERSITE DE LIEGE</name>
+            <name>B LIEGE01</name>
         </hei>
         <hei id="ull.es">
             <other-id type="erasmus">E  TENERIF01</other-id>
@@ -13178,7 +13954,7 @@
             <other-id type="erasmus">E  LAS-PAL01</other-id>
             <other-id type="erasmus">E LAS-PAL01</other-id>
             <other-id type="pic">999929739</other-id>
-            <name>UNIVERSIDAD DE LAS PALMAS DE GRAN CANARIA</name>
+            <name>E LAS-PAL01</name>
             <name xml:lang="en">UNIVERSITY OF LAS PALMAS OF GRAN CANARIA</name>
             <name xml:lang="es">UNIVERSIDAD DE LAS PALMAS DE GRAN CANARIA</name>
         </hei>
@@ -13193,7 +13969,19 @@
         </hei>
         <hei id="umb.sk">
             <other-id type="erasmus">SK BANSKA01</other-id>
-            <name>UNIVERZITA MATEJA BELA V BANSKEJ BYSTRICI</name>
+            <name>SK BANSKA01</name>
+        </hei>
+        <hei id="umed.wroc.pl">
+            <other-id type="erasmus">PL WROCLAW05</other-id>
+            <name>PL WROCLAW05</name>
+        </hei>
+        <hei id="umfiasi.ro">
+            <other-id type="erasmus">RO IASI04</other-id>
+            <name>RO IASI04</name>
+        </hei>
+        <hei id="umh.es">
+            <other-id type="erasmus">E ELCHE01</other-id>
+            <name>E ELCHE01</name>
         </hei>
         <hei id="umons.ac.be">
             <other-id type="erasmus">B  MONS21</other-id>
@@ -13208,13 +13996,21 @@
         <hei id="umontreal.ca">
             <name xml:lang="en">Universit? de Montr?al</name>
         </hei>
+        <hei id="ump.edu.pl">
+            <other-id type="erasmus">PL POZNAN05</other-id>
+            <name>PL POZNAN05</name>
+        </hei>
         <hei id="unak.is">
             <other-id type="eche">29904-EPP-1-2014-1-IS-EPPKA3-ECHE</other-id>
             <other-id type="erasmus">IS AKUREYR01</other-id>
             <other-id type="pic">998776409</other-id>
-            <name>HASKOLINN A AKUREYRI</name>
+            <name>IS AKUREYR01</name>
             <name xml:lang="en">University of Akureyri</name>
             <name xml:lang="is">University of Akureyri</name>
+        </hei>
+        <hei id="unefsb.ro">
+            <other-id type="erasmus">RO BUCURES06</other-id>
+            <name>RO BUCURES06</name>
         </hei>
         <hei id="uni-augsburg.de">
             <other-id type="erasmus">D  AUGSBUR01</other-id>
@@ -13413,10 +14209,16 @@
             <other-id type="pic">999853691</other-id>
             <name xml:lang="en">Westfälische Wilhelms-Universität Münster</name>
         </hei>
+        <hei id="uni-neumann.hu">
+            <other-id type="erasmus">HU KECSKEM03</other-id>
+            <name>HU KECSKEM03</name>
+        </hei>
         <hei id="uni-osnabrueck.de">
             <other-id type="erasmus">D  OSNABRU01</other-id>
+            <other-id type="erasmus">D OSNABRU01</other-id>
             <other-id type="euc">29835</other-id>
             <other-id type="pic">999855049</other-id>
+            <name>D OSNABRU01</name>
             <name xml:lang="en">Universität Osnabrück</name>
         </hei>
         <hei id="uni-passau.de">
@@ -13463,7 +14265,7 @@
         </hei>
         <hei id="uni-svishtov.bg">
             <other-id type="erasmus">BG SVISHTO02</other-id>
-            <name>D. A. Tsenov Academy of Economics</name>
+            <name>BG SVISHTO02</name>
         </hei>
         <hei id="uni-trier.de">
             <other-id type="erasmus">D  TRIER01</other-id>
@@ -13511,6 +14313,10 @@
             <name xml:lang="de">Universität Bern</name>
             <name xml:lang="en">Universität Bern</name>
         </hei>
+        <hei id="unibuc.ro">
+            <other-id type="erasmus">RO BUCURES09</other-id>
+            <name>RO BUCURES09</name>
+        </hei>
         <hei id="unibw.de">
             <other-id type="erasmus">D  MUNCHEN10</other-id>
             <other-id type="euc">29925-IC-1-2007-1-DE-ERASMUS-EUCX-1</other-id>
@@ -13520,7 +14326,11 @@
         </hei>
         <hei id="unicollegessml.it">
             <other-id type="erasmus">I MILANO22</other-id>
-            <name>SSML di Mantova</name>
+            <name>I MILANO22</name>
+        </hei>
+        <hei id="unikoeln-bo.moveon4.de">
+            <other-id type="erasmus">D KOLN01</other-id>
+            <name>D KOLN01</name>
         </hei>
         <hei id="unilasalle.fr">
             <other-id type="erasmus">F  BEAUVAI02</other-id>
@@ -13543,23 +14353,39 @@
         </hei>
         <hei id="unimol.it">
             <other-id type="erasmus">I CAMPOBA01</other-id>
-            <name>UNIVERSITA DEGLI STUDI DEL MOLISE</name>
+            <name>I CAMPOBA01</name>
         </hei>
         <hei id="unimore.it">
             <other-id type="erasmus">I MODENA01</other-id>
-            <name>UNIVERSITA DEGLI STUDI DI MODENA E REGGIO EMILIA</name>
+            <name>I MODENA01</name>
+        </hei>
+        <hei id="unios.hr">
+            <other-id type="erasmus">HR OSIJEK01</other-id>
+            <name>HR OSIJEK01</name>
         </hei>
         <hei id="unipo.sk">
             <other-id type="erasmus">SK PRESOV01</other-id>
-            <name>PRESOVSKA UNIVERZITA V PRESOVE</name>
+            <name>SK PRESOV01</name>
+        </hei>
+        <hei id="unipr.it">
+            <other-id type="erasmus">I PARMA01</other-id>
+            <name>I PARMA01</name>
+        </hei>
+        <hei id="unipu.hr">
+            <other-id type="erasmus">HR PULA01</other-id>
+            <name>HR PULA01</name>
         </hei>
         <hei id="uniri.hr">
             <other-id type="erasmus">HR RIJEKA01</other-id>
-            <name>SVEUCILISTE U RIJECI</name>
+            <name>HR RIJEKA01</name>
         </hei>
         <hei id="unisob.na.it">
             <other-id type="erasmus">I NAPOLI04</other-id>
-            <name>UNIVERSITA DEGLI STUDI SUOR ORSOLA BENINCASA</name>
+            <name>I NAPOLI04</name>
+        </hei>
+        <hei id="unist.hr">
+            <other-id type="erasmus">HR SPLIT01</other-id>
+            <name>HR SPLIT01</name>
         </hei>
         <hei id="unistra.fr">
             <other-id type="erasmus">F  STRASBO48</other-id>
@@ -13567,13 +14393,17 @@
             <other-id type="pic">996569950</other-id>
             <name xml:lang="en">Universit? de Strasbourg</name>
         </hei>
+        <hei id="unistrapg.it">
+            <other-id type="erasmus">I PERUGIA06</other-id>
+            <name>I PERUGIA06</name>
+        </hei>
         <hei id="unitbv.ro">
             <other-id type="erasmus">RO BRASOV01</other-id>
-            <name>UNIVERSITATEA TRANSILVANIA DIN BRASOV</name>
+            <name>RO BRASOV01</name>
         </hei>
         <hei id="unitn.it">
             <other-id type="erasmus">I TRENTO01</other-id>
-            <name>UNIVERSITA DEGLI STUDI DI TRENTO</name>
+            <name>I TRENTO01</name>
         </hei>
         <hei id="univ-amu.fr">
             <other-id type="erasmus">F  MARSEIL84</other-id>
@@ -13595,8 +14425,10 @@
         </hei>
         <hei id="univ-catholille.fr">
             <other-id type="erasmus">F  LILLE11</other-id>
+            <other-id type="erasmus">F LILLE11</other-id>
             <other-id type="euc">28677</other-id>
             <other-id type="pic">949204268</other-id>
+            <name>F LILLE11</name>
             <name xml:lang="en">Universit? Catholique de Lille</name>
         </hei>
         <hei id="univ-fcomte.fr">
@@ -13713,12 +14545,22 @@
             <name xml:lang="en">Université de Tours</name>
             <name xml:lang="fr">Université de Tours</name>
         </hei>
+        <hei id="univaq.it">
+            <other-id type="erasmus">I L-AQUIL01</other-id>
+            <name>I L-AQUIL01</name>
+        </hei>
         <hei id="unive.it">
             <other-id type="erasmus">I VENEZIA01</other-id>
-            <name>UNIVERSITA CA’ FOSCARI VENEZIA</name>
+            <name>I VENEZIA01</name>
         </hei>
         <hei id="universidadeuropea.es">
+            <other-id type="erasmus">E TENERIF21</other-id>
+            <name>E TENERIF21</name>
             <name xml:lang="en">Universidad Europea de Madrid</name>
+        </hei>
+        <hei id="universidadviu.com">
+            <other-id type="erasmus">E VALENCI104</other-id>
+            <name>E VALENCI104</name>
         </hei>
         <hei id="universita.corsica">
             <other-id type="erasmus">F  CORTE01</other-id>
@@ -13739,9 +14581,13 @@
             <name xml:lang="de">Universität Wien</name>
             <name xml:lang="en">Universität Wien</name>
         </hei>
+        <hei id="uniza.sk">
+            <other-id type="erasmus">SK ZILINA01</other-id>
+            <name>SK ZILINA01</name>
+        </hei>
         <hei id="unizd.hr">
             <other-id type="erasmus">HR ZADAR01</other-id>
-            <name>SVEUCILISTE U ZADRU</name>
+            <name>HR ZADAR01</name>
         </hei>
         <hei id="unizg.hr">
             <other-id type="erasmus">HR ZAGREB01</other-id>
@@ -13749,9 +14595,17 @@
             <other-id type="pic">999933231</other-id>
             <name xml:lang="en">Sveučilište u Zagrebu</name>
         </hei>
+        <hei id="uns.ac.rs">
+            <other-id type="erasmus">RS NOVISAD02</other-id>
+            <name>RS NOVISAD02</name>
+        </hei>
         <hei id="unwe.bg">
             <other-id type="erasmus">BG SOFIA03</other-id>
-            <name>UNIVERSITY OF NATIONAL AND WORLD ECONOMY</name>
+            <name>BG SOFIA03</name>
+        </hei>
+        <hei id="uoc.gr">
+            <other-id type="erasmus">G KRITIS01</other-id>
+            <name>G KRITIS01</name>
         </hei>
         <hei id="up.pt">
             <other-id type="erasmus">P PORTO02</other-id>
@@ -13762,13 +14616,17 @@
         </hei>
         <hei id="uph.edu.pl">
             <other-id type="erasmus">PL SIEDLCE01</other-id>
-            <name>UNIWERSYTET PRZYRODNICZO-HUMANISTYCZNY W SIEDLCACH</name>
+            <name>PL SIEDLCE01</name>
         </hei>
         <hei id="uphf.fr">
             <other-id type="erasmus">F  VALENCI01</other-id>
             <other-id type="euc">28032</other-id>
             <other-id type="pic">999884537</other-id>
             <name xml:lang="en">Universit? Polytechnique Hauts-de-France</name>
+        </hei>
+        <hei id="uportu.pt">
+            <other-id type="erasmus">P PORTO07</other-id>
+            <name>P PORTO07</name>
         </hei>
         <hei id="upr.si">
             <other-id type="erasmus">SI KOPER03</other-id>
@@ -13777,20 +14635,25 @@
         </hei>
         <hei id="upt.ro">
             <other-id type="erasmus">RO TIMISOA04</other-id>
-            <name>UNIVERSITATEA POLITEHNICA TIMISOARA</name>
+            <name>RO TIMISOA04</name>
         </hei>
         <hei id="upv.es">
             <other-id type="erasmus">E VALENCI02</other-id>
-            <name>UNIVERSITAT POLITECNICA DE VALENCIA</name>
+            <name>E VALENCI02</name>
+        </hei>
+        <hei id="us.es">
+            <other-id type="erasmus">E SEVILLA01</other-id>
+            <name>E SEVILLA01</name>
         </hei>
         <hei id="usamv.ro">
             <other-id type="erasmus">RO BUCURES12</other-id>
-            <name>UNIVERSITATEA DE STIINTE AGRONOMICE SI MEDICINA VETERINARA DIN BUCURESTI</name>
+            <name>RO BUCURES12</name>
         </hei>
         <hei id="usamvcluj.ro">
             <other-id type="eche">49264-EPP-1-2014-1-RO-EPPKA3-ECHE</other-id>
             <other-id type="erasmus">RO CLUJNAP04</other-id>
             <other-id type="pic">997851514</other-id>
+            <name>RO CLUJNAP04</name>
             <name xml:lang="en">UNIVERSITATEA DE STIINTE AGRICOLE SI MEDICINA VETERINARA CLUJ NAPOCA</name>
             <name xml:lang="ro">UNIVERSITATEA DE STIINTE AGRICOLE SI MEDICINA VETERINARA CLUJ NAPOCA</name>
         </hei>
@@ -13806,7 +14669,7 @@
         </hei>
         <hei id="ut.edu.ee">
             <other-id type="erasmus">EE TARTU02</other-id>
-            <name>TARTU ULIKOOL</name>
+            <name>EE TARTU02</name>
         </hei>
         <hei id="uta.fi">
             <other-id type="erasmus">SF TAMPERE17</other-id>
@@ -13824,15 +14687,27 @@
             <name xml:lang="en">UNIVERSITATEA TEHNICA CLUJ-NAPOCA</name>
             <name xml:lang="ro">UNIVERSITATEA TEHNICA CLUJ-NAPOCA</name>
         </hei>
+        <hei id="utgjiu.ro">
+            <other-id type="erasmus">RO TARGU04</other-id>
+            <name>RO TARGU04</name>
+        </hei>
+        <hei id="utm.ro">
+            <other-id type="erasmus">RO BUCURES16</other-id>
+            <name>RO BUCURES16</name>
+        </hei>
         <hei id="utu.fi">
             <other-id type="erasmus">SF TURKU01</other-id>
-            <name>TURUN YLIOPISTO</name>
+            <name>SF TURKU01</name>
         </hei>
         <hei id="uu.se">
             <other-id type="erasmus">S  UPPSALA01</other-id>
             <other-id type="euc">29350</other-id>
             <other-id type="pic">999985029</other-id>
             <name xml:lang="en">Uppsala universitet</name>
+        </hei>
+        <hei id="uva.nl">
+            <other-id type="erasmus">NL AMSTERD01</other-id>
+            <name>NL AMSTERD01</name>
         </hei>
         <hei id="uvic.cat">
             <other-id type="erasmus">E  VIC01</other-id>
@@ -13842,6 +14717,14 @@
         </hei>
         <hei id="uvsq.fr">
             <name xml:lang="en">Universit? de Versailles Saint-Quentin-en-Yvelines</name>
+        </hei>
+        <hei id="uvt.ro">
+            <other-id type="erasmus">RO TIMISOA01</other-id>
+            <name>RO TIMISOA01</name>
+        </hei>
+        <hei id="uvvg.ro">
+            <other-id type="erasmus">RO ARAD02</other-id>
+            <name>RO ARAD02</name>
         </hei>
         <hei id="uw.edu.pl">
             <other-id type="erasmus">PL WARSZAW01</other-id>
@@ -13866,6 +14749,14 @@
             <other-id type="pic">999589657</other-id>
             <name xml:lang="en">University of the West of Scotland</name>
         </hei>
+        <hei id="valencia.universidadeuropea.es">
+            <other-id type="erasmus">E VALENCI91</other-id>
+            <name>E VALENCI91</name>
+        </hei>
+        <hei id="vda.lt">
+            <other-id type="erasmus">LT VILNIUS03</other-id>
+            <name>LT VILNIUS03</name>
+        </hei>
         <hei id="vetmeduni.ac.at">
             <other-id type="eche">27489-EPP-1-2014-1-AT-EPPKA3-ECHE</other-id>
             <other-id type="erasmus">A  WIEN04</other-id>
@@ -13882,6 +14773,14 @@
             <name xml:lang="en">VID Specialized University</name>
             <name xml:lang="no">VID Specialized University</name>
         </hei>
+        <hei id="vrk.rs.gov.lv">
+            <other-id type="erasmus">LV REZEKNE03</other-id>
+            <name>LV REZEKNE03</name>
+        </hei>
+        <hei id="vsbm.sk">
+            <other-id type="erasmus">SK KOSICE04</other-id>
+            <name>SK KOSICE04</name>
+        </hei>
         <hei id="vscht.cz">
             <other-id type="erasmus">CZ PRAHA01</other-id>
             <other-id type="pic">999867853</other-id>
@@ -13890,23 +14789,43 @@
         </hei>
         <hei id="vse.cz">
             <other-id type="erasmus">CZ PRAHA09</other-id>
-            <name>VYSOKA SKOLA EKONOMICKA V PRAZE</name>
+            <name>CZ PRAHA09</name>
+        </hei>
+        <hei id="vsemvs.sk">
+            <other-id type="erasmus">SK BRATISL13</other-id>
+            <name>SK BRATISL13</name>
+        </hei>
+        <hei id="vsm.sk">
+            <other-id type="erasmus">SK TRENCIN02</other-id>
+            <name>SK TRENCIN02</name>
+        </hei>
+        <hei id="vsmu.sk">
+            <other-id type="erasmus">SK BRATISL05</other-id>
+            <name>SK BRATISL05</name>
         </hei>
         <hei id="vso.cz">
             <other-id type="erasmus">CZ PRAHA12</other-id>
-            <name>Vysoka skola obchodni v Praze, o.p.s.</name>
+            <name>CZ PRAHA12</name>
         </hei>
         <hei id="vsup.cz">
             <other-id type="erasmus">CZ PRAHA05</other-id>
-            <name>Vysoka skola umeleckoprumyslova v Praze</name>
+            <name>CZ PRAHA05</name>
+        </hei>
+        <hei id="vsvu.sk">
+            <other-id type="erasmus">SK BRATISL04</other-id>
+            <name>SK BRATISL04</name>
+        </hei>
+        <hei id="vtdko.lt">
+            <other-id type="erasmus">LT VILNIUS14</other-id>
+            <name>LT VILNIUS14</name>
         </hei>
         <hei id="vu.lt">
             <other-id type="erasmus">LT VILNIUS01</other-id>
-            <name>VILNIAUS UNIVERSITETAS</name>
+            <name>LT VILNIUS01</name>
         </hei>
         <hei id="vu.nl">
             <other-id type="erasmus">NL AMSTERD02</other-id>
-            <name>STICHTING VU</name>
+            <name>NL AMSTERD02</name>
         </hei>
         <hei id="vub.be">
             <other-id type="erasmus">B BRUSSEL01</other-id>
@@ -13919,6 +14838,22 @@
             <other-id type="pic">951107893</other-id>
             <name xml:lang="en">Windesheim University of Applied Sciences</name>
             <name xml:lang="nl">Windesheim University of Applied Sciences</name>
+        </hei>
+        <hei id="wsb.net.pl">
+            <other-id type="erasmus">PL POZNAN25</other-id>
+            <name>PL POZNAN25</name>
+        </hei>
+        <hei id="wsei.lublin.pl">
+            <other-id type="erasmus">PL LUBLIN09</other-id>
+            <name>PL LUBLIN09</name>
+        </hei>
+        <hei id="wseit.edu.pl">
+            <other-id type="erasmus">PL POZNAN24</other-id>
+            <name>PL POZNAN24</name>
+        </hei>
+        <hei id="wwsi.edu.pl">
+            <other-id type="erasmus">PL WARSZAW53</other-id>
+            <name>PL WARSZAW53</name>
         </hei>
         <hei id="www.kth.se">
             <other-id type="erasmus">S  STOCKHO04</other-id>
@@ -13944,11 +14879,12 @@
         <hei id="zsem.hr">
             <other-id type="erasmus">HR ZAGREB06</other-id>
             <other-id type="pic">949539500</other-id>
+            <name>HR ZAGREB06</name>
             <name xml:lang="en">Zagreb School of Economics and Management- ZSEM</name>
         </hei>
         <hei id="zut.edu.pl">
             <other-id type="erasmus">PL SZCZECI02</other-id>
-            <name>ZACHODNIOPOMORSKI UNIWERSYTET TECHNOLOGICZNY W SZCZECINIE</name>
+            <name>PL SZCZECI02</name>
         </hei>
     </institutions>
     <binaries>
