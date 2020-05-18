@@ -156,4 +156,191 @@ H/dXswIDAQAB&#xD;
 </ns3:rsa-public-key>
         </ns3:server-credentials-in-use>
     </ns3:host>
+    <ns3:host>
+        <ns2:apis-implemented>
+            <ns23:iias version="2.1.0">
+                <ns23:http-security>
+                    <ns5:client-auth-methods>
+                        <ns30:httpsig/>
+                        <ns28:tlscert allows-self-signed="true"/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns31:httpsig/>
+                        <ns32:tlscert/>
+                    </ns5:server-auth-methods>
+                </ns23:http-security>
+                <ns23:get-url>https://mobility-online.fh-rosenheim.de/mobility/ewp/iias/get</ns23:get-url>
+                <ns23:max-iia-ids>3</ns23:max-iia-ids>
+                <ns23:max-iia-codes>3</ns23:max-iia-codes>
+                <ns23:index-url>https://mobility-online.fh-rosenheim.de/mobility/ewp/iias/index</ns23:index-url>
+                <ns23:sends-notifications/>
+            </ns23:iias>
+        </ns2:apis-implemented>
+        <ns3:institutions-covered>
+            <ns2:hei id="th-rosenheim.de">
+                <ns2:other-id type="erasmus">D  ROSENHE01</ns2:other-id>
+                <ns2:other-id type="euc">28592-IC-1-2007-1-DE-ERASMUS-EUCX-1</ns2:other-id>
+                <ns2:name xml:lang="de">Technische Hochschule Rosenheim - Technical  University of Applied Sciences</ns2:name>
+                <ns2:name xml:lang="en">Technische Hochschule Rosenheim - Technical  University of Applied Sciences</ns2:name>
+            </ns2:hei>
+        </ns3:institutions-covered>
+        <ns3:client-credentials-in-use>
+            <ns3:certificate>MIIDhjCCAm4CCQCodpdRDvkK2zANBgkqhkiG9w0BAQsFADCBhDELMAkGA1UEBhMCQVQxDzANBgNV&#xD;
+BAgMBlZpZW5uYTEPMA0GA1UEBwwGVmllbm5hMRgwFgYDVQQKDA9Nb2JpbGl0eS1PbmxpbmUxDzAN&#xD;
+BgNVBAsMBk1PIEVXUDEoMCYGA1UEAwwfbW9iaWxpdHktb25saW5lLmZoLXJvc2VuaGVpbS5kZTAe&#xD;
+Fw0xODA2MDUxMzI2MzlaFw0yODA2MDIxMzI2MzlaMIGEMQswCQYDVQQGEwJBVDEPMA0GA1UECAwG&#xD;
+Vmllbm5hMQ8wDQYDVQQHDAZWaWVubmExGDAWBgNVBAoMD01vYmlsaXR5LU9ubGluZTEPMA0GA1UE&#xD;
+CwwGTU8gRVdQMSgwJgYDVQQDDB9tb2JpbGl0eS1vbmxpbmUuZmgtcm9zZW5oZWltLmRlMIIBIjAN&#xD;
+BgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5nRAPL0on2EdGbghwtEoZN1gyGRq4dZ2ObjuaUeE&#xD;
+nZnKocdprTMzWqx1WWcZ1oFkFZxIIUHakWvAWNC66G4uRWlWzjRgpHQEtcPbpjZOJqIAx0Ywf16K&#xD;
+b4I8KdIj1UM4KbUMwXSOj+jKlH0M889cKtja/V14a2xSjetrTu98cw8F5J784HM5H4WnXO8RKgVG&#xD;
+madcQjwQbQxU36GPMBy2T+9d9KEV8b6IHmuOETwoSj87eRtqWky2Yw/dAu1vKL8WCEDf12MsM0R2&#xD;
+uD5ZpPJ2xdoSCiBALDQkmS3PEDzn2RYBZnY4VaD2P6dd8JWZguQQbr/rBD/2T+KF8lx4H/dXswID&#xD;
+AQABMA0GCSqGSIb3DQEBCwUAA4IBAQAm68O+GVeqEfakUoPhmNvqomSlYw1BNLawYts+OnAAQZbt&#xD;
++/gpcDsZxt0KBrpsqxYu7zggn+0+ELmGGySeM55/LcjrqjtzO5U21tkv8ga9qClyZ0NVvI9M1VOh&#xD;
+gAsPKMeHmgkDF1dxucplICbkARl9opg3Lr/w5C72y+EiJqg9r+PjXN5WrgL3+GU64oUck4anEz/q&#xD;
+gQ9RrkEVPiYvfcu7BYgcARBIbcUWNToADccn3nHo2dXFyAjBliOtZDgnlINAe2O+XSPhgje7KOZi&#xD;
+qSohIUF2O6pm+0oLW2KlxMj/i+tvMrHnh8LtBodl08bmxOOIALyQpZzRMcNv/ukWDxNw&#xD;
+</ns3:certificate>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5nRAPL0on2EdGbghwtEoZN1gyGRq4dZ2&#xD;
+ObjuaUeEnZnKocdprTMzWqx1WWcZ1oFkFZxIIUHakWvAWNC66G4uRWlWzjRgpHQEtcPbpjZOJqIA&#xD;
+x0Ywf16Kb4I8KdIj1UM4KbUMwXSOj+jKlH0M889cKtja/V14a2xSjetrTu98cw8F5J784HM5H4Wn&#xD;
+XO8RKgVGmadcQjwQbQxU36GPMBy2T+9d9KEV8b6IHmuOETwoSj87eRtqWky2Yw/dAu1vKL8WCEDf&#xD;
+12MsM0R2uD5ZpPJ2xdoSCiBALDQkmS3PEDzn2RYBZnY4VaD2P6dd8JWZguQQbr/rBD/2T+KF8lx4&#xD;
+H/dXswIDAQAB&#xD;
+</ns3:rsa-public-key>
+        </ns3:client-credentials-in-use>
+        <ns3:server-credentials-in-use>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5nRAPL0on2EdGbghwtEoZN1gyGRq4dZ2&#xD;
+ObjuaUeEnZnKocdprTMzWqx1WWcZ1oFkFZxIIUHakWvAWNC66G4uRWlWzjRgpHQEtcPbpjZOJqIA&#xD;
+x0Ywf16Kb4I8KdIj1UM4KbUMwXSOj+jKlH0M889cKtja/V14a2xSjetrTu98cw8F5J784HM5H4Wn&#xD;
+XO8RKgVGmadcQjwQbQxU36GPMBy2T+9d9KEV8b6IHmuOETwoSj87eRtqWky2Yw/dAu1vKL8WCEDf&#xD;
+12MsM0R2uD5ZpPJ2xdoSCiBALDQkmS3PEDzn2RYBZnY4VaD2P6dd8JWZguQQbr/rBD/2T+KF8lx4&#xD;
+H/dXswIDAQAB&#xD;
+</ns3:rsa-public-key>
+        </ns3:server-credentials-in-use>
+    </ns3:host>
+    <ns3:host>
+        <ns2:apis-implemented>
+            <ns22:iia-cnr version="2.0.2">
+                <ns22:http-security>
+                    <ns5:client-auth-methods>
+                        <ns30:httpsig/>
+                        <ns28:tlscert allows-self-signed="true"/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns31:httpsig/>
+                        <ns32:tlscert/>
+                    </ns5:server-auth-methods>
+                </ns22:http-security>
+                <ns22:url>https://mobility-online.fh-rosenheim.de/mobility/ewp/iias/cnr</ns22:url>
+            </ns22:iia-cnr>
+        </ns2:apis-implemented>
+        <ns3:institutions-covered>
+            <ns2:hei id="th-rosenheim.de">
+                <ns2:other-id type="erasmus">D  ROSENHE01</ns2:other-id>
+                <ns2:other-id type="euc">28592-IC-1-2007-1-DE-ERASMUS-EUCX-1</ns2:other-id>
+                <ns2:name xml:lang="de">Technische Hochschule Rosenheim - Technical  University of Applied Sciences</ns2:name>
+                <ns2:name xml:lang="en">Technische Hochschule Rosenheim - Technical  University of Applied Sciences</ns2:name>
+            </ns2:hei>
+        </ns3:institutions-covered>
+        <ns3:client-credentials-in-use>
+            <ns3:certificate>MIIDhjCCAm4CCQCodpdRDvkK2zANBgkqhkiG9w0BAQsFADCBhDELMAkGA1UEBhMCQVQxDzANBgNV&#xD;
+BAgMBlZpZW5uYTEPMA0GA1UEBwwGVmllbm5hMRgwFgYDVQQKDA9Nb2JpbGl0eS1PbmxpbmUxDzAN&#xD;
+BgNVBAsMBk1PIEVXUDEoMCYGA1UEAwwfbW9iaWxpdHktb25saW5lLmZoLXJvc2VuaGVpbS5kZTAe&#xD;
+Fw0xODA2MDUxMzI2MzlaFw0yODA2MDIxMzI2MzlaMIGEMQswCQYDVQQGEwJBVDEPMA0GA1UECAwG&#xD;
+Vmllbm5hMQ8wDQYDVQQHDAZWaWVubmExGDAWBgNVBAoMD01vYmlsaXR5LU9ubGluZTEPMA0GA1UE&#xD;
+CwwGTU8gRVdQMSgwJgYDVQQDDB9tb2JpbGl0eS1vbmxpbmUuZmgtcm9zZW5oZWltLmRlMIIBIjAN&#xD;
+BgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5nRAPL0on2EdGbghwtEoZN1gyGRq4dZ2ObjuaUeE&#xD;
+nZnKocdprTMzWqx1WWcZ1oFkFZxIIUHakWvAWNC66G4uRWlWzjRgpHQEtcPbpjZOJqIAx0Ywf16K&#xD;
+b4I8KdIj1UM4KbUMwXSOj+jKlH0M889cKtja/V14a2xSjetrTu98cw8F5J784HM5H4WnXO8RKgVG&#xD;
+madcQjwQbQxU36GPMBy2T+9d9KEV8b6IHmuOETwoSj87eRtqWky2Yw/dAu1vKL8WCEDf12MsM0R2&#xD;
+uD5ZpPJ2xdoSCiBALDQkmS3PEDzn2RYBZnY4VaD2P6dd8JWZguQQbr/rBD/2T+KF8lx4H/dXswID&#xD;
+AQABMA0GCSqGSIb3DQEBCwUAA4IBAQAm68O+GVeqEfakUoPhmNvqomSlYw1BNLawYts+OnAAQZbt&#xD;
++/gpcDsZxt0KBrpsqxYu7zggn+0+ELmGGySeM55/LcjrqjtzO5U21tkv8ga9qClyZ0NVvI9M1VOh&#xD;
+gAsPKMeHmgkDF1dxucplICbkARl9opg3Lr/w5C72y+EiJqg9r+PjXN5WrgL3+GU64oUck4anEz/q&#xD;
+gQ9RrkEVPiYvfcu7BYgcARBIbcUWNToADccn3nHo2dXFyAjBliOtZDgnlINAe2O+XSPhgje7KOZi&#xD;
+qSohIUF2O6pm+0oLW2KlxMj/i+tvMrHnh8LtBodl08bmxOOIALyQpZzRMcNv/ukWDxNw&#xD;
+</ns3:certificate>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5nRAPL0on2EdGbghwtEoZN1gyGRq4dZ2&#xD;
+ObjuaUeEnZnKocdprTMzWqx1WWcZ1oFkFZxIIUHakWvAWNC66G4uRWlWzjRgpHQEtcPbpjZOJqIA&#xD;
+x0Ywf16Kb4I8KdIj1UM4KbUMwXSOj+jKlH0M889cKtja/V14a2xSjetrTu98cw8F5J784HM5H4Wn&#xD;
+XO8RKgVGmadcQjwQbQxU36GPMBy2T+9d9KEV8b6IHmuOETwoSj87eRtqWky2Yw/dAu1vKL8WCEDf&#xD;
+12MsM0R2uD5ZpPJ2xdoSCiBALDQkmS3PEDzn2RYBZnY4VaD2P6dd8JWZguQQbr/rBD/2T+KF8lx4&#xD;
+H/dXswIDAQAB&#xD;
+</ns3:rsa-public-key>
+        </ns3:client-credentials-in-use>
+        <ns3:server-credentials-in-use>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5nRAPL0on2EdGbghwtEoZN1gyGRq4dZ2&#xD;
+ObjuaUeEnZnKocdprTMzWqx1WWcZ1oFkFZxIIUHakWvAWNC66G4uRWlWzjRgpHQEtcPbpjZOJqIA&#xD;
+x0Ywf16Kb4I8KdIj1UM4KbUMwXSOj+jKlH0M889cKtja/V14a2xSjetrTu98cw8F5J784HM5H4Wn&#xD;
+XO8RKgVGmadcQjwQbQxU36GPMBy2T+9d9KEV8b6IHmuOETwoSj87eRtqWky2Yw/dAu1vKL8WCEDf&#xD;
+12MsM0R2uD5ZpPJ2xdoSCiBALDQkmS3PEDzn2RYBZnY4VaD2P6dd8JWZguQQbr/rBD/2T+KF8lx4&#xD;
+H/dXswIDAQAB&#xD;
+</ns3:rsa-public-key>
+        </ns3:server-credentials-in-use>
+    </ns3:host>
+    <ns3:host>
+        <ns2:apis-implemented>
+            <ns17:omobilities version="0.15.0">
+                <ns17:http-security>
+                    <ns5:client-auth-methods>
+                        <ns30:httpsig/>
+                        <ns28:tlscert allows-self-signed="true"/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns31:httpsig/>
+                        <ns32:tlscert/>
+                    </ns5:server-auth-methods>
+                </ns17:http-security>
+                <ns17:get-url>https://mobility-online.fh-rosenheim.de/mobility/ewp/mobility_out/get</ns17:get-url>
+                <ns17:index-url>https://mobility-online.fh-rosenheim.de/mobility/ewp/mobility_out/index</ns17:index-url>
+                <ns17:max-omobility-ids>1</ns17:max-omobility-ids>
+                <ns17:sends-notifications/>
+            </ns17:omobilities>
+        </ns2:apis-implemented>
+        <ns3:institutions-covered>
+            <ns2:hei id="th-rosenheim.de">
+                <ns2:other-id type="erasmus">D  ROSENHE01</ns2:other-id>
+                <ns2:other-id type="euc">28592-IC-1-2007-1-DE-ERASMUS-EUCX-1</ns2:other-id>
+                <ns2:name xml:lang="de">Technische Hochschule Rosenheim - Technical  University of Applied Sciences</ns2:name>
+                <ns2:name xml:lang="en">Technische Hochschule Rosenheim - Technical  University of Applied Sciences</ns2:name>
+            </ns2:hei>
+        </ns3:institutions-covered>
+        <ns3:client-credentials-in-use>
+            <ns3:certificate>MIIDhjCCAm4CCQCodpdRDvkK2zANBgkqhkiG9w0BAQsFADCBhDELMAkGA1UEBhMCQVQxDzANBgNV&#xD;
+BAgMBlZpZW5uYTEPMA0GA1UEBwwGVmllbm5hMRgwFgYDVQQKDA9Nb2JpbGl0eS1PbmxpbmUxDzAN&#xD;
+BgNVBAsMBk1PIEVXUDEoMCYGA1UEAwwfbW9iaWxpdHktb25saW5lLmZoLXJvc2VuaGVpbS5kZTAe&#xD;
+Fw0xODA2MDUxMzI2MzlaFw0yODA2MDIxMzI2MzlaMIGEMQswCQYDVQQGEwJBVDEPMA0GA1UECAwG&#xD;
+Vmllbm5hMQ8wDQYDVQQHDAZWaWVubmExGDAWBgNVBAoMD01vYmlsaXR5LU9ubGluZTEPMA0GA1UE&#xD;
+CwwGTU8gRVdQMSgwJgYDVQQDDB9tb2JpbGl0eS1vbmxpbmUuZmgtcm9zZW5oZWltLmRlMIIBIjAN&#xD;
+BgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5nRAPL0on2EdGbghwtEoZN1gyGRq4dZ2ObjuaUeE&#xD;
+nZnKocdprTMzWqx1WWcZ1oFkFZxIIUHakWvAWNC66G4uRWlWzjRgpHQEtcPbpjZOJqIAx0Ywf16K&#xD;
+b4I8KdIj1UM4KbUMwXSOj+jKlH0M889cKtja/V14a2xSjetrTu98cw8F5J784HM5H4WnXO8RKgVG&#xD;
+madcQjwQbQxU36GPMBy2T+9d9KEV8b6IHmuOETwoSj87eRtqWky2Yw/dAu1vKL8WCEDf12MsM0R2&#xD;
+uD5ZpPJ2xdoSCiBALDQkmS3PEDzn2RYBZnY4VaD2P6dd8JWZguQQbr/rBD/2T+KF8lx4H/dXswID&#xD;
+AQABMA0GCSqGSIb3DQEBCwUAA4IBAQAm68O+GVeqEfakUoPhmNvqomSlYw1BNLawYts+OnAAQZbt&#xD;
++/gpcDsZxt0KBrpsqxYu7zggn+0+ELmGGySeM55/LcjrqjtzO5U21tkv8ga9qClyZ0NVvI9M1VOh&#xD;
+gAsPKMeHmgkDF1dxucplICbkARl9opg3Lr/w5C72y+EiJqg9r+PjXN5WrgL3+GU64oUck4anEz/q&#xD;
+gQ9RrkEVPiYvfcu7BYgcARBIbcUWNToADccn3nHo2dXFyAjBliOtZDgnlINAe2O+XSPhgje7KOZi&#xD;
+qSohIUF2O6pm+0oLW2KlxMj/i+tvMrHnh8LtBodl08bmxOOIALyQpZzRMcNv/ukWDxNw&#xD;
+</ns3:certificate>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5nRAPL0on2EdGbghwtEoZN1gyGRq4dZ2&#xD;
+ObjuaUeEnZnKocdprTMzWqx1WWcZ1oFkFZxIIUHakWvAWNC66G4uRWlWzjRgpHQEtcPbpjZOJqIA&#xD;
+x0Ywf16Kb4I8KdIj1UM4KbUMwXSOj+jKlH0M889cKtja/V14a2xSjetrTu98cw8F5J784HM5H4Wn&#xD;
+XO8RKgVGmadcQjwQbQxU36GPMBy2T+9d9KEV8b6IHmuOETwoSj87eRtqWky2Yw/dAu1vKL8WCEDf&#xD;
+12MsM0R2uD5ZpPJ2xdoSCiBALDQkmS3PEDzn2RYBZnY4VaD2P6dd8JWZguQQbr/rBD/2T+KF8lx4&#xD;
+H/dXswIDAQAB&#xD;
+</ns3:rsa-public-key>
+        </ns3:client-credentials-in-use>
+        <ns3:server-credentials-in-use>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5nRAPL0on2EdGbghwtEoZN1gyGRq4dZ2&#xD;
+ObjuaUeEnZnKocdprTMzWqx1WWcZ1oFkFZxIIUHakWvAWNC66G4uRWlWzjRgpHQEtcPbpjZOJqIA&#xD;
+x0Ywf16Kb4I8KdIj1UM4KbUMwXSOj+jKlH0M889cKtja/V14a2xSjetrTu98cw8F5J784HM5H4Wn&#xD;
+XO8RKgVGmadcQjwQbQxU36GPMBy2T+9d9KEV8b6IHmuOETwoSj87eRtqWky2Yw/dAu1vKL8WCEDf&#xD;
+12MsM0R2uD5ZpPJ2xdoSCiBALDQkmS3PEDzn2RYBZnY4VaD2P6dd8JWZguQQbr/rBD/2T+KF8lx4&#xD;
+H/dXswIDAQAB&#xD;
+</ns3:rsa-public-key>
+        </ns3:server-credentials-in-use>
+    </ns3:host>
 </ns3:manifest>
