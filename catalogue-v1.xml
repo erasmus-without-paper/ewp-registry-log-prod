@@ -1730,6 +1730,37 @@
     </host>
     <host>
         <apis-implemented>
+            <f1:factsheet
+                xmlns:f1="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
+                version="0.1.0"
+            >
+                <f1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </f1:http-security>
+                <f1:url>https://www.service4mobility.com/fau/ewp/factsheets</f1:url>
+                <f1:max-hei-ids>3</f1:max-hei-ids>
+            </f1:factsheet>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>fau.de</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="b6f0f4a91dccbdff94f3889d227c02ad49faf66b9f2c3194fbae9b67c7f81e2b"/>
+            <rsa-public-key sha-256="49554338fd305ec16063df917c0fe3bea1bb012a71685648f2f9bcd8c5f9a91a"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="49554338fd305ec16063df917c0fe3bea1bb012a71685648f2f9bcd8c5f9a91a"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
             <d5:discovery version="5.0.0">
                 <d5:url>https://www.service4mobility.com/mannheim/ewp/manifest?api=all</d5:url>
             </d5:discovery>
