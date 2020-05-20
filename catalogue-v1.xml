@@ -4065,6 +4065,38 @@
     </host>
     <host>
         <apis-implemented>
+            <im1:imobilities
+                xmlns:im1="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v1/manifest-entry.xsd"
+                version="0.3.0"
+            >
+                <im1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </im1:http-security>
+                <im1:get-url>https://www.th-koeln.de/mobility/ewp/mobility_in/get</im1:get-url>
+                <im1:max-omobility-ids>1</im1:max-omobility-ids>
+                <im1:sends-notifications/>
+            </im1:imobilities>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>th-koeln.de</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="df61aa16ddabebc9c5e845477b15e9e4f800f543a905a9136851334dad0e5eed"/>
+            <rsa-public-key sha-256="f74f7afe47adb8794d8bf2b75e6883b93549c41605214a529a3abdadd4468019"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="f74f7afe47adb8794d8bf2b75e6883b93549c41605214a529a3abdadd4468019"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
             <d5:discovery version="5.0.0">
                 <d5:url>https://mobility.ec-lyon.fr/mobility/ewp/manifest?api=all</d5:url>
             </d5:discovery>
