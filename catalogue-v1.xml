@@ -5125,7 +5125,7 @@
     </host>
     <host>
         <apis-implemented>
-            <ia2:iias version="2.1.0">
+            <ia2:iias version="2.2.0">
                 <ia2:http-security>
                     <sec:client-auth-methods>
                         <sec-A2:httpsig/>
@@ -5169,6 +5169,38 @@
                 </iac2:http-security>
                 <iac2:url>https://mobility.int.uzh.ch/mobility/ewp/iias/cnr</iac2:url>
             </iac2:iia-cnr>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>int.uzh.ch</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="e456d3a78efd43babadcdfa37b6886f0485a8aa513cc6629a5e35ee2d0927634"/>
+            <rsa-public-key sha-256="4aec4d7e3591724383e8b7c39202cbb6c36f9a2570583f6a39aa8c001fd3592f"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="4aec4d7e3591724383e8b7c39202cbb6c36f9a2570583f6a39aa8c001fd3592f"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <iaa1:iias-approval
+                xmlns:iaa1="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
+                version="0.1.0"
+            >
+                <iaa1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </iaa1:http-security>
+                <iaa1:url>https://mobility.int.uzh.ch/mobility/ewp/iias/approve</iaa1:url>
+                <iaa1:max-iia-ids>3</iaa1:max-iia-ids>
+                <iaa1:sends-notifications/>
+            </iaa1:iias-approval>
         </apis-implemented>
         <institutions-covered>
             <hei-id>int.uzh.ch</hei-id>
@@ -5234,6 +5266,37 @@
                 <im1:max-omobility-ids>1</im1:max-omobility-ids>
                 <im1:sends-notifications/>
             </im1:imobilities>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>int.uzh.ch</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="e456d3a78efd43babadcdfa37b6886f0485a8aa513cc6629a5e35ee2d0927634"/>
+            <rsa-public-key sha-256="4aec4d7e3591724383e8b7c39202cbb6c36f9a2570583f6a39aa8c001fd3592f"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="4aec4d7e3591724383e8b7c39202cbb6c36f9a2570583f6a39aa8c001fd3592f"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <f1:factsheet
+                xmlns:f1="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
+                version="0.1.0"
+            >
+                <f1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </f1:http-security>
+                <f1:url>https://mobility.int.uzh.ch/mobility/ewp/factsheets</f1:url>
+                <f1:max-hei-ids>3</f1:max-hei-ids>
+            </f1:factsheet>
         </apis-implemented>
         <institutions-covered>
             <hei-id>int.uzh.ch</hei-id>
