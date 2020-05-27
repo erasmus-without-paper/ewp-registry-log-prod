@@ -2833,6 +2833,35 @@
     </host>
     <host>
         <apis-implemented>
+            <ou2:organizational-units version="2.1.0">
+                <ou2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </ou2:http-security>
+                <ou2:url>https://mobility-online.unibe.ch/mobility/ewp/ounits</ou2:url>
+                <ou2:max-ounit-ids>3</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>3</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>unibe.ch</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="8debdf79cecd8412f7c6617a3501510de906d7f025c2203ca02a9723ed60390d"/>
+            <rsa-public-key sha-256="30e0ea7f8d98f4417bf70872df03eb79a4c95b208d93dc258520191b80c75a5f"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="30e0ea7f8d98f4417bf70872df03eb79a4c95b208d93dc258520191b80c75a5f"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
             <f1:factsheet
                 xmlns:f1="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
                 version="0.1.0"
