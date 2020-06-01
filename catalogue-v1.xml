@@ -3104,6 +3104,37 @@
     </host>
     <host>
         <apis-implemented>
+            <f1:factsheet
+                xmlns:f1="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
+                version="0.1.0"
+            >
+                <f1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </f1:http-security>
+                <f1:url>https://www.uni-hildesheim.de/mobilityonline/ewp/factsheets</f1:url>
+                <f1:max-hei-ids>3</f1:max-hei-ids>
+            </f1:factsheet>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>uni-hildesheim.de</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="eba58b8dbd583f18f3e27de80986de42d0d829ba934a7a962215514d52467936"/>
+            <rsa-public-key sha-256="f40a5866a18e09dbc56ee5307b9b2c756dc4f2f802d52b007412893dcdd3ca23"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="f40a5866a18e09dbc56ee5307b9b2c756dc4f2f802d52b007412893dcdd3ca23"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
             <d5:discovery version="5.0.0">
                 <d5:url>https://mobility.uni-erfurt.de/mobility/ewp/manifest?api=all</d5:url>
             </d5:discovery>
