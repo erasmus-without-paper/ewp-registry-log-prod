@@ -3580,7 +3580,7 @@
     </host>
     <host>
         <apis-implemented>
-            <ia2:iias version="2.1.0">
+            <ia2:iias version="2.2.0">
                 <ia2:http-security>
                     <sec:client-auth-methods>
                         <sec-A2:httpsig/>
@@ -3638,6 +3638,38 @@
     </host>
     <host>
         <apis-implemented>
+            <iaa1:iias-approval
+                xmlns:iaa1="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
+                version="0.1.0"
+            >
+                <iaa1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </iaa1:http-security>
+                <iaa1:url>https://mobility-online.fh-rosenheim.de/mobility/ewp/iias/approve</iaa1:url>
+                <iaa1:max-iia-ids>3</iaa1:max-iia-ids>
+                <iaa1:sends-notifications/>
+            </iaa1:iias-approval>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>th-rosenheim.de</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="9e979a37815ddc63e7793c153fb4df0685eb52df1459738d0b6b569236b60859"/>
+            <rsa-public-key sha-256="68e9d17f53607d644c63316b10ea38334a3ef412387e53db57ee5c22e92ede0c"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="68e9d17f53607d644c63316b10ea38334a3ef412387e53db57ee5c22e92ede0c"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
             <om1:omobilities
                 xmlns:om1="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd"
                 version="0.15.0"
@@ -3657,6 +3689,37 @@
                 <om1:max-omobility-ids>1</om1:max-omobility-ids>
                 <om1:sends-notifications/>
             </om1:omobilities>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>th-rosenheim.de</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="9e979a37815ddc63e7793c153fb4df0685eb52df1459738d0b6b569236b60859"/>
+            <rsa-public-key sha-256="68e9d17f53607d644c63316b10ea38334a3ef412387e53db57ee5c22e92ede0c"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="68e9d17f53607d644c63316b10ea38334a3ef412387e53db57ee5c22e92ede0c"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <f1:factsheet
+                xmlns:f1="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
+                version="0.1.0"
+            >
+                <f1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </f1:http-security>
+                <f1:url>https://mobility-online.fh-rosenheim.de/mobility/ewp/factsheets</f1:url>
+                <f1:max-hei-ids>3</f1:max-hei-ids>
+            </f1:factsheet>
         </apis-implemented>
         <institutions-covered>
             <hei-id>th-rosenheim.de</hei-id>
