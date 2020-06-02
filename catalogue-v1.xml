@@ -7015,6 +7015,37 @@
     </host>
     <host>
         <apis-implemented>
+            <f1:factsheet
+                xmlns:f1="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
+                version="0.1.0"
+            >
+                <f1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </f1:http-security>
+                <f1:url>https://mobility.unilasalle.fr/mobility/ewp/factsheets</f1:url>
+                <f1:max-hei-ids>3</f1:max-hei-ids>
+            </f1:factsheet>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>unilasalle.fr</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="99ef37d8edd0f5962e3368bcb4bcb817e3d5a0e9d9d79545499e2804327f0609"/>
+            <rsa-public-key sha-256="b6ef9808b999d46b24a47737451012987b9edb40562e963d204111fa9f7eacf1"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="b6ef9808b999d46b24a47737451012987b9edb40562e963d204111fa9f7eacf1"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
             <d5:discovery version="5.0.0">
                 <d5:url>https://www.service4mobility.com/mobility_connect/ewp/manifest?api=all</d5:url>
             </d5:discovery>
