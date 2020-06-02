@@ -6293,7 +6293,7 @@
     </host>
     <host>
         <apis-implemented>
-            <ia2:iias version="2.1.0">
+            <ia2:iias version="2.2.0">
                 <ia2:http-security>
                     <sec:client-auth-methods>
                         <sec-A2:httpsig/>
@@ -6337,6 +6337,69 @@
                 </iac2:http-security>
                 <iac2:url>https://mobility-online.fhstp.ac.at/mobility/ewp/iias/cnr</iac2:url>
             </iac2:iia-cnr>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>fhstp.ac.at</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="0b16757af633f4e04497d1b0cba6c76c287516a3a5729c5c5f976c83ece1221b"/>
+            <rsa-public-key sha-256="7d2b6c5d43f6cc5b1edea18325352a121cbeca3f4b8db98190cc05a628edb5fe"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="7d2b6c5d43f6cc5b1edea18325352a121cbeca3f4b8db98190cc05a628edb5fe"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <iaa1:iias-approval
+                xmlns:iaa1="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
+                version="0.1.0"
+            >
+                <iaa1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </iaa1:http-security>
+                <iaa1:url>https://mobility-online.fhstp.ac.at/mobility/ewp/iias/approve</iaa1:url>
+                <iaa1:max-iia-ids>3</iaa1:max-iia-ids>
+                <iaa1:sends-notifications/>
+            </iaa1:iias-approval>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>fhstp.ac.at</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="0b16757af633f4e04497d1b0cba6c76c287516a3a5729c5c5f976c83ece1221b"/>
+            <rsa-public-key sha-256="7d2b6c5d43f6cc5b1edea18325352a121cbeca3f4b8db98190cc05a628edb5fe"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="7d2b6c5d43f6cc5b1edea18325352a121cbeca3f4b8db98190cc05a628edb5fe"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <f1:factsheet
+                xmlns:f1="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
+                version="0.1.0"
+            >
+                <f1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </f1:http-security>
+                <f1:url>https://mobility-online.fhstp.ac.at/mobility/ewp/factsheets</f1:url>
+                <f1:max-hei-ids>3</f1:max-hei-ids>
+            </f1:factsheet>
         </apis-implemented>
         <institutions-covered>
             <hei-id>fhstp.ac.at</hei-id>
