@@ -6329,6 +6329,37 @@
     </host>
     <host>
         <apis-implemented>
+            <f1:factsheet
+                xmlns:f1="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
+                version="0.1.0"
+            >
+                <f1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </f1:http-security>
+                <f1:url>https://mobility.hslu.ch/mobility/ewp/factsheets</f1:url>
+                <f1:max-hei-ids>3</f1:max-hei-ids>
+            </f1:factsheet>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>hslu.ch</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="c308051a1923a41d5413d2cf526c0d285009b1f522857b361b46d136ee8967b7"/>
+            <rsa-public-key sha-256="22d0ef3bae0bfa8f5efb61e3c6d6348b1926fde691c0dc54b45207e978cc557b"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="22d0ef3bae0bfa8f5efb61e3c6d6348b1926fde691c0dc54b45207e978cc557b"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
             <d5:discovery version="5.0.0">
                 <d5:url>https://mobility-online.fhstp.ac.at/mobility/ewp/manifest?api=all</d5:url>
             </d5:discovery>
