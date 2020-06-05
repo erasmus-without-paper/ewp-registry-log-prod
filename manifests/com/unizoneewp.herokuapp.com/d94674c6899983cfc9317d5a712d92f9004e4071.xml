@@ -2378,6 +2378,1380 @@
     <ewp:admin-email>daiga.kuzmane@uni-foundation.eu</ewp:admin-email>
     <ewp:admin-notes>Manifest File for general endpoints Erasmus Dashboard.</ewp:admin-notes>
     <r:apis-implemented>
+      <iias xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v2/manifest-entry.xsd" version="2.2.2">
+        <http-security>
+          <sec:client-auth-methods>
+            <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"></httpsig>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"></httpsig>
+          </sec:server-auth-methods>
+        </http-security>
+        <get-url>https://unizoneewp.herokuapp.com/rest/iias/getv2</get-url>
+        <max-iia-ids>3</max-iia-ids>
+        <max-iia-codes>3</max-iia-codes>
+        <index-url>https://unizoneewp.herokuapp.com/rest/iias/indexv2</index-url>
+      </iias>
+    </r:apis-implemented>
+    <institutions-covered>
+      <r:hei id="fh-burgenland.at">
+        <r:other-id type="erasmus">A EISENST02</r:other-id>
+        <r:name>FACHHOCHSCHULE BURGENLAND GMBH</r:name>
+      </r:hei>
+      <r:hei id="ac.at">
+        <r:other-id type="erasmus">A KREMS05</r:other-id>
+        <r:name>UNIVERSITAET FUER WEITERBILDUNG KREMS</r:name>
+      </r:hei>
+      <r:hei id="ufg.at">
+        <r:other-id type="erasmus">A LINZ02</r:other-id>
+        <r:name>UNIVERSITAET FUER KUENSTLERISCHE UND INDUSTRIELLE GESTALTUNG</r:name>
+      </r:hei>
+      <r:hei id="fhgooe.ac.at">
+        <r:other-id type="erasmus">A LINZ23</r:other-id>
+        <r:name>FH Gesundheitsberufe OÖ GmbH</r:name>
+      </r:hei>
+      <r:hei id="fh-kaernten.at">
+        <r:other-id type="erasmus">A SPITTAL01</r:other-id>
+        <r:name>Fachhochschule Kärnten - gemeinnützige Privatstiftung</r:name>
+      </r:hei>
+      <r:hei id="ndu.ac.at">
+        <r:other-id type="erasmus">A ST-POLT10</r:other-id>
+        <r:name>New Design University</r:name>
+      </r:hei>
+      <r:hei id="muk.ac.at">
+        <r:other-id type="erasmus">A WIEN52</r:other-id>
+        <r:name>Musik und Kunst Privatuniversität der Stadt Wien GmbH</r:name>
+      </r:hei>
+      <r:hei id="webster.ac.at">
+        <r:other-id type="erasmus">A WIEN75</r:other-id>
+        <r:name>Bildungsverein für die Freunde der Webster University</r:name>
+      </r:hei>
+      <r:hei id="usaintlouis.be">
+        <r:other-id type="erasmus">B BRUXEL02</r:other-id>
+        <r:name>UNIVERSITE SAINT-LOUIS-BRUXELLES ASBL</r:name>
+      </r:hei>
+      <r:hei id="conservatoire.be">
+        <r:other-id type="erasmus">B BRUXEL07</r:other-id>
+        <r:name>Conservatoire royal de Bruxelles</r:name>
+      </r:hei>
+      <r:hei id="lacambre.be">
+        <r:other-id type="erasmus">B BRUXEL15</r:other-id>
+        <r:name>Ecole nationale supérieure des arts visuels de La Cambre</r:name>
+      </r:hei>
+      <r:hei id="heldb.be">
+        <r:other-id type="erasmus">B BRUXEL88</r:other-id>
+        <r:name>Haute Ecole Lucia de Brouckère</r:name>
+      </r:hei>
+      <r:hei id="uliege.be">
+        <r:other-id type="erasmus">B LIEGE01</r:other-id>
+        <r:name>UNIVERSITE DE LIEGE</r:name>
+      </r:hei>
+      <r:hei id="helmo.be">
+        <r:other-id type="erasmus">B LIEGE37</r:other-id>
+        <r:name>Haute Ecole Libre Mosane</r:name>
+      </r:hei>
+      <r:hei id="provincedeliege.be">
+        <r:other-id type="erasmus">B LIEGE38</r:other-id>
+        <r:name>Haute école de la province de Liège</r:name>
+      </r:hei>
+      <r:hei id="helha.be">
+        <r:other-id type="erasmus">B MONS22</r:other-id>
+        <r:name>HELHA</r:name>
+      </r:hei>
+      <r:hei id="heaj.be">
+        <r:other-id type="erasmus">B NAMUR11</r:other-id>
+        <r:name>Haute Ecole de la Communauté française Albert Jacquard</r:name>
+      </r:hei>
+      <r:hei id="swu.bg">
+        <r:other-id type="erasmus">BG BLAGOEV02</r:other-id>
+        <r:name>SOUTH-WEST UNIVERSITY NEOFIT RILSKI</r:name>
+      </r:hei>
+      <r:hei id="bfu.bg">
+        <r:other-id type="erasmus">BG BOURGAS01</r:other-id>
+        <r:name>BURGASKI SVOBODEN UNIVERSITET</r:name>
+      </r:hei>
+      <r:hei id="au-plovdiv.bg">
+        <r:other-id type="erasmus">BG PLOVDIV01</r:other-id>
+        <r:name>AGRAREN UNIVERSITET - PLOVDIV</r:name>
+      </r:hei>
+      <r:hei id="uni-ruse.bg">
+        <r:other-id type="erasmus">BG ROUSSE01</r:other-id>
+        <r:name>UNIVERSITY OF RUSE ANGEL KANCHEV</r:name>
+      </r:hei>
+      <r:hei id="unwe.bg">
+        <r:other-id type="erasmus">BG SOFIA03</r:other-id>
+        <r:name>UNIVERSITY OF NATIONAL AND WORLD ECONOMY</r:name>
+      </r:hei>
+      <r:hei id="uacg.bg">
+        <r:other-id type="erasmus">BG SOFIA04</r:other-id>
+        <r:name>UNIVERSITET PO ARCHITEKTURA STROITELSTVO I GEODEZIJA</r:name>
+      </r:hei>
+      <r:hei id="uni-sofia.bg">
+        <r:other-id type="erasmus">BG SOFIA06</r:other-id>
+        <r:name>SOFIISKI UNIVERSITET SVETI KLIMENT OHRIDSKI</r:name>
+      </r:hei>
+      <r:hei id="uni-svishtov.bg">
+        <r:other-id type="erasmus">BG SVISHTO02</r:other-id>
+        <r:name>D. A. Tsenov Academy of Economics</r:name>
+      </r:hei>
+      <r:hei id="cut.ac.cy">
+        <r:other-id type="erasmus">CY LIMASSO02</r:other-id>
+        <r:name>TECHNOLOGIKO PANEPISTIMIO KYPROU</r:name>
+      </r:hei>
+      <r:hei id="ucy.ac.cy">
+        <r:other-id type="erasmus">CY NICOSIA01</r:other-id>
+        <r:name>UNIVERSITY OF CYPRUS</r:name>
+      </r:hei>
+      <r:hei id="mendelu.cz">
+        <r:other-id type="erasmus">CZ BRNO02</r:other-id>
+        <r:name>MENDELOVA UNIVERZITA V BRNE</r:name>
+      </r:hei>
+      <r:hei id="uhk.cz">
+        <r:other-id type="erasmus">CZ HRADEC01</r:other-id>
+        <r:name>UNIVERZITA HRADEC KRALOVE</r:name>
+      </r:hei>
+      <r:hei id="mvso.cz">
+        <r:other-id type="erasmus">CZ OLOMOUC03</r:other-id>
+        <r:name>MORAVSKA VYSOKA SKOLA OLOMOUC O.P.S</r:name>
+      </r:hei>
+      <r:hei id="amu.cz">
+        <r:other-id type="erasmus">CZ PRAHA04</r:other-id>
+        <r:name>AKADEMIE MUZICKYCH UMENI V PRAZE</r:name>
+      </r:hei>
+      <r:hei id="vsup.cz">
+        <r:other-id type="erasmus">CZ PRAHA05</r:other-id>
+        <r:name>Vysoka skola umeleckoprumyslova v Praze</r:name>
+      </r:hei>
+      <r:hei id="vso.cz">
+        <r:other-id type="erasmus">CZ PRAHA12</r:other-id>
+        <r:name>Vysoka skola obchodni v Praze, o.p.s.</r:name>
+      </r:hei>
+      <r:hei id="aauni.edu">
+        <r:other-id type="erasmus">CZ PRAHA17</r:other-id>
+        <r:name>ANGLO-AMERICKA VYSOKA SKOLA, Z.U.</r:name>
+      </r:hei>
+      <r:hei id="alanus.edu">
+        <r:other-id type="erasmus">D ALFTER01</r:other-id>
+        <r:name>Alanus Hochschule gGmbH</r:name>
+      </r:hei>
+      <r:hei id="udk-berlin.de">
+        <r:other-id type="erasmus">D BERLIN03</r:other-id>
+        <r:name>UNIVERSITAT DER KUNSTE BERLIN</r:name>
+      </r:hei>
+      <r:hei id="eh-berlin.de">
+        <r:other-id type="erasmus">D BERLIN10</r:other-id>
+        <r:name>Evangelische Hochschule Berlin</r:name>
+      </r:hei>
+      <r:hei id="ipu-berlin.de">
+        <r:other-id type="erasmus">D BERLIN32</r:other-id>
+        <r:name>International Psychoanalytic University Berlin gGmbH</r:name>
+      </r:hei>
+      <r:hei id="ruhr-uni-bochum.de">
+        <r:other-id type="erasmus">D BOCHUM01</r:other-id>
+        <r:name>RUHR-UNIVERSITAET BOCHUM</r:name>
+      </r:hei>
+      <r:hei id="th-brandenburg.de">
+        <r:other-id type="erasmus">D BRANDEN01</r:other-id>
+        <r:name>TECHNISCHE HOCHSCHULE BRANDENBURG</r:name>
+      </r:hei>
+      <r:hei id="jacobs-university.de">
+        <r:other-id type="erasmus">D BREMEN09</r:other-id>
+        <r:name>JACOBS UNIVERSITY BREMEN GGMBH</r:name>
+      </r:hei>
+      <r:hei id="eufh.de">
+        <r:other-id type="erasmus">D BRUHL01</r:other-id>
+        <r:name>Europäische Fachhochschule Rhein/Erft GmbH</r:name>
+      </r:hei>
+      <r:hei id="htw-dresden.de">
+        <r:other-id type="erasmus">D DRESDEN01</r:other-id>
+        <r:name>Hochschule fuer Technik und Wirtschaft Dresden</r:name>
+      </r:hei>
+      <r:hei id="ist-hochschule.de">
+        <r:other-id type="erasmus">D DUSSELD08</r:other-id>
+        <r:name>IST-Hochschule für Management GmbH</r:name>
+      </r:hei>
+      <r:hei id="hnee.de">
+        <r:other-id type="erasmus">D EBERSWA01</r:other-id>
+        <r:name>HOCHSCHULE FUR NACHHALTIGE ENTWICKLUNG EBERSWALDE</r:name>
+      </r:hei>
+      <r:hei id="fham.de">
+        <r:other-id type="erasmus">D ERDING01</r:other-id>
+        <r:name>Hochschule für angewandtes Management GmbH</r:name>
+      </r:hei>
+      <r:hei id="sankt-georgen.de">
+        <r:other-id type="erasmus">D FRANKFU06</r:other-id>
+        <r:name>PHILOSOPHISCH THEOLOGISCHE HOCHSCHULE SANKT GEORGEN</r:name>
+      </r:hei>
+      <r:hei id="europa-uni.de">
+        <r:other-id type="erasmus">D FRANKFU08</r:other-id>
+        <r:name>EUROPA-UNIVERSITAT VIADRINA FRANKFURT (ODER)</r:name>
+      </r:hei>
+      <r:hei id="eh-freiburg.de">
+        <r:other-id type="erasmus">D FREIBUR05</r:other-id>
+        <r:name>Evangelische Hochschule Freiburg</r:name>
+      </r:hei>
+      <r:hei id="hs-fulda.de">
+        <r:other-id type="erasmus">D FULDA01</r:other-id>
+        <r:name>HOCHSCHULE FULDA-UNIVERSITY OF APPLIED SCIENCES</r:name>
+      </r:hei>
+      <r:hei id="burg-halle.de">
+        <r:other-id type="erasmus">D HALLE03</r:other-id>
+        <r:name>Burg Giebichenstein Kunsthochschule Halle</r:name>
+      </r:hei>
+      <r:hei id="hfbk-hamburg.de">
+        <r:other-id type="erasmus">D HAMBURG04</r:other-id>
+        <r:name>Hochschule für bildende Künste Hamburg</r:name>
+      </r:hei>
+      <r:hei id="fh-westkueste.de">
+        <r:other-id type="erasmus">D HEIDE01</r:other-id>
+        <r:name>Fachhochschule Westküste</r:name>
+      </r:hei>
+      <r:hei id="ph-heidelberg.de">
+        <r:other-id type="erasmus">D HEIDELB02</r:other-id>
+        <r:name>PADAGOGISCHE HOCHSCHULE HEIDELBERG</r:name>
+      </r:hei>
+      <r:hei id="hof-university.de">
+        <r:other-id type="erasmus">D HOF01</r:other-id>
+        <r:name>Hochschule für Angewandte Wissenschaften Hof</r:name>
+      </r:hei>
+      <r:hei id="fh-swf.de">
+        <r:other-id type="erasmus">D ISERLOH01</r:other-id>
+        <r:name>FACHHOCHSCHULE SUDWESTFALEN</r:name>
+      </r:hei>
+      <r:hei id="hs-kl.de">
+        <r:other-id type="erasmus">D KAISERS02</r:other-id>
+        <r:name>HOCHSCHULE KAISERSLAUTERN</r:name>
+      </r:hei>
+      <r:hei id="ph-karlsruhe.de">
+        <r:other-id type="erasmus">D KARLSRU02</r:other-id>
+        <r:name>PAEDAGOGISCHE HOCHSCHULE KARLSRUHE</r:name>
+      </r:hei>
+      <r:hei id="hs-karlsruhe.de">
+        <r:other-id type="erasmus">D KARLSRU05</r:other-id>
+        <r:name>HOCHSCHULE KARLSRUHE-TECHNIK UND WIRTSCHAFT</r:name>
+      </r:hei>
+      <r:hei id="unikoeln-bo.moveon4.de">
+        <r:other-id type="erasmus">D KOLN01</r:other-id>
+        <r:name>UNIVERSITAET ZU KOELN</r:name>
+      </r:hei>
+      <r:hei id="hhl.de">
+        <r:other-id type="erasmus">D LEIPZIG09</r:other-id>
+        <r:name>HHL GEMEINNUTZIGE GMBH</r:name>
+      </r:hei>
+      <r:hei id="th-owl.de">
+        <r:other-id type="erasmus">D LEMGO01</r:other-id>
+        <r:name>HOCHSCHULE OSTWESTFALEN-LIPPE</r:name>
+      </r:hei>
+      <r:hei id="ovgu.de">
+        <r:other-id type="erasmus">D MAGDEBU01</r:other-id>
+        <r:name>OTTO-VON-GUERICKE-UNIVERSITAET MAGDEBURG</r:name>
+      </r:hei>
+      <r:hei id="hs-merseburg.de">
+        <r:other-id type="erasmus">D MERSEB02</r:other-id>
+        <r:name>HOCHSCHULE MERSEBURG</r:name>
+      </r:hei>
+      <r:hei id="hs-mittweida.de">
+        <r:other-id type="erasmus">D MITTWEI01</r:other-id>
+        <r:name>HOCHSCHULE MITTWEIDA (FH)</r:name>
+      </r:hei>
+      <r:hei id="mosbach.dhbw.de">
+        <r:other-id type="erasmus">D MOSBACH01</r:other-id>
+        <r:name>Duale Hochschule Baden-Württemberg Mosbach</r:name>
+      </r:hei>
+      <r:hei id="adbk.de">
+        <r:other-id type="erasmus">D MUNCHEN04</r:other-id>
+        <r:name>Akademie der Bildenden Künste München</r:name>
+      </r:hei>
+      <r:hei id="nds.de">
+        <r:other-id type="erasmus">D NIENBUR01</r:other-id>
+        <r:name>Polizeiakademie Niedersachsen</r:name>
+      </r:hei>
+      <r:hei id="uni-osnabrueck.de">
+        <r:other-id type="erasmus">D OSNABRU01</r:other-id>
+        <r:name>UNIVERSITAET OSNABRUECK</r:name>
+      </r:hei>
+      <r:hei id="fhdw.de">
+        <r:other-id type="erasmus">D PADERBO04</r:other-id>
+        <r:name>Fachhochschule der Wirtschaft Nordrhein-Westfalen gGmbH</r:name>
+      </r:hei>
+      <r:hei id="hs-pforzheim.de">
+        <r:other-id type="erasmus">D PFORZHE01</r:other-id>
+        <r:name>HOCHSCHULE PFORZHEIM</r:name>
+      </r:hei>
+      <r:hei id="dhbw-ravensburg.de">
+        <r:other-id type="erasmus">D RAVENSB02</r:other-id>
+        <r:name>Duale Hochschule Baden-Württemberg Ravensburg</r:name>
+      </r:hei>
+      <r:hei id="hs-albsig.de">
+        <r:other-id type="erasmus">D SIGMARI01</r:other-id>
+        <r:name>FACHHOCHSCHULE ALBSTADT-SIGMARINGEN</r:name>
+      </r:hei>
+      <r:hei id="dhbw-stuttgart.de">
+        <r:other-id type="erasmus">D STUTTGA10</r:other-id>
+        <r:name>Duale Hochschule Baden-Württemberg Stuttgart</r:name>
+      </r:hei>
+      <r:hei id="ph-weingarten.de">
+        <r:other-id type="erasmus">D WEINGAR01</r:other-id>
+        <r:name>PAEDAGOGISCHE HOCHSCHULE WEINGARTEN</r:name>
+      </r:hei>
+      <r:hei id="aarch.dk">
+        <r:other-id type="erasmus">DK ARHUS04</r:other-id>
+        <r:name>ARKITEKTSKOLEN I AARHUS</r:name>
+      </r:hei>
+      <r:hei id="ucsyd.dk">
+        <r:other-id type="erasmus">DK ESBJERG19</r:other-id>
+        <r:name>UNIVERSITY COLLEGE SYDDANMARK</r:name>
+      </r:hei>
+      <r:hei id="uni.gl">
+        <r:other-id type="erasmus">DK NUUK01</r:other-id>
+        <r:name>Ilisimatusarfik</r:name>
+      </r:hei>
+      <r:hei id="uah.es">
+        <r:other-id type="erasmus">E ALCAL-H01</r:other-id>
+        <r:name>UNIVERSIDAD DE ALCALA</r:name>
+      </r:hei>
+      <r:hei id="ucavila.es">
+        <r:other-id type="erasmus">E AVILA01</r:other-id>
+        <r:name>UNIVERSIDAD CATOLICA SANTA TERESA DE JESUS DE AVILA</r:name>
+      </r:hei>
+      <r:hei id="esdap.cat">
+        <r:other-id type="erasmus">E BARCELO111</r:other-id>
+        <r:name>Escola Superior de Disseny i d’Arts Plàstiques</r:name>
+      </r:hei>
+      <r:hei id="institutdelteatre.cat">
+        <r:other-id type="erasmus">E BARCELO22</r:other-id>
+        <r:name>INSTITUT DEL TEATRE</r:name>
+      </r:hei>
+      <r:hei id="uic.es">
+        <r:other-id type="erasmus">E BARCELO24</r:other-id>
+        <r:name>UNIVERSITAT INTERNACIONAL DE CATALUNYA FUNDACIO PRIVADA</r:name>
+      </r:hei>
+      <r:hei id="deiadisseny.cat">
+        <r:other-id type="erasmus">E BARCELO32</r:other-id>
+        <r:name>ESCOLA D’ART I SUPERIOR DE DISSENY DEIA</r:name>
+      </r:hei>
+      <r:hei id="fje.edu">
+        <r:other-id type="erasmus">E BARCELO34</r:other-id>
+        <r:name>FUNDACIÓN JESUITAS EDUCACIÓN/FUNDACIÓ JESUÏTES EDUCACIÓ</r:name>
+      </r:hei>
+      <r:hei id="ehu.eus">
+        <r:other-id type="erasmus">E BILBAO01</r:other-id>
+        <r:name>UNIVERSIDAD DEL PAIS VASCO/ EUSKAL HERRIKO UNIBERTSITATEA</r:name>
+      </r:hei>
+      <r:hei id="ubu.es">
+        <r:other-id type="erasmus">E BURGOS01</r:other-id>
+        <r:name>UNIVERSIDAD DE BURGOS</r:name>
+      </r:hei>
+      <r:hei id="ui1.es">
+        <r:other-id type="erasmus">E BURGOS20</r:other-id>
+        <r:name>Universidad Internacional Isabel I de Castilla SAU</r:name>
+      </r:hei>
+      <r:hei id="uca.es">
+        <r:other-id type="erasmus">E CADIZ01</r:other-id>
+        <r:name>UNIVERSIDAD DE CADIZ</r:name>
+      </r:hei>
+      <r:hei id="eacadiz.com">
+        <r:other-id type="erasmus">E CADIZ28</r:other-id>
+        <r:name>Escuela de Arte de Cádiz</r:name>
+      </r:hei>
+      <r:hei id="uji.es">
+        <r:other-id type="erasmus">E CASTELL01</r:other-id>
+        <r:name>UNIVERSITAT JAUME I DE CASTELLON</r:name>
+      </r:hei>
+      <r:hei id="umh.es">
+        <r:other-id type="erasmus">E ELCHE01</r:other-id>
+        <r:name>UNIVERSIDAD MIGUEL HERNANDEZ DE ELCHE</r:name>
+      </r:hei>
+      <r:hei id="udc.es">
+        <r:other-id type="erasmus">E LA-CORU01</r:other-id>
+        <r:name>UNIVERSIDADE DA CORUNA</r:name>
+      </r:hei>
+      <r:hei id="iessanclemente.net">
+        <r:other-id type="erasmus">E LA-CORU09</r:other-id>
+        <r:name>IES San Clemente</r:name>
+      </r:hei>
+      <r:hei id="ulpgc.es">
+        <r:other-id type="erasmus">E LAS-PAL01</r:other-id>
+        <r:name>UNIVERSIDAD DE LAS PALMAS DE GRAN CANARIA</r:name>
+      </r:hei>
+      <r:hei id="ieszonzamas.es">
+        <r:other-id type="erasmus">E LAS-PAL28</r:other-id>
+        <r:name>INSTITUTO DE ENSEÑANZA SECUNDARIA ZONZAMAS</r:name>
+      </r:hei>
+      <r:hei id="nebrija.es">
+        <r:other-id type="erasmus">E MADRID12</r:other-id>
+        <r:name>UNIVERSITAS NEBRISSENSIS SA</r:name>
+      </r:hei>
+      <r:hei id="madrid.universidadeuropea.es">
+        <r:other-id type="erasmus">E MADRID18</r:other-id>
+        <r:name>UNIVERSIDAD EUROPEA DE MADRID SL</r:name>
+      </r:hei>
+      <r:hei id="uspceu.es">
+        <r:other-id type="erasmus">E MADRID21</r:other-id>
+        <r:name>FUNDACION UNIVERSITARIA SAN PABLO-CEU</r:name>
+      </r:hei>
+      <r:hei id="escoladisseny.com">
+        <r:other-id type="erasmus">E PALMA17</r:other-id>
+        <r:name>Escola d’Art i Superior de Disseny de les Illes Balears</r:name>
+      </r:hei>
+      <r:hei id="unican.es">
+        <r:other-id type="erasmus">E SANTAND01</r:other-id>
+        <r:name>UNIVERSIDAD DE CANTABRIA</r:name>
+      </r:hei>
+      <r:hei id="easd.es">
+        <r:other-id type="erasmus">E SANTIAG02</r:other-id>
+        <r:name>Escuela de Arte y Superior de Diseño Mestre Mateo</r:name>
+      </r:hei>
+      <r:hei id="universidadeuropea.es">
+        <r:other-id type="erasmus">E TENERIF21</r:other-id>
+        <r:name>Universidad Europea de Canarias S.L.U.</r:name>
+      </r:hei>
+      <r:hei id="upv.es">
+        <r:other-id type="erasmus">E VALENCI02</r:other-id>
+        <r:name>UNIVERSITAT POLITECNICA DE VALENCIA</r:name>
+      </r:hei>
+      <r:hei id="uchceu.es">
+        <r:other-id type="erasmus">E VALENCI08</r:other-id>
+        <r:name>FUNDACION UNIVERSITARIA SAN PABLO-CEU - UNIVERSIDAD CEU CARDENAL HERRERA</r:name>
+      </r:hei>
+      <r:hei id="universidadviu.com">
+        <r:other-id type="erasmus">E VALENCI104</r:other-id>
+        <r:name>Universitat Internacional Valenciana-Valencian International University</r:name>
+      </r:hei>
+      <r:hei id="easdvalencia.com">
+        <r:other-id type="erasmus">E VALENCI13</r:other-id>
+        <r:name>Escuela de arte y superior de Diseño de Valencia</r:name>
+      </r:hei>
+      <r:hei id="edem.eu">
+        <r:other-id type="erasmus">E VALENCI90</r:other-id>
+        <r:name>CENTRO UNIVERSITARIO EDEM</r:name>
+      </r:hei>
+      <r:hei id="valencia.universidadeuropea.es">
+        <r:other-id type="erasmus">E VALENCI91</r:other-id>
+        <r:name>Universidad Europea de Valencia, S.L.</r:name>
+      </r:hei>
+      <r:hei id="uemc.es">
+        <r:other-id type="erasmus">E VALLADO03</r:other-id>
+        <r:name>Universidad Europea Miguel de Cervantes S.A.</r:name>
+      </r:hei>
+      <r:hei id="uvigo.es">
+        <r:other-id type="erasmus">E VIGO01</r:other-id>
+        <r:name>UNIVERSIDAD DE VIGO</r:name>
+      </r:hei>
+      <r:hei id="csmvigo.com">
+        <r:other-id type="erasmus">E VIGO03</r:other-id>
+        <r:name>CONSERVATORIO SUPERIOR DE MÚSICA DE VIGO</r:name>
+      </r:hei>
+      <r:hei id="esadgalicia.com">
+        <r:other-id type="erasmus">E VIGO08</r:other-id>
+        <r:name>ESCUELA SUPERIOR DE ARTE DRAMÁTICO</r:name>
+      </r:hei>
+      <r:hei id="easdzamora.com">
+        <r:other-id type="erasmus">E ZAMORA08</r:other-id>
+        <r:name>ESCUELA DE ARTE Y SUPERIOR DE DISEÑO DE ZAMORA</r:name>
+      </r:hei>
+      <r:hei id="cpilosenlaces.com">
+        <r:other-id type="erasmus">E ZARAGOZ16</r:other-id>
+        <r:name>CENTRO PUBLICO INTEGRADO DE FORMACIÓN PROFESIONAL LOS ENLACES</r:name>
+      </r:hei>
+      <r:hei id="ebs.ee">
+        <r:other-id type="erasmus">EE TALLINN02</r:other-id>
+        <r:name>SIHTASUTUS ESTONIAN BUSINESS SCHOOL</r:name>
+      </r:hei>
+      <r:hei id="taltech.ee">
+        <r:other-id type="erasmus">EE TALLINN04</r:other-id>
+        <r:name>TALLINNA TEHNIKAULIKOOL</r:name>
+      </r:hei>
+      <r:hei id="tktk.ee">
+        <r:other-id type="erasmus">EE TALLINN06</r:other-id>
+        <r:name>TALLINNA TEHNIKAKORGKOOL</r:name>
+      </r:hei>
+      <r:hei id="imt-mines-albi.fr">
+        <r:other-id type="erasmus">F ALBI05</r:other-id>
+        <r:name>INSTITUT MINES TELECOM,  ECOLE NATIONALE SUPERIEURE DES MINES ALBI CARMAUX</r:name>
+      </r:hei>
+      <r:hei id="u-picardie.fr">
+        <r:other-id type="erasmus">F AMIENS01</r:other-id>
+        <r:name>UNIVERSITE DE PICARDIE JULES VERNE</r:name>
+      </r:hei>
+      <r:hei id="uco.fr">
+        <r:other-id type="erasmus">F ANGERS04</r:other-id>
+        <r:name>Université Catholique de l’Ouest</r:name>
+      </r:hei>
+      <r:hei id="talm.fr">
+        <r:other-id type="erasmus">F ANGERS30</r:other-id>
+        <r:name>ECOLE SUPERIEURE DES BEAUX-ARTS TOURS ANGERS LE MANS</r:name>
+      </r:hei>
+      <r:hei id="utbm.fr">
+        <r:other-id type="erasmus">F BELFORT06</r:other-id>
+        <r:name>UNIVERSITE DE TECHNOLOGIE DE BELFORT - MONTBELIARD</r:name>
+      </r:hei>
+      <r:hei id="ubfc.fr">
+        <r:other-id type="erasmus">F BESANCO27</r:other-id>
+        <r:name>Communaute D Universites Et Etablissements Universite Bourgogne - Franche - Comte</r:name>
+      </r:hei>
+      <r:hei id="sciencespobordeaux.fr">
+        <r:other-id type="erasmus">F BORDEAU37</r:other-id>
+        <r:name>INSTITUT D’ETUDES POLITIQUES DE BORDEAUX</r:name>
+      </r:hei>
+      <r:hei id="kedge.edu">
+        <r:other-id type="erasmus">F BORDEAU57</r:other-id>
+        <r:name>Groupe KEDGE Business School</r:name>
+      </r:hei>
+      <r:hei id="ensta-bretagne.fr">
+        <r:other-id type="erasmus">F BREST08</r:other-id>
+        <r:name>ECOLE NATIONALE SUPERIEURE DE TECHNIQUES AVANCEES BRETAGNE</r:name>
+      </r:hei>
+      <r:hei id="ecam-epmi.com">
+        <r:other-id type="erasmus">F CERGY-P03</r:other-id>
+        <r:name>ECAM-EPMI</r:name>
+      </r:hei>
+      <r:hei id="naturapolis36.fr">
+        <r:other-id type="erasmus">F CHATEAU04</r:other-id>
+        <r:name>LYCEE GENERAL ET TECHNOLOGIQUE AGRICOLE</r:name>
+      </r:hei>
+      <r:hei id="u-bourgogne.fr">
+        <r:other-id type="erasmus">F DIJON01</r:other-id>
+        <r:name>UNIVERSITE DIJON BOURGOGNE</r:name>
+      </r:hei>
+      <r:hei id="grenoble.archi.fr">
+        <r:other-id type="erasmus">F GRENOBL16</r:other-id>
+        <r:name>ECOLE D’ARCHITECTURE DE GRENOBLE</r:name>
+      </r:hei>
+      <r:hei id="brassart.fr">
+        <r:other-id type="erasmus">F GRENOBL49</r:other-id>
+        <r:name>ARIES RHONE-ALPES</r:name>
+      </r:hei>
+      <r:hei id="ices.fr">
+        <r:other-id type="erasmus">F LAROCHE01</r:other-id>
+        <r:name>OGICES</r:name>
+      </r:hei>
+      <r:hei id="em-normandie.fr">
+        <r:other-id type="erasmus">F LE-HAVR04</r:other-id>
+        <r:name>ECOLE DE MANAGEMENT DE NORMANDIE</r:name>
+      </r:hei>
+      <r:hei id="univ-catholille.fr">
+        <r:other-id type="erasmus">F LILLE11</r:other-id>
+        <r:name>UNIVERSITE CATHOLIQUE DE LILLE (Fédération Universitaire et Polytechnique de Lille)</r:name>
+      </r:hei>
+      <r:hei id="3il.fr">
+        <r:other-id type="erasmus">F LIMOGES20</r:other-id>
+        <r:name>Groupe 3iL</r:name>
+      </r:hei>
+      <r:hei id="enil.fr">
+        <r:other-id type="erasmus">F MAMIROL02</r:other-id>
+        <r:name>LYCEE GL ET TECHNOL AGRICOLE - ECOLE D’INDUSTRIE LAITIERE</r:name>
+      </r:hei>
+      <r:hei id="oniris-nantes.fr">
+        <r:other-id type="erasmus">F NANTES65</r:other-id>
+        <r:name>Ecole Nationale Vétérinaire, Agroalimentaire et de l’alimentation Nantes Atlantique</r:name>
+      </r:hei>
+      <r:hei id="institutoptique.fr">
+        <r:other-id type="erasmus">F ORSAY02</r:other-id>
+        <r:name>INSTITUT D’OPTIQUE THEORIQUE ET APPLIQUEE IOTA - SUPOPTIQUE</r:name>
+      </r:hei>
+      <r:hei id="ephe.psl.eu">
+        <r:other-id type="erasmus">F PARIS054</r:other-id>
+        <r:name>ECOLE PRATIQUE DES HAUTES ETUDES</r:name>
+      </r:hei>
+      <r:hei id="efrei.fr">
+        <r:other-id type="erasmus">F PARIS066</r:other-id>
+        <r:name>EFREI PARIS</r:name>
+      </r:hei>
+      <r:hei id="ipsa.fr">
+        <r:other-id type="erasmus">F PARIS342</r:other-id>
+        <r:name>Institut Polytechnique des Sciences Avancées</r:name>
+      </r:hei>
+      <r:hei id="groupe-espi.fr">
+        <r:other-id type="erasmus">F PARIS414</r:other-id>
+        <r:name>ECOLE SUPERIEURE DES PROFESSIONS IMMOBILIERES</r:name>
+      </r:hei>
+      <r:hei id="lyceedelasalle.fr">
+        <r:other-id type="erasmus">F RENNES23</r:other-id>
+        <r:name>OGEC Jean PaulII de la Salle</r:name>
+      </r:hei>
+      <r:hei id="ensai.fr">
+        <r:other-id type="erasmus">F RENNES32</r:other-id>
+        <r:name>ECOLE NATIONALE DE LA STATISTIQUE ET DE L’ANALYSE DE L’INFORMATION</r:name>
+      </r:hei>
+      <r:hei id="agrocampus-ouest.fr">
+        <r:other-id type="erasmus">F RENNES47</r:other-id>
+        <r:name>INSTITUT SUPERIEUR DES SCIENCES AGRONOMIQUES, AGROALIMENTAIRES, HORTICOLES ET DU PAYSAGE</r:name>
+      </r:hei>
+      <r:hei id="ifpek.org">
+        <r:other-id type="erasmus">F RENNES52</r:other-id>
+        <r:name>INSTITUT DE FORMATION EN PEDICURIE-PODOLOGIE, ERGOTHERAPIE, MASSO-KINESITHERAPIE</r:name>
+      </r:hei>
+      <r:hei id="esadtpm.fr">
+        <r:other-id type="erasmus">F TOULON21</r:other-id>
+        <r:name>Ecole Supérieure d’Art et de Design Toulon Provence Méditerrannée</r:name>
+      </r:hei>
+      <r:hei id="isae-supaero.fr">
+        <r:other-id type="erasmus">F TOULOUS16</r:other-id>
+        <r:name>INSTITUT SUPERIEUR DE L’AERONAUTIQUE ET DE L’ESPACE</r:name>
+      </r:hei>
+      <r:hei id="ecole.archi-toulouse.fr">
+        <r:other-id type="erasmus">F TOULOUS24</r:other-id>
+        <r:name>ECOLE NATIONALE SUPERIEURE D’ARCHITECTURE DE TOULOUSE</r:name>
+      </r:hei>
+      <r:hei id="inp-toulouse.fr">
+        <r:other-id type="erasmus">F TOULOUS28</r:other-id>
+        <r:name>INSTITUT NATIONAL POLYTECHNIQUE DE TOULOUSE</r:name>
+      </r:hei>
+      <r:hei id="sse.gr">
+        <r:other-id type="erasmus">G ATHINE54</r:other-id>
+        <r:name>Hellenic Army Academy</r:name>
+      </r:hei>
+      <r:hei id="haf.gr">
+        <r:other-id type="erasmus">G ATHINE55</r:other-id>
+        <r:name>HELLENIC AIR FORCE ACADEMY</r:name>
+      </r:hei>
+      <r:hei id="uoc.gr">
+        <r:other-id type="erasmus">G KRITIS01</r:other-id>
+        <r:name>PANEPISTIMIO KRITIS</r:name>
+      </r:hei>
+      <r:hei id="unios.hr">
+        <r:other-id type="erasmus">HR OSIJEK01</r:other-id>
+        <r:name>SVEUCILISTE JOSIPA JURJA STROSSMAYERA U OSIJEKU</r:name>
+      </r:hei>
+      <r:hei id="unipu.hr">
+        <r:other-id type="erasmus">HR PULA01</r:other-id>
+        <r:name>SVEUCILISTE JURJA DOBRILE U PULI</r:name>
+      </r:hei>
+      <r:hei id="uniri.hr">
+        <r:other-id type="erasmus">HR RIJEKA01</r:other-id>
+        <r:name>SVEUCILISTE U RIJECI</r:name>
+      </r:hei>
+      <r:hei id="unist.hr">
+        <r:other-id type="erasmus">HR SPLIT01</r:other-id>
+        <r:name>SVEUCILISTE U SPLITU (UNIVERSITY OF SPLIT)</r:name>
+      </r:hei>
+      <r:hei id="unizd.hr">
+        <r:other-id type="erasmus">HR ZADAR01</r:other-id>
+        <r:name>SVEUCILISTE U ZADRU</r:name>
+      </r:hei>
+      <r:hei id="tvz.hr">
+        <r:other-id type="erasmus">HR ZAGREB05</r:other-id>
+        <r:name>Tehnicko veleuciliste u Zagrebu</r:name>
+      </r:hei>
+      <r:hei id="zsem.hr">
+        <r:other-id type="erasmus">HR ZAGREB06</r:other-id>
+        <r:name>Zagrebacka skola ekonomije i managementa</r:name>
+      </r:hei>
+      <r:hei id="ebus.hr">
+        <r:other-id type="erasmus">HR ZAGREB07</r:other-id>
+        <r:name>Visoka skola Nikola Subic Zrinski</r:name>
+      </r:hei>
+      <r:hei id="univet.hu">
+        <r:other-id type="erasmus">HU BUDAPES05</r:other-id>
+        <r:name>University of Veterinary Medicine</r:name>
+      </r:hei>
+      <r:hei id="tanc.org.hu">
+        <r:other-id type="erasmus">HU BUDAPES51</r:other-id>
+        <r:name>Budapest Kortarstanc Foiskola</r:name>
+      </r:hei>
+      <r:hei id="uni-eszterhazy.hu">
+        <r:other-id type="erasmus">HU EGER02</r:other-id>
+        <r:name>ESZTERHAZY KAROLY EGYETEM</r:name>
+      </r:hei>
+      <r:hei id="uni-neumann.hu">
+        <r:other-id type="erasmus">HU KECSKEM03</r:other-id>
+        <r:name>NEUMANN JANOS EGYETEM</r:name>
+      </r:hei>
+      <r:hei id="uni-miskolc.hu">
+        <r:other-id type="erasmus">HU MISKOLC01</r:other-id>
+        <r:name>MISKOLCI EGYETEM</r:name>
+      </r:hei>
+      <r:hei id="u-szeged.hu">
+        <r:other-id type="erasmus">HU SZEGED01</r:other-id>
+        <r:name>SZEGEDI TUDOMANYEGYETEM</r:name>
+      </r:hei>
+      <r:hei id="unimol.it">
+        <r:other-id type="erasmus">I CAMPOBA01</r:other-id>
+        <r:name>UNIVERSITA DEGLI STUDI DEL MOLISE</r:name>
+      </r:hei>
+      <r:hei id="steffani.it">
+        <r:other-id type="erasmus">I CASTELF01</r:other-id>
+        <r:name>CONSERVATORIO STATALE DI MUSICA A.STEFFANI</r:name>
+      </r:hei>
+      <r:hei id="uniecampus.it">
+        <r:other-id type="erasmus">I COMO05</r:other-id>
+        <r:name>UNIVERSITA TELEMATICA E-CAMPUS</r:name>
+      </r:hei>
+      <r:hei id="eui.eu">
+        <r:other-id type="erasmus">I FIESOLE01</r:other-id>
+        <r:name>EUROPEAN UNIVERSITY INSTITUTE</r:name>
+      </r:hei>
+      <r:hei id="accademialigustica.it">
+        <r:other-id type="erasmus">I GENOVA03</r:other-id>
+        <r:name>Accademia Ligustica di Belle Arti</r:name>
+      </r:hei>
+      <r:hei id="univaq.it">
+        <r:other-id type="erasmus">I L-AQUIL01</r:other-id>
+        <r:name>UNIVERSITA DEGLI STUDI DELL’AQUILA</r:name>
+      </r:hei>
+      <r:hei id="imtlucca.it">
+        <r:other-id type="erasmus">I LUCCA04</r:other-id>
+        <r:name>SCUOLA IMT (ISTITUZIONI, MERCATI, TECNOLOGIE) ALTI STUDI DI LUCCA</r:name>
+      </r:hei>
+      <r:hei id="iulm.it">
+        <r:other-id type="erasmus">I MILANO05</r:other-id>
+        <r:name>LIBERA UNIVERSITA DI LINGUE E COMUNICAZIONE IULM</r:name>
+      </r:hei>
+      <r:hei id="ied.it">
+        <r:other-id type="erasmus">I MILANO18</r:other-id>
+        <r:name>IED Istituto Europeo di Design S.p.A.</r:name>
+      </r:hei>
+      <r:hei id="unicollegessml.it">
+        <r:other-id type="erasmus">I MILANO22</r:other-id>
+        <r:name>SSML di Mantova</r:name>
+      </r:hei>
+      <r:hei id="unimore.it">
+        <r:other-id type="erasmus">I MODENA01</r:other-id>
+        <r:name>UNIVERSITA DEGLI STUDI DI MODENA E REGGIO EMILIA</r:name>
+      </r:hei>
+      <r:hei id="unisob.na.it">
+        <r:other-id type="erasmus">I NAPOLI04</r:other-id>
+        <r:name>UNIVERSITA DEGLI STUDI SUOR ORSOLA BENINCASA</r:name>
+      </r:hei>
+      <r:hei id="ciels.it">
+        <r:other-id type="erasmus">I PADOVA05</r:other-id>
+        <r:name>Scuola Superiore per Mediatori Linguistici CIELS</r:name>
+      </r:hei>
+      <r:hei id="unipr.it">
+        <r:other-id type="erasmus">I PARMA01</r:other-id>
+        <r:name>UNIVERSITA DEGLI STUDI DI PARMA</r:name>
+      </r:hei>
+      <r:hei id="unistrapg.it">
+        <r:other-id type="erasmus">I PERUGIA06</r:other-id>
+        <r:name>UNIVERSITA PER STRANIERI DI PERUGIA</r:name>
+      </r:hei>
+      <r:hei id="sns.it">
+        <r:other-id type="erasmus">I PISA02</r:other-id>
+        <r:name>SCUOLA NORMALE SUPERIORE</r:name>
+      </r:hei>
+      <r:hei id="facoltavaldese.org">
+        <r:other-id type="erasmus">I ROMA28</r:other-id>
+        <r:name>Facoltà valdese di teologia</r:name>
+      </r:hei>
+      <r:hei id="conservatorio.sassari.it">
+        <r:other-id type="erasmus">I SASSARI02</r:other-id>
+        <r:name>Conservatorio Statale di Musica 'L. Canepa'</r:name>
+      </r:hei>
+      <r:hei id="unisi.it">
+        <r:other-id type="erasmus">I SIENA01</r:other-id>
+        <r:name>UNIVERSITA’ DEGLI STUDI DI SIENA</r:name>
+      </r:hei>
+      <r:hei id="unitn.it">
+        <r:other-id type="erasmus">I TRENTO01</r:other-id>
+        <r:name>UNIVERSITA DEGLI STUDI DI TRENTO</r:name>
+      </r:hei>
+      <r:hei id="conservatorio.udine.it">
+        <r:other-id type="erasmus">I UDINE02</r:other-id>
+        <r:name>CONSERVATORIO STATALE DI MUSICA 'JACOPO TOMADINI'</r:name>
+      </r:hei>
+      <r:hei id="unive.it">
+        <r:other-id type="erasmus">I VENEZIA01</r:other-id>
+        <r:name>UNIVERSITA CA’ FOSCARI VENEZIA</r:name>
+      </r:hei>
+      <r:hei id="conservatorioverona.it">
+        <r:other-id type="erasmus">I VERONA02</r:other-id>
+        <r:name>Conservatorio Statale di Musica 'E. F. Dall’Abaco'</r:name>
+      </r:hei>
+      <r:hei id="cit.ie">
+        <r:other-id type="erasmus">IRLCORK04</r:other-id>
+        <r:name>CORK INSTITUTE OF TECHNOLOGY</r:name>
+      </r:hei>
+      <r:hei id="tcd.ie">
+        <r:other-id type="erasmus">IRLDUBLIN01</r:other-id>
+        <r:name>THE PROVOST, FELLOWS, FOUNDATION SCHOLARS &amp; THE OTHER MEMBERS OF BOARD OF THE COLLEGE OF THE HOLY &amp; UNDIVIDED TRINITY OF QUEEN ELIZABETH NEAR DUBLIN</r:name>
+      </r:hei>
+      <r:hei id="dcu.ie">
+        <r:other-id type="erasmus">IRLDUBLIN04</r:other-id>
+        <r:name>DUBLIN CITY UNIVERSITY</r:name>
+      </r:hei>
+      <r:hei id="gmit.ie">
+        <r:other-id type="erasmus">IRLGALWAY02</r:other-id>
+        <r:name>GALWAY MAYO INSTITUTE OF TECHNOLOGY</r:name>
+      </r:hei>
+      <r:hei id="mu.ie">
+        <r:other-id type="erasmus">IRLMAYNOOT01</r:other-id>
+        <r:name>NATIONAL UNIVERSITY OF IRELAND MAYNOOTH</r:name>
+      </r:hei>
+      <r:hei id="unak.is">
+        <r:other-id type="erasmus">IS AKUREYR01</r:other-id>
+        <r:name>HASKOLINN A AKUREYRI</r:name>
+      </r:hei>
+      <r:hei id="ru.is">
+        <r:other-id type="erasmus">IS REYKJAV05</r:other-id>
+        <r:name>HASKOLINN I REYKJAVIK EHF</r:name>
+      </r:hei>
+      <r:hei id="ktu.edu">
+        <r:other-id type="erasmus">LT KAUNAS02</r:other-id>
+        <r:name>KAUNO TECHNOLOGIJOS UNIVERSITETAS</r:name>
+      </r:hei>
+      <r:hei id="kaunokolegija.lt">
+        <r:other-id type="erasmus">LT KAUNAS08</r:other-id>
+        <r:name>KAUNO KOLEGIJA</r:name>
+      </r:hei>
+      <r:hei id="lsmuni.lt">
+        <r:other-id type="erasmus">LT KAUNAS13</r:other-id>
+        <r:name>LIETUVOS SVEIKATOS MOKSLU UNIVERSITETAS</r:name>
+      </r:hei>
+      <r:hei id="ltvk.lt">
+        <r:other-id type="erasmus">LT KLAIPED07</r:other-id>
+        <r:name>Lietuvos verslo kolegija</r:name>
+      </r:hei>
+      <r:hei id="vu.lt">
+        <r:other-id type="erasmus">LT VILNIUS01</r:other-id>
+        <r:name>VILNIAUS UNIVERSITETAS</r:name>
+      </r:hei>
+      <r:hei id="vda.lt">
+        <r:other-id type="erasmus">LT VILNIUS03</r:other-id>
+        <r:name>VILNIAUS DAILES AKADEMIJA</r:name>
+      </r:hei>
+      <r:hei id="mruni.eu">
+        <r:other-id type="erasmus">LT VILNIUS06</r:other-id>
+        <r:name>MYKOLO ROMERIO UNIVERSITETAS</r:name>
+      </r:hei>
+      <r:hei id="vtdko.lt">
+        <r:other-id type="erasmus">LT VILNIUS14</r:other-id>
+        <r:name>VILNIAUS TECHNOLOGIJU IR DIZAINO KOLEGIJA</r:name>
+      </r:hei>
+      <r:hei id="ttvam.lt">
+        <r:other-id type="erasmus">LT VILNIUS15</r:other-id>
+        <r:name>TARPTAUTINE TEISES IR VERSLO AUKSTOJI MOKYKLA UAB</r:name>
+      </r:hei>
+      <r:hei id="ksu.lt">
+        <r:other-id type="erasmus">LT VILNIUS24</r:other-id>
+        <r:name>KAZIMIERO SIMONAVICIAUS UNIVERSITETAS UAB</r:name>
+      </r:hei>
+      <r:hei id="liepu.lv">
+        <r:other-id type="erasmus">LV LIEPAJA01</r:other-id>
+        <r:name>LIEPAJAS UNIVERSITATE</r:name>
+      </r:hei>
+      <r:hei id="rta.lv">
+        <r:other-id type="erasmus">LV REZEKNE02</r:other-id>
+        <r:name>REZEKNES TEHNOLOGIJU AKADEMIJA</r:name>
+      </r:hei>
+      <r:hei id="vrk.rs.gov.lv">
+        <r:other-id type="erasmus">LV REZEKNE03</r:other-id>
+        <r:name>State Border Guard College</r:name>
+      </r:hei>
+      <r:hei id="lu.lv">
+        <r:other-id type="erasmus">LV RIGA01</r:other-id>
+        <r:name>University of Latvia</r:name>
+      </r:hei>
+      <r:hei id="sseriga.edu">
+        <r:other-id type="erasmus">LV RIGA14</r:other-id>
+        <r:name>Stockholm School of Economics in Riga</r:name>
+      </r:hei>
+      <r:hei id="bsa.edu.lv">
+        <r:other-id type="erasmus">LV RIGA28</r:other-id>
+        <r:name>Baltijas Starptautiska Akademija</r:name>
+      </r:hei>
+      <r:hei id="riseba.lv">
+        <r:other-id type="erasmus">LV RIGA29</r:other-id>
+        <r:name>RISEBA UNIVERSITY</r:name>
+      </r:hei>
+      <r:hei id="inn.no">
+        <r:other-id type="erasmus">N ELVERUM02</r:other-id>
+        <r:name>Høgskolen i Innlandet</r:name>
+      </r:hei>
+      <r:hei id="hiof.no">
+        <r:other-id type="erasmus">N HALDEN02</r:other-id>
+        <r:name>HOGSKOLEN I OSTFOLD</r:name>
+      </r:hei>
+      <r:hei id="himolde.no">
+        <r:other-id type="erasmus">N MOLDE01</r:other-id>
+        <r:name>Høgskolen i Molde - Vitenskapelig høgskole i logistikk</r:name>
+      </r:hei>
+      <r:hei id="nmh.no">
+        <r:other-id type="erasmus">N OSLO03</r:other-id>
+        <r:name>Norges musikkhøgskole</r:name>
+      </r:hei>
+      <r:hei id="fjellhaug.no">
+        <r:other-id type="erasmus">N OSLO65</r:other-id>
+        <r:name>Fjellhaug Internasjonale Høgskole AS</r:name>
+      </r:hei>
+      <r:hei id="uva.nl">
+        <r:other-id type="erasmus">NL AMSTERD01</r:other-id>
+        <r:name>UNIVERSITEIT VAN AMSTERDAM</r:name>
+      </r:hei>
+      <r:hei id="vu.nl">
+        <r:other-id type="erasmus">NL AMSTERD02</r:other-id>
+        <r:name>STICHTING VU</r:name>
+      </r:hei>
+      <r:hei id="che.nl">
+        <r:other-id type="erasmus">NL EDE01</r:other-id>
+        <r:name>Christelijke Hogeschool Ede, Christian University of Applied Sciences</r:name>
+      </r:hei>
+      <r:hei id="saxion.nl">
+        <r:other-id type="erasmus">NL ENSCHED03</r:other-id>
+        <r:name>STICHTING SAXION</r:name>
+      </r:hei>
+      <r:hei id="unimaas.nl">
+        <r:other-id type="erasmus">NL MAASTRI01</r:other-id>
+        <r:name>UNIVERSITEIT MAASTRICHT</r:name>
+      </r:hei>
+      <r:hei id="ru.nl">
+        <r:other-id type="erasmus">NL NIJMEGE01</r:other-id>
+        <r:name>STICHTING KATHOLIEKE UNIVERSITEIT</r:name>
+      </r:hei>
+      <r:hei id="na1.demo.eu">
+        <r:other-id type="erasmus">NL ORANJES03</r:other-id>
+        <r:name>DEMO: Account 1</r:name>
+      </r:hei>
+      <r:hei id="oranjestad.nl">
+        <r:other-id type="erasmus">NL ORANJES05</r:other-id>
+        <r:name>DEMO: Account 3</r:name>
+      </r:hei>
+      <r:hei id="eur.nl">
+        <r:other-id type="erasmus">NL ROTTERD01</r:other-id>
+        <r:name>ERASMUS UNIVERSITEIT ROTTERDAM</r:name>
+      </r:hei>
+      <r:hei id="inholland.nl">
+        <r:other-id type="erasmus">NL S-GRAVE37</r:other-id>
+        <r:name>STICHTING HOGER ONDERWIJS NEDERLAND</r:name>
+      </r:hei>
+      <r:hei id="hz.nl">
+        <r:other-id type="erasmus">NL VLISSIN01</r:other-id>
+        <r:name>STICHTING HZ UNIVERSITY OF APPLIED SCIENCES</r:name>
+      </r:hei>
+      <r:hei id="viaa.nl">
+        <r:other-id type="erasmus">NL ZWOLLE10</r:other-id>
+        <r:name>Christian University of Applied Sciences Zwolle</r:name>
+      </r:hei>
+      <r:hei id="ipca.pt">
+        <r:other-id type="erasmus">P ARCOZEL01</r:other-id>
+        <r:name>INSTITUTO POLITECNICO DO CAVADO E DO AVE</r:name>
+      </r:hei>
+      <r:hei id="uatlantica.pt">
+        <r:other-id type="erasmus">P BARCARE01</r:other-id>
+        <r:name>EIA - ENSINO E INVESTIGACAO E ADMINISTRACAO SA</r:name>
+      </r:hei>
+      <r:hei id="uevora.pt">
+        <r:other-id type="erasmus">P EVORA01</r:other-id>
+        <r:name>UNIVERSIDADE DE EVORA</r:name>
+      </r:hei>
+      <r:hei id="iseclisboa.pt">
+        <r:other-id type="erasmus">P LISBOA104</r:other-id>
+        <r:name>UNIVERSITAS COOPERATIVA DE ENSINO SUPERIOR E INVESTIGACAO CIENTIFICA CRL</r:name>
+      </r:hei>
+      <r:hei id="ulusofona.pt">
+        <r:other-id type="erasmus">P LISBOA52</r:other-id>
+        <r:name>COFAC COOPERATIVA DE FORMACAO E ANIMACAO CULTURAL CRL</r:name>
+      </r:hei>
+      <r:hei id="maieutica.pt">
+        <r:other-id type="erasmus">P MAIA01</r:other-id>
+        <r:name>MAIEUTICA COOPERATIVA DE ENSINO SUPERIOR CRL</r:name>
+      </r:hei>
+      <r:hei id="ipp.pt">
+        <r:other-id type="erasmus">P PORTO05</r:other-id>
+        <r:name>INSTITUTO POLITECNICO DO PORTO</r:name>
+      </r:hei>
+      <r:hei id="uportu.pt">
+        <r:other-id type="erasmus">P PORTO07</r:other-id>
+        <r:name>UNIVERSIDADE PORTUCALENSE INFANTE DHENRIQUE-COOPERATIVA DE ENSINO SUPERIOR CRL</r:name>
+      </r:hei>
+      <r:hei id="cespu.pt">
+        <r:other-id type="erasmus">P PORTO56</r:other-id>
+        <r:name>Cooperativa de Ensino Superior Politécnico e Universitário, CRL. (CESPU)</r:name>
+      </r:hei>
+      <r:hei id="ipvc.pt">
+        <r:other-id type="erasmus">P VIANA-D01</r:other-id>
+        <r:name>INSTITUTO POLITECNICO DE VIANA DE CASTELO</r:name>
+      </r:hei>
+      <r:hei id="pswbp.pl">
+        <r:other-id type="erasmus">PL BIALA01</r:other-id>
+        <r:name>Panstwowa Szkola Wyzsza im. Papieza Jana Pawla II w Bialej Podlaskiej</r:name>
+      </r:hei>
+      <r:hei id="tyszkiewicz.edu.pl">
+        <r:other-id type="erasmus">PL BIELSKO01</r:other-id>
+        <r:name>Bielska Wyzsza Szkola im. J. Tyszkiewicza</r:name>
+      </r:hei>
+      <r:hei id="utp.edu.pl">
+        <r:other-id type="erasmus">PL BYDGOSZ02</r:other-id>
+        <r:name>UNIWERSYTET TECHNOLOGICZNO PRZYRODNICZY IM JANA I JEDRZEJA SNIADECKICH W BYDGOSZCZY</r:name>
+      </r:hei>
+      <r:hei id="wsb.edu.pl">
+        <r:other-id type="erasmus">PL DABROWA01</r:other-id>
+        <r:name>AKADEMIA WSB</r:name>
+      </r:hei>
+      <r:hei id="asp.gda.pl">
+        <r:other-id type="erasmus">PL GDANSK05</r:other-id>
+        <r:name>Akademia Sztuk Pieknych w Gdansku</r:name>
+      </r:hei>
+      <r:hei id="pwste.edu.pl">
+        <r:other-id type="erasmus">PL JAROSLA02</r:other-id>
+        <r:name>Panstwowa Wyzsza Szkola Techniczno - Ekonomiczna im. ks. Bronislawa Markiewicza</r:name>
+      </r:hei>
+      <r:hei id="am.katowice.pl">
+        <r:other-id type="erasmus">PL KATOWIC04</r:other-id>
+        <r:name>Akademia Muzyczna im. Karola Szymanowskiego</r:name>
+      </r:hei>
+      <r:hei id="ujk.edu.pl">
+        <r:other-id type="erasmus">PL KIELCE02</r:other-id>
+        <r:name>UNIWERSYTET JANA KOCHANOWSKIEGO W KIELCACH</r:name>
+      </r:hei>
+      <r:hei id="tu.koszalin.pl">
+        <r:other-id type="erasmus">PL KOSZALI01</r:other-id>
+        <r:name>POLITECHNIKA KOSZALINSKA</r:name>
+      </r:hei>
+      <r:hei id="pk.edu.pl">
+        <r:other-id type="erasmus">PL KRAKOW03</r:other-id>
+        <r:name>POLITECHNIKA KRAKOWSKA</r:name>
+      </r:hei>
+      <r:hei id="kpu.krosno.pl">
+        <r:other-id type="erasmus">PL KROSNO01</r:other-id>
+        <r:name>Panstwowa Wyzsza Szkola Zawodowa im. Stanislawa Pigonia w Krosnie</r:name>
+      </r:hei>
+      <r:hei id="asp.lodz.pl">
+        <r:other-id type="erasmus">PL LODZ05</r:other-id>
+        <r:name>Akademia Sztuk Pieknych im. Wladyslawa Strzeminskiego w Lodzi</r:name>
+      </r:hei>
+      <r:hei id="san.edu.pl">
+        <r:other-id type="erasmus">PL LODZ09</r:other-id>
+        <r:name>SPOLECZNA AKADEMIA NAUK</r:name>
+      </r:hei>
+      <r:hei id="up.lublin.pl">
+        <r:other-id type="erasmus">PL LUBLIN04</r:other-id>
+        <r:name>Uniwersytet Przyrodniczy w Lublinie</r:name>
+      </r:hei>
+      <r:hei id="wsei.lublin.pl">
+        <r:other-id type="erasmus">PL LUBLIN09</r:other-id>
+        <r:name>WYZSZA SZKOLA EKONOMII I INNOWACJI W LUBLINIE</r:name>
+      </r:hei>
+      <r:hei id="puss.pila.pl">
+        <r:other-id type="erasmus">PL PILA02</r:other-id>
+        <r:name>Panstwowa Wyzsza Szkola Zawodowa im. Stanislawa Staszica w Pile</r:name>
+      </r:hei>
+      <r:hei id="amu.edu.pl">
+        <r:other-id type="erasmus">PL POZNAN01</r:other-id>
+        <r:name>UNIWERSYTET IM. ADAMA MICKIEWICZA W POZNANIU</r:name>
+      </r:hei>
+      <r:hei id="ump.edu.pl">
+        <r:other-id type="erasmus">PL POZNAN05</r:other-id>
+        <r:name>UNIWERSYTET MEDYCZNY IM KAROLA MARCINKOWSKIEGO W POZNANIU</r:name>
+      </r:hei>
+      <r:hei id="cdv.pl">
+        <r:other-id type="erasmus">PL POZNAN16</r:other-id>
+        <r:name>Collegium Da Vinci</r:name>
+      </r:hei>
+      <r:hei id="wseit.edu.pl">
+        <r:other-id type="erasmus">PL POZNAN24</r:other-id>
+        <r:name>Wyzsza Szkola Edukacji i Terapii im. prof. Kazimiery Milanowskiej</r:name>
+      </r:hei>
+      <r:hei id="wsb.net.pl">
+        <r:other-id type="erasmus">PL POZNAN25</r:other-id>
+        <r:name>Wyzsza Szkola Bezpieczenstwa z siedziba w Poznaniu</r:name>
+      </r:hei>
+      <r:hei id="uph.edu.pl">
+        <r:other-id type="erasmus">PL SIEDLCE01</r:other-id>
+        <r:name>UNIWERSYTET PRZYRODNICZO-HUMANISTYCZNY W SIEDLCACH</r:name>
+      </r:hei>
+      <r:hei id="apsl.edu.pl">
+        <r:other-id type="erasmus">PL SLUPSK01</r:other-id>
+        <r:name>AKADEMIA POMORSKA W SLUPSKU</r:name>
+      </r:hei>
+      <r:hei id="zut.edu.pl">
+        <r:other-id type="erasmus">PL SZCZECI02</r:other-id>
+        <r:name>ZACHODNIOPOMORSKI UNIWERSYTET TECHNOLOGICZNY W SZCZECINIE</r:name>
+      </r:hei>
+      <r:hei id="kj.edu.pl">
+        <r:other-id type="erasmus">PL TORUN03</r:other-id>
+        <r:name>KOLEGIUM JAGIELLONSKIE-TORUNSKA SZKOLA WYZSZA</r:name>
+      </r:hei>
+      <r:hei id="awf.edu.pl">
+        <r:other-id type="erasmus">PL WARSZAW12</r:other-id>
+        <r:name>AKADEMIA WYCHOWANIA FIZYCZNEGO JOZEFA PILSUDSKIEGO W WARSZAWIE</r:name>
+      </r:hei>
+      <r:hei id="wwsi.edu.pl">
+        <r:other-id type="erasmus">PL WARSZAW53</r:other-id>
+        <r:name>Warszawska Wyzsza Szkola Informatyki</r:name>
+      </r:hei>
+      <r:hei id="ue.wroc.pl">
+        <r:other-id type="erasmus">PL WROCLAW03</r:other-id>
+        <r:name>UNIWERSYTET EKONOMICZNY WE WROCLAWIU</r:name>
+      </r:hei>
+      <r:hei id="umed.wroc.pl">
+        <r:other-id type="erasmus">PL WROCLAW05</r:other-id>
+        <r:name>UNIWERSYTET MEDYCZNY IM PIASTOW SLASKICH WE WROCLAWIU</r:name>
+      </r:hei>
+      <r:hei id="asp.wroc.pl">
+        <r:other-id type="erasmus">PL WROCLAW07</r:other-id>
+        <r:name>Akademia Sztuk Pieknych im.E.Gepperta we Wroclawiu</r:name>
+      </r:hei>
+      <r:hei id="edu.pl">
+        <r:other-id type="erasmus">PL WROCLAW21</r:other-id>
+        <r:name>Ewangelikalna Wyzsza Szkola Teologiczna</r:name>
+      </r:hei>
+      <r:hei id="uvvg.ro">
+        <r:other-id type="erasmus">RO ARAD02</r:other-id>
+        <r:name>Universitatea de Vest Vasile Goldis din Arad</r:name>
+      </r:hei>
+      <r:hei id="unitbv.ro">
+        <r:other-id type="erasmus">RO BRASOV01</r:other-id>
+        <r:name>UNIVERSITATEA TRANSILVANIA DIN BRASOV</r:name>
+      </r:hei>
+      <r:hei id="unefsb.ro">
+        <r:other-id type="erasmus">RO BUCURES06</r:other-id>
+        <r:name>UNIVERSITATEA NATIONALA DE EDUCATIE FIZICA SI SPORT DIN BUCURESTI</r:name>
+      </r:hei>
+      <r:hei id="unibuc.ro">
+        <r:other-id type="erasmus">RO BUCURES09</r:other-id>
+        <r:name>UNIVERSITATEA DIN BUCURESTI</r:name>
+      </r:hei>
+      <r:hei id="upb.ro">
+        <r:other-id type="erasmus">RO BUCURES11</r:other-id>
+        <r:name>UNIVERSITATEA POLITEHNICA DIN BUCURESTI</r:name>
+      </r:hei>
+      <r:hei id="usamv.ro">
+        <r:other-id type="erasmus">RO BUCURES12</r:other-id>
+        <r:name>UNIVERSITATEA DE STIINTE AGRONOMICE SI MEDICINA VETERINARA DIN BUCURESTI</r:name>
+      </r:hei>
+      <r:hei id="utm.ro">
+        <r:other-id type="erasmus">RO BUCURES16</r:other-id>
+        <r:name>Titu Maiorescu University</r:name>
+      </r:hei>
+      <r:hei id="spiruharet.ro">
+        <r:other-id type="erasmus">RO BUCURES20</r:other-id>
+        <r:name>UNIVERSITATEA SPIRU HARET</r:name>
+      </r:hei>
+      <r:hei id="ubbcluj.ro">
+        <r:other-id type="erasmus">RO CLUJNAP01</r:other-id>
+        <r:name>UNIVERSITATEA BABES BOLYAI</r:name>
+      </r:hei>
+      <r:hei id="usamvcluj.ro">
+        <r:other-id type="erasmus">RO CLUJNAP04</r:other-id>
+        <r:name>UNIVERSITATEA DE STIINTE AGRICOLE SI MEDICINA VETERINARA CLUJ NAPOCA</r:name>
+      </r:hei>
+      <r:hei id="sapientia.ro">
+        <r:other-id type="erasmus">RO CLUJNAP07</r:other-id>
+        <r:name>UNIVERSITATEA SAPIENTIA DIN MUNICIPIUL CLUJ-NAPOCA</r:name>
+      </r:hei>
+      <r:hei id="ucv.ro">
+        <r:other-id type="erasmus">RO CRAIOVA01</r:other-id>
+        <r:name>UNIVERSITATEA DIN CRAIOVA</r:name>
+      </r:hei>
+      <r:hei id="uaic.ro">
+        <r:other-id type="erasmus">RO IASI02</r:other-id>
+        <r:name>UNIVERSITATEA ALEXANDRU IOAN CUZA DIN IASI</r:name>
+      </r:hei>
+      <r:hei id="uaiasi.ro">
+        <r:other-id type="erasmus">RO IASI03</r:other-id>
+        <r:name>UNIVERSITATEA DE STIINTE AGRICOLE SI MEDICINA VETERINARA ION IONESCU DE LA BRAD DIN IASI</r:name>
+      </r:hei>
+      <r:hei id="umfiasi.ro">
+        <r:other-id type="erasmus">RO IASI04</r:other-id>
+        <r:name>UNIVERSITATEA DE MEDICINA SI FARMACIE GRIGORE T.POPA IASI</r:name>
+      </r:hei>
+      <r:hei id="tuiasi.ro">
+        <r:other-id type="erasmus">RO IASI05</r:other-id>
+        <r:name>UNIVERSITATEA TEHNICA GHEORGHE ASACHI DIN IASI</r:name>
+      </r:hei>
+      <r:hei id="demo.eu">
+        <r:other-id type="erasmus">RO PITESTI01</r:other-id>
+        <r:name>UNIVERSITATEA DIN PITESTI</r:name>
+      </r:hei>
+      <r:hei id="uem.ro">
+        <r:other-id type="erasmus">RO RESITA01</r:other-id>
+        <r:name>Universitatea 'Eftimie Murgu' din Resita</r:name>
+      </r:hei>
+      <r:hei id="ulbsibiu.ro">
+        <r:other-id type="erasmus">RO SIBIU01</r:other-id>
+        <r:name>UNIVERSITATEA LUCIAN BLAGA DIN SIBIU</r:name>
+      </r:hei>
+      <r:hei id="utgjiu.ro">
+        <r:other-id type="erasmus">RO TARGU04</r:other-id>
+        <r:name>UNIVERSITATEA CONSTANTIN BRANCUSI TARGU JIU</r:name>
+      </r:hei>
+      <r:hei id="uvt.ro">
+        <r:other-id type="erasmus">RO TIMISOA01</r:other-id>
+        <r:name>UNIVERSITATEA DE VEST DIN TIMISOARA</r:name>
+      </r:hei>
+      <r:hei id="upt.ro">
+        <r:other-id type="erasmus">RO TIMISOA04</r:other-id>
+        <r:name>UNIVERSITATEA POLITEHNICA TIMISOARA</r:name>
+      </r:hei>
+      <r:hei id="uns.ac.rs">
+        <r:other-id type="erasmus">RS NOVISAD02</r:other-id>
+        <r:name>Univerzitet U Novom Sadu</r:name>
+      </r:hei>
+      <r:hei id="hkr.se">
+        <r:other-id type="erasmus">S KRISTIA01</r:other-id>
+        <r:name>HOEGSKOLAN KRISTIANSTAD</r:name>
+      </r:hei>
+      <r:hei id="hhs.se">
+        <r:other-id type="erasmus">S STOCKHO05</r:other-id>
+        <r:name>HANDELSHOGSKOLAN I STOCKHOLM</r:name>
+      </r:hei>
+      <r:hei id="rkh.se">
+        <r:other-id type="erasmus">S STOCKHO18</r:other-id>
+        <r:name>Stiftelsen Rödakorshemmet/Röda Korsets Högskola</r:name>
+      </r:hei>
+      <r:hei id="lnu.se">
+        <r:other-id type="erasmus">S VAXJO03</r:other-id>
+        <r:name>LINNEUNIVERSITETET</r:name>
+      </r:hei>
+      <r:hei id="hamk.fi">
+        <r:other-id type="erasmus">SF HAMEENL09</r:other-id>
+        <r:name>HAMEEN AMMATTIKORKEAKOULU OY</r:name>
+      </r:hei>
+      <r:hei id="seamk.fi">
+        <r:other-id type="erasmus">SF SEINAJO06</r:other-id>
+        <r:name>SEINAJOEN AMMATTIKORKEAKOULU OY</r:name>
+      </r:hei>
+      <r:hei id="tuni.fi">
+        <r:other-id type="erasmus">SF TAMPERE06</r:other-id>
+        <r:name>TAMPEREEN AMMATTIKORKEAKOULU OY</r:name>
+      </r:hei>
+      <r:hei id="utu.fi">
+        <r:other-id type="erasmus">SF TURKU01</r:other-id>
+        <r:name>TURUN YLIOPISTO</r:name>
+      </r:hei>
+      <r:hei id="fuds.si">
+        <r:other-id type="erasmus">SI NOVA-GO02</r:other-id>
+        <r:name>FAKULTETA ZA UPORABNE DRUZBENE STUDIJE V NOVI GORICI ZAVOD</r:name>
+      </r:hei>
+      <r:hei id="gea-college.si">
+        <r:other-id type="erasmus">SI PORTORO02</r:other-id>
+        <r:name>GEA College - Fakulteta za podjetnistvo</r:name>
+      </r:hei>
+      <r:hei id="umb.sk">
+        <r:other-id type="erasmus">SK BANSKA01</r:other-id>
+        <r:name>UNIVERZITA MATEJA BELA V BANSKEJ BYSTRICI</r:name>
+      </r:hei>
+      <r:hei id="aku.sk">
+        <r:other-id type="erasmus">SK BANSKA02</r:other-id>
+        <r:name>Akademia umeni v Banskej Bystrici</r:name>
+      </r:hei>
+      <r:hei id="euba.sk">
+        <r:other-id type="erasmus">SK BRATISL03</r:other-id>
+        <r:name>EKONOMICKA UNIVERZITA V BRATISLAVE</r:name>
+      </r:hei>
+      <r:hei id="vsvu.sk">
+        <r:other-id type="erasmus">SK BRATISL04</r:other-id>
+        <r:name>VYSOKA SKOLA VYTVARNYCH UMENI V BRATISLAVE</r:name>
+      </r:hei>
+      <r:hei id="vsmu.sk">
+        <r:other-id type="erasmus">SK BRATISL05</r:other-id>
+        <r:name>Vysoka skola múzických umení v Bratislave</r:name>
+      </r:hei>
+      <r:hei id="paneurouni.com">
+        <r:other-id type="erasmus">SK BRATISL08</r:other-id>
+        <r:name>Paneuropean University</r:name>
+      </r:hei>
+      <r:hei id="vsemvs.sk">
+        <r:other-id type="erasmus">SK BRATISL13</r:other-id>
+        <r:name>VYSOKA SKOLA EKONOMIE A MANAZMENTUVEREJNEJ SPRAVY V BRATISLAVE</r:name>
+      </r:hei>
+      <r:hei id="ujs.sk">
+        <r:other-id type="erasmus">SK KOMARNO01</r:other-id>
+        <r:name>Univerzita J. Selyeho</r:name>
+      </r:hei>
+      <r:hei id="upjs.sk">
+        <r:other-id type="erasmus">SK KOSICE02</r:other-id>
+        <r:name>UNIVERZITA PAVLA JOZEFA SAFARIKA V KOSICIACH </r:name>
+      </r:hei>
+      <r:hei id="tuke.sk">
+        <r:other-id type="erasmus">SK KOSICE03</r:other-id>
+        <r:name>TECHNICKA UNIVERZITA V KOSICIACH</r:name>
+      </r:hei>
+      <r:hei id="vsbm.sk">
+        <r:other-id type="erasmus">SK KOSICE04</r:other-id>
+        <r:name>VYSOKA SKOLA BEZPECNOSTNEHO MANAZERSTVA V KOSICIACH NEZISKOVA ORGANIZACIA</r:name>
+      </r:hei>
+      <r:hei id="ukf.sk">
+        <r:other-id type="erasmus">SK NITRA01</r:other-id>
+        <r:name>UNIVERZITA KONSTANTINA FILOZOFA V NITRE</r:name>
+      </r:hei>
+      <r:hei id="unipo.sk">
+        <r:other-id type="erasmus">SK PRESOV01</r:other-id>
+        <r:name>PRESOVSKA UNIVERZITA V PRESOVE</r:name>
+      </r:hei>
+      <r:hei id="ku.sk">
+        <r:other-id type="erasmus">SK RUZOMBE01</r:other-id>
+        <r:name>KATOLICKA UNIVERZITA V RUZOMBERKU</r:name>
+      </r:hei>
+      <r:hei id="vsdanubius.sk">
+        <r:other-id type="erasmus">SK SLADKOV01</r:other-id>
+        <r:name>Vysoka skola Danubius s.r.o.</r:name>
+      </r:hei>
+      <r:hei id="tnuni.sk">
+        <r:other-id type="erasmus">SK TRENCIN01</r:other-id>
+        <r:name>TRENCIANSKA UNIVERZITA ALEXANDRA DUBCEKA V TRENCINE</r:name>
+      </r:hei>
+      <r:hei id="vsm.sk">
+        <r:other-id type="erasmus">SK TRENCIN02</r:other-id>
+        <r:name>VYSOKA SKOLA MANAZMENTU V TRENCINE</r:name>
+      </r:hei>
+      <r:hei id="ucm.sk">
+        <r:other-id type="erasmus">SK TRNAVA02</r:other-id>
+        <r:name>UNIVERZITA SV CYRILA A METODA V TRNAVE</r:name>
+      </r:hei>
+      <r:hei id="uniza.sk">
+        <r:other-id type="erasmus">SK ZILINA01</r:other-id>
+        <r:name>ZILINSKA UNIVERZITA V ZILINE</r:name>
+      </r:hei>
+      <r:hei id="tuzvo.sk">
+        <r:other-id type="erasmus">SK ZVOLEN01</r:other-id>
+        <r:name>TECHNICKA UNIVERZITA VO ZVOLENE</r:name>
+      </r:hei>
+      <r:hei id="ufuk.edu.tr">
+        <r:other-id type="erasmus">TR ANKARA19</r:other-id>
+        <r:name>Ufuk University</r:name>
+      </r:hei>
+      <r:hei id="balikesir.edu.tr">
+        <r:other-id type="erasmus">TR BALIKES01</r:other-id>
+        <r:name>Balıkesir University</r:name>
+      </r:hei>
+      <r:hei id="mku.edu.tr">
+        <r:other-id type="erasmus">TR HATAY01</r:other-id>
+        <r:name>MUSTAFA KEMAL UNIVERSITY</r:name>
+      </r:hei>
+      <r:hei id="medipol.edu.tr">
+        <r:other-id type="erasmus">TR ISTANBU36</r:other-id>
+        <r:name>ISTANBUL MEDIPOL UNIVERSITESI VAFKI</r:name>
+      </r:hei>
+      <r:hei id="istinye.edu.tr">
+        <r:other-id type="erasmus">TR ISTANBU61</r:other-id>
+        <r:name>Istinye Universitesi</r:name>
+      </r:hei>
+      <r:hei id="gtu.edu.tr">
+        <r:other-id type="erasmus">TR KOCAELI01</r:other-id>
+        <r:name>GEBZE TEKNIK UNIVERSITESI</r:name>
+      </r:hei>
+      <r:hei id="mersin.edu.tr">
+        <r:other-id type="erasmus">TR MERSIN01</r:other-id>
+        <r:name>MERSIN UNIVERSITESI</r:name>
+      </r:hei>
+      <r:hei id="ktu.edu.tr">
+        <r:other-id type="erasmus">TR TRABZON01</r:other-id>
+        <r:name>KARADENIZ TEKNIK UNIVERSITESI</r:name>
+      </r:hei>
+      <r:hei id="hw.ac.uk">
+        <r:other-id type="erasmus">UK EDINBUR02</r:other-id>
+        <r:name>HERIOT-WATT UNIVERSITY</r:name>
+      </r:hei>
+      <r:hei id="gla.ac.uk">
+        <r:other-id type="erasmus">UK GLASGOW01</r:other-id>
+        <r:name>UNIVERSITY OF GLASGOW</r:name>
+      </r:hei>
+    </institutions-covered>
+    <client-credentials-in-use>
+      <certificate>MIIF8zCCA9ugAwIBAgIUE5Laj4kUgkujSUFoAePB6hkI4c4wDQYJKoZIhvcNAQELBQAwgYgxCzAJBgNVBAYTAkJFMREwDwYDVQQIDAhCcnVzc2VsczERMA8GA1UEBwwIQnJ1c3NlbHMxDDAKBgNVBAoMA0VVRjEiMCAGA1UEAwwZdW5pem9uZS1ld3AuaGVyb2t1YXBwLmNvbTEhMB8GCSqGSIb3DQEJARYSZnBlaXhvdG9AdXBvcnRvLnB0MB4XDTE5MDgxNjEwMjAyNFoXDTIwMDgxNTEwMjAyNFowgYgxCzAJBgNVBAYTAkJFMREwDwYDVQQIDAhCcnVzc2VsczERMA8GA1UEBwwIQnJ1c3NlbHMxDDAKBgNVBAoMA0VVRjEiMCAGA1UEAwwZdW5pem9uZS1ld3AuaGVyb2t1YXBwLmNvbTEhMB8GCSqGSIb3DQEJARYSZnBlaXhvdG9AdXBvcnRvLnB0MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAwU1Y9wB8mDyHKdIvhVGfRmp2AtEJgGKfujfwpKVU34wM6Ijx6XxsG3oHdNolZlHLRgRSLAXWYBN5TBTCLT6EUukthZaUQe/OjuaVjECAiu52kFkDGGKHRAycIygJlIqCzVCe8RIb++dkgIAWyqa5UTMhX8kKW/NRcqAtiZW/70K+ldY6m3e1vwi45+nWZzcURAgyUX+XVtlDjwq/cvAmixkV7ZB5buM8oX5yf6Dx0HOpIM5Hy0CtvkvQCXqJnHDxt+aSPFZYUlZiQqf2+rWvs8OUdS3+R5dGS7pdJh1AdArgZ5Mw+1vIWK2ZslwJw7NOV8FBreYJ8h0jmrrXXtgWQ/29PCluWyHV+oWFv3rZDrt1pAuBTQCw7tnbJFe/inN6Syx7MOR9wYaUbQ/E0x5baOGWI39Q7eXfVKM2HOwg1ZRxwjylU//mLpIwzR9VCnDdkVEtiK4LrltUDvI2OJ2kqZVWA5bc+6mKHf0QCTBC+gHT7+anTZPacX6+0eDyiyzhjNIq+QxZ54dgYWr5lIJEPg92N6qFKvuTB/lrPwoHMh/SthhGVWlfytzUibQQoZzQTPO8utj1MUJ3bgkf0AUj9LDDTrX2rc9eBq1qvRwqibcRvJtMfLccr57nm7md5IbjxQHbwo+rOufj46n2h3Dm9GU6U4pluBHHM1iq0pvAGT8CAwEAAaNTMFEwHQYDVR0OBBYEFLoH0fhJTNWKTWotBgIKnsrQEVUSMB8GA1UdIwQYMBaAFLoH0fhJTNWKTWotBgIKnsrQEVUSMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggIBAKkvMgdlm6nR8EKmQJrl5YE9+3W2Qx9Ih9TaQTBPd2tG2ldSu0VtCK1VjLkdZbjTgLKeiNKLi0g3Tr4KQ89BXezHz7WTiHFeIj2linFXriX6QhfvzSHStlp/58KJ/PYBGtBc5FZd7OVK4LYnx8dd39ZTrF7j+/qcgLb9sV24Qxs3bieet80IEKQa9b0k1A1OedWZlHecfuQ3FjfzzpnrW1qQoR22vDa4WGkDEzSxsxkp65iUQlODk/z473u3EY8Ghy/7Ei81XjvusEbar+0CbXPZjf4li00eQGkRl2hAEPveqZJUE5Y4wglYY04GbSLJjrF/JLu6w9Va4IMbE7+sjtNEo/gm3w8Q++vnMP7lq0r5YSjAU/JQrzcHPKo7/OUbMrDc8KZ6IWAOgGMLAGPQryYhnSsasp/OZ/Fqesu+wh9sUHfQ8z/5IILDr8UQE8UZ5Ukl8n4B1URR4NffczOVYkJGAgQIxE9TqxKuBJ13SkgkEniW75P1WkRIX5JB1YShEoCmxtXnCLpMuRbw/TGjxt2I9TKXfQFFJ0QObN1MRQzjZUZHfb95R/p67fCAD+fEdFBB2e95qwl6UZG8FmdU4AjN28rlF5CUileAjoGQSGJooDm6N9rKxOgWcq3B6iva2zkzgY16hQRLiD9X67EnCHzGB94QtTR2IttXCG+v2vqH</certificate>
+      <rsa-public-key>MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAwU1Y9wB8mDyHKdIvhVGfRmp2AtEJgGKfujfwpKVU34wM6Ijx6XxsG3oHdNolZlHLRgRSLAXWYBN5TBTCLT6EUukthZaUQe/OjuaVjECAiu52kFkDGGKHRAycIygJlIqCzVCe8RIb++dkgIAWyqa5UTMhX8kKW/NRcqAtiZW/70K+ldY6m3e1vwi45+nWZzcURAgyUX+XVtlDjwq/cvAmixkV7ZB5buM8oX5yf6Dx0HOpIM5Hy0CtvkvQCXqJnHDxt+aSPFZYUlZiQqf2+rWvs8OUdS3+R5dGS7pdJh1AdArgZ5Mw+1vIWK2ZslwJw7NOV8FBreYJ8h0jmrrXXtgWQ/29PCluWyHV+oWFv3rZDrt1pAuBTQCw7tnbJFe/inN6Syx7MOR9wYaUbQ/E0x5baOGWI39Q7eXfVKM2HOwg1ZRxwjylU//mLpIwzR9VCnDdkVEtiK4LrltUDvI2OJ2kqZVWA5bc+6mKHf0QCTBC+gHT7+anTZPacX6+0eDyiyzhjNIq+QxZ54dgYWr5lIJEPg92N6qFKvuTB/lrPwoHMh/SthhGVWlfytzUibQQoZzQTPO8utj1MUJ3bgkf0AUj9LDDTrX2rc9eBq1qvRwqibcRvJtMfLccr57nm7md5IbjxQHbwo+rOufj46n2h3Dm9GU6U4pluBHHM1iq0pvAGT8CAwEAAQ==</rsa-public-key>
+    </client-credentials-in-use>
+    <server-credentials-in-use>
+      <rsa-public-key>MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAwU1Y9wB8mDyHKdIvhVGfRmp2AtEJgGKfujfwpKVU34wM6Ijx6XxsG3oHdNolZlHLRgRSLAXWYBN5TBTCLT6EUukthZaUQe/OjuaVjECAiu52kFkDGGKHRAycIygJlIqCzVCe8RIb++dkgIAWyqa5UTMhX8kKW/NRcqAtiZW/70K+ldY6m3e1vwi45+nWZzcURAgyUX+XVtlDjwq/cvAmixkV7ZB5buM8oX5yf6Dx0HOpIM5Hy0CtvkvQCXqJnHDxt+aSPFZYUlZiQqf2+rWvs8OUdS3+R5dGS7pdJh1AdArgZ5Mw+1vIWK2ZslwJw7NOV8FBreYJ8h0jmrrXXtgWQ/29PCluWyHV+oWFv3rZDrt1pAuBTQCw7tnbJFe/inN6Syx7MOR9wYaUbQ/E0x5baOGWI39Q7eXfVKM2HOwg1ZRxwjylU//mLpIwzR9VCnDdkVEtiK4LrltUDvI2OJ2kqZVWA5bc+6mKHf0QCTBC+gHT7+anTZPacX6+0eDyiyzhjNIq+QxZ54dgYWr5lIJEPg92N6qFKvuTB/lrPwoHMh/SthhGVWlfytzUibQQoZzQTPO8utj1MUJ3bgkf0AUj9LDDTrX2rc9eBq1qvRwqibcRvJtMfLccr57nm7md5IbjxQHbwo+rOufj46n2h3Dm9GU6U4pluBHHM1iq0pvAGT8CAwEAAQ==</rsa-public-key>
+    </server-credentials-in-use>
+  </host>
+  <host>
+    <ewp:admin-email>fpeixoto@uporto.pt</ewp:admin-email>
+    <ewp:admin-email>daiga.kuzmane@uni-foundation.eu</ewp:admin-email>
+    <ewp:admin-notes>Manifest File for general endpoints Erasmus Dashboard.</ewp:admin-notes>
+    <r:apis-implemented>
       <discovery xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v5/manifest-entry.xsd" version="5.0.0">
         <url>https://unizoneewp.herokuapp.com/rest/manifest</url>
       </discovery>
