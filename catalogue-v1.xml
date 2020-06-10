@@ -7948,120 +7948,6 @@
         </server-credentials-in-use>
     </host>
     <host>
-        <apis-implemented>
-            <d5:discovery version="5.0.0">
-                <d5:url>https://mobility.meduniwien.ac.at/mobility/ewp/manifest?api=all</d5:url>
-            </d5:discovery>
-            <e2:echo version="2.0.0">
-                <e2:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A2:httpsig/>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B2:httpsig/>
-                        <sec-B1:tlscert/>
-                    </sec:server-auth-methods>
-                </e2:http-security>
-                <e2:url>https://mobility.meduniwien.ac.at/mobility/ewp/echo</e2:url>
-            </e2:echo>
-        </apis-implemented>
-        <client-credentials-in-use>
-            <certificate sha-256="b9327ada144b011d376d020a108cdfdf8737c78ff060a1c6cb33c695573407ce"/>
-            <rsa-public-key sha-256="7af6f7aaac6f1d17b9fefcab9712ed4f65e9d6adf1e3a6120354d9f2f697b1ff"/>
-        </client-credentials-in-use>
-        <server-credentials-in-use>
-            <rsa-public-key sha-256="7af6f7aaac6f1d17b9fefcab9712ed4f65e9d6adf1e3a6120354d9f2f697b1ff"/>
-        </server-credentials-in-use>
-    </host>
-    <host>
-        <apis-implemented>
-            <d5:discovery version="5.0.0">
-                <d5:url>https://mobility.univ-lorraine.fr/mobility/ewp/manifest?api=all</d5:url>
-            </d5:discovery>
-            <e2:echo version="2.0.0">
-                <e2:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A2:httpsig/>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B2:httpsig/>
-                        <sec-B1:tlscert/>
-                    </sec:server-auth-methods>
-                </e2:http-security>
-                <e2:url>https://mobility.univ-lorraine.fr/mobility/ewp/echo</e2:url>
-            </e2:echo>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>univ-lorraine.fr</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <certificate sha-256="e9c80a2acbf332bb7dceaee8a81c11ac308a35589806929f91537aecf4b156dc"/>
-            <rsa-public-key sha-256="3310d13c4313caf73c68786934a860ce8e408c6120b2e97aeaf6b2f61051418f"/>
-        </client-credentials-in-use>
-        <server-credentials-in-use>
-            <rsa-public-key sha-256="3310d13c4313caf73c68786934a860ce8e408c6120b2e97aeaf6b2f61051418f"/>
-        </server-credentials-in-use>
-    </host>
-    <host>
-        <apis-implemented>
-            <in2:institutions version="2.1.0">
-                <in2:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A2:httpsig/>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B2:httpsig/>
-                        <sec-B1:tlscert/>
-                    </sec:server-auth-methods>
-                </in2:http-security>
-                <in2:url>https://mobility.univ-lorraine.fr/mobility/ewp/institutions</in2:url>
-                <in2:max-hei-ids>3</in2:max-hei-ids>
-            </in2:institutions>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>univ-lorraine.fr</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <certificate sha-256="e9c80a2acbf332bb7dceaee8a81c11ac308a35589806929f91537aecf4b156dc"/>
-            <rsa-public-key sha-256="3310d13c4313caf73c68786934a860ce8e408c6120b2e97aeaf6b2f61051418f"/>
-        </client-credentials-in-use>
-        <server-credentials-in-use>
-            <rsa-public-key sha-256="3310d13c4313caf73c68786934a860ce8e408c6120b2e97aeaf6b2f61051418f"/>
-        </server-credentials-in-use>
-    </host>
-    <host>
-        <apis-implemented>
-            <ou2:organizational-units version="2.1.0">
-                <ou2:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A2:httpsig/>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B2:httpsig/>
-                        <sec-B1:tlscert/>
-                    </sec:server-auth-methods>
-                </ou2:http-security>
-                <ou2:url>https://mobility.univ-lorraine.fr/mobility/ewp/ounits</ou2:url>
-                <ou2:max-ounit-ids>3</ou2:max-ounit-ids>
-                <ou2:max-ounit-codes>3</ou2:max-ounit-codes>
-            </ou2:organizational-units>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>univ-lorraine.fr</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <certificate sha-256="e9c80a2acbf332bb7dceaee8a81c11ac308a35589806929f91537aecf4b156dc"/>
-            <rsa-public-key sha-256="3310d13c4313caf73c68786934a860ce8e408c6120b2e97aeaf6b2f61051418f"/>
-        </client-credentials-in-use>
-        <server-credentials-in-use>
-            <rsa-public-key sha-256="3310d13c4313caf73c68786934a860ce8e408c6120b2e97aeaf6b2f61051418f"/>
-        </server-credentials-in-use>
-    </host>
-    <host>
         <ewp:admin-email>oasis-ewp@ugent.be</ewp:admin-email>
         <apis-implemented>
             <d5:discovery version="5.0.0">
@@ -17593,11 +17479,6 @@
             <other-id type="erasmus">F LILLE103</other-id>
             <name xml:lang="en">Universit? de Lille</name>
         </hei>
-        <hei id="univ-lorraine.fr">
-            <other-id type="euc">264194</other-id>
-            <name xml:lang="en">Université de Lorraine</name>
-            <name xml:lang="fr">Université de Lorraine</name>
-        </hei>
         <hei id="univ-lyon2.fr">
             <other-id type="erasmus">F  LYON02</other-id>
             <other-id type="euc">28426</other-id>
@@ -18160,14 +18041,6 @@
             fyMkvWj+5CShvbqVdXUBIYRHwOAvOP1qSA0GUlh0Njs98rz6U4tDS5oRuIuDO9odpHvyq5sa2ALr
             5eGI5QIDAQAB
         </rsa-public-key>
-        <rsa-public-key sha-256="3310d13c4313caf73c68786934a860ce8e408c6120b2e97aeaf6b2f61051418f">
-            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzzqd3mVoY+gAxKSGFWuTRlDseUCsIW+4
-            aVQXRCh3TdLvUWr40++Y4YTRI0uKI16S+92sVH2WsGFz0yMr0l81INSY4Vdft9Zno691MVq5p+iV
-            Y+ffk011CowSjX4z5jgv86xwTCNCLqRc22THeZMA7+UvzTzgI0v/ZqwTiQ9RT5Lwc8iYXM3miCSD
-            936gdfI49kaZHPxkzi7j79uPHi9SoMXc+312ZUPDu6stYQ0jiMTBxWKQnJRhtOfDvEppfA+QMQ98
-            O4XU8sxKlf/dcX66rx8srqOjt2JQg7e/vfokJQMzodXXtCf+8uBdQWWZ4t+EcATx2cpjaREndBkR
-            n4KEgQIDAQAB
-        </rsa-public-key>
         <rsa-public-key sha-256="350396ab93700b1bea9fab518aad99f216c86c4264dab082f143f872c3dd01a6">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnImuhavC/SRBJ2rayROW657vV/zFM6oz
             M81mz8wZrHHmpQ4EDxF3rjLMTuKkz3LOnGh159F6P+XQfIOldY1K58SjGEeHSSVB+UDznIlgITa2
@@ -18315,14 +18188,6 @@
             Ikh2HcW5slcLwRihGZzQA1UccqBNuuCVY7a1XY/C84qNcmRwcZzzHfqJyMVp/V3eoxeT7ZMYp3Fh
             IdXSQjcBL5LQXMbg7OpCVgSn+tQYO/gCnUcPEbNnChH3Y9rWBGIijkc2A2itvVjjL6ey+4vfbRdi
             l6EzpwIDAQAB
-        </rsa-public-key>
-        <rsa-public-key sha-256="7af6f7aaac6f1d17b9fefcab9712ed4f65e9d6adf1e3a6120354d9f2f697b1ff">
-            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4jsChSAwRiG83Ami8z2lMHyvFJeHbTF2
-            dmFa4YCNbtIA0+4fAdlT73sPDs1CmJpqdHBDdzAZbcQuhQSw2jLcjb+iKMgYxEdGeEA7YIuJR2kF
-            NO31iFTo8W2WvjxdRxPKOpiB2+AcD4jNWlSmHhOf1fLf5GjdRQyyuBgV6YoUcNpFTZz+lL4qw+UF
-            Gz0+oe+1v8bPWmV6b7/+nEl+2rNKYkkIc7rX4CcL1Mpq0LMvlcBLx5wBsagwjZBMNz+qzJj3qNXC
-            zjCOnBbkRCieLxqa4xvmx9pyun7bzSeNscb9qF/TS9vW+WPQztLqy2rJV8IeLjoQJHFh8W5szqMX
-            lsen1wIDAQAB
         </rsa-public-key>
         <rsa-public-key sha-256="7cfdc46c9c42a1a090b805e76a5d3fd0df87db0025c9487461292959ca90e6e8">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAr7Uz3oTeM/WbQVfmjyEpKsBT7+fpMScQ
