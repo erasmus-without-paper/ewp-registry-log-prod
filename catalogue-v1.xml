@@ -8640,6 +8640,14 @@
             <hei-id>su.se</hei-id>
             <hei-id>thm.de</hei-id>
             <hei-id>tu-dresden.de</hei-id>
+            <hei-id>tu-dortmund.de</hei-id>
+            <hei-id>udk-berlin.de</hei-id>
+            <hei-id>uni-saarland.de</hei-id>
+            <hei-id>thu.de</hei-id>
+            <hei-id>uni-due.de</hei-id>
+            <hei-id>unibas.ch</hei-id>
+            <hei-id>uni-greifswald.de</hei-id>
+            <hei-id>uni-jena.de</hei-id>
             <hei-id>uni-leipzig.de</hei-id>
             <hei-id>uni.lu</hei-id>
             <hei-id>uni-trier.de</hei-id>
@@ -8663,17 +8671,22 @@
             <hei-id>mdh.se</hei-id>
             <hei-id>oru.se</hei-id>
             <hei-id>universidadeuropea.es</hei-id>
+            <hei-id>ulb.be</hei-id>
             <hei-id>kpz.nl</hei-id>
             <hei-id>arcada.fi</hei-id>
             <hei-id>ism.de</hei-id>
             <hei-id>hof-university.de</hei-id>
+            <hei-id>ucn.dk</hei-id>
+            <hei-id>ucsyd.dk</hei-id>
             <hei-id>liu.se</hei-id>
             <hei-id>oamk.fi</hei-id>
             <hei-id>uvic.cat</hei-id>
             <hei-id>howest.be</hei-id>
             <hei-id>udc.es</hei-id>
             <hei-id>uax.es</hei-id>
+            <hei-id>ucm.es</hei-id>
             <hei-id>europa-uni.de</hei-id>
+            <hei-id>udl.cat</hei-id>
             <hei-id>han.nl</hei-id>
             <hei-id>insa-centrevaldeloire.fr</hei-id>
             <hei-id>univ-amu.fr</hei-id>
@@ -10809,6 +10822,182 @@
         <apis-implemented>
             <in2:institutions version="2.1.0">
                 <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <in2:url>https://tudo-ewp.moveon4.de/v1/institution</in2:url>
+                <in2:max-hei-ids>10</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.1.1">
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <ou2:url>https://tudo-ewp.moveon4.de/v1/ounit</ou2:url>
+                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>tu-dortmund.de</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
+        </client-credentials-in-use>
+    </host>
+    <host>
+        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+        <apis-implemented>
+            <in2:institutions version="2.1.0">
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <in2:url>https://udk-ewp.moveon4.de/v1/institution</in2:url>
+                <in2:max-hei-ids>10</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.1.1">
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <ou2:url>https://udk-ewp.moveon4.de/v1/ounit</ou2:url>
+                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>udk-berlin.de</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
+        </client-credentials-in-use>
+    </host>
+    <host>
+        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+        <apis-implemented>
+            <in2:institutions version="2.1.0">
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <in2:url>https://uds-ewp.moveon4.de/v1/institution</in2:url>
+                <in2:max-hei-ids>10</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.1.1">
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <ou2:url>https://uds-ewp.moveon4.de/v1/ounit</ou2:url>
+                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>uni-saarland.de</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
+        </client-credentials-in-use>
+    </host>
+    <host>
+        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+        <apis-implemented>
+            <in2:institutions version="2.1.0">
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <in2:url>https://ulm-ewp.moveon4.de/v1/institution</in2:url>
+                <in2:max-hei-ids>10</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.1.1">
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <ou2:url>https://ulm-ewp.moveon4.de/v1/ounit</ou2:url>
+                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>thu.de</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
+        </client-credentials-in-use>
+    </host>
+    <host>
+        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+        <apis-implemented>
+            <in2:institutions version="2.1.0">
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <in2:url>https://unidue-ewp.moveon4.de/v1/institution</in2:url>
+                <in2:max-hei-ids>10</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.1.1">
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <ou2:url>https://unidue-ewp.moveon4.de/v1/ounit</ou2:url>
+                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>uni-due.de</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
+        </client-credentials-in-use>
+    </host>
+    <host>
+        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+        <apis-implemented>
+            <in2:institutions version="2.1.0">
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <in2:url>https://unibas-ewp.moveon4.de/v1/institution</in2:url>
+                <in2:max-hei-ids>10</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.1.1">
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <ou2:url>https://unibas-ewp.moveon4.de/v1/ounit</ou2:url>
+                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>unibas.ch</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
+        </client-credentials-in-use>
+    </host>
+    <host>
+        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+        <apis-implemented>
+            <in2:institutions version="2.1.0">
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <in2:url>https://unigreifsw-ewp.moveon4.de/v1/institution</in2:url>
+                <in2:max-hei-ids>10</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.1.1">
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <ou2:url>https://unigreifsw-ewp.moveon4.de/v1/ounit</ou2:url>
+                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>uni-greifswald.de</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
+        </client-credentials-in-use>
+    </host>
+    <host>
+        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+        <apis-implemented>
+            <in2:institutions version="2.1.0">
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <in2:url>https://unijena-ewp.moveon4.de/v1/institution</in2:url>
+                <in2:max-hei-ids>10</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.1.1">
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <ou2:url>https://unijena-ewp.moveon4.de/v1/ounit</ou2:url>
+                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>uni-jena.de</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
+        </client-credentials-in-use>
+    </host>
+    <host>
+        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+        <apis-implemented>
+            <in2:institutions version="2.1.0">
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
                 <in2:url>https://unileipzig-ewp.moveon4.de/v1/institution</in2:url>
                 <in2:max-hei-ids>10</in2:max-hei-ids>
             </in2:institutions>
@@ -11315,6 +11504,28 @@
         <apis-implemented>
             <in2:institutions version="2.1.0">
                 <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <in2:url>https://ulb-ewp.moveon4.de/v1/institution</in2:url>
+                <in2:max-hei-ids>10</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.1.1">
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <ou2:url>https://ulb-ewp.moveon4.de/v1/ounit</ou2:url>
+                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>ulb.be</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
+        </client-credentials-in-use>
+    </host>
+    <host>
+        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+        <apis-implemented>
+            <in2:institutions version="2.1.0">
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
                 <in2:url>https://kpz-ewp.moveon4.de/v1/institution</in2:url>
                 <in2:max-hei-ids>10</in2:max-hei-ids>
             </in2:institutions>
@@ -11393,6 +11604,50 @@
         </apis-implemented>
         <institutions-covered>
             <hei-id>hof-university.de</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
+        </client-credentials-in-use>
+    </host>
+    <host>
+        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+        <apis-implemented>
+            <in2:institutions version="2.1.0">
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <in2:url>https://ucn-ewp.moveon4.de/v1/institution</in2:url>
+                <in2:max-hei-ids>10</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.1.1">
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <ou2:url>https://ucn-ewp.moveon4.de/v1/ounit</ou2:url>
+                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>ucn.dk</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
+        </client-credentials-in-use>
+    </host>
+    <host>
+        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+        <apis-implemented>
+            <in2:institutions version="2.1.0">
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <in2:url>https://ucsyd-ewp.moveon4.de/v1/institution</in2:url>
+                <in2:max-hei-ids>10</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.1.1">
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <ou2:url>https://ucsyd-ewp.moveon4.de/v1/ounit</ou2:url>
+                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>ucsyd.dk</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
@@ -11535,6 +11790,28 @@
         <apis-implemented>
             <in2:institutions version="2.1.0">
                 <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <in2:url>https://ucm-ewp.moveon4.de/v1/institution</in2:url>
+                <in2:max-hei-ids>10</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.1.1">
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <ou2:url>https://ucm-ewp.moveon4.de/v1/ounit</ou2:url>
+                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>ucm.es</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
+        </client-credentials-in-use>
+    </host>
+    <host>
+        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+        <apis-implemented>
+            <in2:institutions version="2.1.0">
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
                 <in2:url>https://europauni-ewp.moveon4.de/v1/institution</in2:url>
                 <in2:max-hei-ids>10</in2:max-hei-ids>
             </in2:institutions>
@@ -11547,6 +11824,28 @@
         </apis-implemented>
         <institutions-covered>
             <hei-id>europa-uni.de</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
+        </client-credentials-in-use>
+    </host>
+    <host>
+        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+        <apis-implemented>
+            <in2:institutions version="2.1.0">
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <in2:url>https://udl-ewp.moveon4.de/v1/institution</in2:url>
+                <in2:max-hei-ids>10</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.1.1">
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <ou2:url>https://udl-ewp.moveon4.de/v1/ounit</ou2:url>
+                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>udl.cat</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
@@ -16208,6 +16507,12 @@
             <other-id type="pic">991017767</other-id>
             <name xml:lang="en">Thomas More Mechelen-Antwerpen</name>
         </hei>
+        <hei id="thu.de">
+            <other-id type="erasmus">D  ULM02</other-id>
+            <other-id type="euc">29720</other-id>
+            <other-id type="pic">PIC 996311930</other-id>
+            <name xml:lang="en">Technische Hochschule Ulm</name>
+        </hei>
         <hei id="tilburguniversity.edu">
             <other-id type="erasmus">NL TILBURG01</other-id>
             <other-id type="pic">999899475</other-id>
@@ -16263,6 +16568,12 @@
             <other-id type="pic">999877844</other-id>
             <name xml:lang="de">TECHNISCHE UNIVERSITAET CHEMNITZ</name>
             <name xml:lang="en">CHEMNITZ UNIVERSITY OF TECHNOLOGY</name>
+        </hei>
+        <hei id="tu-dortmund.de">
+            <other-id type="erasmus">D  DORTMUN01</other-id>
+            <other-id type="euc">29783</other-id>
+            <other-id type="pic">999848453</other-id>
+            <name xml:lang="en">Technische Universität Dortmund</name>
         </hei>
         <hei id="tu-dresden.de">
             <other-id type="erasmus">D  DRESDEN02</other-id>
@@ -16486,9 +16797,18 @@
             <name xml:lang="en">UCLouvain</name>
             <name xml:lang="nl">UCLouvain</name>
         </hei>
+        <hei id="ucm.es">
+            <other-id type="erasmus">E  MADRID03</other-id>
+            <other-id type="euc">28606</other-id>
+            <other-id type="pic">999874546</other-id>
+            <name xml:lang="en">Universidad Complutense de Madrid</name>
+        </hei>
         <hei id="ucm.sk">
             <other-id type="erasmus">SK TRNAVA02</other-id>
             <name>UNIVERZITA SV CYRILA A METODA V TRNAVE</name>
+        </hei>
+        <hei id="ucn.dk">
+            <name xml:lang="en">Professionshøjskolen University College Nordjylland</name>
         </hei>
         <hei id="uco.fr">
             <other-id type="erasmus">F ANGERS04</other-id>
@@ -16497,6 +16817,7 @@
         <hei id="ucsyd.dk">
             <other-id type="erasmus">DK ESBJERG19</other-id>
             <name>UNIVERSITY COLLEGE SYDDANMARK</name>
+            <name xml:lang="en">University College South Denmark</name>
         </hei>
         <hei id="ucv.ro">
             <other-id type="erasmus">RO CRAIOVA01</other-id>
@@ -16515,8 +16836,15 @@
             <name xml:lang="en">Universidade da Coruña</name>
         </hei>
         <hei id="udk-berlin.de">
+            <other-id type="erasmus">D  BERLIN03</other-id>
             <other-id type="erasmus">D BERLIN03</other-id>
+            <other-id type="euc">28395</other-id>
+            <other-id type="pic">945595577</other-id>
             <name>UNIVERSITAT DER KUNSTE BERLIN</name>
+            <name xml:lang="en">Universität der Künste Berlin</name>
+        </hei>
+        <hei id="udl.cat">
+            <name xml:lang="en">Universitat de Lleida</name>
         </hei>
         <hei id="udo.edu">
             <other-id type="erasmus">D DORTMUN01</other-id>
@@ -16630,6 +16958,12 @@
             <other-id type="pic">998198774</other-id>
             <name xml:lang="en">Kazimierz Wielki University in Bydgoszcz</name>
             <name xml:lang="pl">Uniwersytet Kazimierza Wielkiego w Bydgoszczy</name>
+        </hei>
+        <hei id="ulb.be">
+            <other-id type="erasmus">B  BRUXEL04</other-id>
+            <other-id type="euc">28203</other-id>
+            <other-id type="pic">999986290</other-id>
+            <name xml:lang="en">Université Libre de Bruxelles</name>
         </hei>
         <hei id="ulbsibiu.ro">
             <other-id type="erasmus">RO SIBIU01</other-id>
@@ -16773,6 +17107,12 @@
             <other-id type="erasmus">HU BUDAPES03</other-id>
             <name>BUDAPESTI CORVINUS EGYETEM</name>
         </hei>
+        <hei id="uni-due.de">
+            <other-id type="erasmus">D  ESSEN04</other-id>
+            <other-id type="euc">220383</other-id>
+            <other-id type="pic">999843312</other-id>
+            <name xml:lang="en">Universität Duisburg-Essen</name>
+        </hei>
         <hei id="uni-duesseldorf.de">
             <other-id type="erasmus">D  DUSSELD01</other-id>
             <other-id type="euc">28538</other-id>
@@ -16827,6 +17167,9 @@
             <name xml:lang="de">Universität Graz</name>
             <name xml:lang="en">Universität Graz</name>
         </hei>
+        <hei id="uni-greifswald.de">
+            <name xml:lang="en">Universität Greifswald</name>
+        </hei>
         <hei id="uni-halle.de">
             <other-id type="erasmus">D  HALLE01</other-id>
             <other-id type="euc">28246-IC-1-2007-1-DE-ERASMUS-EUCX-1</other-id>
@@ -16868,6 +17211,9 @@
             <other-id type="pic">999901900</other-id>
             <name xml:lang="de">Universität Hohenheim</name>
             <name xml:lang="en">UNIVERSITY OF HOHENHEIM</name>
+        </hei>
+        <hei id="uni-jena.de">
+            <name xml:lang="en">Friedrich-Schiller-Universität Jena</name>
         </hei>
         <hei id="uni-kiel.de">
             <other-id type="erasmus">D  KIEL01</other-id>
@@ -16965,6 +17311,12 @@
             <other-id type="erasmus">BG ROUSSE01</other-id>
             <name>UNIVERSITY OF RUSE ANGEL KANCHEV</name>
         </hei>
+        <hei id="uni-saarland.de">
+            <other-id type="erasmus">D  SAARBRU01</other-id>
+            <other-id type="euc">29866</other-id>
+            <other-id type="pic">999929545</other-id>
+            <name xml:lang="en">Universität des Saarlandes</name>
+        </hei>
         <hei id="uni-siegen.de">
             <other-id type="erasmus">D  SIEGEN01</other-id>
             <other-id type="euc">28777</other-id>
@@ -17030,6 +17382,11 @@
             <other-id type="euc">240779</other-id>
             <other-id type="pic">999878620</other-id>
             <name xml:lang="en">Université du Luxembourg</name>
+        </hei>
+        <hei id="unibas.ch">
+            <other-id type="erasmus">CH BASEL01</other-id>
+            <other-id type="euc">259274</other-id>
+            <name xml:lang="en">Universität Basel</name>
         </hei>
         <hei id="unibe.ch">
             <other-id type="erasmus">CH BERN01</other-id>
