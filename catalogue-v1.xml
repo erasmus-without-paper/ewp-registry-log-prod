@@ -5230,6 +5230,39 @@
     </host>
     <host>
         <apis-implemented>
+            <om1:omobilities
+                xmlns:om1="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <om1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </om1:http-security>
+                <om1:get-url>https://mobility.univ-fcomte.fr/mobility/ewp/mobility_out/get</om1:get-url>
+                <om1:index-url>https://mobility.univ-fcomte.fr/mobility/ewp/mobility_out/index</om1:index-url>
+                <om1:max-omobility-ids>1</om1:max-omobility-ids>
+                <om1:sends-notifications/>
+            </om1:omobilities>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>univ-fcomte.fr</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="061f179cd6a190f6880684a64207ce899edbbf9a0175b72fcb2d142c6fd6395a"/>
+            <rsa-public-key sha-256="940f4b7b2b9f36020bf0357a41db00d819ff706ab50e61acdc23ac143045dfaa"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="940f4b7b2b9f36020bf0357a41db00d819ff706ab50e61acdc23ac143045dfaa"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
             <f1:factsheet
                 xmlns:f1="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
                 version="0.3.0"
