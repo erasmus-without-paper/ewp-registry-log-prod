@@ -21372,6 +21372,33 @@
             <rsa-public-key sha-256="48f7eb6826e884b05576dccf98f17fed2315d1c54b8178783e95b486a285241f"/>
         </server-credentials-in-use>
     </host>
+    <host>
+        <apis-implemented>
+            <d5:discovery version="5.0.0">
+                <d5:url>https://www.service4mobility.com/thdeg/ewp/manifest?api=all</d5:url>
+            </d5:discovery>
+            <e2:echo version="2.0.0">
+                <e2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </e2:http-security>
+                <e2:url>https://www.service4mobility.com/thdeg/ewp/echo</e2:url>
+            </e2:echo>
+        </apis-implemented>
+        <client-credentials-in-use>
+            <certificate sha-256="319c6f4626664c754c67424808b5d20de3ac415974fa8bfe01ae01fa154282ad"/>
+            <rsa-public-key sha-256="fc8f089c14b05edf405bba1404561f65e0883f130e37d1cc7c3639a427ce7602"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="fc8f089c14b05edf405bba1404561f65e0883f130e37d1cc7c3639a427ce7602"/>
+        </server-credentials-in-use>
+    </host>
     <institutions>
         <hei id="3il.fr">
             <other-id type="erasmus">F LIMOGES20</other-id>
@@ -26065,6 +26092,14 @@
             NVyFcwRZBG5odMyTZoaehvxmYLKlSZX6oJn4tkf+MTR7Emp7I6yVZ0oAwTLyMdtSpBgS8ee9faR/
             2ASvdUuDJG3IXTUnT/O+YT8P5HwNoTAnFuUOdLdCslEVOHLG6go1MmbLlg11Nf2bRJhLefm6KOga
             oZk6xwIDAQAB
+        </rsa-public-key>
+        <rsa-public-key sha-256="fc8f089c14b05edf405bba1404561f65e0883f130e37d1cc7c3639a427ce7602">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtruvMzdbrpaV69WbkHC//J50GTPW1VRC
+            8xDLy5HjERksrXRIwruKHvwjrZ0tUb/P8j0hfbmZlf8ZaJipQ4CqoUKXfdqt6HyD4QsenQ/Z/dRL
+            c6+5WpyVEBrruoi6gXsZhflUd8fVxv/WBeCUemE3HRetvxiZ2bI7HcYGHMRUg2A73rnowlPkKOwc
+            Zb6LTmfiCmM9rxoMejgRIEsjkvyCrfMVGu19JS8MZ3KnFmkHzrlxHG8jvZThBhs0cEU4iV53TSYC
+            6TPvFsocbjjUJZlAa8Wh9dHdGFlQe8HOqV5c2oqBGvKN3IY9cuKLbGMRQCCAPFtw16QorrAYZbo9
+            3DTxZwIDAQAB
         </rsa-public-key>
     </binaries>
 </catalogue>
