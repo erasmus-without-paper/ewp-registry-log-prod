@@ -5916,6 +5916,37 @@
                 <e2:url>https://mobility.fh-joanneum.at/mobility/ewp/echo</e2:url>
             </e2:echo>
         </apis-implemented>
+        <institutions-covered>
+            <hei-id>fh-joanneum.at</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="261a70d7055411bed051891c872a60f9c3ec9551fe8559f474bd7d376ad550e0"/>
+            <rsa-public-key sha-256="670b1922aa92145ef959a258aaf55c58e96612ab8f64ab22e3e4d11759ce5850"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="670b1922aa92145ef959a258aaf55c58e96612ab8f64ab22e3e4d11759ce5850"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <in2:institutions version="2.1.0">
+                <in2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </in2:http-security>
+                <in2:url>https://mobility.fh-joanneum.at/mobility/ewp/institutions</in2:url>
+                <in2:max-hei-ids>3</in2:max-hei-ids>
+            </in2:institutions>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>fh-joanneum.at</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="261a70d7055411bed051891c872a60f9c3ec9551fe8559f474bd7d376ad550e0"/>
             <rsa-public-key sha-256="670b1922aa92145ef959a258aaf55c58e96612ab8f64ab22e3e4d11759ce5850"/>
@@ -15852,6 +15883,13 @@
             <other-id type="euc">28737-IC-1-2007-1-DE-ERASMUS-EUCX-1</other-id>
             <other-id type="pic">986309678</other-id>
             <name xml:lang="en">FACHHOCHSCHULE DORTMUND</name>
+        </hei>
+        <hei id="fh-joanneum.at">
+            <other-id type="erasmus">A  GRAZ09</other-id>
+            <other-id type="euc">48339-IC-1-2007-1-AT-ERASMUS-EUCX-1</other-id>
+            <other-id type="pic">999489456</other-id>
+            <name xml:lang="de">FH JOANNEUM GESELLSCHAFT MBH</name>
+            <name xml:lang="en">FH JOANNEUM GESELLSCHAFT MBH</name>
         </hei>
         <hei id="fh-kaernten.at">
             <other-id type="erasmus">A  SPITTAL01</other-id>
