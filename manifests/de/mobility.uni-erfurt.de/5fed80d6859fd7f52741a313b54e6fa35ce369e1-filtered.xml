@@ -16,7 +16,7 @@
     xmlns:ns21="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v1/manifest-entry.xsd"
     xmlns:ns22="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
     xmlns:ns23="https://github.com/erasmus-without-paper/ewp-specs-api-iia-cnr/blob/stable-v2/manifest-entry.xsd"
-    xmlns:ns24="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v2/manifest-entry.xsd"
+    xmlns:ns24="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v3/manifest-entry.xsd"
     xmlns:ns25="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/blob/stable-v2/manifest-entry.xsd"
     xmlns:ns26="https://github.com/erasmus-without-paper/ewp-specs-api-institutions/blob/stable-v2/manifest-entry.xsd"
     xmlns:ns27="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd"
@@ -163,7 +163,7 @@ es7ecwIDAQAB&#xD;
     </ns3:host>
     <ns3:host>
         <ns2:apis-implemented>
-            <ns25:organizational-units version="2.1.0">
+            <ns25:organizational-units version="2.1.1">
                 <ns25:http-security>
                     <ns5:client-auth-methods>
                         <ns31:httpsig/>
@@ -178,69 +178,6 @@ es7ecwIDAQAB&#xD;
                 <ns25:max-ounit-ids>3</ns25:max-ounit-ids>
                 <ns25:max-ounit-codes>3</ns25:max-ounit-codes>
             </ns25:organizational-units>
-        </ns2:apis-implemented>
-        <ns3:institutions-covered>
-            <ns2:hei id="uni-erfurt.de">
-                <ns2:other-id type="pic">992560067</ns2:other-id>
-                <ns2:other-id type="erasmus">D  ERFURT05</ns2:other-id>
-                <ns2:other-id type="euc">81971-IC-1-2007-1-DE-ERASMUS-EUCX-1</ns2:other-id>
-                <ns2:other-id type="eche">81971-LA-1-2014-1-DE-E4AKA1-ECHE</ns2:other-id>
-                <ns2:name xml:lang="de">Universität Erfurt</ns2:name>
-                <ns2:name xml:lang="en">Universität Erfurt</ns2:name>
-            </ns2:hei>
-        </ns3:institutions-covered>
-        <ns3:client-credentials-in-use>
-            <ns3:certificate>MIIDcjCCAloCCQDWxc3tgyihMjANBgkqhkiG9w0BAQsFADB7MQswCQYDVQQGEwJBVDEPMA0GA1UE&#xD;
-CAwGVmllbm5hMQ8wDQYDVQQHDAZWaWVubmExGDAWBgNVBAoMD01vYmlsaXR5LU9ubGluZTEPMA0G&#xD;
-A1UECwwGTU8gRVdQMR8wHQYDVQQDDBZtb2JpbGl0eS51bmktZXJmdXJ0LmRlMB4XDTE4MDYwNTEz&#xD;
-MjYzMloXDTI4MDYwMjEzMjYzMlowezELMAkGA1UEBhMCQVQxDzANBgNVBAgMBlZpZW5uYTEPMA0G&#xD;
-A1UEBwwGVmllbm5hMRgwFgYDVQQKDA9Nb2JpbGl0eS1PbmxpbmUxDzANBgNVBAsMBk1PIEVXUDEf&#xD;
-MB0GA1UEAwwWbW9iaWxpdHkudW5pLWVyZnVydC5kZTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC&#xD;
-AQoCggEBALtNccSSNt4cKWWbLMpLl/lXJKd3nS+w2h8UvaH7q/5KPW3Rl2hPYdQ0PGK03tn9kJpT&#xD;
-gWXChy56GBfOAAPpjvhye77tJNw+K64K7a7DuAxyNu9EjmTvqD1cCbnPDXRYbRbO4Fi0KedBN1Vr&#xD;
-x0bDX5+smXnh4ZS9trTiGF2aUmWcYGTAjLVD98u2vE1SjTONKJbTymn4hLzXPJf1rYcmjEO+5VIe&#xD;
-qH/ysTgV26M2hK5pHny6/r5znqYaSKPqei5eqrxnCWk1QjXeK9OMUki1cvfbgXvQn+U/xm70ftKK&#xD;
-kllaynykJsoGt6ep39SUaWum6B5w0eYIWQeGIQcXonrO3nMCAwEAATANBgkqhkiG9w0BAQsFAAOC&#xD;
-AQEAax2q7ktJ+7rAwY3ZWLmmV/Zk4oE0D0dd6eQzdUvdUNo85vzSRMJvhgroIine8TFZPRB+Z/+Z&#xD;
-k0MyPeQwoNlBR1j3V16nczu0BWCF6M8cX1UGaov4DWH0TWzKumn6ooNFz9dVCKRv91rzdQLXRaHP&#xD;
-zLLXrS6nwQGEID0QqJ97rZQ+f0UG1PRQofd1sI+gft5/G+i2ZmkGLxBvjPWb2EYdMuzYemiP1mlA&#xD;
-UI70tW0DOKLwYPhQMJ9rhv+xJMXu7bFKu4YpqD+HOMcZrpu21Yeta/0EMcTgI4c/SYGJ0l9r5DgM&#xD;
-ayLwc5Y9uk/ncwEHr3idJkXTJ+bj7KPUodLwITOt4w==&#xD;
-</ns3:certificate>
-            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAu01xxJI23hwpZZssykuX+Vckp3edL7Da&#xD;
-HxS9ofur/ko9bdGXaE9h1DQ8YrTe2f2QmlOBZcKHLnoYF84AA+mO+HJ7vu0k3D4rrgrtrsO4DHI2&#xD;
-70SOZO+oPVwJuc8NdFhtFs7gWLQp50E3VWvHRsNfn6yZeeHhlL22tOIYXZpSZZxgZMCMtUP3y7a8&#xD;
-TVKNM40oltPKafiEvNc8l/WthyaMQ77lUh6of/KxOBXbozaErmkefLr+vnOephpIo+p6Ll6qvGcJ&#xD;
-aTVCNd4r04xSSLVy99uBe9Cf5T/GbvR+0oqSWVrKfKQmyga3p6nf1JRpa6boHnDR5ghZB4YhBxei&#xD;
-es7ecwIDAQAB&#xD;
-</ns3:rsa-public-key>
-        </ns3:client-credentials-in-use>
-        <ns3:server-credentials-in-use>
-            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAu01xxJI23hwpZZssykuX+Vckp3edL7Da&#xD;
-HxS9ofur/ko9bdGXaE9h1DQ8YrTe2f2QmlOBZcKHLnoYF84AA+mO+HJ7vu0k3D4rrgrtrsO4DHI2&#xD;
-70SOZO+oPVwJuc8NdFhtFs7gWLQp50E3VWvHRsNfn6yZeeHhlL22tOIYXZpSZZxgZMCMtUP3y7a8&#xD;
-TVKNM40oltPKafiEvNc8l/WthyaMQ77lUh6of/KxOBXbozaErmkefLr+vnOephpIo+p6Ll6qvGcJ&#xD;
-aTVCNd4r04xSSLVy99uBe9Cf5T/GbvR+0oqSWVrKfKQmyga3p6nf1JRpa6boHnDR5ghZB4YhBxei&#xD;
-es7ecwIDAQAB&#xD;
-</ns3:rsa-public-key>
-        </ns3:server-credentials-in-use>
-    </ns3:host>
-    <ns3:host>
-        <ns2:apis-implemented>
-            <ns6:factsheet version="0.1.0">
-                <ns6:http-security>
-                    <ns5:client-auth-methods>
-                        <ns31:httpsig/>
-                        <ns29:tlscert allows-self-signed="true"/>
-                    </ns5:client-auth-methods>
-                    <ns5:server-auth-methods>
-                        <ns32:httpsig/>
-                        <ns33:tlscert/>
-                    </ns5:server-auth-methods>
-                </ns6:http-security>
-                <ns6:url>https://mobility.uni-erfurt.de/mobility/ewp/factsheets</ns6:url>
-                <ns6:max-hei-ids>3</ns6:max-hei-ids>
-            </ns6:factsheet>
         </ns2:apis-implemented>
         <ns3:institutions-covered>
             <ns2:hei id="uni-erfurt.de">
