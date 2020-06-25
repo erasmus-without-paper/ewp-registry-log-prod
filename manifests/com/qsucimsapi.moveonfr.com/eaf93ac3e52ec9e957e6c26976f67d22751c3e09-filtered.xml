@@ -6099,7 +6099,19 @@ IwIDAQAB
     </ns3:host>
     <ns3:host>
         <admin-email>umesh@qs.com</admin-email>
-        <r:apis-implemented/>
+        <r:apis-implemented>
+            <in2:institutions version="2.1.0">
+                <admin-email>umesh@qs.com</admin-email>
+                <in2:url>https://unigreifsw-ewp.moveon4.de/v1/institution</in2:url>
+                <in2:max-hei-ids>10</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.1.1">
+                <admin-email>umesh@qs.com</admin-email>
+                <ou2:url>https://unigreifsw-ewp.moveon4.de/v1/ounit</ou2:url>
+                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </r:apis-implemented>
         <ns3:institutions-covered>
             <r:hei id="uni-greifswald.de">
                 <r:name xml:lang="en">Universität Greifswald</r:name>

@@ -11175,7 +11175,19 @@
     </host>
     <host>
         <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-        <apis-implemented/>
+        <apis-implemented>
+            <in2:institutions version="2.1.0">
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <in2:url>https://unigreifsw-ewp.moveon4.de/v1/institution</in2:url>
+                <in2:max-hei-ids>10</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.1.1">
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <ou2:url>https://unigreifsw-ewp.moveon4.de/v1/ounit</ou2:url>
+                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
         <institutions-covered>
             <hei-id>uni-greifswald.de</hei-id>
         </institutions-covered>
