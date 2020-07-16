@@ -8557,7 +8557,7 @@
                 <ewp:admin-email>umesh@qs.com</ewp:admin-email>
                 <d5:url>https://qsucimsapi.moveonfr.com/ewpapi/manifest</d5:url>
             </d5:discovery>
-            <e2:echo version="2.0.1">
+            <e2:echo version="2.0.0">
                 <ewp:admin-email>umesh@qs.com</ewp:admin-email>
                 <e2:http-security>
                     <sec:client-auth-methods>
@@ -8734,7 +8734,6 @@
             <hei-id>udl.cat</hei-id>
             <hei-id>han.nl</hei-id>
             <hei-id>insa-centrevaldeloire.fr</hei-id>
-            <hei-id>univ-amu.fr</hei-id>
             <hei-id>inholland.nl</hei-id>
             <hei-id>thomasmore.be</hei-id>
             <hei-id>usj.es</hei-id>
@@ -8749,6 +8748,7 @@
             <hei-id>univ-lyon2.fr</hei-id>
             <hei-id>skema.edu</hei-id>
             <hei-id>centralesupelec.fr</hei-id>
+            <hei-id>univ-amu.fr</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
@@ -23023,16 +23023,6 @@
     </host>
     <host>
         <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-        <apis-implemented/>
-        <institutions-covered>
-            <hei-id>univ-amu.fr</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
-        </client-credentials-in-use>
-    </host>
-    <host>
-        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
         <apis-implemented>
             <in2:institutions version="2.1.0">
                 <ewp:admin-email>umesh@qs.com</ewp:admin-email>
@@ -23981,6 +23971,17 @@
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
             <rsa-public-key sha-256="e4c7f55c93dc6e16e192943079a33d85aeef3cd6a6eaec1fcb21ac676c009fbc"/>
+        </client-credentials-in-use>
+    </host>
+    <host>
+        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+        <apis-implemented/>
+        <institutions-covered>
+            <hei-id>univ-amu.fr</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="d516b08f62a610d6dcc6d49c1251fa0548eb76b0c19c5cdee1745f83468f5598"/>
+            <rsa-public-key sha-256="5ce1e4f71890938899189d6058ea1e905aa723fc62e92af7c4b1701ee70d2ec5"/>
         </client-credentials-in-use>
     </host>
     <host>
@@ -30384,9 +30385,10 @@
         </hei>
         <hei id="univ-amu.fr">
             <other-id type="erasmus">F  MARSEIL84</other-id>
-            <other-id type="euc">263443</other-id>
-            <other-id type="pic">955518483</other-id>
-            <name xml:lang="en">Aix-Marseille Universit?</name>
+            <other-id type="erasmus-charter">218004</other-id>
+            <other-id type="euc">218004</other-id>
+            <other-id type="pic">943379224</other-id>
+            <name xml:lang="en">Ecole Nationale Supérieure d'Architecture de Marseille</name>
         </hei>
         <hei id="univ-angers.fr">
             <other-id type="erasmus">F  ANGERS01</other-id>
@@ -31193,6 +31195,14 @@
             Z2U5sBDTdDPltp0gyyMJDRfdYKvngBslXqvt3GKAN2YlbZjfrg+6bMBeIrVloTInCVxOTzVfyB6R
             MI16U7zzW+mEpClo2LXBiqi9SKcclGYAOKOkLUIGpSmELZwe+aDowpxOijRpZhuMSqPn3FI5q+3+
             60x3cQIDAQAB
+        </rsa-public-key>
+        <rsa-public-key sha-256="5ce1e4f71890938899189d6058ea1e905aa723fc62e92af7c4b1701ee70d2ec5">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7PPd5wXbf/c+JkwP//7j0SiWl3F0Bdf1
+            wfpbK1yu3SlqS2fTd8mtLQ9xfY8UmEKrW7a+MIUGDprmDc/7uBPi2EtkEBs39FwYvo2LhcxahdEi
+            ytI4e36T35tLCrbfRlOxe642eZbbDK9IkBQ5hgT+JFcu9u1rMOAePfSIVVXSlmb/bFYaR7UZsHIN
+            QIVq21UqjVK1lcwW9UYAsgZdhjxwNp2gvDEzVErnkIEC+4ZeXh/ChIc9MKUqwsEn1KU9TzXb3JDb
+            9AYVjCgJ55A7/qtirp59R7CvwTeiRo7un55u+MUznNz3h+cWfeceSoSqaltc6CarD0n/F4IvvktU
+            gzG7fwIDAQAB
         </rsa-public-key>
         <rsa-public-key sha-256="640bd05b7a581a755749224e84139e40adc8b38d44eb08ee1ac42a653aa322ad">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvCmzOW6D+SHMhI9PTA3yEDIUt+AyWmIB

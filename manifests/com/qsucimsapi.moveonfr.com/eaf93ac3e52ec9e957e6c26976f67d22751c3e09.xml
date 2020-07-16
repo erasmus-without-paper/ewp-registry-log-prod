@@ -7,7 +7,7 @@
         <admin-email>umesh@qs.com</admin-email>
         <d5:url>https://qsucimsapi.moveonfr.com/ewpapi/manifest</d5:url>
       </d5:discovery>
-      <e2:echo version="2.0.1">
+      <e2:echo version="2.0.0">
         <admin-email>umesh@qs.com</admin-email>
         <e2:http-security>
           <sec:client-auth-methods>
@@ -924,12 +924,6 @@
         <r:other-id type="pic">949024818</r:other-id>
         <r:name xml:lang="en">Institut National des Sciences Appliqu?es Centre Val de Loire - INSA Centre Val de Loire</r:name>
       </r:hei>
-      <r:hei id="univ-amu.fr">
-        <r:other-id type="erasmus">F  MARSEIL84</r:other-id>
-        <r:other-id type="euc">263443</r:other-id>
-        <r:other-id type="pic">955518483</r:other-id>
-        <r:name xml:lang="en">Aix-Marseille Universit?</r:name>
-      </r:hei>
       <r:hei id="inholland.nl">
         <r:other-id type="erasmus">NL S-GRAVE37</r:other-id>
         <r:other-id type="euc">218652</r:other-id>
@@ -1005,6 +999,12 @@
         <r:other-id type="erasmus">F  GIF-YVE03</r:other-id>
         <r:other-id type="pic">997816012</r:other-id>
         <r:name xml:lang="en">CentraleSupélec</r:name>
+      </r:hei>
+      <r:hei id="univ-amu.fr">
+        <r:other-id type="erasmus">F  MARSEIL84</r:other-id>
+        <r:other-id type="euc">218004</r:other-id>
+        <r:other-id type="pic">943379224</r:other-id>
+        <r:name xml:lang="en">Ecole Nationale Supérieure d'Architecture de Marseille</r:name>
       </r:hei>
     </ns3:institutions-covered>
     <ns3:client-credentials-in-use>
@@ -19286,41 +19286,6 @@ IwIDAQAB
   </ns3:host>
   <ns3:host>
     <admin-email>umesh@qs.com</admin-email>
-    <r:apis-implemented/>
-    <ns3:institutions-covered>
-      <r:hei id="univ-amu.fr">
-        <r:other-id type="erasmus">F  MARSEIL84</r:other-id>
-        <r:other-id type="euc">263443</r:other-id>
-        <r:other-id type="pic">955518483</r:other-id>
-        <r:name xml:lang="en">Aix-Marseille Universit?</r:name>
-      </r:hei>
-    </ns3:institutions-covered>
-    <ns3:client-credentials-in-use>
-      <ns3:certificate>MIIDnTCCAoWgAwIBAgIJAOiDLUc/o7t5MA0GCSqGSIb3DQEBBQUAMGQxCzAJBgNV
-BAYTAklOMRIwEAYDVQQIDAlLQVJOQVRBS0ExEjAQBgNVBAcMCUJBTkdBTE9SRTEL
-MAkGA1UECgwCUVMxDzANBgNVBAsMBk1vdmVPbjEPMA0GA1UEAwwGTW92ZU9uMCAX
-DTE5MDcyNjA3MTgxNVoYDzIxMTkwNzAyMDcxODE1WjBkMQswCQYDVQQGEwJJTjES
-MBAGA1UECAwJS0FSTkFUQUtBMRIwEAYDVQQHDAlCQU5HQUxPUkUxCzAJBgNVBAoM
-AlFTMQ8wDQYDVQQLDAZNb3ZlT24xDzANBgNVBAMMBk1vdmVPbjCCASIwDQYJKoZI
-hvcNAQEBBQADggEPADCCAQoCggEBANDBech5B1eq6BqixTfcBhWXB/UkIryor1Nu
-PV7Y/zFtqFd3sUEPT+7Yg95TzOsCCj3+jlOj1YR7Dgt/07Cmi6o45XHHAuTkJHFT
-9Yt/t4ArQl+N7sE0nJ2ONqTtSH48O27EyBNqSTJnzKoivi1sqyJKsYMd+uynNP5K
-sGjUpt6MKKAnpqBJP6pCCKXJ/XHSP3HRXUDHVc6dLrOIREG7HIFNxKsL5MrHAo+9
-+HiZOEmZvd0N5eMMYPMomclErRac9vCBAlQDHsEoI4wY3EdYk3LsemdMaEr0utAK
-m9Kfl/dB2msAJqE8ibNLmQExqkzmwLnB1SrDOrbtElXCy90nNv8CAwEAAaNQME4w
-HQYDVR0OBBYEFFK75Ul0EdKEIXUPOTYJylRf0t0TMB8GA1UdIwQYMBaAFFK75Ul0
-EdKEIXUPOTYJylRf0t0TMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEFBQADggEB
-AD/dCENiXx3TONo5OXQ7Vj3nv2+lip6+gS/xnAahetbJTHd+lRGddK9XtxmyZdlk
-UEOaqqCOlk8RY1x8nCwvBkLAu+LeeuYoXbosSsjq07/ArICJRkTmOWMeOTm+uT6Q
-AL6Kgp4oqnOxWicy6J+gZMiR/yr3e6PadiTZu2O0O+ADzQwRvCbYQ1V7QmXHC7VK
-maEQrVEuDvM0fOqeuI3HsdzZuVFQvbRdNwk2kZY3FfNen9ZmMPHIpzGx88G6M3Dz
-5KSB0ju8T7KQqKAYm5ViICxvxYfKekX4Y23ytLgkz7XgKLkFBHksMYstUpgDL5gW
-3AZ1r8XT0gt9bHrlZj9ESkA=
-</ns3:certificate>
-    </ns3:client-credentials-in-use>
-  </ns3:host>
-  <ns3:host>
-    <admin-email>umesh@qs.com</admin-email>
     <r:apis-implemented>
       <in2:institutions version="2.1.0">
         <admin-email>umesh@qs.com</admin-email>
@@ -20636,6 +20601,51 @@ uwRMeA+bsO5/6Z93s00H1RV2mJQNLcvY2NXExM1TatHXuV3gUJhvpdny1Xg8TR/0
 7sh8uZRmbBVjmkVYtaEi0VAiCHg0BJVzsk6mrrG7qmnqTiM7hXLENiEUxYUgrmnl
 97sN6Tl75OnK6Ptwyp3QwEroz61Mk+NMYgT2X+YTom0n62ZEkZX+Ql42la1/migh
 IwIDAQAB
+</ns3:rsa-public-key>
+    </ns3:client-credentials-in-use>
+  </ns3:host>
+  <ns3:host>
+    <admin-email>umesh@qs.com</admin-email>
+    <r:apis-implemented/>
+    <ns3:institutions-covered>
+      <r:hei id="univ-amu.fr">
+        <r:other-id type="erasmus">F  MARSEIL84</r:other-id>
+        <r:other-id type="erasmus-charter">218004</r:other-id>
+        <r:other-id type="pic">943379224</r:other-id>
+        <r:name xml:lang="en">Ecole Nationale Supérieure d'Architecture de Marseille</r:name>
+      </r:hei>
+    </ns3:institutions-covered>
+    <ns3:client-credentials-in-use>
+      <ns3:certificate>MIIEFzCCAv+gAwIBAgIJAJjr1fTNoKYzMA0GCSqGSIb3DQEBCwUAMIGgMQswCQYD
+VQQGEwJGUjESMBAGA1UECAwJTWFyc2VpbGxlMRIwEAYDVQQHDAlNYXJzZWlsbGUx
+IzAhBgNVBAoMGlVOSVZFUlNJVEUgRCdBSVggTUFSU0VJTExFMQ0wCwYDVQQLDARE
+T1NJMRQwEgYDVQQDDAt1bml2LWFtdS5mcjEfMB0GCSqGSIb3DQEJARYQaXRzdXBw
+b3J0QHFzLmNvbTAgFw0yMDAxMjEwOTU4MjRaGA8yMTE5MTIyODA5NTgyNFowgaAx
+CzAJBgNVBAYTAkZSMRIwEAYDVQQIDAlNYXJzZWlsbGUxEjAQBgNVBAcMCU1hcnNl
+aWxsZTEjMCEGA1UECgwaVU5JVkVSU0lURSBEJ0FJWCBNQVJTRUlMTEUxDTALBgNV
+BAsMBERPU0kxFDASBgNVBAMMC3VuaXYtYW11LmZyMR8wHQYJKoZIhvcNAQkBFhBp
+dHN1cHBvcnRAcXMuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA
+sR1HVrOFdJXf+x0sRu61YNmANOr6j1B7+L46aVKEkRIWh2KT2XX+WYayVfm2T2pO
+h6zpCNVne8uigIG+hWI9Kjepl97qLw0wkaSzQMiKIqHWLJ+bPnlSh/yslTyTE3rF
+PBerU/Fa5sZUkww0eesAtAYr+kpUrODbS+RJQfI32CHrURipE1R3yf5CTV6zBFz/
++jodLULNWhbMCr7J/4Zvt0dhud4pUZKwXlHT2Vbny7hiTbxEWQkxCn/yrabFf8CE
+0Efl8f/unbv1MnvEH9AQ9noIAzs4y8yqlmNE3MyU0fQ9tVT9YO6ojmvpCvA99zrC
+QnduXeeu/xIucuVUBggbWwIDAQABo1AwTjAdBgNVHQ4EFgQUKToLmNqQK05deZkU
+t2bF8k9/t4UwHwYDVR0jBBgwFoAUKToLmNqQK05deZkUt2bF8k9/t4UwDAYDVR0T
+BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAb0ZE5qujGfWi+Rx61sOfT2GtQYI5
+Qo63KCLuErkCnsfCCY5E/WZKHEQHHNMGLCHRuOgbofSNF5zuDENFBEUhb+9kTt0J
+A1F6XgNFA79xFhhcVaNYMKYuy1As1m9QcEpsXBPiz8PZ51dLGC7vyjf6lUvsvlIt
+pVvdGP3WVRtG5RZFFaSsdhlc8CPTz5MuA14/R5yS32fVPZox6bZ4jltoD5hvoPbA
+2f58KPEdmF6YHR59PMXccRkojyl38shRiaBi9wtL/z08wujFc47C2CCAv4RjxRSK
+y5JqaGBB5X0HpEWijvjOEA6oz/aY0yIfFF+L6F0NPvXw4EwQS8FhU5ulWw==
+</ns3:certificate>
+      <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7PPd5wXbf/c+JkwP//7j
+0SiWl3F0Bdf1wfpbK1yu3SlqS2fTd8mtLQ9xfY8UmEKrW7a+MIUGDprmDc/7uBPi
+2EtkEBs39FwYvo2LhcxahdEiytI4e36T35tLCrbfRlOxe642eZbbDK9IkBQ5hgT+
+JFcu9u1rMOAePfSIVVXSlmb/bFYaR7UZsHINQIVq21UqjVK1lcwW9UYAsgZdhjxw
+Np2gvDEzVErnkIEC+4ZeXh/ChIc9MKUqwsEn1KU9TzXb3JDb9AYVjCgJ55A7/qti
+rp59R7CvwTeiRo7un55u+MUznNz3h+cWfeceSoSqaltc6CarD0n/F4IvvktUgzG7
+fwIDAQAB
 </ns3:rsa-public-key>
     </ns3:client-credentials-in-use>
   </ns3:host>
