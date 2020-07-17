@@ -3471,7 +3471,7 @@
     </host>
     <host>
         <apis-implemented>
-            <ou2:organizational-units version="2.1.0">
+            <ou2:organizational-units version="2.1.1">
                 <ou2:http-security>
                     <sec:client-auth-methods>
                         <sec-A2:httpsig/>
@@ -3502,7 +3502,7 @@
         <apis-implemented>
             <om1:omobilities
                 xmlns:om1="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd"
-                version="0.15.0"
+                version="1.0.0"
             >
                 <om1:http-security>
                     <sec:client-auth-methods>
@@ -3519,37 +3519,6 @@
                 <om1:max-omobility-ids>1</om1:max-omobility-ids>
                 <om1:sends-notifications/>
             </om1:omobilities>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>hs-augsburg.de</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <certificate sha-256="5c819ec3cbccc0cabdfbba76593008d206f202ce3b7714a9351699b8240e4cc1"/>
-            <rsa-public-key sha-256="640bd05b7a581a755749224e84139e40adc8b38d44eb08ee1ac42a653aa322ad"/>
-        </client-credentials-in-use>
-        <server-credentials-in-use>
-            <rsa-public-key sha-256="640bd05b7a581a755749224e84139e40adc8b38d44eb08ee1ac42a653aa322ad"/>
-        </server-credentials-in-use>
-    </host>
-    <host>
-        <apis-implemented>
-            <f1:factsheet
-                xmlns:f1="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
-                version="0.1.0"
-            >
-                <f1:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A2:httpsig/>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B2:httpsig/>
-                        <sec-B1:tlscert/>
-                    </sec:server-auth-methods>
-                </f1:http-security>
-                <f1:url>https://mobility-online.hs-augsburg.de/mobility/ewp/factsheets</f1:url>
-                <f1:max-hei-ids>3</f1:max-hei-ids>
-            </f1:factsheet>
         </apis-implemented>
         <institutions-covered>
             <hei-id>hs-augsburg.de</hei-id>
