@@ -24,10 +24,10 @@
     xmlns:ns29="https://github.com/erasmus-without-paper/ewp-specs-api-courses/tree/stable-v1"
     xmlns:ns3="https://github.com/erasmus-without-paper/ewp-specs-types-contact/tree/stable-v1"
     xmlns:ns30="https://github.com/erasmus-without-paper/ewp-specs-types-academic-term/tree/stable-v1"
-    xmlns:ns31="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/endpoints/index-response.xsd"
-    xmlns:ns32="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/endpoints/get-response.xsd"
-    xmlns:ns33="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
-    xmlns:ns34="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
+    xmlns:ns31="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/endpoints/get-response.xsd"
+    xmlns:ns32="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/endpoints/index-response.xsd"
+    xmlns:ns33="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
+    xmlns:ns34="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
     xmlns:ns35="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
     xmlns:ns37="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/tree/stable-v2"
     xmlns:ns38="https://github.com/erasmus-without-paper/ewp-specs-api-echo/tree/stable-v2"
@@ -38,8 +38,8 @@
     xmlns:ns42="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v2/endpoints/get-response.xsd"
     xmlns:ns43="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v2/endpoints/index-response.xsd"
     xmlns:ns44="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/tree/stable-v1"
-    xmlns:ns45="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
-    xmlns:ns46="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
+    xmlns:ns45="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
+    xmlns:ns46="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
     xmlns:ns47="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-tors/blob/stable-v1/endpoints/index-response.xsd"
     xmlns:ns48="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/tree/stable-v1"
     xmlns:ns49="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-cnr/tree/stable-v1"
@@ -61,12 +61,12 @@
             <ns22:echo version="2.0.0">
                 <ns22:http-security>
                     <ns6:client-auth-methods>
-                        <ns46:tlscert allows-self-signed="true"/>
-                        <ns45:httpsig/>
+                        <ns45:tlscert allows-self-signed="true"/>
+                        <ns46:httpsig/>
                     </ns6:client-auth-methods>
                     <ns6:server-auth-methods>
-                        <ns34:tlscert/>
-                        <ns33:httpsig/>
+                        <ns33:tlscert/>
+                        <ns34:httpsig/>
                     </ns6:server-auth-methods>
                 </ns22:http-security>
                 <ns22:url>https://ewp.uksw.edu.pl/ewp/echo</ns22:url>
@@ -74,12 +74,12 @@
             <ns17:imobilities version="0.3.0">
                 <ns17:http-security>
                     <ns6:client-auth-methods>
-                        <ns46:tlscert allows-self-signed="true"/>
-                        <ns45:httpsig/>
+                        <ns45:tlscert allows-self-signed="true"/>
+                        <ns46:httpsig/>
                     </ns6:client-auth-methods>
                     <ns6:server-auth-methods>
-                        <ns34:tlscert/>
-                        <ns33:httpsig/>
+                        <ns33:tlscert/>
+                        <ns34:httpsig/>
                     </ns6:server-auth-methods>
                 </ns17:http-security>
                 <ns17:get-url>https://ewp.uksw.edu.pl/ewp/imobilities/get</ns17:get-url>
@@ -89,12 +89,12 @@
             <ns16:imobility-cnr version="0.1.1">
                 <ns16:http-security>
                     <ns6:client-auth-methods>
-                        <ns46:tlscert allows-self-signed="true"/>
-                        <ns45:httpsig/>
+                        <ns45:tlscert allows-self-signed="true"/>
+                        <ns46:httpsig/>
                     </ns6:client-auth-methods>
                     <ns6:server-auth-methods>
-                        <ns34:tlscert/>
-                        <ns33:httpsig/>
+                        <ns33:tlscert/>
+                        <ns34:httpsig/>
                     </ns6:server-auth-methods>
                 </ns16:http-security>
                 <ns16:url>https://ewp.uksw.edu.pl/ewp/imobilities/cnr</ns16:url>
@@ -103,12 +103,12 @@
             <ns7:institutions version="2.1.0">
                 <ns7:http-security>
                     <ns6:client-auth-methods>
-                        <ns46:tlscert allows-self-signed="true"/>
-                        <ns45:httpsig/>
+                        <ns45:tlscert allows-self-signed="true"/>
+                        <ns46:httpsig/>
                     </ns6:client-auth-methods>
                     <ns6:server-auth-methods>
-                        <ns34:tlscert/>
-                        <ns33:httpsig/>
+                        <ns33:tlscert/>
+                        <ns34:httpsig/>
                     </ns6:server-auth-methods>
                 </ns7:http-security>
                 <ns7:url>https://ewp.uksw.edu.pl/ewp/institutions</ns7:url>
@@ -117,12 +117,12 @@
             <ns8:organizational-units version="2.1.0">
                 <ns8:http-security>
                     <ns6:client-auth-methods>
-                        <ns46:tlscert allows-self-signed="true"/>
-                        <ns45:httpsig/>
+                        <ns45:tlscert allows-self-signed="true"/>
+                        <ns46:httpsig/>
                     </ns6:client-auth-methods>
                     <ns6:server-auth-methods>
-                        <ns34:tlscert/>
-                        <ns33:httpsig/>
+                        <ns33:tlscert/>
+                        <ns34:httpsig/>
                     </ns6:server-auth-methods>
                 </ns8:http-security>
                 <ns8:url>https://ewp.uksw.edu.pl/ewp/ounits</ns8:url>
@@ -132,12 +132,12 @@
             <ns18:iias version="2.1.0">
                 <ns18:http-security>
                     <ns6:client-auth-methods>
-                        <ns46:tlscert allows-self-signed="true"/>
-                        <ns45:httpsig/>
+                        <ns45:tlscert allows-self-signed="true"/>
+                        <ns46:httpsig/>
                     </ns6:client-auth-methods>
                     <ns6:server-auth-methods>
-                        <ns34:tlscert/>
-                        <ns33:httpsig/>
+                        <ns33:tlscert/>
+                        <ns34:httpsig/>
                     </ns6:server-auth-methods>
                 </ns18:http-security>
                 <ns18:get-url>https://ewp.uksw.edu.pl/ewp/iia/get</ns18:get-url>
@@ -149,12 +149,12 @@
             <ns20:iia-cnr version="2.0.2">
                 <ns20:http-security>
                     <ns6:client-auth-methods>
-                        <ns46:tlscert allows-self-signed="true"/>
-                        <ns45:httpsig/>
+                        <ns45:tlscert allows-self-signed="true"/>
+                        <ns46:httpsig/>
                     </ns6:client-auth-methods>
                     <ns6:server-auth-methods>
-                        <ns34:tlscert/>
-                        <ns33:httpsig/>
+                        <ns33:tlscert/>
+                        <ns34:httpsig/>
                     </ns6:server-auth-methods>
                 </ns20:http-security>
                 <ns20:url>https://ewp.uksw.edu.pl/ewp/iia/cnr</ns20:url>
@@ -162,12 +162,12 @@
             <ns9:omobilities version="0.16.0">
                 <ns9:http-security>
                     <ns6:client-auth-methods>
-                        <ns46:tlscert allows-self-signed="true"/>
-                        <ns45:httpsig/>
+                        <ns45:tlscert allows-self-signed="true"/>
+                        <ns46:httpsig/>
                     </ns6:client-auth-methods>
                     <ns6:server-auth-methods>
-                        <ns34:tlscert/>
-                        <ns33:httpsig/>
+                        <ns33:tlscert/>
+                        <ns34:httpsig/>
                     </ns6:server-auth-methods>
                 </ns9:http-security>
                 <ns9:get-url>https://ewp.uksw.edu.pl/ewp/omobilities/get</ns9:get-url>
@@ -178,12 +178,12 @@
             <ns13:omobility-cnr version="0.4.1">
                 <ns13:http-security>
                     <ns6:client-auth-methods>
-                        <ns46:tlscert allows-self-signed="true"/>
-                        <ns45:httpsig/>
+                        <ns45:tlscert allows-self-signed="true"/>
+                        <ns46:httpsig/>
                     </ns6:client-auth-methods>
                     <ns6:server-auth-methods>
-                        <ns34:tlscert/>
-                        <ns33:httpsig/>
+                        <ns33:tlscert/>
+                        <ns34:httpsig/>
                     </ns6:server-auth-methods>
                 </ns13:http-security>
                 <ns13:url>https://ewp.uksw.edu.pl/ewp/omobilities/cnr</ns13:url>
@@ -192,12 +192,12 @@
             <ns24:courses version="0.7.1">
                 <ns24:http-security>
                     <ns6:client-auth-methods>
-                        <ns46:tlscert allows-self-signed="true"/>
-                        <ns45:httpsig/>
+                        <ns45:tlscert allows-self-signed="true"/>
+                        <ns46:httpsig/>
                     </ns6:client-auth-methods>
                     <ns6:server-auth-methods>
-                        <ns34:tlscert/>
-                        <ns33:httpsig/>
+                        <ns33:tlscert/>
+                        <ns34:httpsig/>
                     </ns6:server-auth-methods>
                 </ns24:http-security>
                 <ns24:url>https://ewp.uksw.edu.pl/ewp/courses</ns24:url>
@@ -207,12 +207,12 @@
             <ns14:imobility-tors version="0.7.0">
                 <ns14:http-security>
                     <ns6:client-auth-methods>
-                        <ns46:tlscert allows-self-signed="true"/>
-                        <ns45:httpsig/>
+                        <ns45:tlscert allows-self-signed="true"/>
+                        <ns46:httpsig/>
                     </ns6:client-auth-methods>
                     <ns6:server-auth-methods>
-                        <ns34:tlscert/>
-                        <ns33:httpsig/>
+                        <ns33:tlscert/>
+                        <ns34:httpsig/>
                     </ns6:server-auth-methods>
                 </ns14:http-security>
                 <ns14:get-url>https://ewp.uksw.edu.pl/ewp/tors/get</ns14:get-url>
@@ -223,12 +223,12 @@
             <ns15:imobility-tor-cnr version="0.1.1">
                 <ns15:http-security>
                     <ns6:client-auth-methods>
-                        <ns46:tlscert allows-self-signed="true"/>
-                        <ns45:httpsig/>
+                        <ns45:tlscert allows-self-signed="true"/>
+                        <ns46:httpsig/>
                     </ns6:client-auth-methods>
                     <ns6:server-auth-methods>
-                        <ns34:tlscert/>
-                        <ns33:httpsig/>
+                        <ns33:tlscert/>
+                        <ns34:httpsig/>
                     </ns6:server-auth-methods>
                 </ns15:http-security>
                 <ns15:url>https://ewp.uksw.edu.pl/ewp/tors/cnr</ns15:url>
