@@ -6079,7 +6079,7 @@
     </host>
     <host>
         <apis-implemented>
-            <ou2:organizational-units version="2.1.0">
+            <ou2:organizational-units version="2.1.1">
                 <ou2:http-security>
                     <sec:client-auth-methods>
                         <sec-A2:httpsig/>
@@ -6094,37 +6094,6 @@
                 <ou2:max-ounit-ids>3</ou2:max-ounit-ids>
                 <ou2:max-ounit-codes>3</ou2:max-ounit-codes>
             </ou2:organizational-units>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>uni-kl.de</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <certificate sha-256="257c004e4c17c078f3d912e667188651dd5a92bff5316eeff52d72ce68c19c4f"/>
-            <rsa-public-key sha-256="7e4b88696e653dfb2a5c93dce1fa5241778c1ff82578fb9fac2d7f8a5bd664d3"/>
-        </client-credentials-in-use>
-        <server-credentials-in-use>
-            <rsa-public-key sha-256="7e4b88696e653dfb2a5c93dce1fa5241778c1ff82578fb9fac2d7f8a5bd664d3"/>
-        </server-credentials-in-use>
-    </host>
-    <host>
-        <apis-implemented>
-            <f1:factsheet
-                xmlns:f1="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
-                version="0.1.0"
-            >
-                <f1:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A2:httpsig/>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B2:httpsig/>
-                        <sec-B1:tlscert/>
-                    </sec:server-auth-methods>
-                </f1:http-security>
-                <f1:url>https://mobility.uni-kl.de/mobility/ewp/factsheets</f1:url>
-                <f1:max-hei-ids>3</f1:max-hei-ids>
-            </f1:factsheet>
         </apis-implemented>
         <institutions-covered>
             <hei-id>uni-kl.de</hei-id>
