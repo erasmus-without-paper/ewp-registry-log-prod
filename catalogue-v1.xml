@@ -24262,21 +24262,6 @@
                 <in2:url>https://ewp.auth.gr/rest/institutions</in2:url>
                 <in2:max-hei-ids>1</in2:max-hei-ids>
             </in2:institutions>
-            <ou2:organizational-units version="2.1.0">
-                <ou2:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A1:tlscert allows-self-signed="false"/>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B1:tlscert/>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </ou2:http-security>
-                <ou2:url>https://ewp.auth.gr/rest/ounits</ou2:url>
-                <ou2:max-ounit-ids>1</ou2:max-ounit-ids>
-                <ou2:max-ounit-codes>1</ou2:max-ounit-codes>
-            </ou2:organizational-units>
             <co1:courses
                 xmlns:co1="https://github.com/erasmus-without-paper/ewp-specs-api-courses/blob/stable-v1/manifest-entry.xsd"
                 version="0.7.1"
@@ -24295,6 +24280,21 @@
                 <co1:max-los-ids>1</co1:max-los-ids>
                 <co1:max-los-codes>1</co1:max-los-codes>
             </co1:courses>
+            <ou2:organizational-units version="2.1.0">
+                <ou2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="false"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </ou2:http-security>
+                <ou2:url>https://ewp.auth.gr/rest/ounits</ou2:url>
+                <ou2:max-ounit-ids>1</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>1</ou2:max-ounit-codes>
+            </ou2:organizational-units>
         </apis-implemented>
         <institutions-covered>
             <hei-id>auth.gr</hei-id>
