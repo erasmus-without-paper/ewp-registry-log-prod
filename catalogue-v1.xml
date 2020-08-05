@@ -6009,6 +6009,35 @@
     </host>
     <host>
         <apis-implemented>
+            <ou2:organizational-units version="2.1.1">
+                <ou2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </ou2:http-security>
+                <ou2:url>https://mobility.fh-joanneum.at/mobility/ewp/ounits</ou2:url>
+                <ou2:max-ounit-ids>3</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>3</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>fh-joanneum.at</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="261a70d7055411bed051891c872a60f9c3ec9551fe8559f474bd7d376ad550e0"/>
+            <rsa-public-key sha-256="670b1922aa92145ef959a258aaf55c58e96612ab8f64ab22e3e4d11759ce5850"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="670b1922aa92145ef959a258aaf55c58e96612ab8f64ab22e3e4d11759ce5850"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
             <ia3:iias
                 xmlns:ia3="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v3/manifest-entry.xsd"
                 version="3.0.0"
