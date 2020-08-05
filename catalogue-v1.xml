@@ -6005,6 +6005,130 @@
     </host>
     <host>
         <apis-implemented>
+            <ia3:iias
+                xmlns:ia3="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v3/manifest-entry.xsd"
+                version="3.0.0"
+            >
+                <ia3:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </ia3:http-security>
+                <ia3:get-url>https://mobility.fh-joanneum.at/mobility/ewp/iias/get</ia3:get-url>
+                <ia3:max-iia-ids>3</ia3:max-iia-ids>
+                <ia3:max-iia-codes>3</ia3:max-iia-codes>
+                <ia3:index-url>https://mobility.fh-joanneum.at/mobility/ewp/iias/index</ia3:index-url>
+                <ia3:sends-notifications/>
+            </ia3:iias>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>fh-joanneum.at</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="261a70d7055411bed051891c872a60f9c3ec9551fe8559f474bd7d376ad550e0"/>
+            <rsa-public-key sha-256="670b1922aa92145ef959a258aaf55c58e96612ab8f64ab22e3e4d11759ce5850"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="670b1922aa92145ef959a258aaf55c58e96612ab8f64ab22e3e4d11759ce5850"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <iac2:iia-cnr version="2.0.2">
+                <iac2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </iac2:http-security>
+                <iac2:url>https://mobility.fh-joanneum.at/mobility/ewp/iias/cnr</iac2:url>
+            </iac2:iia-cnr>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>fh-joanneum.at</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="261a70d7055411bed051891c872a60f9c3ec9551fe8559f474bd7d376ad550e0"/>
+            <rsa-public-key sha-256="670b1922aa92145ef959a258aaf55c58e96612ab8f64ab22e3e4d11759ce5850"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="670b1922aa92145ef959a258aaf55c58e96612ab8f64ab22e3e4d11759ce5850"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <iaa1:iias-approval
+                xmlns:iaa1="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
+                version="0.2.1"
+            >
+                <iaa1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </iaa1:http-security>
+                <iaa1:url>https://mobility.fh-joanneum.at/mobility/ewp/iias/approve</iaa1:url>
+                <iaa1:max-iia-ids>3</iaa1:max-iia-ids>
+                <iaa1:sends-notifications/>
+            </iaa1:iias-approval>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>fh-joanneum.at</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="261a70d7055411bed051891c872a60f9c3ec9551fe8559f474bd7d376ad550e0"/>
+            <rsa-public-key sha-256="670b1922aa92145ef959a258aaf55c58e96612ab8f64ab22e3e4d11759ce5850"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="670b1922aa92145ef959a258aaf55c58e96612ab8f64ab22e3e4d11759ce5850"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <f1:factsheet
+                xmlns:f1="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
+                version="0.3.0"
+            >
+                <f1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </f1:http-security>
+                <f1:url>https://mobility.fh-joanneum.at/mobility/ewp/factsheets</f1:url>
+                <f1:max-hei-ids>3</f1:max-hei-ids>
+            </f1:factsheet>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>fh-joanneum.at</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="261a70d7055411bed051891c872a60f9c3ec9551fe8559f474bd7d376ad550e0"/>
+            <rsa-public-key sha-256="670b1922aa92145ef959a258aaf55c58e96612ab8f64ab22e3e4d11759ce5850"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="670b1922aa92145ef959a258aaf55c58e96612ab8f64ab22e3e4d11759ce5850"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
             <d5:discovery version="5.0.0">
                 <d5:url>https://mobility.uni-kl.de/mobility/ewp/manifest?api=all</d5:url>
             </d5:discovery>
