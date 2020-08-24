@@ -8639,6 +8639,7 @@
             <hei-id>isep.fr</hei-id>
             <hei-id>univ-st-etienne.fr</hei-id>
             <hei-id>u-bordeaux-montaigne.fr</hei-id>
+            <hei-id>pantheonsorbonne.fr</hei-id>
             <hei-id>univ-paris8.fr</hei-id>
             <hei-id>univ-paris-diderot.fr</hei-id>
             <hei-id>u-psud.fr</hei-id>
@@ -8747,6 +8748,7 @@
             <hei-id>uni-weimar.de</hei-id>
             <hei-id>fh-westkueste.de</hei-id>
             <hei-id>hs-worms.de</hei-id>
+            <hei-id>uni-wuerzburg.de</hei-id>
             <hei-id>uni-muenster.de</hei-id>
             <hei-id>fh-zwickau.de</hei-id>
             <hei-id>umontreal.ca</hei-id>
@@ -8791,7 +8793,6 @@
             <hei-id>thomasmore.be</hei-id>
             <hei-id>usj.es</hei-id>
             <hei-id>via.dk</hei-id>
-            <hei-id>zagreb-bo.moveon4.de</hei-id>
             <hei-id>univ-tlse2.fr</hei-id>
             <hei-id>bi.no</hei-id>
             <hei-id>htwsaar.de</hei-id>
@@ -10266,6 +10267,9 @@
     <host>
         <ewp:admin-email>umesh@qs.com</ewp:admin-email>
         <apis-implemented/>
+        <institutions-covered>
+            <hei-id>pantheonsorbonne.fr</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
             <rsa-public-key sha-256="e4c7f55c93dc6e16e192943079a33d85aeef3cd6a6eaec1fcb21ac676c009fbc"/>
@@ -22739,6 +22743,9 @@
     <host>
         <ewp:admin-email>umesh@qs.com</ewp:admin-email>
         <apis-implemented/>
+        <institutions-covered>
+            <hei-id>uni-wuerzburg.de</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
             <rsa-public-key sha-256="e4c7f55c93dc6e16e192943079a33d85aeef3cd6a6eaec1fcb21ac676c009fbc"/>
@@ -26938,9 +26945,6 @@
                 <iaac1:url>https://zagreb-ewp.moveon4.de/v1/iia/approval/cnr</iaac1:url>
             </iaac1:iia-approval-cnr>
         </apis-implemented>
-        <institutions-covered>
-            <hei-id>zagreb-bo.moveon4.de</hei-id>
-        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
             <rsa-public-key sha-256="e4c7f55c93dc6e16e192943079a33d85aeef3cd6a6eaec1fcb21ac676c009fbc"/>
@@ -32990,6 +32994,13 @@
             <other-id type="erasmus">SK BRATISL08</other-id>
             <name>Paneuropean University</name>
         </hei>
+        <hei id="pantheonsorbonne.fr">
+            <other-id type="erasmus">F  PARIS001</other-id>
+            <other-id type="erasmus-charter">28619</other-id>
+            <other-id type="euc">28619</other-id>
+            <other-id type="pic">999859123</other-id>
+            <name xml:lang="en">Universit? Paris 1 Panth?on-Sorbonne</name>
+        </hei>
         <hei id="parisnanterre.fr">
             <other-id type="erasmus">F  PARIS010</other-id>
             <other-id type="erasmus-charter">28124</other-id>
@@ -34507,6 +34518,13 @@
             <other-id type="pic">949440172</other-id>
             <name xml:lang="en">Bauhaus-Universit?t Weimar</name>
         </hei>
+        <hei id="uni-wuerzburg.de">
+            <other-id type="erasmus">D  WURZBUR01</other-id>
+            <other-id type="erasmus-charter">29952</other-id>
+            <other-id type="euc">29952</other-id>
+            <other-id type="pic">999853206</other-id>
+            <name xml:lang="en">Julius-Maximilians-Universit?t W?rzburg</name>
+        </hei>
         <hei id="uni-wuppertal.de">
             <other-id type="erasmus">D  WUPPERT01</other-id>
             <other-id type="euc">29681-IC-1-2007-1-DE-ERASMUS-EUCX-1</other-id>
@@ -35361,13 +35379,6 @@
         <hei id="york.ac.uk">
             <other-id type="erasmus">UK YORK01</other-id>
             <name xml:lang="en">University of York</name>
-        </hei>
-        <hei id="zagreb-bo.moveon4.de">
-            <other-id type="erasmus">HR ZAGREB01</other-id>
-            <other-id type="erasmus-charter">255154</other-id>
-            <other-id type="euc">255154</other-id>
-            <other-id type="pic">999933231</other-id>
-            <name xml:lang="en">Sveu?ili?te u Zagrebu</name>
         </hei>
         <hei id="zhaw.ch">
             <other-id type="erasmus">CH WINTERT03</other-id>
