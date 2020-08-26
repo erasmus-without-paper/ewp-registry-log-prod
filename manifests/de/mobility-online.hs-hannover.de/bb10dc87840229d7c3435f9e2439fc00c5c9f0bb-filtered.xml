@@ -16,7 +16,7 @@
     xmlns:ns21="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v1/manifest-entry.xsd"
     xmlns:ns22="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
     xmlns:ns23="https://github.com/erasmus-without-paper/ewp-specs-api-iia-cnr/blob/stable-v2/manifest-entry.xsd"
-    xmlns:ns24="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v2/manifest-entry.xsd"
+    xmlns:ns24="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v3/manifest-entry.xsd"
     xmlns:ns25="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/blob/stable-v2/manifest-entry.xsd"
     xmlns:ns26="https://github.com/erasmus-without-paper/ewp-specs-api-institutions/blob/stable-v2/manifest-entry.xsd"
     xmlns:ns27="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd"
@@ -113,68 +113,6 @@ rYlZyQIDAQAB&#xD;
                 <ns26:url>https://mobility-online.hs-hannover.de/mobility/ewp/institutions</ns26:url>
                 <ns26:max-hei-ids>3</ns26:max-hei-ids>
             </ns26:institutions>
-        </ns2:apis-implemented>
-        <ns3:institutions-covered>
-            <ns2:hei id="hs-hannover.de">
-                <ns2:other-id type="pic">952874748</ns2:other-id>
-                <ns2:other-id type="erasmus">D  HANNOVE05</ns2:other-id>
-                <ns2:other-id type="euc">28448</ns2:other-id>
-                <ns2:name xml:lang="de">Hochschule Hannover</ns2:name>
-                <ns2:name xml:lang="en">Hochschule Hannover</ns2:name>
-            </ns2:hei>
-        </ns3:institutions-covered>
-        <ns3:client-credentials-in-use>
-            <ns3:certificate>MIIDhDCCAmwCCQCxi5ChqeDRSDANBgkqhkiG9w0BAQUFADCBgzELMAkGA1UEBhMCQVQxDzANBgNV&#xD;
-BAgMBlZpZW5uYTEPMA0GA1UEBwwGVmllbm5hMRgwFgYDVQQKDA9Nb2JpbGl0eS1PbmxpbmUxDzAN&#xD;
-BgNVBAsMBk1PIEVXUDEnMCUGA1UEAwwebW9iaWxpdHktb25saW5lLmhzLWhhbm5vdmVyLmRlMB4X&#xD;
-DTE4MDUyOTE1NTIyNVoXDTI4MDUyNjE1NTIyNVowgYMxCzAJBgNVBAYTAkFUMQ8wDQYDVQQIDAZW&#xD;
-aWVubmExDzANBgNVBAcMBlZpZW5uYTEYMBYGA1UECgwPTW9iaWxpdHktT25saW5lMQ8wDQYDVQQL&#xD;
-DAZNTyBFV1AxJzAlBgNVBAMMHm1vYmlsaXR5LW9ubGluZS5ocy1oYW5ub3Zlci5kZTCCASIwDQYJ&#xD;
-KoZIhvcNAQEBBQADggEPADCCAQoCggEBAPBm/CnVvN8GoYrW2ssTjHuLLsdKRSK5o3Qfwp/X8ZRy&#xD;
-iGt+UXvTk37Ca2Y724YO5Y9cNXBtY9O1+b3Zsmy/+pldaAus6qW4v/xKPWt3OwaB2CRtQMUiaLRI&#xD;
-DyZgsz88HbEh5lsJXI0TwF1nuc9uGeJoNlnX3loHnuL80Kud7zMZFZTKj4jp4+hFZmNAtqr1KX1H&#xD;
-VyzTehOOIdEw1nUSHILfZrhVt4q5wOQNC/mjZwLTHeop4g1wOuwR/oB2T3YdfEBMQLvxBWjmacLY&#xD;
-wy590KYiMG9r0nq4PNmGFaDdLtM0BMcAYxJk0xcN84ws1i5c5LzpCFdKWJelbX2PyK2JWckCAwEA&#xD;
-ATANBgkqhkiG9w0BAQUFAAOCAQEAIAW9IRCrLXWKNNbopdUG871hwLq/TH8pBjM7gBIMqNqjt/lP&#xD;
-U030k1Xy+2LNLcUsgjjO4XGjZUXZ6IHu/FlRsR9SfC2Hbx/o7XnG1rR9XsWGvWO5QKgxuaxyezcN&#xD;
-VXGp8Og/XK0ogUXpLFDnfQ+YMgAV4AI1qf5i3HHS9QZDwzYw4jKhSXrT5LzoWYU4ldVdQzYKjx6S&#xD;
-e1kr9+WP6pCT+QkivB4tU/DxOMPhkgVGRyldbRGtRLm1ZOqV0RBykYjZ0s3PK36PyMsmyHxs5xJC&#xD;
-PYzBvdqL6d2mkX2dTxLA/N2u7i8RBHhbOWf/ocx0m2dKFHi9LWOzhVi7GABUjEaKZQ==&#xD;
-</ns3:certificate>
-            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA8Gb8KdW83wahitbayxOMe4sux0pFIrmj&#xD;
-dB/Cn9fxlHKIa35Re9OTfsJrZjvbhg7lj1w1cG1j07X5vdmybL/6mV1oC6zqpbi//Eo9a3c7BoHY&#xD;
-JG1AxSJotEgPJmCzPzwdsSHmWwlcjRPAXWe5z24Z4mg2WdfeWgee4vzQq53vMxkVlMqPiOnj6EVm&#xD;
-Y0C2qvUpfUdXLNN6E44h0TDWdRIcgt9muFW3irnA5A0L+aNnAtMd6iniDXA67BH+gHZPdh18QExA&#xD;
-u/EFaOZpwtjDLn3QpiIwb2vSerg82YYVoN0u0zQExwBjEmTTFw3zjCzWLlzkvOkIV0pYl6VtfY/I&#xD;
-rYlZyQIDAQAB&#xD;
-</ns3:rsa-public-key>
-        </ns3:client-credentials-in-use>
-        <ns3:server-credentials-in-use>
-            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA8Gb8KdW83wahitbayxOMe4sux0pFIrmj&#xD;
-dB/Cn9fxlHKIa35Re9OTfsJrZjvbhg7lj1w1cG1j07X5vdmybL/6mV1oC6zqpbi//Eo9a3c7BoHY&#xD;
-JG1AxSJotEgPJmCzPzwdsSHmWwlcjRPAXWe5z24Z4mg2WdfeWgee4vzQq53vMxkVlMqPiOnj6EVm&#xD;
-Y0C2qvUpfUdXLNN6E44h0TDWdRIcgt9muFW3irnA5A0L+aNnAtMd6iniDXA67BH+gHZPdh18QExA&#xD;
-u/EFaOZpwtjDLn3QpiIwb2vSerg82YYVoN0u0zQExwBjEmTTFw3zjCzWLlzkvOkIV0pYl6VtfY/I&#xD;
-rYlZyQIDAQAB&#xD;
-</ns3:rsa-public-key>
-        </ns3:server-credentials-in-use>
-    </ns3:host>
-    <ns3:host>
-        <ns2:apis-implemented>
-            <ns6:factsheet version="0.1.0">
-                <ns6:http-security>
-                    <ns5:client-auth-methods>
-                        <ns31:httpsig/>
-                        <ns29:tlscert allows-self-signed="true"/>
-                    </ns5:client-auth-methods>
-                    <ns5:server-auth-methods>
-                        <ns32:httpsig/>
-                        <ns33:tlscert/>
-                    </ns5:server-auth-methods>
-                </ns6:http-security>
-                <ns6:url>https://mobility-online.hs-hannover.de/mobility/ewp/factsheets</ns6:url>
-                <ns6:max-hei-ids>3</ns6:max-hei-ids>
-            </ns6:factsheet>
         </ns2:apis-implemented>
         <ns3:institutions-covered>
             <ns2:hei id="hs-hannover.de">
