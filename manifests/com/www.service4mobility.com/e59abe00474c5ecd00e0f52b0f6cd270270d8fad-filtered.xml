@@ -16,7 +16,7 @@
     xmlns:ns21="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v1/manifest-entry.xsd"
     xmlns:ns22="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
     xmlns:ns23="https://github.com/erasmus-without-paper/ewp-specs-api-iia-cnr/blob/stable-v2/manifest-entry.xsd"
-    xmlns:ns24="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v2/manifest-entry.xsd"
+    xmlns:ns24="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v3/manifest-entry.xsd"
     xmlns:ns25="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/blob/stable-v2/manifest-entry.xsd"
     xmlns:ns26="https://github.com/erasmus-without-paper/ewp-specs-api-institutions/blob/stable-v2/manifest-entry.xsd"
     xmlns:ns27="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd"
@@ -163,7 +163,7 @@ ysqjJkXI9mWxvy7wwlNp/z80jcx17gCu8Dw08m9hcT++Z+0eOZO5ESy0iPUUFCvd5LGCFLR56fM3&#xD
     </ns3:host>
     <ns3:host>
         <ns2:apis-implemented>
-            <ns25:organizational-units version="2.1.0">
+            <ns25:organizational-units version="2.1.1">
                 <ns25:http-security>
                     <ns5:client-auth-methods>
                         <ns31:httpsig/>
@@ -227,7 +227,7 @@ ysqjJkXI9mWxvy7wwlNp/z80jcx17gCu8Dw08m9hcT++Z+0eOZO5ESy0iPUUFCvd5LGCFLR56fM3&#xD
     </ns3:host>
     <ns3:host>
         <ns2:apis-implemented>
-            <ns18:omobilities version="0.15.0">
+            <ns18:omobilities version="1.0.0">
                 <ns18:http-security>
                     <ns5:client-auth-methods>
                         <ns31:httpsig/>
@@ -243,69 +243,6 @@ ysqjJkXI9mWxvy7wwlNp/z80jcx17gCu8Dw08m9hcT++Z+0eOZO5ESy0iPUUFCvd5LGCFLR56fM3&#xD
                 <ns18:max-omobility-ids>1</ns18:max-omobility-ids>
                 <ns18:sends-notifications/>
             </ns18:omobilities>
-        </ns2:apis-implemented>
-        <ns3:institutions-covered>
-            <ns2:hei id="fau.de">
-                <ns2:other-id type="pic">999995408</ns2:other-id>
-                <ns2:other-id type="erasmus">D  ERLANGE01</ns2:other-id>
-                <ns2:other-id type="euc">28318</ns2:other-id>
-                <ns2:other-id type="eche">28318-LA-1-2014-1-DE-E4AKA1</ns2:other-id>
-                <ns2:name xml:lang="de">Friedrich-Alexander-Universität Erlangen-Nürnberg</ns2:name>
-                <ns2:name xml:lang="en">Friedrich-Alexander-Universität Erlangen-Nürnberg</ns2:name>
-            </ns2:hei>
-        </ns3:institutions-covered>
-        <ns3:client-credentials-in-use>
-            <ns3:certificate>MIIDfjCCAmYCCQCO9GGDn4fwwjANBgkqhkiG9w0BAQsFADCBgDELMAkGA1UEBhMCQVQxDzANBgNV&#xD;
-BAgMBlZpZW5uYTEPMA0GA1UEBwwGVmllbm5hMRgwFgYDVQQKDA9Nb2JpbGl0eS1PbmxpbmUxDzAN&#xD;
-BgNVBAsMBk1PIEVXUDEkMCIGA1UEAwwbd3d3LnNlcnZpY2U0bW9iaWxpdHkuY29tZmF1MB4XDTE4&#xD;
-MDYwNTEzMjYxNFoXDTI4MDYwMjEzMjYxNFowgYAxCzAJBgNVBAYTAkFUMQ8wDQYDVQQIDAZWaWVu&#xD;
-bmExDzANBgNVBAcMBlZpZW5uYTEYMBYGA1UECgwPTW9iaWxpdHktT25saW5lMQ8wDQYDVQQLDAZN&#xD;
-TyBFV1AxJDAiBgNVBAMMG3d3dy5zZXJ2aWNlNG1vYmlsaXR5LmNvbWZhdTCCASIwDQYJKoZIhvcN&#xD;
-AQEBBQADggEPADCCAQoCggEBAKVMFBgvLdJyL8lkmxLZZ7cSu9YaSFZgI/YVXP/D4DBNg32FDpBx&#xD;
-EtS+wPGockfXhWe0vcV/JJDnRjHEVucFhCGqubnRNtRJWqjv5WSq5tAGANlMadd69bSTVnHRfGlz&#xD;
-+OiUzOFqQXmc4K2EWsb5btZvM37MG1nk6GTH7l7M9DPlyALHsZCcdf6uZ8rKoyZFyPZlsb8u8MJT&#xD;
-af8/NI3Mde4ArvA8NPJvYXE/vmftHjmTuREstIj1FBQr3eSxghS0eenzN+Wt2WSsToi9cpCT+g28&#xD;
-J5O2vaZqiLb0DtF6E8HUTh6idAun+THKKw/IC+R9VwKQuwwYDtv5n3sjh+9cfiMCAwEAATANBgkq&#xD;
-hkiG9w0BAQsFAAOCAQEAFb9d0Aj6TRwWpg/WNFqKdab9ggWgoX1rn4mu93lz721bqYtFM/s1EnI+&#xD;
-ygMt8qmVGvjF9I8T0nIBk+gs87t4+b4QZwag/e2pdK/1WpNXqfV1NqNlKxirsykKihefMspyZi7T&#xD;
-pq0dBk+rFwZSqrBejVHoPrxafQXCWPGXN//HO4eIIgQ9dY+edxLm9csuWqt+GWMOsa2a48BgB1/R&#xD;
-wi9BhlwLihhG+CoSnaWoeXOWf5kHndxz1NhIVLViE/UR9XNIMyDxFLRg98iHW855Y6tdeIwmQn8w&#xD;
-vFnlioR3stq1R02b0mMQUu1plAIJT8mUw4tF68L7Gse7QD9XH+VSOdtbIQ==&#xD;
-</ns3:certificate>
-            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApUwUGC8t0nIvyWSbEtlntxK71hpIVmAj&#xD;
-9hVc/8PgME2DfYUOkHES1L7A8ahyR9eFZ7S9xX8kkOdGMcRW5wWEIaq5udE21ElaqO/lZKrm0AYA&#xD;
-2Uxp13r1tJNWcdF8aXP46JTM4WpBeZzgrYRaxvlu1m8zfswbWeToZMfuXsz0M+XIAsexkJx1/q5n&#xD;
-ysqjJkXI9mWxvy7wwlNp/z80jcx17gCu8Dw08m9hcT++Z+0eOZO5ESy0iPUUFCvd5LGCFLR56fM3&#xD;
-5a3ZZKxOiL1ykJP6Dbwnk7a9pmqItvQO0XoTwdROHqJ0C6f5McorD8gL5H1XApC7DBgO2/mfeyOH&#xD;
-71x+IwIDAQAB&#xD;
-</ns3:rsa-public-key>
-        </ns3:client-credentials-in-use>
-        <ns3:server-credentials-in-use>
-            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApUwUGC8t0nIvyWSbEtlntxK71hpIVmAj&#xD;
-9hVc/8PgME2DfYUOkHES1L7A8ahyR9eFZ7S9xX8kkOdGMcRW5wWEIaq5udE21ElaqO/lZKrm0AYA&#xD;
-2Uxp13r1tJNWcdF8aXP46JTM4WpBeZzgrYRaxvlu1m8zfswbWeToZMfuXsz0M+XIAsexkJx1/q5n&#xD;
-ysqjJkXI9mWxvy7wwlNp/z80jcx17gCu8Dw08m9hcT++Z+0eOZO5ESy0iPUUFCvd5LGCFLR56fM3&#xD;
-5a3ZZKxOiL1ykJP6Dbwnk7a9pmqItvQO0XoTwdROHqJ0C6f5McorD8gL5H1XApC7DBgO2/mfeyOH&#xD;
-71x+IwIDAQAB&#xD;
-</ns3:rsa-public-key>
-        </ns3:server-credentials-in-use>
-    </ns3:host>
-    <ns3:host>
-        <ns2:apis-implemented>
-            <ns6:factsheet version="0.1.0">
-                <ns6:http-security>
-                    <ns5:client-auth-methods>
-                        <ns31:httpsig/>
-                        <ns29:tlscert allows-self-signed="true"/>
-                    </ns5:client-auth-methods>
-                    <ns5:server-auth-methods>
-                        <ns32:httpsig/>
-                        <ns33:tlscert/>
-                    </ns5:server-auth-methods>
-                </ns6:http-security>
-                <ns6:url>https://www.service4mobility.com/fau/ewp/factsheets</ns6:url>
-                <ns6:max-hei-ids>3</ns6:max-hei-ids>
-            </ns6:factsheet>
         </ns2:apis-implemented>
         <ns3:institutions-covered>
             <ns2:hei id="fau.de">
