@@ -16,7 +16,7 @@
     xmlns:ns21="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v1/manifest-entry.xsd"
     xmlns:ns22="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
     xmlns:ns23="https://github.com/erasmus-without-paper/ewp-specs-api-iia-cnr/blob/stable-v2/manifest-entry.xsd"
-    xmlns:ns24="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v2/manifest-entry.xsd"
+    xmlns:ns24="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v3/manifest-entry.xsd"
     xmlns:ns25="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/blob/stable-v2/manifest-entry.xsd"
     xmlns:ns26="https://github.com/erasmus-without-paper/ewp-specs-api-institutions/blob/stable-v2/manifest-entry.xsd"
     xmlns:ns27="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd"
@@ -287,7 +287,7 @@ nmyyjwIDAQAB&#xD;
     </ns3:host>
     <ns3:host>
         <ns2:apis-implemented>
-            <ns18:omobilities version="0.15.0">
+            <ns18:omobilities version="1.0.0">
                 <ns18:http-security>
                     <ns5:client-auth-methods>
                         <ns31:httpsig/>
@@ -351,7 +351,7 @@ nmyyjwIDAQAB&#xD;
     </ns3:host>
     <ns3:host>
         <ns2:apis-implemented>
-            <ns13:imobility-cnr version="0.1.1">
+            <ns13:imobility-cnr version="1.0.0">
                 <ns13:http-security>
                     <ns5:client-auth-methods>
                         <ns31:httpsig/>
@@ -413,7 +413,7 @@ nmyyjwIDAQAB&#xD;
     </ns3:host>
     <ns3:host>
         <ns2:apis-implemented>
-            <ns14:imobilities version="0.3.0">
+            <ns14:imobilities version="1.0.0">
                 <ns14:http-security>
                     <ns5:client-auth-methods>
                         <ns31:httpsig/>
@@ -476,7 +476,7 @@ nmyyjwIDAQAB&#xD;
     </ns3:host>
     <ns3:host>
         <ns2:apis-implemented>
-            <ns17:omobility-cnr version="0.4.1">
+            <ns17:omobility-cnr version="1.0.0">
                 <ns17:http-security>
                     <ns5:client-auth-methods>
                         <ns31:httpsig/>
@@ -490,68 +490,6 @@ nmyyjwIDAQAB&#xD;
                 <ns17:url>https://mobility.uni.li/mobility/ewp/mobility_out/cnr</ns17:url>
                 <ns17:max-omobility-ids>1</ns17:max-omobility-ids>
             </ns17:omobility-cnr>
-        </ns2:apis-implemented>
-        <ns3:institutions-covered>
-            <ns2:hei id="uni.li">
-                <ns2:other-id type="pic">974688496</ns2:other-id>
-                <ns2:other-id type="erasmus">LI VADUZ01</ns2:other-id>
-                <ns2:other-id type="euc">28700-LA-1-2014-1-LI-E4AKA1-ECHE</ns2:other-id>
-                <ns2:name xml:lang="DE">UNIVERSITÄT LIECHTENSTEIN</ns2:name>
-                <ns2:name xml:lang="en">UNIVERSITÄT LIECHTENSTEIN</ns2:name>
-            </ns2:hei>
-        </ns3:institutions-covered>
-        <ns3:client-credentials-in-use>
-            <ns3:certificate>MIIDZDCCAkwCCQCQo6cBIqDlnjANBgkqhkiG9w0BAQsFADB0MQswCQYDVQQGEwJBVDEPMA0GA1UE&#xD;
-CAwGVmllbm5hMQ8wDQYDVQQHDAZWaWVubmExGDAWBgNVBAoMD01vYmlsaXR5LU9ubGluZTEPMA0G&#xD;
-A1UECwwGTU8gRVdQMRgwFgYDVQQDDA9tb2JpbGl0eS51bmkubGkwHhcNMTgwNjA1MTMyNjI1WhcN&#xD;
-MjgwNjAyMTMyNjI1WjB0MQswCQYDVQQGEwJBVDEPMA0GA1UECAwGVmllbm5hMQ8wDQYDVQQHDAZW&#xD;
-aWVubmExGDAWBgNVBAoMD01vYmlsaXR5LU9ubGluZTEPMA0GA1UECwwGTU8gRVdQMRgwFgYDVQQD&#xD;
-DA9tb2JpbGl0eS51bmkubGkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDcBuJk8HCh&#xD;
-Qq+O2it0zfOoyLccG6j6pr00s8kPZsIrqofvBoBJYvNCLeBiBGgJ3oCKRg1dK9oOgn/Fv3ffU7Ye&#xD;
-xPeeQK4CE7/Bqd+welwGkyAdnE66Oo9F4nM9tT1Sip2twWxufjRFHXypxcDOqOlFgQhCdSk/R/VY&#xD;
-/XYyqFnif9bgI+U26ZjMXdLTjWsx7CYcJl0GW32N1Ki4WNHFoabGzcA/gqyssMMj5KvDXmIY5lUi&#xD;
-ETv4Wv2hUrqFTfD5uzfT+W/HD0K3wwLNk/rlSGEGUkbYkMm5CFEyOrV2J6aC4v8DpRGUGYs+G9u5&#xD;
-6AWG8U/zYdjp+v0OgvuM5LiebLKPAgMBAAEwDQYJKoZIhvcNAQELBQADggEBAA2AFtSqTdoeIDQQ&#xD;
-tY1VHEzMe8xUcoXPUby+L2XJpOogKmgjSuokxdvb0+0P3TiYYpgQ43cUmfLor4n31b5MrpTBDFqc&#xD;
-JntQJ3q0WglwtIGr6SwpogO2Zu1ePvNNwnJxdE6c1EHJJK3xL0zMtoftA+b3PfULY7KJB0S5Rr/m&#xD;
-tOlpzlBxSeIDix/KB9zFocL5uP89XI8zbl5K/56p0ycM+Oi2lP62ohbk8vW+sCoQLqGaqnS7HvQB&#xD;
-+hoP8Rgjt4WsbTh/+ibbQa4xIMfto9O0aRzFLFfVJAqYn0AYWJEiOVEcCFyeTalEE3ZZgiDKXJQ+&#xD;
-rZFBoNqA1UYemZmYeuTOYXo=&#xD;
-</ns3:certificate>
-            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3AbiZPBwoUKvjtordM3zqMi3HBuo+qa9&#xD;
-NLPJD2bCK6qH7waASWLzQi3gYgRoCd6AikYNXSvaDoJ/xb9331O2HsT3nkCuAhO/wanfsHpcBpMg&#xD;
-HZxOujqPReJzPbU9UoqdrcFsbn40RR18qcXAzqjpRYEIQnUpP0f1WP12MqhZ4n/W4CPlNumYzF3S&#xD;
-041rMewmHCZdBlt9jdSouFjRxaGmxs3AP4KsrLDDI+Srw15iGOZVIhE7+Fr9oVK6hU3w+bs30/lv&#xD;
-xw9Ct8MCzZP65UhhBlJG2JDJuQhRMjq1diemguL/A6URlBmLPhvbuegFhvFP82HY6fr9DoL7jOS4&#xD;
-nmyyjwIDAQAB&#xD;
-</ns3:rsa-public-key>
-        </ns3:client-credentials-in-use>
-        <ns3:server-credentials-in-use>
-            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3AbiZPBwoUKvjtordM3zqMi3HBuo+qa9&#xD;
-NLPJD2bCK6qH7waASWLzQi3gYgRoCd6AikYNXSvaDoJ/xb9331O2HsT3nkCuAhO/wanfsHpcBpMg&#xD;
-HZxOujqPReJzPbU9UoqdrcFsbn40RR18qcXAzqjpRYEIQnUpP0f1WP12MqhZ4n/W4CPlNumYzF3S&#xD;
-041rMewmHCZdBlt9jdSouFjRxaGmxs3AP4KsrLDDI+Srw15iGOZVIhE7+Fr9oVK6hU3w+bs30/lv&#xD;
-xw9Ct8MCzZP65UhhBlJG2JDJuQhRMjq1diemguL/A6URlBmLPhvbuegFhvFP82HY6fr9DoL7jOS4&#xD;
-nmyyjwIDAQAB&#xD;
-</ns3:rsa-public-key>
-        </ns3:server-credentials-in-use>
-    </ns3:host>
-    <ns3:host>
-        <ns2:apis-implemented>
-            <ns6:factsheet version="0.1.0">
-                <ns6:http-security>
-                    <ns5:client-auth-methods>
-                        <ns31:httpsig/>
-                        <ns29:tlscert allows-self-signed="true"/>
-                    </ns5:client-auth-methods>
-                    <ns5:server-auth-methods>
-                        <ns32:httpsig/>
-                        <ns33:tlscert/>
-                    </ns5:server-auth-methods>
-                </ns6:http-security>
-                <ns6:url>https://mobility.uni.li/mobility/ewp/factsheets</ns6:url>
-                <ns6:max-hei-ids>3</ns6:max-hei-ids>
-            </ns6:factsheet>
         </ns2:apis-implemented>
         <ns3:institutions-covered>
             <ns2:hei id="uni.li">

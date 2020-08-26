@@ -2695,7 +2695,7 @@
         <apis-implemented>
             <om1:omobilities
                 xmlns:om1="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd"
-                version="0.15.0"
+                version="1.0.0"
             >
                 <om1:http-security>
                     <sec:client-auth-methods>
@@ -2728,7 +2728,7 @@
         <apis-implemented>
             <imc1:imobility-cnr
                 xmlns:imc1="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-cnr/blob/stable-v1/manifest-entry.xsd"
-                version="0.1.1"
+                version="1.0.0"
             >
                 <imc1:http-security>
                     <sec:client-auth-methods>
@@ -2759,7 +2759,7 @@
         <apis-implemented>
             <im1:imobilities
                 xmlns:im1="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v1/manifest-entry.xsd"
-                version="0.3.0"
+                version="1.0.0"
             >
                 <im1:http-security>
                     <sec:client-auth-methods>
@@ -2791,7 +2791,7 @@
         <apis-implemented>
             <omc1:omobility-cnr
                 xmlns:omc1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/blob/stable-v1/manifest-entry.xsd"
-                version="0.4.1"
+                version="1.0.0"
             >
                 <omc1:http-security>
                     <sec:client-auth-methods>
@@ -2806,37 +2806,6 @@
                 <omc1:url>https://mobility.uni.li/mobility/ewp/mobility_out/cnr</omc1:url>
                 <omc1:max-omobility-ids>1</omc1:max-omobility-ids>
             </omc1:omobility-cnr>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>uni.li</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <certificate sha-256="ce950be55ae387d0057a0e56d45e572991aba8612851846d388342fa594d3a26"/>
-            <rsa-public-key sha-256="485c056a8a4a18bbba51eb740d51ab499dbcd1e9bbbfb7713c0962d90082c36a"/>
-        </client-credentials-in-use>
-        <server-credentials-in-use>
-            <rsa-public-key sha-256="485c056a8a4a18bbba51eb740d51ab499dbcd1e9bbbfb7713c0962d90082c36a"/>
-        </server-credentials-in-use>
-    </host>
-    <host>
-        <apis-implemented>
-            <f1:factsheet
-                xmlns:f1="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
-                version="0.1.0"
-            >
-                <f1:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A2:httpsig/>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B2:httpsig/>
-                        <sec-B1:tlscert/>
-                    </sec:server-auth-methods>
-                </f1:http-security>
-                <f1:url>https://mobility.uni.li/mobility/ewp/factsheets</f1:url>
-                <f1:max-hei-ids>3</f1:max-hei-ids>
-            </f1:factsheet>
         </apis-implemented>
         <institutions-covered>
             <hei-id>uni.li</hei-id>
