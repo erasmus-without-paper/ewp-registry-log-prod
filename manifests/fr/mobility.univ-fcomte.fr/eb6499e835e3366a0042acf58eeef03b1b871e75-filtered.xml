@@ -159,68 +159,6 @@ tUsZPwIDAQAB&#xD;
     </ns3:host>
     <ns3:host>
         <ns2:apis-implemented>
-            <ns25:organizational-units version="2.1.1">
-                <ns25:http-security>
-                    <ns5:client-auth-methods>
-                        <ns31:httpsig/>
-                        <ns29:tlscert allows-self-signed="true"/>
-                    </ns5:client-auth-methods>
-                    <ns5:server-auth-methods>
-                        <ns32:httpsig/>
-                        <ns33:tlscert/>
-                    </ns5:server-auth-methods>
-                </ns25:http-security>
-                <ns25:url>https://mobility.univ-fcomte.fr/mobility/ewp/ounits</ns25:url>
-                <ns25:max-ounit-ids>3</ns25:max-ounit-ids>
-                <ns25:max-ounit-codes>3</ns25:max-ounit-codes>
-            </ns25:organizational-units>
-        </ns2:apis-implemented>
-        <ns3:institutions-covered>
-            <ns2:hei id="univ-fcomte.fr">
-                <ns2:other-id type="erasmus">F  BESANCO01</ns2:other-id>
-                <ns2:other-id type="euc">27762-IC-1-2007-1-FR-ERASMUS-EUCX-1</ns2:other-id>
-                <ns2:name xml:lang="fr">UNIVERSITE DE FRANCHE-COMTE</ns2:name>
-                <ns2:name xml:lang="en">UNIVERSITE DE FRANCHE-COMTE</ns2:name>
-            </ns2:hei>
-        </ns3:institutions-covered>
-        <ns3:client-credentials-in-use>
-            <ns3:certificate>MIIDdDCCAlwCCQCHzWapt/nlnjANBgkqhkiG9w0BAQsFADB8MQswCQYDVQQGEwJBVDEPMA0GA1UE&#xD;
-CAwGVmllbm5hMQ8wDQYDVQQHDAZWaWVubmExGDAWBgNVBAoMD01vYmlsaXR5LU9ubGluZTEPMA0G&#xD;
-A1UECwwGTU8gRVdQMSAwHgYDVQQDDBdtb2JpbGl0eS51bml2LWZjb210ZS5mcjAeFw0xODA2MDUx&#xD;
-MzI2NTJaFw0yODA2MDIxMzI2NTJaMHwxCzAJBgNVBAYTAkFUMQ8wDQYDVQQIDAZWaWVubmExDzAN&#xD;
-BgNVBAcMBlZpZW5uYTEYMBYGA1UECgwPTW9iaWxpdHktT25saW5lMQ8wDQYDVQQLDAZNTyBFV1Ax&#xD;
-IDAeBgNVBAMMF21vYmlsaXR5LnVuaXYtZmNvbXRlLmZyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A&#xD;
-MIIBCgKCAQEAwvPdlDkWoYspvt//YYZD3wthshHK/dMYTiPJYp5SF3NLFcPwoxHiHVOPOn2kmA+H&#xD;
-XnHs4o2835b863O261pk/XptnNJMrHLtQwkQklwBSv/GWHjmnG7RFjL6/IMXZQlKf+g00wU9coLr&#xD;
-qG5K/Xw4/lr2+4GKzO3fRNPrp6ALmEsLojIi+VdmumKLxu1ZlQkdoBZHqNVrbwI8CWyFPvetTkYY&#xD;
-/7nCsSwwvFcnfSGzDQ22UFh/YbzK6Bhywsgw+u6rfOVww2rbhkh+GdFazAqcvU4UQIhhtISBmdOv&#xD;
-wdahd2/oqHQYzGWukeApo3Q+a5PbyhLcPUuY/YndSvqGtUsZPwIDAQABMA0GCSqGSIb3DQEBCwUA&#xD;
-A4IBAQCxaYQ5GTXKda7Mdu/kwyvk45InugBN9lyhIgDCL06Mc/uvCbc8WF0L3cff/kmQmoceXs97&#xD;
-4uCh6px6wBM45sccmTtmAMKL7P2NcvQnwcWiNLs8ZOYj4aBnGQhTFJCwic9gIgAaOd+1Rp/BDnyz&#xD;
-n7fLgvLEYhtnVof95sjZilV/Kwdi41kopY7GUI8u9xcjsjLQ5BLiViKuQOAfuha0vCFRVNimHT4t&#xD;
-SVnpVlId8YEmYSt2kxA6Fv04NUqFi4MjfQxbeIDED4vm39aVN1Xj0+I9a6aUsayUqIYOxUveMxAp&#xD;
-IdLW2/bTCqrgLmGHOr06uNysxrKDttqhqOYestE+amgu&#xD;
-</ns3:certificate>
-            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwvPdlDkWoYspvt//YYZD3wthshHK/dMY&#xD;
-TiPJYp5SF3NLFcPwoxHiHVOPOn2kmA+HXnHs4o2835b863O261pk/XptnNJMrHLtQwkQklwBSv/G&#xD;
-WHjmnG7RFjL6/IMXZQlKf+g00wU9coLrqG5K/Xw4/lr2+4GKzO3fRNPrp6ALmEsLojIi+VdmumKL&#xD;
-xu1ZlQkdoBZHqNVrbwI8CWyFPvetTkYY/7nCsSwwvFcnfSGzDQ22UFh/YbzK6Bhywsgw+u6rfOVw&#xD;
-w2rbhkh+GdFazAqcvU4UQIhhtISBmdOvwdahd2/oqHQYzGWukeApo3Q+a5PbyhLcPUuY/YndSvqG&#xD;
-tUsZPwIDAQAB&#xD;
-</ns3:rsa-public-key>
-        </ns3:client-credentials-in-use>
-        <ns3:server-credentials-in-use>
-            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwvPdlDkWoYspvt//YYZD3wthshHK/dMY&#xD;
-TiPJYp5SF3NLFcPwoxHiHVOPOn2kmA+HXnHs4o2835b863O261pk/XptnNJMrHLtQwkQklwBSv/G&#xD;
-WHjmnG7RFjL6/IMXZQlKf+g00wU9coLrqG5K/Xw4/lr2+4GKzO3fRNPrp6ALmEsLojIi+VdmumKL&#xD;
-xu1ZlQkdoBZHqNVrbwI8CWyFPvetTkYY/7nCsSwwvFcnfSGzDQ22UFh/YbzK6Bhywsgw+u6rfOVw&#xD;
-w2rbhkh+GdFazAqcvU4UQIhhtISBmdOvwdahd2/oqHQYzGWukeApo3Q+a5PbyhLcPUuY/YndSvqG&#xD;
-tUsZPwIDAQAB&#xD;
-</ns3:rsa-public-key>
-        </ns3:server-credentials-in-use>
-    </ns3:host>
-    <ns3:host>
-        <ns2:apis-implemented>
             <ns24:iias version="3.0.0">
                 <ns24:http-security>
                     <ns5:client-auth-methods>
