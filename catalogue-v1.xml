@@ -31770,6 +31770,155 @@
             <rsa-public-key sha-256="519287216d9f295e5ca06bfc482e8d4bb3efb607c24e0efc0e2e08e651ab0c6c"/>
         </server-credentials-in-use>
     </host>
+    <host>
+        <ewp:admin-email>events@aec-music.eu</ewp:admin-email>
+        <apis-implemented>
+            <d5:discovery version="5.0.0">
+                <d5:url>https://aec-ewp.eu/v1/manifest</d5:url>
+            </d5:discovery>
+            <e2:echo version="2.0.1">
+                <e2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </e2:http-security>
+                <e2:url>https://aec-ewp.eu/v1/echo</e2:url>
+            </e2:echo>
+            <in2:institutions version="2.1.0">
+                <in2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </in2:http-security>
+                <in2:url>https://aec-ewp.eu/v1/institutions</in2:url>
+                <in2:max-hei-ids>15</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.1.1">
+                <ou2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </ou2:http-security>
+                <ou2:url>https://aec-ewp.eu/v1/organizational-units</ou2:url>
+                <ou2:max-ounit-ids>15</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>15</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>musikkons.dk</hei-id>
+            <hei-id>ema.edu.ee</hei-id>
+            <hei-id>ntnu.edu</hei-id>
+            <hei-id>polealienor.eu</hei-id>
+            <hei-id>cnsmd-lyon.fr</hei-id>
+            <hei-id>codarts.nl</hei-id>
+            <hei-id>conservatoire.be</hei-id>
+            <hei-id>csmvigo.com</hei-id>
+            <hei-id>conservatorio-frosinone.it</hei-id>
+            <hei-id>consba.it</hei-id>
+            <hei-id>lhi.is</hei-id>
+            <hei-id>jvlma.lv</hei-id>
+            <hei-id>music.metropolia.fi</hei-id>
+            <hei-id>mh-trossingen.de</hei-id>
+            <hei-id>nmh.no</hei-id>
+            <hei-id>hanze.nl</hei-id>
+            <hei-id>kmh.se</hei-id>
+            <hei-id>rcm.ac.uk</hei-id>
+            <hei-id>music.uib.no</hei-id>
+            <hei-id>beta.uniarts.fi</hei-id>
+            <hei-id>udk-berlin.de</hei-id>
+            <hei-id>hfmdd.de</hei-id>
+            <hei-id>lmta.lt</hei-id>
+            <hei-id>esmbourgognefranchecomte.fr</hei-id>
+            <hei-id>uis.no</hei-id>
+            <hei-id>pspbb.fr</hei-id>
+            <hei-id>hamu.cz</hei-id>
+            <hei-id>conservatoiredeparis.fr</hei-id>
+            <hei-id>english.dkdm.dk</hei-id>
+            <hei-id>esmuc.cat</hei-id>
+            <hei-id>sdmk.dk</hei-id>
+            <hei-id>esmd.fr</hei-id>
+            <hei-id>music.kau.se</hei-id>
+            <hei-id>portal.savonia.fi</hei-id>
+            <hei-id>mhm.lu.se</hei-id>
+            <hei-id>novia.fi</hei-id>
+            <hei-id>rcs.ac.uk</hei-id>
+            <hei-id>en.uit.no</hei-id>
+            <hei-id>rmc.dk</hei-id>
+            <hei-id>ap-arts.be</hei-id>
+            <hei-id>artacademyplovdiv.com</hei-id>
+            <hei-id>nma.bg</hei-id>
+            <hei-id>hfm-detmold.de</hei-id>
+            <hei-id>folkwang-uni.de</hei-id>
+            <hei-id>mh-freiburg.de</hei-id>
+            <hei-id>hfmt-hamburg.de</hei-id>
+            <hei-id>hfm.eu</hei-id>
+            <hei-id>hfmt-koeln.de</hei-id>
+            <hei-id>hmt-leipzig.de</hei-id>
+            <hei-id>mh-luebeck.de</hei-id>
+            <hei-id>hmdk-stuttgart.de</hei-id>
+            <hei-id>hfm-wuerzburg.de</hei-id>
+            <hei-id>csmalicante.com</hei-id>
+            <hei-id>conservatoriliceu.es</hei-id>
+            <hei-id>musikene.eus</hei-id>
+            <hei-id>conservatorisuperiorcastello.com</hei-id>
+            <hei-id>rcsmm.eu</hei-id>
+            <hei-id>consmupa.es</hei-id>
+            <hei-id>csmn.educacion.navarra.es</hei-id>
+            <hei-id>coscyl.com</hei-id>
+            <hei-id>consev.es</hei-id>
+            <hei-id>csmvalencia.es</hei-id>
+            <hei-id>lepontsuperieur.eu</hei-id>
+            <hei-id>lfze.hu</hei-id>
+            <hei-id>portale.conservatoriodicosenza.it</hei-id>
+            <hei-id>consaq.it</hei-id>
+            <hei-id>consno.it</hei-id>
+            <hei-id>conservatorio.pr.it</hei-id>
+            <hei-id>slmc.it</hei-id>
+            <hei-id>consalerno.it</hei-id>
+            <hei-id>constp.it</hei-id>
+            <hei-id>conts.it</hei-id>
+            <hei-id>conservatoriovenezia.net</hei-id>
+            <hei-id>consvi.it</hei-id>
+            <hei-id>riam.ie</hei-id>
+            <hei-id>dit.ie</hei-id>
+            <hei-id>consam.nl</hei-id>
+            <hei-id>koncon.nl</hei-id>
+            <hei-id>amuz.gda.pl</hei-id>
+            <hei-id>amgd.ro</hei-id>
+            <hei-id>uniarts.se</hei-id>
+            <hei-id>music.oamk.fi</hei-id>
+            <hei-id>uni-lj.si</hei-id>
+            <hei-id>bcu.ac.uk</hei-id>
+            <hei-id>trinitylaban.ac.uk</hei-id>
+            <hei-id>erasmustitoschipa.jimdo.com</hei-id>
+            <hei-id>esmae.ipp.pt</hei-id>
+            <hei-id>international.hmtm.de</hei-id>
+            <hei-id>rwcmd.ac.uk</hei-id>
+            <hei-id>uniarts.fi</hei-id>
+            <hei-id>artsaucarre.be</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="ff38401f1d3b26f8160e0206de5425fda5dd0684d4f19f41112aa99c5248312b"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="62d64f50f5973a1356cbfca03cde22fe4a5c8a6221f5845495fdcdf40c892704"/>
+        </server-credentials-in-use>
+    </host>
     <institutions>
         <hei id="3il.fr">
             <other-id type="erasmus">F  LIMOGES20</other-id>
@@ -31877,6 +32026,10 @@
             <other-id type="erasmus">PL KATOWIC04</other-id>
             <name>Akademia Muzyczna im. Karola Szymanowskiego</name>
         </hei>
+        <hei id="amgd.ro">
+            <other-id type="erasmus">RO CLUJNAP02</other-id>
+            <name xml:lang="en">National Academy of Music "Gheorghe Dima"</name>
+        </hei>
         <hei id="amp-vienna.com">
             <other-id type="erasmus">A  WIEN77</other-id>
             <name>International Academy of Music and Performing Arts Vienna</name>
@@ -31888,6 +32041,10 @@
         <hei id="amu.edu.pl">
             <other-id type="erasmus">PL POZNAN01</other-id>
             <name>UNIWERSYTET IM. ADAMA MICKIEWICZA W POZNANIU</name>
+        </hei>
+        <hei id="amuz.gda.pl">
+            <other-id type="erasmus">PL GDANSK04</other-id>
+            <name xml:lang="en">Stanisław Moniuszko Academy of Music in Gdańsk</name>
         </hei>
         <hei id="ankara.edu.tr">
             <other-id type="eche">222193-EPP-1-2014-1-TR-EPPKA3-ECHE</other-id>
@@ -31905,6 +32062,10 @@
         <hei id="aos.sk">
             <other-id type="erasmus">SK LIPTOV01</other-id>
             <name>AKADEMIA OZBROJENYCH SIL GENERALA MILANA RASTISLAVA STEFANIKA</name>
+        </hei>
+        <hei id="ap-arts.be">
+            <other-id type="erasmus">B ANTWERP62</other-id>
+            <name xml:lang="en">Royal Conservatoire Antwerp - AP University College Antwerp</name>
         </hei>
         <hei id="ap.be">
             <other-id type="erasmus">B  ANTWERP62</other-id>
@@ -31928,6 +32089,10 @@
             <other-id type="erasmus">RO SIBIU03</other-id>
             <name>Academia Fortelor Terestre 'Nicolae Balcescu'</name>
         </hei>
+        <hei id="artacademyplovdiv.com">
+            <other-id type="erasmus">BG PLOVDIV07</other-id>
+            <name xml:lang="en">Akademiya Za Muzikalno, Tantsovo I Izobrazitelno Izkustvo</name>
+        </hei>
         <hei id="arteiasi.ro">
             <other-id type="erasmus">RO IASI01</other-id>
             <name>UNIVERSITATEA NATIONALA DE ARTE GEORGE ENESCU DIN IASI</name>
@@ -31941,6 +32106,10 @@
         <hei id="artez.nl">
             <other-id type="erasmus">NL ENSCHED04</other-id>
             <name>Stichting ArtEZ</name>
+        </hei>
+        <hei id="artsaucarre.be">
+            <other-id type="erasmus">B MONS24</other-id>
+            <name xml:lang="en">ARTS² - Academy of Arts</name>
         </hei>
         <hei id="ash-berlin.eu">
             <other-id type="erasmus">D  BERLIN05</other-id>
@@ -32012,10 +32181,18 @@
             <other-id type="erasmus">BG SOFIA30</other-id>
             <name>BULGARIAN ACADEMY OF SCIENCES</name>
         </hei>
+        <hei id="bcu.ac.uk">
+            <other-id type="erasmus">UK BIRMING03</other-id>
+            <name xml:lang="en">Royal Birmingham Conservatoire</name>
+        </hei>
         <hei id="beitberl.ac.il">
             <other-id type="erasmus">IL BERL01</other-id>
             <name xml:lang="en">Beit Berl College</name>
             <name xml:lang="he">Beit Berl College</name>
+        </hei>
+        <hei id="beta.uniarts.fi">
+            <other-id type="erasmus">SF HELSINK42</other-id>
+            <name xml:lang="en">Sibelius Academy, University of the Arts Helsinki</name>
         </hei>
         <hei id="beuth-hochschule.de">
             <other-id type="eche">28419-EPP-1-2014-1-DE-EPPKA3-ECHE</other-id>
@@ -32173,9 +32350,51 @@
             <other-id type="erasmus">PL WARSZAW35</other-id>
             <name>COLLEGIUM CIVITAS</name>
         </hei>
+        <hei id="cnsmd-lyon.fr">
+            <other-id type="erasmus">F LYON24</other-id>
+            <name xml:lang="en">Lyon National Conservatoire of Music and Dance</name>
+        </hei>
+        <hei id="codarts.nl">
+            <other-id type="erasmus">NL ROTTERD09</other-id>
+            <name xml:lang="en">Codarts, University of the Arts</name>
+        </hei>
+        <hei id="consalerno.it">
+            <other-id type="erasmus">I SALERNO02</other-id>
+            <name xml:lang="en">Conservatorio Di Musica "Giuseppe Martucci" Salerno</name>
+        </hei>
+        <hei id="consam.nl">
+            <other-id type="erasmus">NL AMSTERD07</other-id>
+            <name xml:lang="en">Conservatory of Amsterdam</name>
+        </hei>
+        <hei id="consaq.it">
+            <other-id type="erasmus">IL AQUIL04</other-id>
+            <name xml:lang="en">Conservatorio Di Musica Alfredo Casella</name>
+        </hei>
+        <hei id="consba.it">
+            <other-id type="erasmus">I BARI03</other-id>
+            <name xml:lang="en">Conservatoire Niccolò Piccinni</name>
+        </hei>
         <hei id="conservatoire.be">
             <other-id type="erasmus">B  BRUXEL07</other-id>
+            <other-id type="erasmus">B BRUXEL07</other-id>
             <name>Conservatoire royal de Bruxelles</name>
+            <name xml:lang="en">Conservatoire royal de Bruxelles</name>
+        </hei>
+        <hei id="conservatoiredeparis.fr">
+            <other-id type="erasmus">F PARIS119</other-id>
+            <name xml:lang="en">CNSMD Paris</name>
+        </hei>
+        <hei id="conservatoriliceu.es">
+            <other-id type="erasmus">E BARCELO30</other-id>
+            <name xml:lang="en">Liceu Conservatory</name>
+        </hei>
+        <hei id="conservatorio-frosinone.it">
+            <other-id type="erasmus">I FROSINO02</other-id>
+            <name xml:lang="en">Conservatoire of Music Licinio Refice - Frosinone</name>
+        </hei>
+        <hei id="conservatorio.pr.it">
+            <other-id type="erasmus">I PARMA02</other-id>
+            <name xml:lang="en">Conservatorio Di Musica Arrigo Boito</name>
         </hei>
         <hei id="conservatorio.sassari.it">
             <other-id type="erasmus">I  SASSARI02</other-id>
@@ -32197,25 +32416,75 @@
             <other-id type="erasmus">I  ROVIGO01</other-id>
             <name>Conservatorio di Musica Francesco Venezze</name>
         </hei>
+        <hei id="conservatoriovenezia.net">
+            <other-id type="erasmus">I VENEZIA04</other-id>
+            <name xml:lang="en">Venice Music Academy "Benedetto Marcello"</name>
+        </hei>
         <hei id="conservatorioverona.it">
             <other-id type="erasmus">I  VERONA02</other-id>
             <name>Conservatorio Statale di Musica 'E. F. Dall’Abaco'</name>
+        </hei>
+        <hei id="conservatorisuperiorcastello.com">
+            <other-id type="erasmus">E CASTELL13</other-id>
+            <name xml:lang="en">Conservatori Superior de Música “Salvador Seguí” de Castelló</name>
+        </hei>
+        <hei id="consev.es">
+            <other-id type="erasmus">E SEVILLA04</other-id>
+            <name xml:lang="en">Conservatorio Superior De Música Manuel Castillo</name>
         </hei>
         <hei id="consli.it">
             <other-id type="erasmus">I  LIVORNO01</other-id>
             <name>ISSM P. Mascagni</name>
         </hei>
+        <hei id="consmupa.es">
+            <other-id type="erasmus">E OVIEDO03</other-id>
+            <name xml:lang="en">Conservatorio Superior De Música "Eduardo Martínez Torner" Del Principado De Asturias</name>
+        </hei>
+        <hei id="consno.it">
+            <other-id type="erasmus">I NOVARA01</other-id>
+            <name xml:lang="en">Conservatorio Guido Cantelli Novara</name>
+        </hei>
+        <hei id="constp.it">
+            <other-id type="erasmus">I TRAPANI02</other-id>
+            <name xml:lang="en">Conservatory of Music  "Antonio Scontrino" - Trapani</name>
+        </hei>
+        <hei id="consvi.it">
+            <other-id type="erasmus">I VICENZA03</other-id>
+            <name xml:lang="en">Conservatorio Di Musica Di Vicenza</name>
+        </hei>
         <hei id="consvv.it">
             <other-id type="erasmus">I  VIBO-VA01</other-id>
             <name>CONSERVATORIO DI MUSICA 'F.TORREFRANCA' VIBO VALENTIA</name>
+        </hei>
+        <hei id="conts.it">
+            <other-id type="erasmus">I TRIESTE02</other-id>
+            <name xml:lang="en">Conservatorio Statale Di Musica "Giuseppe Tartini" - Trieste</name>
+        </hei>
+        <hei id="coscyl.com">
+            <other-id type="erasmus">E SALAMAN03</other-id>
+            <name xml:lang="en">Conservatorio Superior De Música De Castilla Y León</name>
         </hei>
         <hei id="cpilosenlaces.com">
             <other-id type="erasmus">E  ZARAGOZ16</other-id>
             <name>CENTRO PUBLICO INTEGRADO DE FORMACIÓN PROFESIONAL LOS ENLACES</name>
         </hei>
+        <hei id="csmalicante.com">
+            <other-id type="erasmus">E ALICANT11</other-id>
+            <name xml:lang="en">Conservatorio Superior de Música Óscar Esplá de Alicante</name>
+        </hei>
+        <hei id="csmn.educacion.navarra.es">
+            <other-id type="erasmus">E PAMPLON17</other-id>
+            <name xml:lang="en">Conservatorio Superior de Música de Navarra</name>
+        </hei>
+        <hei id="csmvalencia.es">
+            <other-id type="erasmus">E VALENCI67</other-id>
+            <name xml:lang="en">Conservatori Superior de Música "Joaquín Rodrigo" de Valencia</name>
+        </hei>
         <hei id="csmvigo.com">
             <other-id type="erasmus">E  VIGO03</other-id>
+            <other-id type="erasmus">E VIGO03</other-id>
             <name>CONSERVATORIO SUPERIOR DE MÚSICA DE VIGO</name>
+            <name xml:lang="en">CONSERVATORIO SUPERIOR DE MUSICA IN VIGO</name>
         </hei>
         <hei id="cu.edu.tr">
             <other-id type="erasmus">TR ADANA01</other-id>
@@ -32260,6 +32529,10 @@
             <other-id type="euc">29524-IC-1-2007-1-FI-ERASMUS-EUCX-1</other-id>
             <other-id type="pic">947255635</other-id>
             <name xml:lang="en">Diaconia University of Applied Sciences</name>
+        </hei>
+        <hei id="dit.ie">
+            <other-id type="erasmus">IRL DUBLIN27</other-id>
+            <name xml:lang="en">TU Dublin Conservatoire</name>
         </hei>
         <hei id="dshs-koeln.de">
             <other-id type="erasmus">D  KOLN02</other-id>
@@ -32423,13 +32696,25 @@
             <name xml:lang="en">ECOLE DE MANAGEMENT DE NORMANDIE</name>
             <name xml:lang="fr">ECOLE DE MANAGEMENT DE NORMANDIE</name>
         </hei>
+        <hei id="ema.edu.ee">
+            <other-id type="erasmus">EE TALLINN03</other-id>
+            <name xml:lang="en">Estonian Academy of Music and Theatre</name>
+        </hei>
         <hei id="emuni.si">
             <other-id type="erasmus">SI PORTORO03</other-id>
             <name>EVRO-SREDOZEMSKA UNIVERZA</name>
         </hei>
+        <hei id="en.uit.no">
+            <other-id type="erasmus">N TROMSO01</other-id>
+            <name xml:lang="en">The Arctic University of Norway Faculty of Fine Arts</name>
+        </hei>
         <hei id="enac.fr">
             <other-id type="erasmus">F  TOULOUS18</other-id>
             <name>ECOLE NATIONALE DE L AVIATION CIVILE</name>
+        </hei>
+        <hei id="english.dkdm.dk">
+            <other-id type="erasmus">DK KOBENHA09</other-id>
+            <name xml:lang="en">The Royal Danish Academy of Music</name>
         </hei>
         <hei id="enil.fr">
             <other-id type="erasmus">F  MAMIROL02</other-id>
@@ -32491,6 +32776,10 @@
             <name xml:lang="en">Erasmus Brussels University of Applied Sciences and Arts</name>
             <name xml:lang="nl">Erasmushogeschool Brussel</name>
         </hei>
+        <hei id="erasmustitoschipa.jimdo.com">
+            <other-id type="erasmus">I LECCE03</other-id>
+            <name xml:lang="en">Conservatorio di Musica Tito Schipa Lecce</name>
+        </hei>
         <hei id="erbakan.edu.tr">
             <other-id type="erasmus">TR KONYA04</other-id>
             <name>Necmettin Erbakan Üniversitesi</name>
@@ -32536,6 +32825,22 @@
             <other-id type="pic">949135592</other-id>
             <name xml:lang="en">GROUPE ESIEA</name>
             <name xml:lang="fr">GROUPE ESIEA</name>
+        </hei>
+        <hei id="esmae.ipp.pt">
+            <other-id type="erasmus">P PORTO05</other-id>
+            <name xml:lang="en">Escola Superior de Música e Artes do Espetáculo (ESMAE-IPP)</name>
+        </hei>
+        <hei id="esmbourgognefranchecomte.fr">
+            <other-id type="erasmus">F DIJON32</other-id>
+            <name xml:lang="en">ESM Bourgogne-Franche-Comté</name>
+        </hei>
+        <hei id="esmd.fr">
+            <other-id type="erasmus">F LILLE71</other-id>
+            <name xml:lang="en">École Supérieure Musique et Danse Nord de France</name>
+        </hei>
+        <hei id="esmuc.cat">
+            <other-id type="erasmus">E BARCELO29</other-id>
+            <name xml:lang="en">Escola Superior de Música de Catalunya</name>
         </hei>
         <hei id="essca.fr">
             <other-id type="erasmus">F  ANGERS10</other-id>
@@ -32766,6 +33071,10 @@
             <other-id type="erasmus">N  OSLO65</other-id>
             <name>Fjellhaug Internasjonale Høgskole AS</name>
         </hei>
+        <hei id="folkwang-uni.de">
+            <other-id type="erasmus">D ESSEN02</other-id>
+            <name xml:lang="en">Folkwang Universität Der Künste</name>
+        </hei>
         <hei id="fondazionemilano.eu">
             <other-id type="erasmus">I  MILANO14</other-id>
             <name>Scuole Civiche Milano -  Fondazione di Partecipazione</name>
@@ -32892,6 +33201,10 @@
             <other-id type="erasmus">SF HAMEENL09</other-id>
             <name>HAMEEN AMMATTIKORKEAKOULU OY</name>
         </hei>
+        <hei id="hamu.cz">
+            <other-id type="erasmus">CZ PRAHA04</other-id>
+            <name xml:lang="en">Academy of Performing Arts in Prague</name>
+        </hei>
         <hei id="han.nl">
             <other-id type="erasmus">NL ARNHEM27</other-id>
             <other-id type="erasmus-charter">28790</other-id>
@@ -32905,6 +33218,10 @@
             <other-id type="pic">986118976</other-id>
             <name xml:lang="en">HANKEN SVENSKA HANDELSHÖGSKOLAN</name>
             <name xml:lang="fi">HANKEN SVENSKA HANDELSHÖGSKOLAN</name>
+        </hei>
+        <hei id="hanze.nl">
+            <other-id type="erasmus">NL GRONING03</other-id>
+            <name xml:lang="en">Prince Claus Conservatoire, Hanze University of Applied Sciences</name>
         </hei>
         <hei id="haw-hamburg.de">
             <other-id type="erasmus">D  HAMBURG06</other-id>
@@ -33005,9 +33322,33 @@
             <other-id type="erasmus">D  HAMBURG04</other-id>
             <name>Hochschule für bildende Künste Hamburg</name>
         </hei>
+        <hei id="hfm-detmold.de">
+            <other-id type="erasmus">D DETMOLD01</other-id>
+            <name xml:lang="en">Detmold University of Music</name>
+        </hei>
         <hei id="hfm-weimar.de">
             <other-id type="erasmus">D  WEIMAR02</other-id>
             <name>Hochschule fuer Musik Franz Liszt Weimar</name>
+        </hei>
+        <hei id="hfm-wuerzburg.de">
+            <other-id type="erasmus">D WURZBUR02</other-id>
+            <name xml:lang="en">University of Music Wuerzburg</name>
+        </hei>
+        <hei id="hfm.eu">
+            <other-id type="erasmus">D KARLSRU03</other-id>
+            <name xml:lang="en">Hochschule für Musik Karlsruhe</name>
+        </hei>
+        <hei id="hfmdd.de">
+            <other-id type="erasmus">D DRESDEN05</other-id>
+            <name xml:lang="en">University of Music Carl Maria von Weber Dresden</name>
+        </hei>
+        <hei id="hfmt-hamburg.de">
+            <other-id type="erasmus">D HAMBURG05</other-id>
+            <name xml:lang="en">Hochschule für Musik und Theater Hamburg</name>
+        </hei>
+        <hei id="hfmt-koeln.de">
+            <other-id type="erasmus">D KOLN03</other-id>
+            <name xml:lang="en">Hochschule Für Musik Und Tanz Köln</name>
         </hei>
         <hei id="hfwu.de">
             <other-id type="eche">29872-EPP-1-2014-1-DE-EPPKA3-ECHE</other-id>
@@ -33069,6 +33410,14 @@
             <other-id type="euc">28778</other-id>
             <other-id type="pic">998322837</other-id>
             <name xml:lang="en">Hochschule München</name>
+        </hei>
+        <hei id="hmdk-stuttgart.de">
+            <other-id type="erasmus">D STUTTGA03</other-id>
+            <name xml:lang="en">State University of Music and Performing Arts Stuttgart</name>
+        </hei>
+        <hei id="hmt-leipzig.de">
+            <other-id type="erasmus">D LEIPZIG05</other-id>
+            <name xml:lang="en">Hochschule fuer Musik und Theater 'Felix Mendelssohn Bartholdy' Leipzig</name>
         </hei>
         <hei id="hnee.de">
             <other-id type="erasmus">D  EBERSWA01</other-id>
@@ -33539,6 +33888,10 @@
             <name xml:lang="de">Universität Zürich</name>
             <name xml:lang="en">Universität Zürich</name>
         </hei>
+        <hei id="international.hmtm.de">
+            <other-id type="erasmus">D MUNCHEN03</other-id>
+            <name xml:lang="en">University of Music and Performing Arts Munich</name>
+        </hei>
         <hei id="ipac-france.com">
             <other-id type="eche">27426-EPP-1-2014-1-FR-EPPKA3-ECHE</other-id>
             <other-id type="erasmus">F  ANNECY04</other-id>
@@ -33675,6 +34028,10 @@
             <other-id type="pic">999892976</other-id>
             <name xml:lang="en">Johannes Kepler Universität Linz</name>
         </hei>
+        <hei id="jvlma.lv">
+            <other-id type="erasmus">LV RIGA05</other-id>
+            <name xml:lang="en">Jazeps Vitols Latvian Academy of Music</name>
+        </hei>
         <hei id="jyu.fi">
             <other-id type="erasmus">SF JYVASKY01</other-id>
             <other-id type="euc">29549-IC-1-2007-1-FI-ERASMUS-EUCX-1</other-id>
@@ -33753,9 +34110,17 @@
             <other-id type="erasmus">PL TORUN03</other-id>
             <name>KOLEGIUM JAGIELLONSKIE-TORUNSKA SZKOLA WYZSZA</name>
         </hei>
+        <hei id="kmh.se">
+            <other-id type="erasmus">S STOCKHO11</other-id>
+            <name xml:lang="en">Royal College of Music in Stockholm</name>
+        </hei>
         <hei id="kodolanyi.hu">
             <other-id type="erasmus">HU SZFVAR01</other-id>
             <name>KODOLANYI JANOS EGYETEM</name>
+        </hei>
+        <hei id="koncon.nl">
+            <other-id type="erasmus">NL S-GRAVE05</other-id>
+            <name xml:lang="en">Royal Conservatoire The Hague</name>
         </hei>
         <hei id="konin.edu.pl">
             <other-id type="erasmus">PL KONIN02</other-id>
@@ -33864,8 +34229,20 @@
             <other-id type="erasmus">UK LEICEST01</other-id>
             <name>UNIVERSITY OF LEICESTER</name>
         </hei>
+        <hei id="lepontsuperieur.eu">
+            <other-id type="erasmus">F NANTES72</other-id>
+            <name xml:lang="en">Le Pont Superieur - Pôle D'Enseignement Supérieur Spectacle Vivant - Musique Danse Theatre - Bretagne Pays De La Loire</name>
+        </hei>
         <hei id="leuphana.de">
             <name xml:lang="en">Leuphana Universität Lüneburg</name>
+        </hei>
+        <hei id="lfze.hu">
+            <other-id type="erasmus">HU BUDAPES25</other-id>
+            <name xml:lang="en">Liszt Ferenc Academy of Music</name>
+        </hei>
+        <hei id="lhi.is">
+            <other-id type="erasmus">IS REYKJAV06</other-id>
+            <name xml:lang="en">Iceland University of the Arts</name>
         </hei>
         <hei id="liepu.lv">
             <other-id type="erasmus">LV LIEPAJA01</other-id>
@@ -33882,6 +34259,10 @@
             <other-id type="erasmus">UK LIVERPO01</other-id>
             <other-id type="pic">999980567</other-id>
             <name xml:lang="en">University of Liverpool</name>
+        </hei>
+        <hei id="lmta.lt">
+            <other-id type="erasmus">LT VILNIUS05</other-id>
+            <name xml:lang="en">Lithuanian Academy of Music and Theatre</name>
         </hei>
         <hei id="lmu.de">
             <other-id type="erasmus">D  MUNCHEN01</other-id>
@@ -34011,9 +34392,23 @@
             <other-id type="erasmus">SI CELJE03</other-id>
             <name>MEDNARODNA FAKULTETA ZA DRUZBENE IN POSLOVNE STUDIJE ZAVOD</name>
         </hei>
+        <hei id="mh-freiburg.de">
+            <other-id type="erasmus">D FREIBUR03</other-id>
+            <name xml:lang="en">Hochschule Fuer Musik Freiburg Im Breisgau</name>
+        </hei>
+        <hei id="mh-luebeck.de">
+            <other-id type="erasmus">D LUBECK02</other-id>
+            <name xml:lang="en">Musikhochschule Lübeck</name>
+        </hei>
         <hei id="mh-trossingen.de">
             <other-id type="erasmus">D  TROSSIN01</other-id>
+            <other-id type="erasmus">D TROSSIN01</other-id>
             <name>Staatliche Hochschule für Musik Trossingen</name>
+            <name xml:lang="en">University of Music Trossingen</name>
+        </hei>
+        <hei id="mhm.lu.se">
+            <other-id type="erasmus">S LUND01</other-id>
+            <name xml:lang="en">Malmö Academy of Music, Lund University</name>
         </hei>
         <hei id="mines-paristech.fr">
             <other-id type="erasmus">F  PARIS081</other-id>
@@ -34057,6 +34452,30 @@
             <other-id type="erasmus">A  WIEN52</other-id>
             <name>Musik und Kunst Privatuniversität der Stadt Wien GmbH</name>
         </hei>
+        <hei id="music.kau.se">
+            <other-id type="erasmus">S KARLSTA01</other-id>
+            <name xml:lang="en">Ingesund School of Music, Karlstad University</name>
+        </hei>
+        <hei id="music.metropolia.fi">
+            <other-id type="erasmus">SF HELSINK41</other-id>
+            <name xml:lang="en">Metropolia University of Applied Sciences - Degree Programme in Music</name>
+        </hei>
+        <hei id="music.oamk.fi">
+            <other-id type="erasmus">SF OULU11</other-id>
+            <name xml:lang="en">Oulu University of Applied Sciences, School of Media and Performing Arts</name>
+        </hei>
+        <hei id="music.uib.no">
+            <other-id type="erasmus">N BERGEN01</other-id>
+            <name xml:lang="en">University of Bergen (including The Grieg Academy)</name>
+        </hei>
+        <hei id="musikene.eus">
+            <other-id type="erasmus">E SANSEB01</other-id>
+            <name xml:lang="en">Musikene. Higher school of  music of the Basque Country</name>
+        </hei>
+        <hei id="musikkons.dk">
+            <other-id type="erasmus">DK ARHUS05</other-id>
+            <name xml:lang="en">The Royal Academy of Music Aarhus/Aalborg</name>
+        </hei>
         <hei id="mvso.cz">
             <other-id type="erasmus">CZ OLOMOUC03</other-id>
             <name>MORAVSKA VYSOKA SKOLA OLOMOUC O.P.S</name>
@@ -34089,9 +34508,17 @@
             <other-id type="erasmus">E  MADRID12</other-id>
             <name>UNIVERSITAS NEBRISSENSIS SA</name>
         </hei>
+        <hei id="nma.bg">
+            <other-id type="erasmus">BG SOFIA13</other-id>
+            <name xml:lang="en">National Academy of Music "Prof. Pancho Vladigerov" Sofia</name>
+        </hei>
         <hei id="nmbu.no">
             <other-id type="erasmus">N  AS03</other-id>
             <name>Norwegian University of Life sciences</name>
+        </hei>
+        <hei id="nmh.no">
+            <other-id type="erasmus">N OSLO03</other-id>
+            <name xml:lang="en">Norwegian Academy of Music</name>
         </hei>
         <hei id="nny.edu.tr">
             <other-id type="erasmus">TR KAYSERI03</other-id>
@@ -34110,6 +34537,14 @@
         </hei>
         <hei id="northumbria.ac.uk">
             <name xml:lang="en">Northumbria University</name>
+        </hei>
+        <hei id="novia.fi">
+            <other-id type="erasmus">SF VAASA13</other-id>
+            <name xml:lang="en">Novia University of Applied Sciences</name>
+        </hei>
+        <hei id="ntnu.edu">
+            <other-id type="erasmus">N TRONDHE01</other-id>
+            <name xml:lang="en">Norwegian University of Science and Technology Department of Music</name>
         </hei>
         <hei id="ntnu.no">
             <other-id type="erasmus">N TRONDHE01</other-id>
@@ -34296,10 +34731,22 @@
             <name xml:lang="en">PLANTIJN HOGESCHOOL VAN DE PROVINCIE ANTWERPEN</name>
             <name xml:lang="nl">PLANTIJN HOGESCHOOL VAN DE PROVINCIE ANTWERPEN</name>
         </hei>
+        <hei id="polealienor.eu">
+            <other-id type="erasmus">F POITIER29</other-id>
+            <name xml:lang="en">Pôle Aliénor</name>
+        </hei>
         <hei id="port.ac.uk">
             <other-id type="erasmus">UK PORTSMO01</other-id>
             <other-id type="pic">999847871</other-id>
             <name xml:lang="en">University of Portsmouth</name>
+        </hei>
+        <hei id="portal.savonia.fi">
+            <other-id type="erasmus">SF KUOPIO08</other-id>
+            <name xml:lang="en">Savonia University of Applied Sciences, Kuopio School of Music and Dance</name>
+        </hei>
+        <hei id="portale.conservatoriodicosenza.it">
+            <other-id type="erasmus">I COSENZA03</other-id>
+            <name xml:lang="en">Conservatory of Music "Stanislao Giacomantonio" - Cosenza</name>
         </hei>
         <hei id="poznan.pl">
             <other-id type="erasmus">PL POZNAN08</other-id>
@@ -34318,6 +34765,10 @@
             <other-id type="erasmus">PL RZESZOW01</other-id>
             <name xml:lang="en">Ignacy Łukasiewicz Rzeszow University</name>
             <name xml:lang="pl">Politechnika Rzeszowska im. Ignacego Łukasiewicza</name>
+        </hei>
+        <hei id="pspbb.fr">
+            <other-id type="erasmus">F PARIS365</other-id>
+            <name xml:lang="en">Pôle supérieur d'enseignement artistique of Paris Boulogne-Billancourt</name>
         </hei>
         <hei id="pswbp.pl">
             <other-id type="erasmus">PL BIALA01</other-id>
@@ -34358,6 +34809,18 @@
             <other-id type="erasmus">RO BUCURES18</other-id>
             <name>UNIVERSITATEA ROMANO-AMERICANA ASOCIATIE</name>
         </hei>
+        <hei id="rcm.ac.uk">
+            <other-id type="erasmus">UK LONDON061</other-id>
+            <name xml:lang="en">Royal College of Music</name>
+        </hei>
+        <hei id="rcs.ac.uk">
+            <other-id type="erasmus">UK GLASGOW05</other-id>
+            <name xml:lang="en">Royal Conservatoire of Scotland</name>
+        </hei>
+        <hei id="rcsmm.eu">
+            <other-id type="erasmus">E MADRID27</other-id>
+            <name xml:lang="en">Real Conservatorio Superior De Musica De Madrid</name>
+        </hei>
         <hei id="reutlingen-university.de">
             <other-id type="erasmus">D  REUTLIN02</other-id>
             <other-id type="erasmus-charter">30269</other-id>
@@ -34372,6 +34835,10 @@
             <name xml:lang="en">RIGA GRADUATE SCHOOL OF LAW</name>
             <name xml:lang="lv">RIGA GRADUATE SCHOOL OF LAW</name>
         </hei>
+        <hei id="riam.ie">
+            <other-id type="erasmus">IRL DUBLIN22</other-id>
+            <name xml:lang="en">Royal Irish Academy of Music</name>
+        </hei>
         <hei id="riseba.lv">
             <other-id type="erasmus">LV RIGA29</other-id>
             <name>RISEBA UNIVERSITY</name>
@@ -34379,6 +34846,10 @@
         <hei id="rkh.se">
             <other-id type="erasmus">S  STOCKHO18</other-id>
             <name>Stiftelsen Rödakorshemmet/Röda Korsets Högskola</name>
+        </hei>
+        <hei id="rmc.dk">
+            <other-id type="erasmus">DK KOBENHA39</other-id>
+            <name xml:lang="en">Rhythmic Music Conservatory</name>
         </hei>
         <hei id="rta.lv">
             <other-id type="erasmus">LV REZEKNE02</other-id>
@@ -34409,6 +34880,10 @@
             <other-id type="pic">999988812</other-id>
             <name>RUHR-UNIVERSITAET BOCHUM</name>
             <name xml:lang="en">Ruhr-Universität Bochum</name>
+        </hei>
+        <hei id="rwcmd.ac.uk">
+            <other-id type="erasmus">UK PONTYPR02</other-id>
+            <name xml:lang="en">Royal Welsh College of Music and Drama</name>
         </hei>
         <hei id="rwth-aachen.de">
             <other-id type="erasmus">D  AACHEN01</other-id>
@@ -34474,6 +34949,10 @@
             <name>INSTITUT D’ETUDES POLITIQUES DE BORDEAUX</name>
             <name xml:lang="en">Sciences Po Bordeaux</name>
         </hei>
+        <hei id="sdmk.dk">
+            <other-id type="erasmus">DK ODENSE22</other-id>
+            <name xml:lang="en">SDMK - Danish National Academy of Music</name>
+        </hei>
         <hei id="sdu.dk">
             <other-id type="erasmus">DK ODENSE01</other-id>
             <name>SYDDANSK UNIVERSITET</name>
@@ -34515,6 +34994,10 @@
             <other-id type="euc">258820</other-id>
             <other-id type="pic">955416245</other-id>
             <name xml:lang="en">Skema Business School</name>
+        </hei>
+        <hei id="slmc.it">
+            <other-id type="erasmus">I ROMA30</other-id>
+            <name xml:lang="en">Saint Louis Music Center Srl</name>
         </hei>
         <hei id="slu.se">
             <other-id type="erasmus">S  UPPSALA02</other-id>
@@ -34745,6 +35228,10 @@
         <hei id="trakya.edu.tr">
             <other-id type="erasmus">TR EDIRNE01</other-id>
             <name>TRAKYA UNIVERSITESI</name>
+        </hei>
+        <hei id="trinitylaban.ac.uk">
+            <other-id type="erasmus">UK LONDON027</other-id>
+            <name xml:lang="en">Trinity Laban Conservatoire of Music and Dance</name>
         </hei>
         <hei id="truni.sk">
             <other-id type="erasmus">SK TRNAVA01</other-id>
@@ -35110,10 +35597,12 @@
         </hei>
         <hei id="udk-berlin.de">
             <other-id type="erasmus">D  BERLIN03</other-id>
+            <other-id type="erasmus">D BERLIN03</other-id>
             <other-id type="erasmus-charter">28395</other-id>
             <other-id type="euc">28395</other-id>
             <other-id type="pic">945595577</other-id>
             <name>UNIVERSITAT DER KUNSTE BERLIN</name>
+            <name xml:lang="en">Berlin University of Arts</name>
             <name xml:lang="en">Universität der Künste Berlin</name>
         </hei>
         <hei id="udl.cat">
@@ -35222,6 +35711,10 @@
             <other-id type="erasmus">MA 951928707</other-id>
             <name xml:lang="en">Université internationale de Rabat</name>
             <name xml:lang="fr">Université internationale de Rabat</name>
+        </hei>
+        <hei id="uis.no">
+            <other-id type="erasmus">N STAVANG01</other-id>
+            <name xml:lang="en">Faculty of Performing Arts, University of Stavanger</name>
         </hei>
         <hei id="uit.no">
             <other-id type="erasmus">N TROMS001</other-id>
@@ -35589,6 +36082,10 @@
             <other-id type="pic">999854564</other-id>
             <name xml:lang="en">Universität Leipzig</name>
         </hei>
+        <hei id="uni-lj.si">
+            <other-id type="erasmus">SI LJUBLJA01</other-id>
+            <name xml:lang="en">University of Ljublijana</name>
+        </hei>
         <hei id="uni-luebeck.de">
             <other-id type="erasmus">D  LUBECK01</other-id>
             <other-id type="erasmus-charter">28436</other-id>
@@ -35773,6 +36270,14 @@
         <hei id="uniag.sk">
             <other-id type="erasmus">SK NITRA02</other-id>
             <name>SLOVENSKA POLNOHOSPODARSKA UNIVERZITA V NITRE</name>
+        </hei>
+        <hei id="uniarts.fi">
+            <other-id type="erasmus">SF HELSINK42.</other-id>
+            <name xml:lang="en">Academy of Fine Arts, University of the Arts Helsinki</name>
+        </hei>
+        <hei id="uniarts.se">
+            <other-id type="erasmus">S STOCKHO27</other-id>
+            <name xml:lang="en">Stockholm University of the Arts</name>
         </hei>
         <hei id="uniba.sk">
             <other-id type="erasmus">SK BRATISL02</other-id>
@@ -36860,6 +37365,14 @@
             QIVq21UqjVK1lcwW9UYAsgZdhjxwNp2gvDEzVErnkIEC+4ZeXh/ChIc9MKUqwsEn1KU9TzXb3JDb
             9AYVjCgJ55A7/qtirp59R7CvwTeiRo7un55u+MUznNz3h+cWfeceSoSqaltc6CarD0n/F4IvvktU
             gzG7fwIDAQAB
+        </rsa-public-key>
+        <rsa-public-key sha-256="62d64f50f5973a1356cbfca03cde22fe4a5c8a6221f5845495fdcdf40c892704">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAneew4Sg2BdM2AbSBvE3k4rCr5nqzBYJq
+            uuSgABei76ODYbozczR5QDHD4consAGplfBLoyjecOh1sDP9Rxz0WyYl9GRI1SAuMc93wZl8796p
+            Hn4rDcTz4dS5rWLS4/Udn46qAiJBNHxNVNnuoPsXAcw3dLzmzGWeFRTRlbjJK3qowtSrNk608Lb8
+            JXNVhK4kEs61YDGdQurSH28ErYR4WQNj3+cSj/BZVg5biX8tIEcLL/EC4wcrgU7bF9aKdGr5tPo9
+            wOg3Y8eYcR4mB7bdTHAusNX2BRQCjQ0Q1h97M3gTEDJ3UbfrrCWvEzHVKqKLXeooipa7o+4FVNR9
+            6cCNmQIDAQAB
         </rsa-public-key>
         <rsa-public-key sha-256="640bd05b7a581a755749224e84139e40adc8b38d44eb08ee1ac42a653aa322ad">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvCmzOW6D+SHMhI9PTA3yEDIUt+AyWmIB
