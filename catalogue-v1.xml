@@ -8567,6 +8567,71 @@
     </host>
     <host>
         <apis-implemented>
+            <om1:omobilities
+                xmlns:om1="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <om1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </om1:http-security>
+                <om1:get-url>https://mobility.univ-lorraine.fr/mobility/ewp/mobility_out/get</om1:get-url>
+                <om1:index-url>https://mobility.univ-lorraine.fr/mobility/ewp/mobility_out/index</om1:index-url>
+                <om1:max-omobility-ids>1</om1:max-omobility-ids>
+                <om1:sends-notifications/>
+            </om1:omobilities>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>univ-lorraine.fr</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="e9c80a2acbf332bb7dceaee8a81c11ac308a35589806929f91537aecf4b156dc"/>
+            <rsa-public-key sha-256="3310d13c4313caf73c68786934a860ce8e408c6120b2e97aeaf6b2f61051418f"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="3310d13c4313caf73c68786934a860ce8e408c6120b2e97aeaf6b2f61051418f"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <im1:imobilities
+                xmlns:im1="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <im1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </im1:http-security>
+                <im1:get-url>https://mobility.univ-lorraine.fr/mobility/ewp/mobility_in/get</im1:get-url>
+                <im1:max-omobility-ids>1</im1:max-omobility-ids>
+                <im1:sends-notifications/>
+            </im1:imobilities>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>univ-lorraine.fr</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="e9c80a2acbf332bb7dceaee8a81c11ac308a35589806929f91537aecf4b156dc"/>
+            <rsa-public-key sha-256="3310d13c4313caf73c68786934a860ce8e408c6120b2e97aeaf6b2f61051418f"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="3310d13c4313caf73c68786934a860ce8e408c6120b2e97aeaf6b2f61051418f"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
             <f1:factsheet
                 xmlns:f1="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
                 version="0.3.0"
