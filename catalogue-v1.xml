@@ -7571,6 +7571,7 @@
             <hei-id>vmi.at</hei-id>
             <hei-id>cbs.de</hei-id>
             <hei-id>ipac-france.com</hei-id>
+            <hei-id>polizei.sachsen.de</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="9497576369d8a978672bdceaa2f2fbf5ff5966ff854d1bec7a7b964ef67b0df2"/>
@@ -34279,6 +34280,33 @@
             <rsa-public-key sha-256="492f8026b11c9f3071aac0055417bdd3b741848d4c4800e06f0a1f362db2bdc1"/>
         </server-credentials-in-use>
     </host>
+    <host>
+        <apis-implemented>
+            <d5:discovery version="5.0.0">
+                <d5:url>https://mobility.i-med.ac.at/mobility/ewp/manifest?api=all</d5:url>
+            </d5:discovery>
+            <e2:echo version="2.0.0">
+                <e2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </e2:http-security>
+                <e2:url>https://mobility.i-med.ac.at/mobility/ewp/echo</e2:url>
+            </e2:echo>
+        </apis-implemented>
+        <client-credentials-in-use>
+            <certificate sha-256="0c427b35f46ff6f91d28d9475934232282bb7581f8c2854e6a2718c94e4a3547"/>
+            <rsa-public-key sha-256="fadc8c39fed6e752d129aca47ffdd01cf2390c47a3cb71f11199ee15bce18683"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="fadc8c39fed6e752d129aca47ffdd01cf2390c47a3cb71f11199ee15bce18683"/>
+        </server-credentials-in-use>
+    </host>
     <institutions>
         <hei id="3il.fr">
             <other-id type="erasmus">F  LIMOGES20</other-id>
@@ -40205,6 +40233,14 @@
             sjNRjjggRdMAauxWjlFmuz+We47dnftsOYCH4/JrVwNGLWGsFM3hhLoTJwjJaH8MILTOS0WjmJIx
             DTPku2nxXjJEH2maMVNIl0xgCvQfeNkqe6kep+Nw1FUiwZWUffi1AecLX3Ve1sjULlj5S72nrwWr
             8UfhpwIDAQAB
+        </rsa-public-key>
+        <rsa-public-key sha-256="fadc8c39fed6e752d129aca47ffdd01cf2390c47a3cb71f11199ee15bce18683">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxoZp7NzzDngrFnp2JDRjG6ahvOFp7MPJ
+            0sOMc7k1QAyhnItFL/HBbfbnCnmli5dR383KamxoXVGkrXXbjwEkR7NTvo3VP6WnbO4EuSvho6/I
+            rGwFHCa3zx1E3U5yi7n6bCYsD7bp6K9pN/WLoD38VtwZTDzf9A/zYii2ikibfJC5h+/MFAvP9Klk
+            Iddl5sof+3nzH8K4N0YGDdN7DCAvxDgK22MJhPP48cGy/q2LfcMQP0/jAu6rbLeXkahcVoA61n7y
+            Ab2oqV8bzYS+btIk8Gj2gMg4oOHq6pixv8BeOktR/dDZYFyBGgB7Yb6Z0vEQwtTaQYHqwy6HRYkn
+            qDx2KQIDAQAB
         </rsa-public-key>
         <rsa-public-key sha-256="fc501810bf0e921d82088ab35ecbedef1276286b070ede86fde388f3005e8aa0">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArscBqTRDcWvW+P9w162aO/VFVv+8yeBc
