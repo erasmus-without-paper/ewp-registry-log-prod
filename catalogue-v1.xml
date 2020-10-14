@@ -9179,6 +9179,7 @@
             <hei-id>insa-rennes.fr</hei-id>
             <hei-id>insa-rouen.fr</hei-id>
             <hei-id>ehess.fr</hei-id>
+            <hei-id>icp.fr</hei-id>
             <hei-id>sciencespo-rennes.fr</hei-id>
             <hei-id>essca.fr</hei-id>
             <hei-id>epf.fr</hei-id>
@@ -9340,6 +9341,7 @@
             <hei-id>usj.es</hei-id>
             <hei-id>via.dk</hei-id>
             <hei-id>zagreb-bo.moveon4.de</hei-id>
+            <hei-id>devinci.fr</hei-id>
             <hei-id>univ-tlse2.fr</hei-id>
             <hei-id>bi.no</hei-id>
             <hei-id>htwsaar.de</hei-id>
@@ -9350,7 +9352,9 @@
             <hei-id>upm.es</hei-id>
             <hei-id>univ-lyon2.fr</hei-id>
             <hei-id>skema.edu</hei-id>
+            <hei-id>insa-toulouse.fr</hei-id>
             <hei-id>kau.se</hei-id>
+            <hei-id>thomasmorelive.be</hei-id>
             <hei-id>thomasmore.be</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
@@ -10332,6 +10336,9 @@
     <host>
         <ewp:admin-email>umesh@qs.com</ewp:admin-email>
         <apis-implemented/>
+        <institutions-covered>
+            <hei-id>icp.fr</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
             <rsa-public-key sha-256="e4c7f55c93dc6e16e192943079a33d85aeef3cd6a6eaec1fcb21ac676c009fbc"/>
@@ -29292,6 +29299,9 @@
     <host>
         <ewp:admin-email>umesh@qs.com</ewp:admin-email>
         <apis-implemented/>
+        <institutions-covered>
+            <hei-id>devinci.fr</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
             <rsa-public-key sha-256="e4c7f55c93dc6e16e192943079a33d85aeef3cd6a6eaec1fcb21ac676c009fbc"/>
@@ -30313,6 +30323,9 @@
     <host>
         <ewp:admin-email>umesh@qs.com</ewp:admin-email>
         <apis-implemented/>
+        <institutions-covered>
+            <hei-id>insa-toulouse.fr</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
             <rsa-public-key sha-256="e4c7f55c93dc6e16e192943079a33d85aeef3cd6a6eaec1fcb21ac676c009fbc"/>
@@ -30512,6 +30525,9 @@
     <host>
         <ewp:admin-email>umesh@qs.com</ewp:admin-email>
         <apis-implemented/>
+        <institutions-covered>
+            <hei-id>thomasmorelive.be</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
             <rsa-public-key sha-256="e4c7f55c93dc6e16e192943079a33d85aeef3cd6a6eaec1fcb21ac676c009fbc"/>
@@ -34997,7 +35013,11 @@
         </hei>
         <hei id="devinci.fr">
             <other-id type="erasmus">F  PARIS270</other-id>
+            <other-id type="erasmus-charter">60442</other-id>
+            <other-id type="euc">60442</other-id>
+            <other-id type="pic">949658034</other-id>
             <name>F  PARIS270</name>
+            <name xml:lang="en">Pôle Universitaire Léonard de Vinci</name>
         </hei>
         <hei id="dhbw-ravensburg.de">
             <other-id type="erasmus">D  RAVENSB02</other-id>
@@ -36312,6 +36332,13 @@
             <other-id type="erasmus">F  LAROCHE01</other-id>
             <name>F  LAROCHE01</name>
         </hei>
+        <hei id="icp.fr">
+            <other-id type="erasmus">F  PARIS052</other-id>
+            <other-id type="erasmus-charter">28612</other-id>
+            <other-id type="euc">28612</other-id>
+            <other-id type="pic">949439396</other-id>
+            <name xml:lang="en">Institut Catholique de Paris</name>
+        </hei>
         <hei id="ied.it">
             <other-id type="erasmus">I  MILANO18</other-id>
             <name>I  MILANO18</name>
@@ -36380,7 +36407,11 @@
         </hei>
         <hei id="insa-toulouse.fr">
             <other-id type="erasmus">F  TOULOUS14</other-id>
+            <other-id type="erasmus-charter">27567</other-id>
+            <other-id type="euc">27567</other-id>
+            <other-id type="pic">999869405</other-id>
             <name xml:lang="en">INSA Toulouse</name>
+            <name xml:lang="en">Institut National des Sciences Appliquees de Toulouse</name>
             <name xml:lang="fr">INSA Toulouse</name>
         </hei>
         <hei id="institutdelteatre.cat">
@@ -37740,6 +37771,13 @@
             <other-id type="euc">28142</other-id>
             <other-id type="pic">991017767</other-id>
             <name xml:lang="en">Thomas More Mechelen-Antwerpen</name>
+        </hei>
+        <hei id="thomasmorelive.be">
+            <other-id type="erasmus">B  GEEL07</other-id>
+            <other-id type="erasmus-charter">28221</other-id>
+            <other-id type="euc">28221</other-id>
+            <other-id type="pic">997354292</other-id>
+            <name xml:lang="en">Thomas More Kempen</name>
         </hei>
         <hei id="thu.de">
             <other-id type="erasmus">D  ULM02</other-id>
