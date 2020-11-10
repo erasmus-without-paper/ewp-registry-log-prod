@@ -139,6 +139,12 @@
                 <r:other-id type="pic">999859123</r:other-id>
                 <r:name xml:lang="en">Université Paris 1 Panthéon-Sorbonne</r:name>
             </r:hei>
+            <r:hei id="test.com">
+                <r:other-id type="erasmus">F  PARIS004</r:other-id>
+                <r:other-id type="euc">28169</r:other-id>
+                <r:other-id type="pic">998096051</r:other-id>
+                <r:name xml:lang="en">[no longer existing] Université Paris-Sorbonne</r:name>
+            </r:hei>
             <r:hei id="univ-paris8.fr">
                 <r:name xml:lang="en">Université Paris 8 Vincennes - Saint-Denis</r:name>
             </r:hei>
@@ -229,6 +235,12 @@
                 <r:other-id type="euc">27941</r:other-id>
                 <r:other-id type="pic">999484606</r:other-id>
                 <r:name xml:lang="en">Université Paris Est Créteil  Val de Marne</r:name>
+            </r:hei>
+            <r:hei id="u-picardie.fr">
+                <r:other-id type="erasmus">F  AMIENS01</r:other-id>
+                <r:other-id type="euc">28127</r:other-id>
+                <r:other-id type="pic">998207116</r:other-id>
+                <r:name xml:lang="en">Université de Picardie Jules Verne</r:name>
             </r:hei>
             <r:hei id="sorbonne-universite.fr">
                 <r:other-id type="erasmus">FR PARIS468</r:other-id>
@@ -823,6 +835,12 @@
                 <r:other-id type="pic">999847289</r:other-id>
                 <r:name xml:lang="en">Vaasan yliopisto</r:name>
             </r:hei>
+            <r:hei id="pha.dk">
+                <r:other-id type="erasmus">DK SORO02</r:other-id>
+                <r:other-id type="euc">244935</r:other-id>
+                <r:other-id type="pic">949610795</r:other-id>
+                <r:name xml:lang="en">University College Absalon</r:name>
+            </r:hei>
             <r:hei id="hz.nl">
                 <r:other-id type="erasmus">NL VLISSIN01</r:other-id>
                 <r:other-id type="euc">27563</r:other-id>
@@ -942,6 +960,12 @@
                 <r:other-id type="euc">28606</r:other-id>
                 <r:other-id type="pic">999874546</r:other-id>
                 <r:name xml:lang="en">Universidad Complutense de Madrid</r:name>
+            </r:hei>
+            <r:hei id="haaga-helia.fi">
+                <r:other-id type="erasmus">SF HELSINK40</r:other-id>
+                <r:other-id type="euc">236545</r:other-id>
+                <r:other-id type="pic">952871159</r:other-id>
+                <r:name xml:lang="en">HAAGA-HELIA Ammattikorkeakoulu</r:name>
             </r:hei>
             <r:hei id="europa-uni.de">
                 <r:other-id type="erasmus">D  FRANKFU08</r:other-id>
@@ -1063,6 +1087,10 @@
                 <r:other-id type="euc">29403</r:other-id>
                 <r:other-id type="pic">999874837</r:other-id>
                 <r:name xml:lang="en">Karlstads universitet</r:name>
+            </r:hei>
+            <r:hei id="centralesupelec.fr">
+                <r:other-id type="erasmus">F  GIF-YVE03</r:other-id>
+                <r:name xml:lang="en">CentraleSupélec</r:name>
             </r:hei>
             <r:hei id="thomasmorelive.be">
                 <r:other-id type="erasmus">B  GEEL07</r:other-id>
@@ -3655,7 +3683,14 @@ IwIDAQAB
     <ns3:host>
         <admin-email>umesh@qs.com</admin-email>
         <r:apis-implemented/>
-        <ns3:institutions-covered/>
+        <ns3:institutions-covered>
+            <r:hei id="test.com">
+                <r:other-id type="erasmus">F  PARIS004</r:other-id>
+                <r:other-id type="erasmus-charter">28169</r:other-id>
+                <r:other-id type="pic">998096051</r:other-id>
+                <r:name xml:lang="en">[no longer existing] Université Paris-Sorbonne</r:name>
+            </r:hei>
+        </ns3:institutions-covered>
         <ns3:client-credentials-in-use>
             <ns3:certificate>MIIDnTCCAoWgAwIBAgIJAOiDLUc/o7t5MA0GCSqGSIb3DQEBBQUAMGQxCzAJBgNV
 BAYTAklOMRIwEAYDVQQIDAlLQVJOQVRBS0ExEjAQBgNVBAcMCUJBTkdBTE9SRTEL
@@ -6719,7 +6754,14 @@ IwIDAQAB
                 <iaac1:url>https://upicardie-ewp.moveonfr.com/v1/iia/approval/cnr</iaac1:url>
             </iaac1:iia-approval-cnr>
         </r:apis-implemented>
-        <ns3:institutions-covered/>
+        <ns3:institutions-covered>
+            <r:hei id="u-picardie.fr">
+                <r:other-id type="erasmus">F  AMIENS01</r:other-id>
+                <r:other-id type="erasmus-charter">28127</r:other-id>
+                <r:other-id type="pic">998207116</r:other-id>
+                <r:name xml:lang="en">Université de Picardie Jules Verne</r:name>
+            </r:hei>
+        </ns3:institutions-covered>
         <ns3:client-credentials-in-use>
             <ns3:certificate>MIIDnTCCAoWgAwIBAgIJAOiDLUc/o7t5MA0GCSqGSIb3DQEBBQUAMGQxCzAJBgNV
 BAYTAklOMRIwEAYDVQQIDAlLQVJOQVRBS0ExEjAQBgNVBAcMCUJBTkdBTE9SRTEL
@@ -23003,7 +23045,14 @@ IwIDAQAB
                 <iaac1:url>https://pha-ewp.moveon4.de/v1/iia/approval/cnr</iaac1:url>
             </iaac1:iia-approval-cnr>
         </r:apis-implemented>
-        <ns3:institutions-covered/>
+        <ns3:institutions-covered>
+            <r:hei id="pha.dk">
+                <r:other-id type="erasmus">DK SORO02</r:other-id>
+                <r:other-id type="erasmus-charter">244935</r:other-id>
+                <r:other-id type="pic">949610795</r:other-id>
+                <r:name xml:lang="en">University College Absalon</r:name>
+            </r:hei>
+        </ns3:institutions-covered>
         <ns3:client-credentials-in-use>
             <ns3:certificate>MIIDnTCCAoWgAwIBAgIJAOiDLUc/o7t5MA0GCSqGSIb3DQEBBQUAMGQxCzAJBgNV
 BAYTAklOMRIwEAYDVQQIDAlLQVJOQVRBS0ExEjAQBgNVBAcMCUJBTkdBTE9SRTEL
@@ -26591,7 +26640,14 @@ IwIDAQAB
                 <iaac1:url>https://hahe-ewp.moveon4.de/v1/iia/approval/cnr</iaac1:url>
             </iaac1:iia-approval-cnr>
         </r:apis-implemented>
-        <ns3:institutions-covered/>
+        <ns3:institutions-covered>
+            <r:hei id="haaga-helia.fi">
+                <r:other-id type="erasmus">SF HELSINK40</r:other-id>
+                <r:other-id type="erasmus-charter">236545</r:other-id>
+                <r:other-id type="pic">952871159</r:other-id>
+                <r:name xml:lang="en">HAAGA-HELIA Ammattikorkeakoulu</r:name>
+            </r:hei>
+        </ns3:institutions-covered>
         <ns3:client-credentials-in-use>
             <ns3:certificate>MIIDnTCCAoWgAwIBAgIJAOiDLUc/o7t5MA0GCSqGSIb3DQEBBQUAMGQxCzAJBgNV
 BAYTAklOMRIwEAYDVQQIDAlLQVJOQVRBS0ExEjAQBgNVBAcMCUJBTkdBTE9SRTEL
@@ -29689,7 +29745,12 @@ IwIDAQAB
                 <iaac1:url>https://cs-ewp.moveonfr.com/v1/iia/approval/cnr</iaac1:url>
             </iaac1:iia-approval-cnr>
         </r:apis-implemented>
-        <ns3:institutions-covered/>
+        <ns3:institutions-covered>
+            <r:hei id="centralesupelec.fr">
+                <r:other-id type="erasmus">F  GIF-YVE03</r:other-id>
+                <r:name xml:lang="en">CentraleSupélec</r:name>
+            </r:hei>
+        </ns3:institutions-covered>
         <ns3:client-credentials-in-use>
             <ns3:certificate>MIIDnTCCAoWgAwIBAgIJAOiDLUc/o7t5MA0GCSqGSIb3DQEBBQUAMGQxCzAJBgNV
 BAYTAklOMRIwEAYDVQQIDAlLQVJOQVRBS0ExEjAQBgNVBAcMCUJBTkdBTE9SRTEL

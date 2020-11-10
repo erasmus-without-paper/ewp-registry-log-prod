@@ -9414,6 +9414,7 @@
             <hei-id>univ-st-etienne.fr</hei-id>
             <hei-id>u-bordeaux-montaigne.fr</hei-id>
             <hei-id>pantheonsorbonne.fr</hei-id>
+            <hei-id>test.com</hei-id>
             <hei-id>univ-paris8.fr</hei-id>
             <hei-id>univ-paris-diderot.fr</hei-id>
             <hei-id>universite-paris-saclay.fr</hei-id>
@@ -9432,6 +9433,7 @@
             <hei-id>univ-lille.fr</hei-id>
             <hei-id>parisnanterre.fr</hei-id>
             <hei-id>u-pec.fr</hei-id>
+            <hei-id>u-picardie.fr</hei-id>
             <hei-id>sorbonne-universite.fr</hei-id>
             <hei-id>univ-smb.fr</hei-id>
             <hei-id>univ-tln.fr</hei-id>
@@ -9535,6 +9537,7 @@
             <hei-id>ucl.dk</hei-id>
             <hei-id>tu-braunschweig.de</hei-id>
             <hei-id>uwasa.fi</hei-id>
+            <hei-id>pha.dk</hei-id>
             <hei-id>hz.nl</hei-id>
             <hei-id>tudublin.ie</hei-id>
             <hei-id>uni-bayreuth.de</hei-id>
@@ -9557,6 +9560,7 @@
             <hei-id>udc.es</hei-id>
             <hei-id>uax.es</hei-id>
             <hei-id>ucm.es</hei-id>
+            <hei-id>haaga-helia.fi</hei-id>
             <hei-id>europa-uni.de</hei-id>
             <hei-id>ensicaen.fr</hei-id>
             <hei-id>udl.cat</hei-id>
@@ -9579,6 +9583,7 @@
             <hei-id>skema.edu</hei-id>
             <hei-id>insa-toulouse.fr</hei-id>
             <hei-id>kau.se</hei-id>
+            <hei-id>centralesupelec.fr</hei-id>
             <hei-id>thomasmorelive.be</hei-id>
             <hei-id>thomasmore.be</hei-id>
         </institutions-covered>
@@ -11731,6 +11736,9 @@
     <host>
         <ewp:admin-email>umesh@qs.com</ewp:admin-email>
         <apis-implemented/>
+        <institutions-covered>
+            <hei-id>test.com</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
             <rsa-public-key sha-256="e4c7f55c93dc6e16e192943079a33d85aeef3cd6a6eaec1fcb21ac676c009fbc"/>
@@ -14357,6 +14365,9 @@
                 <iaac1:url>https://upicardie-ewp.moveonfr.com/v1/iia/approval/cnr</iaac1:url>
             </iaac1:iia-approval-cnr>
         </apis-implemented>
+        <institutions-covered>
+            <hei-id>u-picardie.fr</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
             <rsa-public-key sha-256="e4c7f55c93dc6e16e192943079a33d85aeef3cd6a6eaec1fcb21ac676c009fbc"/>
@@ -28096,6 +28107,9 @@
                 <iaac1:url>https://pha-ewp.moveon4.de/v1/iia/approval/cnr</iaac1:url>
             </iaac1:iia-approval-cnr>
         </apis-implemented>
+        <institutions-covered>
+            <hei-id>pha.dk</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
             <rsa-public-key sha-256="e4c7f55c93dc6e16e192943079a33d85aeef3cd6a6eaec1fcb21ac676c009fbc"/>
@@ -31130,6 +31144,9 @@
                 <iaac1:url>https://hahe-ewp.moveon4.de/v1/iia/approval/cnr</iaac1:url>
             </iaac1:iia-approval-cnr>
         </apis-implemented>
+        <institutions-covered>
+            <hei-id>haaga-helia.fi</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
             <rsa-public-key sha-256="e4c7f55c93dc6e16e192943079a33d85aeef3cd6a6eaec1fcb21ac676c009fbc"/>
@@ -33607,6 +33624,9 @@
                 <iaac1:url>https://cs-ewp.moveonfr.com/v1/iia/approval/cnr</iaac1:url>
             </iaac1:iia-approval-cnr>
         </apis-implemented>
+        <institutions-covered>
+            <hei-id>centralesupelec.fr</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
             <rsa-public-key sha-256="e4c7f55c93dc6e16e192943079a33d85aeef3cd6a6eaec1fcb21ac676c009fbc"/>
@@ -38011,6 +38031,10 @@
             <name xml:lang="en">CENTRALE LILLE</name>
             <name xml:lang="fr">CENTRALE LILLE</name>
         </hei>
+        <hei id="centralesupelec.fr">
+            <other-id type="erasmus">F  GIF-YVE03</other-id>
+            <name xml:lang="en">CentraleSupélec</name>
+        </hei>
         <hei id="cesi.fr">
             <other-id type="erasmus">F  PARIS335</other-id>
             <other-id type="euc">239899-IC-1-2007-1-FR-ERASMUS-EUCX-1</other-id>
@@ -38951,7 +38975,10 @@
         <hei id="haaga-helia.fi">
             <other-id type="eche">236545-EPP-1-2014-1-FI-EPPKA3-ECHE</other-id>
             <other-id type="erasmus">SF HELSINK40</other-id>
+            <other-id type="erasmus-charter">236545</other-id>
+            <other-id type="euc">236545</other-id>
             <other-id type="pic">952871159</other-id>
+            <name xml:lang="en">HAAGA-HELIA Ammattikorkeakoulu</name>
             <name xml:lang="en">Haaga-Helia University of Applied Sciences</name>
             <name xml:lang="fi">Haaga-Helia University of Applied Sciences</name>
         </hei>
@@ -40553,6 +40580,13 @@
             <name xml:lang="de">Pädagogische Hochschule Weingarten</name>
             <name xml:lang="en">Pädagogische Hochschule Weingarten</name>
         </hei>
+        <hei id="pha.dk">
+            <other-id type="erasmus">DK SORO02</other-id>
+            <other-id type="erasmus-charter">244935</other-id>
+            <other-id type="euc">244935</other-id>
+            <other-id type="pic">949610795</other-id>
+            <name xml:lang="en">University College Absalon</name>
+        </hei>
         <hei id="phbern.ch">
             <other-id type="erasmus">CH BERN12</other-id>
             <name>University of Teacher Education PHBern</name>
@@ -41035,6 +41069,13 @@
             <name xml:lang="en">Télécom SudParis</name>
             <name xml:lang="fr">Télécom SudParis</name>
         </hei>
+        <hei id="test.com">
+            <other-id type="erasmus">F  PARIS004</other-id>
+            <other-id type="erasmus-charter">28169</other-id>
+            <other-id type="euc">28169</other-id>
+            <other-id type="pic">998096051</other-id>
+            <name xml:lang="en">[no longer existing] Université Paris-Sorbonne</name>
+        </hei>
         <hei id="th-ab.de">
             <other-id type="erasmus">D  ASCHAFF01</other-id>
             <other-id type="erasmus-charter">211325</other-id>
@@ -41341,7 +41382,11 @@
         </hei>
         <hei id="u-picardie.fr">
             <other-id type="erasmus">F  AMIENS01</other-id>
+            <other-id type="erasmus-charter">28127</other-id>
+            <other-id type="euc">28127</other-id>
+            <other-id type="pic">998207116</other-id>
             <name>UNIVERSITE DE PICARDIE JULES VERNE</name>
+            <name xml:lang="en">Université de Picardie Jules Verne</name>
         </hei>
         <hei id="u-szeged.hu">
             <other-id type="erasmus">HU SZEGED01</other-id>
