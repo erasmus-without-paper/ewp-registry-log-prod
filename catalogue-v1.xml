@@ -2369,6 +2369,163 @@
                 <e2:url>https://www.service4mobility.com/HU/ewp/echo</e2:url>
             </e2:echo>
         </apis-implemented>
+        <institutions-covered>
+            <hei-id>hu.nl</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="82e75f3320b29bebc8969f3b778d74e4a29a7101e5cf6a01ac4df584430e91d3"/>
+            <rsa-public-key sha-256="a0b7ad84bfed62cbf933acbcf8875a35bc3cdac9275cdfa128c88f5cd48abcb1"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="a0b7ad84bfed62cbf933acbcf8875a35bc3cdac9275cdfa128c88f5cd48abcb1"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <in2:institutions version="2.1.0">
+                <in2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </in2:http-security>
+                <in2:url>https://www.service4mobility.com/HU/ewp/institutions</in2:url>
+                <in2:max-hei-ids>3</in2:max-hei-ids>
+            </in2:institutions>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>hu.nl</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="82e75f3320b29bebc8969f3b778d74e4a29a7101e5cf6a01ac4df584430e91d3"/>
+            <rsa-public-key sha-256="a0b7ad84bfed62cbf933acbcf8875a35bc3cdac9275cdfa128c88f5cd48abcb1"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="a0b7ad84bfed62cbf933acbcf8875a35bc3cdac9275cdfa128c88f5cd48abcb1"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <ou2:organizational-units version="2.1.1">
+                <ou2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </ou2:http-security>
+                <ou2:url>https://www.service4mobility.com/HU/ewp/ounits</ou2:url>
+                <ou2:max-ounit-ids>3</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>3</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>hu.nl</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="82e75f3320b29bebc8969f3b778d74e4a29a7101e5cf6a01ac4df584430e91d3"/>
+            <rsa-public-key sha-256="a0b7ad84bfed62cbf933acbcf8875a35bc3cdac9275cdfa128c88f5cd48abcb1"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="a0b7ad84bfed62cbf933acbcf8875a35bc3cdac9275cdfa128c88f5cd48abcb1"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <ia3:iias
+                xmlns:ia3="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v3/manifest-entry.xsd"
+                version="3.0.0"
+            >
+                <ia3:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </ia3:http-security>
+                <ia3:get-url>https://www.service4mobility.com/HU/ewp/iias/get</ia3:get-url>
+                <ia3:max-iia-ids>3</ia3:max-iia-ids>
+                <ia3:max-iia-codes>3</ia3:max-iia-codes>
+                <ia3:index-url>https://www.service4mobility.com/HU/ewp/iias/index</ia3:index-url>
+                <ia3:sends-notifications/>
+            </ia3:iias>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>hu.nl</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="82e75f3320b29bebc8969f3b778d74e4a29a7101e5cf6a01ac4df584430e91d3"/>
+            <rsa-public-key sha-256="a0b7ad84bfed62cbf933acbcf8875a35bc3cdac9275cdfa128c88f5cd48abcb1"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="a0b7ad84bfed62cbf933acbcf8875a35bc3cdac9275cdfa128c88f5cd48abcb1"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <iaa1:iias-approval
+                xmlns:iaa1="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
+                version="0.2.1"
+            >
+                <iaa1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </iaa1:http-security>
+                <iaa1:url>https://www.service4mobility.com/HU/ewp/iias/approve</iaa1:url>
+                <iaa1:max-iia-ids>3</iaa1:max-iia-ids>
+                <iaa1:sends-notifications/>
+            </iaa1:iias-approval>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>hu.nl</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="82e75f3320b29bebc8969f3b778d74e4a29a7101e5cf6a01ac4df584430e91d3"/>
+            <rsa-public-key sha-256="a0b7ad84bfed62cbf933acbcf8875a35bc3cdac9275cdfa128c88f5cd48abcb1"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="a0b7ad84bfed62cbf933acbcf8875a35bc3cdac9275cdfa128c88f5cd48abcb1"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <f1:factsheet
+                xmlns:f1="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
+                version="0.3.0"
+            >
+                <f1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </f1:http-security>
+                <f1:url>https://www.service4mobility.com/HU/ewp/factsheets</f1:url>
+                <f1:max-hei-ids>3</f1:max-hei-ids>
+            </f1:factsheet>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>hu.nl</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="82e75f3320b29bebc8969f3b778d74e4a29a7101e5cf6a01ac4df584430e91d3"/>
             <rsa-public-key sha-256="a0b7ad84bfed62cbf933acbcf8875a35bc3cdac9275cdfa128c88f5cd48abcb1"/>
@@ -40201,6 +40358,12 @@
             <other-id type="euc">29975</other-id>
             <other-id type="pic">999850781</other-id>
             <name xml:lang="en">Humboldt-Universität zu Berlin</name>
+        </hei>
+        <hei id="hu.nl">
+            <other-id type="erasmus">NL UTRECHT24</other-id>
+            <other-id type="pic">986208507</other-id>
+            <name xml:lang="NL">HU University of Applied Sciences Utrecht</name>
+            <name xml:lang="en">HU University of Applied Sciences Utrecht</name>
         </hei>
         <hei id="huaja.org">
             <other-id type="erasmus">SK BANSK-S01</other-id>
