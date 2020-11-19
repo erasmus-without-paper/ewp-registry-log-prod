@@ -9567,6 +9567,7 @@
             <hei-id>univ-st-etienne.fr</hei-id>
             <hei-id>u-bordeaux-montaigne.fr</hei-id>
             <hei-id>pantheonsorbonne.fr</hei-id>
+            <hei-id>univ-paris3.fr</hei-id>
             <hei-id>test.com</hei-id>
             <hei-id>univ-paris-diderot.fr</hei-id>
             <hei-id>univ-paris8.fr</hei-id>
@@ -9579,6 +9580,7 @@
             <hei-id>uloyola.es</hei-id>
             <hei-id>unicaen.fr</hei-id>
             <hei-id>umontpellier.fr</hei-id>
+            <hei-id>univ-reunion.fr</hei-id>
             <hei-id>unistra.fr</hei-id>
             <hei-id>uphf.fr</hei-id>
             <hei-id>univ-angers.fr</hei-id>
@@ -9649,6 +9651,7 @@
             <hei-id>ovgu.de</hei-id>
             <hei-id>uni-passau.de</hei-id>
             <hei-id>univ-montp3.fr</hei-id>
+            <hei-id>ph-ludwigsburg.de</hei-id>
             <hei-id>uni-potsdam.de</hei-id>
             <hei-id>ruhr-uni-bochum.de</hei-id>
             <hei-id>rwth-aachen.de</hei-id>
@@ -9705,6 +9708,7 @@
             <hei-id>hof-university.de</hei-id>
             <hei-id>ucn.dk</hei-id>
             <hei-id>ucsyd.dk</hei-id>
+            <hei-id>dauphine.psl.eu</hei-id>
             <hei-id>liu.se</hei-id>
             <hei-id>oamk.fi</hei-id>
             <hei-id>cbs.dk</hei-id>
@@ -9736,6 +9740,7 @@
             <hei-id>skema.edu</hei-id>
             <hei-id>insa-toulouse.fr</hei-id>
             <hei-id>kau.se</hei-id>
+            <hei-id>agro-bordeaux.fr</hei-id>
             <hei-id>centralesupelec.fr</hei-id>
             <hei-id>thomasmorelive.be</hei-id>
             <hei-id>thomasmore.be</hei-id>
@@ -11889,6 +11894,9 @@
     <host>
         <ewp:admin-email>umesh@qs.com</ewp:admin-email>
         <apis-implemented/>
+        <institutions-covered>
+            <hei-id>univ-paris3.fr</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
             <rsa-public-key sha-256="e4c7f55c93dc6e16e192943079a33d85aeef3cd6a6eaec1fcb21ac676c009fbc"/>
@@ -13387,6 +13395,9 @@
     <host>
         <ewp:admin-email>umesh@qs.com</ewp:admin-email>
         <apis-implemented/>
+        <institutions-covered>
+            <hei-id>univ-reunion.fr</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
             <rsa-public-key sha-256="e4c7f55c93dc6e16e192943079a33d85aeef3cd6a6eaec1fcb21ac676c009fbc"/>
@@ -22244,6 +22255,9 @@
     <host>
         <ewp:admin-email>umesh@qs.com</ewp:admin-email>
         <apis-implemented/>
+        <institutions-covered>
+            <hei-id>ph-ludwigsburg.de</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
             <rsa-public-key sha-256="e4c7f55c93dc6e16e192943079a33d85aeef3cd6a6eaec1fcb21ac676c009fbc"/>
@@ -30243,6 +30257,9 @@
                 <iaac1:url>https://dauphine-ewp.moveonfr.com/v1/iia/approval/cnr</iaac1:url>
             </iaac1:iia-approval-cnr>
         </apis-implemented>
+        <institutions-covered>
+            <hei-id>dauphine.psl.eu</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
             <rsa-public-key sha-256="e4c7f55c93dc6e16e192943079a33d85aeef3cd6a6eaec1fcb21ac676c009fbc"/>
@@ -34099,6 +34116,9 @@
     <host>
         <ewp:admin-email>umesh@qs.com</ewp:admin-email>
         <apis-implemented/>
+        <institutions-covered>
+            <hei-id>agro-bordeaux.fr</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
             <rsa-public-key sha-256="e4c7f55c93dc6e16e192943079a33d85aeef3cd6a6eaec1fcb21ac676c009fbc"/>
@@ -38480,6 +38500,13 @@
             <name xml:lang="en">AGREENIUM</name>
             <name xml:lang="fr">AGREENIUM</name>
         </hei>
+        <hei id="agro-bordeaux.fr">
+            <other-id type="erasmus">F  BORDEAU28</other-id>
+            <other-id type="erasmus-charter">214823</other-id>
+            <other-id type="euc">214823</other-id>
+            <other-id type="pic">957466243</other-id>
+            <name xml:lang="en">Ecole Nationale Supérieure des Sciences Agronomiques de Bordeaux-Aquitaine (Bordeaux Sciences Agro)</name>
+        </hei>
         <hei id="agrocampus-ouest.fr">
             <other-id type="erasmus">F  RENNES47</other-id>
             <name>INSTITUT SUPERIEUR DES SCIENCES AGRONOMIQUES, AGROALIMENTAIRES, HORTICOLES ET DU PAYSAGE</name>
@@ -39023,6 +39050,13 @@
             <name xml:lang="cz">Česká zemědělská univerzita v Praze</name>
             <name xml:lang="en">Czech University of Life Sciences Prague</name>
             <name xml:lang="sk">Česká poľnohospodárska univerzita v Prahe</name>
+        </hei>
+        <hei id="dauphine.psl.eu">
+            <other-id type="erasmus">F  PARIS009</other-id>
+            <other-id type="erasmus-charter">28198</other-id>
+            <other-id type="euc">28198</other-id>
+            <other-id type="pic">998929669</other-id>
+            <name xml:lang="en">Université Paris-Dauphine</name>
         </hei>
         <hei id="dcu.ie">
             <other-id type="erasmus">IRLDUBLIN04</other-id>
@@ -41385,6 +41419,13 @@
             <other-id type="erasmus">D  KARLSRU02</other-id>
             <name>PAEDAGOGISCHE HOCHSCHULE KARLSRUHE</name>
         </hei>
+        <hei id="ph-ludwigsburg.de">
+            <other-id type="erasmus">D  LUDWIGB01</other-id>
+            <other-id type="erasmus-charter">29736</other-id>
+            <other-id type="euc">29736</other-id>
+            <other-id type="pic">996827776</other-id>
+            <name xml:lang="en">Pädagogische Hochschule Ludwigsburg</name>
+        </hei>
         <hei id="ph-ooe.at">
             <other-id type="erasmus">A  LINZ03</other-id>
             <other-id type="euc">29268-IC-1-2002-1-AT-ERASMUS-EUC-1</other-id>
@@ -43431,6 +43472,13 @@
             <other-id type="pic">999489941</other-id>
             <name xml:lang="en">Université Sorbonne Paris Nord (USPN)</name>
         </hei>
+        <hei id="univ-paris3.fr">
+            <other-id type="erasmus">F  PARIS003</other-id>
+            <other-id type="erasmus-charter">28472</other-id>
+            <other-id type="euc">28472</other-id>
+            <other-id type="pic">948927527</other-id>
+            <name xml:lang="en">Université Sorbonne Nouvelle Paris 3</name>
+        </hei>
         <hei id="univ-paris8.fr">
             <name xml:lang="en">Université Paris 8 Vincennes - Saint-Denis</name>
         </hei>
@@ -43455,7 +43503,11 @@
         </hei>
         <hei id="univ-reunion.fr">
             <other-id type="erasmus">F  ST-DENI01</other-id>
+            <other-id type="erasmus-charter">27669</other-id>
+            <other-id type="euc">27669</other-id>
+            <other-id type="pic">999557453</other-id>
             <name>UNIVERSITE DE LA REUNION</name>
+            <name xml:lang="en">Université de la Réunion</name>
         </hei>
         <hei id="univ-rouen.fr">
             <other-id type="erasmus">F  ROUEN01</other-id>
