@@ -38699,6 +38699,98 @@
             <rsa-public-key sha-256="42d891ac46d3bf8df4e84deff7a3d40dd82ed7cd7464552cc3a0631828f74009"/>
         </server-credentials-in-use>
     </host>
+    <host>
+        <ewp:admin-email>murat.yuceer@kion.com.tr</ewp:admin-email>
+        <apis-implemented>
+            <d5:discovery version="5.0.0">
+                <d5:url>https://ewp.kion.com.tr/api/manifest</d5:url>
+            </d5:discovery>
+            <e2:echo version="2.0.1">
+                <e2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </e2:http-security>
+                <e2:url>https://ewp.kion.com.tr/api/echo</e2:url>
+            </e2:echo>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>ku.edu.tr</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="40264b56b2ec0f54bf21bf952ffde68a3754838e8e714f641e28beef2c1647ba"/>
+            <rsa-public-key sha-256="f638b08adb085d1b491bce33699a41240c521f073e3c83e156e8eb238afb86c5"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="f638b08adb085d1b491bce33699a41240c521f073e3c83e156e8eb238afb86c5"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <ewp:admin-email>murat.yuceer@kion.com.tr</ewp:admin-email>
+        <apis-implemented>
+            <in2:institutions version="2.1.0">
+                <in2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A0:anonymous/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </in2:http-security>
+                <in2:url>https://ewp.kion.com.tr/api/institutions</in2:url>
+                <in2:max-hei-ids>10</in2:max-hei-ids>
+            </in2:institutions>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>ku.edu.tr</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="40264b56b2ec0f54bf21bf952ffde68a3754838e8e714f641e28beef2c1647ba"/>
+            <rsa-public-key sha-256="f638b08adb085d1b491bce33699a41240c521f073e3c83e156e8eb238afb86c5"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="f638b08adb085d1b491bce33699a41240c521f073e3c83e156e8eb238afb86c5"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <ewp:admin-email>murat.yuceer@kion.com.tr</ewp:admin-email>
+        <apis-implemented>
+            <ou2:organizational-units version="2.1.1">
+                <ou2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A0:anonymous/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </ou2:http-security>
+                <ou2:url>https://ewp.kion.com.tr/api/organizationalunits</ou2:url>
+                <ou2:max-ounit-ids>100</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>100</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>ku.edu.tr</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="40264b56b2ec0f54bf21bf952ffde68a3754838e8e714f641e28beef2c1647ba"/>
+            <rsa-public-key sha-256="f638b08adb085d1b491bce33699a41240c521f073e3c83e156e8eb238afb86c5"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="f638b08adb085d1b491bce33699a41240c521f073e3c83e156e8eb238afb86c5"/>
+        </server-credentials-in-use>
+    </host>
     <institutions>
         <hei id="3il.fr">
             <other-id type="erasmus">F  LIMOGES20</other-id>
@@ -41182,6 +41274,12 @@
             <other-id type="pic">999991043</other-id>
             <name xml:lang="da">University of Copenhagen</name>
             <name xml:lang="en">University of Copenhagen</name>
+        </hei>
+        <hei id="ku.edu.tr">
+            <other-id type="erasmus">TR ISTANBU17</other-id>
+            <other-id type="pic">941968262</other-id>
+            <name xml:lang="en">Koç University</name>
+            <name xml:lang="tr">Koç Üniversitesi</name>
         </hei>
         <hei id="ku.sk">
             <other-id type="erasmus">SK RUZOMBE01</other-id>
@@ -44958,6 +45056,14 @@
             EY2Bt4vRyQ/TeAHnWshkxB711Y8ILQsQB68wxd+xP782Nykmq+kfgOj2t3swxNFo0kvNTym1bEdX
             ArHy6zYqxtSTrFiPNl/M8/lIGXZKKGfGFrrTSK11SMMtVQ3tVSsrF3RwmJJKjWlESilWRITKVzDm
             +kqoywIDAQAB
+        </rsa-public-key>
+        <rsa-public-key sha-256="f638b08adb085d1b491bce33699a41240c521f073e3c83e156e8eb238afb86c5">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAv2+4nvvG9qYaSLEfvt6GmZiE90qvYLwg
+            rs6T6iJd0cUej+aL0QraVdYhashB4NFkz1keiFnzlabx4N9lCAlsgB9KBr4+5WUxN4kbVzXeh54I
+            dCoDbb0BjXk7e8x/aJXSUBEaU6d/Oa/rOUnGoEPTezRl5DC8L1k30u2+OsfiL5zvWRpUEwPyyA8S
+            aHVtg4y4Jz+aGagLRhKr+9uK/UEBqZWvOZOTISz6/dyk68mbpmlCSzU0aA3gVT+j2ERf9Cwgq/dk
+            X1p/dXIVnR8MBctcOamNnbLcOgwzmJ5Zd5VJVMXGX/zDTIlGSx9VL1Vav//gLmHiRVzszQ3iPdv4
+            2zPY9wIDAQAB
         </rsa-public-key>
         <rsa-public-key sha-256="f74f7afe47adb8794d8bf2b75e6883b93549c41605214a529a3abdadd4468019">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3haOBnEFbHkTeUlB3WyXlF/aOV93dFHI
