@@ -9743,6 +9743,7 @@
             <hei-id>univ-paris8.fr</hei-id>
             <hei-id>universite-paris-saclay.fr</hei-id>
             <hei-id>u-cergy.fr</hei-id>
+            <hei-id>tlse3.fr</hei-id>
             <hei-id>u-bordeaux.fr</hei-id>
             <hei-id>univ-catholille.fr</hei-id>
             <hei-id>univ-grenoble-alpes.fr</hei-id>
@@ -9781,6 +9782,7 @@
             <hei-id>bth.se</hei-id>
             <hei-id>b-tu.de</hei-id>
             <hei-id>hs-coburg.de</hei-id>
+            <hei-id>du.se</hei-id>
             <hei-id>fh-aachen.de</hei-id>
             <hei-id>fh-campuswien.ac.at</hei-id>
             <hei-id>fhws.de</hei-id>
@@ -9838,6 +9840,7 @@
             <hei-id>uni-due.de</hei-id>
             <hei-id>uni-greifswald.de</hei-id>
             <hei-id>uni-jena.de</hei-id>
+            <hei-id>uni-kassel.de</hei-id>
             <hei-id>uni-koeln.de</hei-id>
             <hei-id>uni-koblenz-landau.de</hei-id>
             <hei-id>uni-leipzig.de</hei-id>
@@ -9854,6 +9857,7 @@
             <hei-id>umontreal.ca</hei-id>
             <hei-id>sciencespobordeaux.fr</hei-id>
             <hei-id>uca.fr</hei-id>
+            <hei-id>ut-capitole.fr</hei-id>
             <hei-id>univ-paris13.fr</hei-id>
             <hei-id>univ-gustave-eiffel.fr</hei-id>
             <hei-id>hh.se</hei-id>
@@ -9890,6 +9894,7 @@
             <hei-id>ensicaen.fr</hei-id>
             <hei-id>udl.cat</hei-id>
             <hei-id>han.nl</hei-id>
+            <hei-id>LTU.SE</hei-id>
             <hei-id>insa-centrevaldeloire.fr</hei-id>
             <hei-id>inholland.nl</hei-id>
             <hei-id>usj.es</hei-id>
@@ -12830,6 +12835,9 @@
                 <iaac1:url>https://tlse3-ewp.moveonfr.com/v1/iia/approval/cnr</iaac1:url>
             </iaac1:iia-approval-cnr>
         </apis-implemented>
+        <institutions-covered>
+            <hei-id>tlse3.fr</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
             <rsa-public-key sha-256="e4c7f55c93dc6e16e192943079a33d85aeef3cd6a6eaec1fcb21ac676c009fbc"/>
@@ -17476,6 +17484,9 @@
                 <iaac1:url>https://dalarna-ewp.moveon4.de/v1/iia/approval/cnr</iaac1:url>
             </iaac1:iia-approval-cnr>
         </apis-implemented>
+        <institutions-covered>
+            <hei-id>du.se</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
             <rsa-public-key sha-256="e4c7f55c93dc6e16e192943079a33d85aeef3cd6a6eaec1fcb21ac676c009fbc"/>
@@ -26252,6 +26263,9 @@
                 <iaac1:url>https://unikassel-ewp.moveon4.de/v1/iia/approval/cnr</iaac1:url>
             </iaac1:iia-approval-cnr>
         </apis-implemented>
+        <institutions-covered>
+            <hei-id>uni-kassel.de</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
             <rsa-public-key sha-256="e4c7f55c93dc6e16e192943079a33d85aeef3cd6a6eaec1fcb21ac676c009fbc"/>
@@ -28645,6 +28659,9 @@
                 <iaac1:url>https://capitole-ewp.moveonfr.com/v1/iia/approval/cnr</iaac1:url>
             </iaac1:iia-approval-cnr>
         </apis-implemented>
+        <institutions-covered>
+            <hei-id>ut-capitole.fr</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
             <rsa-public-key sha-256="e4c7f55c93dc6e16e192943079a33d85aeef3cd6a6eaec1fcb21ac676c009fbc"/>
@@ -33963,6 +33980,9 @@
                 <iaac1:url>https://ltu-ewp.moveon4.de/v1/iia/approval/cnr</iaac1:url>
             </iaac1:iia-approval-cnr>
         </apis-implemented>
+        <institutions-covered>
+            <hei-id>LTU.SE</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
             <rsa-public-key sha-256="e4c7f55c93dc6e16e192943079a33d85aeef3cd6a6eaec1fcb21ac676c009fbc"/>
@@ -40447,6 +40467,13 @@
             <other-id type="erasmus">F  LIMOGES20</other-id>
             <name>Groupe 3iL</name>
         </hei>
+        <hei id="LTU.SE">
+            <other-id type="erasmus">S  LULEA01</other-id>
+            <other-id type="erasmus-charter">29442</other-id>
+            <other-id type="euc">29442</other-id>
+            <other-id type="pic">999876874</other-id>
+            <name xml:lang="en">Luleå tekniska universitet</name>
+        </hei>
         <hei id="METU.EDU.TR">
             <other-id type="erasmus">TR ANKARA04</other-id>
             <name>MIDDLE EAST TECHNICAL UNIVERSITY</name>
@@ -41128,7 +41155,11 @@
         </hei>
         <hei id="du.se">
             <other-id type="erasmus">S  FALUN01</other-id>
+            <other-id type="erasmus-charter">29445</other-id>
+            <other-id type="euc">29445</other-id>
+            <other-id type="pic">949651244</other-id>
             <name>HOGSKOLAN DALARNA</name>
+            <name xml:lang="en">Högskolan Dalarna</name>
         </hei>
         <hei id="dur.ac.uk">
             <other-id type="erasmus">UK DURHAM01</other-id>
@@ -44110,6 +44141,13 @@
             <other-id type="erasmus">EE TALLINN06</other-id>
             <name>TALLINNA TEHNIKAKORGKOOL</name>
         </hei>
+        <hei id="tlse3.fr">
+            <other-id type="erasmus">F  TOULOUS03</other-id>
+            <other-id type="erasmus-charter">27993</other-id>
+            <other-id type="euc">27993</other-id>
+            <other-id type="pic">999851169</other-id>
+            <name xml:lang="en">Université Paul Sabatier - Toulouse III</name>
+        </hei>
         <hei id="tlu.ee">
             <other-id type="erasmus">EE TALLINN05</other-id>
             <name>TALLINN UNIVERSITY</name>
@@ -44953,6 +44991,13 @@
             <other-id type="euc">29825</other-id>
             <other-id type="pic">999868726</other-id>
             <name xml:lang="en">Friedrich-Schiller-Universität Jena</name>
+        </hei>
+        <hei id="uni-kassel.de">
+            <other-id type="erasmus">D  KASSEL01</other-id>
+            <other-id type="erasmus-charter">29917</other-id>
+            <other-id type="euc">29917</other-id>
+            <other-id type="pic">999852624</other-id>
+            <name xml:lang="en">Universität Kassel</name>
         </hei>
         <hei id="uni-kiel.de">
             <other-id type="erasmus">D  KIEL01</other-id>
@@ -45833,6 +45878,13 @@
         <hei id="usz.edu.pl">
             <other-id type="erasmus">PL SZCZECI01</other-id>
             <name>UNIWERSYTET SZCZECINSKI</name>
+        </hei>
+        <hei id="ut-capitole.fr">
+            <other-id type="erasmus">F  TOULOUS01</other-id>
+            <other-id type="erasmus-charter">51063</other-id>
+            <other-id type="euc">51063</other-id>
+            <other-id type="pic">999836522</other-id>
+            <name xml:lang="en">Université Toulouse 1 Capitole</name>
         </hei>
         <hei id="uta.fi">
             <other-id type="erasmus">SF TAMPERE17</other-id>
