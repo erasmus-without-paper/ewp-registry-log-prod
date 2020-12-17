@@ -41073,6 +41073,36 @@
             <rsa-public-key sha-256="afe2fb0308e5b9e5c904598e83e59dca68b4673d4851fa7639f3d68ed8bd2dde"/>
         </server-credentials-in-use>
     </host>
+    <host>
+        <apis-implemented>
+            <d5:discovery version="5.0.0">
+                <d5:url>https://mobilityonline.supsi.ch/mobility/ewp/manifest?api=all</d5:url>
+            </d5:discovery>
+            <e2:echo version="2.0.0">
+                <e2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </e2:http-security>
+                <e2:url>https://mobilityonline.supsi.ch/mobility/ewp/echo</e2:url>
+            </e2:echo>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>supsi.ch</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="99ef37d8edd0f5962e3368bcb4bcb817e3d5a0e9d9d79545499e2804327f0609"/>
+            <rsa-public-key sha-256="b6ef9808b999d46b24a47737451012987b9edb40562e963d204111fa9f7eacf1"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="b6ef9808b999d46b24a47737451012987b9edb40562e963d204111fa9f7eacf1"/>
+        </server-credentials-in-use>
+    </host>
     <institutions>
         <hei id="3il.fr">
             <other-id type="erasmus">F  LIMOGES20</other-id>
@@ -44644,6 +44674,12 @@
             <other-id type="pic">999819644</other-id>
             <name xml:lang="en">Montpellier SupAgro</name>
             <name xml:lang="fr">Montpellier SupAgro</name>
+        </hei>
+        <hei id="supsi.ch">
+            <other-id type="erasmus">CH LUGANO02</other-id>
+            <other-id type="pic">9.9958762E8</other-id>
+            <name xml:lang="de">Scuola universitaria professionale della Svizzera italiana (SUPSI)</name>
+            <name xml:lang="en">Scuola universitaria professionale della Svizzera italiana (SUPSI)</name>
         </hei>
         <hei id="surrey.ac.uk">
             <other-id type="erasmus">UK GUILDFO01</other-id>
