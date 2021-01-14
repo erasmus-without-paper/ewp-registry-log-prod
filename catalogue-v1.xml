@@ -41608,6 +41608,226 @@
             <rsa-public-key sha-256="b16ab1f317c807c10b3328a4e94d3c819dd8ba0ea405af2e87aae177cca1a25b"/>
         </server-credentials-in-use>
     </host>
+    <host>
+        <ewp:admin-email>nelson@uc.pt</ewp:admin-email>
+        <ewp:admin-notes>Manifest File for University of coimbra.</ewp:admin-notes>
+        <apis-implemented>
+            <d5:discovery version="5.0.0">
+                <d5:url>https://inforestudante.uc.pt/nonio/rest/ewp/manifest</d5:url>
+            </d5:discovery>
+            <e2:echo version="2.0.1">
+                <e2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                    <sec:request-encryption-methods>
+                        <sec-C1:tls/>
+                    </sec:request-encryption-methods>
+                    <sec:response-encryption-methods>
+                        <sec-D1:tls/>
+                    </sec:response-encryption-methods>
+                </e2:http-security>
+                <e2:url>https://inforestudante.uc.pt/nonio/rest/ewp/echo</e2:url>
+            </e2:echo>
+            <in2:institutions version="2.1.0">
+                <in2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                    <sec:request-encryption-methods>
+                        <sec-C1:tls/>
+                    </sec:request-encryption-methods>
+                    <sec:response-encryption-methods>
+                        <sec-D1:tls/>
+                    </sec:response-encryption-methods>
+                </in2:http-security>
+                <in2:url>https://inforestudante.uc.pt/nonio/rest/ewp/institutions</in2:url>
+                <in2:max-hei-ids>5</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.1.1">
+                <ou2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                    <sec:request-encryption-methods>
+                        <sec-C1:tls/>
+                    </sec:request-encryption-methods>
+                    <sec:response-encryption-methods>
+                        <sec-D1:tls/>
+                    </sec:response-encryption-methods>
+                </ou2:http-security>
+                <ou2:url>https://inforestudante.uc.pt/nonio/rest/ewp/organizationunits</ou2:url>
+                <ou2:max-ounit-ids>5</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>5</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+            <om1:omobilities
+                xmlns:om1="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <om1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                    <sec:request-encryption-methods>
+                        <sec-C1:tls/>
+                    </sec:request-encryption-methods>
+                    <sec:response-encryption-methods>
+                        <sec-D1:tls/>
+                    </sec:response-encryption-methods>
+                </om1:http-security>
+                <om1:get-url>https://inforestudante.uc.pt/nonio/rest/ewp/outgoingmobilities/get</om1:get-url>
+                <om1:index-url>https://inforestudante.uc.pt/nonio/rest/ewp/outgoingmobilities/index</om1:index-url>
+                <om1:max-omobility-ids>5</om1:max-omobility-ids>
+                <om1:sends-notifications/>
+            </om1:omobilities>
+            <omc1:omobility-cnr
+                xmlns:omc1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <omc1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                    <sec:request-encryption-methods>
+                        <sec-C1:tls/>
+                    </sec:request-encryption-methods>
+                    <sec:response-encryption-methods>
+                        <sec-D1:tls/>
+                    </sec:response-encryption-methods>
+                </omc1:http-security>
+                <omc1:url>https://inforestudante.uc.pt/nonio/rest/ewp/outgoingmobilities/cnr</omc1:url>
+                <omc1:max-omobility-ids>5</omc1:max-omobility-ids>
+            </omc1:omobility-cnr>
+            <omlc1:omobility-la-cnr
+                xmlns:omlc1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="0.1.0"
+            >
+                <omlc1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                    <sec:request-encryption-methods>
+                        <sec-C1:tls/>
+                    </sec:request-encryption-methods>
+                    <sec:response-encryption-methods>
+                        <sec-D1:tls/>
+                    </sec:response-encryption-methods>
+                </omlc1:http-security>
+                <omlc1:url>https://inforestudante.uc.pt/nonio/rest/ewp/outgoingmobilitylearningagreements/cnr</omlc1:url>
+                <omlc1:max-omobility-ids>5</omlc1:max-omobility-ids>
+            </omlc1:omobility-la-cnr>
+            <im1:imobilities
+                xmlns:im1="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <im1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                    <sec:request-encryption-methods>
+                        <sec-C1:tls/>
+                    </sec:request-encryption-methods>
+                    <sec:response-encryption-methods>
+                        <sec-D1:tls/>
+                    </sec:response-encryption-methods>
+                </im1:http-security>
+                <im1:get-url>https://inforestudante.uc.pt/nonio/rest/ewp/incomingmobilities/get</im1:get-url>
+                <im1:max-omobility-ids>5</im1:max-omobility-ids>
+                <im1:sends-notifications/>
+            </im1:imobilities>
+            <imc1:imobility-cnr
+                xmlns:imc1="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <imc1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                    <sec:request-encryption-methods>
+                        <sec-C1:tls/>
+                    </sec:request-encryption-methods>
+                    <sec:response-encryption-methods>
+                        <sec-D1:tls/>
+                    </sec:response-encryption-methods>
+                </imc1:http-security>
+                <imc1:url>https://inforestudante.uc.pt/nonio/rest/ewp/incomingmobilities/cnr</imc1:url>
+                <imc1:max-omobility-ids>5</imc1:max-omobility-ids>
+            </imc1:imobility-cnr>
+            <imtc1:imobility-tor-cnr
+                xmlns:imtc1="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-tor-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <imtc1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                    <sec:request-encryption-methods>
+                        <sec-C1:tls/>
+                    </sec:request-encryption-methods>
+                    <sec:response-encryption-methods>
+                        <sec-D1:tls/>
+                    </sec:response-encryption-methods>
+                </imtc1:http-security>
+                <imtc1:url>https://inforestudante.uc.pt/nonio/rest/ewp/incomingmobilities/tors/cnr</imtc1:url>
+                <imtc1:max-omobility-ids>5</imtc1:max-omobility-ids>
+            </imtc1:imobility-tor-cnr>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>uc.pt</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="d12bbac3e0462aed7421677a20173bc1a6dc6b999f9d7e285750e3be3def081a"/>
+            <rsa-public-key sha-256="98b180bef419da5f696c1ba024d9ee620653cbefde8b35f68dbfa99ad221602b"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="67d4fba6ab18861611a5660a1c12e300c92424aba4bae6f619295e3ca7705bb9"/>
+        </server-credentials-in-use>
+    </host>
     <institutions>
         <hei id="3il.fr">
             <other-id type="erasmus">F  LIMOGES20</other-id>
@@ -45889,6 +46109,13 @@
             <other-id type="erasmus">F  BESANCO27</other-id>
             <name>Communaute D Universites Et Etablissements Universite Bourgogne - Franche - Comte</name>
         </hei>
+        <hei id="uc.pt">
+            <other-id type="erasmus">P COIMBRA01</other-id>
+            <other-id type="euc">29242-EPP-1-2014-1-PT-EPPKA3-ECHE</other-id>
+            <other-id type="pic">997826391</other-id>
+            <name xml:lang="en">University of Coimbra</name>
+            <name xml:lang="pt">Universidade de Coimbra</name>
+        </hei>
         <hei id="uca.es">
             <other-id type="erasmus">E  CADIZ01</other-id>
             <name>UNIVERSIDAD DE CADIZ</name>
@@ -47983,6 +48210,14 @@
             wK29yLUdlY3Ee6+pbzr41Oowo2eO+esfkUE1CmdEJM7wK669GmaNqRTu8B9TFMCRZDFfzJMlx5BZ
             p7yvCwIDAQAB
         </rsa-public-key>
+        <rsa-public-key sha-256="67d4fba6ab18861611a5660a1c12e300c92424aba4bae6f619295e3ca7705bb9">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAu0/odWcCgxjNAd6DDP2oMRpGNaQczcac
+            QyhnrsAQWK+kfURtKZUtc7FmLCJrAzMvtx56uWfiR1VQCbcKXOcxKr9nsctSyO87AuD+rbPikE/F
+            f81HFrmo52zvY+E8omgtmH1SpelzIm1kVTAv5o2zqjsaZdqgEn3AuOBzF6pSUSDSAqpqgc9Mx1jP
+            1n2OchIxWj4ufUdCKskNK/x3zbNbpu+ehmwYHtrytYyIfO/LYHG4M1XtJ9j14MXmwsXBJpHCzXjK
+            0ahF1m0mFDI3CvzPqN/tsQQKN7E5rtHXjp8Cm5pGBAbwfU7bEFWn4I5m0IQDzW+XGhwDLmmFsVI4
+            KhKcmQIDAQAB
+        </rsa-public-key>
         <rsa-public-key sha-256="68b39969a10445ebb24cfba0c8c72ee045da97a1e8de8010550ed60a68b5d09c">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwmIsFGzVwrljo1aM23M4vfCdt51VVsNz
             toFDTnL+r/i5UYD2hntj03FUnZw2RxYAcDjFauZqd5L1TUT3Ex1nhOCbcBgh82z/lYicLJOUfcqH
@@ -48078,6 +48313,14 @@
             QxlMJOnx97k47po1zNCAob1+95ZYoFYb9fsQfG6aWIATIt8nGWPoueFC+mzonKyFOyo6Bcx0868d
             5C78RHDQnTEn8Tn5N5IxZS+VDp2H/j8wjp4E/APU8agZGPZTII3kqpKdLr32+9kxPGeVXqWxqjTt
             CC3NWwIDAQAB
+        </rsa-public-key>
+        <rsa-public-key sha-256="98b180bef419da5f696c1ba024d9ee620653cbefde8b35f68dbfa99ad221602b">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsTjZFI6rNmouNonx6DeFn/2sLwH/QJ5C
+            B//4bPj3jnJ7DmmuhxlrBpBSiG0ORk5lxPh1J5Yag1Y2KQwP/sxqTLJaZgnuU085dYZMOPyw9dcB
+            lLIpih16QnO+10bs0jIDXIrhPs+QJCNUXfW3sk9gawWTJVRoRU7opuSDY8A/ZeIFZDmnk6jK6dNj
+            BIbU4W8sXBBQWxSWvqQk5aggdDeXiYwuT+0tZaI/szeF/VszfNwsNQiqzvks+6yuoS0AEVOnbOX5
+            Ec0nCn2/3xKJjQe25XlCuT05pJeg70kpBeEcibprhnuk2kbe7a2q3WRuduPqVvTtYP0XOiYg5ktv
+            7NeLxwIDAQAB
         </rsa-public-key>
         <rsa-public-key sha-256="9cf43df9df36ac30330d15cf95680f25bfd364fcf31c0f3f9adc9b401dde0ddb">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA44z/Umi09ndJWRXsdG75+v/OjnxoKBHs
