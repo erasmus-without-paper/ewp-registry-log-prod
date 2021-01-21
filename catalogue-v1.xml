@@ -42199,6 +42199,66 @@
             <rsa-public-key sha-256="b3e2992652cc301191d98fdbdd6415e3a8462bfcc75041b9e14972acda990b67"/>
         </server-credentials-in-use>
     </host>
+    <host>
+        <ewp:admin-email>stefano.russo@cineca.it</ewp:admin-email>
+        <ewp:admin-email>d.orlando@cineca.it</ewp:admin-email>
+        <ewp:admin-notes>UNIROMA4</ewp:admin-notes>
+        <apis-implemented>
+            <d5:discovery version="5.0.0">
+                <d5:url>https://iusm.esse3.cineca.it/ewp/Manifest.do</d5:url>
+            </d5:discovery>
+            <e2:echo version="2.0.1">
+                <ewp:admin-email>stefano.russo@cineca.it</ewp:admin-email>
+                <e2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </e2:http-security>
+                <e2:url>https://iusm.esse3.cineca.it/ewp/connector/Echo.do</e2:url>
+            </e2:echo>
+            <in2:institutions version="2.1.0">
+                <in2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </in2:http-security>
+                <in2:url>https://iusm.esse3.cineca.it/ewp/connector/Institutions.do</in2:url>
+                <in2:max-hei-ids>1</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.1.1">
+                <ou2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </ou2:http-security>
+                <ou2:url>https://iusm.esse3.cineca.it/ewp/connector/OrgUnits.do</ou2:url>
+                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>uniroma4.it</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="5b5a5d545e7bc61a34d16cec38bbf0acd7c3875b52d9d2e08ad80ca9be27c49f"/>
+            <rsa-public-key sha-256="0f5f7c14d3a7a7e8493195960bc44217107e0da249ed721be58b89f64e4a0801"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="0f5f7c14d3a7a7e8493195960bc44217107e0da249ed721be58b89f64e4a0801"/>
+        </server-credentials-in-use>
+    </host>
     <institutions>
         <hei id="3il.fr">
             <other-id type="erasmus">F  LIMOGES20</other-id>
@@ -47553,6 +47613,12 @@
             <other-id type="erasmus">I  ROMA01</other-id>
             <name>UNIVERSITA DEGLI STUDI DI ROMA LA SAPIENZA</name>
         </hei>
+        <hei id="uniroma4.it">
+            <other-id type="erasmus">I  ROMA05</other-id>
+            <other-id type="pic">957943968</other-id>
+            <name xml:lang="en">UNIVERSITA' DEGLI STUDI "FORO ITALICO" IN ROME</name>
+            <name xml:lang="it">UNIVERSITA' DEGLI STUDI DI ROMA "FORO ITALICO"</name>
+        </hei>
         <hei id="unisa.it">
             <other-id type="erasmus">I  SALERNO01</other-id>
             <name>UNIVERSITA DEGLI STUDI DI SALERNO</name>
@@ -48449,6 +48515,16 @@
             xnWFxAKlFcOW1HRZhw+Zn/tkbMavSP0InucVoeW1Css2L90yJmtJ3V+K/tn++tGqhGy/iukkiTnW
             OjN4y9KyeL7/+I0bkvX7IjEShz2wPu2Xm7OVFUQAKZREp8i0ZfX4SCqIaxxjdX3r5u8SFY5KU7Yn
             pPBy7wIDAQAB
+        </rsa-public-key>
+        <rsa-public-key sha-256="0f5f7c14d3a7a7e8493195960bc44217107e0da249ed721be58b89f64e4a0801">
+            MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAtVbgrlHsY86x8qMG6UcNEk01fFm/tzMD
+            SZ0c6IEJomVf3No/I9HFVdId91feuBMXHtSQ5KfKM8N9Ch5hOxeu/9SYEav77+zxHZo0YByAQlCL
+            V4Ycrdy28xL9q64hVY9RD+Wfqbg+F6e6IfIqWQb4VlAzvZWY5lAh17H4MKVuFvNkRYf7ceVF0bc5
+            dAgYBqFFBowBbHoOtYOy9rY6YSy47Fi/61nCoomkX8oguwiP+7O4VdfCHKZyHocLJX1PYDzwpfa2
+            BIrabDdgUOoQ3Hmu96KPqEDxUA9DQM8Wj+viKUTQ1HKckE0LliJqJNfjSuuikvCHQvQAMZSUpQ5+
+            uZKshhohR8fVWi/jKn+ZFbStTmfdHHUEGFNQCxfbExJvEuHDe6efaHGvv+G51CVNJsmhJMbKaSi3
+            PMiioofvEWjwaH/xfJKTIYfEpyDynZvaxEFiOqFH3pRtIxB090fYMNZwxXrBUGxlMPpIPwf8N3OU
+            GDSH7fNnzBoFEf3U09ZnRuRVAgMBAAE=
         </rsa-public-key>
         <rsa-public-key sha-256="0f9b2bc1d3e4f733fb0146f193f520babb1a4c1ed8e0798906ebca8a7e81cb8c">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtSH8lLEsSYcMcmi0AFiYmxPnhWEG6Mot
