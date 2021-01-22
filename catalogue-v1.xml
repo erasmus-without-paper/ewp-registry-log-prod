@@ -10494,6 +10494,7 @@
             <hei-id>chalmers.se</hei-id>
             <hei-id>mdh.se</hei-id>
             <hei-id>oru.se</hei-id>
+            <hei-id>madrid.universidadeuropea.es</hei-id>
             <hei-id>ulb.be</hei-id>
             <hei-id>kpz.nl</hei-id>
             <hei-id>arcada.fi</hei-id>
@@ -10515,6 +10516,7 @@
             <hei-id>ensicaen.fr</hei-id>
             <hei-id>udl.cat</hei-id>
             <hei-id>han.nl</hei-id>
+            <hei-id>ltu.se</hei-id>
             <hei-id>insa-centrevaldeloire.fr</hei-id>
             <hei-id>inholland.nl</hei-id>
             <hei-id>usj.es</hei-id>
@@ -10531,6 +10533,7 @@
             <hei-id>upm.es</hei-id>
             <hei-id>univ-lyon2.fr</hei-id>
             <hei-id>skema.edu</hei-id>
+            <hei-id>ruc.dk</hei-id>
             <hei-id>insa-toulouse.fr</hei-id>
             <hei-id>kau.se</hei-id>
             <hei-id>agro-bordeaux.fr</hei-id>
@@ -10539,6 +10542,7 @@
             <hei-id>thomasmorelive.be</hei-id>
             <hei-id>thomasmore.be</hei-id>
             <hei-id>hes-so.ch</hei-id>
+            <hei-id>u-paris.fr</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
@@ -30651,6 +30655,9 @@
     <host>
         <ewp:admin-email>umesh@qs.com</ewp:admin-email>
         <apis-implemented/>
+        <institutions-covered>
+            <hei-id>madrid.universidadeuropea.es</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
             <rsa-public-key sha-256="e4c7f55c93dc6e16e192943079a33d85aeef3cd6a6eaec1fcb21ac676c009fbc"/>
@@ -34019,6 +34026,9 @@
                 <iaac1:url>https://ltu-ewp.moveon4.de/v1/iia/approval/cnr</iaac1:url>
             </iaac1:iia-approval-cnr>
         </apis-implemented>
+        <institutions-covered>
+            <hei-id>ltu.se</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
             <rsa-public-key sha-256="e4c7f55c93dc6e16e192943079a33d85aeef3cd6a6eaec1fcb21ac676c009fbc"/>
@@ -35646,6 +35656,9 @@
     <host>
         <ewp:admin-email>umesh@qs.com</ewp:admin-email>
         <apis-implemented/>
+        <institutions-covered>
+            <hei-id>ruc.dk</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
             <rsa-public-key sha-256="e4c7f55c93dc6e16e192943079a33d85aeef3cd6a6eaec1fcb21ac676c009fbc"/>
@@ -36187,6 +36200,9 @@
     <host>
         <ewp:admin-email>umesh@qs.com</ewp:admin-email>
         <apis-implemented/>
+        <institutions-covered>
+            <hei-id>u-paris.fr</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
             <rsa-public-key sha-256="e4c7f55c93dc6e16e192943079a33d85aeef3cd6a6eaec1fcb21ac676c009fbc"/>
@@ -45144,6 +45160,13 @@
             <other-id type="erasmus">LT KAUNAS13</other-id>
             <name>LIETUVOS SVEIKATOS MOKSLU UNIVERSITETAS</name>
         </hei>
+        <hei id="ltu.se">
+            <other-id type="erasmus">S  LULEA01</other-id>
+            <other-id type="erasmus-charter">29442</other-id>
+            <other-id type="euc">29442</other-id>
+            <other-id type="pic">999876874</other-id>
+            <name xml:lang="en">Luleå tekniska universitet</name>
+        </hei>
         <hei id="ltvk.lt">
             <other-id type="erasmus">LT KLAIPED07</other-id>
             <name>Lietuvos verslo kolegija</name>
@@ -45192,7 +45215,11 @@
         </hei>
         <hei id="madrid.universidadeuropea.es">
             <other-id type="erasmus">E  MADRID18</other-id>
+            <other-id type="erasmus-charter">28690</other-id>
+            <other-id type="euc">28690</other-id>
+            <other-id type="pic">998597056</other-id>
             <name>UNIVERSIDAD EUROPEA DE MADRID SL</name>
+            <name xml:lang="en">Universidad Europea de Madrid</name>
         </hei>
         <hei id="maieutica.pt">
             <other-id type="erasmus">P  MAIA01</other-id>
@@ -45879,6 +45906,13 @@
             <name xml:lang="en">STICHTING KATHOLIEKE UNIVERSITEIT</name>
             <name xml:lang="nl">STICHTING KATHOLIEKE UNIVERSITEIT</name>
         </hei>
+        <hei id="ruc.dk">
+            <other-id type="erasmus">DK ROSKILD01</other-id>
+            <other-id type="erasmus-charter">247793</other-id>
+            <other-id type="euc">247793</other-id>
+            <other-id type="pic">999901803</other-id>
+            <name xml:lang="en">Roskilde Universitet</name>
+        </hei>
         <hei id="rug.nl">
             <other-id type="erasmus">NL GRONING01</other-id>
             <other-id type="pic">999989782</other-id>
@@ -46492,6 +46526,13 @@
             <other-id type="pic">897499873</other-id>
             <name>CY Cergy Paris Universite</name>
             <name xml:lang="en">CY Cergy Paris Université</name>
+        </hei>
+        <hei id="u-paris.fr">
+            <other-id type="erasmus">F  PARIS007</other-id>
+            <other-id type="erasmus-charter">28258</other-id>
+            <other-id type="euc">28258</other-id>
+            <other-id type="pic">999865525</other-id>
+            <name xml:lang="en">Université de Paris</name>
         </hei>
         <hei id="u-paris2.fr">
             <other-id type="erasmus">F  PARIS002</other-id>
