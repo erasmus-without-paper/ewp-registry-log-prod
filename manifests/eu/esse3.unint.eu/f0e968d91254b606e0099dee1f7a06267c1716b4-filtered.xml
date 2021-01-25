@@ -1,0 +1,163 @@
+<manifest
+    xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v5"
+    xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
+    xmlns:mf="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v5"
+    xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
+    xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v5
+        https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-api-discovery/stable-v5/manifest.xsd
+
+        https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1
+        https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-api-registry/stable-v1/catalogue.xsd
+
+        https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd
+        https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-architecture/stable-v1/common-types.xsd
+
+        https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v1/manifest-entry.xsd
+        https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-api-echo/stable-v1/manifest-entry.xsd
+    "
+>
+    <host>
+        <ewp:admin-email>stefano.russo@cineca.it</ewp:admin-email>
+        <ewp:admin-email>d.orlando@cineca.it</ewp:admin-email>
+        <ewp:admin-notes>LUSPIO prod environment.</ewp:admin-notes>
+        <r:apis-implemented>
+            <discovery
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v5/manifest-entry.xsd"
+                version="5.0.0"
+            >
+                <url>https://esse3.unint.eu/ewp/Manifest.do</url>
+            </discovery>
+            <echo
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.1"
+            >
+                <ewp:admin-email>stefano.russo@cineca.it</ewp:admin-email>
+                <http-security>
+                    <sec:client-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </sec:server-auth-methods>
+                </http-security>
+                <url>https://esse3.unint.eu/ewp/connector/Echo.do</url>
+            </echo>
+            <institutions
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-institutions/blob/stable-v2/manifest-entry.xsd"
+                version="2.1.0"
+            >
+                <http-security>
+                    <sec:client-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </sec:server-auth-methods>
+                </http-security>
+                <url>https://esse3.unint.eu/ewp/connector/Institutions.do</url>
+                <max-hei-ids>1</max-hei-ids>
+            </institutions>
+            <organizational-units
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/blob/stable-v2/manifest-entry.xsd"
+                version="2.1.1"
+            >
+                <http-security>
+                    <sec:client-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </sec:server-auth-methods>
+                </http-security>
+                <url>https://esse3.unint.eu/ewp/connector/OrgUnits.do</url>
+                <max-ounit-ids>10</max-ounit-ids>
+                <max-ounit-codes>10</max-ounit-codes>
+            </organizational-units>
+        </r:apis-implemented>
+        <mf:institutions-covered xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1">
+            <hei id="unint.eu">
+                <other-id type="pic">949538530</other-id>
+                <other-id type="erasmus">I  ROMA20</other-id>
+                <name xml:lang="it">Universita degli Studi Internazionali di ROMA (UNINT)</name>
+                <name xml:lang="en">Universita degli Studi Internazionali di ROMA (UNINT)</name>
+            </hei>
+        </mf:institutions-covered>
+        <client-credentials-in-use>
+            <certificate>
+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
+EUm17TvbHac=
+</certificate>
+            <rsa-public-key>
+MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAweRGL92iLD7lObkqKgAi
+stUcRtej9uiDE+IFF31obITzApv9MFz3qXRMclzaARhxmnWw+C7IoR5bmyx8uVJ8
+0T1s1B36bZ0jbSfSM2YpdKkWvWcH3WrFLJu9rDANSCBduW6Vj+UG89qxT5s8SloP
+rWeRJkw2NaQhZYnteQbDRAr/tfUJpQQsIDhx98G1H+tZ21Tfy073ory1PVP4QQDG
+hNGx5nwTC4rwV5FdtxryiKrzbWvMol9PMbv1Dvf/ntBK4+7yhm/6STvJ5QdrOOO0
+e0guSkgla8VBHX/BZD2kyq8xuubBJP71uNcniEDGxv7LVgAyjtuA4xd2JAujDopS
+wUyG7veH+R0PiqcthOlHSNj/MPb5nJ1qgkaApyVv7iArnoSos+nuSJIUlSKlzfy2
+2O8TvdJVWbKrnUej9QV/EcJeYjjZHK6XaR35cQ3uzFPol6DL76PbOrhMLpCXw80S
+TuGOvT0c7Pbx2zXiQqmp4ftCRwG9gwNzQWpcMn6OkblRAgMBAAE=
+</rsa-public-key>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key>
+MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAweRGL92iLD7lObkqKgAi
+stUcRtej9uiDE+IFF31obITzApv9MFz3qXRMclzaARhxmnWw+C7IoR5bmyx8uVJ8
+0T1s1B36bZ0jbSfSM2YpdKkWvWcH3WrFLJu9rDANSCBduW6Vj+UG89qxT5s8SloP
+rWeRJkw2NaQhZYnteQbDRAr/tfUJpQQsIDhx98G1H+tZ21Tfy073ory1PVP4QQDG
+hNGx5nwTC4rwV5FdtxryiKrzbWvMol9PMbv1Dvf/ntBK4+7yhm/6STvJ5QdrOOO0
+e0guSkgla8VBHX/BZD2kyq8xuubBJP71uNcniEDGxv7LVgAyjtuA4xd2JAujDopS
+wUyG7veH+R0PiqcthOlHSNj/MPb5nJ1qgkaApyVv7iArnoSos+nuSJIUlSKlzfy2
+2O8TvdJVWbKrnUej9QV/EcJeYjjZHK6XaR35cQ3uzFPol6DL76PbOrhMLpCXw80S
+TuGOvT0c7Pbx2zXiQqmp4ftCRwG9gwNzQWpcMn6OkblRAgMBAAE=
+</rsa-public-key>
+        </server-credentials-in-use>
+    </host>
+</manifest>
