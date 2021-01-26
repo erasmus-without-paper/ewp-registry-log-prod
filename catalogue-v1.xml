@@ -3738,6 +3738,33 @@
     </host>
     <host>
         <apis-implemented>
+            <iac2:iia-cnr version="2.0.2">
+                <iac2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </iac2:http-security>
+                <iac2:url>https://mobility.tu-ilmenau.de/mobility/ewp/iias/cnr</iac2:url>
+            </iac2:iia-cnr>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>tu-ilmenau.de</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="733129c9aed338ba044fd7dc0ca624ef8b4ff13c3a1c381d7d86a97a580e96f3"/>
+            <rsa-public-key sha-256="e443dde64bd5b8c2f0c8776cd0d7d31c349c35f89539b783898ec8af99b28eb0"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="e443dde64bd5b8c2f0c8776cd0d7d31c349c35f89539b783898ec8af99b28eb0"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
             <iaa1:iias-approval
                 xmlns:iaa1="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
                 version="0.2.1"
