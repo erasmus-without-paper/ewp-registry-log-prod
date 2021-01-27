@@ -5625,15 +5625,156 @@ IwIDAQAB
     <r:apis-implemented>
       <in2:institutions version="2.1.0">
         <admin-email>umesh@qs.com</admin-email>
+        <in2:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </in2:http-security>
         <in2:url>https://unimontpel-ewp.moveonfr.com/v1/institution</in2:url>
         <in2:max-hei-ids>10</in2:max-hei-ids>
       </in2:institutions>
       <ou2:organizational-units version="2.1.1">
         <admin-email>umesh@qs.com</admin-email>
+        <ou2:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </ou2:http-security>
         <ou2:url>https://unimontpel-ewp.moveonfr.com/v1/ounit</ou2:url>
         <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
         <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
       </ou2:organizational-units>
+      <ia3:iias version="3.0.0">
+        <admin-email>umesh@qs.com</admin-email>
+        <ia3:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </ia3:http-security>
+        <ia3:get-url>https://unimontpel-ewp.moveonfr.com/v1/iia/get</ia3:get-url>
+        <ia3:max-iia-ids>10</ia3:max-iia-ids>
+        <ia3:max-iia-codes>10</ia3:max-iia-codes>
+        <ia3:index-url>https://unimontpel-ewp.moveonfr.com/v1/iia/index</ia3:index-url>
+        <ia3:sends-notifications/>
+      </ia3:iias>
+      <iac2:iia-cnr version="2.0.2">
+        <iac2:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </iac2:http-security>
+        <iac2:url>https://unimontpel-ewp.moveonfr.com/v1/iia/cnr</iac2:url>
+      </iac2:iia-cnr>
+      <om1:omobilities version="1.0.0">
+        <admin-email>umesh@qs.com</admin-email>
+        <om1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </om1:http-security>
+        <om1:get-url>https://unimontpel-ewp.moveonfr.com/v1/omobility/get</om1:get-url>
+        <om1:index-url>https://unimontpel-ewp.moveonfr.com/v1/omobility/index</om1:index-url>
+        <om1:max-omobility-ids>10</om1:max-omobility-ids>
+        <om1:sends-notifications/>
+      </om1:omobilities>
+      <omc1:omobility-cnr version="1.0.0">
+        <omc1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </omc1:http-security>
+        <omc1:url>https://unimontpel-ewp.moveonfr.com/v1/omobility/cnr</omc1:url>
+        <omc1:max-omobility-ids>10</omc1:max-omobility-ids>
+      </omc1:omobility-cnr>
+      <im1:imobilities version="1.0.0">
+        <admin-email>umesh@qs.com</admin-email>
+        <im1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </im1:http-security>
+        <im1:get-url>https://unimontpel-ewp.moveonfr.com/v1/imobility/get</im1:get-url>
+        <im1:max-omobility-ids>10</im1:max-omobility-ids>
+        <im1:sends-notifications/>
+      </im1:imobilities>
+      <imc1:imobility-cnr version="1.0.0">
+        <imc1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </imc1:http-security>
+        <imc1:url>https://unimontpel-ewp.moveonfr.com/v1/imobility/cnr</imc1:url>
+        <imc1:max-omobility-ids>10</imc1:max-omobility-ids>
+      </imc1:imobility-cnr>
+      <iaa1:iias-approval version="0.2.1">
+        <admin-email>umesh@qs.com</admin-email>
+        <iaa1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </iaa1:http-security>
+        <iaa1:url>https://unimontpel-ewp.moveonfr.com/v1/iia/approval/get</iaa1:url>
+        <iaa1:max-iia-ids>10</iaa1:max-iia-ids>
+        <iaa1:sends-notifications/>
+      </iaa1:iias-approval>
+      <iaac1:iia-approval-cnr version="0.2.0">
+        <iaac1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </iaac1:http-security>
+        <iaac1:url>https://unimontpel-ewp.moveonfr.com/v1/iia/approval/cnr</iaac1:url>
+      </iaac1:iia-approval-cnr>
     </r:apis-implemented>
     <ns3:institutions-covered>
       <r:hei id="umontpellier.fr">
@@ -20945,15 +21086,192 @@ IwIDAQAB
     <r:apis-implemented>
       <in2:institutions version="2.1.0">
         <admin-email>umesh@qs.com</admin-email>
+        <in2:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </in2:http-security>
         <in2:url>https://uu-ewp.moveon4.de/v1/institution</in2:url>
         <in2:max-hei-ids>10</in2:max-hei-ids>
       </in2:institutions>
       <ou2:organizational-units version="2.1.1">
         <admin-email>umesh@qs.com</admin-email>
+        <ou2:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </ou2:http-security>
         <ou2:url>https://uu-ewp.moveon4.de/v1/ounit</ou2:url>
         <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
         <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
       </ou2:organizational-units>
+      <ia3:iias version="3.0.0">
+        <admin-email>umesh@qs.com</admin-email>
+        <ia3:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </ia3:http-security>
+        <ia3:get-url>https://uu-ewp.moveon4.de/v1/iia/get</ia3:get-url>
+        <ia3:max-iia-ids>10</ia3:max-iia-ids>
+        <ia3:max-iia-codes>10</ia3:max-iia-codes>
+        <ia3:index-url>https://uu-ewp.moveon4.de/v1/iia/index</ia3:index-url>
+        <ia3:sends-notifications/>
+      </ia3:iias>
+      <iac2:iia-cnr version="2.0.2">
+        <iac2:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </iac2:http-security>
+        <iac2:url>https://uu-ewp.moveon4.de/v1/iia/cnr</iac2:url>
+      </iac2:iia-cnr>
+      <om1:omobilities version="1.0.0">
+        <admin-email>umesh@qs.com</admin-email>
+        <om1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </om1:http-security>
+        <om1:get-url>https://uu-ewp.moveon4.de/v1/omobility/get</om1:get-url>
+        <om1:index-url>https://uu-ewp.moveon4.de/v1/omobility/index</om1:index-url>
+        <om1:max-omobility-ids>10</om1:max-omobility-ids>
+        <om1:sends-notifications/>
+      </om1:omobilities>
+      <omc1:omobility-cnr version="1.0.0">
+        <omc1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </omc1:http-security>
+        <omc1:url>https://uu-ewp.moveon4.de/v1/omobility/cnr</omc1:url>
+        <omc1:max-omobility-ids>10</omc1:max-omobility-ids>
+      </omc1:omobility-cnr>
+      <im1:imobilities version="1.0.0">
+        <admin-email>umesh@qs.com</admin-email>
+        <im1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </im1:http-security>
+        <im1:get-url>https://uu-ewp.moveon4.de/v1/imobility/get</im1:get-url>
+        <im1:max-omobility-ids>10</im1:max-omobility-ids>
+        <im1:sends-notifications/>
+      </im1:imobilities>
+      <imc1:imobility-cnr version="1.0.0">
+        <imc1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </imc1:http-security>
+        <imc1:url>https://uu-ewp.moveon4.de/v1/imobility/cnr</imc1:url>
+        <imc1:max-omobility-ids>10</imc1:max-omobility-ids>
+      </imc1:imobility-cnr>
+      <iaa1:iias-approval version="0.2.1">
+        <admin-email>umesh@qs.com</admin-email>
+        <iaa1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </iaa1:http-security>
+        <iaa1:url>https://uu-ewp.moveon4.de/v1/iia/approval/get</iaa1:url>
+        <iaa1:max-iia-ids>10</iaa1:max-iia-ids>
+        <iaa1:sends-notifications/>
+      </iaa1:iias-approval>
+      <iaac1:iia-approval-cnr version="0.2.0">
+        <iaac1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </iaac1:http-security>
+        <iaac1:url>https://uu-ewp.moveon4.de/v1/iia/approval/cnr</iaac1:url>
+      </iaac1:iia-approval-cnr>
+      <oml1:omobility-las version="0.3.0">
+        <admin-email>umesh@qs.com</admin-email>
+        <oml1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </oml1:http-security>
+        <oml1:get-url>https://uu-ewp.moveon4.de/v1/la/get</oml1:get-url>
+        <oml1:index-url>https://uu-ewp.moveon4.de/v1/la/index</oml1:index-url>
+        <oml1:update-url>https://uu-ewp.moveon4.de/v1/la/update</oml1:update-url>
+        <oml1:max-omobility-ids>10</oml1:max-omobility-ids>
+        <oml1:sends-notifications/>
+        <oml1:supported-update-types>
+          <oml1:approve-components-studied-proposal-v1/>
+          <oml1:update-components-studied-v1/>
+        </oml1:supported-update-types>
+      </oml1:omobility-las>
+      <omlc1:omobility-la-cnr version="0.1.0">
+        <omlc1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </omlc1:http-security>
+        <omlc1:url>https://uu-ewp.moveon4.de/v1/la/cnr</omlc1:url>
+        <omlc1:max-omobility-ids>10</omlc1:max-omobility-ids>
+      </omlc1:omobility-la-cnr>
     </r:apis-implemented>
     <ns3:institutions-covered>
       <r:hei id="uu.se">
@@ -24668,11 +24986,47 @@ IwIDAQAB
         </iaac1:http-security>
         <iaac1:url>https://cth-ewp.moveon4.de/v1/iia/approval/cnr</iaac1:url>
       </iaac1:iia-approval-cnr>
+      <oml1:omobility-las version="0.3.0">
+        <admin-email>umesh@qs.com</admin-email>
+        <oml1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </oml1:http-security>
+        <oml1:get-url>https://cth-ewp.moveon4.de/v1/la/get</oml1:get-url>
+        <oml1:index-url>https://cth-ewp.moveon4.de/v1/la/index</oml1:index-url>
+        <oml1:update-url>https://cth-ewp.moveon4.de/v1/la/update</oml1:update-url>
+        <oml1:max-omobility-ids>10</oml1:max-omobility-ids>
+        <oml1:sends-notifications/>
+        <oml1:supported-update-types>
+          <oml1:approve-components-studied-proposal-v1/>
+          <oml1:update-components-studied-v1/>
+        </oml1:supported-update-types>
+      </oml1:omobility-las>
+      <omlc1:omobility-la-cnr version="0.1.0">
+        <omlc1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </omlc1:http-security>
+        <omlc1:url>https://cth-ewp.moveon4.de/v1/la/cnr</omlc1:url>
+        <omlc1:max-omobility-ids>10</omlc1:max-omobility-ids>
+      </omlc1:omobility-la-cnr>
     </r:apis-implemented>
     <ns3:institutions-covered>
       <r:hei id="chalmers.se">
         <r:other-id type="erasmus">S  GOTEBOR02</r:other-id>
-        <r:other-id type="erasmus-charter">29399</r:other-id>
+        <r:other-id type="euc">29399</r:other-id>
         <r:other-id type="pic">999980373</r:other-id>
         <r:name xml:lang="en">Chalmers tekniska högskola</r:name>
       </r:hei>
@@ -24699,25 +25053,7 @@ maEQrVEuDvM0fOqeuI3HsdzZuVFQvbRdNwk2kZY3FfNen9ZmMPHIpzGx88G6M3Dz
 5KSB0ju8T7KQqKAYm5ViICxvxYfKekX4Y23ytLgkz7XgKLkFBHksMYstUpgDL5gW
 3AZ1r8XT0gt9bHrlZj9ESkA=
 </ns3:certificate>
-      <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5JZdEMbx434Wb1uOtL4o
-Ht8DcyTzgrAdTBBSbZHPw/FSKfgiiR/fqlm/7oO6q230IBzS8hHjoQAbcatHwjAE
-uwRMeA+bsO5/6Z93s00H1RV2mJQNLcvY2NXExM1TatHXuV3gUJhvpdny1Xg8TR/0
-89Su5q7kEOQ3zXJIMxzDaDxAsErkUOhd+X2pmkRlbWlkVovsu6gLSo5TZAWy0cgu
-7sh8uZRmbBVjmkVYtaEi0VAiCHg0BJVzsk6mrrG7qmnqTiM7hXLENiEUxYUgrmnl
-97sN6Tl75OnK6Ptwyp3QwEroz61Mk+NMYgT2X+YTom0n62ZEkZX+Ql42la1/migh
-IwIDAQAB
-</ns3:rsa-public-key>
     </ns3:client-credentials-in-use>
-    <ns3:server-credentials-in-use>
-      <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5JZdEMbx434Wb1uOtL4o
-Ht8DcyTzgrAdTBBSbZHPw/FSKfgiiR/fqlm/7oO6q230IBzS8hHjoQAbcatHwjAE
-uwRMeA+bsO5/6Z93s00H1RV2mJQNLcvY2NXExM1TatHXuV3gUJhvpdny1Xg8TR/0
-89Su5q7kEOQ3zXJIMxzDaDxAsErkUOhd+X2pmkRlbWlkVovsu6gLSo5TZAWy0cgu
-7sh8uZRmbBVjmkVYtaEi0VAiCHg0BJVzsk6mrrG7qmnqTiM7hXLENiEUxYUgrmnl
-97sN6Tl75OnK6Ptwyp3QwEroz61Mk+NMYgT2X+YTom0n62ZEkZX+Ql42la1/migh
-IwIDAQAB
-</ns3:rsa-public-key>
-    </ns3:server-credentials-in-use>
   </ns3:host>
   <ns3:host>
     <admin-email>umesh@qs.com</admin-email>
