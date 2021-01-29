@@ -43449,6 +43449,66 @@
             <rsa-public-key sha-256="ddeb80fe601cdb7d9d18cd51f34234a13f41ce33715f327d647e3c80df9e621b"/>
         </server-credentials-in-use>
     </host>
+    <host>
+        <ewp:admin-email>stefano.russo@cineca.it</ewp:admin-email>
+        <ewp:admin-email>d.orlando@cineca.it</ewp:admin-email>
+        <ewp:admin-notes>UNIPARTH prod environment.</ewp:admin-notes>
+        <apis-implemented>
+            <d5:discovery version="5.0.0">
+                <d5:url>https://uniparthenope.esse3.cineca.it/ewp/Manifest.do</d5:url>
+            </d5:discovery>
+            <e2:echo version="2.0.1">
+                <ewp:admin-email>stefano.russo@cineca.it</ewp:admin-email>
+                <e2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </e2:http-security>
+                <e2:url>https://uniparthenope.esse3.cineca.it/ewp/connector/Echo.do</e2:url>
+            </e2:echo>
+            <in2:institutions version="2.1.0">
+                <in2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </in2:http-security>
+                <in2:url>https://uniparthenope.esse3.cineca.it/ewp/connector/Institutions.do</in2:url>
+                <in2:max-hei-ids>1</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.1.1">
+                <ou2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </ou2:http-security>
+                <ou2:url>https://uniparthenope.esse3.cineca.it/ewp/connector/OrgUnits.do</ou2:url>
+                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>uniparthenope.it</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="f73d0a693f0f494edc63a82c0c8e07ed4757cddb47eed9381280b36b9b25826a"/>
+            <rsa-public-key sha-256="81e75ea6fcd3bee87bf07131c9f7ed11e6e33074d385d655dd57ae77c9654631"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="81e75ea6fcd3bee87bf07131c9f7ed11e6e33074d385d655dd57ae77c9654631"/>
+        </server-credentials-in-use>
+    </host>
     <institutions>
         <hei id="3il.fr">
             <other-id type="erasmus">F  LIMOGES20</other-id>
@@ -48855,6 +48915,12 @@
             <other-id type="erasmus">I  PALERMO01</other-id>
             <name>UNIVERSITA DEGLI STUDI DI PALERMO</name>
         </hei>
+        <hei id="uniparthenope.it">
+            <other-id type="erasmus">I  NAPOLI03</other-id>
+            <other-id type="pic">999856019</other-id>
+            <name xml:lang="en">UNIVERSITY OF NAPLES "PARTHENOPE"</name>
+            <name xml:lang="it">Universita degli studi di Napoli Parthenope</name>
+        </hei>
         <hei id="unipg.it">
             <other-id type="erasmus">I  PERUGIA01</other-id>
             <name>UNIVERSITA DEGLI STUDI DI PERUGIA</name>
@@ -50117,6 +50183,16 @@
             Mz5/mM0nH0xgRkYX3gKW+CbIqD2jR4iIs2QePqMQKjHLAlSXyHMDZ8TEAEYEbjosc9vO64qFP+fP
             ybBBgtMmxzHsdyMMh/eyTmq5UN7qhocWN+f3etHUX/0DuX6Pqr8vfFCKh0MeHXED51HQnwDWVFJF
             ojesjwIDAQAB
+        </rsa-public-key>
+        <rsa-public-key sha-256="81e75ea6fcd3bee87bf07131c9f7ed11e6e33074d385d655dd57ae77c9654631">
+            MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEA1eX7U024PUK/+zpRu7ryWTEMzqjJ1qia
+            APhMZr2pqK6y0gOWmi9K6LoL1Wm2zcM2TefOh/kgUNpme8AV0dXyRLBQKknYy2ruswzRVi96Po+D
+            Gtd/+uBFZ1CfGnEG9S7hGyisyAT4eE8xNYAV15laylKaPmamq4wPUsKTEBuXIRzzAL2aWxytqsMY
+            CeQ+u/ZEsObWxVUkQizZpQ+SW+CRC67qkc5Rk10h0Kq3XOenXpbO9xbOGY87aJc80H/Vbrq40n0J
+            EEm38wx8n639UCk+5oOEZUcBohvGFqlOPUike1CPrm4uwjE4as+lzr3knfZtJcvBQLRBJ2O16u8U
+            JCfOXJ0PMxfvMBDwv60M7JnH2YkXsw4jsNiAZCMCaYDdu7VJ8bFx8xMPH4ef0K26AIqvIp1oePHP
+            UqbqCQltiKsb2f3Qnd8b4A8t9qGzQoRvZC0ALcw70p4O2kOwbvelaD1NiLjjY6MuqH7kAdfvOkXd
+            NVXG9sBwbF0amui9gMx6u6+lAgMBAAE=
         </rsa-public-key>
         <rsa-public-key sha-256="940f4b7b2b9f36020bf0357a41db00d819ff706ab50e61acdc23ac143045dfaa">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwvPdlDkWoYspvt//YYZD3wthshHK/dMY
