@@ -43509,6 +43509,69 @@
             <rsa-public-key sha-256="81e75ea6fcd3bee87bf07131c9f7ed11e6e33074d385d655dd57ae77c9654631"/>
         </server-credentials-in-use>
     </host>
+    <host>
+        <ewp:admin-email>volenova@civ.zcu.cz</ewp:admin-email>
+        <ewp:admin-notes>EWP connector for IS/STAG</ewp:admin-notes>
+        <apis-implemented>
+            <e2:echo version="2.0.1">
+                <e2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </e2:http-security>
+                <e2:url>https://stag-ws.zcu.cz:8843/ws/services/ewp/echo</e2:url>
+            </e2:echo>
+            <d5:discovery version="5.0.0">
+                <d5:url>https://stag-ws.zcu.cz/ws/services/ewp/manifest</d5:url>
+            </d5:discovery>
+            <in2:institutions version="2.1.0">
+                <in2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                        <sec-A0:anonymous/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </in2:http-security>
+                <in2:url>https://stag-ws.zcu.cz:8843/ws/services/ewp/institutions</in2:url>
+                <in2:max-hei-ids>1</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.1.1">
+                <ou2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                        <sec-A0:anonymous/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </ou2:http-security>
+                <ou2:url>https://stag-ws.zcu.cz:8843/ws/services/ewp/ounits</ou2:url>
+                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>zcu.cz</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="b52e8dfb1b33ac42c98aace929a68a6641ced9b0c0042266b48acd502f5def26"/>
+            <rsa-public-key sha-256="a6522755fcfed05cbce797f7f6e1b833384926827e6743b862dec88f7f86e290"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="a6522755fcfed05cbce797f7f6e1b833384926827e6743b862dec88f7f86e290"/>
+        </server-credentials-in-use>
+    </host>
     <institutions>
         <hei id="3il.fr">
             <other-id type="erasmus">F  LIMOGES20</other-id>
@@ -49806,6 +49869,13 @@
             <other-id type="pic">999933231</other-id>
             <name xml:lang="en">Sveu?ilite u Zagrebu</name>
         </hei>
+        <hei id="zcu.cz">
+            <other-id type="erasmus">CZ PLZEN01</other-id>
+            <other-id type="erasmus-charter">51707-EPP-1-2014-1-CZ-EPPKA3-ECHE</other-id>
+            <other-id type="pic">999843894</other-id>
+            <name xml:lang="cs">ZÁPADOČESKÁ UNIVERZITA V PLZNI</name>
+            <name xml:lang="en">University of West Bohemia</name>
+        </hei>
         <hei id="zhaw.ch">
             <other-id type="erasmus">CH WINTERT03</other-id>
             <name xml:lang="de">ZHAW Zürcher Hochschule für Angewandte Wissenschaften</name>
@@ -50249,6 +50319,14 @@
             lu2nDBzOb9vMGwfzbL8zeK9o7z4gfVDXmAqoq4ZBEoAAGBwJBOyUhzaUKGLeT/MS/8+mRqTTUF8N
             m8Sq5P4JLeDdTs4MgmSSRuKT6JDa1Mw79fuqDlgyZLnM6FU3+6oXl1cTk6SD1Fcwhc1/72XQK90E
             5csqNwIDAQAB
+        </rsa-public-key>
+        <rsa-public-key sha-256="a6522755fcfed05cbce797f7f6e1b833384926827e6743b862dec88f7f86e290">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAl6kXln9+xdR0cWsXE5hSiZgFZ9GKuf5v
+            Xb80jiaKw8hDjckKasYhjN6Lel90MqRw3yGR4jCTB/haKI2gmC3ym+cYbV166oH+JK7ELkAkaU44
+            uRnd3h26IV7LYJehpXTx3zA2MAPp1BR1lJbYVy95JClIQ0g0Y/gTdiCau8UW040RzJFwnh1qyK4n
+            EZLdM2JrW5ba5GOvF6IS6v8A3pN1MZ8Lxom6KDP4a2VGUHkDaL7vT2RMAXMR+SA1Cq+qzt4JU9qC
+            VaBazrrY+GVIE7ktKQgtAeAbYpHkmQ2ByxofrybuuIUJmh0sgGWX3WHAhWNiaqN4/jdzWHfY9FKS
+            KUAe0wIDAQAB
         </rsa-public-key>
         <rsa-public-key sha-256="aaef517867ad7e1bf599ab5434074e5edf07ed377756fea1772ae01e07a19aaf">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkPbZjJ/M/jjFbWfz7FudpcX+B+lpgkdq
