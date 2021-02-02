@@ -2020,6 +2020,35 @@
     </host>
     <host>
         <apis-implemented>
+            <ou2:organizational-units version="2.1.1">
+                <ou2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </ou2:http-security>
+                <ou2:url>https://www.service4mobility.com/europe_template/ewp/ounits</ou2:url>
+                <ou2:max-ounit-ids>3</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>3</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>hwr-berlin.de</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="99ef37d8edd0f5962e3368bcb4bcb817e3d5a0e9d9d79545499e2804327f0609"/>
+            <rsa-public-key sha-256="b6ef9808b999d46b24a47737451012987b9edb40562e963d204111fa9f7eacf1"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="b6ef9808b999d46b24a47737451012987b9edb40562e963d204111fa9f7eacf1"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
             <ia3:iias
                 xmlns:ia3="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v3/manifest-entry.xsd"
                 version="3.0.0"
@@ -2043,6 +2072,34 @@
         </apis-implemented>
         <institutions-covered>
             <hei-id>tu-berlin.de</hei-id>
+            <hei-id>hwr-berlin.de</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="99ef37d8edd0f5962e3368bcb4bcb817e3d5a0e9d9d79545499e2804327f0609"/>
+            <rsa-public-key sha-256="b6ef9808b999d46b24a47737451012987b9edb40562e963d204111fa9f7eacf1"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="b6ef9808b999d46b24a47737451012987b9edb40562e963d204111fa9f7eacf1"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <iac2:iia-cnr version="2.0.2">
+                <iac2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </iac2:http-security>
+                <iac2:url>https://www.service4mobility.com/europe_template/ewp/iias/cnr</iac2:url>
+            </iac2:iia-cnr>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>hwr-berlin.de</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="99ef37d8edd0f5962e3368bcb4bcb817e3d5a0e9d9d79545499e2804327f0609"/>
@@ -2075,6 +2132,7 @@
         </apis-implemented>
         <institutions-covered>
             <hei-id>tu-berlin.de</hei-id>
+            <hei-id>hwr-berlin.de</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="99ef37d8edd0f5962e3368bcb4bcb817e3d5a0e9d9d79545499e2804327f0609"/>
@@ -2139,6 +2197,7 @@
         </apis-implemented>
         <institutions-covered>
             <hei-id>tu-berlin.de</hei-id>
+            <hei-id>hwr-berlin.de</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="99ef37d8edd0f5962e3368bcb4bcb817e3d5a0e9d9d79545499e2804327f0609"/>
