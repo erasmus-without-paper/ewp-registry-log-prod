@@ -2330,6 +2330,33 @@
     </host>
     <host>
         <apis-implemented>
+            <iac2:iia-cnr version="2.0.2">
+                <iac2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </iac2:http-security>
+                <iac2:url>https://www.service4mobility.com/fau/ewp/iias/cnr</iac2:url>
+            </iac2:iia-cnr>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>fau.de</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="b6f0f4a91dccbdff94f3889d227c02ad49faf66b9f2c3194fbae9b67c7f81e2b"/>
+            <rsa-public-key sha-256="49554338fd305ec16063df917c0fe3bea1bb012a71685648f2f9bcd8c5f9a91a"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="49554338fd305ec16063df917c0fe3bea1bb012a71685648f2f9bcd8c5f9a91a"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
             <iaa1:iias-approval
                 xmlns:iaa1="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
                 version="0.2.1"
