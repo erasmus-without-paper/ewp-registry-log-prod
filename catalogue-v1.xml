@@ -12072,17 +12072,55 @@
                 </iaac1:http-security>
                 <iaac1:url>https://icp-ewp.moveonfr.com/v1/iia/approval/cnr</iaac1:url>
             </iaac1:iia-approval-cnr>
+            <oml1:omobility-las
+                xmlns:oml1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd"
+                version="0.3.0"
+            >
+                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+                <oml1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </oml1:http-security>
+                <oml1:get-url>https://icp-ewp.moveonfr.com/v1/la/get</oml1:get-url>
+                <oml1:index-url>https://icp-ewp.moveonfr.com/v1/la/index</oml1:index-url>
+                <oml1:update-url>https://icp-ewp.moveonfr.com/v1/la/update</oml1:update-url>
+                <oml1:max-omobility-ids>10</oml1:max-omobility-ids>
+                <oml1:sends-notifications/>
+                <oml1:supported-update-types>
+                    <oml1:approve-components-studied-proposal-v1/>
+                    <oml1:update-components-studied-v1/>
+                </oml1:supported-update-types>
+            </oml1:omobility-las>
+            <omlc1:omobility-la-cnr
+                xmlns:omlc1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="0.1.0"
+            >
+                <omlc1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </omlc1:http-security>
+                <omlc1:url>https://icp-ewp.moveonfr.com/v1/la/cnr</omlc1:url>
+                <omlc1:max-omobility-ids>10</omlc1:max-omobility-ids>
+            </omlc1:omobility-la-cnr>
         </apis-implemented>
         <institutions-covered>
             <hei-id>icp.fr</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
-            <rsa-public-key sha-256="e4c7f55c93dc6e16e192943079a33d85aeef3cd6a6eaec1fcb21ac676c009fbc"/>
         </client-credentials-in-use>
-        <server-credentials-in-use>
-            <rsa-public-key sha-256="e4c7f55c93dc6e16e192943079a33d85aeef3cd6a6eaec1fcb21ac676c009fbc"/>
-        </server-credentials-in-use>
     </host>
     <host>
         <ewp:admin-email>umesh@qs.com</ewp:admin-email>
@@ -45992,7 +46030,6 @@
         </hei>
         <hei id="icp.fr">
             <other-id type="erasmus">F  PARIS052</other-id>
-            <other-id type="erasmus-charter">28612</other-id>
             <other-id type="euc">28612</other-id>
             <other-id type="pic">949439396</other-id>
             <name>ASSOCIATION DES EVEQUES FONDATEURS DE L’INSTITUT CATHOLIQUE</name>
