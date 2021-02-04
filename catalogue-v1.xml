@@ -2296,6 +2296,72 @@
     </host>
     <host>
         <apis-implemented>
+            <ia3:iias
+                xmlns:ia3="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v3/manifest-entry.xsd"
+                version="3.0.0"
+            >
+                <ia3:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </ia3:http-security>
+                <ia3:get-url>https://www.service4mobility.com/fau/ewp/iias/get</ia3:get-url>
+                <ia3:max-iia-ids>3</ia3:max-iia-ids>
+                <ia3:max-iia-codes>3</ia3:max-iia-codes>
+                <ia3:index-url>https://www.service4mobility.com/fau/ewp/iias/index</ia3:index-url>
+                <ia3:sends-notifications/>
+            </ia3:iias>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>fau.de</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="b6f0f4a91dccbdff94f3889d227c02ad49faf66b9f2c3194fbae9b67c7f81e2b"/>
+            <rsa-public-key sha-256="49554338fd305ec16063df917c0fe3bea1bb012a71685648f2f9bcd8c5f9a91a"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="49554338fd305ec16063df917c0fe3bea1bb012a71685648f2f9bcd8c5f9a91a"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <iaa1:iias-approval
+                xmlns:iaa1="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
+                version="0.2.1"
+            >
+                <iaa1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </iaa1:http-security>
+                <iaa1:url>https://www.service4mobility.com/fau/ewp/iias/approve</iaa1:url>
+                <iaa1:max-iia-ids>3</iaa1:max-iia-ids>
+                <iaa1:sends-notifications/>
+            </iaa1:iias-approval>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>fau.de</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="b6f0f4a91dccbdff94f3889d227c02ad49faf66b9f2c3194fbae9b67c7f81e2b"/>
+            <rsa-public-key sha-256="49554338fd305ec16063df917c0fe3bea1bb012a71685648f2f9bcd8c5f9a91a"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="49554338fd305ec16063df917c0fe3bea1bb012a71685648f2f9bcd8c5f9a91a"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
             <om1:omobilities
                 xmlns:om1="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd"
                 version="1.0.0"
@@ -2315,6 +2381,37 @@
                 <om1:max-omobility-ids>1</om1:max-omobility-ids>
                 <om1:sends-notifications/>
             </om1:omobilities>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>fau.de</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="b6f0f4a91dccbdff94f3889d227c02ad49faf66b9f2c3194fbae9b67c7f81e2b"/>
+            <rsa-public-key sha-256="49554338fd305ec16063df917c0fe3bea1bb012a71685648f2f9bcd8c5f9a91a"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="49554338fd305ec16063df917c0fe3bea1bb012a71685648f2f9bcd8c5f9a91a"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <f1:factsheet
+                xmlns:f1="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
+                version="0.3.0"
+            >
+                <f1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </f1:http-security>
+                <f1:url>https://www.service4mobility.com/fau/ewp/factsheets</f1:url>
+                <f1:max-hei-ids>3</f1:max-hei-ids>
+            </f1:factsheet>
         </apis-implemented>
         <institutions-covered>
             <hei-id>fau.de</hei-id>
