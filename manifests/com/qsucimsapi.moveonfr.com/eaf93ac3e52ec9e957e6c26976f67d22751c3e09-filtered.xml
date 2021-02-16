@@ -93,6 +93,12 @@
                 <r:other-id type="pic">949439396</r:other-id>
                 <r:name xml:lang="en">Institut Catholique de Paris</r:name>
             </r:hei>
+            <r:hei id="bordeaux-inp.fr">
+                <r:other-id type="erasmus">F  BORDEAU54</r:other-id>
+                <r:other-id type="euc">256164</r:other-id>
+                <r:other-id type="pic">991798035</r:other-id>
+                <r:name xml:lang="en">Institut Polytechnique de Bordeaux</r:name>
+            </r:hei>
             <r:hei id="sciencespo-rennes.fr">
                 <r:other-id type="erasmus">F  RENNES28</r:other-id>
                 <r:other-id type="euc">28044</r:other-id>
@@ -161,6 +167,12 @@
                 <r:other-id type="euc">27963</r:other-id>
                 <r:other-id type="pic">999907235</r:other-id>
                 <r:name xml:lang="en">Université Paris-Saclay</r:name>
+            </r:hei>
+            <r:hei id="cyu.fr">
+                <r:other-id type="erasmus">F CERGY-P11</r:other-id>
+                <r:other-id type="euc">28353</r:other-id>
+                <r:other-id type="pic">897499873</r:other-id>
+                <r:name xml:lang="en">CY Cergy Paris Université</r:name>
             </r:hei>
             <r:hei id="tlse3.fr">
                 <r:other-id type="erasmus">F  TOULOUS03</r:other-id>
@@ -267,6 +279,12 @@
                 <r:other-id type="pic">996758324</r:other-id>
                 <r:name xml:lang="en">Université de Toulon</r:name>
             </r:hei>
+            <r:hei id="utt.fr">
+                <r:other-id type="erasmus">F  TROYES08</r:other-id>
+                <r:other-id type="euc">28601</r:other-id>
+                <r:other-id type="pic">997576228</r:other-id>
+                <r:name xml:lang="en">Université de Technologie de Troyes</r:name>
+            </r:hei>
             <r:hei id="uvsq.fr">
                 <r:other-id type="erasmus">F  VERSAIL11</r:other-id>
                 <r:other-id type="euc">27624</r:other-id>
@@ -314,6 +332,12 @@
             </r:hei>
             <r:hei id="northumbria.ac.uk">
                 <r:name xml:lang="en">Northumbria University</r:name>
+            </r:hei>
+            <r:hei id="rgu.ac.uk">
+                <r:other-id type="erasmus">UK ABERDEE03</r:other-id>
+                <r:other-id type="euc">28096</r:other-id>
+                <r:other-id type="pic">947109456</r:other-id>
+                <r:name xml:lang="en">The Robert Gordon University</r:name>
             </r:hei>
             <r:hei id="surrey.ac.uk">
                 <r:other-id type="erasmus">UK GUILDFO01</r:other-id>
@@ -1118,6 +1142,12 @@
                 <r:other-id type="euc">214823</r:other-id>
                 <r:other-id type="pic">957466243</r:other-id>
                 <r:name xml:lang="en">Ecole Nationale Supérieure des Sciences Agronomiques de Bordeaux-Aquitaine (Bordeaux Sciences Agro)</r:name>
+            </r:hei>
+            <r:hei id="univ-avignon.fr">
+                <r:other-id type="erasmus">F  AVIGNON01</r:other-id>
+                <r:other-id type="euc">27890</r:other-id>
+                <r:other-id type="pic">999576465</r:other-id>
+                <r:name xml:lang="en">Université d'Avignon et des Pays de Vaucluse</r:name>
             </r:hei>
             <r:hei id="maastrichtuniversity.nl">
                 <r:other-id type="erasmus">NL MAASTRI01</r:other-id>
@@ -2446,7 +2476,14 @@ maEQrVEuDvM0fOqeuI3HsdzZuVFQvbRdNwk2kZY3FfNen9ZmMPHIpzGx88G6M3Dz
     <ns3:host>
         <admin-email>umesh@qs.com</admin-email>
         <r:apis-implemented/>
-        <ns3:institutions-covered/>
+        <ns3:institutions-covered>
+            <r:hei id="bordeaux-inp.fr">
+                <r:other-id type="erasmus">F  BORDEAU54</r:other-id>
+                <r:other-id type="euc">256164</r:other-id>
+                <r:other-id type="pic">991798035</r:other-id>
+                <r:name xml:lang="en">Institut Polytechnique de Bordeaux</r:name>
+            </r:hei>
+        </ns3:institutions-covered>
         <ns3:client-credentials-in-use>
             <ns3:certificate>MIIDnTCCAoWgAwIBAgIJAOiDLUc/o7t5MA0GCSqGSIb3DQEBBQUAMGQxCzAJBgNV
 BAYTAklOMRIwEAYDVQQIDAlLQVJOQVRBS0ExEjAQBgNVBAcMCUJBTkdBTE9SRTEL
@@ -4448,7 +4485,14 @@ maEQrVEuDvM0fOqeuI3HsdzZuVFQvbRdNwk2kZY3FfNen9ZmMPHIpzGx88G6M3Dz
                 <omlc1:max-omobility-ids>10</omlc1:max-omobility-ids>
             </omlc1:omobility-la-cnr>
         </r:apis-implemented>
-        <ns3:institutions-covered/>
+        <ns3:institutions-covered>
+            <r:hei id="cyu.fr">
+                <r:other-id type="erasmus">F CERGY-P11</r:other-id>
+                <r:other-id type="euc">28353</r:other-id>
+                <r:other-id type="pic">897499873</r:other-id>
+                <r:name xml:lang="en">CY Cergy Paris Université</r:name>
+            </r:hei>
+        </ns3:institutions-covered>
         <ns3:client-credentials-in-use>
             <ns3:certificate>MIIDnTCCAoWgAwIBAgIJAOiDLUc/o7t5MA0GCSqGSIb3DQEBBQUAMGQxCzAJBgNV
 BAYTAklOMRIwEAYDVQQIDAlLQVJOQVRBS0ExEjAQBgNVBAcMCUJBTkdBTE9SRTEL
@@ -7906,7 +7950,14 @@ maEQrVEuDvM0fOqeuI3HsdzZuVFQvbRdNwk2kZY3FfNen9ZmMPHIpzGx88G6M3Dz
                 <omlc1:max-omobility-ids>10</omlc1:max-omobility-ids>
             </omlc1:omobility-la-cnr>
         </r:apis-implemented>
-        <ns3:institutions-covered/>
+        <ns3:institutions-covered>
+            <r:hei id="utt.fr">
+                <r:other-id type="erasmus">F  TROYES08</r:other-id>
+                <r:other-id type="euc">28601</r:other-id>
+                <r:other-id type="pic">997576228</r:other-id>
+                <r:name xml:lang="en">Université de Technologie de Troyes</r:name>
+            </r:hei>
+        </ns3:institutions-covered>
         <ns3:client-credentials-in-use>
             <ns3:certificate>MIIDnTCCAoWgAwIBAgIJAOiDLUc/o7t5MA0GCSqGSIb3DQEBBQUAMGQxCzAJBgNV
 BAYTAklOMRIwEAYDVQQIDAlLQVJOQVRBS0ExEjAQBgNVBAcMCUJBTkdBTE9SRTEL
@@ -8651,7 +8702,14 @@ maEQrVEuDvM0fOqeuI3HsdzZuVFQvbRdNwk2kZY3FfNen9ZmMPHIpzGx88G6M3Dz
     <ns3:host>
         <admin-email>umesh@qs.com</admin-email>
         <r:apis-implemented/>
-        <ns3:institutions-covered/>
+        <ns3:institutions-covered>
+            <r:hei id="rgu.ac.uk">
+                <r:other-id type="erasmus">UK ABERDEE03</r:other-id>
+                <r:other-id type="euc">28096</r:other-id>
+                <r:other-id type="pic">947109456</r:other-id>
+                <r:name xml:lang="en">The Robert Gordon University</r:name>
+            </r:hei>
+        </ns3:institutions-covered>
         <ns3:client-credentials-in-use>
             <ns3:certificate>MIIDnTCCAoWgAwIBAgIJAOiDLUc/o7t5MA0GCSqGSIb3DQEBBQUAMGQxCzAJBgNV
 BAYTAklOMRIwEAYDVQQIDAlLQVJOQVRBS0ExEjAQBgNVBAcMCUJBTkdBTE9SRTEL
@@ -30955,7 +31013,14 @@ maEQrVEuDvM0fOqeuI3HsdzZuVFQvbRdNwk2kZY3FfNen9ZmMPHIpzGx88G6M3Dz
                 <omlc1:max-omobility-ids>10</omlc1:max-omobility-ids>
             </omlc1:omobility-la-cnr>
         </r:apis-implemented>
-        <ns3:institutions-covered/>
+        <ns3:institutions-covered>
+            <r:hei id="univ-avignon.fr">
+                <r:other-id type="erasmus">F  AVIGNON01</r:other-id>
+                <r:other-id type="euc">27890</r:other-id>
+                <r:other-id type="pic">999576465</r:other-id>
+                <r:name xml:lang="en">Université d'Avignon et des Pays de Vaucluse</r:name>
+            </r:hei>
+        </ns3:institutions-covered>
         <ns3:client-credentials-in-use>
             <ns3:certificate>MIIDnTCCAoWgAwIBAgIJAOiDLUc/o7t5MA0GCSqGSIb3DQEBBQUAMGQxCzAJBgNV
 BAYTAklOMRIwEAYDVQQIDAlLQVJOQVRBS0ExEjAQBgNVBAcMCUJBTkdBTE9SRTEL

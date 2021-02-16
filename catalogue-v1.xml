@@ -10907,6 +10907,7 @@
             <hei-id>insa-rouen.fr</hei-id>
             <hei-id>ehess.fr</hei-id>
             <hei-id>icp.fr</hei-id>
+            <hei-id>bordeaux-inp.fr</hei-id>
             <hei-id>sciencespo-rennes.fr</hei-id>
             <hei-id>essca.fr</hei-id>
             <hei-id>epf.fr</hei-id>
@@ -10919,6 +10920,7 @@
             <hei-id>univ-paris8.fr</hei-id>
             <hei-id>univ-paris-diderot.fr</hei-id>
             <hei-id>universite-paris-saclay.fr</hei-id>
+            <hei-id>cyu.fr</hei-id>
             <hei-id>tlse3.fr</hei-id>
             <hei-id>u-bordeaux.fr</hei-id>
             <hei-id>univ-catholille.fr</hei-id>
@@ -10938,6 +10940,7 @@
             <hei-id>u-picardie.fr</hei-id>
             <hei-id>univ-smb.fr</hei-id>
             <hei-id>univ-tln.fr</hei-id>
+            <hei-id>utt.fr</hei-id>
             <hei-id>uvsq.fr</hei-id>
             <hei-id>aston.ac.uk</hei-id>
             <hei-id>bham.ac.uk</hei-id>
@@ -10948,6 +10951,7 @@
             <hei-id>hull.ac.uk</hei-id>
             <hei-id>lancaster.ac.uk</hei-id>
             <hei-id>northumbria.ac.uk</hei-id>
+            <hei-id>rgu.ac.uk</hei-id>
             <hei-id>surrey.ac.uk</hei-id>
             <hei-id>uwe.ac.uk</hei-id>
             <hei-id>adbk.de</hei-id>
@@ -11085,6 +11089,7 @@
             <hei-id>insa-toulouse.fr</hei-id>
             <hei-id>kau.se</hei-id>
             <hei-id>agro-bordeaux.fr</hei-id>
+            <hei-id>univ-avignon.fr</hei-id>
             <hei-id>maastrichtuniversity.nl</hei-id>
             <hei-id>centralesupelec.fr</hei-id>
             <hei-id>thomasmorelive.be</hei-id>
@@ -12272,6 +12277,9 @@
     <host>
         <ewp:admin-email>umesh@qs.com</ewp:admin-email>
         <apis-implemented/>
+        <institutions-covered>
+            <hei-id>bordeaux-inp.fr</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
         </client-credentials-in-use>
@@ -14175,6 +14183,9 @@
                 <omlc1:max-omobility-ids>10</omlc1:max-omobility-ids>
             </omlc1:omobility-la-cnr>
         </apis-implemented>
+        <institutions-covered>
+            <hei-id>cyu.fr</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
         </client-credentials-in-use>
@@ -17513,6 +17524,9 @@
                 <omlc1:max-omobility-ids>10</omlc1:max-omobility-ids>
             </omlc1:omobility-la-cnr>
         </apis-implemented>
+        <institutions-covered>
+            <hei-id>utt.fr</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
         </client-credentials-in-use>
@@ -18053,6 +18067,9 @@
     <host>
         <ewp:admin-email>umesh@qs.com</ewp:admin-email>
         <apis-implemented/>
+        <institutions-covered>
+            <hei-id>rgu.ac.uk</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
         </client-credentials-in-use>
@@ -38812,6 +38829,9 @@
                 <omlc1:max-omobility-ids>10</omlc1:max-omobility-ids>
             </omlc1:omobility-la-cnr>
         </apis-implemented>
+        <institutions-covered>
+            <hei-id>univ-avignon.fr</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
         </client-credentials-in-use>
@@ -46158,6 +46178,12 @@
             <name xml:lang="de">Universität für Bodenkultur Wien</name>
             <name xml:lang="en">Universität für Bodenkultur Wien</name>
         </hei>
+        <hei id="bordeaux-inp.fr">
+            <other-id type="erasmus">F  BORDEAU54</other-id>
+            <other-id type="euc">256164</other-id>
+            <other-id type="pic">991798035</other-id>
+            <name xml:lang="en">Institut Polytechnique de Bordeaux</name>
+        </hei>
         <hei id="brassart.fr">
             <other-id type="erasmus">F  GRENOBL49</other-id>
             <name>ARIES RHONE-ALPES</name>
@@ -46468,6 +46494,12 @@
         <hei id="cyi.ac.cy">
             <other-id type="erasmus">CY LEFKOSI02</other-id>
             <name>THE CYPRUS INSTITUTE</name>
+        </hei>
+        <hei id="cyu.fr">
+            <other-id type="erasmus">F CERGY-P11</other-id>
+            <other-id type="euc">28353</other-id>
+            <other-id type="pic">897499873</other-id>
+            <name xml:lang="en">CY Cergy Paris Université</name>
         </hei>
         <hei id="czu.cz">
             <other-id type="erasmus">CZ PRAHA02</other-id>
@@ -49360,6 +49392,12 @@
             <name xml:lang="en">RIGA GRADUATE SCHOOL OF LAW</name>
             <name xml:lang="lv">RIGA GRADUATE SCHOOL OF LAW</name>
         </hei>
+        <hei id="rgu.ac.uk">
+            <other-id type="erasmus">UK ABERDEE03</other-id>
+            <other-id type="euc">28096</other-id>
+            <other-id type="pic">947109456</other-id>
+            <name xml:lang="en">The Robert Gordon University</name>
+        </hei>
         <hei id="riam.ie">
             <other-id type="erasmus">IRL DUBLIN22</other-id>
             <name xml:lang="en">Royal Irish Academy of Music</name>
@@ -51201,7 +51239,10 @@
         </hei>
         <hei id="univ-avignon.fr">
             <other-id type="erasmus">F  AVIGNON01</other-id>
+            <other-id type="euc">27890</other-id>
+            <other-id type="pic">999576465</other-id>
             <name>UNIVERSITE D’AVIGNON ET DES PAYS DE VAUCLUSE</name>
+            <name xml:lang="en">Université d'Avignon et des Pays de Vaucluse</name>
         </hei>
         <hei id="univ-catholille.fr">
             <other-id type="eche">28677</other-id>
@@ -51643,6 +51684,12 @@
         <hei id="utp.edu.pl">
             <other-id type="erasmus">PL BYDGOSZ02</other-id>
             <name>UNIWERSYTET TECHNOLOGICZNO PRZYRODNICZY IM JANA I JEDRZEJA SNIADECKICH W BYDGOSZCZY</name>
+        </hei>
+        <hei id="utt.fr">
+            <other-id type="erasmus">F  TROYES08</other-id>
+            <other-id type="euc">28601</other-id>
+            <other-id type="pic">997576228</other-id>
+            <name xml:lang="en">Université de Technologie de Troyes</name>
         </hei>
         <hei id="utu.fi">
             <other-id type="erasmus">SF TURKU01</other-id>
