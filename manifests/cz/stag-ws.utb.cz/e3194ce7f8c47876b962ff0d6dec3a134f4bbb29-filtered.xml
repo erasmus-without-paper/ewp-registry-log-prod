@@ -1,0 +1,154 @@
+<ns3:manifest
+    xmlns:ns3="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v5"
+    xmlns="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
+    xmlns:ns10="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns11="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns12="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns13="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns14="https://github.com/erasmus-without-paper/ewp-specs-api-course-replication/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns15="https://github.com/erasmus-without-paper/ewp-specs-api-courses/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns16="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns17="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns18="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns19="https://github.com/erasmus-without-paper/ewp-specs-api-iia-cnr/blob/stable-v2/manifest-entry.xsd"
+    xmlns:ns2="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
+    xmlns:ns20="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v3/manifest-entry.xsd"
+    xmlns:ns21="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/blob/stable-v2/manifest-entry.xsd"
+    xmlns:ns22="https://github.com/erasmus-without-paper/ewp-specs-api-institutions/blob/stable-v2/manifest-entry.xsd"
+    xmlns:ns23="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd"
+    xmlns:ns24="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v5/manifest-entry.xsd"
+    xmlns:ns25="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
+    xmlns:ns26="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-none/tree/stable-v1"
+    xmlns:ns27="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
+    xmlns:ns28="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
+    xmlns:ns29="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
+    xmlns:ns4="https://github.com/erasmus-without-paper/ewp-specs-api-registry/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns5="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
+    xmlns:ns6="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-tor-cnr/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns7="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-tors/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns8="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-cnr/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns9="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v1/manifest-entry.xsd"
+>
+    <ns3:host>
+        <admin-email>volenova@civ.zcu.cz</admin-email>
+        <admin-notes>EWP connector for IS/STAG</admin-notes>
+        <ns2:apis-implemented>
+            <ns23:echo version="2.0.1">
+                <ns23:http-security>
+                    <ns5:client-auth-methods>
+                        <ns25:tlscert allows-self-signed="true"/>
+                        <ns27:httpsig/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns29:tlscert/>
+                        <ns28:httpsig/>
+                    </ns5:server-auth-methods>
+                </ns23:http-security>
+                <ns23:url>https://stag-ws.utb.cz:8843/ws/services/ewp/echo</ns23:url>
+            </ns23:echo>
+            <ns24:discovery version="5.0.0">
+                <ns24:url>https://stag-ws.utb.cz/ws/services/ewp/manifest</ns24:url>
+            </ns24:discovery>
+            <ns22:institutions version="2.1.0">
+                <ns22:http-security>
+                    <ns5:client-auth-methods>
+                        <ns25:tlscert allows-self-signed="true"/>
+                        <ns27:httpsig/>
+                        <ns26:anonymous/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns29:tlscert/>
+                        <ns28:httpsig/>
+                    </ns5:server-auth-methods>
+                </ns22:http-security>
+                <ns22:url>https://stag-ws.utb.cz:8843/ws/services/ewp/institutions</ns22:url>
+                <ns22:max-hei-ids>1</ns22:max-hei-ids>
+            </ns22:institutions>
+            <ns21:organizational-units version="2.1.1">
+                <ns21:http-security>
+                    <ns5:client-auth-methods>
+                        <ns25:tlscert allows-self-signed="true"/>
+                        <ns27:httpsig/>
+                        <ns26:anonymous/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns29:tlscert/>
+                        <ns28:httpsig/>
+                    </ns5:server-auth-methods>
+                </ns21:http-security>
+                <ns21:url>https://stag-ws.utb.cz:8843/ws/services/ewp/ounits</ns21:url>
+                <ns21:max-ounit-ids>10</ns21:max-ounit-ids>
+                <ns21:max-ounit-codes>10</ns21:max-ounit-codes>
+            </ns21:organizational-units>
+        </ns2:apis-implemented>
+        <ns3:institutions-covered>
+            <ns2:hei id="utb.cz">
+                <ns2:other-id type="pic">999880172</ns2:other-id>
+                <ns2:other-id type="erasmus">CZ ZLIN01</ns2:other-id>
+                <ns2:other-id type="erasmus-charter">EUC,ECHE</ns2:other-id>
+                <ns2:name xml:lang="cs">Univerzita Tomáše Bati ve Zlíně</ns2:name>
+                <ns2:name xml:lang="en">Tomas Bata University in Zlín</ns2:name>
+            </ns2:hei>
+        </ns3:institutions-covered>
+        <ns3:client-credentials-in-use>
+            <ns3:certificate>MIIHKTCCBRGgAwIBAgIRAL8IEmFsbd3DJfxJW/rWExswDQYJKoZIhvcNAQEMBQAw
+RDELMAkGA1UEBhMCTkwxGTAXBgNVBAoTEEdFQU5UIFZlcmVuaWdpbmcxGjAYBgNV
+BAMTEUdFQU5UIE9WIFJTQSBDQSA0MB4XDTIwMTAxOTAwMDAwMFoXDTIxMTAxOTIz
+NTk1OVowgbExCzAJBgNVBAYTAkNaMQ4wDAYDVQQREwU3NjAwMTEXMBUGA1UECAwO
+WmzDrW5za8O9IGtyYWoxDjAMBgNVBAcMBVpsw61uMSIwIAYDVQQJDBluw6FtLiBU
+LiBHLiBNYXNhcnlrYSA1NTU1MSwwKgYDVQQKDCNVbml2ZXJ6aXRhIFRvbcOhxaFl
+IEJhdGkgdmUgWmzDrW7EmzEXMBUGA1UEAxMOc3RhZy13cy51dGIuY3owggEiMA0G
+CSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDlNQMgM1ovrwFct+Te+LBdiXvOgm55
+vSS0Zk2a2XPkFPxKZuvQ4UUDKtku2QoHKLZvUT8cacZtElWBlSR+v9bWAZvK/uqx
+yXOCPMlHX9g9dYiR+r36QsvO3PXho3UYos119DNQmd2yxAL62xFPcnJVTSeXaPbn
+LbnJx4jI2AN7PImv7EMPtR0f8j6v6RYSXY9dWa5gtVyexDHrScfMnpWQVAvskDSR
+TEdu6TiCvVYHwOM4CSCSFnsAN87437E33Hx2tw0S0OZM9J896rrxgnyixnMJEEz9
+rrXDSr1gwDunhYqAYFHzOLfZbtBogSEwYhZRouFGN6g2Y4CwpISjejwfAgMBAAGj
+ggKmMIICojAfBgNVHSMEGDAWgBRvHTVJEGwy+lmgnryK6B+VvnF6DDAdBgNVHQ4E
+FgQUBOJbRw1ZwStpalGbg6aIzW3TSf8wDgYDVR0PAQH/BAQDAgWgMAwGA1UdEwEB
+/wQCMAAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMEkGA1UdIARCMEAw
+NAYLKwYBBAGyMQECAk8wJTAjBggrBgEFBQcCARYXaHR0cHM6Ly9zZWN0aWdvLmNv
+bS9DUFMwCAYGZ4EMAQICMD8GA1UdHwQ4MDYwNKAyoDCGLmh0dHA6Ly9HRUFOVC5j
+cmwuc2VjdGlnby5jb20vR0VBTlRPVlJTQUNBNC5jcmwwdQYIKwYBBQUHAQEEaTBn
+MDoGCCsGAQUFBzAChi5odHRwOi8vR0VBTlQuY3J0LnNlY3RpZ28uY29tL0dFQU5U
+T1ZSU0FDQTQuY3J0MCkGCCsGAQUFBzABhh1odHRwOi8vR0VBTlQub2NzcC5zZWN0
+aWdvLmNvbTCCAQMGCisGAQQB1nkCBAIEgfQEgfEA7wB2AH0+8viP/4hVaCTCwMqe
+Uol5K8UOeAl/LmqXaJl+IvDXAAABdT/lBmgAAAQDAEcwRQIgGAVcOWBwFL0Bb9TD
+HSK/cYej1K3qGe3L/LwdwMOclhoCIQCCkuwNxElPHZI0LEyWoy6K5bRaUWpQtDuU
+2Rfb7cDvtgB1AJQgvB6O1Y1siHMfgosiLA3R2k1ebE+UPWHbTi9YTaLCAAABdT/l
+B5sAAAQDAEYwRAIgDeKbVZUQLkDdIKiFZYp503aG9efIh915H9N4nRkQfGICICiD
+j7GWQq82oLjySyeJSbs06KK71oKxvzJxpen5t3t4MBkGA1UdEQQSMBCCDnN0YWct
+d3MudXRiLmN6MA0GCSqGSIb3DQEBDAUAA4ICAQCHAutUqv1kiFIrlagUodHbdSje
+i5ylIdbu0KJc6aM4/uL81uu5Cp/HIWdsYffJ464imC3GIu2q5WObYPxubfiPPuKU
+qxXO6DqeSjSoFhuWncUtGp+JwNOq17ilp742GIXaakttdHGUqgeIHA0EqDlF14qE
+d+WZ6FMWzACmgVHphQvnsJiKH4vyYUinDAyQKV6s/8t4xUa5DJzYkL+DRFV/dD9M
+dtU7XpodCVOr12JZk09U2SMNyibK0daTca17a/AeO5i/bXSNlwkoq/HnoOOvUlA+
+zrR4ZOTM7v58NlbdRJprND+E7zYhUZQ8JJ+PMjbIKnnPjDqhQeY+v/uTAPolUTcH
+XkWsbG27MgniGn0uzbJ0NsftzAQstGHveu75qB3xwZb1LTzkmnN4vg4mHkb3Blhw
+u7bzzcSTD5YSGjVfF+TE3tSAVqqWyjnwrRrOw/a3Y50nrYJtcGCoI2ec6qWFWNBo
+Wg/REA+pOOdexN92LkNteQoOF1EOA/BABgh8V72leKuQX3acAtUIUEibO/mt1vEr
+VNaaI84shZp3bLwXPJwDv4/t3k2VrVeoYuRcg21mhX8Qmf8bZ0KXPXM1F6eVdp39
+zxAZuqgg2UrQaEOCMuuupCvTicNMD6Ef82ADeoLr1+7RgP6iZRVtlGWWYs45sn8w
+PBdzyGPrilMFVSN1/w==
+</ns3:certificate>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5TUDIDNaL68BXLfk3viw
+XYl7zoJueb0ktGZNmtlz5BT8Smbr0OFFAyrZLtkKByi2b1E/HGnGbRJVgZUkfr/W
+1gGbyv7qsclzgjzJR1/YPXWIkfq9+kLLztz14aN1GKLNdfQzUJndssQC+tsRT3Jy
+VU0nl2j25y25yceIyNgDezyJr+xDD7UdH/I+r+kWEl2PXVmuYLVcnsQx60nHzJ6V
+kFQL7JA0kUxHbuk4gr1WB8DjOAkgkhZ7ADfO+N+xN9x8drcNEtDmTPSfPeq68YJ8
+osZzCRBM/a61w0q9YMA7p4WKgGBR8zi32W7QaIEhMGIWUaLhRjeoNmOAsKSEo3o8
+HwIDAQAB
+</ns3:rsa-public-key>
+        </ns3:client-credentials-in-use>
+        <ns3:server-credentials-in-use>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5TUDIDNaL68BXLfk3viw
+XYl7zoJueb0ktGZNmtlz5BT8Smbr0OFFAyrZLtkKByi2b1E/HGnGbRJVgZUkfr/W
+1gGbyv7qsclzgjzJR1/YPXWIkfq9+kLLztz14aN1GKLNdfQzUJndssQC+tsRT3Jy
+VU0nl2j25y25yceIyNgDezyJr+xDD7UdH/I+r+kWEl2PXVmuYLVcnsQx60nHzJ6V
+kFQL7JA0kUxHbuk4gr1WB8DjOAkgkhZ7ADfO+N+xN9x8drcNEtDmTPSfPeq68YJ8
+osZzCRBM/a61w0q9YMA7p4WKgGBR8zi32W7QaIEhMGIWUaLhRjeoNmOAsKSEo3o8
+HwIDAQAB
+</ns3:rsa-public-key>
+        </ns3:server-credentials-in-use>
+    </ns3:host>
+</ns3:manifest>
