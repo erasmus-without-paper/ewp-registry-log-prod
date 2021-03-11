@@ -226,6 +226,67 @@ v76tcwIDAQAB&#xD;
     </ns3:host>
     <ns3:host>
         <ns2:apis-implemented>
+            <ns23:iia-cnr version="2.0.2">
+                <ns23:http-security>
+                    <ns5:client-auth-methods>
+                        <ns31:httpsig/>
+                        <ns29:tlscert allows-self-signed="true"/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns32:httpsig/>
+                        <ns33:tlscert/>
+                    </ns5:server-auth-methods>
+                </ns23:http-security>
+                <ns23:url>https://www.hdm-stuttgart.de/mobility/ewp/iias/cnr</ns23:url>
+            </ns23:iia-cnr>
+        </ns2:apis-implemented>
+        <ns3:institutions-covered>
+            <ns2:hei id="hdm-stuttgart.de">
+                <ns2:other-id type="pic">E10202533</ns2:other-id>
+                <ns2:other-id type="erasmus">D  STUTTGA06</ns2:other-id>
+                <ns2:other-id type="euc">29943-IC-1-2007-1-DE-ERASMUS-EUCX-1</ns2:other-id>
+                <ns2:name xml:lang="de">Hochschule der Medien</ns2:name>
+                <ns2:name xml:lang="en">Hochschule der Medien</ns2:name>
+            </ns2:hei>
+        </ns3:institutions-covered>
+        <ns3:client-credentials-in-use>
+            <ns3:certificate>MIIDbjCCAlYCCQCrDucafjrmSjANBgkqhkiG9w0BAQsFADB5MQswCQYDVQQGEwJBVDEPMA0GA1UE&#xD;
+CAwGVmllbm5hMQ8wDQYDVQQHDAZWaWVubmExGDAWBgNVBAoMD01vYmlsaXR5LU9ubGluZTEPMA0G&#xD;
+A1UECwwGTU8gRVdQMR0wGwYDVQQDDBR3d3cuaGRtLXN0dXR0Z2FydC5kZTAeFw0xODA2MDUxMzI2&#xD;
+NDZaFw0yODA2MDIxMzI2NDZaMHkxCzAJBgNVBAYTAkFUMQ8wDQYDVQQIDAZWaWVubmExDzANBgNV&#xD;
+BAcMBlZpZW5uYTEYMBYGA1UECgwPTW9iaWxpdHktT25saW5lMQ8wDQYDVQQLDAZNTyBFV1AxHTAb&#xD;
+BgNVBAMMFHd3dy5oZG0tc3R1dHRnYXJ0LmRlMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC&#xD;
+AQEAp1xEwHCG+oZaSGYylKNWAFnX0R2+xGA4kuis1ylOs40ye0K3EQKaEbiyOUnDfWZypC5D/EPo&#xD;
+TX9Np23Otn7Sw1RIB/nS9J1MUJmEStw4NKF2ydTXPATasLOWlkcR0Oo3zGykqyUjckWHFZA2PAIr&#xD;
+4XN2fS5igjLpf2fYX1M7N3/vCOyUlivOYzLtN/fm57DCtJ9T0OM57jEslCB5cl9CEosh6k29MYpf&#xD;
+L0kQzzaOPq2VLB1nb5ALejWOnD3w5CTtGS7g5VwL3WQ5VEGbkuHtj2wfJwufCY0OeFYxMVYXKuCh&#xD;
+yBKJeJ2VnluonGlvpPHlT3Lowg/CjGJQo0m1v76tcwIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQAc&#xD;
+7x5bfVQNac18kFXaCU2AhjkOuafNs3ROr3HAbkO1YB46q+5c9irY/VuVvTC0FWYVjyovp9dw+A/h&#xD;
+Q9LA/VIvJ+9+37QMXUmR9fGB4WFdCbK1UK7VDBdB42PJRRwY47ZGrb4/xVICM5YcdmOnUAjWzSbR&#xD;
+TGs9jn2J51H0d/YR7BvQf/kaQQDC0XzPnDBruoEg0oaB+8XlIww2nHtnj5Z0uzIVQ5dj/GosocOv&#xD;
+1Qip1qJy9S66N8bbmTtRR7DUUB3fRjTOAfwpTCsnKXt4+UiuBEDhSgEjXixxScARslcJj6Tyeh0V&#xD;
+oM6uTTR5B3aBpdzWmNpFYxK7tabAbMOtIJVS&#xD;
+</ns3:certificate>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp1xEwHCG+oZaSGYylKNWAFnX0R2+xGA4&#xD;
+kuis1ylOs40ye0K3EQKaEbiyOUnDfWZypC5D/EPoTX9Np23Otn7Sw1RIB/nS9J1MUJmEStw4NKF2&#xD;
+ydTXPATasLOWlkcR0Oo3zGykqyUjckWHFZA2PAIr4XN2fS5igjLpf2fYX1M7N3/vCOyUlivOYzLt&#xD;
+N/fm57DCtJ9T0OM57jEslCB5cl9CEosh6k29MYpfL0kQzzaOPq2VLB1nb5ALejWOnD3w5CTtGS7g&#xD;
+5VwL3WQ5VEGbkuHtj2wfJwufCY0OeFYxMVYXKuChyBKJeJ2VnluonGlvpPHlT3Lowg/CjGJQo0m1&#xD;
+v76tcwIDAQAB&#xD;
+</ns3:rsa-public-key>
+        </ns3:client-credentials-in-use>
+        <ns3:server-credentials-in-use>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp1xEwHCG+oZaSGYylKNWAFnX0R2+xGA4&#xD;
+kuis1ylOs40ye0K3EQKaEbiyOUnDfWZypC5D/EPoTX9Np23Otn7Sw1RIB/nS9J1MUJmEStw4NKF2&#xD;
+ydTXPATasLOWlkcR0Oo3zGykqyUjckWHFZA2PAIr4XN2fS5igjLpf2fYX1M7N3/vCOyUlivOYzLt&#xD;
+N/fm57DCtJ9T0OM57jEslCB5cl9CEosh6k29MYpfL0kQzzaOPq2VLB1nb5ALejWOnD3w5CTtGS7g&#xD;
+5VwL3WQ5VEGbkuHtj2wfJwufCY0OeFYxMVYXKuChyBKJeJ2VnluonGlvpPHlT3Lowg/CjGJQo0m1&#xD;
+v76tcwIDAQAB&#xD;
+</ns3:rsa-public-key>
+        </ns3:server-credentials-in-use>
+    </ns3:host>
+    <ns3:host>
+        <ns2:apis-implemented>
             <ns22:iias-approval version="0.2.1">
                 <ns22:http-security>
                     <ns5:client-auth-methods>

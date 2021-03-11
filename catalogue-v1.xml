@@ -5656,6 +5656,33 @@
     </host>
     <host>
         <apis-implemented>
+            <iac2:iia-cnr version="2.0.2">
+                <iac2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </iac2:http-security>
+                <iac2:url>https://www.hdm-stuttgart.de/mobility/ewp/iias/cnr</iac2:url>
+            </iac2:iia-cnr>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>hdm-stuttgart.de</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="b93ad506525743e5e1995ea0f5500a79f97bbd6429ad64c2c17af290e5b100b9"/>
+            <rsa-public-key sha-256="b25ddc8bb97ad6979a182c70c47c5d4d1ec87e938239de2da7e2cee036e52d65"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="b25ddc8bb97ad6979a182c70c47c5d4d1ec87e938239de2da7e2cee036e52d65"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
             <iaa1:iias-approval
                 xmlns:iaa1="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
                 version="0.2.1"
