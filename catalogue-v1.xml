@@ -47015,6 +47015,69 @@
             <rsa-public-key sha-256="36926feb1263dac7e034b507832b67eb5f6b22d45a9fcec46e392d799f942dc9"/>
         </server-credentials-in-use>
     </host>
+    <host>
+        <ewp:admin-email>volenova@civ.zcu.cz</ewp:admin-email>
+        <ewp:admin-notes>EWP connector for IS/STAG</ewp:admin-notes>
+        <apis-implemented>
+            <e2:echo version="2.0.1">
+                <e2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </e2:http-security>
+                <e2:url>https://stag-ws.jcu.cz:8843/ws/services/ewp/echo</e2:url>
+            </e2:echo>
+            <d5:discovery version="5.0.0">
+                <d5:url>https://stag-ws.jcu.cz/ws/services/ewp/manifest</d5:url>
+            </d5:discovery>
+            <in2:institutions version="2.1.0">
+                <in2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                        <sec-A0:anonymous/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </in2:http-security>
+                <in2:url>https://stag-ws.jcu.cz:8843/ws/services/ewp/institutions</in2:url>
+                <in2:max-hei-ids>1</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.1.1">
+                <ou2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                        <sec-A0:anonymous/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </ou2:http-security>
+                <ou2:url>https://stag-ws.jcu.cz:8843/ws/services/ewp/ounits</ou2:url>
+                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>jcu.cz</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="2290a21ab9eb50f9583a24ba8440640b5cc1c4dc48417cc58ed7e23b3dcdbecb"/>
+            <rsa-public-key sha-256="3bcc7752c7db65070573eead33c463328e38990b23b7b25554c789b8ed65476d"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="3bcc7752c7db65070573eead33c463328e38990b23b7b25554c789b8ed65476d"/>
+        </server-credentials-in-use>
+    </host>
     <institutions>
         <hei id="3il.fr">
             <other-id type="erasmus">F  LIMOGES20</other-id>
@@ -49717,6 +49780,13 @@
         <hei id="jammusiclab.com">
             <other-id type="erasmus">A  WIEN76</other-id>
             <name>Jam Music Lab Private University for Jazz and Popular Music Vienna</name>
+        </hei>
+        <hei id="jcu.cz">
+            <other-id type="erasmus">CZ CESKE01</other-id>
+            <other-id type="erasmus-charter">264581-LA-1-2014- CZ-E4AKA1-ECHE</other-id>
+            <other-id type="pic">999876292</other-id>
+            <name xml:lang="cs">JIHOČESKÁ UNIVERZITA V ČESKÝCH BUDĚJOVICÍCH</name>
+            <name xml:lang="en">UNIVERSITY OF SOUTH BOHEMIA IN ČESKÉ BUDĚJOVICE</name>
         </hei>
         <hei id="jku.at">
             <other-id type="erasmus">A  LINZ01</other-id>
@@ -53664,6 +53734,14 @@
             /aS00A/8bmYCjcP49jFahvWjzgJLF3sWGTlFEvJOPqYDUSMlosh+Tr4kCUaWBQ89RysTcLSOtv+Z
             ejq/RMrc/4cntJi8FFULuorbZ+5zx7mjPyTmw5ve2qO+0y7McnKkhsRw60SIC2WhltiYJ99p9kVl
             aax4/wIDAQAB
+        </rsa-public-key>
+        <rsa-public-key sha-256="3bcc7752c7db65070573eead33c463328e38990b23b7b25554c789b8ed65476d">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwMvuA6VPalBCsfjOd++3e625Vi0m5FEI
+            sbLRw61npQNgcSMhKzJ6oxeHSG9QkQa1MEJGGHMrciTfyHsSYRsNNHmlyyGod0qerQ4fa+KraLff
+            M21CX6JB/BL/MqZjKd5BHY/FlKSzeNSJD+0x5eTb0dNd9uYlcpJzeay471WL5cuUcJPf461oWluL
+            H91EHFXdMwO1pZfDQ/qOAcxWbnoJAaARWL+BtzIL99H8ES3pKTdDw02NS2xM/Mm/ZtKA8Huhk5Ir
+            UTFAKJxuJYW8bdwVrQsD6EF0ErQKfJJ4/WP3lQ5tLRgiLZCzsv/9Hhp5umyKi4k/Xln64E305FT6
+            WXbh4wIDAQAB
         </rsa-public-key>
         <rsa-public-key sha-256="3be112a9c08cbca016dc319d7aa230c3d6cb1e6d16564513f717d744fd203d16">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhK52FCt4gd8UnRDbCOeqhfiWAzJ6fmN1
