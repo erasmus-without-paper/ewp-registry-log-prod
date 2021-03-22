@@ -1,5 +1,5 @@
-<ns46:manifest
-    xmlns:ns46="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v5"
+<ns45:manifest
+    xmlns:ns45="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v5"
     xmlns="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
     xmlns:ns10="https://github.com/erasmus-without-paper/ewp-specs-api-institutions/blob/stable-v2/manifest-entry.xsd"
     xmlns:ns11="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-tors/blob/stable-v1/manifest-entry.xsd"
@@ -39,7 +39,7 @@
     xmlns:ns42="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/tree/stable-v1"
     xmlns:ns43="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
     xmlns:ns44="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
-    xmlns:ns45="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
+    xmlns:ns46="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
     xmlns:ns47="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/tree/stable-v2"
     xmlns:ns48="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/tree/stable-v1"
     xmlns:ns49="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-cnr/tree/stable-v1"
@@ -52,9 +52,9 @@
     xmlns:ns8="https://github.com/erasmus-without-paper/ewp-specs-api-mt-dictionaries/blob/stable-v1/manifest-entry.xsd"
     xmlns:ns9="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/blob/stable-v1/manifest-entry.xsd"
 >
-    <ns46:host>
-        <admin-email>USOS-DAK@adm.uw.edu.pl</admin-email>
-        <ns45:apis-implemented>
+    <ns45:host>
+        <admin-email>dsksysadm@adm.uw.edu.pl</admin-email>
+        <ns46:apis-implemented>
             <ns19:discovery version="5.0.0">
                 <ns19:url>https://ewp.uw.edu.pl/ewp/manifest</ns19:url>
             </ns19:discovery>
@@ -262,17 +262,17 @@
                 <ns12:url>https://ewp.uw.edu.pl/ewp/tors/cnr</ns12:url>
                 <ns12:max-omobility-ids>10</ns12:max-omobility-ids>
             </ns12:imobility-tor-cnr>
-        </ns45:apis-implemented>
-        <ns46:institutions-covered>
-            <ns45:hei id="uw.edu.pl">
-                <ns45:other-id type="erasmus">PL WARSZAW01</ns45:other-id>
-                <ns45:other-id type="pic">999572294</ns45:other-id>
-                <ns45:name xml:lang="pl">Uniwersytet Warszawski</ns45:name>
-                <ns45:name xml:lang="en">University of Warsaw</ns45:name>
-            </ns45:hei>
-        </ns46:institutions-covered>
-        <ns46:client-credentials-in-use>
-            <ns46:certificate>MIIDtTCCAp2gAwIBAgIER1T3tTANBgkqhkiG9w0BAQsFADCBijELMAkGA1UEBhMC
+        </ns46:apis-implemented>
+        <ns45:institutions-covered>
+            <ns46:hei id="uw.edu.pl">
+                <ns46:other-id type="erasmus">PL WARSZAW01</ns46:other-id>
+                <ns46:other-id type="pic">999572294</ns46:other-id>
+                <ns46:name xml:lang="pl">Uniwersytet Warszawski</ns46:name>
+                <ns46:name xml:lang="en">University of Warsaw</ns46:name>
+            </ns46:hei>
+        </ns45:institutions-covered>
+        <ns45:client-credentials-in-use>
+            <ns45:certificate>MIIDtTCCAp2gAwIBAgIER1T3tTANBgkqhkiG9w0BAQsFADCBijELMAkGA1UEBhMC
 UEwxFDASBgNVBAgTC01hem93aWVja2llMREwDwYDVQQHEwhXYXJzemF3YTEfMB0G
 A1UEChMWVW5pd2Vyc3l0ZXQgV2Fyc3phd3NraTEjMCEGA1UECwwaRHppYcWCIFNp
 ZWNpIEtvbXB1dGVyb3d5Y2gxDDAKBgNVBAMTA0VXUDAeFw0xOTA0MDQyMzAwMzha
@@ -291,23 +291,23 @@ hldFyA/060RNg8QQZtKEP8So6DJrZP1FQmS1zIhzOmsnxhwODyePCoaAh3aD2nz5
 y+Z59toSAUGiiurfaJmHzPIcM/+3qSxoF+XTt7+4XYGUg4NcWJ8TYpZeyMPNyVlk
 1Tt9H5jAt86TDV4Asas/x+oYkMrFeVoNcyoaePO/LTNEoBfM9/Wkt0AqZf+wHh45
 4GCbxchOkraDwp2cxWa52V/o22pPdVYVMZbog+DarRb0GfKp5MNy7c5CoKjjieh1
-wA9VPM950+6J/JymSbT7KaydW1HZQ2PWRmySb6CGV6AzMjMjv4mss/c=</ns46:certificate>
-            <ns46:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvn+0PFCvOxECrb3IzXrP
+wA9VPM950+6J/JymSbT7KaydW1HZQ2PWRmySb6CGV6AzMjMjv4mss/c=</ns45:certificate>
+            <ns45:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvn+0PFCvOxECrb3IzXrP
 V7LIqwJCKube5kdhTqpbf4yc1uh+cx5XuQd9BOWqO8i+2FUOtSfbfsWVN4zZkT73
 wLUqi0ALL2VVU7+7euLwZERjt+jyji13FH2fz+WJrEu1z+XlCD83kvKhYimbo2ER
 f83ruvMbrM79OGvYxER8O9/gMYDbInAvs8UggXmQwX4s+LBt65LEkNcKVlnDF8y2
 HIlaBE/863iYWdNjdn6zrrPzFLOW02ZRrh3IajRGQYTylnPSibG2lCa1PCCn0D5B
 +RhGn50VRT7i3Ks3JZvRcpHPXrNA8SN8Cd3t4K+weEZOD0ZCp2XUX7iNzPhI7D0D
-VwIDAQAB</ns46:rsa-public-key>
-        </ns46:client-credentials-in-use>
-        <ns46:server-credentials-in-use>
-            <ns46:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvn+0PFCvOxECrb3IzXrP
+VwIDAQAB</ns45:rsa-public-key>
+        </ns45:client-credentials-in-use>
+        <ns45:server-credentials-in-use>
+            <ns45:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvn+0PFCvOxECrb3IzXrP
 V7LIqwJCKube5kdhTqpbf4yc1uh+cx5XuQd9BOWqO8i+2FUOtSfbfsWVN4zZkT73
 wLUqi0ALL2VVU7+7euLwZERjt+jyji13FH2fz+WJrEu1z+XlCD83kvKhYimbo2ER
 f83ruvMbrM79OGvYxER8O9/gMYDbInAvs8UggXmQwX4s+LBt65LEkNcKVlnDF8y2
 HIlaBE/863iYWdNjdn6zrrPzFLOW02ZRrh3IajRGQYTylnPSibG2lCa1PCCn0D5B
 +RhGn50VRT7i3Ks3JZvRcpHPXrNA8SN8Cd3t4K+weEZOD0ZCp2XUX7iNzPhI7D0D
-VwIDAQAB</ns46:rsa-public-key>
-        </ns46:server-credentials-in-use>
-    </ns46:host>
-</ns46:manifest>
+VwIDAQAB</ns45:rsa-public-key>
+        </ns45:server-credentials-in-use>
+    </ns45:host>
+</ns45:manifest>
