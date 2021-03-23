@@ -11272,6 +11272,7 @@
             <hei-id>univ-artois.fr</hei-id>
             <hei-id>grenoble-inp.fr</hei-id>
             <hei-id>enscm.fr</hei-id>
+            <hei-id>lille.archi.fr</hei-id>
             <hei-id>insa-rennes.fr</hei-id>
             <hei-id>insa-rouen.fr</hei-id>
             <hei-id>ehess.fr</hei-id>
@@ -11286,6 +11287,7 @@
             <hei-id>pantheonsorbonne.fr</hei-id>
             <hei-id>u-bordeaux-montaigne.fr</hei-id>
             <hei-id>univ-paris3.fr</hei-id>
+            <hei-id>sante.sorbonne-universite.fr</hei-id>
             <hei-id>univ-paris8.fr</hei-id>
             <hei-id>universite-paris-saclay.fr</hei-id>
             <hei-id>univ-paris-diderot.fr</hei-id>
@@ -11363,6 +11365,7 @@
             <hei-id>ruhr-uni-bochum.de</hei-id>
             <hei-id>rwth-aachen.de</hei-id>
             <hei-id>uni-siegen.de</hei-id>
+            <hei-id>slu.se</hei-id>
             <hei-id>hochschule-stralsund.de</hei-id>
             <hei-id>thm.de</hei-id>
             <hei-id>tu-darmstadt.de</hei-id>
@@ -11396,6 +11399,7 @@
             <hei-id>univ-paris13.fr</hei-id>
             <hei-id>univ-gustave-eiffel.fr</hei-id>
             <hei-id>hh.se</hei-id>
+            <hei-id>univ-larochelle.fr</hei-id>
             <hei-id>kp.dk</hei-id>
             <hei-id>ucl.dk</hei-id>
             <hei-id>tu-braunschweig.de</hei-id>
@@ -11420,6 +11424,7 @@
             <hei-id>oamk.fi</hei-id>
             <hei-id>cbs.dk</hei-id>
             <hei-id>uvic.cat</hei-id>
+            <hei-id>ucc.ie</hei-id>
             <hei-id>howest.be</hei-id>
             <hei-id>udc.es</hei-id>
             <hei-id>uax.es</hei-id>
@@ -11449,6 +11454,7 @@
             <hei-id>ruc.dk</hei-id>
             <hei-id>insa-toulouse.fr</hei-id>
             <hei-id>kau.se</hei-id>
+            <hei-id>ens-lyon.fr</hei-id>
             <hei-id>agro-bordeaux.fr</hei-id>
             <hei-id>univ-avignon.fr</hei-id>
             <hei-id>maastrichtuniversity.nl</hei-id>
@@ -12043,6 +12049,9 @@
     <host>
         <ewp:admin-email>umesh@qs.com</ewp:admin-email>
         <apis-implemented/>
+        <institutions-covered>
+            <hei-id>lille.archi.fr</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
         </client-credentials-in-use>
@@ -14098,6 +14107,9 @@
     <host>
         <ewp:admin-email>umesh@qs.com</ewp:admin-email>
         <apis-implemented/>
+        <institutions-covered>
+            <hei-id>sante.sorbonne-universite.fr</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
         </client-credentials-in-use>
@@ -26324,6 +26336,9 @@
                 <iaac1:url>https://slu-ewp.moveon4.de/v1/iia/approval/cnr</iaac1:url>
             </iaac1:iia-approval-cnr>
         </apis-implemented>
+        <institutions-covered>
+            <hei-id>slu.se</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
         </client-credentials-in-use>
@@ -31906,6 +31921,9 @@
     <host>
         <ewp:admin-email>umesh@qs.com</ewp:admin-email>
         <apis-implemented/>
+        <institutions-covered>
+            <hei-id>univ-larochelle.fr</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
         </client-credentials-in-use>
@@ -35734,6 +35752,9 @@
                 <iaac1:url>https://ucc-ewp.moveon4.de/v1/iia/approval/cnr</iaac1:url>
             </iaac1:iia-approval-cnr>
         </apis-implemented>
+        <institutions-covered>
+            <hei-id>ucc.ie</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
         </client-credentials-in-use>
@@ -39342,6 +39363,9 @@
     <host>
         <ewp:admin-email>umesh@qs.com</ewp:admin-email>
         <apis-implemented/>
+        <institutions-covered>
+            <hei-id>ens-lyon.fr</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
         </client-credentials-in-use>
@@ -48467,6 +48491,12 @@
             <other-id type="erasmus">F  TARBES03</other-id>
             <name>ECOLE NATIONALE D’INGENIEURS DE TARBES</name>
         </hei>
+        <hei id="ens-lyon.fr">
+            <other-id type="erasmus">F  LYON103</other-id>
+            <other-id type="euc">259770</other-id>
+            <other-id type="pic">985804405</other-id>
+            <name xml:lang="en">Ecole Normale Supérieure de Lyon</name>
+        </hei>
         <hei id="ensa-nancy.fr">
             <other-id type="erasmus">F  NANCY12</other-id>
             <name>Ecole nationale supérieure d’art de nancy</name>
@@ -50395,6 +50425,12 @@
             <other-id type="erasmus">LV LIEPAJA01</other-id>
             <name>LIEPAJAS UNIVERSITATE</name>
         </hei>
+        <hei id="lille.archi.fr">
+            <other-id type="erasmus">F  LILLE25</other-id>
+            <other-id type="euc">28504</other-id>
+            <other-id type="pic">949190203</other-id>
+            <name xml:lang="en">Ecole Nationale Supérieure d'Architecture et de Paysage de Lille</name>
+        </hei>
         <hei id="limayrac.fr">
             <other-id type="eche">28141-EPP-1-2014-1-FR-EPPKA3-ECHE</other-id>
             <other-id type="erasmus">F  TOULOUS41</other-id>
@@ -51330,6 +51366,11 @@
             <other-id type="erasmus">D  FRANKFU06</other-id>
             <name>PHILOSOPHISCH THEOLOGISCHE HOCHSCHULE SANKT GEORGEN</name>
         </hei>
+        <hei id="sante.sorbonne-universite.fr">
+            <other-id type="erasmus">F  PARIS468</other-id>
+            <other-id type="pic">909875521</other-id>
+            <name xml:lang="en">Sorbonne Université</name>
+        </hei>
         <hei id="sapientia.ro">
             <other-id type="erasmus">RO CLUJNAP07</other-id>
             <name>UNIVERSITATEA SAPIENTIA DIN MUNICIPIUL CLUJ-NAPOCA</name>
@@ -51446,7 +51487,10 @@
         </hei>
         <hei id="slu.se">
             <other-id type="erasmus">S  UPPSALA02</other-id>
+            <other-id type="euc">29370</other-id>
+            <other-id type="pic">999887350</other-id>
             <name>SVERIGES LANTBRUKSUNIVERSITET</name>
+            <name xml:lang="en">Sveriges lantbruksuniversitet</name>
         </hei>
         <hei id="sns.it">
             <other-id type="erasmus">I  PISA02</other-id>
@@ -52046,6 +52090,12 @@
         <hei id="ucavila.es">
             <other-id type="erasmus">E  AVILA01</other-id>
             <name>UNIVERSIDAD CATOLICA SANTA TERESA DE JESUS DE AVILA</name>
+        </hei>
+        <hei id="ucc.ie">
+            <other-id type="erasmus">IRLCORK01</other-id>
+            <other-id type="euc">28454</other-id>
+            <other-id type="pic">999975717</other-id>
+            <name xml:lang="en">University College Cork</name>
         </hei>
         <hei id="ucd.ie">
             <other-id type="erasmus">IRLDUBLIN02</other-id>
@@ -53166,6 +53216,12 @@
             <other-id type="euc">30074</other-id>
             <other-id type="pic">897556521</other-id>
             <name xml:lang="en">Université Gustave Eiffel</name>
+        </hei>
+        <hei id="univ-larochelle.fr">
+            <other-id type="erasmus">F  LA-ROCH08</other-id>
+            <other-id type="euc">27966</other-id>
+            <other-id type="pic">999846804</other-id>
+            <name xml:lang="en">Université de la Rochelle</name>
         </hei>
         <hei id="univ-lehavre.fr">
             <other-id type="erasmus">F  LE-HAVR11</other-id>
