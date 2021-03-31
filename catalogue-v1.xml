@@ -44752,6 +44752,103 @@
         </server-credentials-in-use>
     </host>
     <host>
+        <apis-implemented>
+            <ia3:iias
+                xmlns:ia3="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v3/manifest-entry.xsd"
+                version="3.0.0"
+            >
+                <ia3:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </ia3:http-security>
+                <ia3:get-url>https://mobility.i-med.ac.at/mobility/ewp/iias/get</ia3:get-url>
+                <ia3:max-iia-ids>3</ia3:max-iia-ids>
+                <ia3:max-iia-codes>3</ia3:max-iia-codes>
+                <ia3:index-url>https://mobility.i-med.ac.at/mobility/ewp/iias/index</ia3:index-url>
+                <ia3:sends-notifications/>
+            </ia3:iias>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>mobility.i-med.ac.at</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="0c427b35f46ff6f91d28d9475934232282bb7581f8c2854e6a2718c94e4a3547"/>
+            <rsa-public-key sha-256="fadc8c39fed6e752d129aca47ffdd01cf2390c47a3cb71f11199ee15bce18683"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="fadc8c39fed6e752d129aca47ffdd01cf2390c47a3cb71f11199ee15bce18683"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <iaa1:iias-approval
+                xmlns:iaa1="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
+                version="0.2.1"
+            >
+                <iaa1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </iaa1:http-security>
+                <iaa1:url>https://mobility.i-med.ac.at/mobility/ewp/iias/approve</iaa1:url>
+                <iaa1:max-iia-ids>3</iaa1:max-iia-ids>
+                <iaa1:sends-notifications/>
+            </iaa1:iias-approval>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>mobility.i-med.ac.at</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="0c427b35f46ff6f91d28d9475934232282bb7581f8c2854e6a2718c94e4a3547"/>
+            <rsa-public-key sha-256="fadc8c39fed6e752d129aca47ffdd01cf2390c47a3cb71f11199ee15bce18683"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="fadc8c39fed6e752d129aca47ffdd01cf2390c47a3cb71f11199ee15bce18683"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <f1:factsheet
+                xmlns:f1="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
+                version="0.3.0"
+            >
+                <f1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </f1:http-security>
+                <f1:url>https://mobility.i-med.ac.at/mobility/ewp/factsheets</f1:url>
+                <f1:max-hei-ids>3</f1:max-hei-ids>
+            </f1:factsheet>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>mobility.i-med.ac.at</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="0c427b35f46ff6f91d28d9475934232282bb7581f8c2854e6a2718c94e4a3547"/>
+            <rsa-public-key sha-256="fadc8c39fed6e752d129aca47ffdd01cf2390c47a3cb71f11199ee15bce18683"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="fadc8c39fed6e752d129aca47ffdd01cf2390c47a3cb71f11199ee15bce18683"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
         <ewp:admin-email>abulbul@gmail.com</ewp:admin-email>
         <ewp:admin-notes>Manifest File for Erasmusport EWPGO Provider</ewp:admin-notes>
         <apis-implemented>
