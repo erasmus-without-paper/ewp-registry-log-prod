@@ -47180,7 +47180,34 @@
                 <ia4:max-iia-ids>1</ia4:max-iia-ids>
                 <ia4:max-iia-codes>1</ia4:max-iia-codes>
                 <ia4:index-url>https://akademus.asp.gda.pl/api/ewp/iias-index.xml</ia4:index-url>
+                <ia4:sends-notifications/>
             </ia4:iias>
+            <iac2:iia-cnr version="2.0.3">
+                <iac2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </iac2:http-security>
+                <iac2:url>https://akademus.asp.gda.pl/api/ewp/iia-cnr.xml</iac2:url>
+            </iac2:iia-cnr>
+            <f1:factsheet
+                xmlns:f1="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
+                version="0.3.0"
+            >
+                <f1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </f1:http-security>
+                <f1:url>https://akademus.asp.gda.pl/api/ewp/factsheet.xml</f1:url>
+                <f1:max-hei-ids>1</f1:max-hei-ids>
+            </f1:factsheet>
         </apis-implemented>
         <institutions-covered>
             <hei-id>asp.gda.pl</hei-id>
