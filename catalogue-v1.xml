@@ -45144,13 +45144,66 @@
                 <omc1:url>https://ewp.erasmusport.com/omobility/cnr</omc1:url>
                 <omc1:max-omobility-ids>1</omc1:max-omobility-ids>
             </omc1:omobility-cnr>
+            <oml1:omobility-las
+                xmlns:oml1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd"
+                version="0.3.0"
+            >
+                <oml1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                    <sec:request-encryption-methods>
+                        <sec-C1:tls/>
+                    </sec:request-encryption-methods>
+                    <sec:response-encryption-methods>
+                        <sec-D1:tls/>
+                    </sec:response-encryption-methods>
+                </oml1:http-security>
+                <oml1:get-url>https://ewp.erasmusport.com/omobility-las/get</oml1:get-url>
+                <oml1:index-url>https://ewp.erasmusport.com/omobility-las/index</oml1:index-url>
+                <oml1:update-url>https://ewp.erasmusport.com/omobility-las/update</oml1:update-url>
+                <oml1:max-omobility-ids>1</oml1:max-omobility-ids>
+                <oml1:sends-notifications/>
+                <oml1:supported-update-types>
+                    <oml1:approve-components-studied-proposal-v1/>
+                    <oml1:update-components-studied-v1/>
+                </oml1:supported-update-types>
+            </oml1:omobility-las>
+            <omlc1:omobility-la-cnr
+                xmlns:omlc1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="0.1.0"
+            >
+                <omlc1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                    <sec:request-encryption-methods>
+                        <sec-C1:tls/>
+                    </sec:request-encryption-methods>
+                    <sec:response-encryption-methods>
+                        <sec-D1:tls/>
+                    </sec:response-encryption-methods>
+                </omlc1:http-security>
+                <omlc1:url>https://ewp.erasmusport.com/omobility-la/cnr</omlc1:url>
+                <omlc1:max-omobility-ids>1</omlc1:max-omobility-ids>
+            </omlc1:omobility-la-cnr>
         </apis-implemented>
         <institutions-covered>
-            <hei-id>ankara.edu.tr</hei-id>
             <hei-id>gazi.edu.tr</hei-id>
             <hei-id>beun.edu.tr</hei-id>
             <hei-id>akdeniz.edu.tr</hei-id>
             <hei-id>cbu.edu.tr</hei-id>
+            <hei-id>ankara.edu.tr</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="c0aaa51f8c51e0ae85f5c4981582030dad3796d3b531f2db0de7cda01fca32f6"/>
