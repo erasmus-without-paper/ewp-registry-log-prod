@@ -14,8 +14,8 @@
     xmlns:ns2="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
     xmlns:ns20="https://github.com/erasmus-without-paper/ewp-specs-api-courses/blob/stable-v1/manifest-entry.xsd"
     xmlns:ns21="https://github.com/erasmus-without-paper/ewp-specs-api-echo/tree/stable-v2"
-    xmlns:ns22="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
-    xmlns:ns23="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
+    xmlns:ns22="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
+    xmlns:ns23="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
     xmlns:ns24="https://github.com/erasmus-without-paper/ewp-specs-api-institutions/tree/stable-v2"
     xmlns:ns25="https://github.com/erasmus-without-paper/ewp-specs-types-address/tree/stable-v1"
     xmlns:ns26="https://github.com/erasmus-without-paper/ewp-specs-types-contact/tree/stable-v1"
@@ -37,8 +37,8 @@
     xmlns:ns40="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v3/endpoints/get-response.xsd"
     xmlns:ns41="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v3/endpoints/index-response.xsd"
     xmlns:ns42="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/tree/stable-v1"
-    xmlns:ns43="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
-    xmlns:ns44="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
+    xmlns:ns43="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
+    xmlns:ns44="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
     xmlns:ns45="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
     xmlns:ns47="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/tree/stable-v2"
     xmlns:ns48="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/tree/stable-v1"
@@ -61,12 +61,12 @@
             <ns3:echo version="2.0.0">
                 <ns3:http-security>
                     <ns2:client-auth-methods>
-                        <ns22:tlscert allows-self-signed="true"/>
-                        <ns23:httpsig/>
+                        <ns23:tlscert allows-self-signed="true"/>
+                        <ns22:httpsig/>
                     </ns2:client-auth-methods>
                     <ns2:server-auth-methods>
-                        <ns43:tlscert/>
-                        <ns44:httpsig/>
+                        <ns44:tlscert/>
+                        <ns43:httpsig/>
                     </ns2:server-auth-methods>
                 </ns3:http-security>
                 <ns3:url>https://ewp.uj.edu.pl/echo</ns3:url>
@@ -74,12 +74,12 @@
             <ns14:imobilities version="0.3.0">
                 <ns14:http-security>
                     <ns2:client-auth-methods>
-                        <ns22:tlscert allows-self-signed="true"/>
-                        <ns23:httpsig/>
+                        <ns23:tlscert allows-self-signed="true"/>
+                        <ns22:httpsig/>
                     </ns2:client-auth-methods>
                     <ns2:server-auth-methods>
-                        <ns43:tlscert/>
-                        <ns44:httpsig/>
+                        <ns44:tlscert/>
+                        <ns43:httpsig/>
                     </ns2:server-auth-methods>
                 </ns14:http-security>
                 <ns14:get-url>https://ewp.uj.edu.pl/imobilities/get</ns14:get-url>
@@ -89,12 +89,12 @@
             <ns13:imobility-cnr version="0.1.1">
                 <ns13:http-security>
                     <ns2:client-auth-methods>
-                        <ns22:tlscert allows-self-signed="true"/>
-                        <ns23:httpsig/>
+                        <ns23:tlscert allows-self-signed="true"/>
+                        <ns22:httpsig/>
                     </ns2:client-auth-methods>
                     <ns2:server-auth-methods>
-                        <ns43:tlscert/>
-                        <ns44:httpsig/>
+                        <ns44:tlscert/>
+                        <ns43:httpsig/>
                     </ns2:server-auth-methods>
                 </ns13:http-security>
                 <ns13:url>https://ewp.uj.edu.pl/imobilities/cnr</ns13:url>
@@ -103,12 +103,12 @@
             <ns10:institutions version="2.1.0">
                 <ns10:http-security>
                     <ns2:client-auth-methods>
-                        <ns22:tlscert allows-self-signed="true"/>
-                        <ns23:httpsig/>
+                        <ns23:tlscert allows-self-signed="true"/>
+                        <ns22:httpsig/>
                     </ns2:client-auth-methods>
                     <ns2:server-auth-methods>
-                        <ns43:tlscert/>
-                        <ns44:httpsig/>
+                        <ns44:tlscert/>
+                        <ns43:httpsig/>
                     </ns2:server-auth-methods>
                 </ns10:http-security>
                 <ns10:url>https://ewp.uj.edu.pl/institutions</ns10:url>
@@ -117,12 +117,12 @@
             <ns4:organizational-units version="2.1.0">
                 <ns4:http-security>
                     <ns2:client-auth-methods>
-                        <ns22:tlscert allows-self-signed="true"/>
-                        <ns23:httpsig/>
+                        <ns23:tlscert allows-self-signed="true"/>
+                        <ns22:httpsig/>
                     </ns2:client-auth-methods>
                     <ns2:server-auth-methods>
-                        <ns43:tlscert/>
-                        <ns44:httpsig/>
+                        <ns44:tlscert/>
+                        <ns43:httpsig/>
                     </ns2:server-auth-methods>
                 </ns4:http-security>
                 <ns4:url>https://ewp.uj.edu.pl/ounits</ns4:url>
@@ -132,12 +132,12 @@
             <ns15:iias version="3.0.0">
                 <ns15:http-security>
                     <ns2:client-auth-methods>
-                        <ns22:tlscert allows-self-signed="true"/>
-                        <ns23:httpsig/>
+                        <ns23:tlscert allows-self-signed="true"/>
+                        <ns22:httpsig/>
                     </ns2:client-auth-methods>
                     <ns2:server-auth-methods>
-                        <ns43:tlscert/>
-                        <ns44:httpsig/>
+                        <ns44:tlscert/>
+                        <ns43:httpsig/>
                     </ns2:server-auth-methods>
                 </ns15:http-security>
                 <ns15:get-url>https://ewp.uj.edu.pl/iia/get</ns15:get-url>
@@ -149,12 +149,12 @@
             <ns17:iia-cnr version="2.0.2">
                 <ns17:http-security>
                     <ns2:client-auth-methods>
-                        <ns22:tlscert allows-self-signed="true"/>
-                        <ns23:httpsig/>
+                        <ns23:tlscert allows-self-signed="true"/>
+                        <ns22:httpsig/>
                     </ns2:client-auth-methods>
                     <ns2:server-auth-methods>
-                        <ns43:tlscert/>
-                        <ns44:httpsig/>
+                        <ns44:tlscert/>
+                        <ns43:httpsig/>
                     </ns2:server-auth-methods>
                 </ns17:http-security>
                 <ns17:url>https://ewp.uj.edu.pl/iia/cnr</ns17:url>
@@ -162,12 +162,12 @@
             <ns16:iias-approval version="0.2.1">
                 <ns16:http-security>
                     <ns2:client-auth-methods>
-                        <ns22:tlscert allows-self-signed="true"/>
-                        <ns23:httpsig/>
+                        <ns23:tlscert allows-self-signed="true"/>
+                        <ns22:httpsig/>
                     </ns2:client-auth-methods>
                     <ns2:server-auth-methods>
-                        <ns43:tlscert/>
-                        <ns44:httpsig/>
+                        <ns44:tlscert/>
+                        <ns43:httpsig/>
                     </ns2:server-auth-methods>
                 </ns16:http-security>
                 <ns16:url>https://ewp.uj.edu.pl/iia/approval</ns16:url>
@@ -177,12 +177,12 @@
             <ns18:iia-approval-cnr version="0.2.0">
                 <ns18:http-security>
                     <ns2:client-auth-methods>
-                        <ns22:tlscert allows-self-signed="true"/>
-                        <ns23:httpsig/>
+                        <ns23:tlscert allows-self-signed="true"/>
+                        <ns22:httpsig/>
                     </ns2:client-auth-methods>
                     <ns2:server-auth-methods>
-                        <ns43:tlscert/>
-                        <ns44:httpsig/>
+                        <ns44:tlscert/>
+                        <ns43:httpsig/>
                     </ns2:server-auth-methods>
                 </ns18:http-security>
                 <ns18:url>https://ewp.uj.edu.pl/iia/approval/cnr</ns18:url>
@@ -190,12 +190,12 @@
             <ns5:omobilities version="0.16.0">
                 <ns5:http-security>
                     <ns2:client-auth-methods>
-                        <ns22:tlscert allows-self-signed="true"/>
-                        <ns23:httpsig/>
+                        <ns23:tlscert allows-self-signed="true"/>
+                        <ns22:httpsig/>
                     </ns2:client-auth-methods>
                     <ns2:server-auth-methods>
-                        <ns43:tlscert/>
-                        <ns44:httpsig/>
+                        <ns44:tlscert/>
+                        <ns43:httpsig/>
                     </ns2:server-auth-methods>
                 </ns5:http-security>
                 <ns5:get-url>https://ewp.uj.edu.pl/omobilities/get</ns5:get-url>
@@ -206,12 +206,12 @@
             <ns9:omobility-cnr version="0.4.1">
                 <ns9:http-security>
                     <ns2:client-auth-methods>
-                        <ns22:tlscert allows-self-signed="true"/>
-                        <ns23:httpsig/>
+                        <ns23:tlscert allows-self-signed="true"/>
+                        <ns22:httpsig/>
                     </ns2:client-auth-methods>
                     <ns2:server-auth-methods>
-                        <ns43:tlscert/>
-                        <ns44:httpsig/>
+                        <ns44:tlscert/>
+                        <ns43:httpsig/>
                     </ns2:server-auth-methods>
                 </ns9:http-security>
                 <ns9:url>https://ewp.uj.edu.pl/omobilities/cnr</ns9:url>
@@ -220,12 +220,12 @@
             <ns20:courses version="0.7.1">
                 <ns20:http-security>
                     <ns2:client-auth-methods>
-                        <ns22:tlscert allows-self-signed="true"/>
-                        <ns23:httpsig/>
+                        <ns23:tlscert allows-self-signed="true"/>
+                        <ns22:httpsig/>
                     </ns2:client-auth-methods>
                     <ns2:server-auth-methods>
-                        <ns43:tlscert/>
-                        <ns44:httpsig/>
+                        <ns44:tlscert/>
+                        <ns43:httpsig/>
                     </ns2:server-auth-methods>
                 </ns20:http-security>
                 <ns20:url>https://ewp.uj.edu.pl/courses</ns20:url>
@@ -235,12 +235,12 @@
             <ns11:imobility-tors version="0.7.0">
                 <ns11:http-security>
                     <ns2:client-auth-methods>
-                        <ns22:tlscert allows-self-signed="true"/>
-                        <ns23:httpsig/>
+                        <ns23:tlscert allows-self-signed="true"/>
+                        <ns22:httpsig/>
                     </ns2:client-auth-methods>
                     <ns2:server-auth-methods>
-                        <ns43:tlscert/>
-                        <ns44:httpsig/>
+                        <ns44:tlscert/>
+                        <ns43:httpsig/>
                     </ns2:server-auth-methods>
                 </ns11:http-security>
                 <ns11:get-url>https://ewp.uj.edu.pl/tors/get</ns11:get-url>
@@ -251,12 +251,12 @@
             <ns12:imobility-tor-cnr version="0.1.1">
                 <ns12:http-security>
                     <ns2:client-auth-methods>
-                        <ns22:tlscert allows-self-signed="true"/>
-                        <ns23:httpsig/>
+                        <ns23:tlscert allows-self-signed="true"/>
+                        <ns22:httpsig/>
                     </ns2:client-auth-methods>
                     <ns2:server-auth-methods>
-                        <ns43:tlscert/>
-                        <ns44:httpsig/>
+                        <ns44:tlscert/>
+                        <ns43:httpsig/>
                     </ns2:server-auth-methods>
                 </ns12:http-security>
                 <ns12:url>https://ewp.uj.edu.pl/tors/cnr</ns12:url>
@@ -271,42 +271,42 @@
             </ns45:hei>
         </ns46:institutions-covered>
         <ns46:client-credentials-in-use>
-            <ns46:certificate>MIIDszCCApugAwIBAgIEUOlGbjANBgkqhkiG9w0BAQsFADCBiTELMAkGA1UEBhMC
+            <ns46:certificate>MIIDszCCApugAwIBAgIEPuUIzDANBgkqhkiG9w0BAQsFADCBiTELMAkGA1UEBhMC
 UEwxFDASBgNVBAgMC21hxYJvcG9sc2thMRAwDgYDVQQHDAdLcmFrw7N3MSswKQYD
 VQQKDCJKYWdpZWxsb25pYW4gVW5pdmVyc2l0eSBpbiBLcmFrw7N3MQ0wCwYDVQQL
-EwRVU09TMRYwFAYDVQQDEw1FV1AgQ29ubmVjdG9yMB4XDTIwMTIxMzE4MzYxNloX
-DTIxMDMxMzE4MzYxNlowgYkxCzAJBgNVBAYTAlBMMRQwEgYDVQQIDAttYcWCb3Bv
+EwRVU09TMRYwFAYDVQQDEw1FV1AgQ29ubmVjdG9yMB4XDTIxMDQwODA2NTczNVoX
+DTIxMDcwNzA2NTczNVowgYkxCzAJBgNVBAYTAlBMMRQwEgYDVQQIDAttYcWCb3Bv
 bHNrYTEQMA4GA1UEBwwHS3Jha8OzdzErMCkGA1UECgwiSmFnaWVsbG9uaWFuIFVu
 aXZlcnNpdHkgaW4gS3Jha8OzdzENMAsGA1UECxMEVVNPUzEWMBQGA1UEAxMNRVdQ
-IENvbm5lY3RvcjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAIVeNEgQ
-2NJDqRx0ZCxAKW/o1xP4L/kl8oCoRbGE5VhatyRBISGFy5s01CKd+Tx41yinL89Q
-J2rEYqDreTxw7rdOC0FTAk7OSSyBvw1vOLFcDlkVktMDUj6/VpGYi6h3zSyJdIYo
-G0gUOYhbeg3IjxFatxgA+CD81jdznOc982NBekjPVnia9ZYETGVVv5FIa5Nxxzy6
-neuG4M4yMESH3Mg7mtkcZxC3NX8GLYpIELBc7SjkIlQVUKkcU/axvDCz7oIx0nJj
-KwtqOBgMqE0HMN7+u2gfhIPoduJNi3APIbNFej+sEHkk5s8NM5x8WuHw/DfTw8Kh
-Ur3VJzcQTn4MxCsCAwEAAaMhMB8wHQYDVR0OBBYEFGVdftSB44HSuv4jephu9d64
-V50RMA0GCSqGSIb3DQEBCwUAA4IBAQAHJBWpRE5+IUzP6cVjOnBNgbV6nebtaxta
-zQM0BbsxWZu3SxEfAqAc6xGxQK9tnx7G2g//1MHpr2ivfCsqcCJobAi9Iv2uEWm/
-79IdEkRFf/XFllM6fldPZuu5/VB/j4kCp2pqSxV4p9kSS4gfb9V+jnUc8TnBEsJt
-2AeY++NnvTJ/02HlSb/Nbp0zcQykCyT3mrxXXHh5pwwwQuBGvGsHiN0TVtdiWO4c
-VhG69Be1xDv+e8RjLh/jUA8eOPCeflHoUArvsJvqr+wlxGiN6kIJn7jVN+2v1qwU
-PKxKv6jno7KiuQFjdGPl6pIBv0gi6lUcpJCvNE3VSljQfRk4gVqU</ns46:certificate>
-            <ns46:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhV40SBDY0kOpHHRkLEAp
-b+jXE/gv+SXygKhFsYTlWFq3JEEhIYXLmzTUIp35PHjXKKcvz1AnasRioOt5PHDu
-t04LQVMCTs5JLIG/DW84sVwOWRWS0wNSPr9WkZiLqHfNLIl0higbSBQ5iFt6DciP
-EVq3GAD4IPzWN3Oc5z3zY0F6SM9WeJr1lgRMZVW/kUhrk3HHPLqd64bgzjIwRIfc
-yDua2RxnELc1fwYtikgQsFztKOQiVBVQqRxT9rG8MLPugjHScmMrC2o4GAyoTQcw
-3v67aB+Eg+h24k2LcA8hs0V6P6wQeSTmzw0znHxa4fD8N9PDwqFSvdUnNxBOfgzE
-KwIDAQAB</ns46:rsa-public-key>
+IENvbm5lY3RvcjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMkh8wxY
+CbgqTcQGZ+QF7HbermS8yAGmAd6h3tz/on4euBov1wXAGQa2APY7vrMTuQtYdp/l
+iI/64o1u+j27TBRcH/4Yrq0gpXTRYJJvzvMphECqrl+wMUkLjBBfMo+TnwYXB1i+
+92+hwkayBG8jGC+AquEburrtkRNEaFNURQfFGOoVkjlGADUQZFf6LXOgx8I//H7x
+gq8z2OKQXfjTY5YA9c1x3XYUeH8G8N801jRb5qn3Lal2mAJgnll2qW0iwoyMMTY3
+G/QetIOjFwcHF0QAU1jSc1qt8hT9Ejgv5WHwh8iUKxYhclDeEqn3SflMCEr3VoOm
+JuAHBtwHuoU/6skCAwEAAaMhMB8wHQYDVR0OBBYEFI4n8GJ59BE3sj5wajMhlKY6
+tdK8MA0GCSqGSIb3DQEBCwUAA4IBAQBg5wYaryl4UVsTtWsb+cRgsG8UUyAkv/kX
+TPCnvAQViV8jmwI10tRmTJtIPOHLEn2o4xI20pKjlrFYaj0tMfk1zaJ2eiioQKcO
+NKm3APMUeAm5PC7/VXX165W32IpTE0I6BMxBJlEh1iuWEThjJyUxAkgGsybYO+xo
+Mn/B9OeI60iMSO7Gzvrn7ROlCBEJ+9a6GN2iRMjfggpDSwT/2vDhp1q5119tXNGB
+aCbP7m//2wG3DzV8T4zejlJIl01oGUCJWqYTlxMDkLV3+HXprBxEc53AVYOr5rpc
+/W/3/BgC8UsqAlGWGxH2tkj9ErE44ucCwnWFIMfpF+sHbAAA4EI4</ns46:certificate>
+            <ns46:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAySHzDFgJuCpNxAZn5AXs
+dt6uZLzIAaYB3qHe3P+ifh64Gi/XBcAZBrYA9ju+sxO5C1h2n+WIj/rijW76PbtM
+FFwf/hiurSCldNFgkm/O8ymEQKquX7AxSQuMEF8yj5OfBhcHWL73b6HCRrIEbyMY
+L4Cq4Ru6uu2RE0RoU1RFB8UY6hWSOUYANRBkV/otc6DHwj/8fvGCrzPY4pBd+NNj
+lgD1zXHddhR4fwbw3zTWNFvmqfctqXaYAmCeWXapbSLCjIwxNjcb9B60g6MXBwcX
+RABTWNJzWq3yFP0SOC/lYfCHyJQrFiFyUN4SqfdJ+UwISvdWg6Ym4AcG3Ae6hT/q
+yQIDAQAB</ns46:rsa-public-key>
         </ns46:client-credentials-in-use>
         <ns46:server-credentials-in-use>
-            <ns46:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhV40SBDY0kOpHHRkLEAp
-b+jXE/gv+SXygKhFsYTlWFq3JEEhIYXLmzTUIp35PHjXKKcvz1AnasRioOt5PHDu
-t04LQVMCTs5JLIG/DW84sVwOWRWS0wNSPr9WkZiLqHfNLIl0higbSBQ5iFt6DciP
-EVq3GAD4IPzWN3Oc5z3zY0F6SM9WeJr1lgRMZVW/kUhrk3HHPLqd64bgzjIwRIfc
-yDua2RxnELc1fwYtikgQsFztKOQiVBVQqRxT9rG8MLPugjHScmMrC2o4GAyoTQcw
-3v67aB+Eg+h24k2LcA8hs0V6P6wQeSTmzw0znHxa4fD8N9PDwqFSvdUnNxBOfgzE
-KwIDAQAB</ns46:rsa-public-key>
+            <ns46:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAySHzDFgJuCpNxAZn5AXs
+dt6uZLzIAaYB3qHe3P+ifh64Gi/XBcAZBrYA9ju+sxO5C1h2n+WIj/rijW76PbtM
+FFwf/hiurSCldNFgkm/O8ymEQKquX7AxSQuMEF8yj5OfBhcHWL73b6HCRrIEbyMY
+L4Cq4Ru6uu2RE0RoU1RFB8UY6hWSOUYANRBkV/otc6DHwj/8fvGCrzPY4pBd+NNj
+lgD1zXHddhR4fwbw3zTWNFvmqfctqXaYAmCeWXapbSLCjIwxNjcb9B60g6MXBwcX
+RABTWNJzWq3yFP0SOC/lYfCHyJQrFiFyUN4SqfdJ+UwISvdWg6Ym4AcG3Ae6hT/q
+yQIDAQAB</ns46:rsa-public-key>
         </ns46:server-credentials-in-use>
     </ns46:host>
 </ns46:manifest>
