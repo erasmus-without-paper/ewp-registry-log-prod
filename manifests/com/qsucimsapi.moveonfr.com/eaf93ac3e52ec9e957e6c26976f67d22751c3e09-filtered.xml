@@ -980,6 +980,12 @@
                 <r:other-id type="pic">949162364</r:other-id>
                 <r:name xml:lang="en">Universidad 'Alfonso X El Sabio'</r:name>
             </r:hei>
+            <r:hei id="paris-lavillette.archi.fr">
+                <r:other-id type="erasmus">F  PARIS126</r:other-id>
+                <r:other-id type="euc">28515</r:other-id>
+                <r:other-id type="pic">949530867</r:other-id>
+                <r:name xml:lang="en">Ecole Nationale Supérieure d'Architecture de Paris-La-Villette</r:name>
+            </r:hei>
             <r:hei id="ucm.es">
                 <r:other-id type="erasmus">E  MADRID03</r:other-id>
                 <r:other-id type="euc">28606</r:other-id>
@@ -1176,6 +1182,12 @@
                 <r:other-id type="erasmus">CH DELEMON02</r:other-id>
                 <r:other-id type="euc">258367</r:other-id>
                 <r:name xml:lang="en">HES-SO Haute École Spécialisée de Suisse Occidentale</r:name>
+            </r:hei>
+            <r:hei id="uvigo.es">
+                <r:other-id type="erasmus">E  VIGO01</r:other-id>
+                <r:other-id type="euc">29447</r:other-id>
+                <r:other-id type="pic">999630494</r:other-id>
+                <r:name xml:lang="en">Universidad de Vigo</r:name>
             </r:hei>
             <r:hei id="bristol.ac.uk">
                 <r:other-id type="erasmus">UK BRISTOL01</r:other-id>
@@ -27943,7 +27955,14 @@ maEQrVEuDvM0fOqeuI3HsdzZuVFQvbRdNwk2kZY3FfNen9ZmMPHIpzGx88G6M3Dz
     <ns3:host>
         <admin-email>umesh@qs.com</admin-email>
         <r:apis-implemented/>
-        <ns3:institutions-covered/>
+        <ns3:institutions-covered>
+            <r:hei id="paris-lavillette.archi.fr">
+                <r:other-id type="erasmus">F  PARIS126</r:other-id>
+                <r:other-id type="euc">28515</r:other-id>
+                <r:other-id type="pic">949530867</r:other-id>
+                <r:name xml:lang="en">Ecole Nationale Supérieure d'Architecture de Paris-La-Villette</r:name>
+            </r:hei>
+        </ns3:institutions-covered>
         <ns3:client-credentials-in-use>
             <ns3:certificate>MIIDnTCCAoWgAwIBAgIJAOiDLUc/o7t5MA0GCSqGSIb3DQEBBQUAMGQxCzAJBgNV
 BAYTAklOMRIwEAYDVQQIDAlLQVJOQVRBS0ExEjAQBgNVBAcMCUJBTkdBTE9SRTEL
@@ -32667,7 +32686,14 @@ maEQrVEuDvM0fOqeuI3HsdzZuVFQvbRdNwk2kZY3FfNen9ZmMPHIpzGx88G6M3Dz
                 <omlc1:max-omobility-ids>10</omlc1:max-omobility-ids>
             </omlc1:omobility-la-cnr>
         </r:apis-implemented>
-        <ns3:institutions-covered/>
+        <ns3:institutions-covered>
+            <r:hei id="uvigo.es">
+                <r:other-id type="erasmus">E  VIGO01</r:other-id>
+                <r:other-id type="euc">29447</r:other-id>
+                <r:other-id type="pic">999630494</r:other-id>
+                <r:name xml:lang="en">Universidad de Vigo</r:name>
+            </r:hei>
+        </ns3:institutions-covered>
         <ns3:client-credentials-in-use>
             <ns3:certificate>MIIDnTCCAoWgAwIBAgIJAOiDLUc/o7t5MA0GCSqGSIb3DQEBBQUAMGQxCzAJBgNV
 BAYTAklOMRIwEAYDVQQIDAlLQVJOQVRBS0ExEjAQBgNVBAcMCUJBTkdBTE9SRTEL
