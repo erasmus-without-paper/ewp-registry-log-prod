@@ -1,0 +1,312 @@
+<ns46:manifest
+    xmlns:ns46="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v5"
+    xmlns="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
+    xmlns:ns10="https://github.com/erasmus-without-paper/ewp-specs-api-institutions/blob/stable-v2/manifest-entry.xsd"
+    xmlns:ns11="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-tors/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns12="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-tor-cnr/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns13="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-cnr/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns14="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns15="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v3/manifest-entry.xsd"
+    xmlns:ns16="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns17="https://github.com/erasmus-without-paper/ewp-specs-api-iia-cnr/blob/stable-v2/manifest-entry.xsd"
+    xmlns:ns18="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns19="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v5/manifest-entry.xsd"
+    xmlns:ns2="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
+    xmlns:ns20="https://github.com/erasmus-without-paper/ewp-specs-api-courses/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns21="https://github.com/erasmus-without-paper/ewp-specs-api-echo/tree/stable-v2"
+    xmlns:ns22="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
+    xmlns:ns23="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
+    xmlns:ns24="https://github.com/erasmus-without-paper/ewp-specs-api-institutions/tree/stable-v2"
+    xmlns:ns25="https://github.com/erasmus-without-paper/ewp-specs-types-address/tree/stable-v1"
+    xmlns:ns26="https://github.com/erasmus-without-paper/ewp-specs-types-contact/tree/stable-v1"
+    xmlns:ns27="https://github.com/erasmus-without-paper/ewp-specs-types-phonenumber/tree/stable-v1"
+    xmlns:ns28="https://github.com/erasmus-without-paper/ewp-specs-api-mt-projects/tree/stable-v1"
+    xmlns:ns29="https://github.com/erasmus-without-paper/ewp-specs-api-mt-institutions/tree/stable-v1"
+    xmlns:ns3="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd"
+    xmlns:ns30="https://github.com/erasmus-without-paper/ewp-specs-api-mt-dictionaries/tree/stable-v1"
+    xmlns:ns31="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v1/endpoints/get-response.xsd"
+    xmlns:ns32="https://github.com/erasmus-without-paper/ewp-specs-api-courses/tree/stable-v1"
+    xmlns:ns33="https://github.com/erasmus-without-paper/ewp-specs-types-academic-term/tree/stable-v1"
+    xmlns:ns34="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/endpoints/get-response.xsd"
+    xmlns:ns35="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/endpoints/index-response.xsd"
+    xmlns:ns36="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-tors/blob/stable-v1/endpoints/get-response.xsd"
+    xmlns:ns37="https://github.com/emrex-eu/elmo-schemas/tree/v1"
+    xmlns:ns38="http://www.w3.org/2000/09/xmldsig#"
+    xmlns:ns39="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-tors/blob/stable-v1/endpoints/index-response.xsd"
+    xmlns:ns4="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/blob/stable-v2/manifest-entry.xsd"
+    xmlns:ns40="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v3/endpoints/get-response.xsd"
+    xmlns:ns41="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v3/endpoints/index-response.xsd"
+    xmlns:ns42="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/tree/stable-v1"
+    xmlns:ns43="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
+    xmlns:ns44="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
+    xmlns:ns45="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
+    xmlns:ns47="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/tree/stable-v2"
+    xmlns:ns48="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/tree/stable-v1"
+    xmlns:ns49="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-cnr/tree/stable-v1"
+    xmlns:ns5="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns50="https://github.com/erasmus-without-paper/ewp-specs-api-iia-cnr/tree/stable-v2"
+    xmlns:ns51="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/tree/stable-v1"
+    xmlns:ns52="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-tor-cnr/tree/stable-v1"
+    xmlns:ns6="https://github.com/erasmus-without-paper/ewp-specs-api-mt-projects/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns7="https://github.com/erasmus-without-paper/ewp-specs-api-mt-institutions/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns8="https://github.com/erasmus-without-paper/ewp-specs-api-mt-dictionaries/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns9="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/blob/stable-v1/manifest-entry.xsd"
+>
+    <ns46:host>
+        <admin-email>usosweb@pwsip.edu.pl</admin-email>
+        <ns45:apis-implemented>
+            <ns19:discovery version="5.0.0">
+                <ns19:url>https://ewp.pwsip.edu.pl/ewp/manifest</ns19:url>
+            </ns19:discovery>
+            <ns3:echo version="2.0.0">
+                <ns3:http-security>
+                    <ns2:client-auth-methods>
+                        <ns23:tlscert allows-self-signed="true"/>
+                        <ns22:httpsig/>
+                    </ns2:client-auth-methods>
+                    <ns2:server-auth-methods>
+                        <ns44:tlscert/>
+                        <ns43:httpsig/>
+                    </ns2:server-auth-methods>
+                </ns3:http-security>
+                <ns3:url>https://ewp.pwsip.edu.pl/ewp/echo</ns3:url>
+            </ns3:echo>
+            <ns14:imobilities version="0.3.0">
+                <ns14:http-security>
+                    <ns2:client-auth-methods>
+                        <ns23:tlscert allows-self-signed="true"/>
+                        <ns22:httpsig/>
+                    </ns2:client-auth-methods>
+                    <ns2:server-auth-methods>
+                        <ns44:tlscert/>
+                        <ns43:httpsig/>
+                    </ns2:server-auth-methods>
+                </ns14:http-security>
+                <ns14:get-url>https://ewp.pwsip.edu.pl/ewp/imobilities/get</ns14:get-url>
+                <ns14:max-omobility-ids>100</ns14:max-omobility-ids>
+                <ns14:sends-notifications/>
+            </ns14:imobilities>
+            <ns13:imobility-cnr version="0.1.1">
+                <ns13:http-security>
+                    <ns2:client-auth-methods>
+                        <ns23:tlscert allows-self-signed="true"/>
+                        <ns22:httpsig/>
+                    </ns2:client-auth-methods>
+                    <ns2:server-auth-methods>
+                        <ns44:tlscert/>
+                        <ns43:httpsig/>
+                    </ns2:server-auth-methods>
+                </ns13:http-security>
+                <ns13:url>https://ewp.pwsip.edu.pl/ewp/imobilities/cnr</ns13:url>
+                <ns13:max-omobility-ids>100</ns13:max-omobility-ids>
+            </ns13:imobility-cnr>
+            <ns10:institutions version="2.1.0">
+                <ns10:http-security>
+                    <ns2:client-auth-methods>
+                        <ns23:tlscert allows-self-signed="true"/>
+                        <ns22:httpsig/>
+                    </ns2:client-auth-methods>
+                    <ns2:server-auth-methods>
+                        <ns44:tlscert/>
+                        <ns43:httpsig/>
+                    </ns2:server-auth-methods>
+                </ns10:http-security>
+                <ns10:url>https://ewp.pwsip.edu.pl/ewp/institutions</ns10:url>
+                <ns10:max-hei-ids>1</ns10:max-hei-ids>
+            </ns10:institutions>
+            <ns4:organizational-units version="2.1.0">
+                <ns4:http-security>
+                    <ns2:client-auth-methods>
+                        <ns23:tlscert allows-self-signed="true"/>
+                        <ns22:httpsig/>
+                    </ns2:client-auth-methods>
+                    <ns2:server-auth-methods>
+                        <ns44:tlscert/>
+                        <ns43:httpsig/>
+                    </ns2:server-auth-methods>
+                </ns4:http-security>
+                <ns4:url>https://ewp.pwsip.edu.pl/ewp/ounits</ns4:url>
+                <ns4:max-ounit-ids>100</ns4:max-ounit-ids>
+                <ns4:max-ounit-codes>100</ns4:max-ounit-codes>
+            </ns4:organizational-units>
+            <ns15:iias version="3.0.0">
+                <ns15:http-security>
+                    <ns2:client-auth-methods>
+                        <ns23:tlscert allows-self-signed="true"/>
+                        <ns22:httpsig/>
+                    </ns2:client-auth-methods>
+                    <ns2:server-auth-methods>
+                        <ns44:tlscert/>
+                        <ns43:httpsig/>
+                    </ns2:server-auth-methods>
+                </ns15:http-security>
+                <ns15:get-url>https://ewp.pwsip.edu.pl/ewp/iia/get</ns15:get-url>
+                <ns15:max-iia-ids>100</ns15:max-iia-ids>
+                <ns15:max-iia-codes>100</ns15:max-iia-codes>
+                <ns15:index-url>https://ewp.pwsip.edu.pl/ewp/iia/index</ns15:index-url>
+                <ns15:sends-notifications/>
+            </ns15:iias>
+            <ns17:iia-cnr version="2.0.2">
+                <ns17:http-security>
+                    <ns2:client-auth-methods>
+                        <ns23:tlscert allows-self-signed="true"/>
+                        <ns22:httpsig/>
+                    </ns2:client-auth-methods>
+                    <ns2:server-auth-methods>
+                        <ns44:tlscert/>
+                        <ns43:httpsig/>
+                    </ns2:server-auth-methods>
+                </ns17:http-security>
+                <ns17:url>https://ewp.pwsip.edu.pl/ewp/iia/cnr</ns17:url>
+            </ns17:iia-cnr>
+            <ns16:iias-approval version="0.2.1">
+                <ns16:http-security>
+                    <ns2:client-auth-methods>
+                        <ns23:tlscert allows-self-signed="true"/>
+                        <ns22:httpsig/>
+                    </ns2:client-auth-methods>
+                    <ns2:server-auth-methods>
+                        <ns44:tlscert/>
+                        <ns43:httpsig/>
+                    </ns2:server-auth-methods>
+                </ns16:http-security>
+                <ns16:url>https://ewp.pwsip.edu.pl/ewp/iia/approval</ns16:url>
+                <ns16:max-iia-ids>100</ns16:max-iia-ids>
+                <ns16:sends-notifications/>
+            </ns16:iias-approval>
+            <ns18:iia-approval-cnr version="0.2.0">
+                <ns18:http-security>
+                    <ns2:client-auth-methods>
+                        <ns23:tlscert allows-self-signed="true"/>
+                        <ns22:httpsig/>
+                    </ns2:client-auth-methods>
+                    <ns2:server-auth-methods>
+                        <ns44:tlscert/>
+                        <ns43:httpsig/>
+                    </ns2:server-auth-methods>
+                </ns18:http-security>
+                <ns18:url>https://ewp.pwsip.edu.pl/ewp/iia/approval/cnr</ns18:url>
+            </ns18:iia-approval-cnr>
+            <ns5:omobilities version="0.16.0">
+                <ns5:http-security>
+                    <ns2:client-auth-methods>
+                        <ns23:tlscert allows-self-signed="true"/>
+                        <ns22:httpsig/>
+                    </ns2:client-auth-methods>
+                    <ns2:server-auth-methods>
+                        <ns44:tlscert/>
+                        <ns43:httpsig/>
+                    </ns2:server-auth-methods>
+                </ns5:http-security>
+                <ns5:get-url>https://ewp.pwsip.edu.pl/ewp/omobilities/get</ns5:get-url>
+                <ns5:index-url>https://ewp.pwsip.edu.pl/ewp/omobilities/index</ns5:index-url>
+                <ns5:max-omobility-ids>100</ns5:max-omobility-ids>
+                <ns5:sends-notifications/>
+            </ns5:omobilities>
+            <ns9:omobility-cnr version="0.4.1">
+                <ns9:http-security>
+                    <ns2:client-auth-methods>
+                        <ns23:tlscert allows-self-signed="true"/>
+                        <ns22:httpsig/>
+                    </ns2:client-auth-methods>
+                    <ns2:server-auth-methods>
+                        <ns44:tlscert/>
+                        <ns43:httpsig/>
+                    </ns2:server-auth-methods>
+                </ns9:http-security>
+                <ns9:url>https://ewp.pwsip.edu.pl/ewp/omobilities/cnr</ns9:url>
+                <ns9:max-omobility-ids>100</ns9:max-omobility-ids>
+            </ns9:omobility-cnr>
+            <ns20:courses version="0.7.1">
+                <ns20:http-security>
+                    <ns2:client-auth-methods>
+                        <ns23:tlscert allows-self-signed="true"/>
+                        <ns22:httpsig/>
+                    </ns2:client-auth-methods>
+                    <ns2:server-auth-methods>
+                        <ns44:tlscert/>
+                        <ns43:httpsig/>
+                    </ns2:server-auth-methods>
+                </ns20:http-security>
+                <ns20:url>https://ewp.pwsip.edu.pl/ewp/courses</ns20:url>
+                <ns20:max-los-ids>100</ns20:max-los-ids>
+                <ns20:max-los-codes>100</ns20:max-los-codes>
+            </ns20:courses>
+            <ns11:imobility-tors version="0.7.0">
+                <ns11:http-security>
+                    <ns2:client-auth-methods>
+                        <ns23:tlscert allows-self-signed="true"/>
+                        <ns22:httpsig/>
+                    </ns2:client-auth-methods>
+                    <ns2:server-auth-methods>
+                        <ns44:tlscert/>
+                        <ns43:httpsig/>
+                    </ns2:server-auth-methods>
+                </ns11:http-security>
+                <ns11:get-url>https://ewp.pwsip.edu.pl/ewp/tors/get</ns11:get-url>
+                <ns11:index-url>https://ewp.pwsip.edu.pl/ewp/tors/index</ns11:index-url>
+                <ns11:max-omobility-ids>10</ns11:max-omobility-ids>
+                <ns11:sends-notifications/>
+            </ns11:imobility-tors>
+            <ns12:imobility-tor-cnr version="0.1.1">
+                <ns12:http-security>
+                    <ns2:client-auth-methods>
+                        <ns23:tlscert allows-self-signed="true"/>
+                        <ns22:httpsig/>
+                    </ns2:client-auth-methods>
+                    <ns2:server-auth-methods>
+                        <ns44:tlscert/>
+                        <ns43:httpsig/>
+                    </ns2:server-auth-methods>
+                </ns12:http-security>
+                <ns12:url>https://ewp.pwsip.edu.pl/ewp/tors/cnr</ns12:url>
+                <ns12:max-omobility-ids>10</ns12:max-omobility-ids>
+            </ns12:imobility-tor-cnr>
+        </ns45:apis-implemented>
+        <ns46:institutions-covered>
+            <ns45:hei id="pwsip.edu.pl">
+                <ns45:other-id type="erasmus">PL LOMZA03</ns45:other-id>
+                <ns45:name xml:lang="pl">Państwowa Wyższa Szkoła Informatyki i Przedsiębiorczości w Łomży</ns45:name>
+                <ns45:name xml:lang="en">Łomża State University of Applied Sciences</ns45:name>
+            </ns45:hei>
+        </ns46:institutions-covered>
+        <ns46:client-credentials-in-use>
+            <ns46:certificate>MIIDjTCCAnWgAwIBAgIEX3jzGzANBgkqhkiG9w0BAQsFADB3MQswCQYDVQQGEwJQ
+TDESMBAGA1UECBMJUG9kbGFza2llMRAwDgYDVQQHDAfFgW9txbxhMRkwFwYDVQQK
+DBBQV1NJaVAgdyDFgW9txbx5MQwwCgYDVQQLEwNEU0sxGTAXBgNVBAMTEGV3cC5w
+d3NpcC5lZHUucGwwHhcNMjEwNDEzMDcyODQyWhcNMjIwNDEzMDcyODQyWjB3MQsw
+CQYDVQQGEwJQTDESMBAGA1UECBMJUG9kbGFza2llMRAwDgYDVQQHDAfFgW9txbxh
+MRkwFwYDVQQKDBBQV1NJaVAgdyDFgW9txbx5MQwwCgYDVQQLEwNEU0sxGTAXBgNV
+BAMTEGV3cC5wd3NpcC5lZHUucGwwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK
+AoIBAQCFpR8F7ENNoNLZz0u4eeBXVnMwlabCTuqLWR5PrtjKIHELM6c7b261VOuy
+qVBGSg93aQ1QnjqkGi0tOR2N7C+sM/JwSh5vwlafBb1tGC0s5PaQ3hXBa9Vji/r1
+BN6be72YpHUhtJFBovDXlRxn9ti6pN0hXvZ7CeXw6PquyQxb/SDKmYgEp9CTbYI+
+SIPA/jQRQJ/rFsTcu7K71DqusZelrv58Wi2OtJo940/j6Mf33FbHKDjWL1Ct+/dQ
+s1qxgXfG2RubDJb/aBVydDX8oUbpcOJZoeD9KQWbr/pGASVw6fr70MHscbRp99eO
+lsH63MWcqwRlfHfOx3bNTw6PX9ALAgMBAAGjITAfMB0GA1UdDgQWBBRaLpae3YJP
+/FgOnCLP1oznBferezANBgkqhkiG9w0BAQsFAAOCAQEAZPd2Z6M19nxXpH6GvYmU
+cBIkd5rdCKp7NZu9OFg/RvedDTbL62sxB/87aWWsYFZB1VvkIEZZdvYl/1OZCgkf
+kszHHrO6mgGxm/CQ0FOkAHQDoHGaCYZyTVpYGRhdEW3Pu1ZwBA47XklhofhLJLNB
+oZxr9X6XqigT9MJoC5as5oe/rxmA44PpFgu+s98gXO6xm+yta2fFeVVKD7U5eAT7
+Z3cVr8t4t5bBYZ89GT4FDgkdEovvPGliYKFwHdYgauNlWvJCAI/S8+Ro4uMsh8/0
+NgLSudCof2t5C0lxxj8U+lK+wwCfoui0hX8m02K1blBBWZ/82r4B7lJlOPyNNOYm
+3w==</ns46:certificate>
+            <ns46:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhaUfBexDTaDS2c9LuHng
+V1ZzMJWmwk7qi1keT67YyiBxCzOnO29utVTrsqlQRkoPd2kNUJ46pBotLTkdjewv
+rDPycEoeb8JWnwW9bRgtLOT2kN4VwWvVY4v69QTem3u9mKR1IbSRQaLw15UcZ/bY
+uqTdIV72ewnl8Oj6rskMW/0gypmIBKfQk22CPkiDwP40EUCf6xbE3Luyu9Q6rrGX
+pa7+fFotjrSaPeNP4+jH99xWxyg41i9Qrfv3ULNasYF3xtkbmwyW/2gVcnQ1/KFG
+6XDiWaHg/SkFm6/6RgElcOn6+9DB7HG0affXjpbB+tzFnKsEZXx3zsd2zU8Oj1/Q
+CwIDAQAB</ns46:rsa-public-key>
+        </ns46:client-credentials-in-use>
+        <ns46:server-credentials-in-use>
+            <ns46:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhaUfBexDTaDS2c9LuHng
+V1ZzMJWmwk7qi1keT67YyiBxCzOnO29utVTrsqlQRkoPd2kNUJ46pBotLTkdjewv
+rDPycEoeb8JWnwW9bRgtLOT2kN4VwWvVY4v69QTem3u9mKR1IbSRQaLw15UcZ/bY
+uqTdIV72ewnl8Oj6rskMW/0gypmIBKfQk22CPkiDwP40EUCf6xbE3Luyu9Q6rrGX
+pa7+fFotjrSaPeNP4+jH99xWxyg41i9Qrfv3ULNasYF3xtkbmwyW/2gVcnQ1/KFG
+6XDiWaHg/SkFm6/6RgElcOn6+9DB7HG0affXjpbB+tzFnKsEZXx3zsd2zU8Oj1/Q
+CwIDAQAB</ns46:rsa-public-key>
+        </ns46:server-credentials-in-use>
+    </ns46:host>
+</ns46:manifest>
