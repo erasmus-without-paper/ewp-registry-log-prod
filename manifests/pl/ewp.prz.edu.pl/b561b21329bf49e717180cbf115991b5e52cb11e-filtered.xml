@@ -1,5 +1,5 @@
-<ns45:manifest
-    xmlns:ns45="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v5"
+<ns46:manifest
+    xmlns:ns46="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v5"
     xmlns="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
     xmlns:ns10="https://github.com/erasmus-without-paper/ewp-specs-api-institutions/blob/stable-v2/manifest-entry.xsd"
     xmlns:ns11="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-tors/blob/stable-v1/manifest-entry.xsd"
@@ -39,7 +39,7 @@
     xmlns:ns42="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/tree/stable-v1"
     xmlns:ns43="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
     xmlns:ns44="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
-    xmlns:ns46="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
+    xmlns:ns45="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
     xmlns:ns47="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/tree/stable-v2"
     xmlns:ns48="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/tree/stable-v1"
     xmlns:ns49="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-cnr/tree/stable-v1"
@@ -52,9 +52,9 @@
     xmlns:ns8="https://github.com/erasmus-without-paper/ewp-specs-api-mt-dictionaries/blob/stable-v1/manifest-entry.xsd"
     xmlns:ns9="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/blob/stable-v1/manifest-entry.xsd"
 >
-    <ns45:host>
+    <ns46:host>
         <admin-email>daborowski@prz.edu.pl</admin-email>
-        <ns46:apis-implemented>
+        <ns45:apis-implemented>
             <ns19:discovery version="5.0.0">
                 <ns19:url>https://ewp.prz.edu.pl/ewp/manifest</ns19:url>
             </ns19:discovery>
@@ -262,17 +262,17 @@
                 <ns12:url>https://ewp.prz.edu.pl/ewp/tors/cnr</ns12:url>
                 <ns12:max-omobility-ids>10</ns12:max-omobility-ids>
             </ns12:imobility-tor-cnr>
-        </ns46:apis-implemented>
-        <ns45:institutions-covered>
-            <ns46:hei id="prz.edu.pl">
-                <ns46:other-id type="erasmus">PL RZESZOW01</ns46:other-id>
-                <ns46:other-id type="pic">999886186</ns46:other-id>
-                <ns46:name xml:lang="pl">Politechnika Rzeszowska im. Ignacego Łukasiewicza</ns46:name>
-                <ns46:name xml:lang="en">Ignacy Łukasiewicz Rzeszów University of Technology</ns46:name>
-            </ns46:hei>
-        </ns45:institutions-covered>
-        <ns45:client-credentials-in-use>
-            <ns45:certificate>MIIHkzCCBXugAwIBAgIQU3gDnBlrpxFRjltG6e/ZFzANBgkqhkiG9w0BAQwFADBE
+        </ns45:apis-implemented>
+        <ns46:institutions-covered>
+            <ns45:hei id="prz.edu.pl">
+                <ns45:other-id type="erasmus">PL RZESZOW01</ns45:other-id>
+                <ns45:other-id type="pic">999886186</ns45:other-id>
+                <ns45:name xml:lang="pl">Politechnika Rzeszowska im. Ignacego Łukasiewicza</ns45:name>
+                <ns45:name xml:lang="en">Ignacy Łukasiewicz Rzeszów University of Technology</ns45:name>
+            </ns45:hei>
+        </ns46:institutions-covered>
+        <ns46:client-credentials-in-use>
+            <ns46:certificate>MIIHkzCCBXugAwIBAgIQU3gDnBlrpxFRjltG6e/ZFzANBgkqhkiG9w0BAQwFADBE
 MQswCQYDVQQGEwJOTDEZMBcGA1UEChMQR0VBTlQgVmVyZW5pZ2luZzEaMBgGA1UE
 AxMRR0VBTlQgT1YgUlNBIENBIDQwHhcNMjEwNDIwMDAwMDAwWhcNMjIwNDIwMjM1
 OTU5WjCBjTELMAkGA1UEBhMCUEwxFTATBgNVBAgTDFBvZGthcnBhY2tpZTERMA8G
@@ -312,23 +312,23 @@ G9t05vEhHpbM/9IRVkjqGJx2BLi9cPs2GlrSyhEgiDzD586PCE30AyulUdlG4zJp
 P4TnfduShKNnoAJn0x3hZOmOHt/oIG7TL+ooOJHg/0IW6ZwW1ORtQftlQMAe0Mk0
 xwbMUuZot0z7XOwLGJcmX7b4yCZ8bcNlz5ncYOZ8Agd6mHStnHJWcIkyw5eBf83a
 7QIErVsgKg1f8TLia9SG1dGSzSXQdIm7pFJ6QbqGJACQaSCAe3n4TokYCxMn4MP/
-7AA5dKKogxCeIHCzZepcxyxwtVo47eM=</ns45:certificate>
-            <ns45:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjYUBGFjuokjSQb/KkEh/
+7AA5dKKogxCeIHCzZepcxyxwtVo47eM=</ns46:certificate>
+            <ns46:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjYUBGFjuokjSQb/KkEh/
 C/nAxc+rokRJWDOV+OO59UrFLzuuzzZD0Nj6E9UfxgVidYkZCnvui3HA25V10WaB
 wbRzH7iMKhJE1lpUH8ge8x6i4coXmuStSzp7VLiBh2jiAtRiFNQH+YjphPBcgu8O
 90gnvmmq6w6Ui6OKvvo7gB6Gj1DAr1nS8X55di8f/VPFKh4IQcF1mYrnbLAwsfFq
 ZlgHYerVONqC1KeHCBazpf17hm4ndHW8+eo4JsFPz4DltyWI/E0V4wusa0ti+1hy
 isiRjadbSEkZiS6KKDkBjDl2beHO7ohGeun9gIMI2LC436u1WWzi+i5r8lsMB6Nn
-WQIDAQAB</ns45:rsa-public-key>
-        </ns45:client-credentials-in-use>
-        <ns45:server-credentials-in-use>
-            <ns45:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjYUBGFjuokjSQb/KkEh/
+WQIDAQAB</ns46:rsa-public-key>
+        </ns46:client-credentials-in-use>
+        <ns46:server-credentials-in-use>
+            <ns46:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjYUBGFjuokjSQb/KkEh/
 C/nAxc+rokRJWDOV+OO59UrFLzuuzzZD0Nj6E9UfxgVidYkZCnvui3HA25V10WaB
 wbRzH7iMKhJE1lpUH8ge8x6i4coXmuStSzp7VLiBh2jiAtRiFNQH+YjphPBcgu8O
 90gnvmmq6w6Ui6OKvvo7gB6Gj1DAr1nS8X55di8f/VPFKh4IQcF1mYrnbLAwsfFq
 ZlgHYerVONqC1KeHCBazpf17hm4ndHW8+eo4JsFPz4DltyWI/E0V4wusa0ti+1hy
 isiRjadbSEkZiS6KKDkBjDl2beHO7ohGeun9gIMI2LC436u1WWzi+i5r8lsMB6Nn
-WQIDAQAB</ns45:rsa-public-key>
-        </ns45:server-credentials-in-use>
-    </ns45:host>
-</ns45:manifest>
+WQIDAQAB</ns46:rsa-public-key>
+        </ns46:server-credentials-in-use>
+    </ns46:host>
+</ns46:manifest>
