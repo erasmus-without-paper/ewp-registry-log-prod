@@ -1,84 +1,30 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Fachhochschule Vorarlberg</title>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>SOP</title>
+  
+  <style type="text/css">
+  #all {
+    position:absolute;
+    left:50%;
+    margin-left:-589px;
+    width:1178px;
+    height:700px;
+    top:0;
+    }
+#content {
+   position:absolute;
+   top:0;
+   width:100%;
+   text-align:center;
+} 
 
-    <!-- Bootstrap -->
-    <link href="/theme/main.css" rel="stylesheet" />
-    <!-- Fonts -->
-    <link href="//fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <!-- Overwrites -->
-    <link href="/theme/over.css" rel="stylesheet" />
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
-<body>
-    <!-- Header / Navigation -->
-    <div class="nav-container">
-        <div class="header-slant">
-            <svg width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none">
-                <defs>
-                    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
-                        <stop offset="0%" style="stop-color:rgb(130,2,29);stop-opacity:1"></stop>
-                        <stop offset="40%" style="stop-color:rgb(176,2,59);stop-opacity:1"></stop>
-                    </linearGradient>
-                </defs>
-                <path id="header-slant" d="M0,0 L 0,90 100,40 100,0  Z" fill="url(#grad1)"></path>
-                <path id="header-light-slant" d="M0,0 L 0,40 100,60 100,0 Z" fill="rgb(176,2,59)" opacity="0.6"></path>
-            </svg>
-        </div>
-        <div class="container">
-            <nav class="navbar navbar-default">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only" lang="en">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <div class="navbar-brand">
-                        <img class="logo img-responsive hidden-xs hidden-sm" src="/theme/logo.png" alt="FHV Logo gross / FHV logo image large" />
-                        <img class="logo img-responsive hidden-md hidden-lg" src="/theme/logo-reduced.png" alt="FHV Logo klein / FHV logo image small" />
-                    </div>
-                </div>
-                <!-- Collect the nav links, forms, and other content for toggling -->
-            </nav>
-        </div>
-    </div>
-    <!-- Content -->
-    <div class="container navbar-spacer">
-
-
-<div class="container">
-  <div class="centered">
-      <h1>FHV Wartungsarbeiten</h1>
-      <p class="message">Die Seite wird gewartet und ist in K&uuml;rze wieder verf&uuml;gbar.</br>
-      Wir arbeiten daran und sind bem&uuml;ht das Problem bald zu beheben.</br></br>
-      Danke f&uuml;r Ihr Verst&auml;ndnis!</br>
-      Information Services</br></br></p>
-      <h1>FHV Maintenance</h1>
-      <p class="message">The Page is being updated. Please try again later.</br>
-      We are working on it and trying to be online again as soon as possible.</br></br>
-      Thank you for your understanding!</br>
-      Information Services</br></br></p>
+</style>
+  </head>
+  <body>
+  <div id="all">
+  <div id="content"><img src="wartung.jpg"></div>
   </div>
-</div>
-
-    </div> <!-- content container end -->
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="/theme/bootstrap.min.js"></script>
-</body>
+  </body>
 </html>
-
