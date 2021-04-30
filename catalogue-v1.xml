@@ -53136,6 +53136,69 @@
             <rsa-public-key sha-256="56269ec4fffd519859a2e49064af832f34941f663a96e83bb0b7c3a8f81be8c5"/>
         </server-credentials-in-use>
     </host>
+    <host>
+        <ewp:admin-email>volenova@civ.zcu.cz</ewp:admin-email>
+        <ewp:admin-notes>EWP connector for IS/STAG</ewp:admin-notes>
+        <apis-implemented>
+            <e2:echo version="2.0.1">
+                <e2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </e2:http-security>
+                <e2:url>https://stag-avu.zcu.cz:8843/ws/services/ewp/echo</e2:url>
+            </e2:echo>
+            <d5:discovery version="5.0.0">
+                <d5:url>https://stag-avu.zcu.cz:8843/ws/services/ewp/manifest</d5:url>
+            </d5:discovery>
+            <in2:institutions version="2.1.0">
+                <in2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                        <sec-A0:anonymous/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </in2:http-security>
+                <in2:url>https://stag-avu.zcu.cz:8843/ws/services/ewp/institutions</in2:url>
+                <in2:max-hei-ids>1</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.1.1">
+                <ou2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                        <sec-A0:anonymous/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </ou2:http-security>
+                <ou2:url>https://stag-avu.zcu.cz:8843/ws/services/ewp/ounits</ou2:url>
+                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>avu.cz</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="e9da6f43035a7af8cc0746aad4dbe11630a57d8702247a65f664c166990aab1a"/>
+            <rsa-public-key sha-256="a5c702bf583b1a7a8f48915198973dd8aaefb955b71970599939719dd95a65a7"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="a5c702bf583b1a7a8f48915198973dd8aaefb955b71970599939719dd95a65a7"/>
+        </server-credentials-in-use>
+    </host>
     <institutions>
         <hei id="3il.fr">
             <other-id type="erasmus">F  LIMOGES20</other-id>
@@ -53548,6 +53611,13 @@
             <other-id type="erasmus-charter">31579-EPP-1-2014-1-GR-EPPKA3-ECHE</other-id>
             <other-id type="pic">999895692</other-id>
             <name xml:lang="en">Aristotle University of Thessaloniki</name>
+        </hei>
+        <hei id="avu.cz">
+            <other-id type="erasmus">CZ PRAHA03</other-id>
+            <other-id type="erasmus-charter">48421-EPP-1-2014-1-CZ-EPPKA3-ECHE</other-id>
+            <other-id type="pic">944303925</other-id>
+            <name xml:lang="cs">AKADEMIE VÝTVARNÝCH UMĚNÍ V PRAZE</name>
+            <name xml:lang="en">Academy of Fine Arts in Prague</name>
         </hei>
         <hei id="awf.edu.pl">
             <other-id type="erasmus">PL WARSZAW12</other-id>
@@ -60896,6 +60966,14 @@
             lu2nDBzOb9vMGwfzbL8zeK9o7z4gfVDXmAqoq4ZBEoAAGBwJBOyUhzaUKGLeT/MS/8+mRqTTUF8N
             m8Sq5P4JLeDdTs4MgmSSRuKT6JDa1Mw79fuqDlgyZLnM6FU3+6oXl1cTk6SD1Fcwhc1/72XQK90E
             5csqNwIDAQAB
+        </rsa-public-key>
+        <rsa-public-key sha-256="a5c702bf583b1a7a8f48915198973dd8aaefb955b71970599939719dd95a65a7">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtXcr6tyUMMJ9rCnC1gv3WV7joo4sw6AB
+            ssqDpDyygIyUkzXH8iqDpTrEbEVdj1WLxPoQEyqap1MGh75vLibCsWDr4BwaPC7vewnPZfLvOvfj
+            YobWo47sSaot14gyQD8FuQk9TrwdJ6bLHLS2n/e7lIj9y8zgNQUrYhZi8OpUhKAiCRGCNsmTTz1u
+            FyNQi8XV8uLsEWDKgkBP6wyO//Kc0OrSLCR5WTJRi2m5frcuJNooiU9h8631BFvf9EqBXHA0NU2V
+            iTwkZHMTgL1/OQippzLR5cTcessGitC2fWPVlATmNGpUIGrDaZG/TIhfUuKXNJfIXghf6WHqGMXN
+            j0d0jwIDAQAB
         </rsa-public-key>
         <rsa-public-key sha-256="a6c7dcd5c995fe16a9ce16eb0f9629ae7509b02fb9bf9acde80853d587210d09">
             MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAtB6gZrVSegD6uFNomAYG8gMKvdGTJ7Kj
