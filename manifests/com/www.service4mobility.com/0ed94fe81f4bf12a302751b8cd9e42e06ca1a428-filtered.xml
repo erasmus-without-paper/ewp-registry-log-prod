@@ -16,16 +16,17 @@
     xmlns:ns21="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v1/manifest-entry.xsd"
     xmlns:ns22="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
     xmlns:ns23="https://github.com/erasmus-without-paper/ewp-specs-api-iia-cnr/blob/stable-v2/manifest-entry.xsd"
-    xmlns:ns24="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v3/manifest-entry.xsd"
-    xmlns:ns25="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/blob/stable-v2/manifest-entry.xsd"
-    xmlns:ns26="https://github.com/erasmus-without-paper/ewp-specs-api-institutions/blob/stable-v2/manifest-entry.xsd"
-    xmlns:ns27="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd"
-    xmlns:ns28="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v5/manifest-entry.xsd"
-    xmlns:ns29="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
-    xmlns:ns30="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-none/tree/stable-v1"
-    xmlns:ns31="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
-    xmlns:ns32="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
-    xmlns:ns33="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
+    xmlns:ns24="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v6/manifest-entry.xsd"
+    xmlns:ns25="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v3/manifest-entry.xsd"
+    xmlns:ns26="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/blob/stable-v2/manifest-entry.xsd"
+    xmlns:ns27="https://github.com/erasmus-without-paper/ewp-specs-api-institutions/blob/stable-v2/manifest-entry.xsd"
+    xmlns:ns28="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd"
+    xmlns:ns29="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v5/manifest-entry.xsd"
+    xmlns:ns30="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
+    xmlns:ns31="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-none/tree/stable-v1"
+    xmlns:ns32="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
+    xmlns:ns33="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
+    xmlns:ns34="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
     xmlns:ns4="https://github.com/erasmus-without-paper/ewp-specs-api-registry/blob/stable-v1/manifest-entry.xsd"
     xmlns:ns5="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
     xmlns:ns6="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
@@ -35,22 +36,22 @@
 >
     <ns3:host>
         <ns2:apis-implemented>
-            <ns28:discovery version="5.0.0">
-                <ns28:url>https://www.service4mobility.com/europe/ewp/manifest?api=all</ns28:url>
-            </ns28:discovery>
-            <ns27:echo version="2.0.0">
-                <ns27:http-security>
+            <ns29:discovery version="5.0.0">
+                <ns29:url>https://www.service4mobility.com/europe/ewp/manifest?api=all</ns29:url>
+            </ns29:discovery>
+            <ns28:echo version="2.0.0">
+                <ns28:http-security>
                     <ns5:client-auth-methods>
-                        <ns31:httpsig/>
-                        <ns29:tlscert allows-self-signed="true"/>
+                        <ns32:httpsig/>
+                        <ns30:tlscert allows-self-signed="true"/>
                     </ns5:client-auth-methods>
                     <ns5:server-auth-methods>
-                        <ns32:httpsig/>
-                        <ns33:tlscert/>
+                        <ns33:httpsig/>
+                        <ns34:tlscert/>
                     </ns5:server-auth-methods>
-                </ns27:http-security>
-                <ns27:url>https://www.service4mobility.com/europe/ewp/echo</ns27:url>
-            </ns27:echo>
+                </ns28:http-security>
+                <ns28:url>https://www.service4mobility.com/europe/ewp/echo</ns28:url>
+            </ns28:echo>
         </ns2:apis-implemented>
         <ns3:institutions-covered>
             <ns2:hei id="uni-bremen.de">
@@ -1302,20 +1303,20 @@ Vhm1ywIDAQAB&#xD;
     </ns3:host>
     <ns3:host>
         <ns2:apis-implemented>
-            <ns26:institutions version="2.1.0">
-                <ns26:http-security>
+            <ns27:institutions version="2.1.0">
+                <ns27:http-security>
                     <ns5:client-auth-methods>
-                        <ns31:httpsig/>
-                        <ns29:tlscert allows-self-signed="true"/>
+                        <ns32:httpsig/>
+                        <ns30:tlscert allows-self-signed="true"/>
                     </ns5:client-auth-methods>
                     <ns5:server-auth-methods>
-                        <ns32:httpsig/>
-                        <ns33:tlscert/>
+                        <ns33:httpsig/>
+                        <ns34:tlscert/>
                     </ns5:server-auth-methods>
-                </ns26:http-security>
-                <ns26:url>https://www.service4mobility.com/europe/ewp/institutions</ns26:url>
-                <ns26:max-hei-ids>3</ns26:max-hei-ids>
-            </ns26:institutions>
+                </ns27:http-security>
+                <ns27:url>https://www.service4mobility.com/europe/ewp/institutions</ns27:url>
+                <ns27:max-hei-ids>3</ns27:max-hei-ids>
+            </ns27:institutions>
         </ns2:apis-implemented>
         <ns3:institutions-covered>
             <ns2:hei id="uni-bremen.de">
@@ -2333,21 +2334,21 @@ Vhm1ywIDAQAB&#xD;
     </ns3:host>
     <ns3:host>
         <ns2:apis-implemented>
-            <ns25:organizational-units version="2.1.1">
-                <ns25:http-security>
+            <ns26:organizational-units version="2.1.1">
+                <ns26:http-security>
                     <ns5:client-auth-methods>
-                        <ns31:httpsig/>
-                        <ns29:tlscert allows-self-signed="true"/>
+                        <ns32:httpsig/>
+                        <ns30:tlscert allows-self-signed="true"/>
                     </ns5:client-auth-methods>
                     <ns5:server-auth-methods>
-                        <ns32:httpsig/>
-                        <ns33:tlscert/>
+                        <ns33:httpsig/>
+                        <ns34:tlscert/>
                     </ns5:server-auth-methods>
-                </ns25:http-security>
-                <ns25:url>https://www.service4mobility.com/europe/ewp/ounits</ns25:url>
-                <ns25:max-ounit-ids>3</ns25:max-ounit-ids>
-                <ns25:max-ounit-codes>3</ns25:max-ounit-codes>
-            </ns25:organizational-units>
+                </ns26:http-security>
+                <ns26:url>https://www.service4mobility.com/europe/ewp/ounits</ns26:url>
+                <ns26:max-ounit-ids>3</ns26:max-ounit-ids>
+                <ns26:max-ounit-codes>3</ns26:max-ounit-codes>
+            </ns26:organizational-units>
         </ns2:apis-implemented>
         <ns3:institutions-covered>
             <ns2:hei id="turkuamk.fi">
@@ -3004,23 +3005,133 @@ Vhm1ywIDAQAB&#xD;
     </ns3:host>
     <ns3:host>
         <ns2:apis-implemented>
-            <ns24:iias version="3.0.0">
-                <ns24:http-security>
+            <ns20:courses version="0.7.1">
+                <ns20:http-security>
                     <ns5:client-auth-methods>
-                        <ns31:httpsig/>
-                        <ns29:tlscert allows-self-signed="true"/>
+                        <ns32:httpsig/>
+                        <ns30:tlscert allows-self-signed="true"/>
                     </ns5:client-auth-methods>
                     <ns5:server-auth-methods>
-                        <ns32:httpsig/>
-                        <ns33:tlscert/>
+                        <ns33:httpsig/>
+                        <ns34:tlscert/>
                     </ns5:server-auth-methods>
-                </ns24:http-security>
-                <ns24:get-url>https://www.service4mobility.com/europe/ewp/iias/get</ns24:get-url>
-                <ns24:max-iia-ids>3</ns24:max-iia-ids>
-                <ns24:max-iia-codes>3</ns24:max-iia-codes>
-                <ns24:index-url>https://www.service4mobility.com/europe/ewp/iias/index</ns24:index-url>
-                <ns24:sends-notifications/>
-            </ns24:iias>
+                </ns20:http-security>
+                <ns20:url>https://www.service4mobility.com/europe/ewp/courses</ns20:url>
+                <ns20:max-los-ids>50</ns20:max-los-ids>
+                <ns20:max-los-codes>50</ns20:max-los-codes>
+            </ns20:courses>
+        </ns2:apis-implemented>
+        <ns3:institutions-covered/>
+        <ns3:client-credentials-in-use>
+            <ns3:certificate>MIIDhDCCAmwCCQCkHd5RITSOqDANBgkqhkiG9w0BAQsFADCBgzELMAkGA1UEBhMCQVQxDzANBgNV&#xD;
+BAgMBlZpZW5uYTEPMA0GA1UEBwwGVmllbm5hMRgwFgYDVQQKDA9Nb2JpbGl0eS1PbmxpbmUxDzAN&#xD;
+BgNVBAsMBk1PIEVXUDEnMCUGA1UEAwwed3d3LnNlcnZpY2U0bW9iaWxpdHkuY29tZXVyb3BlMB4X&#xD;
+DTE4MDYwNTEzMjYwOVoXDTI4MDYwMjEzMjYwOVowgYMxCzAJBgNVBAYTAkFUMQ8wDQYDVQQIDAZW&#xD;
+aWVubmExDzANBgNVBAcMBlZpZW5uYTEYMBYGA1UECgwPTW9iaWxpdHktT25saW5lMQ8wDQYDVQQL&#xD;
+DAZNTyBFV1AxJzAlBgNVBAMMHnd3dy5zZXJ2aWNlNG1vYmlsaXR5LmNvbWV1cm9wZTCCASIwDQYJ&#xD;
+KoZIhvcNAQEBBQADggEPADCCAQoCggEBAMcuDwTzbCkSR5/fqxEqvqas0aY/kAekQ8JrkkeoJFpU&#xD;
+qpL9XRKpcmvLYSKhFCcJnPWYGZokNDAfrNMZABJc//2vBF9p98uo5bwLfm6Lr4VTGvc6tEsmTkZQ&#xD;
+sQUOK7zCTUN7AQIT9Rs7sEcZCbAOcVmpPOiAtTUP3iZ8auWFHeC+/GzDiHGS+npL3GA/Xn6ynJyB&#xD;
+BMGxXRRU8FNL56cCN6OAwIVuANdcIEdAkb65xlNLrWN+vTpuNQZWGZyhIyw8NtYpZApQrB9M2hlg&#xD;
+Lcp8hzSe3jTi+SQmbVC4Ha5Sj9xTsLd0hKkSjLTpb/NnTYCq3KfPLnhFTCL51o6krlYZtcsCAwEA&#xD;
+ATANBgkqhkiG9w0BAQsFAAOCAQEAxAVwO+Zg50VJUaAO/yJhO0XrkMg3ErYtiZPAZGb9XOdCUTm0&#xD;
+N76n9GGRHA12wBNN94nY+zCSK/pZcdwsGektyeKtlUzzNbrle93dyYgqRX+gGSWuIUwVgnlr5To9&#xD;
+1elKe5oYs/Tpl8ehf89a2S3ycQl9Dl2PivHPYQ55eK2Z4bnVblmQdp7VFVA2R+WnLCCP32xL+4NO&#xD;
+zfnwQ/hSkCOsr3TKdtKGQNKeuwIwF1A7AQASj/G7QhoJwzmC082EWNN+dN/pqqXjcXGQrnZxvHG8&#xD;
+fxH/myAZI5/d0KTfKInBH3lj2fQiajaOi8wyIMWG8TThJAw9AJNtohuozaR17slpuA==&#xD;
+</ns3:certificate>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxy4PBPNsKRJHn9+rESq+pqzRpj+QB6RD&#xD;
+wmuSR6gkWlSqkv1dEqlya8thIqEUJwmc9ZgZmiQ0MB+s0xkAElz//a8EX2n3y6jlvAt+bouvhVMa&#xD;
+9zq0SyZORlCxBQ4rvMJNQ3sBAhP1GzuwRxkJsA5xWak86IC1NQ/eJnxq5YUd4L78bMOIcZL6ekvc&#xD;
+YD9efrKcnIEEwbFdFFTwU0vnpwI3o4DAhW4A11wgR0CRvrnGU0utY369Om41BlYZnKEjLDw21ilk&#xD;
+ClCsH0zaGWAtynyHNJ7eNOL5JCZtULgdrlKP3FOwt3SEqRKMtOlv82dNgKrcp88ueEVMIvnWjqSu&#xD;
+Vhm1ywIDAQAB&#xD;
+</ns3:rsa-public-key>
+        </ns3:client-credentials-in-use>
+        <ns3:server-credentials-in-use>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxy4PBPNsKRJHn9+rESq+pqzRpj+QB6RD&#xD;
+wmuSR6gkWlSqkv1dEqlya8thIqEUJwmc9ZgZmiQ0MB+s0xkAElz//a8EX2n3y6jlvAt+bouvhVMa&#xD;
+9zq0SyZORlCxBQ4rvMJNQ3sBAhP1GzuwRxkJsA5xWak86IC1NQ/eJnxq5YUd4L78bMOIcZL6ekvc&#xD;
+YD9efrKcnIEEwbFdFFTwU0vnpwI3o4DAhW4A11wgR0CRvrnGU0utY369Om41BlYZnKEjLDw21ilk&#xD;
+ClCsH0zaGWAtynyHNJ7eNOL5JCZtULgdrlKP3FOwt3SEqRKMtOlv82dNgKrcp88ueEVMIvnWjqSu&#xD;
+Vhm1ywIDAQAB&#xD;
+</ns3:rsa-public-key>
+        </ns3:server-credentials-in-use>
+    </ns3:host>
+    <ns3:host>
+        <ns2:apis-implemented>
+            <ns19:simple-course-replication version="1.0.0">
+                <ns19:http-security>
+                    <ns5:client-auth-methods>
+                        <ns32:httpsig/>
+                        <ns30:tlscert allows-self-signed="true"/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns33:httpsig/>
+                        <ns34:tlscert/>
+                    </ns5:server-auth-methods>
+                </ns19:http-security>
+                <ns19:url>https://www.service4mobility.com/europe/ewp/courserep</ns19:url>
+                <ns19:allows-anonymous-access>false</ns19:allows-anonymous-access>
+                <ns19:supports-modified-since>true</ns19:supports-modified-since>
+            </ns19:simple-course-replication>
+        </ns2:apis-implemented>
+        <ns3:institutions-covered/>
+        <ns3:client-credentials-in-use>
+            <ns3:certificate>MIIDhDCCAmwCCQCkHd5RITSOqDANBgkqhkiG9w0BAQsFADCBgzELMAkGA1UEBhMCQVQxDzANBgNV&#xD;
+BAgMBlZpZW5uYTEPMA0GA1UEBwwGVmllbm5hMRgwFgYDVQQKDA9Nb2JpbGl0eS1PbmxpbmUxDzAN&#xD;
+BgNVBAsMBk1PIEVXUDEnMCUGA1UEAwwed3d3LnNlcnZpY2U0bW9iaWxpdHkuY29tZXVyb3BlMB4X&#xD;
+DTE4MDYwNTEzMjYwOVoXDTI4MDYwMjEzMjYwOVowgYMxCzAJBgNVBAYTAkFUMQ8wDQYDVQQIDAZW&#xD;
+aWVubmExDzANBgNVBAcMBlZpZW5uYTEYMBYGA1UECgwPTW9iaWxpdHktT25saW5lMQ8wDQYDVQQL&#xD;
+DAZNTyBFV1AxJzAlBgNVBAMMHnd3dy5zZXJ2aWNlNG1vYmlsaXR5LmNvbWV1cm9wZTCCASIwDQYJ&#xD;
+KoZIhvcNAQEBBQADggEPADCCAQoCggEBAMcuDwTzbCkSR5/fqxEqvqas0aY/kAekQ8JrkkeoJFpU&#xD;
+qpL9XRKpcmvLYSKhFCcJnPWYGZokNDAfrNMZABJc//2vBF9p98uo5bwLfm6Lr4VTGvc6tEsmTkZQ&#xD;
+sQUOK7zCTUN7AQIT9Rs7sEcZCbAOcVmpPOiAtTUP3iZ8auWFHeC+/GzDiHGS+npL3GA/Xn6ynJyB&#xD;
+BMGxXRRU8FNL56cCN6OAwIVuANdcIEdAkb65xlNLrWN+vTpuNQZWGZyhIyw8NtYpZApQrB9M2hlg&#xD;
+Lcp8hzSe3jTi+SQmbVC4Ha5Sj9xTsLd0hKkSjLTpb/NnTYCq3KfPLnhFTCL51o6krlYZtcsCAwEA&#xD;
+ATANBgkqhkiG9w0BAQsFAAOCAQEAxAVwO+Zg50VJUaAO/yJhO0XrkMg3ErYtiZPAZGb9XOdCUTm0&#xD;
+N76n9GGRHA12wBNN94nY+zCSK/pZcdwsGektyeKtlUzzNbrle93dyYgqRX+gGSWuIUwVgnlr5To9&#xD;
+1elKe5oYs/Tpl8ehf89a2S3ycQl9Dl2PivHPYQ55eK2Z4bnVblmQdp7VFVA2R+WnLCCP32xL+4NO&#xD;
+zfnwQ/hSkCOsr3TKdtKGQNKeuwIwF1A7AQASj/G7QhoJwzmC082EWNN+dN/pqqXjcXGQrnZxvHG8&#xD;
+fxH/myAZI5/d0KTfKInBH3lj2fQiajaOi8wyIMWG8TThJAw9AJNtohuozaR17slpuA==&#xD;
+</ns3:certificate>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxy4PBPNsKRJHn9+rESq+pqzRpj+QB6RD&#xD;
+wmuSR6gkWlSqkv1dEqlya8thIqEUJwmc9ZgZmiQ0MB+s0xkAElz//a8EX2n3y6jlvAt+bouvhVMa&#xD;
+9zq0SyZORlCxBQ4rvMJNQ3sBAhP1GzuwRxkJsA5xWak86IC1NQ/eJnxq5YUd4L78bMOIcZL6ekvc&#xD;
+YD9efrKcnIEEwbFdFFTwU0vnpwI3o4DAhW4A11wgR0CRvrnGU0utY369Om41BlYZnKEjLDw21ilk&#xD;
+ClCsH0zaGWAtynyHNJ7eNOL5JCZtULgdrlKP3FOwt3SEqRKMtOlv82dNgKrcp88ueEVMIvnWjqSu&#xD;
+Vhm1ywIDAQAB&#xD;
+</ns3:rsa-public-key>
+        </ns3:client-credentials-in-use>
+        <ns3:server-credentials-in-use>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxy4PBPNsKRJHn9+rESq+pqzRpj+QB6RD&#xD;
+wmuSR6gkWlSqkv1dEqlya8thIqEUJwmc9ZgZmiQ0MB+s0xkAElz//a8EX2n3y6jlvAt+bouvhVMa&#xD;
+9zq0SyZORlCxBQ4rvMJNQ3sBAhP1GzuwRxkJsA5xWak86IC1NQ/eJnxq5YUd4L78bMOIcZL6ekvc&#xD;
+YD9efrKcnIEEwbFdFFTwU0vnpwI3o4DAhW4A11wgR0CRvrnGU0utY369Om41BlYZnKEjLDw21ilk&#xD;
+ClCsH0zaGWAtynyHNJ7eNOL5JCZtULgdrlKP3FOwt3SEqRKMtOlv82dNgKrcp88ueEVMIvnWjqSu&#xD;
+Vhm1ywIDAQAB&#xD;
+</ns3:rsa-public-key>
+        </ns3:server-credentials-in-use>
+    </ns3:host>
+    <ns3:host>
+        <ns2:apis-implemented>
+            <ns25:iias version="3.0.0">
+                <ns25:http-security>
+                    <ns5:client-auth-methods>
+                        <ns32:httpsig/>
+                        <ns30:tlscert allows-self-signed="true"/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns33:httpsig/>
+                        <ns34:tlscert/>
+                    </ns5:server-auth-methods>
+                </ns25:http-security>
+                <ns25:get-url>https://www.service4mobility.com/europe/ewp/iias-v3/get</ns25:get-url>
+                <ns25:max-iia-ids>3</ns25:max-iia-ids>
+                <ns25:max-iia-codes>3</ns25:max-iia-codes>
+                <ns25:index-url>https://www.service4mobility.com/europe/ewp/iias-v3/index</ns25:index-url>
+                <ns25:sends-notifications/>
+            </ns25:iias>
         </ns2:apis-implemented>
         <ns3:institutions-covered>
             <ns2:hei id="uni-bremen.de">
@@ -3790,12 +3901,12 @@ Vhm1ywIDAQAB&#xD;
             <ns23:iia-cnr version="2.0.2">
                 <ns23:http-security>
                     <ns5:client-auth-methods>
-                        <ns31:httpsig/>
-                        <ns29:tlscert allows-self-signed="true"/>
+                        <ns32:httpsig/>
+                        <ns30:tlscert allows-self-signed="true"/>
                     </ns5:client-auth-methods>
                     <ns5:server-auth-methods>
-                        <ns32:httpsig/>
-                        <ns33:tlscert/>
+                        <ns33:httpsig/>
+                        <ns34:tlscert/>
                     </ns5:server-auth-methods>
                 </ns23:http-security>
                 <ns23:url>https://www.service4mobility.com/europe/ewp/iias/cnr</ns23:url>
@@ -4481,12 +4592,12 @@ Vhm1ywIDAQAB&#xD;
             <ns22:iias-approval version="0.2.1">
                 <ns22:http-security>
                     <ns5:client-auth-methods>
-                        <ns31:httpsig/>
-                        <ns29:tlscert allows-self-signed="true"/>
+                        <ns32:httpsig/>
+                        <ns30:tlscert allows-self-signed="true"/>
                     </ns5:client-auth-methods>
                     <ns5:server-auth-methods>
-                        <ns32:httpsig/>
-                        <ns33:tlscert/>
+                        <ns33:httpsig/>
+                        <ns34:tlscert/>
                     </ns5:server-auth-methods>
                 </ns22:http-security>
                 <ns22:url>https://www.service4mobility.com/europe/ewp/iias/approve</ns22:url>
@@ -5261,12 +5372,12 @@ Vhm1ywIDAQAB&#xD;
             <ns18:omobilities version="1.0.0">
                 <ns18:http-security>
                     <ns5:client-auth-methods>
-                        <ns31:httpsig/>
-                        <ns29:tlscert allows-self-signed="true"/>
+                        <ns32:httpsig/>
+                        <ns30:tlscert allows-self-signed="true"/>
                     </ns5:client-auth-methods>
                     <ns5:server-auth-methods>
-                        <ns32:httpsig/>
-                        <ns33:tlscert/>
+                        <ns33:httpsig/>
+                        <ns34:tlscert/>
                     </ns5:server-auth-methods>
                 </ns18:http-security>
                 <ns18:get-url>https://www.service4mobility.com/europe/ewp/mobility_out/get</ns18:get-url>
@@ -5610,12 +5721,12 @@ Vhm1ywIDAQAB&#xD;
             <ns13:imobility-cnr version="1.0.0">
                 <ns13:http-security>
                     <ns5:client-auth-methods>
-                        <ns31:httpsig/>
-                        <ns29:tlscert allows-self-signed="true"/>
+                        <ns32:httpsig/>
+                        <ns30:tlscert allows-self-signed="true"/>
                     </ns5:client-auth-methods>
                     <ns5:server-auth-methods>
-                        <ns32:httpsig/>
-                        <ns33:tlscert/>
+                        <ns33:httpsig/>
+                        <ns34:tlscert/>
                     </ns5:server-auth-methods>
                 </ns13:http-security>
                 <ns13:url>https://www.service4mobility.com/europe/ewp/mobility_in/cnr</ns13:url>
@@ -5854,12 +5965,12 @@ Vhm1ywIDAQAB&#xD;
             <ns14:imobilities version="1.0.0">
                 <ns14:http-security>
                     <ns5:client-auth-methods>
-                        <ns31:httpsig/>
-                        <ns29:tlscert allows-self-signed="true"/>
+                        <ns32:httpsig/>
+                        <ns30:tlscert allows-self-signed="true"/>
                     </ns5:client-auth-methods>
                     <ns5:server-auth-methods>
-                        <ns32:httpsig/>
-                        <ns33:tlscert/>
+                        <ns33:httpsig/>
+                        <ns34:tlscert/>
                     </ns5:server-auth-methods>
                 </ns14:http-security>
                 <ns14:get-url>https://www.service4mobility.com/europe/ewp/mobility_in/get</ns14:get-url>
@@ -6161,12 +6272,12 @@ Vhm1ywIDAQAB&#xD;
             <ns17:omobility-cnr version="1.0.0">
                 <ns17:http-security>
                     <ns5:client-auth-methods>
-                        <ns31:httpsig/>
-                        <ns29:tlscert allows-self-signed="true"/>
+                        <ns32:httpsig/>
+                        <ns30:tlscert allows-self-signed="true"/>
                     </ns5:client-auth-methods>
                     <ns5:server-auth-methods>
-                        <ns32:httpsig/>
-                        <ns33:tlscert/>
+                        <ns33:httpsig/>
+                        <ns34:tlscert/>
                     </ns5:server-auth-methods>
                 </ns17:http-security>
                 <ns17:url>https://www.service4mobility.com/europe/ewp/mobility_out/cnr</ns17:url>
@@ -6412,12 +6523,12 @@ Vhm1ywIDAQAB&#xD;
             <ns16:omobility-las version="1.0.0">
                 <ns16:http-security>
                     <ns5:client-auth-methods>
-                        <ns31:httpsig/>
-                        <ns29:tlscert allows-self-signed="true"/>
+                        <ns32:httpsig/>
+                        <ns30:tlscert allows-self-signed="true"/>
                     </ns5:client-auth-methods>
                     <ns5:server-auth-methods>
-                        <ns32:httpsig/>
-                        <ns33:tlscert/>
+                        <ns33:httpsig/>
+                        <ns34:tlscert/>
                     </ns5:server-auth-methods>
                 </ns16:http-security>
                 <ns16:get-url>https://www.service4mobility.com/europe/ewp/mobility_out_la/get</ns16:get-url>
@@ -6428,12 +6539,12 @@ Vhm1ywIDAQAB&#xD;
             <ns15:omobility-la-cnr version="0.1.0">
                 <ns15:http-security>
                     <ns5:client-auth-methods>
-                        <ns31:httpsig/>
-                        <ns29:tlscert allows-self-signed="true"/>
+                        <ns32:httpsig/>
+                        <ns30:tlscert allows-self-signed="true"/>
                     </ns5:client-auth-methods>
                     <ns5:server-auth-methods>
-                        <ns32:httpsig/>
-                        <ns33:tlscert/>
+                        <ns33:httpsig/>
+                        <ns34:tlscert/>
                     </ns5:server-auth-methods>
                 </ns15:http-security>
                 <ns15:url>https://www.service4mobility.com/europe/ewp/mobility_out_la/cnr</ns15:url>
@@ -6638,12 +6749,12 @@ Vhm1ywIDAQAB&#xD;
             <ns6:factsheet version="0.3.0">
                 <ns6:http-security>
                     <ns5:client-auth-methods>
-                        <ns31:httpsig/>
-                        <ns29:tlscert allows-self-signed="true"/>
+                        <ns32:httpsig/>
+                        <ns30:tlscert allows-self-signed="true"/>
                     </ns5:client-auth-methods>
                     <ns5:server-auth-methods>
-                        <ns32:httpsig/>
-                        <ns33:tlscert/>
+                        <ns33:httpsig/>
+                        <ns34:tlscert/>
                     </ns5:server-auth-methods>
                 </ns6:http-security>
                 <ns6:url>https://www.service4mobility.com/europe/ewp/factsheets</ns6:url>
