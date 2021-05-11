@@ -767,6 +767,12 @@
                 <r:other-id type="pic">916450860</r:other-id>
                 <r:name xml:lang="en">Université Clermont Auvergne</r:name>
             </r:hei>
+            <r:hei id="univ-brest.fr">
+                <r:other-id type="erasmus">F  BREST01</r:other-id>
+                <r:other-id type="euc">28094</r:other-id>
+                <r:other-id type="pic">999902676</r:other-id>
+                <r:name xml:lang="en">Université de Bretagne Occidentale</r:name>
+            </r:hei>
             <r:hei id="ut-capitole.fr">
                 <r:other-id type="erasmus">F  TOULOUS01</r:other-id>
                 <r:other-id type="euc">51063</r:other-id>
@@ -24991,7 +24997,14 @@ IwIDAQAB
                 <iaac1:url>https://ubo-ewp.moveonfr.com/v1/iia/approval/cnr</iaac1:url>
             </iaac1:iia-approval-cnr>
         </r:apis-implemented>
-        <ns3:institutions-covered/>
+        <ns3:institutions-covered>
+            <r:hei id="univ-brest.fr">
+                <r:other-id type="erasmus">F  BREST01</r:other-id>
+                <r:other-id type="euc">28094</r:other-id>
+                <r:other-id type="pic">999902676</r:other-id>
+                <r:name xml:lang="en">Université de Bretagne Occidentale</r:name>
+            </r:hei>
+        </ns3:institutions-covered>
         <ns3:client-credentials-in-use>
             <ns3:certificate>MIIDnTCCAoWgAwIBAgIJAOiDLUc/o7t5MA0GCSqGSIb3DQEBBQUAMGQxCzAJBgNV
 BAYTAklOMRIwEAYDVQQIDAlLQVJOQVRBS0ExEjAQBgNVBAcMCUJBTkdBTE9SRTEL
