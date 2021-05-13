@@ -49732,11 +49732,11 @@
                 <f1:url>https://ewp.erasmusport.com/factsheet</f1:url>
                 <f1:max-hei-ids>1</f1:max-hei-ids>
             </f1:factsheet>
-            <ia3:iias
-                xmlns:ia3="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v3/manifest-entry.xsd"
-                version="3.0.0"
+            <iias
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v6/manifest-entry.xsd"
+                version="6.0.1"
             >
-                <ia3:http-security>
+                <http-security>
                     <sec:client-auth-methods>
                         <sec-A1:tlscert allows-self-signed="true"/>
                         <sec-A2:httpsig/>
@@ -49751,13 +49751,13 @@
                     <sec:response-encryption-methods>
                         <sec-D1:tls/>
                     </sec:response-encryption-methods>
-                </ia3:http-security>
-                <ia3:get-url>https://ewp.erasmusport.com/iias/get</ia3:get-url>
-                <ia3:max-iia-ids>1</ia3:max-iia-ids>
-                <ia3:max-iia-codes>1</ia3:max-iia-codes>
-                <ia3:index-url>https://ewp.erasmusport.com/iias/index</ia3:index-url>
-                <ia3:sends-notifications/>
-            </ia3:iias>
+                </http-security>
+                <get-url>https://ewp.erasmusport.com/iias/get</get-url>
+                <max-iia-ids>1</max-iia-ids>
+                <max-iia-codes>1</max-iia-codes>
+                <index-url>https://ewp.erasmusport.com/iias/index</index-url>
+                <sends-notifications/>
+            </iias>
             <iaa1:iias-approval
                 xmlns:iaa1="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
                 version="0.2.1"
@@ -49926,15 +49926,15 @@
             </omlc1:omobility-la-cnr>
         </apis-implemented>
         <institutions-covered>
+            <hei-id>ankara.edu.tr</hei-id>
             <hei-id>gazi.edu.tr</hei-id>
-            <hei-id>beun.edu.tr</hei-id>
-            <hei-id>akdeniz.edu.tr</hei-id>
-            <hei-id>cbu.edu.tr</hei-id>
+            <hei-id>kent.edu.tr</hei-id>
             <hei-id>ege.edu.tr</hei-id>
             <hei-id>anadolu.edu.tr</hei-id>
             <hei-id>bakircay.edu.tr</hei-id>
-            <hei-id>ankara.edu.tr</hei-id>
-            <hei-id>kent.edu.tr</hei-id>
+            <hei-id>beun.edu.tr</hei-id>
+            <hei-id>akdeniz.edu.tr</hei-id>
+            <hei-id>cbu.edu.tr</hei-id>
             <hei-id>eskisehir.edu.tr</hei-id>
             <hei-id>ticaret.edu.tr</hei-id>
         </institutions-covered>
