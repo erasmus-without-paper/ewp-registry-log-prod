@@ -2650,10 +2650,10 @@
                         <sec-B1:tlscert/>
                     </sec:server-auth-methods>
                 </ia3:http-security>
-                <ia3:get-url>https://www.service4mobility.com/mannheim/ewp/iias/get</ia3:get-url>
+                <ia3:get-url>https://www.service4mobility.com/mannheim/ewp/iias-v3/get</ia3:get-url>
                 <ia3:max-iia-ids>3</ia3:max-iia-ids>
                 <ia3:max-iia-codes>3</ia3:max-iia-codes>
-                <ia3:index-url>https://www.service4mobility.com/mannheim/ewp/iias/index</ia3:index-url>
+                <ia3:index-url>https://www.service4mobility.com/mannheim/ewp/iias-v3/index</ia3:index-url>
                 <ia3:sends-notifications/>
             </ia3:iias>
         </apis-implemented>
@@ -2713,7 +2713,6 @@
                 </iaa1:http-security>
                 <iaa1:url>https://www.service4mobility.com/mannheim/ewp/iias/approve</iaa1:url>
                 <iaa1:max-iia-ids>3</iaa1:max-iia-ids>
-                <iaa1:sends-notifications/>
             </iaa1:iias-approval>
         </apis-implemented>
         <institutions-covered>
