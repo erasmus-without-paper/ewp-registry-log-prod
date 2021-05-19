@@ -1277,7 +1277,7 @@ IwIDAQAB
     <ns3:host>
         <admin-email>umesh@qs.com</admin-email>
         <r:apis-implemented>
-            <in2:institutions version="2.1.0">
+            <in2:institutions version="2.2.0">
                 <admin-email>umesh@qs.com</admin-email>
                 <in2:http-security>
                     <sec:client-auth-methods>
@@ -1326,7 +1326,7 @@ IwIDAQAB
                 <ia3:index-url>https://moveon-admin.univ-amu.fr/v1/iia/index</ia3:index-url>
                 <ia3:sends-notifications/>
             </ia3:iias>
-            <iac2:iia-cnr version="2.0.2">
+            <iac2:iia-cnr version="2.0.3">
                 <iac2:http-security>
                     <sec:client-auth-methods>
                         <sec-A1:tlscert allows-self-signed="true"/>
@@ -1400,7 +1400,7 @@ IwIDAQAB
                 <imc1:url>https://moveon-admin.univ-amu.fr/v1/imobility/cnr</imc1:url>
                 <imc1:max-omobility-ids>10</imc1:max-omobility-ids>
             </imc1:imobility-cnr>
-            <iaa1:iias-approval version="0.2.1">
+            <iaa1:iias-approval version="1.0.0">
                 <admin-email>umesh@qs.com</admin-email>
                 <iaa1:http-security>
                     <sec:client-auth-methods>
@@ -1415,7 +1415,7 @@ IwIDAQAB
                 <iaa1:url>https://moveon-admin.univ-amu.fr/v1/iia/approval/get</iaa1:url>
                 <iaa1:max-iia-ids>10</iaa1:max-iia-ids>
             </iaa1:iias-approval>
-            <iaac1:iia-approval-cnr version="0.2.0">
+            <iaac1:iia-approval-cnr version="1.0.0">
                 <iaac1:http-security>
                     <sec:client-auth-methods>
                         <sec-A1:tlscert allows-self-signed="true"/>
