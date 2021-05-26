@@ -52837,11 +52837,9 @@
                 <e2:http-security>
                     <sec:client-auth-methods>
                         <sec-A2:httpsig/>
-                        <sec-A1:tlscert allows-self-signed="false"/>
                     </sec:client-auth-methods>
                     <sec:server-auth-methods>
                         <sec-B2:httpsig/>
-                        <sec-B1:tlscert/>
                     </sec:server-auth-methods>
                 </e2:http-security>
                 <e2:url>https://unimi-ewp.gomp.it/api/ewp/echo</e2:url>
@@ -52850,11 +52848,9 @@
                 <in2:http-security>
                     <sec:client-auth-methods>
                         <sec-A2:httpsig/>
-                        <sec-A1:tlscert allows-self-signed="false"/>
                     </sec:client-auth-methods>
                     <sec:server-auth-methods>
                         <sec-B2:httpsig/>
-                        <sec-B1:tlscert/>
                     </sec:server-auth-methods>
                 </in2:http-security>
                 <in2:url>https://unimi-ewp.gomp.it/api/ewp/institutions</in2:url>
@@ -52864,11 +52860,9 @@
                 <ou2:http-security>
                     <sec:client-auth-methods>
                         <sec-A2:httpsig/>
-                        <sec-A1:tlscert allows-self-signed="false"/>
                     </sec:client-auth-methods>
                     <sec:server-auth-methods>
                         <sec-B2:httpsig/>
-                        <sec-B1:tlscert/>
                     </sec:server-auth-methods>
                 </ou2:http-security>
                 <ou2:url>https://unimi-ewp.gomp.it/api/ewp/ouunits</ou2:url>
@@ -52882,11 +52876,9 @@
                 <co1:http-security>
                     <sec:client-auth-methods>
                         <sec-A2:httpsig/>
-                        <sec-A1:tlscert allows-self-signed="false"/>
                     </sec:client-auth-methods>
                     <sec:server-auth-methods>
                         <sec-B2:httpsig/>
-                        <sec-B1:tlscert/>
                     </sec:server-auth-methods>
                 </co1:http-security>
                 <co1:url>https://unimi-ewp.gomp.it/api/ewp/courses2</co1:url>
@@ -52900,11 +52892,9 @@
                 <cr1:http-security>
                     <sec:client-auth-methods>
                         <sec-A2:httpsig/>
-                        <sec-A1:tlscert allows-self-signed="false"/>
                     </sec:client-auth-methods>
                     <sec:server-auth-methods>
                         <sec-B2:httpsig/>
-                        <sec-B1:tlscert/>
                     </sec:server-auth-methods>
                 </cr1:http-security>
                 <cr1:url>https://unimi-ewp.gomp.it/api/ewp/scr2</cr1:url>
@@ -52918,11 +52908,9 @@
                 <http-security>
                     <sec:client-auth-methods>
                         <sec-A2:httpsig/>
-                        <sec-A1:tlscert allows-self-signed="false"/>
                     </sec:client-auth-methods>
                     <sec:server-auth-methods>
                         <sec-B2:httpsig/>
-                        <sec-B1:tlscert/>
                     </sec:server-auth-methods>
                 </http-security>
                 <get-url>https://unimi-ewp.gomp.it/api/ewp/iaasget</get-url>
@@ -52935,11 +52923,9 @@
                 <iac2:http-security>
                     <sec:client-auth-methods>
                         <sec-A2:httpsig/>
-                        <sec-A1:tlscert allows-self-signed="false"/>
                     </sec:client-auth-methods>
                     <sec:server-auth-methods>
                         <sec-B2:httpsig/>
-                        <sec-B1:tlscert/>
                     </sec:server-auth-methods>
                 </iac2:http-security>
                 <iac2:url>https://unimi-ewp.gomp.it/api/ewp/iiacnr</iac2:url>
@@ -52951,11 +52937,9 @@
                 <iaa1:http-security>
                     <sec:client-auth-methods>
                         <sec-A2:httpsig/>
-                        <sec-A1:tlscert allows-self-signed="false"/>
                     </sec:client-auth-methods>
                     <sec:server-auth-methods>
                         <sec-B2:httpsig/>
-                        <sec-B1:tlscert/>
                     </sec:server-auth-methods>
                 </iaa1:http-security>
                 <iaa1:url>https://unimi-ewp.gomp.it/api/ewp/iiasappr</iaa1:url>
@@ -52969,11 +52953,9 @@
                 <iaac1:http-security>
                     <sec:client-auth-methods>
                         <sec-A2:httpsig/>
-                        <sec-A1:tlscert allows-self-signed="false"/>
                     </sec:client-auth-methods>
                     <sec:server-auth-methods>
                         <sec-B2:httpsig/>
-                        <sec-B1:tlscert/>
                     </sec:server-auth-methods>
                 </iaac1:http-security>
                 <iaac1:url>https://unimi-ewp.gomp.it/api/ewp/iiaapprovalcnr</iaac1:url>
@@ -52985,11 +52967,9 @@
                 <oml1:http-security>
                     <sec:client-auth-methods>
                         <sec-A2:httpsig/>
-                        <sec-A1:tlscert allows-self-signed="false"/>
                     </sec:client-auth-methods>
                     <sec:server-auth-methods>
                         <sec-B2:httpsig/>
-                        <sec-B1:tlscert/>
                     </sec:server-auth-methods>
                 </oml1:http-security>
                 <oml1:get-url>https://unimi-ewp.gomp.it/api/ewp/omobilitylasget</oml1:get-url>
@@ -53004,11 +52984,9 @@
                 <omlc1:http-security>
                     <sec:client-auth-methods>
                         <sec-A2:httpsig/>
-                        <sec-A1:tlscert allows-self-signed="false"/>
                     </sec:client-auth-methods>
                     <sec:server-auth-methods>
                         <sec-B2:httpsig/>
-                        <sec-B1:tlscert/>
                     </sec:server-auth-methods>
                 </omlc1:http-security>
                 <omlc1:url>https://unimi-ewp.gomp.it/api/ewp/omobilitylacnr</omlc1:url>
@@ -53021,11 +52999,9 @@
                 <om1:http-security>
                     <sec:client-auth-methods>
                         <sec-A2:httpsig/>
-                        <sec-A1:tlscert allows-self-signed="false"/>
                     </sec:client-auth-methods>
                     <sec:server-auth-methods>
                         <sec-B2:httpsig/>
-                        <sec-B1:tlscert/>
                     </sec:server-auth-methods>
                 </om1:http-security>
                 <om1:get-url>https://unimi-ewp.gomp.it/api/ewp/omobilitiesget</om1:get-url>
@@ -53040,11 +53016,9 @@
                 <omc1:http-security>
                     <sec:client-auth-methods>
                         <sec-A2:httpsig/>
-                        <sec-A1:tlscert allows-self-signed="false"/>
                     </sec:client-auth-methods>
                     <sec:server-auth-methods>
                         <sec-B2:httpsig/>
-                        <sec-B1:tlscert/>
                     </sec:server-auth-methods>
                 </omc1:http-security>
                 <omc1:url>https://unimi-ewp.gomp.it/api/ewp/omobilitycnr</omc1:url>
@@ -53057,11 +53031,9 @@
                 <im1:http-security>
                     <sec:client-auth-methods>
                         <sec-A2:httpsig/>
-                        <sec-A1:tlscert allows-self-signed="false"/>
                     </sec:client-auth-methods>
                     <sec:server-auth-methods>
                         <sec-B2:httpsig/>
-                        <sec-B1:tlscert/>
                     </sec:server-auth-methods>
                 </im1:http-security>
                 <im1:get-url>https://unimi-ewp.gomp.it/api/ewp/imobilitiesget</im1:get-url>
@@ -53075,11 +53047,9 @@
                 <imc1:http-security>
                     <sec:client-auth-methods>
                         <sec-A2:httpsig/>
-                        <sec-A1:tlscert allows-self-signed="false"/>
                     </sec:client-auth-methods>
                     <sec:server-auth-methods>
                         <sec-B2:httpsig/>
-                        <sec-B1:tlscert/>
                     </sec:server-auth-methods>
                 </imc1:http-security>
                 <imc1:url>https://unimi-ewp.gomp.it/api/ewp/imobilitycnr</imc1:url>
