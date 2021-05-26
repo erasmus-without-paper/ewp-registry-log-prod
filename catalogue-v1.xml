@@ -8617,10 +8617,10 @@
                         <sec-B1:tlscert/>
                     </sec:server-auth-methods>
                 </ia3:http-security>
-                <ia3:get-url>https://goabroad.univ-rouen.fr/mobility/ewp/iias/get</ia3:get-url>
+                <ia3:get-url>https://goabroad.univ-rouen.fr/mobility/ewp/iias-v3/get</ia3:get-url>
                 <ia3:max-iia-ids>3</ia3:max-iia-ids>
                 <ia3:max-iia-codes>3</ia3:max-iia-codes>
-                <ia3:index-url>https://goabroad.univ-rouen.fr/mobility/ewp/iias/index</ia3:index-url>
+                <ia3:index-url>https://goabroad.univ-rouen.fr/mobility/ewp/iias-v3/index</ia3:index-url>
                 <ia3:sends-notifications/>
             </ia3:iias>
         </apis-implemented>
@@ -8666,7 +8666,7 @@
         <apis-implemented>
             <iaa1:iias-approval
                 xmlns:iaa1="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
-                version="0.2.1"
+                version="1.0.0"
             >
                 <iaa1:http-security>
                     <sec:client-auth-methods>
@@ -8678,10 +8678,39 @@
                         <sec-B1:tlscert/>
                     </sec:server-auth-methods>
                 </iaa1:http-security>
-                <iaa1:url>https://goabroad.univ-rouen.fr/mobility/ewp/iias/approve</iaa1:url>
+                <iaa1:url>https://goabroad.univ-rouen.fr/mobility/ewp/iias-approval-v1/get</iaa1:url>
                 <iaa1:max-iia-ids>3</iaa1:max-iia-ids>
-                <iaa1:sends-notifications/>
             </iaa1:iias-approval>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>univ-rouen.fr</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="ac0bc7d49ca996c5a7f35da1d50ced6a044db7c68d1a6503cd20ca529fd5e454"/>
+            <rsa-public-key sha-256="b2954c5b8a892cf8e643227aea7004452448e0eb054f6dba50726ae5a3a13019"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="b2954c5b8a892cf8e643227aea7004452448e0eb054f6dba50726ae5a3a13019"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <iaac1:iia-approval-cnr
+                xmlns:iaac1="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <iaac1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </iaac1:http-security>
+                <iaac1:url>https://goabroad.univ-rouen.fr/mobility/ewp/iias-approval-cnr-v1/cnr</iaac1:url>
+            </iaac1:iia-approval-cnr>
         </apis-implemented>
         <institutions-covered>
             <hei-id>univ-rouen.fr</hei-id>
