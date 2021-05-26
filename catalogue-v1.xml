@@ -10110,7 +10110,7 @@
         <apis-implemented>
             <iaa1:iias-approval
                 xmlns:iaa1="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
-                version="0.2.1"
+                version="1.0.0"
             >
                 <iaa1:http-security>
                     <sec:client-auth-methods>
@@ -10122,9 +10122,39 @@
                         <sec-B1:tlscert/>
                     </sec:server-auth-methods>
                 </iaa1:http-security>
-                <iaa1:url>https://kvl.it.helsinki.fi/mobility/ewp/iias/approve</iaa1:url>
+                <iaa1:url>https://kvl.it.helsinki.fi/mobility/ewp/iias-approval-v1/get</iaa1:url>
                 <iaa1:max-iia-ids>3</iaa1:max-iia-ids>
             </iaa1:iias-approval>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>helsinki.fi</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="1bcb9c813555824d7d8699bde2842b92af495824c5317985e46fadae961e2b2a"/>
+            <rsa-public-key sha-256="c20118d80cad0f1e71e100d534a27bf9437ab4b79a811440b96dfa5941d3171b"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="c20118d80cad0f1e71e100d534a27bf9437ab4b79a811440b96dfa5941d3171b"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <iaac1:iia-approval-cnr
+                xmlns:iaac1="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <iaac1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </iaac1:http-security>
+                <iaac1:url>https://kvl.it.helsinki.fi/mobility/ewp/iias-approval-cnr-v1/cnr</iaac1:url>
+            </iaac1:iia-approval-cnr>
         </apis-implemented>
         <institutions-covered>
             <hei-id>helsinki.fi</hei-id>
