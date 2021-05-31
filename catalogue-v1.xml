@@ -23876,6 +23876,68 @@
             <rsa-public-key sha-256="b5d77582c0b398fccfd3e09cf9305773033e15fbe75545ae21d2d41515867b5c"/>
         </server-credentials-in-use>
     </host>
+    <host>
+        <ewp:admin-email>petrzelka@czs.muni.cz</ewp:admin-email>
+        <apis-implemented>
+            <d5:discovery version="5.0.0">
+                <d5:url>https://isois.ois.muni.cz/en/ewp/manifest/</d5:url>
+            </d5:discovery>
+            <e2:echo version="2.0.1">
+                <e2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </e2:http-security>
+                <e2:url>https://isois.ois.muni.cz/en/ewp/echo/</e2:url>
+            </e2:echo>
+            <in2:institutions version="2.1.0">
+                <in2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A0:anonymous/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </in2:http-security>
+                <in2:url>https://isois.ois.muni.cz/en/ewp/institutions/</in2:url>
+                <in2:max-hei-ids>1</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.1.1">
+                <ou2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A0:anonymous/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </ou2:http-security>
+                <ou2:url>https://isois.ois.muni.cz/en/ewp/ounits/</ou2:url>
+                <ou2:max-ounit-ids>50</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>50</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>muni.cz</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="f861bab0c60e5c2de5f2ad38b7c269dba230ef519b84e7de2dbed3bd964ca015"/>
+            <rsa-public-key sha-256="08d70195c99e2679f7f073b98432f11807e48651c518d65dacc43bc089f350e6"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="08d70195c99e2679f7f073b98432f11807e48651c518d65dacc43bc089f350e6"/>
+        </server-credentials-in-use>
+    </host>
     <institutions>
         <hei id="29mayis.tr">
             <other-id type="erasmus">TR ISTANBU43</other-id>
@@ -27494,6 +27556,13 @@
             <other-id type="erasmus">A  WIEN52</other-id>
             <name>Musik und Kunst Privatuniversität der Stadt Wien GmbH</name>
         </hei>
+        <hei id="muni.cz">
+            <other-id type="erasmus">CZ BRNO05</other-id>
+            <other-id type="oid">E10208978</other-id>
+            <other-id type="pic">999880657</other-id>
+            <name xml:lang="cs">Masarykova univerzita</name>
+            <name xml:lang="en">Masaryk University</name>
+        </hei>
         <hei id="munzur.edu.tr">
             <other-id type="erasmus">TR TUNCELI01</other-id>
             <name>Munzur Üniversitesi</name>
@@ -30768,6 +30837,14 @@
             PkiDwP40EUCf6xbE3Luyu9Q6rrGXpa7+fFotjrSaPeNP4+jH99xWxyg41i9Qrfv3ULNasYF3xtkb
             mwyW/2gVcnQ1/KFG6XDiWaHg/SkFm6/6RgElcOn6+9DB7HG0affXjpbB+tzFnKsEZXx3zsd2zU8O
             j1/QCwIDAQAB
+        </rsa-public-key>
+        <rsa-public-key sha-256="08d70195c99e2679f7f073b98432f11807e48651c518d65dacc43bc089f350e6">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxMMbXyj7n1W4Z2SXKdBtFfdFsERKgccu
+            YkKr+4yARFw2jSbBla4Dpx2IswKV0+K2UboUTR77cAvh3l0FgqeNSWf2ryyOqGeetlmXNOh3TxP3
+            Q3f48C7KIgkMg4hZxlxCHvd2eLs7YjeaPPRuiTtRkSkBVGhMSwv0ISYnwbXs3/vhlkc6wRxrmry3
+            3fWNKr+/oaMxTbO8Nb0qEneUNeN1FyUXOpyegEeSDD91kcS8CwtlXPp4dQng3Dcwyw9zPVwcRfGu
+            5jflci/LLKNExslpDZApMIvRHd/xskE2HPfPPf7JnPQRWZ2IRvYJuOo+zGC3KXKCx+y9MgOPm7+r
+            laIObwIDAQAB
         </rsa-public-key>
         <rsa-public-key sha-256="0dc5da0c7165d66ccf24b6e10147c0a80ccf27dfd77cb3434fdaf4c0e48af123">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqDGtAmoFU2RvSuOhl9UUltFKG4cKsOqq
