@@ -10661,7 +10661,7 @@
         <apis-implemented>
             <iaa1:iias-approval
                 xmlns:iaa1="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
-                version="0.2.1"
+                version="1.0.0"
             >
                 <iaa1:http-security>
                     <sec:client-auth-methods>
@@ -10673,9 +10673,72 @@
                         <sec-B1:tlscert/>
                     </sec:server-auth-methods>
                 </iaa1:http-security>
-                <iaa1:url>https://www.service4mobility.com/mobility_connect/ewp/iias/approve</iaa1:url>
+                <iaa1:url>https://www.service4mobility.com/mobility_connect/ewp/iias-approval-v1/get</iaa1:url>
                 <iaa1:max-iia-ids>3</iaa1:max-iia-ids>
             </iaa1:iias-approval>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>aarch.dk</hei-id>
+            <hei-id>usamvcluj.ro</hei-id>
+            <hei-id>unak.is</hei-id>
+            <hei-id>utcluj.ro</hei-id>
+            <hei-id>eu.edu.ge</hei-id>
+            <hei-id>zsem.hr</hei-id>
+            <hei-id>haaga-helia.fi</hei-id>
+            <hei-id>aec-music.eu</hei-id>
+            <hei-id>uni-bge.hu</hei-id>
+            <hei-id>usi.ch</hei-id>
+            <hei-id>mta.ro</hei-id>
+            <hei-id>fernuni-hagen.de</hei-id>
+            <hei-id>hs-bochum.de</hei-id>
+            <hei-id>ib-hochschule.de</hei-id>
+            <hei-id>uel.ac.uk</hei-id>
+            <hei-id>kphgraz.at</hei-id>
+            <hei-id>ph-kaernten.ac.at</hei-id>
+            <hei-id>rgsl.edu.lv</hei-id>
+            <hei-id>unibz.it</hei-id>
+            <hei-id>em-normandie.fr</hei-id>
+            <hei-id>umfst.ro</hei-id>
+            <hei-id>jade-hs.de</hei-id>
+            <hei-id>sepr.edu</hei-id>
+            <hei-id>vmi.at</hei-id>
+            <hei-id>ipac-france.com</hei-id>
+            <hei-id>polizei.sachsen.de</hei-id>
+            <hei-id>limayrac.fr</hei-id>
+            <hei-id>ufg.at</hei-id>
+            <hei-id>fhgooe.ac.at</hei-id>
+            <hei-id>haydnkons.at</hei-id>
+            <hei-id>uol.de</hei-id>
+            <hei-id>filmuniversitaet.de</hei-id>
+            <hei-id>ph-burgenland.at</hei-id>
+            <hei-id>asp.gda.pl</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="9497576369d8a978672bdceaa2f2fbf5ff5966ff854d1bec7a7b964ef67b0df2"/>
+            <rsa-public-key sha-256="769c7a9c8bac71a238ea9e78dda3e49bcabbaf695f56fbc99dd4d6e8f777756a"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="769c7a9c8bac71a238ea9e78dda3e49bcabbaf695f56fbc99dd4d6e8f777756a"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <iaac1:iia-approval-cnr
+                xmlns:iaac1="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <iaac1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </iaac1:http-security>
+                <iaac1:url>https://www.service4mobility.com/mobility_connect/ewp/iias-approval-cnr-v1/cnr</iaac1:url>
+            </iaac1:iia-approval-cnr>
         </apis-implemented>
         <institutions-covered>
             <hei-id>aarch.dk</hei-id>
