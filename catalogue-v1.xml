@@ -23642,6 +23642,240 @@
             <rsa-public-key sha-256="efea7f7bf29a012f25a03cec2156e0e068814108730b23f6fed2dac994a44034"/>
         </server-credentials-in-use>
     </host>
+    <host>
+        <ewp:admin-email>michal.kubiak@ue.poznan.pl</ewp:admin-email>
+        <apis-implemented>
+            <d5:discovery version="5.0.0">
+                <d5:url>https://ewp.ue.poznan.pl/ewp/manifest</d5:url>
+            </d5:discovery>
+            <e2:echo version="2.0.0">
+                <e2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </e2:http-security>
+                <e2:url>https://ewp.ue.poznan.pl/ewp/echo</e2:url>
+            </e2:echo>
+            <im1:imobilities
+                xmlns:im1="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v1/manifest-entry.xsd"
+                version="0.3.0"
+            >
+                <im1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </im1:http-security>
+                <im1:get-url>https://ewp.ue.poznan.pl/ewp/imobilities/get</im1:get-url>
+                <im1:max-omobility-ids>100</im1:max-omobility-ids>
+                <im1:sends-notifications/>
+            </im1:imobilities>
+            <imc1:imobility-cnr
+                xmlns:imc1="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="0.1.1"
+            >
+                <imc1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </imc1:http-security>
+                <imc1:url>https://ewp.ue.poznan.pl/ewp/imobilities/cnr</imc1:url>
+                <imc1:max-omobility-ids>100</imc1:max-omobility-ids>
+            </imc1:imobility-cnr>
+            <in2:institutions version="2.1.0">
+                <in2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </in2:http-security>
+                <in2:url>https://ewp.ue.poznan.pl/ewp/institutions</in2:url>
+                <in2:max-hei-ids>1</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.1.0">
+                <ou2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </ou2:http-security>
+                <ou2:url>https://ewp.ue.poznan.pl/ewp/ounits</ou2:url>
+                <ou2:max-ounit-ids>100</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>100</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+            <ia3:iias
+                xmlns:ia3="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v3/manifest-entry.xsd"
+                version="3.0.0"
+            >
+                <ia3:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </ia3:http-security>
+                <ia3:get-url>https://ewp.ue.poznan.pl/ewp/iia/get</ia3:get-url>
+                <ia3:max-iia-ids>100</ia3:max-iia-ids>
+                <ia3:max-iia-codes>100</ia3:max-iia-codes>
+                <ia3:index-url>https://ewp.ue.poznan.pl/ewp/iia/index</ia3:index-url>
+                <ia3:sends-notifications/>
+            </ia3:iias>
+            <iac2:iia-cnr version="2.0.2">
+                <iac2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </iac2:http-security>
+                <iac2:url>https://ewp.ue.poznan.pl/ewp/iia/cnr</iac2:url>
+            </iac2:iia-cnr>
+            <iaac1:iia-approval-cnr
+                xmlns:iaac1="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="0.2.0"
+            >
+                <iaac1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </iaac1:http-security>
+                <iaac1:url>https://ewp.ue.poznan.pl/ewp/iia/approval/cnr</iaac1:url>
+            </iaac1:iia-approval-cnr>
+            <om1:omobilities
+                xmlns:om1="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <om1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </om1:http-security>
+                <om1:get-url>https://ewp.ue.poznan.pl/ewp/omobilities/get</om1:get-url>
+                <om1:index-url>https://ewp.ue.poznan.pl/ewp/omobilities/index</om1:index-url>
+                <om1:max-omobility-ids>100</om1:max-omobility-ids>
+                <om1:sends-notifications/>
+            </om1:omobilities>
+            <omc1:omobility-cnr
+                xmlns:omc1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <omc1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </omc1:http-security>
+                <omc1:url>https://ewp.ue.poznan.pl/ewp/omobilities/cnr</omc1:url>
+                <omc1:max-omobility-ids>100</omc1:max-omobility-ids>
+            </omc1:omobility-cnr>
+            <co1:courses
+                xmlns:co1="https://github.com/erasmus-without-paper/ewp-specs-api-courses/blob/stable-v1/manifest-entry.xsd"
+                version="0.7.1"
+            >
+                <co1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </co1:http-security>
+                <co1:url>https://ewp.ue.poznan.pl/ewp/courses</co1:url>
+                <co1:max-los-ids>100</co1:max-los-ids>
+                <co1:max-los-codes>100</co1:max-los-codes>
+            </co1:courses>
+            <imt1:imobility-tors
+                xmlns:imt1="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-tors/blob/stable-v1/manifest-entry.xsd"
+                version="0.7.0"
+            >
+                <imt1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </imt1:http-security>
+                <imt1:get-url>https://ewp.ue.poznan.pl/ewp/tors/get</imt1:get-url>
+                <imt1:index-url>https://ewp.ue.poznan.pl/ewp/tors/index</imt1:index-url>
+                <imt1:max-omobility-ids>10</imt1:max-omobility-ids>
+                <imt1:sends-notifications/>
+            </imt1:imobility-tors>
+            <imtc1:imobility-tor-cnr
+                xmlns:imtc1="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-tor-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="0.1.1"
+            >
+                <imtc1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </imtc1:http-security>
+                <imtc1:url>https://ewp.ue.poznan.pl/ewp/tors/cnr</imtc1:url>
+                <imtc1:max-omobility-ids>10</imtc1:max-omobility-ids>
+            </imtc1:imobility-tor-cnr>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>ue.poznan.pl</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="b0f3421e593c88a184ab29a94d9857fdea2c4fbce1358a0b73b28e4573974e1e"/>
+            <rsa-public-key sha-256="b5d77582c0b398fccfd3e09cf9305773033e15fbe75545ae21d2d41515867b5c"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="b5d77582c0b398fccfd3e09cf9305773033e15fbe75545ae21d2d41515867b5c"/>
+        </server-credentials-in-use>
+    </host>
     <institutions>
         <hei id="29mayis.tr">
             <other-id type="erasmus">TR ISTANBU43</other-id>
@@ -28761,7 +28995,10 @@
         </hei>
         <hei id="ue.poznan.pl">
             <other-id type="erasmus">PL POZNAN03</other-id>
+            <other-id type="pic">999839723</other-id>
             <name>UNIWERSYTET EKONOMICZNY W POZNANIU</name>
+            <name xml:lang="en">Poznań University of Economics</name>
+            <name xml:lang="pl">Uniwersytet Ekonomiczny w Poznaniu</name>
         </hei>
         <hei id="ue.wroc.pl">
             <other-id type="erasmus">PL WROCLAW03</other-id>
@@ -31123,6 +31360,14 @@
             xAWWxXWzXeNUBDTCOuTUznXFbhtSyJ3fx8zdeXC6/RXajyAGD7t6YHieRxtc91bkHaNvDkTzrEHL
             gXlsPx9cHnEqBwYKB1D/CiGP+i9z5vlB/FjML8+DK4ceA47IPZ1OUE1RC+C8tua78qiipjiDwCu/
             5tlOirnvxbgdKTeLmtFdno+HAgMBAAE=
+        </rsa-public-key>
+        <rsa-public-key sha-256="b5d77582c0b398fccfd3e09cf9305773033e15fbe75545ae21d2d41515867b5c">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqEnFFvqTD2vKRqvx3qEwYC16Cc+kIlIO
+            PsWhX48BPxfR8lXTTLldLsu14pb7qMCYagqDlo9O6ogd8O+w/H1QYnpriYI3mN6eGZp2dSmxXcPR
+            OzpsHBjXrauHUtDdC+t9xfnkGPdQrks9AgA9PynrgXoZ1KfeiJRUWWd/eW2EX5WLe/BxeOR7s+mI
+            EWZINWQL8quq03+1jUhFgABh30pMftHuKSwpqLZUBPiJdoK4tWVO8DG5/wsPhO462C4elCnM1nm3
+            ZsSRVSYTFN8QKCZNsf4/QPRPf29Ewt97ZGb9RYrgRQ8U3oV5sN+i7MsR+LCeAj9sZl91n2G7A/O6
+            cjb2YwIDAQAB
         </rsa-public-key>
         <rsa-public-key sha-256="b6ef9808b999d46b24a47737451012987b9edb40562e963d204111fa9f7eacf1">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1V84fXYVQIT9tUJu9IWBxGggkeekP7A6
