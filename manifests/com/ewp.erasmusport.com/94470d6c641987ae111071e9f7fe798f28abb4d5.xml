@@ -108,7 +108,6 @@
         <max-iia-ids>1</max-iia-ids>
         <max-iia-codes>1</max-iia-codes>
         <index-url>https://ewp.erasmusport.com/iias/index</index-url>
-        <sends-notifications/>
       </iias>
       <iias-approval xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd" version="1.0.0">
         <http-security>
@@ -210,7 +209,7 @@
         <url>https://ewp.erasmusport.com/omobility/cnr</url>
         <max-omobility-ids>1</max-omobility-ids>
       </omobility-cnr>
-      <omobility-las xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd" version="0.3.0">
+      <omobility-las xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd" version="1.0.1">
         <http-security>
           <sec:client-auth-methods>
             <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1" allows-self-signed="true"/>
@@ -259,46 +258,6 @@
       </omobility-la-cnr>
     </r:apis-implemented>
     <institutions-covered>
-      <r:hei id="ankara.edu.tr">
-        <r:other-id type="pic">999867659</r:other-id>
-        <r:other-id type="erasmus">TR ANKARA01</r:other-id>
-        <r:other-id type="euc"/>
-        <r:other-id type="eche">222193-EPP-1-2014-1-TR-EPPKA3-ECHE</r:other-id>
-        <r:name xml:lang="en">Ankara University</r:name>
-        <r:name xml:lang="tr">Ankara Üniversitesi</r:name>
-      </r:hei>
-      <r:hei id="gazi.edu.tr">
-        <r:other-id type="pic">998174233</r:other-id>
-        <r:other-id type="erasmus">TR ANKARA02</r:other-id>
-        <r:other-id type="euc"/>
-        <r:other-id type="eche">221208–EPP–1–2014–1–TR– EPPKA3 ECHE</r:other-id>
-        <r:name xml:lang="en">Gazi University</r:name>
-        <r:name xml:lang="tr">Gazi Üniversitesi</r:name>
-      </r:hei>
-      <r:hei id="kent.edu.tr">
-        <r:other-id type="pic">900701455</r:other-id>
-        <r:other-id type="erasmus">TR ISTANBU65</r:other-id>
-        <r:other-id type="euc"/>
-        <r:other-id type="eche">272884-EPP-1-2020-1-TR-EPPKA1-ECHE</r:other-id>
-        <r:name xml:lang="en">Istanbul Kent University</r:name>
-        <r:name xml:lang="tr">İstanbul Kent Üniversitesi</r:name>
-      </r:hei>
-      <r:hei id="eskisehir.edu.tr">
-        <r:other-id type="pic">905429332</r:other-id>
-        <r:other-id type="erasmus">TR ESKISEH03</r:other-id>
-        <r:other-id type="euc"/>
-        <r:other-id type="eche">272864-EPP-1-2020-1-TR-EPPKA1-ECHE</r:other-id>
-        <r:name xml:lang="en">Eskisehir Technical University</r:name>
-        <r:name xml:lang="tr">Eskişehir Teknik Üniversitesi</r:name>
-      </r:hei>
-      <r:hei id="ticaret.edu.tr">
-        <r:other-id type="pic">954476412</r:other-id>
-        <r:other-id type="erasmus">TR ISTANBU10</r:other-id>
-        <r:other-id type="euc"/>
-        <r:other-id type="eche">223577-EPP-1-2014-1-TR-EPPKA3-ECHE</r:other-id>
-        <r:name xml:lang="en">Istanbul Ticaret University</r:name>
-        <r:name xml:lang="tr">İstanbul Ticaret Üniversitesi</r:name>
-      </r:hei>
       <r:hei id="beun.edu.tr">
         <r:other-id type="pic">949387404</r:other-id>
         <r:other-id type="erasmus">TR ZONGULD01</r:other-id>
@@ -323,13 +282,13 @@
         <r:name xml:lang="en">Manisa Celal Bayar University</r:name>
         <r:name xml:lang="tr">Manisa Celal Bayar Üniversitesi</r:name>
       </r:hei>
-      <r:hei id="ege.edu.tr">
-        <r:other-id type="pic">949482076</r:other-id>
-        <r:other-id type="erasmus">TR IZMIR02</r:other-id>
+      <r:hei id="kent.edu.tr">
+        <r:other-id type="pic">900701455</r:other-id>
+        <r:other-id type="erasmus">TR ISTANBU65</r:other-id>
         <r:other-id type="euc"/>
-        <r:other-id type="eche">221398-EPP-1-2014-1-TR-EPPKA3-ECHE</r:other-id>
-        <r:name xml:lang="en">Ege University</r:name>
-        <r:name xml:lang="tr">Ege Üniversitesi</r:name>
+        <r:other-id type="eche">272884-EPP-1-2020-1-TR-EPPKA1-ECHE</r:other-id>
+        <r:name xml:lang="en">Istanbul Kent University</r:name>
+        <r:name xml:lang="tr">İstanbul Kent Üniversitesi</r:name>
       </r:hei>
       <r:hei id="anadolu.edu.tr">
         <r:other-id type="pic">983142434</r:other-id>
@@ -338,6 +297,46 @@
         <r:other-id type="eche">220126-EPP-1-2014-1-TR-EPPKA3-ECHE</r:other-id>
         <r:name xml:lang="en">Anadolu University</r:name>
         <r:name xml:lang="tr">Anadolu Üniversitesi</r:name>
+      </r:hei>
+      <r:hei id="gazi.edu.tr">
+        <r:other-id type="pic">998174233</r:other-id>
+        <r:other-id type="erasmus">TR ANKARA02</r:other-id>
+        <r:other-id type="euc"/>
+        <r:other-id type="eche">221208–EPP–1–2014–1–TR– EPPKA3 ECHE</r:other-id>
+        <r:name xml:lang="en">Gazi University</r:name>
+        <r:name xml:lang="tr">Gazi Üniversitesi</r:name>
+      </r:hei>
+      <r:hei id="eskisehir.edu.tr">
+        <r:other-id type="pic">905429332</r:other-id>
+        <r:other-id type="erasmus">TR ESKISEH03</r:other-id>
+        <r:other-id type="euc"/>
+        <r:other-id type="eche">272864-EPP-1-2020-1-TR-EPPKA1-ECHE</r:other-id>
+        <r:name xml:lang="en">Eskisehir Technical University</r:name>
+        <r:name xml:lang="tr">Eskişehir Teknik Üniversitesi</r:name>
+      </r:hei>
+      <r:hei id="ege.edu.tr">
+        <r:other-id type="pic">949482076</r:other-id>
+        <r:other-id type="erasmus">TR IZMIR02</r:other-id>
+        <r:other-id type="euc"/>
+        <r:other-id type="eche">221398-EPP-1-2014-1-TR-EPPKA3-ECHE</r:other-id>
+        <r:name xml:lang="en">Ege University</r:name>
+        <r:name xml:lang="tr">Ege Üniversitesi</r:name>
+      </r:hei>
+      <r:hei id="ticaret.edu.tr">
+        <r:other-id type="pic">954476412</r:other-id>
+        <r:other-id type="erasmus">TR ISTANBU10</r:other-id>
+        <r:other-id type="euc"/>
+        <r:other-id type="eche">223577-EPP-1-2014-1-TR-EPPKA3-ECHE</r:other-id>
+        <r:name xml:lang="en">Istanbul Ticaret University</r:name>
+        <r:name xml:lang="tr">İstanbul Ticaret Üniversitesi</r:name>
+      </r:hei>
+      <r:hei id="ankara.edu.tr">
+        <r:other-id type="pic">999867659</r:other-id>
+        <r:other-id type="erasmus">TR ANKARA01</r:other-id>
+        <r:other-id type="euc"/>
+        <r:other-id type="eche">222193-EPP-1-2014-1-TR-EPPKA3-ECHE</r:other-id>
+        <r:name xml:lang="en">Ankara University</r:name>
+        <r:name xml:lang="tr">Ankara Üniversitesi</r:name>
       </r:hei>
     </institutions-covered>
     <client-credentials-in-use>
