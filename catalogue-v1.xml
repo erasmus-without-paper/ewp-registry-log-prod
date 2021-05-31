@@ -11633,17 +11633,14 @@
     <host>
         <ewp:admin-email>oasis-ewp@ugent.be</ewp:admin-email>
         <apis-implemented>
-            <d5:discovery version="5.0.0">
-                <d5:url>https://ewp.ugent.be/public-api/discovery/manifest.xml</d5:url>
-            </d5:discovery>
             <e2:echo version="2.0.0">
                 <e2:http-security>
                     <sec:client-auth-methods>
                         <sec-A2:httpsig/>
                     </sec:client-auth-methods>
                     <sec:server-auth-methods>
-                        <sec-B1:tlscert/>
                         <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
                     </sec:server-auth-methods>
                 </e2:http-security>
                 <e2:url>https://ewp.ugent.be/secure-api/echo</e2:url>
@@ -11654,8 +11651,8 @@
                         <sec-A2:httpsig/>
                     </sec:client-auth-methods>
                     <sec:server-auth-methods>
-                        <sec-B1:tlscert/>
                         <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
                     </sec:server-auth-methods>
                 </in2:http-security>
                 <in2:url>https://ewp.ugent.be/secure-api/institutions</in2:url>
@@ -11667,14 +11664,17 @@
                         <sec-A2:httpsig/>
                     </sec:client-auth-methods>
                     <sec:server-auth-methods>
-                        <sec-B1:tlscert/>
                         <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
                     </sec:server-auth-methods>
                 </ou2:http-security>
                 <ou2:url>https://ewp.ugent.be/secure-api/ounits</ou2:url>
                 <ou2:max-ounit-ids>1</ou2:max-ounit-ids>
                 <ou2:max-ounit-codes>1</ou2:max-ounit-codes>
             </ou2:organizational-units>
+            <d5:discovery version="5.0.0">
+                <d5:url>https://ewp.ugent.be/public-api/discovery/manifest.xml</d5:url>
+            </d5:discovery>
         </apis-implemented>
         <institutions-covered>
             <hei-id>ugent.be</hei-id>
