@@ -1,90 +1,75 @@
-<ns23:manifest
-    xmlns:ns23="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v5"
+<ns8:manifest
+    xmlns:ns8="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v5"
     xmlns="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
-    xmlns:ns10="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/blob/stable-v2/manifest-entry.xsd"
-    xmlns:ns11="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/blob/stable-v1/manifest-entry.xsd"
-    xmlns:ns12="https://github.com/erasmus-without-paper/ewp-specs-api-iia-cnr/blob/stable-v2/manifest-entry.xsd"
-    xmlns:ns13="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
-    xmlns:ns14="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v5/manifest-entry.xsd"
-    xmlns:ns15="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd"
-    xmlns:ns16="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v3/manifest-entry.xsd"
-    xmlns:ns17="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v5/manifest-entry.xsd"
-    xmlns:ns18="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v4/manifest-entry.xsd"
-    xmlns:ns19="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v6/manifest-entry.xsd"
+    xmlns:ns10="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
+    xmlns:ns11="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
     xmlns:ns2="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
-    xmlns:ns20="https://github.com/erasmus-without-paper/ewp-specs-api-mobilities/blob/stable-v1/manifest-entry.xsd"
-    xmlns:ns21="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v1/manifest-entry.xsd"
-    xmlns:ns22="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
-    xmlns:ns24="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
-    xmlns:ns25="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
-    xmlns:ns26="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
     xmlns:ns3="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd"
-    xmlns:ns4="https://github.com/erasmus-without-paper/ewp-specs-api-institutions/blob/master/manifest-entry.xsd"
-    xmlns:ns5="https://github.com/erasmus-without-paper/ewp-specs-api-institutions/blob/stable-v2/manifest-entry.xsd"
-    xmlns:ns6="https://github.com/erasmus-without-paper/ewp-specs-api-institutions/blob/stable-v1/manifest-entry.xsd"
-    xmlns:ns7="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/blob/stable-v1/manifest-entry.xsd"
-    xmlns:ns8="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v1/manifest-entry.xsd"
-    xmlns:ns9="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/blob/master/manifest-entry.xsd"
+    xmlns:ns4="https://github.com/erasmus-without-paper/ewp-specs-api-institutions/blob/stable-v2/manifest-entry.xsd"
+    xmlns:ns5="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/blob/stable-v2/manifest-entry.xsd"
+    xmlns:ns6="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v5/manifest-entry.xsd"
+    xmlns:ns7="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
+    xmlns:ns9="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
 >
-    <ns23:host>
+    <ns8:host>
         <admin-email>oasis-ewp@ugent.be</admin-email>
-        <ns22:apis-implemented>
+        <ns7:apis-implemented>
             <ns3:echo version="2.0.0">
                 <ns3:http-security>
                     <ns2:client-auth-methods>
-                        <ns24:httpsig/>
+                        <ns9:httpsig/>
                     </ns2:client-auth-methods>
                     <ns2:server-auth-methods>
-                        <ns25:httpsig/>
-                        <ns26:tlscert/>
+                        <ns10:httpsig/>
+                        <ns11:tlscert/>
                     </ns2:server-auth-methods>
                 </ns3:http-security>
                 <ns3:url>https://ewp.ugent.be/secure-api/echo</ns3:url>
             </ns3:echo>
-            <ns5:institutions version="2.0.0">
+            <ns4:institutions version="2.0.0">
+                <ns4:http-security>
+                    <ns2:client-auth-methods>
+                        <ns9:httpsig/>
+                    </ns2:client-auth-methods>
+                    <ns2:server-auth-methods>
+                        <ns10:httpsig/>
+                        <ns11:tlscert/>
+                    </ns2:server-auth-methods>
+                </ns4:http-security>
+                <ns4:url>https://ewp.ugent.be/secure-api/institutions</ns4:url>
+                <ns4:max-hei-ids>1</ns4:max-hei-ids>
+            </ns4:institutions>
+            <ns5:organizational-units version="2.0.0">
                 <ns5:http-security>
                     <ns2:client-auth-methods>
-                        <ns24:httpsig/>
+                        <ns9:httpsig/>
                     </ns2:client-auth-methods>
                     <ns2:server-auth-methods>
-                        <ns25:httpsig/>
-                        <ns26:tlscert/>
+                        <ns10:httpsig/>
+                        <ns11:tlscert/>
                     </ns2:server-auth-methods>
                 </ns5:http-security>
-                <ns5:url>https://ewp.ugent.be/secure-api/institutions</ns5:url>
-                <ns5:max-hei-ids>1</ns5:max-hei-ids>
-            </ns5:institutions>
-            <ns10:organizational-units version="2.0.0">
-                <ns10:http-security>
-                    <ns2:client-auth-methods>
-                        <ns24:httpsig/>
-                    </ns2:client-auth-methods>
-                    <ns2:server-auth-methods>
-                        <ns25:httpsig/>
-                        <ns26:tlscert/>
-                    </ns2:server-auth-methods>
-                </ns10:http-security>
-                <ns10:url>https://ewp.ugent.be/secure-api/ounits</ns10:url>
-                <ns10:max-ounit-ids>1</ns10:max-ounit-ids>
-                <ns10:max-ounit-codes>1</ns10:max-ounit-codes>
-            </ns10:organizational-units>
-            <ns14:discovery version="5.0.0">
-                <ns14:url>https://ewp.ugent.be/public-api/discovery/manifest.xml</ns14:url>
-            </ns14:discovery>
-        </ns22:apis-implemented>
-        <ns23:institutions-covered>
-            <ns22:hei id="ugent.be">
-                <ns22:other-id type="erasmus">B  GENT01</ns22:other-id>
-                <ns22:other-id type="pic">999986096</ns22:other-id>
-                <ns22:name xml:lang="nl">Universiteit Gent</ns22:name>
-                <ns22:name xml:lang="en">Ghent University</ns22:name>
-            </ns22:hei>
-        </ns23:institutions-covered>
-        <ns23:client-credentials-in-use>
-            <ns23:rsa-public-key>MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA2VV8iIHvS4hy6KvrMQEE5rQZdHKAusaNtqJNL0B1BLwaHPrs9sqbLbhXTdZdOSsfXy/wA8oEeVFvOWmv4Hs2ByYA4HCvmCSosn/bTB0P2uVFRahAhL55YcW3YaZCu3WvVVvdxeEn0Go5hgk0K5/UawT1ai0pTU4iDLI6PobzmNWNalZkP6IZyQmL5K9UXBA1d+vu6S/cGDhKqoh+CKdEdBVNRL3qbN36UIKGz1p7/EzSQxWJ7HhmIJVWFKUisVf+FPYQG0vTCsR2OlXHkDjpIJIjQCCb2idG4dmpK1Tv2YHdH4XaDEhCLPTCB4SJgM6o+iZ/tQMxhmp6DLcTZ3IwWIehJqwAUAJsLlwo7svoYJ9scS9YOD/6JvumBoNhwAc2PV/QY92q2Z/su0vWIGUZpX3Fyvx0qoq3yNXUo/J13awnXY9iSJE1BrTqXO2tTc264S54IJkbtz0UMn+2DJyo51avVr9fBJYamNJVmKyJ7KdPZGvu8K5A/Qod3lCPTWyK4L9+mBTo4HCcvBVT+quA6/ljcN3zln3X7Eg5/bhPJROzJ+ateLLwWU1TXyIpT5k2IGUQgHjUVlpO44ZEY3my5CsWhcjacp6xFE30DqwYHQMAMPg74fLswGudg+VPF78IjMVoP0LKILRtw5pGdfm0LMDCO/oOw07VtpAU5ny+xfUCAwEAAQ==</ns23:rsa-public-key>
-        </ns23:client-credentials-in-use>
-        <ns23:server-credentials-in-use>
-            <ns23:rsa-public-key>MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA2VV8iIHvS4hy6KvrMQEE5rQZdHKAusaNtqJNL0B1BLwaHPrs9sqbLbhXTdZdOSsfXy/wA8oEeVFvOWmv4Hs2ByYA4HCvmCSosn/bTB0P2uVFRahAhL55YcW3YaZCu3WvVVvdxeEn0Go5hgk0K5/UawT1ai0pTU4iDLI6PobzmNWNalZkP6IZyQmL5K9UXBA1d+vu6S/cGDhKqoh+CKdEdBVNRL3qbN36UIKGz1p7/EzSQxWJ7HhmIJVWFKUisVf+FPYQG0vTCsR2OlXHkDjpIJIjQCCb2idG4dmpK1Tv2YHdH4XaDEhCLPTCB4SJgM6o+iZ/tQMxhmp6DLcTZ3IwWIehJqwAUAJsLlwo7svoYJ9scS9YOD/6JvumBoNhwAc2PV/QY92q2Z/su0vWIGUZpX3Fyvx0qoq3yNXUo/J13awnXY9iSJE1BrTqXO2tTc264S54IJkbtz0UMn+2DJyo51avVr9fBJYamNJVmKyJ7KdPZGvu8K5A/Qod3lCPTWyK4L9+mBTo4HCcvBVT+quA6/ljcN3zln3X7Eg5/bhPJROzJ+ateLLwWU1TXyIpT5k2IGUQgHjUVlpO44ZEY3my5CsWhcjacp6xFE30DqwYHQMAMPg74fLswGudg+VPF78IjMVoP0LKILRtw5pGdfm0LMDCO/oOw07VtpAU5ny+xfUCAwEAAQ==</ns23:rsa-public-key>
-        </ns23:server-credentials-in-use>
-    </ns23:host>
-</ns23:manifest>
+                <ns5:url>https://ewp.ugent.be/secure-api/ounits</ns5:url>
+                <ns5:max-ounit-ids>1</ns5:max-ounit-ids>
+                <ns5:max-ounit-codes>1</ns5:max-ounit-codes>
+            </ns5:organizational-units>
+            <ns6:discovery version="5.0.0">
+                <ns6:url>https://ewp.ugent.be/public-api/discovery/manifest.xml</ns6:url>
+            </ns6:discovery>
+        </ns7:apis-implemented>
+        <ns8:institutions-covered>
+            <ns7:hei id="ugent.be">
+                <ns7:other-id type="erasmus">B  GENT01</ns7:other-id>
+                <ns7:other-id type="pic">999986096</ns7:other-id>
+                <ns7:name xml:lang="nl">Universiteit Gent</ns7:name>
+                <ns7:name xml:lang="en">Ghent University</ns7:name>
+            </ns7:hei>
+        </ns8:institutions-covered>
+        <ns8:client-credentials-in-use>
+            <ns8:rsa-public-key>MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA2VV8iIHvS4hy6KvrMQEE5rQZdHKAusaNtqJNL0B1BLwaHPrs9sqbLbhXTdZdOSsfXy/wA8oEeVFvOWmv4Hs2ByYA4HCvmCSosn/bTB0P2uVFRahAhL55YcW3YaZCu3WvVVvdxeEn0Go5hgk0K5/UawT1ai0pTU4iDLI6PobzmNWNalZkP6IZyQmL5K9UXBA1d+vu6S/cGDhKqoh+CKdEdBVNRL3qbN36UIKGz1p7/EzSQxWJ7HhmIJVWFKUisVf+FPYQG0vTCsR2OlXHkDjpIJIjQCCb2idG4dmpK1Tv2YHdH4XaDEhCLPTCB4SJgM6o+iZ/tQMxhmp6DLcTZ3IwWIehJqwAUAJsLlwo7svoYJ9scS9YOD/6JvumBoNhwAc2PV/QY92q2Z/su0vWIGUZpX3Fyvx0qoq3yNXUo/J13awnXY9iSJE1BrTqXO2tTc264S54IJkbtz0UMn+2DJyo51avVr9fBJYamNJVmKyJ7KdPZGvu8K5A/Qod3lCPTWyK4L9+mBTo4HCcvBVT+quA6/ljcN3zln3X7Eg5/bhPJROzJ+ateLLwWU1TXyIpT5k2IGUQgHjUVlpO44ZEY3my5CsWhcjacp6xFE30DqwYHQMAMPg74fLswGudg+VPF78IjMVoP0LKILRtw5pGdfm0LMDCO/oOw07VtpAU5ny+xfUCAwEAAQ==</ns8:rsa-public-key>
+        </ns8:client-credentials-in-use>
+        <ns8:server-credentials-in-use>
+            <ns8:rsa-public-key>MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA2VV8iIHvS4hy6KvrMQEE5rQZdHKAusaNtqJNL0B1BLwaHPrs9sqbLbhXTdZdOSsfXy/wA8oEeVFvOWmv4Hs2ByYA4HCvmCSosn/bTB0P2uVFRahAhL55YcW3YaZCu3WvVVvdxeEn0Go5hgk0K5/UawT1ai0pTU4iDLI6PobzmNWNalZkP6IZyQmL5K9UXBA1d+vu6S/cGDhKqoh+CKdEdBVNRL3qbN36UIKGz1p7/EzSQxWJ7HhmIJVWFKUisVf+FPYQG0vTCsR2OlXHkDjpIJIjQCCb2idG4dmpK1Tv2YHdH4XaDEhCLPTCB4SJgM6o+iZ/tQMxhmp6DLcTZ3IwWIehJqwAUAJsLlwo7svoYJ9scS9YOD/6JvumBoNhwAc2PV/QY92q2Z/su0vWIGUZpX3Fyvx0qoq3yNXUo/J13awnXY9iSJE1BrTqXO2tTc264S54IJkbtz0UMn+2DJyo51avVr9fBJYamNJVmKyJ7KdPZGvu8K5A/Qod3lCPTWyK4L9+mBTo4HCcvBVT+quA6/ljcN3zln3X7Eg5/bhPJROzJ+ateLLwWU1TXyIpT5k2IGUQgHjUVlpO44ZEY3my5CsWhcjacp6xFE30DqwYHQMAMPg74fLswGudg+VPF78IjMVoP0LKILRtw5pGdfm0LMDCO/oOw07VtpAU5ny+xfUCAwEAAQ==</ns8:rsa-public-key>
+        </ns8:server-credentials-in-use>
+    </ns8:host>
+</ns8:manifest>
