@@ -5400,6 +5400,118 @@
     </host>
     <host>
         <apis-implemented>
+            <ou2:organizational-units version="2.1.1">
+                <ou2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </ou2:http-security>
+                <ou2:url>https://mobility.thi.de/mobility/ewp/ounits</ou2:url>
+                <ou2:max-ounit-ids>3</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>3</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>thi.de</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="af86c0cd64111c338ae04bc5a1453899c4083c53aecbe76abe8fa6e34d976e7f"/>
+            <rsa-public-key sha-256="3a77236856bb6efc7a0dbdb93ce3217526eac0df4c3e97d2ec724a0072ecaf37"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="3a77236856bb6efc7a0dbdb93ce3217526eac0df4c3e97d2ec724a0072ecaf37"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <om1:omobilities
+                xmlns:om1="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <om1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </om1:http-security>
+                <om1:get-url>https://mobility.thi.de/mobility/ewp/mobility_out/get</om1:get-url>
+                <om1:index-url>https://mobility.thi.de/mobility/ewp/mobility_out/index</om1:index-url>
+                <om1:max-omobility-ids>1</om1:max-omobility-ids>
+                <om1:sends-notifications/>
+            </om1:omobilities>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>thi.de</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="af86c0cd64111c338ae04bc5a1453899c4083c53aecbe76abe8fa6e34d976e7f"/>
+            <rsa-public-key sha-256="3a77236856bb6efc7a0dbdb93ce3217526eac0df4c3e97d2ec724a0072ecaf37"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="3a77236856bb6efc7a0dbdb93ce3217526eac0df4c3e97d2ec724a0072ecaf37"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <oml1:omobility-las
+                xmlns:oml1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <oml1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </oml1:http-security>
+                <oml1:get-url>https://mobility.thi.de/mobility/ewp/mobility_out_la/get</oml1:get-url>
+                <oml1:index-url>https://mobility.thi.de/mobility/ewp/mobility_out_la/index</oml1:index-url>
+                <oml1:update-url>https://mobility.thi.de/mobility/ewp/mobility_out_la/update</oml1:update-url>
+                <oml1:max-omobility-ids>1</oml1:max-omobility-ids>
+            </oml1:omobility-las>
+            <omlc1:omobility-la-cnr
+                xmlns:omlc1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="0.1.0"
+            >
+                <omlc1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </omlc1:http-security>
+                <omlc1:url>https://mobility.thi.de/mobility/ewp/mobility_out_la/cnr</omlc1:url>
+                <omlc1:max-omobility-ids>1</omlc1:max-omobility-ids>
+            </omlc1:omobility-la-cnr>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>thi.de</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="af86c0cd64111c338ae04bc5a1453899c4083c53aecbe76abe8fa6e34d976e7f"/>
+            <rsa-public-key sha-256="3a77236856bb6efc7a0dbdb93ce3217526eac0df4c3e97d2ec724a0072ecaf37"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="3a77236856bb6efc7a0dbdb93ce3217526eac0df4c3e97d2ec724a0072ecaf37"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
             <d5:discovery version="5.0.0">
                 <d5:url>https://mobility-online.hs-augsburg.de/mobility/ewp/manifest?api=all</d5:url>
             </d5:discovery>
