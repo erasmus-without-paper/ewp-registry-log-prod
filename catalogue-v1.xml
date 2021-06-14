@@ -5021,6 +5021,56 @@
     </host>
     <host>
         <apis-implemented>
+            <oml1:omobility-las
+                xmlns:oml1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <oml1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </oml1:http-security>
+                <oml1:get-url>https://www.uni-hildesheim.de/mobilityonline/ewp/mobility_out_la/get</oml1:get-url>
+                <oml1:index-url>https://www.uni-hildesheim.de/mobilityonline/ewp/mobility_out_la/index</oml1:index-url>
+                <oml1:update-url>https://www.uni-hildesheim.de/mobilityonline/ewp/mobility_out_la/update</oml1:update-url>
+                <oml1:max-omobility-ids>1</oml1:max-omobility-ids>
+            </oml1:omobility-las>
+            <omlc1:omobility-la-cnr
+                xmlns:omlc1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="0.1.0"
+            >
+                <omlc1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </omlc1:http-security>
+                <omlc1:url>https://www.uni-hildesheim.de/mobilityonline/ewp/mobility_out_la/cnr</omlc1:url>
+                <omlc1:max-omobility-ids>1</omlc1:max-omobility-ids>
+            </omlc1:omobility-la-cnr>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>uni-hildesheim.de</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="eba58b8dbd583f18f3e27de80986de42d0d829ba934a7a962215514d52467936"/>
+            <rsa-public-key sha-256="f40a5866a18e09dbc56ee5307b9b2c756dc4f2f802d52b007412893dcdd3ca23"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="f40a5866a18e09dbc56ee5307b9b2c756dc4f2f802d52b007412893dcdd3ca23"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
             <f1:factsheet
                 xmlns:f1="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
                 version="0.3.0"
