@@ -57777,6 +57777,37 @@
                 <e2:url>https://mobility.vu.nl/mobility/ewp/echo</e2:url>
             </e2:echo>
         </apis-implemented>
+        <institutions-covered>
+            <hei-id>vu.nl</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="d19335d0f2e562098ca9d1431336591404fe5f7ce8cfa9360d4ae436d274538b"/>
+            <rsa-public-key sha-256="f0ba610e00cdcfbb9e51535668492aa7f7f70f284a199127999718887feec09d"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="f0ba610e00cdcfbb9e51535668492aa7f7f70f284a199127999718887feec09d"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <in2:institutions version="2.1.0">
+                <in2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </in2:http-security>
+                <in2:url>https://mobility.vu.nl/mobility/ewp/institutions</in2:url>
+                <in2:max-hei-ids>3</in2:max-hei-ids>
+            </in2:institutions>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>vu.nl</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="d19335d0f2e562098ca9d1431336591404fe5f7ce8cfa9360d4ae436d274538b"/>
             <rsa-public-key sha-256="f0ba610e00cdcfbb9e51535668492aa7f7f70f284a199127999718887feec09d"/>
@@ -66536,7 +66567,10 @@
         </hei>
         <hei id="vu.nl">
             <other-id type="erasmus">NL AMSTERD02</other-id>
+            <other-id type="pic">954530344</other-id>
             <name>STICHTING VU</name>
+            <name xml:lang="en">Vrije Universiteit Amsterdam</name>
+            <name xml:lang="nl">Vrije Universiteit Amsterdam</name>
         </hei>
         <hei id="vub.be">
             <other-id type="erasmus">B BRUSSEL01</other-id>
