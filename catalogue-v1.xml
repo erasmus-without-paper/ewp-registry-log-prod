@@ -10731,6 +10731,56 @@
     </host>
     <host>
         <apis-implemented>
+            <oml1:omobility-las
+                xmlns:oml1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <oml1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </oml1:http-security>
+                <oml1:get-url>https://mobilityonline.uantwerpen.be/mobility/ewp/mobility_out_la/get</oml1:get-url>
+                <oml1:index-url>https://mobilityonline.uantwerpen.be/mobility/ewp/mobility_out_la/index</oml1:index-url>
+                <oml1:update-url>https://mobilityonline.uantwerpen.be/mobility/ewp/mobility_out_la/update</oml1:update-url>
+                <oml1:max-omobility-ids>1</oml1:max-omobility-ids>
+            </oml1:omobility-las>
+            <omlc1:omobility-la-cnr
+                xmlns:omlc1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="0.1.0"
+            >
+                <omlc1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </omlc1:http-security>
+                <omlc1:url>https://mobilityonline.uantwerpen.be/mobility/ewp/mobility_out_la/cnr</omlc1:url>
+                <omlc1:max-omobility-ids>1</omlc1:max-omobility-ids>
+            </omlc1:omobility-la-cnr>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>uantwerpen.be</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="3d803af5bdb7c100ed58ded373c5e4bcade635ae0821ce8406802671ebbb428b"/>
+            <rsa-public-key sha-256="502f65f554044704f9e0e2f2580f3f5465390797a39b41288cdf76f89c3ad4a7"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="502f65f554044704f9e0e2f2580f3f5465390797a39b41288cdf76f89c3ad4a7"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
             <f1:factsheet
                 xmlns:f1="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
                 version="0.3.0"
