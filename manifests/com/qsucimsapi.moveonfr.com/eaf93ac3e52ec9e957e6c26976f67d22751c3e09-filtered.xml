@@ -99,6 +99,12 @@
                 <r:other-id type="pic">949656676</r:other-id>
                 <r:name xml:lang="en">Institut d'Etudes Politiques de Rennes</r:name>
             </r:hei>
+            <r:hei id="icp.fr">
+                <r:other-id type="erasmus">F  PARIS052</r:other-id>
+                <r:other-id type="erasmus-charter">28612</r:other-id>
+                <r:other-id type="pic">949439396</r:other-id>
+                <r:name xml:lang="en">Institut Catholique de Paris</r:name>
+            </r:hei>
             <r:hei id="bordeaux-inp.fr">
                 <r:other-id type="erasmus">F  BORDEAU54</r:other-id>
                 <r:other-id type="erasmus-charter">256164</r:other-id>
@@ -277,6 +283,12 @@
                 <r:other-id type="pic">997576228</r:other-id>
                 <r:name xml:lang="en">Université de Technologie de Troyes</r:name>
             </r:hei>
+            <r:hei id="adbk.de">
+                <r:other-id type="erasmus">D  MUNCHEN04</r:other-id>
+                <r:other-id type="erasmus-charter">29685</r:other-id>
+                <r:other-id type="pic">947272416</r:other-id>
+                <r:name xml:lang="en">Akademie der Bildenden Künste München</r:name>
+            </r:hei>
             <r:hei id="ash-berlin.eu">
                 <r:other-id type="erasmus">D  BERLIN05</r:other-id>
                 <r:other-id type="erasmus-charter">29763</r:other-id>
@@ -414,6 +426,12 @@
                 <r:other-id type="erasmus-charter">29965</r:other-id>
                 <r:other-id type="pic">989910027</r:other-id>
                 <r:name xml:lang="en">Hochschule Harz - Hochschule für Angewandte Wissenschaften (FH)</r:name>
+            </r:hei>
+            <r:hei id="koor.hs-karlsruhe.de">
+                <r:other-id type="erasmus">D  KARLSRU05</r:other-id>
+                <r:other-id type="erasmus-charter">28173</r:other-id>
+                <r:other-id type="pic">997543927</r:other-id>
+                <r:name xml:lang="en">Hochschule Karlsruhe - Technik und Wirtschaft</r:name>
             </r:hei>
             <r:hei id="hwg-lu.de">
                 <r:other-id type="erasmus">D  LUDWIGH01</r:other-id>
@@ -1111,6 +1129,12 @@
                 <r:other-id type="erasmus-charter">258367</r:other-id>
                 <r:name xml:lang="en">HES-SO Haute École Spécialisée de Suisse Occidentale</r:name>
             </r:hei>
+            <r:hei id="uvigo.es">
+                <r:other-id type="erasmus">E  VIGO01</r:other-id>
+                <r:other-id type="erasmus-charter">29447</r:other-id>
+                <r:other-id type="pic">999630494</r:other-id>
+                <r:name xml:lang="en">Universidad de Vigo</r:name>
+            </r:hei>
             <r:hei id="u-paris.fr">
                 <r:other-id type="erasmus">F PARIS482</r:other-id>
                 <r:other-id type="erasmus-charter">28258</r:other-id>
@@ -1161,6 +1185,10 @@
                 <r:other-id type="erasmus-charter">28634</r:other-id>
                 <r:other-id type="pic">999839432</r:other-id>
                 <r:name xml:lang="en">University of the West of England, Bristol</r:name>
+            </r:hei>
+            <r:hei id="baaa.dk">
+                <r:other-id type="erasmus">DK ARHUS26</r:other-id>
+                <r:name xml:lang="en">ERHVERVSAKADEMI AARHUS</r:name>
             </r:hei>
             <r:hei id="aston.ac.uk">
                 <r:other-id type="erasmus">UK BIRMING01</r:other-id>
@@ -2850,7 +2878,14 @@ IwIDAQAB
                 <omlc1:max-omobility-ids>10</omlc1:max-omobility-ids>
             </omlc1:omobility-la-cnr>
         </r:apis-implemented>
-        <ns3:institutions-covered/>
+        <ns3:institutions-covered>
+            <r:hei id="icp.fr">
+                <r:other-id type="erasmus">F  PARIS052</r:other-id>
+                <r:other-id type="erasmus-charter">28612</r:other-id>
+                <r:other-id type="pic">949439396</r:other-id>
+                <r:name xml:lang="en">Institut Catholique de Paris</r:name>
+            </r:hei>
+        </ns3:institutions-covered>
         <ns3:client-credentials-in-use>
             <ns3:certificate>MIIDnTCCAoWgAwIBAgIJAOiDLUc/o7t5MA0GCSqGSIb3DQEBBQUAMGQxCzAJBgNV
 BAYTAklOMRIwEAYDVQQIDAlLQVJOQVRBS0ExEjAQBgNVBAcMCUJBTkdBTE9SRTEL
@@ -9556,7 +9591,14 @@ IwIDAQAB
                 <iaac1:url>https://adbk-ewp.moveon4.de/v1/iia/approval/cnr</iaac1:url>
             </iaac1:iia-approval-cnr>
         </r:apis-implemented>
-        <ns3:institutions-covered/>
+        <ns3:institutions-covered>
+            <r:hei id="adbk.de">
+                <r:other-id type="erasmus">D  MUNCHEN04</r:other-id>
+                <r:other-id type="erasmus-charter">29685</r:other-id>
+                <r:other-id type="pic">947272416</r:other-id>
+                <r:name xml:lang="en">Akademie der Bildenden Künste München</r:name>
+            </r:hei>
+        </ns3:institutions-covered>
         <ns3:client-credentials-in-use>
             <ns3:certificate>MIIDnTCCAoWgAwIBAgIJAOiDLUc/o7t5MA0GCSqGSIb3DQEBBQUAMGQxCzAJBgNV
 BAYTAklOMRIwEAYDVQQIDAlLQVJOQVRBS0ExEjAQBgNVBAcMCUJBTkdBTE9SRTEL
@@ -14218,7 +14260,14 @@ IwIDAQAB
                 <imc1:max-omobility-ids>10</imc1:max-omobility-ids>
             </imc1:imobility-cnr>
         </r:apis-implemented>
-        <ns3:institutions-covered/>
+        <ns3:institutions-covered>
+            <r:hei id="koor.hs-karlsruhe.de">
+                <r:other-id type="erasmus">D  KARLSRU05</r:other-id>
+                <r:other-id type="erasmus-charter">28173</r:other-id>
+                <r:other-id type="pic">997543927</r:other-id>
+                <r:name xml:lang="en">Hochschule Karlsruhe - Technik und Wirtschaft</r:name>
+            </r:hei>
+        </ns3:institutions-covered>
         <ns3:client-credentials-in-use>
             <ns3:certificate>MIIDnTCCAoWgAwIBAgIJAOiDLUc/o7t5MA0GCSqGSIb3DQEBBQUAMGQxCzAJBgNV
 BAYTAklOMRIwEAYDVQQIDAlLQVJOQVRBS0ExEjAQBgNVBAcMCUJBTkdBTE9SRTEL
@@ -36252,7 +36301,14 @@ IwIDAQAB
                 <omlc1:max-omobility-ids>10</omlc1:max-omobility-ids>
             </omlc1:omobility-la-cnr>
         </r:apis-implemented>
-        <ns3:institutions-covered/>
+        <ns3:institutions-covered>
+            <r:hei id="uvigo.es">
+                <r:other-id type="erasmus">E  VIGO01</r:other-id>
+                <r:other-id type="erasmus-charter">29447</r:other-id>
+                <r:other-id type="pic">999630494</r:other-id>
+                <r:name xml:lang="en">Universidad de Vigo</r:name>
+            </r:hei>
+        </ns3:institutions-covered>
         <ns3:client-credentials-in-use>
             <ns3:certificate>MIIDnTCCAoWgAwIBAgIJAOiDLUc/o7t5MA0GCSqGSIb3DQEBBQUAMGQxCzAJBgNV
 BAYTAklOMRIwEAYDVQQIDAlLQVJOQVRBS0ExEjAQBgNVBAcMCUJBTkdBTE9SRTEL
@@ -37517,7 +37573,12 @@ IwIDAQAB
                 <omlc1:max-omobility-ids>10</omlc1:max-omobility-ids>
             </omlc1:omobility-la-cnr>
         </r:apis-implemented>
-        <ns3:institutions-covered/>
+        <ns3:institutions-covered>
+            <r:hei id="baaa.dk">
+                <r:other-id type="erasmus">DK ARHUS26</r:other-id>
+                <r:name xml:lang="en">ERHVERVSAKADEMI AARHUS</r:name>
+            </r:hei>
+        </ns3:institutions-covered>
         <ns3:client-credentials-in-use>
             <ns3:certificate>MIIDnTCCAoWgAwIBAgIJAOiDLUc/o7t5MA0GCSqGSIb3DQEBBQUAMGQxCzAJBgNV
 BAYTAklOMRIwEAYDVQQIDAlLQVJOQVRBS0ExEjAQBgNVBAcMCUJBTkdBTE9SRTEL

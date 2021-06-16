@@ -12888,6 +12888,7 @@
             <hei-id>insa-rouen.fr</hei-id>
             <hei-id>ehess.fr</hei-id>
             <hei-id>sciencespo-rennes.fr</hei-id>
+            <hei-id>icp.fr</hei-id>
             <hei-id>bordeaux-inp.fr</hei-id>
             <hei-id>essca.fr</hei-id>
             <hei-id>epf.fr</hei-id>
@@ -12919,6 +12920,7 @@
             <hei-id>univ-tln.fr</hei-id>
             <hei-id>uvsq.fr</hei-id>
             <hei-id>utt.fr</hei-id>
+            <hei-id>adbk.de</hei-id>
             <hei-id>ash-berlin.eu</hei-id>
             <hei-id>au.dk</hei-id>
             <hei-id>hochschule-biberach.de</hei-id>
@@ -12942,6 +12944,7 @@
             <hei-id>hs-emden-leer.de</hei-id>
             <hei-id>hs-furtwangen.de</hei-id>
             <hei-id>hs-harz.de</hei-id>
+            <hei-id>koor.hs-karlsruhe.de</hei-id>
             <hei-id>hwg-lu.de</hei-id>
             <hei-id>reutlingen-university.de</hei-id>
             <hei-id>hochschule-rhein-waal.de</hei-id>
@@ -13061,6 +13064,7 @@
             <hei-id>thomasmorelive.be</hei-id>
             <hei-id>thomasmore.be</hei-id>
             <hei-id>hes-so.ch</hei-id>
+            <hei-id>uvigo.es</hei-id>
             <hei-id>u-paris.fr</hei-id>
             <hei-id>bristol.ac.uk</hei-id>
             <hei-id>essex.ac.uk</hei-id>
@@ -13071,6 +13075,7 @@
             <hei-id>rgu.ac.uk</hei-id>
             <hei-id>surrey.ac.uk</hei-id>
             <hei-id>uwe.ac.uk</hei-id>
+            <hei-id>baaa.dk</hei-id>
             <hei-id>aston.ac.uk</hei-id>
             <hei-id>bham.ac.uk</hei-id>
         </institutions-covered>
@@ -14521,6 +14526,9 @@
                 <omlc1:max-omobility-ids>10</omlc1:max-omobility-ids>
             </omlc1:omobility-la-cnr>
         </apis-implemented>
+        <institutions-covered>
+            <hei-id>icp.fr</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
             <rsa-public-key sha-256="e4c7f55c93dc6e16e192943079a33d85aeef3cd6a6eaec1fcb21ac676c009fbc"/>
@@ -20635,6 +20643,9 @@
                 <iaac1:url>https://adbk-ewp.moveon4.de/v1/iia/approval/cnr</iaac1:url>
             </iaac1:iia-approval-cnr>
         </apis-implemented>
+        <institutions-covered>
+            <hei-id>adbk.de</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
             <rsa-public-key sha-256="e4c7f55c93dc6e16e192943079a33d85aeef3cd6a6eaec1fcb21ac676c009fbc"/>
@@ -24854,6 +24865,9 @@
                 <imc1:max-omobility-ids>10</imc1:max-omobility-ids>
             </imc1:imobility-cnr>
         </apis-implemented>
+        <institutions-covered>
+            <hei-id>koor.hs-karlsruhe.de</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
             <rsa-public-key sha-256="e4c7f55c93dc6e16e192943079a33d85aeef3cd6a6eaec1fcb21ac676c009fbc"/>
@@ -44299,6 +44313,9 @@
                 <omlc1:max-omobility-ids>10</omlc1:max-omobility-ids>
             </omlc1:omobility-la-cnr>
         </apis-implemented>
+        <institutions-covered>
+            <hei-id>uvigo.es</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
             <rsa-public-key sha-256="e4c7f55c93dc6e16e192943079a33d85aeef3cd6a6eaec1fcb21ac676c009fbc"/>
@@ -45256,6 +45273,9 @@
                 <omlc1:max-omobility-ids>10</omlc1:max-omobility-ids>
             </omlc1:omobility-la-cnr>
         </apis-implemented>
+        <institutions-covered>
+            <hei-id>baaa.dk</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
             <rsa-public-key sha-256="e4c7f55c93dc6e16e192943079a33d85aeef3cd6a6eaec1fcb21ac676c009fbc"/>
@@ -57707,6 +57727,12 @@
             <name>Akademie der Bildenden Künste Nürnberg</name>
             <name xml:lang="en">Akademie der Bildenden Künste in Nürnberg</name>
         </hei>
+        <hei id="adbk.de">
+            <other-id type="erasmus">D  MUNCHEN04</other-id>
+            <other-id type="erasmus-charter">29685</other-id>
+            <other-id type="pic">947272416</other-id>
+            <name xml:lang="en">Akademie der Bildenden Künste München</name>
+        </hei>
         <hei id="adi.cz">
             <other-id type="erasmus">CZ PRAHA37</other-id>
             <name>ART &amp; DESIGN INSTITUT</name>
@@ -58177,6 +58203,10 @@
             <other-id type="erasmus-charter">269837</other-id>
             <other-id type="pic">999888223</other-id>
             <name xml:lang="en">Brandenburgische Technische Universität Cottbus-Senftenberg</name>
+        </hei>
+        <hei id="baaa.dk">
+            <other-id type="erasmus">DK ARHUS26</other-id>
+            <name xml:lang="en">ERHVERVSAKADEMI AARHUS</name>
         </hei>
         <hei id="bakircay.edu.tr">
             <other-id type="erasmus">TR IZMIR10</other-id>
@@ -61015,6 +61045,12 @@
             <other-id type="erasmus">F  LAROCHE01</other-id>
             <name>OGICES</name>
         </hei>
+        <hei id="icp.fr">
+            <other-id type="erasmus">F  PARIS052</other-id>
+            <other-id type="erasmus-charter">28612</other-id>
+            <other-id type="pic">949439396</other-id>
+            <name xml:lang="en">Institut Catholique de Paris</name>
+        </hei>
         <hei id="ict-toulouse.fr">
             <other-id type="erasmus">F  TOULOUS09</other-id>
             <name>Institut Catholique de Toulouse</name>
@@ -61689,6 +61725,12 @@
         <hei id="konstfack.se">
             <other-id type="erasmus">S  STOCKHO09</other-id>
             <name>Konstfack</name>
+        </hei>
+        <hei id="koor.hs-karlsruhe.de">
+            <other-id type="erasmus">D  KARLSRU05</other-id>
+            <other-id type="erasmus-charter">28173</other-id>
+            <other-id type="pic">997543927</other-id>
+            <name xml:lang="en">Hochschule Karlsruhe - Technik und Wirtschaft</name>
         </hei>
         <hei id="kozminski.edu.pl">
             <other-id type="erasmus">PL WARSZAW21</other-id>
@@ -66012,6 +66054,12 @@
             <other-id type="erasmus-charter">46003</other-id>
             <other-id type="pic">999837977</other-id>
             <name xml:lang="en">Universitat de Vic - Universitat Central de Catalunya</name>
+        </hei>
+        <hei id="uvigo.es">
+            <other-id type="erasmus">E  VIGO01</other-id>
+            <other-id type="erasmus-charter">29447</other-id>
+            <other-id type="pic">999630494</other-id>
+            <name xml:lang="en">Universidad de Vigo</name>
         </hei>
         <hei id="uvlf.sk">
             <other-id type="erasmus">SK KOSICE01</other-id>
