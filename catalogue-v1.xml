@@ -58090,6 +58090,159 @@
             <rsa-public-key sha-256="f0ba610e00cdcfbb9e51535668492aa7f7f70f284a199127999718887feec09d"/>
         </server-credentials-in-use>
     </host>
+    <host>
+        <apis-implemented>
+            <ia3:iias
+                xmlns:ia3="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v3/manifest-entry.xsd"
+                version="3.0.0"
+            >
+                <ia3:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </ia3:http-security>
+                <ia3:get-url>https://mobility.vu.nl/mobility/ewp/iias-v3/get</ia3:get-url>
+                <ia3:max-iia-ids>3</ia3:max-iia-ids>
+                <ia3:max-iia-codes>3</ia3:max-iia-codes>
+                <ia3:index-url>https://mobility.vu.nl/mobility/ewp/iias-v3/index</ia3:index-url>
+                <ia3:sends-notifications/>
+            </ia3:iias>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>vu.nl</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="d19335d0f2e562098ca9d1431336591404fe5f7ce8cfa9360d4ae436d274538b"/>
+            <rsa-public-key sha-256="f0ba610e00cdcfbb9e51535668492aa7f7f70f284a199127999718887feec09d"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="f0ba610e00cdcfbb9e51535668492aa7f7f70f284a199127999718887feec09d"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <iac2:iia-cnr version="2.0.2">
+                <iac2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </iac2:http-security>
+                <iac2:url>https://mobility.vu.nl/mobility/ewp/iias/cnr</iac2:url>
+            </iac2:iia-cnr>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>vu.nl</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="d19335d0f2e562098ca9d1431336591404fe5f7ce8cfa9360d4ae436d274538b"/>
+            <rsa-public-key sha-256="f0ba610e00cdcfbb9e51535668492aa7f7f70f284a199127999718887feec09d"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="f0ba610e00cdcfbb9e51535668492aa7f7f70f284a199127999718887feec09d"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <iaa1:iias-approval
+                xmlns:iaa1="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <iaa1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </iaa1:http-security>
+                <iaa1:url>https://mobility.vu.nl/mobility/ewp/iias-approval-v1/get</iaa1:url>
+                <iaa1:max-iia-ids>3</iaa1:max-iia-ids>
+            </iaa1:iias-approval>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>vu.nl</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="d19335d0f2e562098ca9d1431336591404fe5f7ce8cfa9360d4ae436d274538b"/>
+            <rsa-public-key sha-256="f0ba610e00cdcfbb9e51535668492aa7f7f70f284a199127999718887feec09d"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="f0ba610e00cdcfbb9e51535668492aa7f7f70f284a199127999718887feec09d"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <iaac1:iia-approval-cnr
+                xmlns:iaac1="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <iaac1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </iaac1:http-security>
+                <iaac1:url>https://mobility.vu.nl/mobility/ewp/iias-approval-cnr-v1/cnr</iaac1:url>
+            </iaac1:iia-approval-cnr>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>vu.nl</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="d19335d0f2e562098ca9d1431336591404fe5f7ce8cfa9360d4ae436d274538b"/>
+            <rsa-public-key sha-256="f0ba610e00cdcfbb9e51535668492aa7f7f70f284a199127999718887feec09d"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="f0ba610e00cdcfbb9e51535668492aa7f7f70f284a199127999718887feec09d"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <f1:factsheet
+                xmlns:f1="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
+                version="0.3.0"
+            >
+                <f1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </f1:http-security>
+                <f1:url>https://mobility.vu.nl/mobility/ewp/factsheets</f1:url>
+                <f1:max-hei-ids>3</f1:max-hei-ids>
+            </f1:factsheet>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>vu.nl</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="d19335d0f2e562098ca9d1431336591404fe5f7ce8cfa9360d4ae436d274538b"/>
+            <rsa-public-key sha-256="f0ba610e00cdcfbb9e51535668492aa7f7f70f284a199127999718887feec09d"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="f0ba610e00cdcfbb9e51535668492aa7f7f70f284a199127999718887feec09d"/>
+        </server-credentials-in-use>
+    </host>
     <institutions>
         <hei id="29mayis.tr">
             <other-id type="erasmus">TR ISTANBU43</other-id>
