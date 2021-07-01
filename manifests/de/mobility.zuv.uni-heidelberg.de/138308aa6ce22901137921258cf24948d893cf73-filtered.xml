@@ -163,4 +163,416 @@ ck5ObQIDAQAB&#xD;
 </ns3:rsa-public-key>
         </ns3:server-credentials-in-use>
     </ns3:host>
+    <ns3:host>
+        <ns2:apis-implemented>
+            <ns27:organizational-units version="2.1.1">
+                <ns27:http-security>
+                    <ns5:client-auth-methods>
+                        <ns33:httpsig/>
+                        <ns31:tlscert allows-self-signed="true"/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns34:httpsig/>
+                        <ns35:tlscert/>
+                    </ns5:server-auth-methods>
+                </ns27:http-security>
+                <ns27:url>https://mobility.zuv.uni-heidelberg.de/mobility/ewp/ounits</ns27:url>
+                <ns27:max-ounit-ids>3</ns27:max-ounit-ids>
+                <ns27:max-ounit-codes>3</ns27:max-ounit-codes>
+            </ns27:organizational-units>
+        </ns2:apis-implemented>
+        <ns3:institutions-covered>
+            <ns2:hei id="uni-heidelberg.de">
+                <ns2:other-id type="pic">999987648</ns2:other-id>
+                <ns2:other-id type="erasmus">D  HEIDELB01</ns2:other-id>
+                <ns2:other-id type="euc">29870-IC-1-2007-1-DE-ERASMUS-EUCX-1</ns2:other-id>
+                <ns2:other-id type="eche">29870</ns2:other-id>
+                <ns2:name xml:lang="de">Universität Heidelberg</ns2:name>
+                <ns2:name xml:lang="en">Universität Heidelberg</ns2:name>
+            </ns2:hei>
+        </ns3:institutions-covered>
+        <ns3:client-credentials-in-use>
+            <ns3:certificate>MIIDhDCCAmwCCQD3vT6FqZPs8zANBgkqhkiG9w0BAQsFADCBgzELMAkGA1UEBhMCQVQxDzANBgNV&#xD;
+BAgMBlZpZW5uYTEPMA0GA1UEBwwGVmllbm5hMRgwFgYDVQQKDA9Nb2JpbGl0eS1PbmxpbmUxDzAN&#xD;
+BgNVBAsMBk1PIEVXUDEnMCUGA1UEAwwebW9iaWxpdHkuenV2LnVuaS1oZWlkZWxiZXJnLmRlMB4X&#xD;
+DTE4MDYwNTEzMjY1NVoXDTI4MDYwMjEzMjY1NVowgYMxCzAJBgNVBAYTAkFUMQ8wDQYDVQQIDAZW&#xD;
+aWVubmExDzANBgNVBAcMBlZpZW5uYTEYMBYGA1UECgwPTW9iaWxpdHktT25saW5lMQ8wDQYDVQQL&#xD;
+DAZNTyBFV1AxJzAlBgNVBAMMHm1vYmlsaXR5Lnp1di51bmktaGVpZGVsYmVyZy5kZTCCASIwDQYJ&#xD;
+KoZIhvcNAQEBBQADggEPADCCAQoCggEBAMJiLBRs1cK5Y6NWjNtzOL3wnbedVVbDc7aBQ05y/q/4&#xD;
+uVGA9oZ7Y9NxVJ2cNkcWAHA4xWrmaneS9U1E9xMdZ4Tgm3AYIfNs/5WInCyTlH3KhwbFRGMbE00D&#xD;
+GFwxJL1llqXX9Ayw6RuGiYZZY+h4kbjaxtlk8ZceAb4Ir5oMnHbTedY/Lnb6z23JVfCqSBe9lobF&#xD;
+zesLax1boNW8Jjd7VbE58mUMg2CDJMC/OumgRaNsU0SW6I7dvrAj7mOv9cKXy33hh5hAob/OR4QP&#xD;
+JlzdhIOzbwikSP1F372TUGizk6bLfb1d1DzkY03SU/Ta4JBbTvPNxdsgdU+JkRBJH3JOTm0CAwEA&#xD;
+ATANBgkqhkiG9w0BAQsFAAOCAQEAU5uiYXMvXeohHmLk410fmouvCKRZtf0v2RniJ71+hLqzvsN8&#xD;
+//ox43PXTLbpN8Qg9BRZPfMblLnPsqbu6ZnOkVkTCuh05UGs64aZGwe3RMQ/Ysx4ks+cQNakeoE6&#xD;
+NYEraUd7yTp3AkBIWj4lyxkYei6uNtm6c7s1mFMvpgKuLG+EuEOI7jKil0MRcZmmdidoLMIOQQQP&#xD;
+lt3Fb3V/30sx81x7Kph34+CLyn36yiappE5/VqfoPvhuFfW/t1AfL6PaAFCWGqEeSPQGJ5ExFVTy&#xD;
+eU8CpvdHQiKQdQ3+OkEiGd6It3fe5um0SzvkcPKKdwdX9Hk9TyKQ4v4LcVeq0qAPcg==&#xD;
+</ns3:certificate>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwmIsFGzVwrljo1aM23M4vfCdt51VVsNz&#xD;
+toFDTnL+r/i5UYD2hntj03FUnZw2RxYAcDjFauZqd5L1TUT3Ex1nhOCbcBgh82z/lYicLJOUfcqH&#xD;
+BsVEYxsTTQMYXDEkvWWWpdf0DLDpG4aJhllj6HiRuNrG2WTxlx4BvgivmgycdtN51j8udvrPbclV&#xD;
+8KpIF72WhsXN6wtrHVug1bwmN3tVsTnyZQyDYIMkwL866aBFo2xTRJbojt2+sCPuY6/1wpfLfeGH&#xD;
+mEChv85HhA8mXN2Eg7NvCKRI/UXfvZNQaLOTpst9vV3UPORjTdJT9NrgkFtO883F2yB1T4mREEkf&#xD;
+ck5ObQIDAQAB&#xD;
+</ns3:rsa-public-key>
+        </ns3:client-credentials-in-use>
+        <ns3:server-credentials-in-use>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwmIsFGzVwrljo1aM23M4vfCdt51VVsNz&#xD;
+toFDTnL+r/i5UYD2hntj03FUnZw2RxYAcDjFauZqd5L1TUT3Ex1nhOCbcBgh82z/lYicLJOUfcqH&#xD;
+BsVEYxsTTQMYXDEkvWWWpdf0DLDpG4aJhllj6HiRuNrG2WTxlx4BvgivmgycdtN51j8udvrPbclV&#xD;
+8KpIF72WhsXN6wtrHVug1bwmN3tVsTnyZQyDYIMkwL866aBFo2xTRJbojt2+sCPuY6/1wpfLfeGH&#xD;
+mEChv85HhA8mXN2Eg7NvCKRI/UXfvZNQaLOTpst9vV3UPORjTdJT9NrgkFtO883F2yB1T4mREEkf&#xD;
+ck5ObQIDAQAB&#xD;
+</ns3:rsa-public-key>
+        </ns3:server-credentials-in-use>
+    </ns3:host>
+    <ns3:host>
+        <ns2:apis-implemented>
+            <ns26:iias version="3.0.0">
+                <ns26:http-security>
+                    <ns5:client-auth-methods>
+                        <ns33:httpsig/>
+                        <ns31:tlscert allows-self-signed="true"/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns34:httpsig/>
+                        <ns35:tlscert/>
+                    </ns5:server-auth-methods>
+                </ns26:http-security>
+                <ns26:get-url>https://mobility.zuv.uni-heidelberg.de/mobility/ewp/iias-v3/get</ns26:get-url>
+                <ns26:max-iia-ids>3</ns26:max-iia-ids>
+                <ns26:max-iia-codes>3</ns26:max-iia-codes>
+                <ns26:index-url>https://mobility.zuv.uni-heidelberg.de/mobility/ewp/iias-v3/index</ns26:index-url>
+                <ns26:sends-notifications/>
+            </ns26:iias>
+            <ns25:iias version="4.0.0">
+                <ns25:http-security>
+                    <ns5:client-auth-methods>
+                        <ns33:httpsig/>
+                        <ns31:tlscert allows-self-signed="true"/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns34:httpsig/>
+                        <ns35:tlscert/>
+                    </ns5:server-auth-methods>
+                </ns25:http-security>
+                <ns25:get-url>https://mobility.zuv.uni-heidelberg.de/mobility/ewp/iias-v4/get</ns25:get-url>
+                <ns25:max-iia-ids>3</ns25:max-iia-ids>
+                <ns25:max-iia-codes>3</ns25:max-iia-codes>
+                <ns25:index-url>https://mobility.zuv.uni-heidelberg.de/mobility/ewp/iias-v4/index</ns25:index-url>
+            </ns25:iias>
+            <ns24:iias version="6.0.0">
+                <ns24:http-security>
+                    <ns5:client-auth-methods>
+                        <ns33:httpsig/>
+                        <ns31:tlscert allows-self-signed="true"/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns34:httpsig/>
+                        <ns35:tlscert/>
+                    </ns5:server-auth-methods>
+                </ns24:http-security>
+                <ns24:get-url>https://mobility.zuv.uni-heidelberg.de/mobility/ewp/iias-v6/get</ns24:get-url>
+                <ns24:max-iia-ids>3</ns24:max-iia-ids>
+                <ns24:max-iia-codes>3</ns24:max-iia-codes>
+                <ns24:index-url>https://mobility.zuv.uni-heidelberg.de/mobility/ewp/iias-v6/index</ns24:index-url>
+            </ns24:iias>
+        </ns2:apis-implemented>
+        <ns3:institutions-covered>
+            <ns2:hei id="uni-heidelberg.de">
+                <ns2:other-id type="pic">999987648</ns2:other-id>
+                <ns2:other-id type="erasmus">D  HEIDELB01</ns2:other-id>
+                <ns2:other-id type="euc">29870-IC-1-2007-1-DE-ERASMUS-EUCX-1</ns2:other-id>
+                <ns2:other-id type="eche">29870</ns2:other-id>
+                <ns2:name xml:lang="de">Universität Heidelberg</ns2:name>
+                <ns2:name xml:lang="en">Universität Heidelberg</ns2:name>
+            </ns2:hei>
+        </ns3:institutions-covered>
+        <ns3:client-credentials-in-use>
+            <ns3:certificate>MIIDhDCCAmwCCQD3vT6FqZPs8zANBgkqhkiG9w0BAQsFADCBgzELMAkGA1UEBhMCQVQxDzANBgNV&#xD;
+BAgMBlZpZW5uYTEPMA0GA1UEBwwGVmllbm5hMRgwFgYDVQQKDA9Nb2JpbGl0eS1PbmxpbmUxDzAN&#xD;
+BgNVBAsMBk1PIEVXUDEnMCUGA1UEAwwebW9iaWxpdHkuenV2LnVuaS1oZWlkZWxiZXJnLmRlMB4X&#xD;
+DTE4MDYwNTEzMjY1NVoXDTI4MDYwMjEzMjY1NVowgYMxCzAJBgNVBAYTAkFUMQ8wDQYDVQQIDAZW&#xD;
+aWVubmExDzANBgNVBAcMBlZpZW5uYTEYMBYGA1UECgwPTW9iaWxpdHktT25saW5lMQ8wDQYDVQQL&#xD;
+DAZNTyBFV1AxJzAlBgNVBAMMHm1vYmlsaXR5Lnp1di51bmktaGVpZGVsYmVyZy5kZTCCASIwDQYJ&#xD;
+KoZIhvcNAQEBBQADggEPADCCAQoCggEBAMJiLBRs1cK5Y6NWjNtzOL3wnbedVVbDc7aBQ05y/q/4&#xD;
+uVGA9oZ7Y9NxVJ2cNkcWAHA4xWrmaneS9U1E9xMdZ4Tgm3AYIfNs/5WInCyTlH3KhwbFRGMbE00D&#xD;
+GFwxJL1llqXX9Ayw6RuGiYZZY+h4kbjaxtlk8ZceAb4Ir5oMnHbTedY/Lnb6z23JVfCqSBe9lobF&#xD;
+zesLax1boNW8Jjd7VbE58mUMg2CDJMC/OumgRaNsU0SW6I7dvrAj7mOv9cKXy33hh5hAob/OR4QP&#xD;
+JlzdhIOzbwikSP1F372TUGizk6bLfb1d1DzkY03SU/Ta4JBbTvPNxdsgdU+JkRBJH3JOTm0CAwEA&#xD;
+ATANBgkqhkiG9w0BAQsFAAOCAQEAU5uiYXMvXeohHmLk410fmouvCKRZtf0v2RniJ71+hLqzvsN8&#xD;
+//ox43PXTLbpN8Qg9BRZPfMblLnPsqbu6ZnOkVkTCuh05UGs64aZGwe3RMQ/Ysx4ks+cQNakeoE6&#xD;
+NYEraUd7yTp3AkBIWj4lyxkYei6uNtm6c7s1mFMvpgKuLG+EuEOI7jKil0MRcZmmdidoLMIOQQQP&#xD;
+lt3Fb3V/30sx81x7Kph34+CLyn36yiappE5/VqfoPvhuFfW/t1AfL6PaAFCWGqEeSPQGJ5ExFVTy&#xD;
+eU8CpvdHQiKQdQ3+OkEiGd6It3fe5um0SzvkcPKKdwdX9Hk9TyKQ4v4LcVeq0qAPcg==&#xD;
+</ns3:certificate>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwmIsFGzVwrljo1aM23M4vfCdt51VVsNz&#xD;
+toFDTnL+r/i5UYD2hntj03FUnZw2RxYAcDjFauZqd5L1TUT3Ex1nhOCbcBgh82z/lYicLJOUfcqH&#xD;
+BsVEYxsTTQMYXDEkvWWWpdf0DLDpG4aJhllj6HiRuNrG2WTxlx4BvgivmgycdtN51j8udvrPbclV&#xD;
+8KpIF72WhsXN6wtrHVug1bwmN3tVsTnyZQyDYIMkwL866aBFo2xTRJbojt2+sCPuY6/1wpfLfeGH&#xD;
+mEChv85HhA8mXN2Eg7NvCKRI/UXfvZNQaLOTpst9vV3UPORjTdJT9NrgkFtO883F2yB1T4mREEkf&#xD;
+ck5ObQIDAQAB&#xD;
+</ns3:rsa-public-key>
+        </ns3:client-credentials-in-use>
+        <ns3:server-credentials-in-use>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwmIsFGzVwrljo1aM23M4vfCdt51VVsNz&#xD;
+toFDTnL+r/i5UYD2hntj03FUnZw2RxYAcDjFauZqd5L1TUT3Ex1nhOCbcBgh82z/lYicLJOUfcqH&#xD;
+BsVEYxsTTQMYXDEkvWWWpdf0DLDpG4aJhllj6HiRuNrG2WTxlx4BvgivmgycdtN51j8udvrPbclV&#xD;
+8KpIF72WhsXN6wtrHVug1bwmN3tVsTnyZQyDYIMkwL866aBFo2xTRJbojt2+sCPuY6/1wpfLfeGH&#xD;
+mEChv85HhA8mXN2Eg7NvCKRI/UXfvZNQaLOTpst9vV3UPORjTdJT9NrgkFtO883F2yB1T4mREEkf&#xD;
+ck5ObQIDAQAB&#xD;
+</ns3:rsa-public-key>
+        </ns3:server-credentials-in-use>
+    </ns3:host>
+    <ns3:host>
+        <ns2:apis-implemented>
+            <ns23:iia-cnr version="2.0.2">
+                <ns23:http-security>
+                    <ns5:client-auth-methods>
+                        <ns33:httpsig/>
+                        <ns31:tlscert allows-self-signed="true"/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns34:httpsig/>
+                        <ns35:tlscert/>
+                    </ns5:server-auth-methods>
+                </ns23:http-security>
+                <ns23:url>https://mobility.zuv.uni-heidelberg.de/mobility/ewp/iias/cnr</ns23:url>
+            </ns23:iia-cnr>
+        </ns2:apis-implemented>
+        <ns3:institutions-covered>
+            <ns2:hei id="uni-heidelberg.de">
+                <ns2:other-id type="pic">999987648</ns2:other-id>
+                <ns2:other-id type="erasmus">D  HEIDELB01</ns2:other-id>
+                <ns2:other-id type="euc">29870-IC-1-2007-1-DE-ERASMUS-EUCX-1</ns2:other-id>
+                <ns2:other-id type="eche">29870</ns2:other-id>
+                <ns2:name xml:lang="de">Universität Heidelberg</ns2:name>
+                <ns2:name xml:lang="en">Universität Heidelberg</ns2:name>
+            </ns2:hei>
+        </ns3:institutions-covered>
+        <ns3:client-credentials-in-use>
+            <ns3:certificate>MIIDhDCCAmwCCQD3vT6FqZPs8zANBgkqhkiG9w0BAQsFADCBgzELMAkGA1UEBhMCQVQxDzANBgNV&#xD;
+BAgMBlZpZW5uYTEPMA0GA1UEBwwGVmllbm5hMRgwFgYDVQQKDA9Nb2JpbGl0eS1PbmxpbmUxDzAN&#xD;
+BgNVBAsMBk1PIEVXUDEnMCUGA1UEAwwebW9iaWxpdHkuenV2LnVuaS1oZWlkZWxiZXJnLmRlMB4X&#xD;
+DTE4MDYwNTEzMjY1NVoXDTI4MDYwMjEzMjY1NVowgYMxCzAJBgNVBAYTAkFUMQ8wDQYDVQQIDAZW&#xD;
+aWVubmExDzANBgNVBAcMBlZpZW5uYTEYMBYGA1UECgwPTW9iaWxpdHktT25saW5lMQ8wDQYDVQQL&#xD;
+DAZNTyBFV1AxJzAlBgNVBAMMHm1vYmlsaXR5Lnp1di51bmktaGVpZGVsYmVyZy5kZTCCASIwDQYJ&#xD;
+KoZIhvcNAQEBBQADggEPADCCAQoCggEBAMJiLBRs1cK5Y6NWjNtzOL3wnbedVVbDc7aBQ05y/q/4&#xD;
+uVGA9oZ7Y9NxVJ2cNkcWAHA4xWrmaneS9U1E9xMdZ4Tgm3AYIfNs/5WInCyTlH3KhwbFRGMbE00D&#xD;
+GFwxJL1llqXX9Ayw6RuGiYZZY+h4kbjaxtlk8ZceAb4Ir5oMnHbTedY/Lnb6z23JVfCqSBe9lobF&#xD;
+zesLax1boNW8Jjd7VbE58mUMg2CDJMC/OumgRaNsU0SW6I7dvrAj7mOv9cKXy33hh5hAob/OR4QP&#xD;
+JlzdhIOzbwikSP1F372TUGizk6bLfb1d1DzkY03SU/Ta4JBbTvPNxdsgdU+JkRBJH3JOTm0CAwEA&#xD;
+ATANBgkqhkiG9w0BAQsFAAOCAQEAU5uiYXMvXeohHmLk410fmouvCKRZtf0v2RniJ71+hLqzvsN8&#xD;
+//ox43PXTLbpN8Qg9BRZPfMblLnPsqbu6ZnOkVkTCuh05UGs64aZGwe3RMQ/Ysx4ks+cQNakeoE6&#xD;
+NYEraUd7yTp3AkBIWj4lyxkYei6uNtm6c7s1mFMvpgKuLG+EuEOI7jKil0MRcZmmdidoLMIOQQQP&#xD;
+lt3Fb3V/30sx81x7Kph34+CLyn36yiappE5/VqfoPvhuFfW/t1AfL6PaAFCWGqEeSPQGJ5ExFVTy&#xD;
+eU8CpvdHQiKQdQ3+OkEiGd6It3fe5um0SzvkcPKKdwdX9Hk9TyKQ4v4LcVeq0qAPcg==&#xD;
+</ns3:certificate>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwmIsFGzVwrljo1aM23M4vfCdt51VVsNz&#xD;
+toFDTnL+r/i5UYD2hntj03FUnZw2RxYAcDjFauZqd5L1TUT3Ex1nhOCbcBgh82z/lYicLJOUfcqH&#xD;
+BsVEYxsTTQMYXDEkvWWWpdf0DLDpG4aJhllj6HiRuNrG2WTxlx4BvgivmgycdtN51j8udvrPbclV&#xD;
+8KpIF72WhsXN6wtrHVug1bwmN3tVsTnyZQyDYIMkwL866aBFo2xTRJbojt2+sCPuY6/1wpfLfeGH&#xD;
+mEChv85HhA8mXN2Eg7NvCKRI/UXfvZNQaLOTpst9vV3UPORjTdJT9NrgkFtO883F2yB1T4mREEkf&#xD;
+ck5ObQIDAQAB&#xD;
+</ns3:rsa-public-key>
+        </ns3:client-credentials-in-use>
+        <ns3:server-credentials-in-use>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwmIsFGzVwrljo1aM23M4vfCdt51VVsNz&#xD;
+toFDTnL+r/i5UYD2hntj03FUnZw2RxYAcDjFauZqd5L1TUT3Ex1nhOCbcBgh82z/lYicLJOUfcqH&#xD;
+BsVEYxsTTQMYXDEkvWWWpdf0DLDpG4aJhllj6HiRuNrG2WTxlx4BvgivmgycdtN51j8udvrPbclV&#xD;
+8KpIF72WhsXN6wtrHVug1bwmN3tVsTnyZQyDYIMkwL866aBFo2xTRJbojt2+sCPuY6/1wpfLfeGH&#xD;
+mEChv85HhA8mXN2Eg7NvCKRI/UXfvZNQaLOTpst9vV3UPORjTdJT9NrgkFtO883F2yB1T4mREEkf&#xD;
+ck5ObQIDAQAB&#xD;
+</ns3:rsa-public-key>
+        </ns3:server-credentials-in-use>
+    </ns3:host>
+    <ns3:host>
+        <ns2:apis-implemented>
+            <ns22:iias-approval version="1.0.0">
+                <ns22:http-security>
+                    <ns5:client-auth-methods>
+                        <ns33:httpsig/>
+                        <ns31:tlscert allows-self-signed="true"/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns34:httpsig/>
+                        <ns35:tlscert/>
+                    </ns5:server-auth-methods>
+                </ns22:http-security>
+                <ns22:url>https://mobility.zuv.uni-heidelberg.de/mobility/ewp/iias-approval-v1/get</ns22:url>
+                <ns22:max-iia-ids>3</ns22:max-iia-ids>
+            </ns22:iias-approval>
+        </ns2:apis-implemented>
+        <ns3:institutions-covered>
+            <ns2:hei id="uni-heidelberg.de">
+                <ns2:other-id type="pic">999987648</ns2:other-id>
+                <ns2:other-id type="erasmus">D  HEIDELB01</ns2:other-id>
+                <ns2:other-id type="euc">29870-IC-1-2007-1-DE-ERASMUS-EUCX-1</ns2:other-id>
+                <ns2:other-id type="eche">29870</ns2:other-id>
+                <ns2:name xml:lang="de">Universität Heidelberg</ns2:name>
+                <ns2:name xml:lang="en">Universität Heidelberg</ns2:name>
+            </ns2:hei>
+        </ns3:institutions-covered>
+        <ns3:client-credentials-in-use>
+            <ns3:certificate>MIIDhDCCAmwCCQD3vT6FqZPs8zANBgkqhkiG9w0BAQsFADCBgzELMAkGA1UEBhMCQVQxDzANBgNV&#xD;
+BAgMBlZpZW5uYTEPMA0GA1UEBwwGVmllbm5hMRgwFgYDVQQKDA9Nb2JpbGl0eS1PbmxpbmUxDzAN&#xD;
+BgNVBAsMBk1PIEVXUDEnMCUGA1UEAwwebW9iaWxpdHkuenV2LnVuaS1oZWlkZWxiZXJnLmRlMB4X&#xD;
+DTE4MDYwNTEzMjY1NVoXDTI4MDYwMjEzMjY1NVowgYMxCzAJBgNVBAYTAkFUMQ8wDQYDVQQIDAZW&#xD;
+aWVubmExDzANBgNVBAcMBlZpZW5uYTEYMBYGA1UECgwPTW9iaWxpdHktT25saW5lMQ8wDQYDVQQL&#xD;
+DAZNTyBFV1AxJzAlBgNVBAMMHm1vYmlsaXR5Lnp1di51bmktaGVpZGVsYmVyZy5kZTCCASIwDQYJ&#xD;
+KoZIhvcNAQEBBQADggEPADCCAQoCggEBAMJiLBRs1cK5Y6NWjNtzOL3wnbedVVbDc7aBQ05y/q/4&#xD;
+uVGA9oZ7Y9NxVJ2cNkcWAHA4xWrmaneS9U1E9xMdZ4Tgm3AYIfNs/5WInCyTlH3KhwbFRGMbE00D&#xD;
+GFwxJL1llqXX9Ayw6RuGiYZZY+h4kbjaxtlk8ZceAb4Ir5oMnHbTedY/Lnb6z23JVfCqSBe9lobF&#xD;
+zesLax1boNW8Jjd7VbE58mUMg2CDJMC/OumgRaNsU0SW6I7dvrAj7mOv9cKXy33hh5hAob/OR4QP&#xD;
+JlzdhIOzbwikSP1F372TUGizk6bLfb1d1DzkY03SU/Ta4JBbTvPNxdsgdU+JkRBJH3JOTm0CAwEA&#xD;
+ATANBgkqhkiG9w0BAQsFAAOCAQEAU5uiYXMvXeohHmLk410fmouvCKRZtf0v2RniJ71+hLqzvsN8&#xD;
+//ox43PXTLbpN8Qg9BRZPfMblLnPsqbu6ZnOkVkTCuh05UGs64aZGwe3RMQ/Ysx4ks+cQNakeoE6&#xD;
+NYEraUd7yTp3AkBIWj4lyxkYei6uNtm6c7s1mFMvpgKuLG+EuEOI7jKil0MRcZmmdidoLMIOQQQP&#xD;
+lt3Fb3V/30sx81x7Kph34+CLyn36yiappE5/VqfoPvhuFfW/t1AfL6PaAFCWGqEeSPQGJ5ExFVTy&#xD;
+eU8CpvdHQiKQdQ3+OkEiGd6It3fe5um0SzvkcPKKdwdX9Hk9TyKQ4v4LcVeq0qAPcg==&#xD;
+</ns3:certificate>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwmIsFGzVwrljo1aM23M4vfCdt51VVsNz&#xD;
+toFDTnL+r/i5UYD2hntj03FUnZw2RxYAcDjFauZqd5L1TUT3Ex1nhOCbcBgh82z/lYicLJOUfcqH&#xD;
+BsVEYxsTTQMYXDEkvWWWpdf0DLDpG4aJhllj6HiRuNrG2WTxlx4BvgivmgycdtN51j8udvrPbclV&#xD;
+8KpIF72WhsXN6wtrHVug1bwmN3tVsTnyZQyDYIMkwL866aBFo2xTRJbojt2+sCPuY6/1wpfLfeGH&#xD;
+mEChv85HhA8mXN2Eg7NvCKRI/UXfvZNQaLOTpst9vV3UPORjTdJT9NrgkFtO883F2yB1T4mREEkf&#xD;
+ck5ObQIDAQAB&#xD;
+</ns3:rsa-public-key>
+        </ns3:client-credentials-in-use>
+        <ns3:server-credentials-in-use>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwmIsFGzVwrljo1aM23M4vfCdt51VVsNz&#xD;
+toFDTnL+r/i5UYD2hntj03FUnZw2RxYAcDjFauZqd5L1TUT3Ex1nhOCbcBgh82z/lYicLJOUfcqH&#xD;
+BsVEYxsTTQMYXDEkvWWWpdf0DLDpG4aJhllj6HiRuNrG2WTxlx4BvgivmgycdtN51j8udvrPbclV&#xD;
+8KpIF72WhsXN6wtrHVug1bwmN3tVsTnyZQyDYIMkwL866aBFo2xTRJbojt2+sCPuY6/1wpfLfeGH&#xD;
+mEChv85HhA8mXN2Eg7NvCKRI/UXfvZNQaLOTpst9vV3UPORjTdJT9NrgkFtO883F2yB1T4mREEkf&#xD;
+ck5ObQIDAQAB&#xD;
+</ns3:rsa-public-key>
+        </ns3:server-credentials-in-use>
+    </ns3:host>
+    <ns3:host>
+        <ns2:apis-implemented>
+            <ns21:iia-approval-cnr version="1.0.0">
+                <ns21:http-security>
+                    <ns5:client-auth-methods>
+                        <ns33:httpsig/>
+                        <ns31:tlscert allows-self-signed="true"/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns34:httpsig/>
+                        <ns35:tlscert/>
+                    </ns5:server-auth-methods>
+                </ns21:http-security>
+                <ns21:url>https://mobility.zuv.uni-heidelberg.de/mobility/ewp/iias-approval-cnr-v1/cnr</ns21:url>
+            </ns21:iia-approval-cnr>
+        </ns2:apis-implemented>
+        <ns3:institutions-covered>
+            <ns2:hei id="uni-heidelberg.de">
+                <ns2:other-id type="pic">999987648</ns2:other-id>
+                <ns2:other-id type="erasmus">D  HEIDELB01</ns2:other-id>
+                <ns2:other-id type="euc">29870-IC-1-2007-1-DE-ERASMUS-EUCX-1</ns2:other-id>
+                <ns2:other-id type="eche">29870</ns2:other-id>
+                <ns2:name xml:lang="de">Universität Heidelberg</ns2:name>
+                <ns2:name xml:lang="en">Universität Heidelberg</ns2:name>
+            </ns2:hei>
+        </ns3:institutions-covered>
+        <ns3:client-credentials-in-use>
+            <ns3:certificate>MIIDhDCCAmwCCQD3vT6FqZPs8zANBgkqhkiG9w0BAQsFADCBgzELMAkGA1UEBhMCQVQxDzANBgNV&#xD;
+BAgMBlZpZW5uYTEPMA0GA1UEBwwGVmllbm5hMRgwFgYDVQQKDA9Nb2JpbGl0eS1PbmxpbmUxDzAN&#xD;
+BgNVBAsMBk1PIEVXUDEnMCUGA1UEAwwebW9iaWxpdHkuenV2LnVuaS1oZWlkZWxiZXJnLmRlMB4X&#xD;
+DTE4MDYwNTEzMjY1NVoXDTI4MDYwMjEzMjY1NVowgYMxCzAJBgNVBAYTAkFUMQ8wDQYDVQQIDAZW&#xD;
+aWVubmExDzANBgNVBAcMBlZpZW5uYTEYMBYGA1UECgwPTW9iaWxpdHktT25saW5lMQ8wDQYDVQQL&#xD;
+DAZNTyBFV1AxJzAlBgNVBAMMHm1vYmlsaXR5Lnp1di51bmktaGVpZGVsYmVyZy5kZTCCASIwDQYJ&#xD;
+KoZIhvcNAQEBBQADggEPADCCAQoCggEBAMJiLBRs1cK5Y6NWjNtzOL3wnbedVVbDc7aBQ05y/q/4&#xD;
+uVGA9oZ7Y9NxVJ2cNkcWAHA4xWrmaneS9U1E9xMdZ4Tgm3AYIfNs/5WInCyTlH3KhwbFRGMbE00D&#xD;
+GFwxJL1llqXX9Ayw6RuGiYZZY+h4kbjaxtlk8ZceAb4Ir5oMnHbTedY/Lnb6z23JVfCqSBe9lobF&#xD;
+zesLax1boNW8Jjd7VbE58mUMg2CDJMC/OumgRaNsU0SW6I7dvrAj7mOv9cKXy33hh5hAob/OR4QP&#xD;
+JlzdhIOzbwikSP1F372TUGizk6bLfb1d1DzkY03SU/Ta4JBbTvPNxdsgdU+JkRBJH3JOTm0CAwEA&#xD;
+ATANBgkqhkiG9w0BAQsFAAOCAQEAU5uiYXMvXeohHmLk410fmouvCKRZtf0v2RniJ71+hLqzvsN8&#xD;
+//ox43PXTLbpN8Qg9BRZPfMblLnPsqbu6ZnOkVkTCuh05UGs64aZGwe3RMQ/Ysx4ks+cQNakeoE6&#xD;
+NYEraUd7yTp3AkBIWj4lyxkYei6uNtm6c7s1mFMvpgKuLG+EuEOI7jKil0MRcZmmdidoLMIOQQQP&#xD;
+lt3Fb3V/30sx81x7Kph34+CLyn36yiappE5/VqfoPvhuFfW/t1AfL6PaAFCWGqEeSPQGJ5ExFVTy&#xD;
+eU8CpvdHQiKQdQ3+OkEiGd6It3fe5um0SzvkcPKKdwdX9Hk9TyKQ4v4LcVeq0qAPcg==&#xD;
+</ns3:certificate>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwmIsFGzVwrljo1aM23M4vfCdt51VVsNz&#xD;
+toFDTnL+r/i5UYD2hntj03FUnZw2RxYAcDjFauZqd5L1TUT3Ex1nhOCbcBgh82z/lYicLJOUfcqH&#xD;
+BsVEYxsTTQMYXDEkvWWWpdf0DLDpG4aJhllj6HiRuNrG2WTxlx4BvgivmgycdtN51j8udvrPbclV&#xD;
+8KpIF72WhsXN6wtrHVug1bwmN3tVsTnyZQyDYIMkwL866aBFo2xTRJbojt2+sCPuY6/1wpfLfeGH&#xD;
+mEChv85HhA8mXN2Eg7NvCKRI/UXfvZNQaLOTpst9vV3UPORjTdJT9NrgkFtO883F2yB1T4mREEkf&#xD;
+ck5ObQIDAQAB&#xD;
+</ns3:rsa-public-key>
+        </ns3:client-credentials-in-use>
+        <ns3:server-credentials-in-use>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwmIsFGzVwrljo1aM23M4vfCdt51VVsNz&#xD;
+toFDTnL+r/i5UYD2hntj03FUnZw2RxYAcDjFauZqd5L1TUT3Ex1nhOCbcBgh82z/lYicLJOUfcqH&#xD;
+BsVEYxsTTQMYXDEkvWWWpdf0DLDpG4aJhllj6HiRuNrG2WTxlx4BvgivmgycdtN51j8udvrPbclV&#xD;
+8KpIF72WhsXN6wtrHVug1bwmN3tVsTnyZQyDYIMkwL866aBFo2xTRJbojt2+sCPuY6/1wpfLfeGH&#xD;
+mEChv85HhA8mXN2Eg7NvCKRI/UXfvZNQaLOTpst9vV3UPORjTdJT9NrgkFtO883F2yB1T4mREEkf&#xD;
+ck5ObQIDAQAB&#xD;
+</ns3:rsa-public-key>
+        </ns3:server-credentials-in-use>
+    </ns3:host>
+    <ns3:host>
+        <ns2:apis-implemented>
+            <ns6:factsheet version="0.3.0">
+                <ns6:http-security>
+                    <ns5:client-auth-methods>
+                        <ns33:httpsig/>
+                        <ns31:tlscert allows-self-signed="true"/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns34:httpsig/>
+                        <ns35:tlscert/>
+                    </ns5:server-auth-methods>
+                </ns6:http-security>
+                <ns6:url>https://mobility.zuv.uni-heidelberg.de/mobility/ewp/factsheets</ns6:url>
+                <ns6:max-hei-ids>3</ns6:max-hei-ids>
+            </ns6:factsheet>
+        </ns2:apis-implemented>
+        <ns3:institutions-covered>
+            <ns2:hei id="uni-heidelberg.de">
+                <ns2:other-id type="pic">999987648</ns2:other-id>
+                <ns2:other-id type="erasmus">D  HEIDELB01</ns2:other-id>
+                <ns2:other-id type="euc">29870-IC-1-2007-1-DE-ERASMUS-EUCX-1</ns2:other-id>
+                <ns2:other-id type="eche">29870</ns2:other-id>
+                <ns2:name xml:lang="de">Universität Heidelberg</ns2:name>
+                <ns2:name xml:lang="en">Universität Heidelberg</ns2:name>
+            </ns2:hei>
+        </ns3:institutions-covered>
+        <ns3:client-credentials-in-use>
+            <ns3:certificate>MIIDhDCCAmwCCQD3vT6FqZPs8zANBgkqhkiG9w0BAQsFADCBgzELMAkGA1UEBhMCQVQxDzANBgNV&#xD;
+BAgMBlZpZW5uYTEPMA0GA1UEBwwGVmllbm5hMRgwFgYDVQQKDA9Nb2JpbGl0eS1PbmxpbmUxDzAN&#xD;
+BgNVBAsMBk1PIEVXUDEnMCUGA1UEAwwebW9iaWxpdHkuenV2LnVuaS1oZWlkZWxiZXJnLmRlMB4X&#xD;
+DTE4MDYwNTEzMjY1NVoXDTI4MDYwMjEzMjY1NVowgYMxCzAJBgNVBAYTAkFUMQ8wDQYDVQQIDAZW&#xD;
+aWVubmExDzANBgNVBAcMBlZpZW5uYTEYMBYGA1UECgwPTW9iaWxpdHktT25saW5lMQ8wDQYDVQQL&#xD;
+DAZNTyBFV1AxJzAlBgNVBAMMHm1vYmlsaXR5Lnp1di51bmktaGVpZGVsYmVyZy5kZTCCASIwDQYJ&#xD;
+KoZIhvcNAQEBBQADggEPADCCAQoCggEBAMJiLBRs1cK5Y6NWjNtzOL3wnbedVVbDc7aBQ05y/q/4&#xD;
+uVGA9oZ7Y9NxVJ2cNkcWAHA4xWrmaneS9U1E9xMdZ4Tgm3AYIfNs/5WInCyTlH3KhwbFRGMbE00D&#xD;
+GFwxJL1llqXX9Ayw6RuGiYZZY+h4kbjaxtlk8ZceAb4Ir5oMnHbTedY/Lnb6z23JVfCqSBe9lobF&#xD;
+zesLax1boNW8Jjd7VbE58mUMg2CDJMC/OumgRaNsU0SW6I7dvrAj7mOv9cKXy33hh5hAob/OR4QP&#xD;
+JlzdhIOzbwikSP1F372TUGizk6bLfb1d1DzkY03SU/Ta4JBbTvPNxdsgdU+JkRBJH3JOTm0CAwEA&#xD;
+ATANBgkqhkiG9w0BAQsFAAOCAQEAU5uiYXMvXeohHmLk410fmouvCKRZtf0v2RniJ71+hLqzvsN8&#xD;
+//ox43PXTLbpN8Qg9BRZPfMblLnPsqbu6ZnOkVkTCuh05UGs64aZGwe3RMQ/Ysx4ks+cQNakeoE6&#xD;
+NYEraUd7yTp3AkBIWj4lyxkYei6uNtm6c7s1mFMvpgKuLG+EuEOI7jKil0MRcZmmdidoLMIOQQQP&#xD;
+lt3Fb3V/30sx81x7Kph34+CLyn36yiappE5/VqfoPvhuFfW/t1AfL6PaAFCWGqEeSPQGJ5ExFVTy&#xD;
+eU8CpvdHQiKQdQ3+OkEiGd6It3fe5um0SzvkcPKKdwdX9Hk9TyKQ4v4LcVeq0qAPcg==&#xD;
+</ns3:certificate>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwmIsFGzVwrljo1aM23M4vfCdt51VVsNz&#xD;
+toFDTnL+r/i5UYD2hntj03FUnZw2RxYAcDjFauZqd5L1TUT3Ex1nhOCbcBgh82z/lYicLJOUfcqH&#xD;
+BsVEYxsTTQMYXDEkvWWWpdf0DLDpG4aJhllj6HiRuNrG2WTxlx4BvgivmgycdtN51j8udvrPbclV&#xD;
+8KpIF72WhsXN6wtrHVug1bwmN3tVsTnyZQyDYIMkwL866aBFo2xTRJbojt2+sCPuY6/1wpfLfeGH&#xD;
+mEChv85HhA8mXN2Eg7NvCKRI/UXfvZNQaLOTpst9vV3UPORjTdJT9NrgkFtO883F2yB1T4mREEkf&#xD;
+ck5ObQIDAQAB&#xD;
+</ns3:rsa-public-key>
+        </ns3:client-credentials-in-use>
+        <ns3:server-credentials-in-use>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwmIsFGzVwrljo1aM23M4vfCdt51VVsNz&#xD;
+toFDTnL+r/i5UYD2hntj03FUnZw2RxYAcDjFauZqd5L1TUT3Ex1nhOCbcBgh82z/lYicLJOUfcqH&#xD;
+BsVEYxsTTQMYXDEkvWWWpdf0DLDpG4aJhllj6HiRuNrG2WTxlx4BvgivmgycdtN51j8udvrPbclV&#xD;
+8KpIF72WhsXN6wtrHVug1bwmN3tVsTnyZQyDYIMkwL866aBFo2xTRJbojt2+sCPuY6/1wpfLfeGH&#xD;
+mEChv85HhA8mXN2Eg7NvCKRI/UXfvZNQaLOTpst9vV3UPORjTdJT9NrgkFtO883F2yB1T4mREEkf&#xD;
+ck5ObQIDAQAB&#xD;
+</ns3:rsa-public-key>
+        </ns3:server-credentials-in-use>
+    </ns3:host>
 </ns3:manifest>
