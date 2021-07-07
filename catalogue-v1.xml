@@ -62154,6 +62154,284 @@
             <rsa-public-key sha-256="2dd137b11137ba2f22fdf5a79dab770d5a9216860208b226b16d9ccac1b62dcd"/>
         </server-credentials-in-use>
     </host>
+    <host>
+        <apis-implemented>
+            <d5:discovery version="5.0.0">
+                <d5:url>https://mobility-online.utwente.nl/mobility/ewp/manifest?api=all</d5:url>
+            </d5:discovery>
+            <e2:echo version="2.0.0">
+                <e2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </e2:http-security>
+                <e2:url>https://mobility-online.utwente.nl/mobility/ewp/echo</e2:url>
+            </e2:echo>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>utwente.nl</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="45235166f281831af494313f25d4c5832bef2c374f13271dce30c5afc089f173"/>
+            <rsa-public-key sha-256="b39447fe4f70ff24f588750ee6b3fa00e2441d27f9a5850431ee4898487b3ab9"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="b39447fe4f70ff24f588750ee6b3fa00e2441d27f9a5850431ee4898487b3ab9"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <in2:institutions version="2.1.0">
+                <in2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </in2:http-security>
+                <in2:url>https://mobility-online.utwente.nl/mobility/ewp/institutions</in2:url>
+                <in2:max-hei-ids>3</in2:max-hei-ids>
+            </in2:institutions>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>utwente.nl</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="45235166f281831af494313f25d4c5832bef2c374f13271dce30c5afc089f173"/>
+            <rsa-public-key sha-256="b39447fe4f70ff24f588750ee6b3fa00e2441d27f9a5850431ee4898487b3ab9"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="b39447fe4f70ff24f588750ee6b3fa00e2441d27f9a5850431ee4898487b3ab9"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <ou2:organizational-units version="2.1.1">
+                <ou2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </ou2:http-security>
+                <ou2:url>https://mobility-online.utwente.nl/mobility/ewp/ounits</ou2:url>
+                <ou2:max-ounit-ids>3</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>3</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>utwente.nl</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="45235166f281831af494313f25d4c5832bef2c374f13271dce30c5afc089f173"/>
+            <rsa-public-key sha-256="b39447fe4f70ff24f588750ee6b3fa00e2441d27f9a5850431ee4898487b3ab9"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="b39447fe4f70ff24f588750ee6b3fa00e2441d27f9a5850431ee4898487b3ab9"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <ia3:iias
+                xmlns:ia3="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v3/manifest-entry.xsd"
+                version="3.0.0"
+            >
+                <ia3:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </ia3:http-security>
+                <ia3:get-url>https://mobility-online.utwente.nl/mobility/ewp/iias-v3/get</ia3:get-url>
+                <ia3:max-iia-ids>3</ia3:max-iia-ids>
+                <ia3:max-iia-codes>3</ia3:max-iia-codes>
+                <ia3:index-url>https://mobility-online.utwente.nl/mobility/ewp/iias-v3/index</ia3:index-url>
+                <ia3:sends-notifications/>
+            </ia3:iias>
+            <ia4:iias
+                xmlns:ia4="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v4/manifest-entry.xsd"
+                version="4.0.0"
+            >
+                <ia4:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </ia4:http-security>
+                <ia4:get-url>https://mobility-online.utwente.nl/mobility/ewp/iias-v4/get</ia4:get-url>
+                <ia4:max-iia-ids>3</ia4:max-iia-ids>
+                <ia4:max-iia-codes>3</ia4:max-iia-codes>
+                <ia4:index-url>https://mobility-online.utwente.nl/mobility/ewp/iias-v4/index</ia4:index-url>
+            </ia4:iias>
+            <ia6:iias
+                xmlns:ia6="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v6/manifest-entry.xsd"
+                version="6.0.0"
+            >
+                <ia6:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </ia6:http-security>
+                <ia6:get-url>https://mobility-online.utwente.nl/mobility/ewp/iias-v6/get</ia6:get-url>
+                <ia6:max-iia-ids>3</ia6:max-iia-ids>
+                <ia6:max-iia-codes>3</ia6:max-iia-codes>
+                <ia6:index-url>https://mobility-online.utwente.nl/mobility/ewp/iias-v6/index</ia6:index-url>
+            </ia6:iias>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>utwente.nl</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="45235166f281831af494313f25d4c5832bef2c374f13271dce30c5afc089f173"/>
+            <rsa-public-key sha-256="b39447fe4f70ff24f588750ee6b3fa00e2441d27f9a5850431ee4898487b3ab9"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="b39447fe4f70ff24f588750ee6b3fa00e2441d27f9a5850431ee4898487b3ab9"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <iac2:iia-cnr version="2.0.2">
+                <iac2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </iac2:http-security>
+                <iac2:url>https://mobility-online.utwente.nl/mobility/ewp/iias/cnr</iac2:url>
+            </iac2:iia-cnr>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>utwente.nl</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="45235166f281831af494313f25d4c5832bef2c374f13271dce30c5afc089f173"/>
+            <rsa-public-key sha-256="b39447fe4f70ff24f588750ee6b3fa00e2441d27f9a5850431ee4898487b3ab9"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="b39447fe4f70ff24f588750ee6b3fa00e2441d27f9a5850431ee4898487b3ab9"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <iaa1:iias-approval
+                xmlns:iaa1="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <iaa1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </iaa1:http-security>
+                <iaa1:url>https://mobility-online.utwente.nl/mobility/ewp/iias-approval-v1/get</iaa1:url>
+                <iaa1:max-iia-ids>3</iaa1:max-iia-ids>
+            </iaa1:iias-approval>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>utwente.nl</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="45235166f281831af494313f25d4c5832bef2c374f13271dce30c5afc089f173"/>
+            <rsa-public-key sha-256="b39447fe4f70ff24f588750ee6b3fa00e2441d27f9a5850431ee4898487b3ab9"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="b39447fe4f70ff24f588750ee6b3fa00e2441d27f9a5850431ee4898487b3ab9"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <iaac1:iia-approval-cnr
+                xmlns:iaac1="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <iaac1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </iaac1:http-security>
+                <iaac1:url>https://mobility-online.utwente.nl/mobility/ewp/iias-approval-cnr-v1/cnr</iaac1:url>
+            </iaac1:iia-approval-cnr>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>utwente.nl</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="45235166f281831af494313f25d4c5832bef2c374f13271dce30c5afc089f173"/>
+            <rsa-public-key sha-256="b39447fe4f70ff24f588750ee6b3fa00e2441d27f9a5850431ee4898487b3ab9"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="b39447fe4f70ff24f588750ee6b3fa00e2441d27f9a5850431ee4898487b3ab9"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <f1:factsheet
+                xmlns:f1="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
+                version="0.3.0"
+            >
+                <f1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </f1:http-security>
+                <f1:url>https://mobility-online.utwente.nl/mobility/ewp/factsheets</f1:url>
+                <f1:max-hei-ids>3</f1:max-hei-ids>
+            </f1:factsheet>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>utwente.nl</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="45235166f281831af494313f25d4c5832bef2c374f13271dce30c5afc089f173"/>
+            <rsa-public-key sha-256="b39447fe4f70ff24f588750ee6b3fa00e2441d27f9a5850431ee4898487b3ab9"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="b39447fe4f70ff24f588750ee6b3fa00e2441d27f9a5850431ee4898487b3ab9"/>
+        </server-credentials-in-use>
+    </host>
     <institutions>
         <hei id="29mayis.tr">
             <other-id type="erasmus">TR ISTANBU43</other-id>
@@ -71257,6 +71535,12 @@
             <other-id type="erasmus">SF TURKU01</other-id>
             <name xml:lang="en">University of Turku</name>
         </hei>
+        <hei id="utwente.nl">
+            <other-id type="erasmus">NL ENSCHED01</other-id>
+            <other-id type="pic">999900833</other-id>
+            <name xml:lang="en">University of Twente</name>
+            <name xml:lang="nl">University of Twente</name>
+        </hei>
         <hei id="uu.nl">
             <other-id type="erasmus">NL UTRECHT01</other-id>
             <name>UNIVERSITEIT UTRECHT</name>
@@ -72489,6 +72773,14 @@
             SZh/NtQukUpJTzl3Eh+9LZlTgixVBHiWmiek04n7zhWXge9/3G3EUHaFWN6Y4LCgtNT29O9TO/kl
             bXngKWWFhS20+QDnmTBlzuivksMXvINVWl4S6iAql6KIqxfb5LiHcSZpCfEyENBrU6E1IQlzPnT/
             owO3WQIDAQAB
+        </rsa-public-key>
+        <rsa-public-key sha-256="b39447fe4f70ff24f588750ee6b3fa00e2441d27f9a5850431ee4898487b3ab9">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAv3tpZBdfIZgV4dyGbFMFbh6K6TufmRpn
+            npmv/5iB4FuNc2eABN/ahQEsU5LmRSZiB7ECIc0M4TkH1ORXCA6FcgEc1uouP22e0mraNfGbcNXv
+            K2jzKm7/DhcOLRvdzPNcCGDas88LRXaVDaC9yEsk4eqUHw4WS0DTFHyb/0Mjz9g1x3XRLAgzT9Od
+            6744E8Mwn+qxWF77fYchcTjNXcak/dcRx646hoHpMTvDzgScmqcHlch1AcrVfhs8HjoUgdQ8B/vT
+            D+hsEAAaCrMhGvI0gHSZUIbZ32fL0ASmytHJuf2PLZJzP9mzJd0JvDACr33oQ0rtZVzPeKpQ10Oy
+            FeTqiwIDAQAB
         </rsa-public-key>
         <rsa-public-key sha-256="b3c3122938a7d31a7b5c7f89a5c3ef5c7afd649f4f718c9b8cb3606f5c8528fa">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5wXJv4izvEkz6TKQhzIQhHLrN4wVjZi/
