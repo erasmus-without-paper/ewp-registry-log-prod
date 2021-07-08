@@ -6730,12 +6730,50 @@
                         <sec-B1:tlscert/>
                     </sec:server-auth-methods>
                 </ia3:http-security>
-                <ia3:get-url>https://mobility.uni-konstanz.de/mobility/ewp/iias/get</ia3:get-url>
+                <ia3:get-url>https://mobility.uni-konstanz.de/mobility/ewp/iias-v3/get</ia3:get-url>
                 <ia3:max-iia-ids>3</ia3:max-iia-ids>
                 <ia3:max-iia-codes>3</ia3:max-iia-codes>
-                <ia3:index-url>https://mobility.uni-konstanz.de/mobility/ewp/iias/index</ia3:index-url>
+                <ia3:index-url>https://mobility.uni-konstanz.de/mobility/ewp/iias-v3/index</ia3:index-url>
                 <ia3:sends-notifications/>
             </ia3:iias>
+            <ia4:iias
+                xmlns:ia4="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v4/manifest-entry.xsd"
+                version="4.0.0"
+            >
+                <ia4:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </ia4:http-security>
+                <ia4:get-url>https://mobility.uni-konstanz.de/mobility/ewp/iias-v4/get</ia4:get-url>
+                <ia4:max-iia-ids>3</ia4:max-iia-ids>
+                <ia4:max-iia-codes>3</ia4:max-iia-codes>
+                <ia4:index-url>https://mobility.uni-konstanz.de/mobility/ewp/iias-v4/index</ia4:index-url>
+            </ia4:iias>
+            <ia6:iias
+                xmlns:ia6="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v6/manifest-entry.xsd"
+                version="6.0.0"
+            >
+                <ia6:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </ia6:http-security>
+                <ia6:get-url>https://mobility.uni-konstanz.de/mobility/ewp/iias-v6/get</ia6:get-url>
+                <ia6:max-iia-ids>3</ia6:max-iia-ids>
+                <ia6:max-iia-codes>3</ia6:max-iia-codes>
+                <ia6:index-url>https://mobility.uni-konstanz.de/mobility/ewp/iias-v6/index</ia6:index-url>
+            </ia6:iias>
         </apis-implemented>
         <institutions-covered>
             <hei-id>uni-konstanz.de</hei-id>
@@ -6752,7 +6790,7 @@
         <apis-implemented>
             <iaa1:iias-approval
                 xmlns:iaa1="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
-                version="0.2.1"
+                version="1.0.0"
             >
                 <iaa1:http-security>
                     <sec:client-auth-methods>
@@ -6764,9 +6802,39 @@
                         <sec-B1:tlscert/>
                     </sec:server-auth-methods>
                 </iaa1:http-security>
-                <iaa1:url>https://mobility.uni-konstanz.de/mobility/ewp/iias/approve</iaa1:url>
+                <iaa1:url>https://mobility.uni-konstanz.de/mobility/ewp/iias-approval-v1/get</iaa1:url>
                 <iaa1:max-iia-ids>3</iaa1:max-iia-ids>
             </iaa1:iias-approval>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>uni-konstanz.de</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="5ff15353d9d8a327f85d1b88269c102433e6668ab108ab6ea62e275abb1484fd"/>
+            <rsa-public-key sha-256="7cfdc46c9c42a1a090b805e76a5d3fd0df87db0025c9487461292959ca90e6e8"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="7cfdc46c9c42a1a090b805e76a5d3fd0df87db0025c9487461292959ca90e6e8"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <iaac1:iia-approval-cnr
+                xmlns:iaac1="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <iaac1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </iaac1:http-security>
+                <iaac1:url>https://mobility.uni-konstanz.de/mobility/ewp/iias-approval-cnr-v1/cnr</iaac1:url>
+            </iaac1:iia-approval-cnr>
         </apis-implemented>
         <institutions-covered>
             <hei-id>uni-konstanz.de</hei-id>
