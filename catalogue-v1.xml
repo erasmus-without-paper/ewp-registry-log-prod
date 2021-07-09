@@ -14471,6 +14471,7 @@
             <hei-id>tlse3.fr</hei-id>
             <hei-id>u-bordeaux.fr</hei-id>
             <hei-id>univ-grenoble-alpes.fr</hei-id>
+            <hei-id>uha.fr</hei-id>
             <hei-id>uloyola.es</hei-id>
             <hei-id>unicaen.fr</hei-id>
             <hei-id>umontpellier.fr</hei-id>
@@ -14533,6 +14534,7 @@
             <hei-id>univ-montp3.fr</hei-id>
             <hei-id>ph-ludwigsburg.de</hei-id>
             <hei-id>uni-potsdam.de</hei-id>
+            <hei-id>ruhr-uni-bochum.de</hei-id>
             <hei-id>rwth-aachen.de</hei-id>
             <hei-id>uni-siegen.de</hei-id>
             <hei-id>slu.se</hei-id>
@@ -14645,8 +14647,10 @@
             <hei-id>surrey.ac.uk</hei-id>
             <hei-id>uwe.ac.uk</hei-id>
             <hei-id>baaa.dk</hei-id>
+            <hei-id>univ-littoral.fr</hei-id>
             <hei-id>aston.ac.uk</hei-id>
             <hei-id>bham.ac.uk</hei-id>
+            <hei-id>ens.psl.eu</hei-id>
             <hei-id>clermont-auvergne-inp.fr</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
@@ -18980,6 +18984,9 @@
                 <omlc1:max-omobility-ids>10</omlc1:max-omobility-ids>
             </omlc1:omobility-la-cnr>
         </apis-implemented>
+        <institutions-covered>
+            <hei-id>uha.fr</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
             <rsa-public-key sha-256="e4c7f55c93dc6e16e192943079a33d85aeef3cd6a6eaec1fcb21ac676c009fbc"/>
@@ -29997,6 +30004,9 @@
                 <iaac1:url>https://rub-ewp.moveon4.de/v1/iia/approval/cnr</iaac1:url>
             </iaac1:iia-approval-cnr>
         </apis-implemented>
+        <institutions-covered>
+            <hei-id>ruhr-uni-bochum.de</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
             <rsa-public-key sha-256="e4c7f55c93dc6e16e192943079a33d85aeef3cd6a6eaec1fcb21ac676c009fbc"/>
@@ -46940,6 +46950,9 @@
                 <f1:max-hei-ids>10</f1:max-hei-ids>
             </f1:factsheet>
         </apis-implemented>
+        <institutions-covered>
+            <hei-id>univ-littoral.fr</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
             <rsa-public-key sha-256="e4c7f55c93dc6e16e192943079a33d85aeef3cd6a6eaec1fcb21ac676c009fbc"/>
@@ -47188,6 +47201,9 @@
                 <omlc1:max-omobility-ids>10</omlc1:max-omobility-ids>
             </omlc1:omobility-la-cnr>
         </apis-implemented>
+        <institutions-covered>
+            <hei-id>ens.psl.eu</hei-id>
+        </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
             <rsa-public-key sha-256="e4c7f55c93dc6e16e192943079a33d85aeef3cd6a6eaec1fcb21ac676c009fbc"/>
@@ -64303,6 +64319,12 @@
             <other-id type="erasmus">F  RENNES55</other-id>
             <name>ECOLE NORMALE SUPERIEURE DE RENNES</name>
         </hei>
+        <hei id="ens.psl.eu">
+            <other-id type="erasmus">F PARIS087</other-id>
+            <other-id type="erasmus-charter">221474</other-id>
+            <other-id type="pic">999854758</other-id>
+            <name xml:lang="en">Ecole Normale Supérieure Paris</name>
+        </hei>
         <hei id="ens2m.fr">
             <other-id type="erasmus">F  BESANCO06</other-id>
             <name>ECOLE NATIONALE SUPERIEURE DE MECANIQUE ET DES MICROTECHNIQUES</name>
@@ -68521,7 +68543,10 @@
         </hei>
         <hei id="ruhr-uni-bochum.de">
             <other-id type="erasmus">D  BOCHUM01</other-id>
+            <other-id type="erasmus-charter">29880</other-id>
+            <other-id type="pic">999988812</other-id>
             <name>RUHR-UNIVERSITAET BOCHUM</name>
+            <name xml:lang="en">Ruhr-Universität Bochum</name>
         </hei>
         <hei id="rwth-aachen.de">
             <other-id type="erasmus">D  AACHEN01</other-id>
@@ -69746,7 +69771,10 @@
         </hei>
         <hei id="uha.fr">
             <other-id type="erasmus">F  MULHOUS01</other-id>
+            <other-id type="erasmus-charter">28040</other-id>
+            <other-id type="pic">999861839</other-id>
             <name>UNIVERSITE DE HAUTE ALSACE</name>
+            <name xml:lang="en">Université de Haute-Alsace</name>
         </hei>
         <hei id="ui1.es">
             <other-id type="erasmus">E  BURGOS20</other-id>
@@ -70961,6 +70989,12 @@
             <other-id type="pic">910186018</other-id>
             <name>Universite De Lille</name>
             <name xml:lang="en">Université de Lille</name>
+        </hei>
+        <hei id="univ-littoral.fr">
+            <other-id type="erasmus">F  DUNKERQ09</other-id>
+            <other-id type="erasmus-charter">28196</other-id>
+            <other-id type="pic">972682342</other-id>
+            <name xml:lang="en">Université du Littoral Côte d’Opale</name>
         </hei>
         <hei id="univ-lorraine.fr">
             <other-id type="erasmus">F  NANCY43</other-id>
