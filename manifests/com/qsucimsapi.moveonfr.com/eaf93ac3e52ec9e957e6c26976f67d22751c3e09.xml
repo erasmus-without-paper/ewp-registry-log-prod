@@ -33715,9 +33715,9 @@ IwIDAQAB
         <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
         <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
       </ou2:organizational-units>
-      <oml1:omobility-las version="1.0.1">
+      <om1:omobilities version="1.0.0">
         <admin-email>umesh@qs.com</admin-email>
-        <oml1:http-security>
+        <om1:http-security>
           <sec:client-auth-methods>
             <sec-A1:tlscert allows-self-signed="true"/>
             <sec-A2:httpsig/>
@@ -33726,14 +33726,14 @@ IwIDAQAB
             <sec-B1:tlscert/>
             <sec-B2:httpsig/>
           </sec:server-auth-methods>
-        </oml1:http-security>
-        <oml1:get-url>https://urv-ewp.moveonfr.com/v1/la/get</oml1:get-url>
-        <oml1:index-url>https://urv-ewp.moveonfr.com/v1/la/index</oml1:index-url>
-        <oml1:update-url>https://urv-ewp.moveonfr.com/v1/la/update</oml1:update-url>
-        <oml1:max-omobility-ids>10</oml1:max-omobility-ids>
-      </oml1:omobility-las>
-      <omlc1:omobility-la-cnr version="1.0.0">
-        <omlc1:http-security>
+        </om1:http-security>
+        <om1:get-url>https://urv-ewp.moveonfr.com/v1/omobility/get</om1:get-url>
+        <om1:index-url>https://urv-ewp.moveonfr.com/v1/omobility/index</om1:index-url>
+        <om1:max-omobility-ids>10</om1:max-omobility-ids>
+        <om1:sends-notifications/>
+      </om1:omobilities>
+      <omc1:omobility-cnr version="1.0.0">
+        <omc1:http-security>
           <sec:client-auth-methods>
             <sec-A1:tlscert allows-self-signed="true"/>
             <sec-A2:httpsig/>
@@ -33742,10 +33742,40 @@ IwIDAQAB
             <sec-B1:tlscert/>
             <sec-B2:httpsig/>
           </sec:server-auth-methods>
-        </omlc1:http-security>
-        <omlc1:url>https://urv-ewp.moveonfr.com/v1/la/cnr</omlc1:url>
-        <omlc1:max-omobility-ids>10</omlc1:max-omobility-ids>
-      </omlc1:omobility-la-cnr>
+        </omc1:http-security>
+        <omc1:url>https://urv-ewp.moveonfr.com/v1/omobility/cnr</omc1:url>
+        <omc1:max-omobility-ids>10</omc1:max-omobility-ids>
+      </omc1:omobility-cnr>
+      <im1:imobilities version="1.0.0">
+        <admin-email>umesh@qs.com</admin-email>
+        <im1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </im1:http-security>
+        <im1:get-url>https://urv-ewp.moveonfr.com/v1/imobility/get</im1:get-url>
+        <im1:max-omobility-ids>10</im1:max-omobility-ids>
+        <im1:sends-notifications/>
+      </im1:imobilities>
+      <imc1:imobility-cnr version="1.0.0">
+        <imc1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </imc1:http-security>
+        <imc1:url>https://urv-ewp.moveonfr.com/v1/imobility/cnr</imc1:url>
+        <imc1:max-omobility-ids>10</imc1:max-omobility-ids>
+      </imc1:imobility-cnr>
     </r:apis-implemented>
     <ns3:institutions-covered>
       <r:hei id="urv.cat">
