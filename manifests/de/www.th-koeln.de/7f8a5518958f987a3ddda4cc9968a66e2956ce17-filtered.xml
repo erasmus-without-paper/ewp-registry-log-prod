@@ -38,7 +38,7 @@
     <ns3:host>
         <ns2:apis-implemented>
             <ns30:discovery version="5.0.0">
-                <ns30:url>https://www.th-koeln.de/mobility/ewp/manifest?api=all</ns30:url>
+                <ns30:url>https://www.th-koeln.de/thkoeln/ewp/manifest?api=all</ns30:url>
             </ns30:discovery>
             <ns29:echo version="2.0.0">
                 <ns29:http-security>
@@ -51,7 +51,7 @@
                         <ns35:tlscert/>
                     </ns5:server-auth-methods>
                 </ns29:http-security>
-                <ns29:url>https://www.th-koeln.de/mobility/ewp/echo</ns29:url>
+                <ns29:url>https://www.service4mobility.com/thkoeln/ewp/echo</ns29:url>
             </ns29:echo>
         </ns2:apis-implemented>
         <ns3:institutions-covered>
@@ -111,7 +111,7 @@ PKjCQfCpayxY8q/fwDdiyyjDDNsO+KiNlvplNnSA4osqH2u4pVLKQHv0H9Ecd6SHNfKB7gxI9NUe&#xD
                         <ns35:tlscert/>
                     </ns5:server-auth-methods>
                 </ns28:http-security>
-                <ns28:url>https://www.th-koeln.de/mobility/ewp/institutions</ns28:url>
+                <ns28:url>https://www.service4mobility.com/thkoeln/ewp/institutions</ns28:url>
                 <ns28:max-hei-ids>3</ns28:max-hei-ids>
             </ns28:institutions>
         </ns2:apis-implemented>
@@ -172,7 +172,7 @@ PKjCQfCpayxY8q/fwDdiyyjDDNsO+KiNlvplNnSA4osqH2u4pVLKQHv0H9Ecd6SHNfKB7gxI9NUe&#xD
                         <ns35:tlscert/>
                     </ns5:server-auth-methods>
                 </ns27:http-security>
-                <ns27:url>https://www.th-koeln.de/mobility/ewp/ounits</ns27:url>
+                <ns27:url>https://www.service4mobility.com/thkoeln/ewp/ounits</ns27:url>
                 <ns27:max-ounit-ids>3</ns27:max-ounit-ids>
                 <ns27:max-ounit-codes>3</ns27:max-ounit-codes>
             </ns27:organizational-units>
@@ -234,10 +234,10 @@ PKjCQfCpayxY8q/fwDdiyyjDDNsO+KiNlvplNnSA4osqH2u4pVLKQHv0H9Ecd6SHNfKB7gxI9NUe&#xD
                         <ns35:tlscert/>
                     </ns5:server-auth-methods>
                 </ns26:http-security>
-                <ns26:get-url>https://www.th-koeln.de/mobility/ewp/iias-v3/get</ns26:get-url>
+                <ns26:get-url>https://www.service4mobility.com/thkoeln/ewp/iias-v3/get</ns26:get-url>
                 <ns26:max-iia-ids>3</ns26:max-iia-ids>
                 <ns26:max-iia-codes>3</ns26:max-iia-codes>
-                <ns26:index-url>https://www.th-koeln.de/mobility/ewp/iias-v3/index</ns26:index-url>
+                <ns26:index-url>https://www.service4mobility.com/thkoeln/ewp/iias-v3/index</ns26:index-url>
                 <ns26:sends-notifications/>
             </ns26:iias>
             <ns25:iias version="4.0.0">
@@ -251,10 +251,10 @@ PKjCQfCpayxY8q/fwDdiyyjDDNsO+KiNlvplNnSA4osqH2u4pVLKQHv0H9Ecd6SHNfKB7gxI9NUe&#xD
                         <ns35:tlscert/>
                     </ns5:server-auth-methods>
                 </ns25:http-security>
-                <ns25:get-url>https://www.th-koeln.de/mobility/ewp/iias-v4/get</ns25:get-url>
+                <ns25:get-url>https://www.service4mobility.com/thkoeln/ewp/iias-v4/get</ns25:get-url>
                 <ns25:max-iia-ids>3</ns25:max-iia-ids>
                 <ns25:max-iia-codes>3</ns25:max-iia-codes>
-                <ns25:index-url>https://www.th-koeln.de/mobility/ewp/iias-v4/index</ns25:index-url>
+                <ns25:index-url>https://www.service4mobility.com/thkoeln/ewp/iias-v4/index</ns25:index-url>
             </ns25:iias>
             <ns24:iias version="6.0.0">
                 <ns24:http-security>
@@ -267,10 +267,10 @@ PKjCQfCpayxY8q/fwDdiyyjDDNsO+KiNlvplNnSA4osqH2u4pVLKQHv0H9Ecd6SHNfKB7gxI9NUe&#xD
                         <ns35:tlscert/>
                     </ns5:server-auth-methods>
                 </ns24:http-security>
-                <ns24:get-url>https://www.th-koeln.de/mobility/ewp/iias-v6/get</ns24:get-url>
+                <ns24:get-url>https://www.service4mobility.com/thkoeln/ewp/iias-v6/get</ns24:get-url>
                 <ns24:max-iia-ids>3</ns24:max-iia-ids>
                 <ns24:max-iia-codes>3</ns24:max-iia-codes>
-                <ns24:index-url>https://www.th-koeln.de/mobility/ewp/iias-v6/index</ns24:index-url>
+                <ns24:index-url>https://www.service4mobility.com/thkoeln/ewp/iias-v6/index</ns24:index-url>
             </ns24:iias>
         </ns2:apis-implemented>
         <ns3:institutions-covered>
@@ -330,7 +330,7 @@ PKjCQfCpayxY8q/fwDdiyyjDDNsO+KiNlvplNnSA4osqH2u4pVLKQHv0H9Ecd6SHNfKB7gxI9NUe&#xD
                         <ns35:tlscert/>
                     </ns5:server-auth-methods>
                 </ns23:http-security>
-                <ns23:url>https://www.th-koeln.de/mobility/ewp/iias/cnr</ns23:url>
+                <ns23:url>https://www.service4mobility.com/thkoeln/ewp/iias/cnr</ns23:url>
             </ns23:iia-cnr>
         </ns2:apis-implemented>
         <ns3:institutions-covered>
@@ -390,7 +390,7 @@ PKjCQfCpayxY8q/fwDdiyyjDDNsO+KiNlvplNnSA4osqH2u4pVLKQHv0H9Ecd6SHNfKB7gxI9NUe&#xD
                         <ns35:tlscert/>
                     </ns5:server-auth-methods>
                 </ns22:http-security>
-                <ns22:url>https://www.th-koeln.de/mobility/ewp/iias-approval-v1/get</ns22:url>
+                <ns22:url>https://www.service4mobility.com/thkoeln/ewp/iias-approval-v1/get</ns22:url>
                 <ns22:max-iia-ids>3</ns22:max-iia-ids>
             </ns22:iias-approval>
         </ns2:apis-implemented>
@@ -451,7 +451,7 @@ PKjCQfCpayxY8q/fwDdiyyjDDNsO+KiNlvplNnSA4osqH2u4pVLKQHv0H9Ecd6SHNfKB7gxI9NUe&#xD
                         <ns35:tlscert/>
                     </ns5:server-auth-methods>
                 </ns21:http-security>
-                <ns21:url>https://www.th-koeln.de/mobility/ewp/iias-approval-cnr-v1/cnr</ns21:url>
+                <ns21:url>https://www.service4mobility.com/thkoeln/ewp/iias-approval-cnr-v1/cnr</ns21:url>
             </ns21:iia-approval-cnr>
         </ns2:apis-implemented>
         <ns3:institutions-covered>
@@ -511,8 +511,8 @@ PKjCQfCpayxY8q/fwDdiyyjDDNsO+KiNlvplNnSA4osqH2u4pVLKQHv0H9Ecd6SHNfKB7gxI9NUe&#xD
                         <ns35:tlscert/>
                     </ns5:server-auth-methods>
                 </ns18:http-security>
-                <ns18:get-url>https://www.th-koeln.de/mobility/ewp/mobility_out/get</ns18:get-url>
-                <ns18:index-url>https://www.th-koeln.de/mobility/ewp/mobility_out/index</ns18:index-url>
+                <ns18:get-url>https://www.service4mobility.com/thkoeln/ewp/mobility_out/get</ns18:get-url>
+                <ns18:index-url>https://www.service4mobility.com/thkoeln/ewp/mobility_out/index</ns18:index-url>
                 <ns18:max-omobility-ids>1</ns18:max-omobility-ids>
                 <ns18:sends-notifications/>
             </ns18:omobilities>
@@ -574,7 +574,7 @@ PKjCQfCpayxY8q/fwDdiyyjDDNsO+KiNlvplNnSA4osqH2u4pVLKQHv0H9Ecd6SHNfKB7gxI9NUe&#xD
                         <ns35:tlscert/>
                     </ns5:server-auth-methods>
                 </ns14:http-security>
-                <ns14:get-url>https://www.th-koeln.de/mobility/ewp/mobility_in/get</ns14:get-url>
+                <ns14:get-url>https://www.service4mobility.com/thkoeln/ewp/mobility_in/get</ns14:get-url>
                 <ns14:max-omobility-ids>1</ns14:max-omobility-ids>
                 <ns14:sends-notifications/>
             </ns14:imobilities>
@@ -636,7 +636,7 @@ PKjCQfCpayxY8q/fwDdiyyjDDNsO+KiNlvplNnSA4osqH2u4pVLKQHv0H9Ecd6SHNfKB7gxI9NUe&#xD
                         <ns35:tlscert/>
                     </ns5:server-auth-methods>
                 </ns17:http-security>
-                <ns17:url>https://www.th-koeln.de/mobility/ewp/mobility_out/cnr</ns17:url>
+                <ns17:url>https://www.service4mobility.com/thkoeln/ewp/mobility_out/cnr</ns17:url>
                 <ns17:max-omobility-ids>1</ns17:max-omobility-ids>
             </ns17:omobility-cnr>
         </ns2:apis-implemented>
@@ -697,7 +697,7 @@ PKjCQfCpayxY8q/fwDdiyyjDDNsO+KiNlvplNnSA4osqH2u4pVLKQHv0H9Ecd6SHNfKB7gxI9NUe&#xD
                         <ns35:tlscert/>
                     </ns5:server-auth-methods>
                 </ns6:http-security>
-                <ns6:url>https://www.th-koeln.de/mobility/ewp/factsheets</ns6:url>
+                <ns6:url>https://www.service4mobility.com/thkoeln/ewp/factsheets</ns6:url>
                 <ns6:max-hei-ids>3</ns6:max-hei-ids>
             </ns6:factsheet>
         </ns2:apis-implemented>
