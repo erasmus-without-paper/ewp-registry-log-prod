@@ -1428,6 +1428,20 @@ IwIDAQAB
         </iaac1:http-security>
         <iaac1:url>https://artois-ewp.moveonfr.com/v1/iia/approval/cnr</iaac1:url>
       </iaac1:iia-approval-cnr>
+      <f1:factsheet version="1.0.0">
+        <f1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </f1:http-security>
+        <f1:url>https://artois-ewp.moveonfr.com/v1/factsheet/get</f1:url>
+        <f1:max-hei-ids>10</f1:max-hei-ids>
+      </f1:factsheet>
     </r:apis-implemented>
     <ns3:institutions-covered>
       <r:hei id="univ-artois.fr">
@@ -2511,6 +2525,20 @@ IwIDAQAB
         <omlc1:url>https://ieprennes-ewp.moveonfr.com/v1/la/cnr</omlc1:url>
         <omlc1:max-omobility-ids>10</omlc1:max-omobility-ids>
       </omlc1:omobility-la-cnr>
+      <f1:factsheet version="1.0.0">
+        <f1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </f1:http-security>
+        <f1:url>https://ieprennes-ewp.moveonfr.com/v1/factsheet/get</f1:url>
+        <f1:max-hei-ids>10</f1:max-hei-ids>
+      </f1:factsheet>
     </r:apis-implemented>
     <ns3:institutions-covered>
       <r:hei id="sciencespo-rennes.fr">
@@ -2746,6 +2774,20 @@ IwIDAQAB
         <omlc1:url>https://icp-ewp.moveonfr.com/v1/la/cnr</omlc1:url>
         <omlc1:max-omobility-ids>10</omlc1:max-omobility-ids>
       </omlc1:omobility-la-cnr>
+      <f1:factsheet version="1.0.0">
+        <f1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </f1:http-security>
+        <f1:url>https://icp-ewp.moveonfr.com/v1/factsheet/get</f1:url>
+        <f1:max-hei-ids>10</f1:max-hei-ids>
+      </f1:factsheet>
     </r:apis-implemented>
     <ns3:institutions-covered>
       <r:hei id="icp.fr">
@@ -4178,6 +4220,20 @@ IwIDAQAB
         </iaac1:http-security>
         <iaac1:url>https://paris1-ewp.moveonfr.com/v1/iia/approval/cnr</iaac1:url>
       </iaac1:iia-approval-cnr>
+      <f1:factsheet version="1.0.0">
+        <f1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </f1:http-security>
+        <f1:url>https://paris1-ewp.moveonfr.com/v1/factsheet/get</f1:url>
+        <f1:max-hei-ids>10</f1:max-hei-ids>
+      </f1:factsheet>
     </r:apis-implemented>
     <ns3:institutions-covered>
       <r:hei id="pantheonsorbonne.fr">
@@ -5140,6 +5196,20 @@ IwIDAQAB
         <omlc1:url>https://rscergpont-ewp.moveonfr.com/v1/la/cnr</omlc1:url>
         <omlc1:max-omobility-ids>10</omlc1:max-omobility-ids>
       </omlc1:omobility-la-cnr>
+      <f1:factsheet version="1.0.0">
+        <f1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </f1:http-security>
+        <f1:url>https://rscergpont-ewp.moveonfr.com/v1/factsheet/get</f1:url>
+        <f1:max-hei-ids>10</f1:max-hei-ids>
+      </f1:factsheet>
     </r:apis-implemented>
     <ns3:institutions-covered>
       <r:hei id="cyu.fr">
@@ -5782,6 +5852,20 @@ IwIDAQAB
         <omlc1:url>https://uga-ewp.moveonfr.com/v1/la/cnr</omlc1:url>
         <omlc1:max-omobility-ids>10</omlc1:max-omobility-ids>
       </omlc1:omobility-la-cnr>
+      <f1:factsheet version="1.0.0">
+        <f1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </f1:http-security>
+        <f1:url>https://uga-ewp.moveonfr.com/v1/factsheet/get</f1:url>
+        <f1:max-hei-ids>10</f1:max-hei-ids>
+      </f1:factsheet>
     </r:apis-implemented>
     <ns3:institutions-covered>
       <r:hei id="univ-grenoble-alpes.fr">
@@ -6162,6 +6246,20 @@ IwIDAQAB
         <omlc1:url>https://uloyola-ewp.moveonfr.com/v1/la/cnr</omlc1:url>
         <omlc1:max-omobility-ids>10</omlc1:max-omobility-ids>
       </omlc1:omobility-la-cnr>
+      <f1:factsheet version="1.0.0">
+        <f1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </f1:http-security>
+        <f1:url>https://uloyola-ewp.moveonfr.com/v1/factsheet/get</f1:url>
+        <f1:max-hei-ids>10</f1:max-hei-ids>
+      </f1:factsheet>
     </r:apis-implemented>
     <ns3:institutions-covered>
       <r:hei id="uloyola.es">
@@ -6365,6 +6463,20 @@ IwIDAQAB
         </iaac1:http-security>
         <iaac1:url>https://unicaen-ewp.moveonfr.com/v1/iia/approval/cnr</iaac1:url>
       </iaac1:iia-approval-cnr>
+      <f1:factsheet version="1.0.0">
+        <f1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </f1:http-security>
+        <f1:url>https://unicaen-ewp.moveonfr.com/v1/factsheet/get</f1:url>
+        <f1:max-hei-ids>10</f1:max-hei-ids>
+      </f1:factsheet>
     </r:apis-implemented>
     <ns3:institutions-covered>
       <r:hei id="unicaen.fr">
@@ -7950,6 +8062,20 @@ IwIDAQAB
         </iaac1:http-security>
         <iaac1:url>https://uparis10-ewp.moveonfr.com/v1/iia/approval/cnr</iaac1:url>
       </iaac1:iia-approval-cnr>
+      <f1:factsheet version="1.0.0">
+        <f1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </f1:http-security>
+        <f1:url>https://uparis10-ewp.moveonfr.com/v1/factsheet/get</f1:url>
+        <f1:max-hei-ids>10</f1:max-hei-ids>
+      </f1:factsheet>
     </r:apis-implemented>
     <ns3:institutions-covered>
       <r:hei id="parisnanterre.fr">
@@ -8389,6 +8515,20 @@ IwIDAQAB
         <omlc1:url>https://upicardie-ewp.moveonfr.com/v1/la/cnr</omlc1:url>
         <omlc1:max-omobility-ids>10</omlc1:max-omobility-ids>
       </omlc1:omobility-la-cnr>
+      <f1:factsheet version="1.0.0">
+        <f1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </f1:http-security>
+        <f1:url>https://upicardie-ewp.moveonfr.com/v1/factsheet/get</f1:url>
+        <f1:max-hei-ids>10</f1:max-hei-ids>
+      </f1:factsheet>
     </r:apis-implemented>
     <ns3:institutions-covered>
       <r:hei id="u-picardie.fr">
@@ -10461,6 +10601,20 @@ IwIDAQAB
         <omlc1:url>https://btu-ewp.moveon4.de/v1/la/cnr</omlc1:url>
         <omlc1:max-omobility-ids>10</omlc1:max-omobility-ids>
       </omlc1:omobility-la-cnr>
+      <f1:factsheet version="1.0.0">
+        <f1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </f1:http-security>
+        <f1:url>https://btu-ewp.moveon4.de/v1/factsheet/get</f1:url>
+        <f1:max-hei-ids>10</f1:max-hei-ids>
+      </f1:factsheet>
     </r:apis-implemented>
     <ns3:institutions-covered>
       <r:hei id="b-tu.de">
@@ -11624,6 +11778,20 @@ IwIDAQAB
         <omlc1:url>https://giessen-ewp.moveon4.de/v1/la/cnr</omlc1:url>
         <omlc1:max-omobility-ids>10</omlc1:max-omobility-ids>
       </omlc1:omobility-la-cnr>
+      <f1:factsheet version="1.0.0">
+        <f1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </f1:http-security>
+        <f1:url>https://giessen-ewp.moveon4.de/v1/factsheet/get</f1:url>
+        <f1:max-hei-ids>10</f1:max-hei-ids>
+      </f1:factsheet>
     </r:apis-implemented>
     <ns3:institutions-covered>
       <r:hei id="uni-giessen.de">
@@ -17243,6 +17411,20 @@ IwIDAQAB
         <omlc1:url>https://ostfalia-ewp.moveon4.de/v1/la/cnr</omlc1:url>
         <omlc1:max-omobility-ids>10</omlc1:max-omobility-ids>
       </omlc1:omobility-la-cnr>
+      <f1:factsheet version="1.0.0">
+        <f1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </f1:http-security>
+        <f1:url>https://ostfalia-ewp.moveon4.de/v1/factsheet/get</f1:url>
+        <f1:max-hei-ids>10</f1:max-hei-ids>
+      </f1:factsheet>
     </r:apis-implemented>
     <ns3:institutions-covered>
       <r:hei id="ostfalia.de">
@@ -19412,6 +19594,20 @@ IwIDAQAB
         </iaac1:http-security>
         <iaac1:url>https://tudo-ewp.moveon4.de/v1/iia/approval/cnr</iaac1:url>
       </iaac1:iia-approval-cnr>
+      <f1:factsheet version="1.0.0">
+        <f1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </f1:http-security>
+        <f1:url>https://tudo-ewp.moveon4.de/v1/factsheet/get</f1:url>
+        <f1:max-hei-ids>10</f1:max-hei-ids>
+      </f1:factsheet>
     </r:apis-implemented>
     <ns3:institutions-covered>
       <r:hei id="tu-dortmund.de">
@@ -21056,6 +21252,20 @@ IwIDAQAB
         <omlc1:url>https://unikassel-ewp.moveon4.de/v1/la/cnr</omlc1:url>
         <omlc1:max-omobility-ids>10</omlc1:max-omobility-ids>
       </omlc1:omobility-la-cnr>
+      <f1:factsheet version="1.0.0">
+        <f1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </f1:http-security>
+        <f1:url>https://unikassel-ewp.moveon4.de/v1/factsheet/get</f1:url>
+        <f1:max-hei-ids>10</f1:max-hei-ids>
+      </f1:factsheet>
     </r:apis-implemented>
     <ns3:institutions-covered>
       <r:hei id="uni-kassel.de">
@@ -21526,6 +21736,20 @@ IwIDAQAB
         <omlc1:url>https://unilux-ewp.moveon4.de/v1/la/cnr</omlc1:url>
         <omlc1:max-omobility-ids>10</omlc1:max-omobility-ids>
       </omlc1:omobility-la-cnr>
+      <f1:factsheet version="1.0.0">
+        <f1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </f1:http-security>
+        <f1:url>https://unilux-ewp.moveon4.de/v1/factsheet/get</f1:url>
+        <f1:max-hei-ids>10</f1:max-hei-ids>
+      </f1:factsheet>
     </r:apis-implemented>
     <ns3:institutions-covered>
       <r:hei id="uni.lu">
@@ -21730,6 +21954,20 @@ IwIDAQAB
         </iaac1:http-security>
         <iaac1:url>https://unileipzig-ewp.moveon4.de/v1/iia/approval/cnr</iaac1:url>
       </iaac1:iia-approval-cnr>
+      <f1:factsheet version="1.0.0">
+        <f1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </f1:http-security>
+        <f1:url>https://unileipzig-ewp.moveon4.de/v1/factsheet/get</f1:url>
+        <f1:max-hei-ids>10</f1:max-hei-ids>
+      </f1:factsheet>
     </r:apis-implemented>
     <ns3:institutions-covered>
       <r:hei id="uni-leipzig.de">
@@ -22107,6 +22345,51 @@ IwIDAQAB
         </iaac1:http-security>
         <iaac1:url>https://ur-ewp.moveon4.de/v1/iia/approval/cnr</iaac1:url>
       </iaac1:iia-approval-cnr>
+      <oml1:omobility-las version="1.0.1">
+        <admin-email>umesh@qs.com</admin-email>
+        <oml1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </oml1:http-security>
+        <oml1:get-url>https://ur-ewp.moveon4.de/v1/la/get</oml1:get-url>
+        <oml1:index-url>https://ur-ewp.moveon4.de/v1/la/index</oml1:index-url>
+        <oml1:update-url>https://ur-ewp.moveon4.de/v1/la/update</oml1:update-url>
+        <oml1:max-omobility-ids>10</oml1:max-omobility-ids>
+      </oml1:omobility-las>
+      <omlc1:omobility-la-cnr version="1.0.0">
+        <omlc1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </omlc1:http-security>
+        <omlc1:url>https://ur-ewp.moveon4.de/v1/la/cnr</omlc1:url>
+        <omlc1:max-omobility-ids>10</omlc1:max-omobility-ids>
+      </omlc1:omobility-la-cnr>
+      <f1:factsheet version="1.0.0">
+        <f1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </f1:http-security>
+        <f1:url>https://ur-ewp.moveon4.de/v1/factsheet/get</f1:url>
+        <f1:max-hei-ids>10</f1:max-hei-ids>
+      </f1:factsheet>
     </r:apis-implemented>
     <ns3:institutions-covered>
       <r:hei id="uni-regensburg.de">
@@ -23674,6 +23957,20 @@ IwIDAQAB
         <omlc1:url>https://zwickau-ewp.moveon4.de/v1/la/cnr</omlc1:url>
         <omlc1:max-omobility-ids>10</omlc1:max-omobility-ids>
       </omlc1:omobility-la-cnr>
+      <f1:factsheet version="1.0.0">
+        <f1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </f1:http-security>
+        <f1:url>https://zwickau-ewp.moveon4.de/v1/factsheet/get</f1:url>
+        <f1:max-hei-ids>10</f1:max-hei-ids>
+      </f1:factsheet>
     </r:apis-implemented>
     <ns3:institutions-covered>
       <r:hei id="fh-zwickau.de">
@@ -24827,6 +25124,20 @@ IwIDAQAB
         <omlc1:url>https://upem-ewp.moveonfr.com/v1/la/cnr</omlc1:url>
         <omlc1:max-omobility-ids>10</omlc1:max-omobility-ids>
       </omlc1:omobility-la-cnr>
+      <f1:factsheet version="1.0.0">
+        <f1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </f1:http-security>
+        <f1:url>https://upem-ewp.moveonfr.com/v1/factsheet/get</f1:url>
+        <f1:max-hei-ids>10</f1:max-hei-ids>
+      </f1:factsheet>
     </r:apis-implemented>
     <ns3:institutions-covered>
       <r:hei id="univ-gustave-eiffel.fr">
@@ -27266,6 +27577,20 @@ IwIDAQAB
         <omlc1:url>https://ulb-ewp.moveon4.de/v1/la/cnr</omlc1:url>
         <omlc1:max-omobility-ids>10</omlc1:max-omobility-ids>
       </omlc1:omobility-la-cnr>
+      <f1:factsheet version="1.0.0">
+        <f1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </f1:http-security>
+        <f1:url>https://ulb-ewp.moveon4.de/v1/factsheet/get</f1:url>
+        <f1:max-hei-ids>10</f1:max-hei-ids>
+      </f1:factsheet>
     </r:apis-implemented>
     <ns3:institutions-covered>
       <r:hei id="ulb.be">
@@ -30958,6 +31283,20 @@ IwIDAQAB
         </iaac1:http-security>
         <iaac1:url>https://europauni-ewp.moveon4.de/v1/iia/approval/cnr</iaac1:url>
       </iaac1:iia-approval-cnr>
+      <f1:factsheet version="1.0.0">
+        <f1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </f1:http-security>
+        <f1:url>https://europauni-ewp.moveon4.de/v1/factsheet/get</f1:url>
+        <f1:max-hei-ids>10</f1:max-hei-ids>
+      </f1:factsheet>
     </r:apis-implemented>
     <ns3:institutions-covered>
       <r:hei id="europa-uni.de">
@@ -32205,6 +32544,20 @@ IwIDAQAB
         <omlc1:url>https://usj-ewp.moveon4.de/v1/la/cnr</omlc1:url>
         <omlc1:max-omobility-ids>10</omlc1:max-omobility-ids>
       </omlc1:omobility-la-cnr>
+      <f1:factsheet version="1.0.0">
+        <f1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </f1:http-security>
+        <f1:url>https://usj-ewp.moveon4.de/v1/factsheet/get</f1:url>
+        <f1:max-hei-ids>10</f1:max-hei-ids>
+      </f1:factsheet>
     </r:apis-implemented>
     <ns3:institutions-covered>
       <r:hei id="usj.es">
@@ -34528,7 +34881,111 @@ IwIDAQAB
   </ns3:host>
   <ns3:host>
     <admin-email>umesh@qs.com</admin-email>
-    <r:apis-implemented/>
+    <r:apis-implemented>
+      <ia6:iias version="6.0.1">
+        <admin-email>umesh@qs.com</admin-email>
+        <ia6:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </ia6:http-security>
+        <ia6:get-url>https://lyon2-ewp.moveonfr.com/v1/iia/get</ia6:get-url>
+        <ia6:max-iia-ids>10</ia6:max-iia-ids>
+        <ia6:max-iia-codes>10</ia6:max-iia-codes>
+        <ia6:index-url>https://lyon2-ewp.moveonfr.com/v1/iia/index</ia6:index-url>
+      </ia6:iias>
+      <iac2:iia-cnr version="2.0.3">
+        <iac2:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </iac2:http-security>
+        <iac2:url>https://lyon2-ewp.moveonfr.com/v1/iia/cnr</iac2:url>
+      </iac2:iia-cnr>
+      <iaa1:iias-approval version="1.0.0">
+        <admin-email>umesh@qs.com</admin-email>
+        <iaa1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </iaa1:http-security>
+        <iaa1:url>https://lyon2-ewp.moveonfr.com/v1/iia/approval/get</iaa1:url>
+        <iaa1:max-iia-ids>10</iaa1:max-iia-ids>
+      </iaa1:iias-approval>
+      <iaac1:iia-approval-cnr version="1.0.0">
+        <iaac1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </iaac1:http-security>
+        <iaac1:url>https://lyon2-ewp.moveonfr.com/v1/iia/approval/cnr</iaac1:url>
+      </iaac1:iia-approval-cnr>
+      <oml1:omobility-las version="1.0.1">
+        <admin-email>umesh@qs.com</admin-email>
+        <oml1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </oml1:http-security>
+        <oml1:get-url>https://lyon2-ewp.moveonfr.com/v1/la/get</oml1:get-url>
+        <oml1:index-url>https://lyon2-ewp.moveonfr.com/v1/la/index</oml1:index-url>
+        <oml1:update-url>https://lyon2-ewp.moveonfr.com/v1/la/update</oml1:update-url>
+        <oml1:max-omobility-ids>10</oml1:max-omobility-ids>
+      </oml1:omobility-las>
+      <omlc1:omobility-la-cnr version="1.0.0">
+        <omlc1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </omlc1:http-security>
+        <omlc1:url>https://lyon2-ewp.moveonfr.com/v1/la/cnr</omlc1:url>
+        <omlc1:max-omobility-ids>10</omlc1:max-omobility-ids>
+      </omlc1:omobility-la-cnr>
+      <f1:factsheet version="1.0.0">
+        <f1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </f1:http-security>
+        <f1:url>https://lyon2-ewp.moveonfr.com/v1/factsheet/get</f1:url>
+        <f1:max-hei-ids>10</f1:max-hei-ids>
+      </f1:factsheet>
+    </r:apis-implemented>
     <ns3:institutions-covered>
       <r:hei id="univ-lyon2.fr">
         <r:other-id type="erasmus">F  LYON02</r:other-id>
@@ -35390,6 +35847,20 @@ IwIDAQAB
         <omlc1:url>https://enslyon-ewp.moveonfr.com/v1/la/cnr</omlc1:url>
         <omlc1:max-omobility-ids>10</omlc1:max-omobility-ids>
       </omlc1:omobility-la-cnr>
+      <f1:factsheet version="1.0.0">
+        <f1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </f1:http-security>
+        <f1:url>https://enslyon-ewp.moveonfr.com/v1/factsheet/get</f1:url>
+        <f1:max-hei-ids>10</f1:max-hei-ids>
+      </f1:factsheet>
     </r:apis-implemented>
     <ns3:institutions-covered>
       <r:hei id="ens-lyon.fr">
@@ -35817,6 +36288,37 @@ IwIDAQAB
   <ns3:host>
     <admin-email>umesh@qs.com</admin-email>
     <r:apis-implemented>
+      <in2:institutions version="2.2.0">
+        <admin-email>umesh@qs.com</admin-email>
+        <in2:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </in2:http-security>
+        <in2:url>https://cs-ewp.moveonfr.com/v1/institution</in2:url>
+        <in2:max-hei-ids>10</in2:max-hei-ids>
+      </in2:institutions>
+      <ou2:organizational-units version="2.1.1">
+        <admin-email>umesh@qs.com</admin-email>
+        <ou2:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </ou2:http-security>
+        <ou2:url>https://cs-ewp.moveonfr.com/v1/ounit</ou2:url>
+        <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
+        <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
+      </ou2:organizational-units>
       <ia6:iias version="6.0.1">
         <admin-email>umesh@qs.com</admin-email>
         <ia6:http-security>
@@ -35847,6 +36349,67 @@ IwIDAQAB
         </iac2:http-security>
         <iac2:url>https://cs-ewp.moveonfr.com/v1/iia/cnr</iac2:url>
       </iac2:iia-cnr>
+      <om1:omobilities version="1.0.0">
+        <admin-email>umesh@qs.com</admin-email>
+        <om1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </om1:http-security>
+        <om1:get-url>https://cs-ewp.moveonfr.com/v1/omobility/get</om1:get-url>
+        <om1:index-url>https://cs-ewp.moveonfr.com/v1/omobility/index</om1:index-url>
+        <om1:max-omobility-ids>10</om1:max-omobility-ids>
+        <om1:sends-notifications/>
+      </om1:omobilities>
+      <omc1:omobility-cnr version="1.0.0">
+        <omc1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </omc1:http-security>
+        <omc1:url>https://cs-ewp.moveonfr.com/v1/omobility/cnr</omc1:url>
+        <omc1:max-omobility-ids>10</omc1:max-omobility-ids>
+      </omc1:omobility-cnr>
+      <im1:imobilities version="1.0.0">
+        <admin-email>umesh@qs.com</admin-email>
+        <im1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </im1:http-security>
+        <im1:get-url>https://cs-ewp.moveonfr.com/v1/imobility/get</im1:get-url>
+        <im1:max-omobility-ids>10</im1:max-omobility-ids>
+        <im1:sends-notifications/>
+      </im1:imobilities>
+      <imc1:imobility-cnr version="1.0.0">
+        <imc1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </imc1:http-security>
+        <imc1:url>https://cs-ewp.moveonfr.com/v1/imobility/cnr</imc1:url>
+        <imc1:max-omobility-ids>10</imc1:max-omobility-ids>
+      </imc1:imobility-cnr>
       <iaa1:iias-approval version="1.0.0">
         <admin-email>umesh@qs.com</admin-email>
         <iaa1:http-security>
@@ -35875,6 +36438,51 @@ IwIDAQAB
         </iaac1:http-security>
         <iaac1:url>https://cs-ewp.moveonfr.com/v1/iia/approval/cnr</iaac1:url>
       </iaac1:iia-approval-cnr>
+      <oml1:omobility-las version="1.0.1">
+        <admin-email>umesh@qs.com</admin-email>
+        <oml1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </oml1:http-security>
+        <oml1:get-url>https://cs-ewp.moveonfr.com/v1/la/get</oml1:get-url>
+        <oml1:index-url>https://cs-ewp.moveonfr.com/v1/la/index</oml1:index-url>
+        <oml1:update-url>https://cs-ewp.moveonfr.com/v1/la/update</oml1:update-url>
+        <oml1:max-omobility-ids>10</oml1:max-omobility-ids>
+      </oml1:omobility-las>
+      <omlc1:omobility-la-cnr version="1.0.0">
+        <omlc1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </omlc1:http-security>
+        <omlc1:url>https://cs-ewp.moveonfr.com/v1/la/cnr</omlc1:url>
+        <omlc1:max-omobility-ids>10</omlc1:max-omobility-ids>
+      </omlc1:omobility-la-cnr>
+      <f1:factsheet version="1.0.0">
+        <f1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </f1:http-security>
+        <f1:url>https://cs-ewp.moveonfr.com/v1/factsheet/get</f1:url>
+        <f1:max-hei-ids>10</f1:max-hei-ids>
+      </f1:factsheet>
     </r:apis-implemented>
     <ns3:institutions-covered>
       <r:hei id="centralesupelec.fr">
@@ -38425,6 +39033,20 @@ IwIDAQAB
         <omlc1:url>https://clermont-ewp.moveonfr.com/v1/la/cnr</omlc1:url>
         <omlc1:max-omobility-ids>10</omlc1:max-omobility-ids>
       </omlc1:omobility-la-cnr>
+      <f1:factsheet version="1.0.0">
+        <f1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </f1:http-security>
+        <f1:url>https://clermont-ewp.moveonfr.com/v1/factsheet/get</f1:url>
+        <f1:max-hei-ids>10</f1:max-hei-ids>
+      </f1:factsheet>
     </r:apis-implemented>
     <ns3:institutions-covered>
       <r:hei id="clermont-auvergne-inp.fr">
@@ -38712,6 +39334,20 @@ IwIDAQAB
         <omlc1:url>https://amu-ewp.moveonfr.com/v1/la/cnr</omlc1:url>
         <omlc1:max-omobility-ids>10</omlc1:max-omobility-ids>
       </omlc1:omobility-la-cnr>
+      <f1:factsheet version="1.0.0">
+        <f1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </f1:http-security>
+        <f1:url>https://amu-ewp.moveonfr.com/v1/factsheet/get</f1:url>
+        <f1:max-hei-ids>10</f1:max-hei-ids>
+      </f1:factsheet>
     </r:apis-implemented>
     <ns3:institutions-covered>
       <r:hei id="univ-amu.fr">
