@@ -65537,6 +65537,67 @@
             <rsa-public-key sha-256="48f7eb6826e884b05576dccf98f17fed2315d1c54b8178783e95b486a285241f"/>
         </server-credentials-in-use>
     </host>
+    <host>
+        <ewp:admin-email>gdsi@iscte-iul.pt</ewp:admin-email>
+        <apis-implemented>
+            <d5:discovery version="5.0.0">
+                <ewp:admin-email>gdsi@iscte-iul.pt</ewp:admin-email>
+                <d5:url>https://fenix.iscte-iul.pt/web-hooks/ewp/manifest</d5:url>
+            </d5:discovery>
+            <e2:echo version="2.0.1">
+                <ewp:admin-email>gdsi@iscte-iul.pt</ewp:admin-email>
+                <e2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </e2:http-security>
+                <e2:url>https://fenix.iscte-iul.pt/web-hooks/ewp/echo</e2:url>
+            </e2:echo>
+            <in2:institutions version="2.2.0">
+                <ewp:admin-email>gdsi@iscte-iul.pt</ewp:admin-email>
+                <in2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </in2:http-security>
+                <in2:url>https://fenix.iscte-iul.pt/web-hooks/ewp/institutions</in2:url>
+                <in2:max-hei-ids>1</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.1.1">
+                <ewp:admin-email>gdsi@iscte-iul.pt</ewp:admin-email>
+                <ou2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </ou2:http-security>
+                <ou2:url>https://fenix.iscte-iul.pt/web-hooks/ewp/ounits</ou2:url>
+                <ou2:max-ounit-ids>4</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>4</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>iscte-iul.pt</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="784dc02cadff8d14a9620d4de5862e46170350990a67b94cbf54c1699cf5b039"/>
+            <rsa-public-key sha-256="fde13c76ef06038795a29a67431d3bd7bc049b46858d9e8c01bd816efb281569"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="fde13c76ef06038795a29a67431d3bd7bc049b46858d9e8c01bd816efb281569"/>
+        </server-credentials-in-use>
+    </host>
     <institutions>
         <hei id="29mayis.tr">
             <other-id type="erasmus">TR ISTANBU43</other-id>
@@ -69854,7 +69915,12 @@
         </hei>
         <hei id="iscte-iul.pt">
             <other-id type="erasmus">P  LISBOA07</other-id>
+            <other-id type="erasmus">P LISBOA07</other-id>
+            <other-id type="erasmus-charter">28701-LA-1-2014-1-PT-EPPKA3-ECHE</other-id>
+            <other-id type="pic">998622567</other-id>
             <name>ISCTE - INSTITUTO UNIVERSITÁRIO DE LISBOA</name>
+            <name xml:lang="en">ISCTE - University Institute of Lisbon</name>
+            <name xml:lang="pt">ISCTE - Instituto Universitário de Lisboa</name>
         </hei>
         <hei id="iseclisboa.pt">
             <other-id type="erasmus">P  LISBOA104</other-id>
@@ -76529,6 +76595,14 @@
             Zb6LTmfiCmM9rxoMejgRIEsjkvyCrfMVGu19JS8MZ3KnFmkHzrlxHG8jvZThBhs0cEU4iV53TSYC
             6TPvFsocbjjUJZlAa8Wh9dHdGFlQe8HOqV5c2oqBGvKN3IY9cuKLbGMRQCCAPFtw16QorrAYZbo9
             3DTxZwIDAQAB
+        </rsa-public-key>
+        <rsa-public-key sha-256="fde13c76ef06038795a29a67431d3bd7bc049b46858d9e8c01bd816efb281569">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAo83zAcT9EwacfnKQXy9EQLF/1vPviEuF
+            RuPICrqWJ8T1g+kXiAvlG85K3TY57KNbGJecd3rrCp0v4ZZsSpoWupZ4aBpOduG5k5+gZod5IoIl
+            GrxAmoqsIBzBENzCCKFg89PCAgP7FrMh4P6Cmso156SfVSiUbjtMg7CZe0NDRF8nydgMDsDRDtJq
+            9FjQPgraOu3Xm/yY6+KrW/503a55VFTyg/smmO1NxZQY1DoaXjGMyGWr8SUj8qsFrW3fK+BuzmXO
+            5wxWp4O9IAVwE7tuZu8kVdsKqmK6RpPhJukBTM91X+jArGlgkFsC9losVz9inJuY6XlMCl9vmGGk
+            esdkDQIDAQAB
         </rsa-public-key>
     </binaries>
 </catalogue>
