@@ -14976,6 +14976,7 @@
             <hei-id>tudublin.ie</hei-id>
             <hei-id>chalmers.se</hei-id>
             <hei-id>arcada.fi</hei-id>
+            <hei-id>ism.de</hei-id>
             <hei-id>hof-university.de</hei-id>
             <hei-id>psl.eu</hei-id>
             <hei-id>cbs.dk</hei-id>
@@ -30149,6 +30150,20 @@
         </apis-implemented>
         <institutions-covered>
             <hei-id>arcada.fi</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
+            <rsa-public-key sha-256="e4c7f55c93dc6e16e192943079a33d85aeef3cd6a6eaec1fcb21ac676c009fbc"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="e4c7f55c93dc6e16e192943079a33d85aeef3cd6a6eaec1fcb21ac676c009fbc"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+        <apis-implemented/>
+        <institutions-covered>
+            <hei-id>ism.de</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
@@ -58003,7 +58018,10 @@
         </hei>
         <hei id="ism.de">
             <other-id type="erasmus">D  DORTMUN04</other-id>
+            <other-id type="erasmus-charter">210610</other-id>
+            <other-id type="pic">949283614</other-id>
             <name>ISM International School of Management GmbH - Gemeinnuetzige Gesellschaft</name>
+            <name xml:lang="en">International School of Management (ISM)</name>
         </hei>
         <hei id="ism.lt">
             <other-id type="erasmus">LT VILNIUS25</other-id>
