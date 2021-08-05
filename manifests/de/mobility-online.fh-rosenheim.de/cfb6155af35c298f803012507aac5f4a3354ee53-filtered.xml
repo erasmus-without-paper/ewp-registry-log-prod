@@ -452,6 +452,131 @@ H/dXswIDAQAB&#xD;
     </ns3:host>
     <ns3:host>
         <ns2:apis-implemented>
+            <ns14:imobilities version="1.0.0">
+                <ns14:http-security>
+                    <ns5:client-auth-methods>
+                        <ns33:httpsig/>
+                        <ns31:tlscert allows-self-signed="true"/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns34:httpsig/>
+                        <ns35:tlscert/>
+                    </ns5:server-auth-methods>
+                </ns14:http-security>
+                <ns14:get-url>https://mobility-online.fh-rosenheim.de/mobility/ewp/mobility_in/get</ns14:get-url>
+                <ns14:max-omobility-ids>1</ns14:max-omobility-ids>
+                <ns14:sends-notifications/>
+            </ns14:imobilities>
+        </ns2:apis-implemented>
+        <ns3:institutions-covered/>
+        <ns3:client-credentials-in-use>
+            <ns3:certificate>MIIDhjCCAm4CCQCodpdRDvkK2zANBgkqhkiG9w0BAQsFADCBhDELMAkGA1UEBhMCQVQxDzANBgNV&#xD;
+BAgMBlZpZW5uYTEPMA0GA1UEBwwGVmllbm5hMRgwFgYDVQQKDA9Nb2JpbGl0eS1PbmxpbmUxDzAN&#xD;
+BgNVBAsMBk1PIEVXUDEoMCYGA1UEAwwfbW9iaWxpdHktb25saW5lLmZoLXJvc2VuaGVpbS5kZTAe&#xD;
+Fw0xODA2MDUxMzI2MzlaFw0yODA2MDIxMzI2MzlaMIGEMQswCQYDVQQGEwJBVDEPMA0GA1UECAwG&#xD;
+Vmllbm5hMQ8wDQYDVQQHDAZWaWVubmExGDAWBgNVBAoMD01vYmlsaXR5LU9ubGluZTEPMA0GA1UE&#xD;
+CwwGTU8gRVdQMSgwJgYDVQQDDB9tb2JpbGl0eS1vbmxpbmUuZmgtcm9zZW5oZWltLmRlMIIBIjAN&#xD;
+BgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5nRAPL0on2EdGbghwtEoZN1gyGRq4dZ2ObjuaUeE&#xD;
+nZnKocdprTMzWqx1WWcZ1oFkFZxIIUHakWvAWNC66G4uRWlWzjRgpHQEtcPbpjZOJqIAx0Ywf16K&#xD;
+b4I8KdIj1UM4KbUMwXSOj+jKlH0M889cKtja/V14a2xSjetrTu98cw8F5J784HM5H4WnXO8RKgVG&#xD;
+madcQjwQbQxU36GPMBy2T+9d9KEV8b6IHmuOETwoSj87eRtqWky2Yw/dAu1vKL8WCEDf12MsM0R2&#xD;
+uD5ZpPJ2xdoSCiBALDQkmS3PEDzn2RYBZnY4VaD2P6dd8JWZguQQbr/rBD/2T+KF8lx4H/dXswID&#xD;
+AQABMA0GCSqGSIb3DQEBCwUAA4IBAQAm68O+GVeqEfakUoPhmNvqomSlYw1BNLawYts+OnAAQZbt&#xD;
++/gpcDsZxt0KBrpsqxYu7zggn+0+ELmGGySeM55/LcjrqjtzO5U21tkv8ga9qClyZ0NVvI9M1VOh&#xD;
+gAsPKMeHmgkDF1dxucplICbkARl9opg3Lr/w5C72y+EiJqg9r+PjXN5WrgL3+GU64oUck4anEz/q&#xD;
+gQ9RrkEVPiYvfcu7BYgcARBIbcUWNToADccn3nHo2dXFyAjBliOtZDgnlINAe2O+XSPhgje7KOZi&#xD;
+qSohIUF2O6pm+0oLW2KlxMj/i+tvMrHnh8LtBodl08bmxOOIALyQpZzRMcNv/ukWDxNw&#xD;
+</ns3:certificate>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5nRAPL0on2EdGbghwtEoZN1gyGRq4dZ2&#xD;
+ObjuaUeEnZnKocdprTMzWqx1WWcZ1oFkFZxIIUHakWvAWNC66G4uRWlWzjRgpHQEtcPbpjZOJqIA&#xD;
+x0Ywf16Kb4I8KdIj1UM4KbUMwXSOj+jKlH0M889cKtja/V14a2xSjetrTu98cw8F5J784HM5H4Wn&#xD;
+XO8RKgVGmadcQjwQbQxU36GPMBy2T+9d9KEV8b6IHmuOETwoSj87eRtqWky2Yw/dAu1vKL8WCEDf&#xD;
+12MsM0R2uD5ZpPJ2xdoSCiBALDQkmS3PEDzn2RYBZnY4VaD2P6dd8JWZguQQbr/rBD/2T+KF8lx4&#xD;
+H/dXswIDAQAB&#xD;
+</ns3:rsa-public-key>
+        </ns3:client-credentials-in-use>
+        <ns3:server-credentials-in-use>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5nRAPL0on2EdGbghwtEoZN1gyGRq4dZ2&#xD;
+ObjuaUeEnZnKocdprTMzWqx1WWcZ1oFkFZxIIUHakWvAWNC66G4uRWlWzjRgpHQEtcPbpjZOJqIA&#xD;
+x0Ywf16Kb4I8KdIj1UM4KbUMwXSOj+jKlH0M889cKtja/V14a2xSjetrTu98cw8F5J784HM5H4Wn&#xD;
+XO8RKgVGmadcQjwQbQxU36GPMBy2T+9d9KEV8b6IHmuOETwoSj87eRtqWky2Yw/dAu1vKL8WCEDf&#xD;
+12MsM0R2uD5ZpPJ2xdoSCiBALDQkmS3PEDzn2RYBZnY4VaD2P6dd8JWZguQQbr/rBD/2T+KF8lx4&#xD;
+H/dXswIDAQAB&#xD;
+</ns3:rsa-public-key>
+        </ns3:server-credentials-in-use>
+    </ns3:host>
+    <ns3:host>
+        <ns2:apis-implemented>
+            <ns16:omobility-las version="1.0.0">
+                <ns16:http-security>
+                    <ns5:client-auth-methods>
+                        <ns33:httpsig/>
+                        <ns31:tlscert allows-self-signed="true"/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns34:httpsig/>
+                        <ns35:tlscert/>
+                    </ns5:server-auth-methods>
+                </ns16:http-security>
+                <ns16:get-url>https://mobility-online.fh-rosenheim.de/mobility/ewp/mobility_out_la/get</ns16:get-url>
+                <ns16:index-url>https://mobility-online.fh-rosenheim.de/mobility/ewp/mobility_out_la/index</ns16:index-url>
+                <ns16:update-url>https://mobility-online.fh-rosenheim.de/mobility/ewp/mobility_out_la/update</ns16:update-url>
+                <ns16:max-omobility-ids>1</ns16:max-omobility-ids>
+            </ns16:omobility-las>
+            <ns15:omobility-la-cnr version="0.1.0">
+                <ns15:http-security>
+                    <ns5:client-auth-methods>
+                        <ns33:httpsig/>
+                        <ns31:tlscert allows-self-signed="true"/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns34:httpsig/>
+                        <ns35:tlscert/>
+                    </ns5:server-auth-methods>
+                </ns15:http-security>
+                <ns15:url>https://mobility-online.fh-rosenheim.de/mobility/ewp/mobility_out_la/cnr</ns15:url>
+                <ns15:max-omobility-ids>1</ns15:max-omobility-ids>
+            </ns15:omobility-la-cnr>
+        </ns2:apis-implemented>
+        <ns3:institutions-covered/>
+        <ns3:client-credentials-in-use>
+            <ns3:certificate>MIIDhjCCAm4CCQCodpdRDvkK2zANBgkqhkiG9w0BAQsFADCBhDELMAkGA1UEBhMCQVQxDzANBgNV&#xD;
+BAgMBlZpZW5uYTEPMA0GA1UEBwwGVmllbm5hMRgwFgYDVQQKDA9Nb2JpbGl0eS1PbmxpbmUxDzAN&#xD;
+BgNVBAsMBk1PIEVXUDEoMCYGA1UEAwwfbW9iaWxpdHktb25saW5lLmZoLXJvc2VuaGVpbS5kZTAe&#xD;
+Fw0xODA2MDUxMzI2MzlaFw0yODA2MDIxMzI2MzlaMIGEMQswCQYDVQQGEwJBVDEPMA0GA1UECAwG&#xD;
+Vmllbm5hMQ8wDQYDVQQHDAZWaWVubmExGDAWBgNVBAoMD01vYmlsaXR5LU9ubGluZTEPMA0GA1UE&#xD;
+CwwGTU8gRVdQMSgwJgYDVQQDDB9tb2JpbGl0eS1vbmxpbmUuZmgtcm9zZW5oZWltLmRlMIIBIjAN&#xD;
+BgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5nRAPL0on2EdGbghwtEoZN1gyGRq4dZ2ObjuaUeE&#xD;
+nZnKocdprTMzWqx1WWcZ1oFkFZxIIUHakWvAWNC66G4uRWlWzjRgpHQEtcPbpjZOJqIAx0Ywf16K&#xD;
+b4I8KdIj1UM4KbUMwXSOj+jKlH0M889cKtja/V14a2xSjetrTu98cw8F5J784HM5H4WnXO8RKgVG&#xD;
+madcQjwQbQxU36GPMBy2T+9d9KEV8b6IHmuOETwoSj87eRtqWky2Yw/dAu1vKL8WCEDf12MsM0R2&#xD;
+uD5ZpPJ2xdoSCiBALDQkmS3PEDzn2RYBZnY4VaD2P6dd8JWZguQQbr/rBD/2T+KF8lx4H/dXswID&#xD;
+AQABMA0GCSqGSIb3DQEBCwUAA4IBAQAm68O+GVeqEfakUoPhmNvqomSlYw1BNLawYts+OnAAQZbt&#xD;
++/gpcDsZxt0KBrpsqxYu7zggn+0+ELmGGySeM55/LcjrqjtzO5U21tkv8ga9qClyZ0NVvI9M1VOh&#xD;
+gAsPKMeHmgkDF1dxucplICbkARl9opg3Lr/w5C72y+EiJqg9r+PjXN5WrgL3+GU64oUck4anEz/q&#xD;
+gQ9RrkEVPiYvfcu7BYgcARBIbcUWNToADccn3nHo2dXFyAjBliOtZDgnlINAe2O+XSPhgje7KOZi&#xD;
+qSohIUF2O6pm+0oLW2KlxMj/i+tvMrHnh8LtBodl08bmxOOIALyQpZzRMcNv/ukWDxNw&#xD;
+</ns3:certificate>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5nRAPL0on2EdGbghwtEoZN1gyGRq4dZ2&#xD;
+ObjuaUeEnZnKocdprTMzWqx1WWcZ1oFkFZxIIUHakWvAWNC66G4uRWlWzjRgpHQEtcPbpjZOJqIA&#xD;
+x0Ywf16Kb4I8KdIj1UM4KbUMwXSOj+jKlH0M889cKtja/V14a2xSjetrTu98cw8F5J784HM5H4Wn&#xD;
+XO8RKgVGmadcQjwQbQxU36GPMBy2T+9d9KEV8b6IHmuOETwoSj87eRtqWky2Yw/dAu1vKL8WCEDf&#xD;
+12MsM0R2uD5ZpPJ2xdoSCiBALDQkmS3PEDzn2RYBZnY4VaD2P6dd8JWZguQQbr/rBD/2T+KF8lx4&#xD;
+H/dXswIDAQAB&#xD;
+</ns3:rsa-public-key>
+        </ns3:client-credentials-in-use>
+        <ns3:server-credentials-in-use>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5nRAPL0on2EdGbghwtEoZN1gyGRq4dZ2&#xD;
+ObjuaUeEnZnKocdprTMzWqx1WWcZ1oFkFZxIIUHakWvAWNC66G4uRWlWzjRgpHQEtcPbpjZOJqIA&#xD;
+x0Ywf16Kb4I8KdIj1UM4KbUMwXSOj+jKlH0M889cKtja/V14a2xSjetrTu98cw8F5J784HM5H4Wn&#xD;
+XO8RKgVGmadcQjwQbQxU36GPMBy2T+9d9KEV8b6IHmuOETwoSj87eRtqWky2Yw/dAu1vKL8WCEDf&#xD;
+12MsM0R2uD5ZpPJ2xdoSCiBALDQkmS3PEDzn2RYBZnY4VaD2P6dd8JWZguQQbr/rBD/2T+KF8lx4&#xD;
+H/dXswIDAQAB&#xD;
+</ns3:rsa-public-key>
+        </ns3:server-credentials-in-use>
+    </ns3:host>
+    <ns3:host>
+        <ns2:apis-implemented>
             <ns6:factsheet version="0.3.0">
                 <ns6:http-security>
                     <ns5:client-auth-methods>
