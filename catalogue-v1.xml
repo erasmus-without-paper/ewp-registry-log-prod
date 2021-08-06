@@ -55417,11 +55417,11 @@
                 <ou2:max-ounit-ids>100</ou2:max-ounit-ids>
                 <ou2:max-ounit-codes>100</ou2:max-ounit-codes>
             </ou2:organizational-units>
-            <ia3:iias
-                xmlns:ia3="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v3/manifest-entry.xsd"
-                version="3.0.0"
+            <ia6:iias
+                xmlns:ia6="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v6/manifest-entry.xsd"
+                version="6.0.1"
             >
-                <ia3:http-security>
+                <ia6:http-security>
                     <sec:client-auth-methods>
                         <sec-A1:tlscert allows-self-signed="true"/>
                         <sec-A2:httpsig/>
@@ -55430,13 +55430,12 @@
                         <sec-B1:tlscert/>
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
-                </ia3:http-security>
-                <ia3:get-url>https://ewp.prz.edu.pl/ewp/iia/get</ia3:get-url>
-                <ia3:max-iia-ids>100</ia3:max-iia-ids>
-                <ia3:max-iia-codes>100</ia3:max-iia-codes>
-                <ia3:index-url>https://ewp.prz.edu.pl/ewp/iia/index</ia3:index-url>
-                <ia3:sends-notifications/>
-            </ia3:iias>
+                </ia6:http-security>
+                <ia6:get-url>https://ewp.prz.edu.pl/ewp/iia/get</ia6:get-url>
+                <ia6:max-iia-ids>100</ia6:max-iia-ids>
+                <ia6:max-iia-codes>100</ia6:max-iia-codes>
+                <ia6:index-url>https://ewp.prz.edu.pl/ewp/iia/index</ia6:index-url>
+            </ia6:iias>
             <iac2:iia-cnr version="2.0.2">
                 <iac2:http-security>
                     <sec:client-auth-methods>
@@ -72490,7 +72489,7 @@
             <other-id type="erasmus">PL RZESZOW01</other-id>
             <other-id type="pic">999886186</other-id>
             <name>POLITECHNIKA RZESZOWSKA IM IGNACEGO  LUKASIEWICZA PRZ</name>
-            <name xml:lang="en">Ignacy Łukasiewicz Rzeszów University of Technology</name>
+            <name xml:lang="en">Rzeszów University of Technology</name>
             <name xml:lang="pl">Politechnika Rzeszowska im. Ignacego Łukasiewicza</name>
         </hei>
         <hei id="psb-ewp.moveonfr.com">
