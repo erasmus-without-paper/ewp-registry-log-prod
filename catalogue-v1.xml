@@ -66304,6 +66304,69 @@
             <rsa-public-key sha-256="263f85967c936a64f23d8c5d5ea474a35b5354bf8052750b5692ba0e69f810e1"/>
         </server-credentials-in-use>
     </host>
+    <host>
+        <ewp:admin-email>volenova@civ.zcu.cz</ewp:admin-email>
+        <ewp:admin-notes>EWP connector for IS/STAG</ewp:admin-notes>
+        <apis-implemented>
+            <e2:echo version="2.0.1">
+                <e2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </e2:http-security>
+                <e2:url>https://stagservices.upol.cz:8843/ws/services/ewp/echo</e2:url>
+            </e2:echo>
+            <d5:discovery version="5.0.0">
+                <d5:url>https://stagservices.upol.cz:8843/ws/services/ewp/manifest</d5:url>
+            </d5:discovery>
+            <in2:institutions version="2.1.0">
+                <in2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                        <sec-A0:anonymous/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </in2:http-security>
+                <in2:url>https://stagservices.upol.cz:8843/ws/services/ewp/institutions</in2:url>
+                <in2:max-hei-ids>1</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.1.1">
+                <ou2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                        <sec-A0:anonymous/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </ou2:http-security>
+                <ou2:url>https://stagservices.upol.cz:8843/ws/services/ewp/ounits</ou2:url>
+                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>upol.cz</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="0989eb2c115dee8e5186442d0537975dff5de6b9d1921a3090f001aa39a2df54"/>
+            <rsa-public-key sha-256="c5c57562f770edd5dfbad51a06ebe7ea43786e0e8cc078e5cb453734148adcb9"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="c5c57562f770edd5dfbad51a06ebe7ea43786e0e8cc078e5cb453734148adcb9"/>
+        </server-credentials-in-use>
+    </host>
     <institutions>
         <hei id="29mayis.tr">
             <other-id type="erasmus">TR ISTANBU43</other-id>
@@ -75682,6 +75745,13 @@
             <name>UNIVERSIDAD POLITECNICA DE MADRID</name>
             <name xml:lang="en">Universidad Politécnica de Madrid</name>
         </hei>
+        <hei id="upol.cz">
+            <other-id type="erasmus">CZ OLOMOUC01</other-id>
+            <other-id type="erasmus-charter">46413-EPP-1-2014-1-CZ-EPPKA3-ECHE</other-id>
+            <other-id type="pic">999649506</other-id>
+            <name xml:lang="cs">UNIVERZITA PALACKÉHO V OLOMOUCI</name>
+            <name xml:lang="en">Palacký University Olomouc</name>
+        </hei>
         <hei id="uportu.pt">
             <other-id type="erasmus">P  PORTO07</other-id>
             <name>UNIVERSIDADE PORTUCALENSE INFANTE DHENRIQUE-COOPERATIVA DE ENSINO SUPERIOR CRL</name>
@@ -77218,6 +77288,14 @@
             iQmAOR0tUEBmYzKKvw7ML8vLps+ScgJ/vJ3GUNj/16+KdzueLmY15BffarUTvOOREYYZVHIWBRjg
             ov2jrl5iM+8EhBkD+QVbkViMcoGxw+1E+L2xwnXX+Do9NexxBPudxcgyevNNkAnnJ4eK9S5mnu5v
             QbtJkwIDAQAB
+        </rsa-public-key>
+        <rsa-public-key sha-256="c5c57562f770edd5dfbad51a06ebe7ea43786e0e8cc078e5cb453734148adcb9">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAs4OiL67Pnh/V2bE60ovMFQuFXrJ28gFA
+            WIcnFHHpUX3itdFp8IZQWQNUdYFiRlr/LPZPn56YQkFqeeXbHJepJ6M0UiL1rmvGXFlcVNqR++qG
+            4K4gD00y/ZdF+UkvQoVxEDyXUWnxL1PscpcgXvL/dBhIB2QwCb+qVlFylP0bmrqcRoTUmhcjgjRJ
+            2aYLSfHxmwGCUVQn6bTThORkZFsb0oasvX48FbNx2sGkmBDWfvp3WJ0TG4+AqW68f5+x5DCbUaFd
+            Le/0e/Rha59bGjdzjxzPP7vUVsewdpRtfZvPcMmkLqQMhdBJxyfeF6TNO+G6iXJztOkpPBLNHyCU
+            UeQfdwIDAQAB
         </rsa-public-key>
         <rsa-public-key sha-256="cbf8f8dec7dd772b8c6ca1a5492a8e5c78805f543813f8bfa1ee04480c8a4c35">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlcEYM0vAWp/f3jPrFqDiCW5kbBDmnulW
