@@ -15135,7 +15135,7 @@
             <hei-id>tlse3.fr</hei-id>
             <hei-id>u-bordeaux.fr</hei-id>
             <hei-id>univ-grenoble-alpes.fr</hei-id>
-            <hei-id>univ-lemans.fr</hei-id>
+            <hei-id>uloyola.es</hei-id>
             <hei-id>adbk.de</hei-id>
             <hei-id>ash-berlin.eu</hei-id>
             <hei-id>au.dk</hei-id>
@@ -15242,7 +15242,6 @@
             <hei-id>uvic.cat</hei-id>
             <hei-id>ucc.ie</hei-id>
             <hei-id>howest.be</hei-id>
-            <hei-id>udc.es</hei-id>
             <hei-id>uax.com</hei-id>
             <hei-id>paris-lavillette.archi.fr</hei-id>
             <hei-id>ucm.es</hei-id>
@@ -19518,7 +19517,7 @@
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
                 </in2:http-security>
-                <in2:url>https://univlemans-ewp.moveonfr.com/v1/institution</in2:url>
+                <in2:url>https://uloyola-ewp.moveonfr.com/v1/institution</in2:url>
                 <in2:max-hei-ids>10</in2:max-hei-ids>
             </in2:institutions>
             <ou2:organizational-units version="2.1.1">
@@ -19533,7 +19532,7 @@
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
                 </ou2:http-security>
-                <ou2:url>https://univlemans-ewp.moveonfr.com/v1/ounit</ou2:url>
+                <ou2:url>https://uloyola-ewp.moveonfr.com/v1/ounit</ou2:url>
                 <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
                 <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
             </ou2:organizational-units>
@@ -19552,10 +19551,10 @@
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
                 </ia6:http-security>
-                <ia6:get-url>https://univlemans-ewp.moveonfr.com/v1/iia/get</ia6:get-url>
+                <ia6:get-url>https://uloyola-ewp.moveonfr.com/v1/iia/get</ia6:get-url>
                 <ia6:max-iia-ids>10</ia6:max-iia-ids>
                 <ia6:max-iia-codes>10</ia6:max-iia-codes>
-                <ia6:index-url>https://univlemans-ewp.moveonfr.com/v1/iia/index</ia6:index-url>
+                <ia6:index-url>https://uloyola-ewp.moveonfr.com/v1/iia/index</ia6:index-url>
             </ia6:iias>
             <iac2:iia-cnr version="2.0.3">
                 <iac2:http-security>
@@ -19568,7 +19567,7 @@
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
                 </iac2:http-security>
-                <iac2:url>https://univlemans-ewp.moveonfr.com/v1/iia/cnr</iac2:url>
+                <iac2:url>https://uloyola-ewp.moveonfr.com/v1/iia/cnr</iac2:url>
             </iac2:iia-cnr>
             <om1:omobilities
                 xmlns:om1="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd"
@@ -19585,8 +19584,8 @@
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
                 </om1:http-security>
-                <om1:get-url>https://univlemans-ewp.moveonfr.com/v1/omobility/get</om1:get-url>
-                <om1:index-url>https://univlemans-ewp.moveonfr.com/v1/omobility/index</om1:index-url>
+                <om1:get-url>https://uloyola-ewp.moveonfr.com/v1/omobility/get</om1:get-url>
+                <om1:index-url>https://uloyola-ewp.moveonfr.com/v1/omobility/index</om1:index-url>
                 <om1:max-omobility-ids>10</om1:max-omobility-ids>
                 <om1:sends-notifications/>
             </om1:omobilities>
@@ -19604,7 +19603,7 @@
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
                 </omc1:http-security>
-                <omc1:url>https://univlemans-ewp.moveonfr.com/v1/omobility/cnr</omc1:url>
+                <omc1:url>https://uloyola-ewp.moveonfr.com/v1/omobility/cnr</omc1:url>
                 <omc1:max-omobility-ids>10</omc1:max-omobility-ids>
             </omc1:omobility-cnr>
             <im1:imobilities
@@ -19622,7 +19621,7 @@
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
                 </im1:http-security>
-                <im1:get-url>https://univlemans-ewp.moveonfr.com/v1/imobility/get</im1:get-url>
+                <im1:get-url>https://uloyola-ewp.moveonfr.com/v1/imobility/get</im1:get-url>
                 <im1:max-omobility-ids>10</im1:max-omobility-ids>
                 <im1:sends-notifications/>
             </im1:imobilities>
@@ -19640,7 +19639,7 @@
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
                 </imc1:http-security>
-                <imc1:url>https://univlemans-ewp.moveonfr.com/v1/imobility/cnr</imc1:url>
+                <imc1:url>https://uloyola-ewp.moveonfr.com/v1/imobility/cnr</imc1:url>
                 <imc1:max-omobility-ids>10</imc1:max-omobility-ids>
             </imc1:imobility-cnr>
             <iaa1:iias-approval
@@ -19658,7 +19657,7 @@
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
                 </iaa1:http-security>
-                <iaa1:url>https://univlemans-ewp.moveonfr.com/v1/iia/approval/get</iaa1:url>
+                <iaa1:url>https://uloyola-ewp.moveonfr.com/v1/iia/approval/get</iaa1:url>
                 <iaa1:max-iia-ids>10</iaa1:max-iia-ids>
             </iaa1:iias-approval>
             <iaac1:iia-approval-cnr
@@ -19675,7 +19674,7 @@
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
                 </iaac1:http-security>
-                <iaac1:url>https://univlemans-ewp.moveonfr.com/v1/iia/approval/cnr</iaac1:url>
+                <iaac1:url>https://uloyola-ewp.moveonfr.com/v1/iia/approval/cnr</iaac1:url>
             </iaac1:iia-approval-cnr>
             <oml1:omobility-las
                 xmlns:oml1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd"
@@ -19692,9 +19691,9 @@
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
                 </oml1:http-security>
-                <oml1:get-url>https://univlemans-ewp.moveonfr.com/v1/la/get</oml1:get-url>
-                <oml1:index-url>https://univlemans-ewp.moveonfr.com/v1/la/index</oml1:index-url>
-                <oml1:update-url>https://univlemans-ewp.moveonfr.com/v1/la/update</oml1:update-url>
+                <oml1:get-url>https://uloyola-ewp.moveonfr.com/v1/la/get</oml1:get-url>
+                <oml1:index-url>https://uloyola-ewp.moveonfr.com/v1/la/index</oml1:index-url>
+                <oml1:update-url>https://uloyola-ewp.moveonfr.com/v1/la/update</oml1:update-url>
                 <oml1:max-omobility-ids>10</oml1:max-omobility-ids>
             </oml1:omobility-las>
             <omlc1:omobility-la-cnr
@@ -19711,12 +19710,29 @@
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
                 </omlc1:http-security>
-                <omlc1:url>https://univlemans-ewp.moveonfr.com/v1/la/cnr</omlc1:url>
+                <omlc1:url>https://uloyola-ewp.moveonfr.com/v1/la/cnr</omlc1:url>
                 <omlc1:max-omobility-ids>10</omlc1:max-omobility-ids>
             </omlc1:omobility-la-cnr>
+            <f1:factsheet
+                xmlns:f1="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <f1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </f1:http-security>
+                <f1:url>https://uloyola-ewp.moveonfr.com/v1/factsheet/get</f1:url>
+                <f1:max-hei-ids>10</f1:max-hei-ids>
+            </f1:factsheet>
         </apis-implemented>
         <institutions-covered>
-            <hei-id>univ-lemans.fr</hei-id>
+            <hei-id>uloyola.es</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
@@ -38261,209 +38277,6 @@
         </apis-implemented>
         <institutions-covered>
             <hei-id>howest.be</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
-            <rsa-public-key sha-256="e4c7f55c93dc6e16e192943079a33d85aeef3cd6a6eaec1fcb21ac676c009fbc"/>
-        </client-credentials-in-use>
-        <server-credentials-in-use>
-            <rsa-public-key sha-256="e4c7f55c93dc6e16e192943079a33d85aeef3cd6a6eaec1fcb21ac676c009fbc"/>
-        </server-credentials-in-use>
-    </host>
-    <host>
-        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-        <apis-implemented>
-            <in2:institutions version="2.2.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <in2:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B1:tlscert/>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </in2:http-security>
-                <in2:url>https://udc-ewp.moveonfr.com/v1/institution</in2:url>
-                <in2:max-hei-ids>10</in2:max-hei-ids>
-            </in2:institutions>
-            <ou2:organizational-units version="2.1.1">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <ou2:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B1:tlscert/>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </ou2:http-security>
-                <ou2:url>https://udc-ewp.moveonfr.com/v1/ounit</ou2:url>
-                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
-                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
-            </ou2:organizational-units>
-            <ia6:iias
-                xmlns:ia6="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v6/manifest-entry.xsd"
-                version="6.0.1"
-            >
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <ia6:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B1:tlscert/>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </ia6:http-security>
-                <ia6:get-url>https://udc-ewp.moveonfr.com/v1/iia/get</ia6:get-url>
-                <ia6:max-iia-ids>10</ia6:max-iia-ids>
-                <ia6:max-iia-codes>10</ia6:max-iia-codes>
-                <ia6:index-url>https://udc-ewp.moveonfr.com/v1/iia/index</ia6:index-url>
-            </ia6:iias>
-            <iac2:iia-cnr version="2.0.3">
-                <iac2:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B1:tlscert/>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </iac2:http-security>
-                <iac2:url>https://udc-ewp.moveonfr.com/v1/iia/cnr</iac2:url>
-            </iac2:iia-cnr>
-            <om1:omobilities
-                xmlns:om1="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd"
-                version="1.0.0"
-            >
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <om1:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B1:tlscert/>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </om1:http-security>
-                <om1:get-url>https://udc-ewp.moveonfr.com/v1/omobility/get</om1:get-url>
-                <om1:index-url>https://udc-ewp.moveonfr.com/v1/omobility/index</om1:index-url>
-                <om1:max-omobility-ids>10</om1:max-omobility-ids>
-                <om1:sends-notifications/>
-            </om1:omobilities>
-            <omc1:omobility-cnr
-                xmlns:omc1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/blob/stable-v1/manifest-entry.xsd"
-                version="1.0.0"
-            >
-                <omc1:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B1:tlscert/>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </omc1:http-security>
-                <omc1:url>https://udc-ewp.moveonfr.com/v1/omobility/cnr</omc1:url>
-                <omc1:max-omobility-ids>10</omc1:max-omobility-ids>
-            </omc1:omobility-cnr>
-            <im1:imobilities
-                xmlns:im1="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v1/manifest-entry.xsd"
-                version="1.0.0"
-            >
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <im1:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B1:tlscert/>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </im1:http-security>
-                <im1:get-url>https://udc-ewp.moveonfr.com/v1/imobility/get</im1:get-url>
-                <im1:max-omobility-ids>10</im1:max-omobility-ids>
-                <im1:sends-notifications/>
-            </im1:imobilities>
-            <imc1:imobility-cnr
-                xmlns:imc1="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-cnr/blob/stable-v1/manifest-entry.xsd"
-                version="1.0.0"
-            >
-                <imc1:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B1:tlscert/>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </imc1:http-security>
-                <imc1:url>https://udc-ewp.moveonfr.com/v1/imobility/cnr</imc1:url>
-                <imc1:max-omobility-ids>10</imc1:max-omobility-ids>
-            </imc1:imobility-cnr>
-            <iaa1:iias-approval
-                xmlns:iaa1="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
-                version="1.0.0"
-            >
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <iaa1:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B1:tlscert/>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </iaa1:http-security>
-                <iaa1:url>https://udc-ewp.moveonfr.com/v1/iia/approval/get</iaa1:url>
-                <iaa1:max-iia-ids>10</iaa1:max-iia-ids>
-            </iaa1:iias-approval>
-            <iaac1:iia-approval-cnr
-                xmlns:iaac1="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v1/manifest-entry.xsd"
-                version="1.0.0"
-            >
-                <iaac1:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B1:tlscert/>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </iaac1:http-security>
-                <iaac1:url>https://udc-ewp.moveonfr.com/v1/iia/approval/cnr</iaac1:url>
-            </iaac1:iia-approval-cnr>
-            <f1:factsheet
-                xmlns:f1="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
-                version="1.0.0"
-            >
-                <f1:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B1:tlscert/>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </f1:http-security>
-                <f1:url>https://udc-ewp.moveonfr.com/v1/factsheet/get</f1:url>
-                <f1:max-hei-ids>10</f1:max-hei-ids>
-            </f1:factsheet>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>udc.es</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
@@ -70270,10 +70083,7 @@
         </hei>
         <hei id="udc.es">
             <other-id type="erasmus">E  LA-CORU01</other-id>
-            <other-id type="erasmus-charter">28678</other-id>
-            <other-id type="pic">999629718</other-id>
             <name>UNIVERSIDADE DA CORUNA</name>
-            <name xml:lang="en">Universidade da Coruña</name>
         </hei>
         <hei id="udg.edu">
             <other-id type="erasmus">E  GIRONA02</other-id>
@@ -70531,6 +70341,11 @@
             <name>UNIVERSIDAD DE LA LAGUNA</name>
             <name xml:lang="en">UNIVERSIDAD DE LA LAGUNA</name>
             <name xml:lang="es">UNIVERSIDAD DE LA LAGUNA</name>
+        </hei>
+        <hei id="uloyola.es">
+            <other-id type="erasmus">E  CORDOBA23</other-id>
+            <other-id type="pic">952235421</other-id>
+            <name xml:lang="en">Universidad Loyola Andalucía</name>
         </hei>
         <hei id="ulpgc.es">
             <other-id type="erasmus">E  LAS-PAL01</other-id>
@@ -71616,12 +71431,6 @@
             <other-id type="erasmus">F  LE-HAVR11</other-id>
             <name xml:lang="en">Université Le Havre Normandie</name>
             <name xml:lang="fr">Université Le Havre Normandie</name>
-        </hei>
-        <hei id="univ-lemans.fr">
-            <other-id type="erasmus">F  LE-MANS01</other-id>
-            <other-id type="erasmus-charter">27920</other-id>
-            <other-id type="pic">998258041</other-id>
-            <name xml:lang="en">Le Mans Université</name>
         </hei>
         <hei id="univ-lille.fr">
             <other-id type="erasmus">F  LILLE103</other-id>
