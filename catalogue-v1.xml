@@ -66643,6 +66643,255 @@
             <rsa-public-key sha-256="c5c57562f770edd5dfbad51a06ebe7ea43786e0e8cc078e5cb453734148adcb9"/>
         </server-credentials-in-use>
     </host>
+    <host>
+        <apis-implemented>
+            <d5:discovery version="5.0.0">
+                <d5:url>https://www.service4mobility.com/plusinternational/ewp/manifest?api=all</d5:url>
+            </d5:discovery>
+            <e2:echo version="2.0.0">
+                <e2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </e2:http-security>
+                <e2:url>https://www.service4mobility.com/plusinternational/ewp/echo</e2:url>
+            </e2:echo>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>sbg.ac.at</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="a81b845b55172685bc1f35fe98a380b1cf8c18ee2c6dd94d9b9282a4ff852c21"/>
+            <rsa-public-key sha-256="a38239145aa9a59390aebd26bd98fe539e245fd1c2882b34ff0dba6db7d1a6ed"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="a38239145aa9a59390aebd26bd98fe539e245fd1c2882b34ff0dba6db7d1a6ed"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <in2:institutions version="2.1.0">
+                <in2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </in2:http-security>
+                <in2:url>https://www.service4mobility.com/plusinternational/ewp/institutions</in2:url>
+                <in2:max-hei-ids>3</in2:max-hei-ids>
+            </in2:institutions>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>sbg.ac.at</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="a81b845b55172685bc1f35fe98a380b1cf8c18ee2c6dd94d9b9282a4ff852c21"/>
+            <rsa-public-key sha-256="a38239145aa9a59390aebd26bd98fe539e245fd1c2882b34ff0dba6db7d1a6ed"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="a38239145aa9a59390aebd26bd98fe539e245fd1c2882b34ff0dba6db7d1a6ed"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <ia3:iias
+                xmlns:ia3="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v3/manifest-entry.xsd"
+                version="3.0.0"
+            >
+                <ia3:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </ia3:http-security>
+                <ia3:get-url>https://www.service4mobility.com/plusinternational/ewp/iias-v3/get</ia3:get-url>
+                <ia3:max-iia-ids>3</ia3:max-iia-ids>
+                <ia3:max-iia-codes>3</ia3:max-iia-codes>
+                <ia3:index-url>https://www.service4mobility.com/plusinternational/ewp/iias-v3/index</ia3:index-url>
+                <ia3:sends-notifications/>
+            </ia3:iias>
+            <ia4:iias
+                xmlns:ia4="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v4/manifest-entry.xsd"
+                version="4.0.0"
+            >
+                <ia4:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </ia4:http-security>
+                <ia4:get-url>https://www.service4mobility.com/plusinternational/ewp/iias-v4/get</ia4:get-url>
+                <ia4:max-iia-ids>3</ia4:max-iia-ids>
+                <ia4:max-iia-codes>3</ia4:max-iia-codes>
+                <ia4:index-url>https://www.service4mobility.com/plusinternational/ewp/iias-v4/index</ia4:index-url>
+            </ia4:iias>
+            <ia6:iias
+                xmlns:ia6="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v6/manifest-entry.xsd"
+                version="6.0.0"
+            >
+                <ia6:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </ia6:http-security>
+                <ia6:get-url>https://www.service4mobility.com/plusinternational/ewp/iias-v6/get</ia6:get-url>
+                <ia6:max-iia-ids>3</ia6:max-iia-ids>
+                <ia6:max-iia-codes>3</ia6:max-iia-codes>
+                <ia6:index-url>https://www.service4mobility.com/plusinternational/ewp/iias-v6/index</ia6:index-url>
+            </ia6:iias>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>sbg.ac.at</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="a81b845b55172685bc1f35fe98a380b1cf8c18ee2c6dd94d9b9282a4ff852c21"/>
+            <rsa-public-key sha-256="a38239145aa9a59390aebd26bd98fe539e245fd1c2882b34ff0dba6db7d1a6ed"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="a38239145aa9a59390aebd26bd98fe539e245fd1c2882b34ff0dba6db7d1a6ed"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <iac2:iia-cnr version="2.0.2">
+                <iac2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </iac2:http-security>
+                <iac2:url>https://www.service4mobility.com/plusinternational/ewp/iias/cnr</iac2:url>
+            </iac2:iia-cnr>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>sbg.ac.at</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="a81b845b55172685bc1f35fe98a380b1cf8c18ee2c6dd94d9b9282a4ff852c21"/>
+            <rsa-public-key sha-256="a38239145aa9a59390aebd26bd98fe539e245fd1c2882b34ff0dba6db7d1a6ed"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="a38239145aa9a59390aebd26bd98fe539e245fd1c2882b34ff0dba6db7d1a6ed"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <iaa1:iias-approval
+                xmlns:iaa1="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <iaa1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </iaa1:http-security>
+                <iaa1:url>https://www.service4mobility.com/plusinternational/ewp/iias-approval-v1/get</iaa1:url>
+                <iaa1:max-iia-ids>3</iaa1:max-iia-ids>
+            </iaa1:iias-approval>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>sbg.ac.at</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="a81b845b55172685bc1f35fe98a380b1cf8c18ee2c6dd94d9b9282a4ff852c21"/>
+            <rsa-public-key sha-256="a38239145aa9a59390aebd26bd98fe539e245fd1c2882b34ff0dba6db7d1a6ed"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="a38239145aa9a59390aebd26bd98fe539e245fd1c2882b34ff0dba6db7d1a6ed"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <iaac1:iia-approval-cnr
+                xmlns:iaac1="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <iaac1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </iaac1:http-security>
+                <iaac1:url>https://www.service4mobility.com/plusinternational/ewp/iias-approval-cnr-v1/cnr</iaac1:url>
+            </iaac1:iia-approval-cnr>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>sbg.ac.at</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="a81b845b55172685bc1f35fe98a380b1cf8c18ee2c6dd94d9b9282a4ff852c21"/>
+            <rsa-public-key sha-256="a38239145aa9a59390aebd26bd98fe539e245fd1c2882b34ff0dba6db7d1a6ed"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="a38239145aa9a59390aebd26bd98fe539e245fd1c2882b34ff0dba6db7d1a6ed"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <f1:factsheet
+                xmlns:f1="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
+                version="0.3.0"
+            >
+                <f1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </f1:http-security>
+                <f1:url>https://www.service4mobility.com/plusinternational/ewp/factsheets</f1:url>
+                <f1:max-hei-ids>3</f1:max-hei-ids>
+            </f1:factsheet>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>sbg.ac.at</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="a81b845b55172685bc1f35fe98a380b1cf8c18ee2c6dd94d9b9282a4ff852c21"/>
+            <rsa-public-key sha-256="a38239145aa9a59390aebd26bd98fe539e245fd1c2882b34ff0dba6db7d1a6ed"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="a38239145aa9a59390aebd26bd98fe539e245fd1c2882b34ff0dba6db7d1a6ed"/>
+        </server-credentials-in-use>
+    </host>
     <institutions>
         <hei id="29mayis.tr">
             <other-id type="erasmus">TR ISTANBU43</other-id>
@@ -73200,6 +73449,13 @@
             <other-id type="erasmus">NL ENSCHED03</other-id>
             <name>STICHTING SAXION</name>
         </hei>
+        <hei id="sbg.ac.at">
+            <other-id type="erasmus">A  SALZBUR01</other-id>
+            <other-id type="euc">29320-IC-1-2007-1-AT-ERASMUS-EUCX-1</other-id>
+            <other-id type="pic">999868047</other-id>
+            <name xml:lang="de">PARIS-LODRON UNIVERSITÄT SALZBURG</name>
+            <name xml:lang="en">PARIS-LODRON UNIVERSITÄT SALZBURG</name>
+        </hei>
         <hei id="sbu.edu.tr">
             <other-id type="erasmus">TR ISTANBU60</other-id>
             <name>University Of Health Sciences</name>
@@ -77430,6 +77686,14 @@
             lu2nDBzOb9vMGwfzbL8zeK9o7z4gfVDXmAqoq4ZBEoAAGBwJBOyUhzaUKGLeT/MS/8+mRqTTUF8N
             m8Sq5P4JLeDdTs4MgmSSRuKT6JDa1Mw79fuqDlgyZLnM6FU3+6oXl1cTk6SD1Fcwhc1/72XQK90E
             5csqNwIDAQAB
+        </rsa-public-key>
+        <rsa-public-key sha-256="a38239145aa9a59390aebd26bd98fe539e245fd1c2882b34ff0dba6db7d1a6ed">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2rQS0d643vpEOpXT6VAteQG942N8SJhw
+            ZnsLpRsuEp1ysYe2h7ZGhmouBg2WMevRpg73tQORE4NF5Hwf+nKYu5AH8fH4WErX4JoLDVaoHPvy
+            al2CLsybwbWJ9eMq1c5T4T2Hksk+88FYFAgCAGr1XXhrYGJkIt7zu0X369AUJWJO+TqQ5delZQwQ
+            so2pDiVLkSKohV/U9mtBJC0cMsdjzutaCKtfCGT04KX2uMcBQvZVFh8DA0sKkJlQUc0BCwhaDqIj
+            cmkhDli1nlTg4nt8a4tzDj5JQdOYo7BEIkYjlO7uSJ/LQejUeeza8Z2x2ggWC+F+VxgVx3UW6IcE
+            YDAy5wIDAQAB
         </rsa-public-key>
         <rsa-public-key sha-256="a5c702bf583b1a7a8f48915198973dd8aaefb955b71970599939719dd95a65a7">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtXcr6tyUMMJ9rCnC1gv3WV7joo4sw6AB
