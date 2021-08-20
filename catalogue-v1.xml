@@ -66911,6 +66911,64 @@
             <rsa-public-key sha-256="a38239145aa9a59390aebd26bd98fe539e245fd1c2882b34ff0dba6db7d1a6ed"/>
         </server-credentials-in-use>
     </host>
+    <host>
+        <apis-implemented>
+            <d5:discovery version="5.0.0">
+                <d5:url>https://mobility.armyacademy.ro/mobility/ewp/manifest?api=all</d5:url>
+            </d5:discovery>
+            <e2:echo version="2.0.0">
+                <e2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </e2:http-security>
+                <e2:url>https://mobility.armyacademy.ro/mobility/ewp/echo</e2:url>
+            </e2:echo>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>armyacademy.ro</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="360011edbe2ebbfbf4480f229eafe8f321cf799f8282faadbde4574cdaacdd9f"/>
+            <rsa-public-key sha-256="6b586a074088aa7407635f3627bc9b6b4fe6e6e99455a2e37b3e30ea72e02489"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="6b586a074088aa7407635f3627bc9b6b4fe6e6e99455a2e37b3e30ea72e02489"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
+            <in2:institutions version="2.1.0">
+                <in2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                        <sec-B1:tlscert/>
+                    </sec:server-auth-methods>
+                </in2:http-security>
+                <in2:url>https://mobility.armyacademy.ro/mobility/ewp/institutions</in2:url>
+                <in2:max-hei-ids>3</in2:max-hei-ids>
+            </in2:institutions>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>armyacademy.ro</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="360011edbe2ebbfbf4480f229eafe8f321cf799f8282faadbde4574cdaacdd9f"/>
+            <rsa-public-key sha-256="6b586a074088aa7407635f3627bc9b6b4fe6e6e99455a2e37b3e30ea72e02489"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="6b586a074088aa7407635f3627bc9b6b4fe6e6e99455a2e37b3e30ea72e02489"/>
+        </server-credentials-in-use>
+    </host>
     <institutions>
         <hei id="29mayis.tr">
             <other-id type="erasmus">TR ISTANBU43</other-id>
@@ -67376,6 +67434,8 @@
         <hei id="armyacademy.ro">
             <other-id type="erasmus">RO SIBIU03</other-id>
             <name>Academia Fortelor Terestre “Nicolae Balcescu”</name>
+            <name xml:lang="en">'Nicolae Balcescu' Land Forces Academy</name>
+            <name xml:lang="ro">'Nicolae Balcescu' Land Forces Academy</name>
         </hei>
         <hei id="artacademyplovdiv.com">
             <other-id type="erasmus">BG PLOVDIV07</other-id>
@@ -77553,6 +77613,14 @@
             7Pl5TBOKw4WvzSTxfS5M7K66tQvHe9AFLcIeOCO7j0xc2Z0fUEMbYf5gevbdCjDCDRDB6HJVxbeF
             hWCWY6CxwIuMB1pJ+3we6+7kRS4rL4NJQU89lB9lcXmYvqWcbRfJ83RW8kFvJ0jlBqW4htHUtqYa
             5I7CywIDAQAB
+        </rsa-public-key>
+        <rsa-public-key sha-256="6b586a074088aa7407635f3627bc9b6b4fe6e6e99455a2e37b3e30ea72e02489">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmKbdJfSz8N8TDClEd5enn96EvME/WkFK
+            Shi+jIzBrQNsgUxwCEBpzSOXvDvC+nu9uH8E5sGXbH9hcYibVqx3OPdgL8Sqgg3Oijwiz87B3Yhs
+            qWeTPo0P+WX6ewAIFZEuLAKsZnCdhbGIQkeT6ocxPNzasEYIr5h3GTUpjpf9qCRgv4KWDw8p0lLx
+            TZXlTejngFtoecg1gNyg/ZN2VzpGH8FSkDHO691LS61TX9q6m+KO35mWBHE5F2wSpvrRjz3QzeS4
+            LEs1sqkBM6uIv6Dtx8TNn6kJJK0OhDkdG5G5kHHu8qPgANKTTz5NnQD+amfLUEXBAs242CQDZVgj
+            +DCiOwIDAQAB
         </rsa-public-key>
         <rsa-public-key sha-256="6c64676d68db81a55b3aef56778f8562b5f366dbeb67cce2e47ea5b7e422db8f">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnR/nlrT8eMRiZ8QNEOiN7m7dGOCiFI4H
