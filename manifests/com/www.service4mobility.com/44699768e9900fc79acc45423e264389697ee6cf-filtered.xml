@@ -319,6 +319,66 @@ XBqqpwIDAQAB&#xD;
     </ns3:host>
     <ns3:host>
         <ns2:apis-implemented>
+            <ns23:iia-cnr version="2.0.2">
+                <ns23:http-security>
+                    <ns5:client-auth-methods>
+                        <ns33:httpsig/>
+                        <ns31:tlscert allows-self-signed="true"/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns34:httpsig/>
+                        <ns35:tlscert/>
+                    </ns5:server-auth-methods>
+                </ns23:http-security>
+                <ns23:url>https://www.service4mobility.com/HU/ewp/iias/cnr</ns23:url>
+            </ns23:iia-cnr>
+        </ns2:apis-implemented>
+        <ns3:institutions-covered>
+            <ns2:hei id="hu.nl">
+                <ns2:other-id type="pic">986208507</ns2:other-id>
+                <ns2:other-id type="erasmus">NL UTRECHT24</ns2:other-id>
+                <ns2:name xml:lang="NL">HU University of Applied Sciences Utrecht</ns2:name>
+                <ns2:name xml:lang="en">HU University of Applied Sciences Utrecht</ns2:name>
+            </ns2:hei>
+        </ns3:institutions-covered>
+        <ns3:client-credentials-in-use>
+            <ns3:certificate>MIIDhjCCAm4CCQDTYwAw6hzXbTANBgkqhkiG9w0BAQsFADCBhDELMAkGA1UEBhMCQVQxDzANBgNV&#xD;
+BAgMBlZpZW5uYTEPMA0GA1UEBwwGVmllbm5hMRgwFgYDVQQKDA9Nb2JpbGl0eS1PbmxpbmUxDzAN&#xD;
+BgNVBAsMBk1PIEVXUDEoMCYGA1UEAwwfd3d3LnNlcnZpY2U0bW9iaWxpdHkuY29tdXRyZWNodDAe&#xD;
+Fw0xODA2MDUxMzI2MThaFw0yODA2MDIxMzI2MThaMIGEMQswCQYDVQQGEwJBVDEPMA0GA1UECAwG&#xD;
+Vmllbm5hMQ8wDQYDVQQHDAZWaWVubmExGDAWBgNVBAoMD01vYmlsaXR5LU9ubGluZTEPMA0GA1UE&#xD;
+CwwGTU8gRVdQMSgwJgYDVQQDDB93d3cuc2VydmljZTRtb2JpbGl0eS5jb211dHJlY2h0MIIBIjAN&#xD;
+BgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAti15Amw+Q1IQGAsG040HA+ujuZ1qBCTq9nTle8BX&#xD;
+joy+nkeEh2uta9ZZC7gkWxRNA4u4Q9Wpkl8gw6Vk9F3cpxwcp1/1BJDbr+ijMHscCWQnqPtOpOGj&#xD;
+tDchRBMVk4elRN0iuP7GggJ/PdWkK4WvPbgQWFJuxwBffQZCJjsRtsYl6si6TQ8IGvHbJbeu6qsZ&#xD;
+sV6WhDr66a5m3mVdOlxbWoXFFbqpdEdtgq450LM6e0escxZJ9auZICVcKpxdYDdk7jT7Lnt6TwaC&#xD;
+zxvw3t7DGtfnwvk8XXgsjWu/cVugHtsOUPhGMdVWOuAahSmJ6UjFfE4H2k1/uLlnAjy0XBqqpwID&#xD;
+AQABMA0GCSqGSIb3DQEBCwUAA4IBAQAun8dGfKVqGZIH/mmdFxd10Khn3dPa6jmtp65ut/2LbQkn&#xD;
+D1CVrKNOWDUNIs1nfOgmV6FAYV25kmhHcv9yQ0V+BmH3wqL6kwHsS2q0lUhkHBNPWUJntuRlvAcJ&#xD;
+cBoQcfFHeVgi3ArBjVsfDXIWgN1Vlu210sFgGo6NzJ/7SvhHdYsjpTkD5CZvjq5ewXCY9LT5fyKT&#xD;
+Tmt4pSZqapax+M9gaOFkIcV2jjkMfiBW6P4K0s37K64JfBgwqOzkL2N6GLsxFlf1K60TsHiit0U+&#xD;
+mHudmTB+G/JhGzlqmbKaTL7HRE3gKsRqRSAlATlz9d7pL1MlvSgLIDWBeqMvTlUY0UV9&#xD;
+</ns3:certificate>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAti15Amw+Q1IQGAsG040HA+ujuZ1qBCTq&#xD;
+9nTle8BXjoy+nkeEh2uta9ZZC7gkWxRNA4u4Q9Wpkl8gw6Vk9F3cpxwcp1/1BJDbr+ijMHscCWQn&#xD;
+qPtOpOGjtDchRBMVk4elRN0iuP7GggJ/PdWkK4WvPbgQWFJuxwBffQZCJjsRtsYl6si6TQ8IGvHb&#xD;
+Jbeu6qsZsV6WhDr66a5m3mVdOlxbWoXFFbqpdEdtgq450LM6e0escxZJ9auZICVcKpxdYDdk7jT7&#xD;
+Lnt6TwaCzxvw3t7DGtfnwvk8XXgsjWu/cVugHtsOUPhGMdVWOuAahSmJ6UjFfE4H2k1/uLlnAjy0&#xD;
+XBqqpwIDAQAB&#xD;
+</ns3:rsa-public-key>
+        </ns3:client-credentials-in-use>
+        <ns3:server-credentials-in-use>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAti15Amw+Q1IQGAsG040HA+ujuZ1qBCTq&#xD;
+9nTle8BXjoy+nkeEh2uta9ZZC7gkWxRNA4u4Q9Wpkl8gw6Vk9F3cpxwcp1/1BJDbr+ijMHscCWQn&#xD;
+qPtOpOGjtDchRBMVk4elRN0iuP7GggJ/PdWkK4WvPbgQWFJuxwBffQZCJjsRtsYl6si6TQ8IGvHb&#xD;
+Jbeu6qsZsV6WhDr66a5m3mVdOlxbWoXFFbqpdEdtgq450LM6e0escxZJ9auZICVcKpxdYDdk7jT7&#xD;
+Lnt6TwaCzxvw3t7DGtfnwvk8XXgsjWu/cVugHtsOUPhGMdVWOuAahSmJ6UjFfE4H2k1/uLlnAjy0&#xD;
+XBqqpwIDAQAB&#xD;
+</ns3:rsa-public-key>
+        </ns3:server-credentials-in-use>
+    </ns3:host>
+    <ns3:host>
+        <ns2:apis-implemented>
             <ns22:iias-approval version="1.0.0">
                 <ns22:http-security>
                     <ns5:client-auth-methods>
