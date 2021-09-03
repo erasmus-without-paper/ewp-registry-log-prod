@@ -39,8 +39,8 @@
     xmlns:ns42="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/endpoints/get-response.xsd"
     xmlns:ns43="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/endpoints/index-response.xsd"
     xmlns:ns44="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v1/endpoints/get-response.xsd"
-    xmlns:ns45="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
-    xmlns:ns46="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
+    xmlns:ns45="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
+    xmlns:ns46="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
     xmlns:ns47="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-tors/blob/stable-v1/endpoints/get-response.xsd"
     xmlns:ns48="https://github.com/emrex-eu/elmo-schemas/tree/v1"
     xmlns:ns49="http://www.w3.org/2000/09/xmldsig#"
@@ -48,8 +48,8 @@
     xmlns:ns50="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-tors/blob/stable-v1/endpoints/index-response.xsd"
     xmlns:ns51="https://github.com/erasmus-without-paper/ewp-specs-api-courses/tree/stable-v1"
     xmlns:ns52="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/tree/stable-v2"
-    xmlns:ns53="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
-    xmlns:ns54="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
+    xmlns:ns53="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
+    xmlns:ns54="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
     xmlns:ns55="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/tree/stable-v1"
     xmlns:ns56="https://github.com/erasmus-without-paper/ewp-specs-api-iia-cnr/tree/stable-v2"
     xmlns:ns57="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/tree/stable-v1"
@@ -69,12 +69,12 @@
             <ns29:echo version="2.0.1">
                 <ns29:http-security>
                     <ns11:client-auth-methods>
-                        <ns46:tlscert allows-self-signed="true"/>
-                        <ns45:httpsig/>
+                        <ns45:tlscert allows-self-signed="true"/>
+                        <ns46:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
-                        <ns54:tlscert/>
-                        <ns53:httpsig/>
+                        <ns53:tlscert/>
+                        <ns54:httpsig/>
                     </ns11:server-auth-methods>
                 </ns29:http-security>
                 <ns29:url>https://usos-ewp.uci.pb.edu.pl/EWP/echo</ns29:url>
@@ -82,12 +82,12 @@
             <ns24:imobilities version="0.3.0">
                 <ns24:http-security>
                     <ns11:client-auth-methods>
-                        <ns46:tlscert allows-self-signed="true"/>
-                        <ns45:httpsig/>
+                        <ns45:tlscert allows-self-signed="true"/>
+                        <ns46:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
-                        <ns54:tlscert/>
-                        <ns53:httpsig/>
+                        <ns53:tlscert/>
+                        <ns54:httpsig/>
                     </ns11:server-auth-methods>
                 </ns24:http-security>
                 <ns24:get-url>https://usos-ewp.uci.pb.edu.pl/EWP/imobilities/get</ns24:get-url>
@@ -97,12 +97,12 @@
             <ns23:imobility-cnr version="0.1.1">
                 <ns23:http-security>
                     <ns11:client-auth-methods>
-                        <ns46:tlscert allows-self-signed="true"/>
-                        <ns45:httpsig/>
+                        <ns45:tlscert allows-self-signed="true"/>
+                        <ns46:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
-                        <ns54:tlscert/>
-                        <ns53:httpsig/>
+                        <ns53:tlscert/>
+                        <ns54:httpsig/>
                     </ns11:server-auth-methods>
                 </ns23:http-security>
                 <ns23:url>https://usos-ewp.uci.pb.edu.pl/EWP/imobilities/cnr</ns23:url>
@@ -111,12 +111,12 @@
             <ns20:institutions version="2.1.0">
                 <ns20:http-security>
                     <ns11:client-auth-methods>
-                        <ns46:tlscert allows-self-signed="true"/>
-                        <ns45:httpsig/>
+                        <ns45:tlscert allows-self-signed="true"/>
+                        <ns46:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
-                        <ns54:tlscert/>
-                        <ns53:httpsig/>
+                        <ns53:tlscert/>
+                        <ns54:httpsig/>
                     </ns11:server-auth-methods>
                 </ns20:http-security>
                 <ns20:url>https://usos-ewp.uci.pb.edu.pl/EWP/institutions</ns20:url>
@@ -125,12 +125,12 @@
             <ns12:organizational-units version="2.1.0">
                 <ns12:http-security>
                     <ns11:client-auth-methods>
-                        <ns46:tlscert allows-self-signed="true"/>
-                        <ns45:httpsig/>
+                        <ns45:tlscert allows-self-signed="true"/>
+                        <ns46:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
-                        <ns54:tlscert/>
-                        <ns53:httpsig/>
+                        <ns53:tlscert/>
+                        <ns54:httpsig/>
                     </ns11:server-auth-methods>
                 </ns12:http-security>
                 <ns12:url>https://usos-ewp.uci.pb.edu.pl/EWP/ounits</ns12:url>
@@ -140,12 +140,12 @@
             <ns25:iias version="6.0.1">
                 <ns25:http-security>
                     <ns11:client-auth-methods>
-                        <ns46:tlscert allows-self-signed="true"/>
-                        <ns45:httpsig/>
+                        <ns45:tlscert allows-self-signed="true"/>
+                        <ns46:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
-                        <ns54:tlscert/>
-                        <ns53:httpsig/>
+                        <ns53:tlscert/>
+                        <ns54:httpsig/>
                     </ns11:server-auth-methods>
                 </ns25:http-security>
                 <ns25:get-url>https://usos-ewp.uci.pb.edu.pl/EWP/iia/get</ns25:get-url>
@@ -156,12 +156,12 @@
             <ns27:iia-cnr version="2.0.3">
                 <ns27:http-security>
                     <ns11:client-auth-methods>
-                        <ns46:tlscert allows-self-signed="true"/>
-                        <ns45:httpsig/>
+                        <ns45:tlscert allows-self-signed="true"/>
+                        <ns46:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
-                        <ns54:tlscert/>
-                        <ns53:httpsig/>
+                        <ns53:tlscert/>
+                        <ns54:httpsig/>
                     </ns11:server-auth-methods>
                 </ns27:http-security>
                 <ns27:url>https://usos-ewp.uci.pb.edu.pl/EWP/iia/cnr</ns27:url>
@@ -169,12 +169,12 @@
             <ns26:iias-approval version="1.0.0">
                 <ns26:http-security>
                     <ns11:client-auth-methods>
-                        <ns46:tlscert allows-self-signed="true"/>
-                        <ns45:httpsig/>
+                        <ns45:tlscert allows-self-signed="true"/>
+                        <ns46:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
-                        <ns54:tlscert/>
-                        <ns53:httpsig/>
+                        <ns53:tlscert/>
+                        <ns54:httpsig/>
                     </ns11:server-auth-methods>
                 </ns26:http-security>
                 <ns26:url>https://usos-ewp.uci.pb.edu.pl/EWP/iia/approval</ns26:url>
@@ -183,12 +183,12 @@
             <ns28:iia-approval-cnr version="1.0.0">
                 <ns28:http-security>
                     <ns11:client-auth-methods>
-                        <ns46:tlscert allows-self-signed="true"/>
-                        <ns45:httpsig/>
+                        <ns45:tlscert allows-self-signed="true"/>
+                        <ns46:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
-                        <ns54:tlscert/>
-                        <ns53:httpsig/>
+                        <ns53:tlscert/>
+                        <ns54:httpsig/>
                     </ns11:server-auth-methods>
                 </ns28:http-security>
                 <ns28:url>https://usos-ewp.uci.pb.edu.pl/EWP/iia/approval/cnr</ns28:url>
@@ -196,12 +196,12 @@
             <ns16:omobilities version="1.0.0">
                 <ns16:http-security>
                     <ns11:client-auth-methods>
-                        <ns46:tlscert allows-self-signed="true"/>
-                        <ns45:httpsig/>
+                        <ns45:tlscert allows-self-signed="true"/>
+                        <ns46:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
-                        <ns54:tlscert/>
-                        <ns53:httpsig/>
+                        <ns53:tlscert/>
+                        <ns54:httpsig/>
                     </ns11:server-auth-methods>
                 </ns16:http-security>
                 <ns16:get-url>https://usos-ewp.uci.pb.edu.pl/EWP/omobilities/get</ns16:get-url>
@@ -212,12 +212,12 @@
             <ns15:omobility-cnr version="1.0.0">
                 <ns15:http-security>
                     <ns11:client-auth-methods>
-                        <ns46:tlscert allows-self-signed="true"/>
-                        <ns45:httpsig/>
+                        <ns45:tlscert allows-self-signed="true"/>
+                        <ns46:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
-                        <ns54:tlscert/>
-                        <ns53:httpsig/>
+                        <ns53:tlscert/>
+                        <ns54:httpsig/>
                     </ns11:server-auth-methods>
                 </ns15:http-security>
                 <ns15:url>https://usos-ewp.uci.pb.edu.pl/EWP/omobilities/cnr</ns15:url>
@@ -226,12 +226,12 @@
             <ns30:courses version="0.7.1">
                 <ns30:http-security>
                     <ns11:client-auth-methods>
-                        <ns46:tlscert allows-self-signed="true"/>
-                        <ns45:httpsig/>
+                        <ns45:tlscert allows-self-signed="true"/>
+                        <ns46:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
-                        <ns54:tlscert/>
-                        <ns53:httpsig/>
+                        <ns53:tlscert/>
+                        <ns54:httpsig/>
                     </ns11:server-auth-methods>
                 </ns30:http-security>
                 <ns30:url>https://usos-ewp.uci.pb.edu.pl/EWP/courses</ns30:url>
@@ -241,12 +241,12 @@
             <ns21:imobility-tors version="0.7.0">
                 <ns21:http-security>
                     <ns11:client-auth-methods>
-                        <ns46:tlscert allows-self-signed="true"/>
-                        <ns45:httpsig/>
+                        <ns45:tlscert allows-self-signed="true"/>
+                        <ns46:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
-                        <ns54:tlscert/>
-                        <ns53:httpsig/>
+                        <ns53:tlscert/>
+                        <ns54:httpsig/>
                     </ns11:server-auth-methods>
                 </ns21:http-security>
                 <ns21:get-url>https://usos-ewp.uci.pb.edu.pl/EWP/tors/get</ns21:get-url>
@@ -257,12 +257,12 @@
             <ns22:imobility-tor-cnr version="0.1.1">
                 <ns22:http-security>
                     <ns11:client-auth-methods>
-                        <ns46:tlscert allows-self-signed="true"/>
-                        <ns45:httpsig/>
+                        <ns45:tlscert allows-self-signed="true"/>
+                        <ns46:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
-                        <ns54:tlscert/>
-                        <ns53:httpsig/>
+                        <ns53:tlscert/>
+                        <ns54:httpsig/>
                     </ns11:server-auth-methods>
                 </ns22:http-security>
                 <ns22:url>https://usos-ewp.uci.pb.edu.pl/EWP/tors/cnr</ns22:url>
@@ -271,12 +271,12 @@
             <ns13:omobility-las version="1.0.1">
                 <ns13:http-security>
                     <ns11:client-auth-methods>
-                        <ns46:tlscert allows-self-signed="true"/>
-                        <ns45:httpsig/>
+                        <ns45:tlscert allows-self-signed="true"/>
+                        <ns46:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
-                        <ns54:tlscert/>
-                        <ns53:httpsig/>
+                        <ns53:tlscert/>
+                        <ns54:httpsig/>
                     </ns11:server-auth-methods>
                 </ns13:http-security>
                 <ns13:get-url>https://usos-ewp.uci.pb.edu.pl/EWP/la/get</ns13:get-url>
@@ -294,43 +294,43 @@
             </ns7:hei>
         </ns9:institutions-covered>
         <ns9:client-credentials-in-use>
-            <ns9:certificate>MIID3zCCAsegAwIBAgIEIj7UWTANBgkqhkiG9w0BAQsFADCBnzELMAkGA1UEBhMC
+            <ns9:certificate>MIID6TCCAtGgAwIBAgIEL2dHLzANBgkqhkiG9w0BAQsFADCBpDELMAkGA1UEBhMC
 UEwxEjAQBgNVBAgTCVBvZGxhc2tpZTESMBAGA1UEBxMJQmlhbHlzdG9rMSEwHwYD
 VQQKExhQb2xpdGVjaG5pa2EgQmlhbG9zdG9ja2ExKTAnBgNVBAsTIFVjemVsbmlh
-bmUgQ2VudHJ1bSBJbmZvcm1hdHljem5lMRowGAYDVQQDExFNYXJjaW4gS2llbGJv
-d2ljejAeFw0yMTA5MDMwNzAyNTlaFw0zMTA5MDEwNzAyNTlaMIGfMQswCQYDVQQG
-EwJQTDESMBAGA1UECBMJUG9kbGFza2llMRIwEAYDVQQHEwlCaWFseXN0b2sxITAf
-BgNVBAoTGFBvbGl0ZWNobmlrYSBCaWFsb3N0b2NrYTEpMCcGA1UECxMgVWN6ZWxu
-aWFuZSBDZW50cnVtIEluZm9ybWF0eWN6bmUxGjAYBgNVBAMTEU1hcmNpbiBLaWVs
-Ym93aWN6MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAx4M6V6q8XyJ3
-ne9Nk9i6tBup7pp5TpX7wK6Hf+T41K2w19HN8Uyozkit/jiQim+HhJ8yMQicrft6
-cZIKI1iYeCxEHs/+8G3couMKHuYYS90p9MMQeBI1TTcUUOIt1fAh6lcfalJnYppZ
-9yKWeG/Eg4rMv3yr83RYRWHWxa2NQDyoKKAlLvYrrefyXHTjyEe4mMmluArxoNQL
-/umlm4gnmKUdItrvPobFgcRyMyWcHowjmj1dRIYiMc6heAlPQNaYgTYJNjJNt6YQ
-eH26V/bW5H/3vdfI7ZNo6xoEhydyMkPB02smZPphJKg8iVMveQ92ycmKSwgFIbGK
-q2+H0ImJHwIDAQABoyEwHzAdBgNVHQ4EFgQUT/REXmhDyYmASpaX7dzwxkra0OUw
-DQYJKoZIhvcNAQELBQADggEBALXNb27WkCGj32VOY+Wo6oz/3tW0caOMifWBEdC+
-HH243xi+ZGsvqDV193fj1XUJppzKj8Mz7m1v5hGXz0MXMWF3xXNA/sjk+5aEtYUL
-1DhY0d1t5Uv185mrazFCx2tjMy968jIydz1r0dFErvDghoxQoDhMf5LkHrYSWbJd
-cjxHPf5aoIqUhyeaDGY7NXviugv6t3nKo7m7ZTeYggFPp7WFXsn7XwQus04JOTJE
-mpHsofdlGnYXgXAbZqZK6/R5dioupmwb8Q3Ym133Dm1/8Wb914zP7m324s8fNv2h
-nHroykREc9AaniqJQzVLLuYw2+zoUyJa5UY6PYsh4ydcf0o=</ns9:certificate>
-            <ns9:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAx4M6V6q8XyJ3ne9Nk9i6
-tBup7pp5TpX7wK6Hf+T41K2w19HN8Uyozkit/jiQim+HhJ8yMQicrft6cZIKI1iY
-eCxEHs/+8G3couMKHuYYS90p9MMQeBI1TTcUUOIt1fAh6lcfalJnYppZ9yKWeG/E
-g4rMv3yr83RYRWHWxa2NQDyoKKAlLvYrrefyXHTjyEe4mMmluArxoNQL/umlm4gn
-mKUdItrvPobFgcRyMyWcHowjmj1dRIYiMc6heAlPQNaYgTYJNjJNt6YQeH26V/bW
-5H/3vdfI7ZNo6xoEhydyMkPB02smZPphJKg8iVMveQ92ycmKSwgFIbGKq2+H0ImJ
-HwIDAQAB</ns9:rsa-public-key>
+bmUgQ2VudHJ1bSBJbmZvcm1hdHljem5lMR8wHQYDVQQDExZ1c29zLWV3cC51Y2ku
+cGIuZWR1LnBsMB4XDTIxMDkwMzA3MjIyOVoXDTMxMDkwMTA3MjIyOVowgaQxCzAJ
+BgNVBAYTAlBMMRIwEAYDVQQIEwlQb2RsYXNraWUxEjAQBgNVBAcTCUJpYWx5c3Rv
+azEhMB8GA1UEChMYUG9saXRlY2huaWthIEJpYWxvc3RvY2thMSkwJwYDVQQLEyBV
+Y3plbG5pYW5lIENlbnRydW0gSW5mb3JtYXR5Y3puZTEfMB0GA1UEAxMWdXNvcy1l
+d3AudWNpLnBiLmVkdS5wbDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEB
+AMQ68Vhla4mcDH1v/urYBcQ4eKY3pFsWwxebXafXnShIMXyY6ICipWCqrmkwqed8
+C6utGba4aWKGvHvN6VQM2RliI1/zsqSLZs/8PjYk3vDWsutJ44zX65VQcHRSB7PJ
+w2oY9+A2Wt0YhDeMbdUyApTcS3EroigeF3/CoPGypHYS6Dznj3udF6CPFvuND7qa
+SWVMlakdxtbwzI7rCJsdcC8fijos12N4ChcoSPs/y7VeFcGYpYsqfwDqd2DKErUO
+XQSVBrh8JhF/7DKbbUlTHXzQ96OVqjM2ovVyJ39DYio3kJa0l7jee59Wd3zGODgH
+1LXInt1BFjhuclm2JFS4/l0CAwEAAaMhMB8wHQYDVR0OBBYEFFbFipwxOSf2d7bz
+d6voYndyYCTUMA0GCSqGSIb3DQEBCwUAA4IBAQCls7Ge6eDMeUGjBTFbQZPmljfa
++WXF5L9+90IEGnHMk2l3YcQmMNMiKtMwc+Ex8Wc2LYS3YLB54ZkQhdphp7EZD2+G
+iQCtS9VZrM0egtrGSC8SJDPS3BsZjRKwacGqJvcPVLv9Qzito8rFP4/25L4aL7my
+jnYLsWvU/9j4IWdYyKMlOdXJ10pknsvfDE2rNl++I7cdHCmQq1Mj+QbuPtjkZhnO
+E50DQqxghNTvAfk7vRFpIJGyt5FiX/+WPZgGK5NRFEFElSIctSlGArs0d6ksWfKT
+xcd6pVYZMoz2tBtATCVRLgBqSdFexUFiPoX/XFNZ72TeVNoIqxqhcbvas6Lj</ns9:certificate>
+            <ns9:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxDrxWGVriZwMfW/+6tgF
+xDh4pjekWxbDF5tdp9edKEgxfJjogKKlYKquaTCp53wLq60ZtrhpYoa8e83pVAzZ
+GWIjX/OypItmz/w+NiTe8Nay60njjNfrlVBwdFIHs8nDahj34DZa3RiEN4xt1TIC
+lNxLcSuiKB4Xf8Kg8bKkdhLoPOePe50XoI8W+40PuppJZUyVqR3G1vDMjusImx1w
+Lx+KOizXY3gKFyhI+z/LtV4VwZiliyp/AOp3YMoStQ5dBJUGuHwmEX/sMpttSVMd
+fND3o5WqMzai9XInf0NiKjeQlrSXuN57n1Z3fMY4OAfUtcie3UEWOG5yWbYkVLj+
+XQIDAQAB</ns9:rsa-public-key>
         </ns9:client-credentials-in-use>
         <ns9:server-credentials-in-use>
-            <ns9:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAx4M6V6q8XyJ3ne9Nk9i6
-tBup7pp5TpX7wK6Hf+T41K2w19HN8Uyozkit/jiQim+HhJ8yMQicrft6cZIKI1iY
-eCxEHs/+8G3couMKHuYYS90p9MMQeBI1TTcUUOIt1fAh6lcfalJnYppZ9yKWeG/E
-g4rMv3yr83RYRWHWxa2NQDyoKKAlLvYrrefyXHTjyEe4mMmluArxoNQL/umlm4gn
-mKUdItrvPobFgcRyMyWcHowjmj1dRIYiMc6heAlPQNaYgTYJNjJNt6YQeH26V/bW
-5H/3vdfI7ZNo6xoEhydyMkPB02smZPphJKg8iVMveQ92ycmKSwgFIbGKq2+H0ImJ
-HwIDAQAB</ns9:rsa-public-key>
+            <ns9:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxDrxWGVriZwMfW/+6tgF
+xDh4pjekWxbDF5tdp9edKEgxfJjogKKlYKquaTCp53wLq60ZtrhpYoa8e83pVAzZ
+GWIjX/OypItmz/w+NiTe8Nay60njjNfrlVBwdFIHs8nDahj34DZa3RiEN4xt1TIC
+lNxLcSuiKB4Xf8Kg8bKkdhLoPOePe50XoI8W+40PuppJZUyVqR3G1vDMjusImx1w
+Lx+KOizXY3gKFyhI+z/LtV4VwZiliyp/AOp3YMoStQ5dBJUGuHwmEX/sMpttSVMd
+fND3o5WqMzai9XInf0NiKjeQlrSXuN57n1Z3fMY4OAfUtcie3UEWOG5yWbYkVLj+
+XQIDAQAB</ns9:rsa-public-key>
         </ns9:server-credentials-in-use>
     </ns9:host>
 </ns9:manifest>
