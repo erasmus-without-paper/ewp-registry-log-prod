@@ -69555,11 +69555,9 @@
                 <e2:http-security>
                     <sec:client-auth-methods>
                         <sec-A2:httpsig/>
-                        <sec-A1:tlscert allows-self-signed="true"/>
                     </sec:client-auth-methods>
                     <sec:server-auth-methods>
                         <sec-B2:httpsig/>
-                        <sec-B1:tlscert/>
                     </sec:server-auth-methods>
                 </e2:http-security>
                 <e2:url>https://mobility.armyacademy.ro/mobility/ewp/echo</e2:url>
@@ -69582,11 +69580,9 @@
                 <in2:http-security>
                     <sec:client-auth-methods>
                         <sec-A2:httpsig/>
-                        <sec-A1:tlscert allows-self-signed="true"/>
                     </sec:client-auth-methods>
                     <sec:server-auth-methods>
                         <sec-B2:httpsig/>
-                        <sec-B1:tlscert/>
                     </sec:server-auth-methods>
                 </in2:http-security>
                 <in2:url>https://mobility.armyacademy.ro/mobility/ewp/institutions</in2:url>
