@@ -70246,6 +70246,152 @@
             <rsa-public-key sha-256="99b6247fbe7d2d66a3c9d11f1f33f96970cb5593d6d75e5f40776fb861f612fd"/>
         </server-credentials-in-use>
     </host>
+    <host>
+        <ewp:admin-email>iris@usal.es</ewp:admin-email>
+        <apis-implemented>
+            <d5:discovery version="5.0.0">
+                <d5:url>https://iris.usal.es/api/manifest</d5:url>
+            </d5:discovery>
+            <e2:echo version="2.0.1">
+                <ewp:admin-email>iris@usal.es</ewp:admin-email>
+                <ewp:admin-notes>Test enviroment</ewp:admin-notes>
+                <e2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </e2:http-security>
+                <e2:url>https://iris.usal.es/api/echo</e2:url>
+            </e2:echo>
+            <in2:institutions version="2.1.0">
+                <in2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A0:anonymous/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </in2:http-security>
+                <in2:url>https://iris.usal.es/api/institutions</in2:url>
+                <in2:max-hei-ids>1</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.1.1">
+                <ou2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A0:anonymous/>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </ou2:http-security>
+                <ou2:url>https://iris.usal.es/api/ounits</ou2:url>
+                <ou2:max-ounit-ids>27</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>27</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+            <ia6:iias
+                xmlns:ia6="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v6/manifest-entry.xsd"
+                version="6.0.1"
+            >
+                <ia6:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </ia6:http-security>
+                <ia6:get-url>https://iris.usal.es/api/iias/get</ia6:get-url>
+                <ia6:max-iia-ids>1</ia6:max-iia-ids>
+                <ia6:max-iia-codes>1</ia6:max-iia-codes>
+                <ia6:index-url>https://iris.usal.es/api/iias/index</ia6:index-url>
+            </ia6:iias>
+            <iac2:iia-cnr version="2.0.3">
+                <iac2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </iac2:http-security>
+                <iac2:url>https://iris.usal.es/api/iias/cnr</iac2:url>
+            </iac2:iia-cnr>
+            <iaa1:iias-approval
+                xmlns:iaa1="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <iaa1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </iaa1:http-security>
+                <iaa1:url>https://iris.usal.es/api/iias/approval</iaa1:url>
+                <iaa1:max-iia-ids>10</iaa1:max-iia-ids>
+            </iaa1:iias-approval>
+            <iaac1:iia-approval-cnr
+                xmlns:iaac1="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <iaac1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </iaac1:http-security>
+                <iaac1:url>https://iris.usal.es/api/iias/approval/cnr</iaac1:url>
+            </iaac1:iia-approval-cnr>
+            <f1:factsheet
+                xmlns:f1="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <f1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </f1:http-security>
+                <f1:url>https://iris.usal.es/api/factsheet</f1:url>
+                <f1:max-hei-ids>1</f1:max-hei-ids>
+            </f1:factsheet>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>usal.es</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="b39b8c11316b72beae77dd934d6c6588a7a30b4a188b6c70333b30c4f93159f5"/>
+            <rsa-public-key sha-256="a35b9752055391608f4de38b2eb9bf9f1b4029955d3ac2ba1502b99f9c063c91"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="a35b9752055391608f4de38b2eb9bf9f1b4029955d3ac2ba1502b99f9c063c91"/>
+        </server-credentials-in-use>
+    </host>
     <institutions>
         <hei id="29mayis.tr">
             <other-id type="erasmus">TR ISTANBU43</other-id>
@@ -79913,7 +80059,10 @@
         </hei>
         <hei id="usal.es">
             <other-id type="erasmus">E  SALAMAN02</other-id>
+            <other-id type="erasmus">E SALAMAN02</other-id>
+            <other-id type="pic">999846610</other-id>
             <name>E  SALAMAN02</name>
+            <name xml:lang="en">University of Salamanca</name>
         </hei>
         <hei id="usamv.ro">
             <other-id type="erasmus">RO BUCURES12</other-id>
@@ -81302,6 +81451,14 @@
             lu2nDBzOb9vMGwfzbL8zeK9o7z4gfVDXmAqoq4ZBEoAAGBwJBOyUhzaUKGLeT/MS/8+mRqTTUF8N
             m8Sq5P4JLeDdTs4MgmSSRuKT6JDa1Mw79fuqDlgyZLnM6FU3+6oXl1cTk6SD1Fcwhc1/72XQK90E
             5csqNwIDAQAB
+        </rsa-public-key>
+        <rsa-public-key sha-256="a35b9752055391608f4de38b2eb9bf9f1b4029955d3ac2ba1502b99f9c063c91">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2Qdi5OeukO/WDOwz1t1R7QypLm7hHQJ4
+            BjrJTm4xdIAH506BYj+Rm2hDROyhXxfr9OpL+EK5SGwIk3XMVjjLoZmEe/J4q7qIUznE9m5+d2gd
+            BIWA4qmCw7Z9Rxt0c6BvjVIvl6p48Rbph9/TIu1QEWwZ51VtGNeM6V+JvYOgIqUchNzhpsHzxMee
+            W5UkoQ1cu5pX6WWWM7AUMIv6xgOxDSuKvA7IspwglCIEHW4KabpwMUhybZLe429LX2brHCt34nPG
+            4fag0L4IheVOG4FnzoUF4kVhHvTU4Hynoy+Lfnj2r69cFZMXreShTRN6kD3mh7Anqhyf1war7CTP
+            MMb5FwIDAQAB
         </rsa-public-key>
         <rsa-public-key sha-256="a38239145aa9a59390aebd26bd98fe539e245fd1c2882b34ff0dba6db7d1a6ed">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2rQS0d643vpEOpXT6VAteQG942N8SJhw
