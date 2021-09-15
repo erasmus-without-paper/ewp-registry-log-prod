@@ -70392,6 +70392,134 @@
             <rsa-public-key sha-256="a35b9752055391608f4de38b2eb9bf9f1b4029955d3ac2ba1502b99f9c063c91"/>
         </server-credentials-in-use>
     </host>
+    <host>
+        <ewp:admin-email>tecnico.sigma.stic@uva.es</ewp:admin-email>
+        <ewp:admin-notes>EWP Dev Manifest</ewp:admin-notes>
+        <apis-implemented>
+            <d5:discovery version="5.0.0">
+                <d5:url>https://wservicios.sigma.uva.es/EWP/UNIVERSIDAD_DE_VALLADOLID.xml</d5:url>
+            </d5:discovery>
+            <e2:echo version="2.0.1">
+                <e2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </e2:http-security>
+                <e2:url>https://wservicios.sigma.uva.es/ewp/rest/echo</e2:url>
+            </e2:echo>
+            <in2:institutions version="2.1.0">
+                <in2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </in2:http-security>
+                <in2:url>https://wservicios.sigma.uva.es/ewp/rest/institutions/get</in2:url>
+                <in2:max-hei-ids>1</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.1.1">
+                <ou2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </ou2:http-security>
+                <ou2:url>https://wservicios.sigma.uva.es/ewp/rest/departments/get</ou2:url>
+                <ou2:max-ounit-ids>100</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>100</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+            <ia3:iias
+                xmlns:ia3="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v3/manifest-entry.xsd"
+                version="3.0.0"
+            >
+                <ia3:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </ia3:http-security>
+                <ia3:get-url>https://wservicios.sigma.uva.es/ewp/rest/iias/get</ia3:get-url>
+                <ia3:max-iia-ids>1</ia3:max-iia-ids>
+                <ia3:max-iia-codes>1</ia3:max-iia-codes>
+                <ia3:index-url>https://wservicios.sigma.uva.es/ewp/rest/iias/index</ia3:index-url>
+                <ia3:sends-notifications/>
+            </ia3:iias>
+            <iac2:iia-cnr version="2.0.2">
+                <iac2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </iac2:http-security>
+                <iac2:url>https://wservicios.sigma.uva.es/ewp/rest/iias/cnr</iac2:url>
+            </iac2:iia-cnr>
+            <iaa1:iias-approval
+                xmlns:iaa1="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
+                version="0.2.1"
+            >
+                <iaa1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </iaa1:http-security>
+                <iaa1:url>https://wservicios.sigma.uva.es/ewp/rest/iia/approval</iaa1:url>
+                <iaa1:max-iia-ids>10</iaa1:max-iia-ids>
+                <iaa1:sends-notifications/>
+            </iaa1:iias-approval>
+            <iaac1:iia-approval-cnr
+                xmlns:iaac1="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="0.2.0"
+            >
+                <iaac1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </iaac1:http-security>
+                <iaac1:url>https://wservicios.sigma.uva.es/ewp/rest/iia/approval/cnr</iaac1:url>
+            </iaac1:iia-approval-cnr>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>uva.es</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="51eddb80eea50e890633e996dc6f8a45c3b9c2f9a9f00754c4757cf451c3f7e3"/>
+            <rsa-public-key sha-256="147167d0eeb16038a4783b92b72233206afa337b14d7f46d1a5f0cad9405cefd"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="147167d0eeb16038a4783b92b72233206afa337b14d7f46d1a5f0cad9405cefd"/>
+        </server-credentials-in-use>
+    </host>
     <institutions>
         <hei id="29mayis.tr">
             <other-id type="erasmus">TR ISTANBU43</other-id>
@@ -80216,7 +80344,11 @@
         </hei>
         <hei id="uva.es">
             <other-id type="erasmus">E  VALLADO01</other-id>
+            <other-id type="erasmus">E VALLADO01</other-id>
+            <other-id type="pic">999862809</other-id>
             <name>E  VALLADO01</name>
+            <name xml:lang="en">UNIVERSITY OF VALLADOLID</name>
+            <name xml:lang="es">UNIVERSIDAD DE VALLADOLID</name>
         </hei>
         <hei id="uva.nl">
             <other-id type="erasmus">NL AMSTERD01</other-id>
@@ -80889,6 +81021,14 @@
             DBWetJkXMlxjrLHs4yZF3WJDfoVZhxi1ZGV9P9GZrpTv3Ayp2pFFcQQq9+E+m5NhCb8+Sa/0kj3l
             /rvFlER6tretAl3qfECQnPHCiXElawmquH5a1CHSMDVjX/YtkGWwktWVBtfOy5BGoZ3mlnUjChu5
             +NwbMQIDAQAB
+        </rsa-public-key>
+        <rsa-public-key sha-256="147167d0eeb16038a4783b92b72233206afa337b14d7f46d1a5f0cad9405cefd">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7ns1/lnl4B5vAW2LGs2L4Aw7NDIp7p3x
+            gztOGIRgME3vM3fklsDmqk37hyo2MBdCO0UGt9roWw5YVKsTC0JiyRIlHwHP0e/i+yZOsLmA4dxU
+            s48PWalEd7FDib7efAvVuwFFFJcw6rSPlv63w0KjlcgMRHRqy7NljDX0669cNsgq0kbKJKJIrW3t
+            uGE4TlF2T/kNR6+Fjv2Z2+FmpSCdLkLkMbSahJ4vciD4b3cGlTkpHdA9ScYkewH/tnHOx3+CK8eJ
+            hpDqBZ27jJq5JzHCuwGwEoEMDOxz0G0Hw0bRQurSASskJdwTK0BmQtvkWVq4HqZecz35ZdFi/9/D
+            bXZciQIDAQAB
         </rsa-public-key>
         <rsa-public-key sha-256="1ee31546b02ed338702a9753576e427774f4c0eebcd81c7f021853f14378b61b">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA79IZTc6wlux9vMRopgcqe1DEZT5hETxU
