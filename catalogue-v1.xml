@@ -58345,275 +58345,6 @@
         </server-credentials-in-use>
     </host>
     <host>
-        <ewp:admin-email>daborowski@prz.edu.pl</ewp:admin-email>
-        <apis-implemented>
-            <d5:discovery version="5.0.0">
-                <d5:url>https://ewp.prz.edu.pl/ewp/manifest</d5:url>
-            </d5:discovery>
-            <e2:echo version="2.0.1">
-                <e2:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B1:tlscert/>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </e2:http-security>
-                <e2:url>https://ewp.prz.edu.pl/ewp/echo</e2:url>
-            </e2:echo>
-            <im1:imobilities
-                xmlns:im1="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v1/manifest-entry.xsd"
-                version="0.3.0"
-            >
-                <im1:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B1:tlscert/>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </im1:http-security>
-                <im1:get-url>https://ewp.prz.edu.pl/ewp/imobilities/get</im1:get-url>
-                <im1:max-omobility-ids>100</im1:max-omobility-ids>
-                <im1:sends-notifications/>
-            </im1:imobilities>
-            <imc1:imobility-cnr
-                xmlns:imc1="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-cnr/blob/stable-v1/manifest-entry.xsd"
-                version="0.1.1"
-            >
-                <imc1:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B1:tlscert/>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </imc1:http-security>
-                <imc1:url>https://ewp.prz.edu.pl/ewp/imobilities/cnr</imc1:url>
-                <imc1:max-omobility-ids>100</imc1:max-omobility-ids>
-            </imc1:imobility-cnr>
-            <in2:institutions version="2.1.0">
-                <in2:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B1:tlscert/>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </in2:http-security>
-                <in2:url>https://ewp.prz.edu.pl/ewp/institutions</in2:url>
-                <in2:max-hei-ids>1</in2:max-hei-ids>
-            </in2:institutions>
-            <ou2:organizational-units version="2.1.0">
-                <ou2:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B1:tlscert/>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </ou2:http-security>
-                <ou2:url>https://ewp.prz.edu.pl/ewp/ounits</ou2:url>
-                <ou2:max-ounit-ids>100</ou2:max-ounit-ids>
-                <ou2:max-ounit-codes>100</ou2:max-ounit-codes>
-            </ou2:organizational-units>
-            <ia6:iias
-                xmlns:ia6="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v6/manifest-entry.xsd"
-                version="6.0.1"
-            >
-                <ia6:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B1:tlscert/>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </ia6:http-security>
-                <ia6:get-url>https://ewp.prz.edu.pl/ewp/iia/get</ia6:get-url>
-                <ia6:max-iia-ids>100</ia6:max-iia-ids>
-                <ia6:max-iia-codes>100</ia6:max-iia-codes>
-                <ia6:index-url>https://ewp.prz.edu.pl/ewp/iia/index</ia6:index-url>
-            </ia6:iias>
-            <iac2:iia-cnr version="2.0.3">
-                <iac2:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B1:tlscert/>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </iac2:http-security>
-                <iac2:url>https://ewp.prz.edu.pl/ewp/iia/cnr</iac2:url>
-            </iac2:iia-cnr>
-            <iaa1:iias-approval
-                xmlns:iaa1="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
-                version="1.0.0"
-            >
-                <iaa1:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B1:tlscert/>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </iaa1:http-security>
-                <iaa1:url>https://ewp.prz.edu.pl/ewp/iia/approval</iaa1:url>
-                <iaa1:max-iia-ids>100</iaa1:max-iia-ids>
-            </iaa1:iias-approval>
-            <iaac1:iia-approval-cnr
-                xmlns:iaac1="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v1/manifest-entry.xsd"
-                version="1.0.0"
-            >
-                <iaac1:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B1:tlscert/>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </iaac1:http-security>
-                <iaac1:url>https://ewp.prz.edu.pl/ewp/iia/approval/cnr</iaac1:url>
-            </iaac1:iia-approval-cnr>
-            <om1:omobilities
-                xmlns:om1="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd"
-                version="1.0.0"
-            >
-                <om1:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B1:tlscert/>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </om1:http-security>
-                <om1:get-url>https://ewp.prz.edu.pl/ewp/omobilities/get</om1:get-url>
-                <om1:index-url>https://ewp.prz.edu.pl/ewp/omobilities/index</om1:index-url>
-                <om1:max-omobility-ids>100</om1:max-omobility-ids>
-                <om1:sends-notifications/>
-            </om1:omobilities>
-            <omc1:omobility-cnr
-                xmlns:omc1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/blob/stable-v1/manifest-entry.xsd"
-                version="1.0.0"
-            >
-                <omc1:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B1:tlscert/>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </omc1:http-security>
-                <omc1:url>https://ewp.prz.edu.pl/ewp/omobilities/cnr</omc1:url>
-                <omc1:max-omobility-ids>100</omc1:max-omobility-ids>
-            </omc1:omobility-cnr>
-            <co1:courses
-                xmlns:co1="https://github.com/erasmus-without-paper/ewp-specs-api-courses/blob/stable-v1/manifest-entry.xsd"
-                version="0.7.1"
-            >
-                <co1:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B1:tlscert/>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </co1:http-security>
-                <co1:url>https://ewp.prz.edu.pl/ewp/courses</co1:url>
-                <co1:max-los-ids>100</co1:max-los-ids>
-                <co1:max-los-codes>100</co1:max-los-codes>
-            </co1:courses>
-            <imt1:imobility-tors
-                xmlns:imt1="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-tors/blob/stable-v1/manifest-entry.xsd"
-                version="0.7.0"
-            >
-                <imt1:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B1:tlscert/>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </imt1:http-security>
-                <imt1:get-url>https://ewp.prz.edu.pl/ewp/tors/get</imt1:get-url>
-                <imt1:index-url>https://ewp.prz.edu.pl/ewp/tors/index</imt1:index-url>
-                <imt1:max-omobility-ids>10</imt1:max-omobility-ids>
-                <imt1:sends-notifications/>
-            </imt1:imobility-tors>
-            <imtc1:imobility-tor-cnr
-                xmlns:imtc1="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-tor-cnr/blob/stable-v1/manifest-entry.xsd"
-                version="0.1.1"
-            >
-                <imtc1:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B1:tlscert/>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </imtc1:http-security>
-                <imtc1:url>https://ewp.prz.edu.pl/ewp/tors/cnr</imtc1:url>
-                <imtc1:max-omobility-ids>10</imtc1:max-omobility-ids>
-            </imtc1:imobility-tor-cnr>
-            <oml1:omobility-las
-                xmlns:oml1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd"
-                version="1.0.1"
-            >
-                <oml1:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B1:tlscert/>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </oml1:http-security>
-                <oml1:get-url>https://ewp.prz.edu.pl/ewp/la/get</oml1:get-url>
-                <oml1:index-url>https://ewp.prz.edu.pl/ewp/la/index</oml1:index-url>
-                <oml1:update-url>https://ewp.prz.edu.pl/ewp/la/update</oml1:update-url>
-                <oml1:max-omobility-ids>100</oml1:max-omobility-ids>
-            </oml1:omobility-las>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>prz.edu.pl</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <certificate sha-256="abfa0abe5e5b91fbba802445133240528f4815a7750d70a92711fe8cfa7fd693"/>
-            <rsa-public-key sha-256="68ca318d888c70025568d365d21d9dabedf3b2ecac63f786e5297898852dfdbe"/>
-        </client-credentials-in-use>
-        <server-credentials-in-use>
-            <rsa-public-key sha-256="68ca318d888c70025568d365d21d9dabedf3b2ecac63f786e5297898852dfdbe"/>
-        </server-credentials-in-use>
-    </host>
-    <host>
         <ewp:admin-email>events@aec-music.eu</ewp:admin-email>
         <apis-implemented>
             <d5:discovery version="5.0.0">
@@ -59627,17 +59358,17 @@
             </omlc1:omobility-la-cnr>
         </apis-implemented>
         <institutions-covered>
-            <hei-id>beun.edu.tr</hei-id>
-            <hei-id>eskisehir.edu.tr</hei-id>
+            <hei-id>gazi.edu.tr</hei-id>
+            <hei-id>kent.edu.tr</hei-id>
+            <hei-id>ticaret.edu.tr</hei-id>
             <hei-id>ege.edu.tr</hei-id>
             <hei-id>anadolu.edu.tr</hei-id>
             <hei-id>bilkent.edu.tr</hei-id>
-            <hei-id>gazi.edu.tr</hei-id>
+            <hei-id>ankara.edu.tr</hei-id>
+            <hei-id>beun.edu.tr</hei-id>
             <hei-id>akdeniz.edu.tr</hei-id>
             <hei-id>cbu.edu.tr</hei-id>
-            <hei-id>kent.edu.tr</hei-id>
-            <hei-id>ticaret.edu.tr</hei-id>
-            <hei-id>ankara.edu.tr</hei-id>
+            <hei-id>eskisehir.edu.tr</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="49a8298b9130e7dca3e1a353a9fe7564bb04243708174bfc109639390f9f0173"/>
@@ -77123,10 +76854,7 @@
         </hei>
         <hei id="prz.edu.pl">
             <other-id type="erasmus">PL RZESZOW01</other-id>
-            <other-id type="pic">999886186</other-id>
             <name>PL RZESZOW01</name>
-            <name xml:lang="en">Rzeszów University of Technology</name>
-            <name xml:lang="pl">Politechnika Rzeszowska im. Ignacego Łukasiewicza</name>
         </hei>
         <hei id="psb-ewp.moveonfr.com">
             <other-id type="erasmus">F  PARIS256</other-id>
@@ -81639,14 +81367,6 @@
             8KpIF72WhsXN6wtrHVug1bwmN3tVsTnyZQyDYIMkwL866aBFo2xTRJbojt2+sCPuY6/1wpfLfeGH
             mEChv85HhA8mXN2Eg7NvCKRI/UXfvZNQaLOTpst9vV3UPORjTdJT9NrgkFtO883F2yB1T4mREEkf
             ck5ObQIDAQAB
-        </rsa-public-key>
-        <rsa-public-key sha-256="68ca318d888c70025568d365d21d9dabedf3b2ecac63f786e5297898852dfdbe">
-            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnjLlprqgWhkCpfXu+uABwjJkRsK5sHYs
-            AxVFAsNJCcFSla+cZqbJzxvgFhUxDM4DRoYQlbN1pIbUr5xCVbeyqTvQAXNnKwwecWX68XW1vVUD
-            fV7MqlCR4MpDPHkOD7unbQ0hxbAWW8Huc83NWoHlCCGTMktwv+IuPQxosehQyOhnt2+l/6+pqIDB
-            GeGdm+DMPzEAMjaJtgEeSdILo/R+f6a4U3ycyAgOm34FOjG13I1SrEVZPVPk/LbuBgqUQvnoXxjB
-            midYf+lyYUDjB0E64WkYhjCjIY07j8VKcYU0FsSrYfm/iGF7CyjrfZPYWbol6e1tUG2fednKZB1T
-            hVep9QIDAQAB
         </rsa-public-key>
         <rsa-public-key sha-256="68e9d17f53607d644c63316b10ea38334a3ef412387e53db57ee5c22e92ede0c">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5nRAPL0on2EdGbghwtEoZN1gyGRq4dZ2
