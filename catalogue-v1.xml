@@ -64470,12 +64470,12 @@
         </server-credentials-in-use>
     </host>
     <host>
-        <ewp:admin-email>ewptest@aps.edu.pl</ewp:admin-email>
+        <ewp:admin-email>ewp@aps.edu.pl</ewp:admin-email>
         <apis-implemented>
             <d5:discovery version="5.0.0">
-                <d5:url>https://ewptest.aps.edu.pl/ewp/manifest</d5:url>
+                <d5:url>https://ewp.aps.edu.pl/ewp/manifest</d5:url>
             </d5:discovery>
-            <e2:echo version="2.0.1">
+            <e2:echo version="2.0.0">
                 <e2:http-security>
                     <sec:client-auth-methods>
                         <sec-A1:tlscert allows-self-signed="true"/>
@@ -64486,7 +64486,7 @@
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
                 </e2:http-security>
-                <e2:url>https://ewptest.aps.edu.pl/ewp/echo</e2:url>
+                <e2:url>https://ewp.aps.edu.pl/ewp/echo</e2:url>
             </e2:echo>
             <im1:imobilities
                 xmlns:im1="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v1/manifest-entry.xsd"
@@ -64502,7 +64502,7 @@
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
                 </im1:http-security>
-                <im1:get-url>https://ewptest.aps.edu.pl/ewp/imobilities/get</im1:get-url>
+                <im1:get-url>https://ewp.aps.edu.pl/ewp/imobilities/get</im1:get-url>
                 <im1:max-omobility-ids>100</im1:max-omobility-ids>
                 <im1:sends-notifications/>
             </im1:imobilities>
@@ -64520,7 +64520,7 @@
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
                 </imc1:http-security>
-                <imc1:url>https://ewptest.aps.edu.pl/ewp/imobilities/cnr</imc1:url>
+                <imc1:url>https://ewp.aps.edu.pl/ewp/imobilities/cnr</imc1:url>
                 <imc1:max-omobility-ids>100</imc1:max-omobility-ids>
             </imc1:imobility-cnr>
             <in2:institutions version="2.1.0">
@@ -64534,7 +64534,7 @@
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
                 </in2:http-security>
-                <in2:url>https://ewptest.aps.edu.pl/ewp/institutions</in2:url>
+                <in2:url>https://ewp.aps.edu.pl/ewp/institutions</in2:url>
                 <in2:max-hei-ids>1</in2:max-hei-ids>
             </in2:institutions>
             <ou2:organizational-units version="2.1.0">
@@ -64548,7 +64548,7 @@
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
                 </ou2:http-security>
-                <ou2:url>https://ewptest.aps.edu.pl/ewp/ounits</ou2:url>
+                <ou2:url>https://ewp.aps.edu.pl/ewp/ounits</ou2:url>
                 <ou2:max-ounit-ids>100</ou2:max-ounit-ids>
                 <ou2:max-ounit-codes>100</ou2:max-ounit-codes>
             </ou2:organizational-units>
@@ -64566,12 +64566,12 @@
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
                 </ia6:http-security>
-                <ia6:get-url>https://ewptest.aps.edu.pl/ewp/iia/get</ia6:get-url>
+                <ia6:get-url>https://ewp.aps.edu.pl/ewp/iia/get</ia6:get-url>
                 <ia6:max-iia-ids>100</ia6:max-iia-ids>
                 <ia6:max-iia-codes>100</ia6:max-iia-codes>
-                <ia6:index-url>https://ewptest.aps.edu.pl/ewp/iia/index</ia6:index-url>
+                <ia6:index-url>https://ewp.aps.edu.pl/ewp/iia/index</ia6:index-url>
             </ia6:iias>
-            <iac2:iia-cnr version="2.0.3">
+            <iac2:iia-cnr version="2.0.2">
                 <iac2:http-security>
                     <sec:client-auth-methods>
                         <sec-A1:tlscert allows-self-signed="true"/>
@@ -64582,11 +64582,11 @@
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
                 </iac2:http-security>
-                <iac2:url>https://ewptest.aps.edu.pl/ewp/iia/cnr</iac2:url>
+                <iac2:url>https://ewp.aps.edu.pl/ewp/iia/cnr</iac2:url>
             </iac2:iia-cnr>
             <iaa1:iias-approval
                 xmlns:iaa1="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
-                version="1.0.0"
+                version="0.2.1"
             >
                 <iaa1:http-security>
                     <sec:client-auth-methods>
@@ -64598,12 +64598,13 @@
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
                 </iaa1:http-security>
-                <iaa1:url>https://ewptest.aps.edu.pl/ewp/iia/approval</iaa1:url>
+                <iaa1:url>https://ewp.aps.edu.pl/ewp/iia/approval</iaa1:url>
                 <iaa1:max-iia-ids>100</iaa1:max-iia-ids>
+                <iaa1:sends-notifications/>
             </iaa1:iias-approval>
             <iaac1:iia-approval-cnr
                 xmlns:iaac1="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v1/manifest-entry.xsd"
-                version="1.0.0"
+                version="0.2.0"
             >
                 <iaac1:http-security>
                     <sec:client-auth-methods>
@@ -64615,7 +64616,7 @@
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
                 </iaac1:http-security>
-                <iaac1:url>https://ewptest.aps.edu.pl/ewp/iia/approval/cnr</iaac1:url>
+                <iaac1:url>https://ewp.aps.edu.pl/ewp/iia/approval/cnr</iaac1:url>
             </iaac1:iia-approval-cnr>
             <om1:omobilities
                 xmlns:om1="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd"
@@ -64631,8 +64632,8 @@
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
                 </om1:http-security>
-                <om1:get-url>https://ewptest.aps.edu.pl/ewp/omobilities/get</om1:get-url>
-                <om1:index-url>https://ewptest.aps.edu.pl/ewp/omobilities/index</om1:index-url>
+                <om1:get-url>https://ewp.aps.edu.pl/ewp/omobilities/get</om1:get-url>
+                <om1:index-url>https://ewp.aps.edu.pl/ewp/omobilities/index</om1:index-url>
                 <om1:max-omobility-ids>100</om1:max-omobility-ids>
                 <om1:sends-notifications/>
             </om1:omobilities>
@@ -64650,7 +64651,7 @@
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
                 </omc1:http-security>
-                <omc1:url>https://ewptest.aps.edu.pl/ewp/omobilities/cnr</omc1:url>
+                <omc1:url>https://ewp.aps.edu.pl/ewp/omobilities/cnr</omc1:url>
                 <omc1:max-omobility-ids>100</omc1:max-omobility-ids>
             </omc1:omobility-cnr>
             <co1:courses
@@ -64667,7 +64668,7 @@
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
                 </co1:http-security>
-                <co1:url>https://ewptest.aps.edu.pl/ewp/courses</co1:url>
+                <co1:url>https://ewp.aps.edu.pl/ewp/courses</co1:url>
                 <co1:max-los-ids>100</co1:max-los-ids>
                 <co1:max-los-codes>100</co1:max-los-codes>
             </co1:courses>
@@ -64685,8 +64686,8 @@
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
                 </imt1:http-security>
-                <imt1:get-url>https://ewptest.aps.edu.pl/ewp/tors/get</imt1:get-url>
-                <imt1:index-url>https://ewptest.aps.edu.pl/ewp/tors/index</imt1:index-url>
+                <imt1:get-url>https://ewp.aps.edu.pl/ewp/tors/get</imt1:get-url>
+                <imt1:index-url>https://ewp.aps.edu.pl/ewp/tors/index</imt1:index-url>
                 <imt1:max-omobility-ids>10</imt1:max-omobility-ids>
                 <imt1:sends-notifications/>
             </imt1:imobility-tors>
@@ -64704,38 +64705,19 @@
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
                 </imtc1:http-security>
-                <imtc1:url>https://ewptest.aps.edu.pl/ewp/tors/cnr</imtc1:url>
+                <imtc1:url>https://ewp.aps.edu.pl/ewp/tors/cnr</imtc1:url>
                 <imtc1:max-omobility-ids>10</imtc1:max-omobility-ids>
             </imtc1:imobility-tor-cnr>
-            <oml1:omobility-las
-                xmlns:oml1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd"
-                version="1.0.1"
-            >
-                <oml1:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B1:tlscert/>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </oml1:http-security>
-                <oml1:get-url>https://ewptest.aps.edu.pl/ewp/la/get</oml1:get-url>
-                <oml1:index-url>https://ewptest.aps.edu.pl/ewp/la/index</oml1:index-url>
-                <oml1:update-url>https://ewptest.aps.edu.pl/ewp/la/update</oml1:update-url>
-                <oml1:max-omobility-ids>100</oml1:max-omobility-ids>
-            </oml1:omobility-las>
         </apis-implemented>
         <institutions-covered>
             <hei-id>aps.edu.pl</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
-            <certificate sha-256="6c1407c02595baf18c06d20f84960edac90b4bb952db5ec2c0e27c6759ab68fe"/>
-            <rsa-public-key sha-256="bc01b0d5ba936de7919b17e29796e8b98b0c629d37f7d2649a6e0a78af66e99b"/>
+            <certificate sha-256="5cfd2e97fc6024d88ec0947822ff0ef5da51ea24c44f8139616be664376da8f2"/>
+            <rsa-public-key sha-256="0c1c34a65f73c74b7a8ff3725a14f59027d125b747d4688f0b4758762df7dbd9"/>
         </client-credentials-in-use>
         <server-credentials-in-use>
-            <rsa-public-key sha-256="bc01b0d5ba936de7919b17e29796e8b98b0c629d37f7d2649a6e0a78af66e99b"/>
+            <rsa-public-key sha-256="0c1c34a65f73c74b7a8ff3725a14f59027d125b747d4688f0b4758762df7dbd9"/>
         </server-credentials-in-use>
     </host>
     <host>
@@ -80738,6 +80720,14 @@
             5jflci/LLKNExslpDZApMIvRHd/xskE2HPfPPf7JnPQRWZ2IRvYJuOo+zGC3KXKCx+y9MgOPm7+r
             laIObwIDAQAB
         </rsa-public-key>
+        <rsa-public-key sha-256="0c1c34a65f73c74b7a8ff3725a14f59027d125b747d4688f0b4758762df7dbd9">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1r80FvA8SemwAVq048sWAXk6CUcPk8mJ
+            5fbKpuvSgqPDI7BDdwYeaAXat2p4dYIG2FtJNA89aV1da/VeNDALts0s23vrSS+7bSUrtPNLCyEJ
+            jLHkerkj+lTeUORcbG6sIQlkQqCHph/AvnTQj1wNv68UrJFO4ZEsQJzW945fkcTW/6eTWM6D03Jy
+            e0oacb5wNzJB5pb/ruRD6jYzWLfZinLgHEVSmZ5Pf7UA/9zFi725gp+JLvV3tBVLr0znvkS2S+vV
+            XfvIpvx8FtHpUi8LRtHrekdSYVd65cApu02ZvFQtE9BlRjRfWq0vVh4roRpBmW4rcOScBXxrZn+V
+            TXZ84wIDAQAB
+        </rsa-public-key>
         <rsa-public-key sha-256="0dc5da0c7165d66ccf24b6e10147c0a80ccf27dfd77cb3434fdaf4c0e48af123">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqDGtAmoFU2RvSuOhl9UUltFKG4cKsOqq
             T+kKgZG4Ik7lfkIpQnPlX18FdKsBYQrl98hAzhmlMWaYy+erVCXlfs84/RH+gOOdBPX43KKxSkpR
@@ -81465,14 +81455,6 @@
             gcIFqwCo5ZVu6srcNFd3TAgjI8Ap6e2SaRs/e23FhPBi5CT5vAk+oVBlU8pRJDec2HqbkSmUKVUO
             rIYtiTabRrDg6wLamPCGFdOnVFc07AGMdF1YR1404S2ahjh1xzTQZ75ICL7wccLy71IBUJ9fUYum
             Omgc0wIDAQAB
-        </rsa-public-key>
-        <rsa-public-key sha-256="bc01b0d5ba936de7919b17e29796e8b98b0c629d37f7d2649a6e0a78af66e99b">
-            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAicLbj9XuPPUToFD95MQ8F9fmIIY3ZmVw
-            t1UAPOQpdgkWjNHVoNkaUcO8eakd7K1JgOuyPJiQ6XkUps/7Bq9jXA5l5mWqzmMdH5XbsAEDzNcn
-            +bcsTe17S5WF3c7Y7EyBf3CohyqFTAakRn+OI8y+qQhZfIIFZIOv8YOLViIUwXq7waEN4elwv6IO
-            IPTsu2iV/3NPrX9lcLXFkmNw4/lznEjikQyfp8zSQP73WrT3IunbKbb8lEyiYJ0MzLVnNbgTsWyY
-            loeoD9gPjT8LWEd4IC19di3q2vW6fibr8EwmZzbJvvjxmZZ6F1EdFUM0jsQAcdf2Y6u32P73+q8Z
-            2W2QgQIDAQAB
         </rsa-public-key>
         <rsa-public-key sha-256="be134ba794574695588fecca3c972961496ad5f235b8cb252e8ff40c3a55f2e5">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxBWIvHsYa6jyc5SPqnEIyyfKYy5heVH8
