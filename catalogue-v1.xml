@@ -56902,10 +56902,9 @@
             </d5:discovery>
             <e2:echo version="2.0.0">
                 <ewp:admin-email>inaki.sastre@ehu.eus</ewp:admin-email>
-                <ewp:admin-notes>This api will only be published for testing purposes. University of The Basque Country is going to use Erasmus E+ Dashboard, so we are not going to implement any api, but we need to act as a client of the Dashboard.</ewp:admin-notes>
+                <ewp:admin-notes/>
                 <e2:http-security>
                     <sec:client-auth-methods>
-                        <sec-A1:tlscert allows-self-signed="true"/>
                         <sec-A2:httpsig/>
                     </sec:client-auth-methods>
                     <sec:server-auth-methods>
@@ -56913,21 +56912,121 @@
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
                 </e2:http-security>
-                <e2:url>https://app.ehu.eus/ewp/echo</e2:url>
+                <e2:url>https://app.ehu.eus/ewp/api/echo</e2:url>
             </e2:echo>
+            <in2:institutions version="2.1.0">
+                <in2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </in2:http-security>
+                <in2:url>https://app.ehu.eus/ewp/api/institutions</in2:url>
+                <in2:max-hei-ids>1</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.1.1">
+                <ou2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </ou2:http-security>
+                <ou2:url>https://app.ehu.eus/ewp/api/ounits</ou2:url>
+                <ou2:max-ounit-ids>3</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>3</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+            <om1:omobilities
+                xmlns:om1="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <ewp:admin-email>inaki.sastre@ehu.eus</ewp:admin-email>
+                <ewp:admin-notes/>
+                <om1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </om1:http-security>
+                <om1:get-url>https://app.ehu.eus/ewp/api/mobilities/get</om1:get-url>
+                <om1:index-url>https://app.ehu.eus/ewp/api/mobilities/index</om1:index-url>
+                <om1:max-omobility-ids>10</om1:max-omobility-ids>
+                <om1:sends-notifications/>
+            </om1:omobilities>
+            <omc1:omobility-cnr
+                xmlns:omc1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <ewp:admin-email>inaki.sastre@ehu.eus</ewp:admin-email>
+                <ewp:admin-notes/>
+                <omc1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </omc1:http-security>
+                <omc1:url>https://app.ehu.eus/ewp/api/mobilities/cnr</omc1:url>
+                <omc1:max-omobility-ids>10</omc1:max-omobility-ids>
+            </omc1:omobility-cnr>
+            <oml1:omobility-las
+                xmlns:oml1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.1"
+            >
+                <ewp:admin-email>inaki.sastre@ehu.eus</ewp:admin-email>
+                <ewp:admin-notes/>
+                <oml1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </oml1:http-security>
+                <oml1:get-url>https://app.ehu.eus/ewp/api/mobility/get</oml1:get-url>
+                <oml1:index-url>https://app.ehu.eus/ewp/api/mobility/index</oml1:index-url>
+                <oml1:update-url>https://app.ehu.eus/ewp/api/mobility/update</oml1:update-url>
+                <oml1:max-omobility-ids>10</oml1:max-omobility-ids>
+            </oml1:omobility-las>
+            <omlc1:omobility-la-cnr
+                xmlns:omlc1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <ewp:admin-email>inaki.sastre@ehu.eus</ewp:admin-email>
+                <ewp:admin-notes/>
+                <omlc1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </omlc1:http-security>
+                <omlc1:url>https://app.ehu.eus/ewp/api/mobility/cnr</omlc1:url>
+                <omlc1:max-omobility-ids>10</omlc1:max-omobility-ids>
+            </omlc1:omobility-la-cnr>
         </apis-implemented>
         <institutions-covered>
             <hei-id>ehu.eus</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="06bdeb7ca32dc4ce83785875328839d142b024b5ffd50e83ddde610aa9afe2ad"/>
-            <certificate sha-256="16c657262833db5faeac119253c8e720da2d05377de7445a9a71670b7a787ac8"/>
             <rsa-public-key sha-256="df7644d5376d9407307e8e5ab238fafbd3b95816c4a0ade6ad86e2342d909ad2"/>
-            <rsa-public-key sha-256="ebe9a7c158fbc71a0daaf5c238a8218536a3f69b5c941327cfa19fd4346bf6f4"/>
         </client-credentials-in-use>
         <server-credentials-in-use>
             <rsa-public-key sha-256="df7644d5376d9407307e8e5ab238fafbd3b95816c4a0ade6ad86e2342d909ad2"/>
-            <rsa-public-key sha-256="ebe9a7c158fbc71a0daaf5c238a8218536a3f69b5c941327cfa19fd4346bf6f4"/>
         </server-credentials-in-use>
     </host>
     <host>
@@ -81865,14 +81964,6 @@
             mkRlbWlkVovsu6gLSo5TZAWy0cgu7sh8uZRmbBVjmkVYtaEi0VAiCHg0BJVzsk6mrrG7qmnqTiM7
             hXLENiEUxYUgrmnl97sN6Tl75OnK6Ptwyp3QwEroz61Mk+NMYgT2X+YTom0n62ZEkZX+Ql42la1/
             mighIwIDAQAB
-        </rsa-public-key>
-        <rsa-public-key sha-256="ebe9a7c158fbc71a0daaf5c238a8218536a3f69b5c941327cfa19fd4346bf6f4">
-            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlV070SAdhqAJLS7M9Olnikrgi+DH+mXE
-            F4EUimFTZq/ajNeNjV8U8j8xb2CXJB6kZ4aVvqLIFTY+tjJ4nEr/JOjCeS/HeLM8zwrrUHoHnDSd
-            cttO5AQqNT9i8Ag2VEJ+1ejgwbS21PA3MMx/kL2hiAeF1Ub9AFXAkKj3iTSxFbtM03A7ryfTf+XE
-            3AwUP2p5+1euoxiaLvAwOCErqeP1S1gdz5fIvWKRPpdeFwiNnQRekpwoLGUEnpPZbxVXhgmFGBM3
-            LFvg7vzR4zcqKk/am4P8FnIk+y20D0nlfvJyApGP+phIXgcnABRc6folSvFovqu+3mYUrW/n8q1T
-            RTrVjwIDAQAB
         </rsa-public-key>
         <rsa-public-key sha-256="ec11cbcba4a59ad500af78306e3eec6c679271a1678d4cb9701f36251c0e3c14">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA8Gb8KdW83wahitbayxOMe4sux0pFIrmj
