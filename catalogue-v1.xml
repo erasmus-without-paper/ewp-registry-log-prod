@@ -71096,6 +71096,64 @@
             <rsa-public-key sha-256="d091818bd38aadf5c175af71382b81a4a5cdf2c0b127d3f0d28bd6c324a00a95"/>
         </server-credentials-in-use>
     </host>
+    <host>
+        <ewp:admin-email>cripoll@rectorat.url.edu</ewp:admin-email>
+        <ewp:admin-notes>Manifest 29.09.2021</ewp:admin-notes>
+        <apis-implemented>
+            <d5:discovery version="5.0.0">
+                <d5:url>https://ewp.url.edu/manifest.xml</d5:url>
+            </d5:discovery>
+            <e2:echo version="2.0.0">
+                <ewp:admin-email>cripoll@rectorat.url.edu</ewp:admin-email>
+                <ewp:admin-email>alberto.martin@closerideas.com</ewp:admin-email>
+                <ewp:admin-notes>Echo service covered by httpSig security</ewp:admin-notes>
+                <e2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </e2:http-security>
+                <e2:url>https://ewp.url.edu/api/echo200</e2:url>
+            </e2:echo>
+            <in2:institutions version="2.2.0">
+                <in2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </in2:http-security>
+                <in2:url>https://ewp.url.edu/api/institutions220</in2:url>
+                <in2:max-hei-ids>1</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.1.1">
+                <ou2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </ou2:http-security>
+                <ou2:url>https://ewp.url.edu/api/ounits211</ou2:url>
+                <ou2:max-ounit-ids>1</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>1</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>url.edu</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="3f1003258fb529d48128255a7e8dfd6674e541fbfd881ef7c58783dc86093b04"/>
+            <rsa-public-key sha-256="6544921dd0252c14b86ea1e44f8cfe6e654b78db4ffc222fc8f2434a56db281e"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="6544921dd0252c14b86ea1e44f8cfe6e654b78db4ffc222fc8f2434a56db281e"/>
+        </server-credentials-in-use>
+    </host>
     <institutions>
         <hei id="29mayis.tr">
             <other-id type="erasmus">TR ISTANBU43</other-id>
@@ -82382,6 +82440,10 @@
             <name xml:lang="en">University of Agriculture in Krakow</name>
             <name xml:lang="pl">Uniwersytet Rolniczy im. Hugona Kołłątaja w Krakowie</name>
         </hei>
+        <hei id="url.edu">
+            <other-id type="erasmus">E  BARCELO16</other-id>
+            <name xml:lang="es">Universitat Ramon Llull</name>
+        </hei>
         <hei id="urv.cat">
             <other-id type="erasmus">E  TARRAGO01</other-id>
             <other-id type="erasmus-charter">28675</other-id>
@@ -83697,6 +83759,14 @@
             sDGf+gZv6cx02KIG7tgrWgIoqMPfuEh+LOL7ygEinW6Ry9UwG8nJLptrb3VQTQ7OdU22kL+5tu8/
             3MYT/8wBTChX6+DUIaUbdCaHiFXkWV3xi1kJUdV5R3d2ALr8NhRzZUkvq21EDHoP3XZT1tr5bdz6
             I6vj7QIDAQAB
+        </rsa-public-key>
+        <rsa-public-key sha-256="6544921dd0252c14b86ea1e44f8cfe6e654b78db4ffc222fc8f2434a56db281e">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqxmZfydcZ9khLdmNprf1mgVSNQVVtFN+
+            39h4bMGmMU8qq5N6Rv4SGkVQRaZz7Azvfk+B/YbsNG/IpESmSRSgMD564XAXPhENQS5XriKSvEbN
+            +/gnKaukGxbyssrlltjEdZ+Qd8zNQOA6wZegZYB+bMrvlcOfVFBMbWf8Hp/opV8Fs49BZCxbq9cU
+            lcM023MeMTu5CU2jAnB3oSK0nRlcYCPtIRTaNv4c/BmFWWquOXBmo2hU9ZyXGCqskIS/7BUodutH
+            pO7asPBBTIXs6dyKkcnO1Z0PGP21/2T3FB1+UU3scJVT6O6eanK2BUDktcmcTks1slutKrF/jia7
+            /EuBpQIDAQAB
         </rsa-public-key>
         <rsa-public-key sha-256="6701934f7b992ea276e3c6853338c607222e39e8e598576a2616c9385d64a671">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAijcpqaCR1khzqZZq6EdrRR+ATypqCrRx
