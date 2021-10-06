@@ -6150,11 +6150,9 @@
                 <e2:http-security>
                     <sec:client-auth-methods>
                         <sec-A2:httpsig/>
-                        <sec-A1:tlscert allows-self-signed="true"/>
                     </sec:client-auth-methods>
                     <sec:server-auth-methods>
                         <sec-B2:httpsig/>
-                        <sec-B1:tlscert/>
                     </sec:server-auth-methods>
                 </e2:http-security>
                 <e2:url>https://mobility-online.hs-augsburg.de/mobility/ewp/echo</e2:url>
@@ -6177,11 +6175,9 @@
                 <in2:http-security>
                     <sec:client-auth-methods>
                         <sec-A2:httpsig/>
-                        <sec-A1:tlscert allows-self-signed="true"/>
                     </sec:client-auth-methods>
                     <sec:server-auth-methods>
                         <sec-B2:httpsig/>
-                        <sec-B1:tlscert/>
                     </sec:server-auth-methods>
                 </in2:http-security>
                 <in2:url>https://mobility-online.hs-augsburg.de/mobility/ewp/institutions</in2:url>
@@ -6205,11 +6201,9 @@
                 <ou2:http-security>
                     <sec:client-auth-methods>
                         <sec-A2:httpsig/>
-                        <sec-A1:tlscert allows-self-signed="true"/>
                     </sec:client-auth-methods>
                     <sec:server-auth-methods>
                         <sec-B2:httpsig/>
-                        <sec-B1:tlscert/>
                     </sec:server-auth-methods>
                 </ou2:http-security>
                 <ou2:url>https://mobility-online.hs-augsburg.de/mobility/ewp/ounits</ou2:url>
@@ -6237,11 +6231,9 @@
                 <om1:http-security>
                     <sec:client-auth-methods>
                         <sec-A2:httpsig/>
-                        <sec-A1:tlscert allows-self-signed="true"/>
                     </sec:client-auth-methods>
                     <sec:server-auth-methods>
                         <sec-B2:httpsig/>
-                        <sec-B1:tlscert/>
                     </sec:server-auth-methods>
                 </om1:http-security>
                 <om1:get-url>https://mobility-online.hs-augsburg.de/mobility/ewp/mobility_out/get</om1:get-url>
