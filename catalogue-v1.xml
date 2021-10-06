@@ -4943,6 +4943,33 @@
     </host>
     <host>
         <apis-implemented>
+            <ou2:organizational-units version="2.1.1">
+                <ou2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </ou2:http-security>
+                <ou2:url>https://mobility.tu-ilmenau.de/mobility/ewp/ounits</ou2:url>
+                <ou2:max-ounit-ids>3</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>3</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>tu-ilmenau.de</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="733129c9aed338ba044fd7dc0ca624ef8b4ff13c3a1c381d7d86a97a580e96f3"/>
+            <rsa-public-key sha-256="e443dde64bd5b8c2f0c8776cd0d7d31c349c35f89539b783898ec8af99b28eb0"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="e443dde64bd5b8c2f0c8776cd0d7d31c349c35f89539b783898ec8af99b28eb0"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
             <ia3:iias
                 xmlns:ia3="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v3/manifest-entry.xsd"
                 version="3.0.0"
