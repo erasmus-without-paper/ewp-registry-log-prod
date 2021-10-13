@@ -70524,6 +70524,33 @@
         </server-credentials-in-use>
     </host>
     <host>
+        <apis-implemented>
+            <ou2:organizational-units version="2.1.1">
+                <ou2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </ou2:http-security>
+                <ou2:url>https://mo.ktu.lt/mobility/ewp/ounits</ou2:url>
+                <ou2:max-ounit-ids>3</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>3</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>ktu.lt</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="67a39634f6a1eb7861e7365103dbd04a8932a9f80005feae920459a142543b32"/>
+            <rsa-public-key sha-256="99b6247fbe7d2d66a3c9d11f1f33f96970cb5593d6d75e5f40776fb861f612fd"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="99b6247fbe7d2d66a3c9d11f1f33f96970cb5593d6d75e5f40776fb861f612fd"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
         <ewp:admin-email>iris@usal.es</ewp:admin-email>
         <apis-implemented>
             <d5:discovery version="5.0.0">
