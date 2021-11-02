@@ -1,0 +1,70 @@
+<manifest
+    xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v5"
+    xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
+    xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
+>
+    <host>
+        <ewp:admin-email>emrex-admin@postit.csc.fi</ewp:admin-email>
+        <r:apis-implemented>
+            <discovery
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v5/manifest-entry.xsd"
+                version="5.0.0"
+            >
+                <url>https://prod.emrex.csc.fi/manifest/manifest.xml</url>
+            </discovery>
+            <emrex-ncp
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-emrex-ncp/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <url>https://prod.emrex.csc.fi/ncp/ncp_entry</url>
+                <name>Finland EMREX Data Access Point</name>
+                <country-code>FI</country-code>
+                <certificate>
+MIIH+zCCBeOgAwIBAgIQfkXi7WDFMMMS6vIWuNig6zANBgkqhkiG9w0BAQwFADBE
+MQswCQYDVQQGEwJOTDEZMBcGA1UEChMQR0VBTlQgVmVyZW5pZ2luZzEaMBgGA1UE
+AxMRR0VBTlQgT1YgUlNBIENBIDQwHhcNMjEwNDEyMDAwMDAwWhcNMjIwNDEyMjM1
+OTU5WjB+MQswCQYDVQQGEwJGSTEQMA4GA1UECBMHVXVzaW1hYTEOMAwGA1UEBxMF
+RXNwb28xLTArBgNVBAoTJENTQy1UaWV0ZWVuIHRpZXRvdGVrbmlpa2FuIGtlc2t1
+cyBPeTEeMBwGA1UEAxMVbmNwLnByb2QuZW1yZXguY3NjLmZpMIICIjANBgkqhkiG
+9w0BAQEFAAOCAg8AMIICCgKCAgEAwBRamQZvt+WCRVjrpqSYAXddtlRwVKwCbMkb
+c1N0OGLOvpXCw9zspaWghu3bM3tEFftz9AJXtSgYQwTfQOuFWyQ3T6DOewedo6rb
+8KtyixoDh7LgP+y4UIV33HlEI4kJSi5lkUiSsb+frvfJZiJ9uSv7XgbmHd0tsRak
+KGK8gOjaoBxrgfAA0cp5IJAZhIAG9JyBCGK4AcQAe1DppshvlEHmmzyAtZ0cZOcH
+YqD1jNaT2yITOi+SpLIUvV20l3MpTUXgdUBVv66Ay/8VuVbjd7JhxvgTrlIyo1yi
+4MjOJ26ZTRkJ8ffwzCD6jZ7Mm0HUTi6Ko++cGNtm5yR8yDUu8O4E5hMHdBV+h0Uk
+2bljY2QMDDRdeVUz39LQQCVdFyzJf0TMHTulTyC29HbV9HpM+jznowv7WG8k1Rp0
+AdPxleQ/9Rc4ZPCT6CwJbe/R8xElqFG6XNeHd3DV4JbELWmIV6TXEM7i2VEtRWgr
+GTh6nVtmoK1jr4PA+YNsjeG2P9DzbVD/sdnc1lt2bgqt6FBlLCxS8GaiClVbUmnK
++e9kR/+je7jVOn36OE33MmeWeC/I3IgQYkHuL025LL3+GLuj93whdQ2QxQWW9m94
+PYm84be76n5fpgXRhb3Gb1iCfevkVRqvUcuHKJgL+nkeJtQOj8HIoVuTWUMn7i7p
+ZNDLTysCAwEAAaOCAq0wggKpMB8GA1UdIwQYMBaAFG8dNUkQbDL6WaCevIroH5W+
+cXoMMB0GA1UdDgQWBBSedR5DxdkTcmJUFesUL26xPN8pSDAOBgNVHQ8BAf8EBAMC
+BaAwDAYDVR0TAQH/BAIwADAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIw
+SQYDVR0gBEIwQDA0BgsrBgEEAbIxAQICTzAlMCMGCCsGAQUFBwIBFhdodHRwczov
+L3NlY3RpZ28uY29tL0NQUzAIBgZngQwBAgIwPwYDVR0fBDgwNjA0oDKgMIYuaHR0
+cDovL0dFQU5ULmNybC5zZWN0aWdvLmNvbS9HRUFOVE9WUlNBQ0E0LmNybDB1Bggr
+BgEFBQcBAQRpMGcwOgYIKwYBBQUHMAKGLmh0dHA6Ly9HRUFOVC5jcnQuc2VjdGln
+by5jb20vR0VBTlRPVlJTQUNBNC5jcnQwKQYIKwYBBQUHMAGGHWh0dHA6Ly9HRUFO
+VC5vY3NwLnNlY3RpZ28uY29tMIIBAwYKKwYBBAHWeQIEAgSB9ASB8QDvAHYARqVV
+63X6kSAwtaKJafTzfREsQXS+/Um4havy/HD+bUcAAAF4xgQktwAABAMARzBFAiAI
+evqAIeKDQTZm4lJ9/ZtxoBpZ0iqQJDmwnOa0RA/pBwIhAJbpLj5+4VXoZR+ja62L
+mH5BiAeXj4+EGAtRo6RvznNiAHUA36Veq2iCTx9sre64X04+WurNohKkal6OOxLA
+IERcKnMAAAF4xgQlAQAABAMARjBEAiBfdZtcI+SpZLZzn+WPc+535hyaqR3ZwekI
+vpNAnuShZAIgY4MichGGX+eFlLMxrNQolztT5KqbJ8vLveZWTg8GFTMwIAYDVR0R
+BBkwF4IVbmNwLnByb2QuZW1yZXguY3NjLmZpMA0GCSqGSIb3DQEBDAUAA4ICAQA3
+Z7ndtsHfBteJIJ5VA4L5VVWTHhm0mHCOzrW20tqkt6v/9/T4znNablboRWF2obw2
+xrYfWbI1Tu4gIAP1ihRQoPuHCFL40D9bsttqCyS+UtJPa4cPV8jQT9EEQzydpXRT
+UFSQdVCdjnxBdUy+Bj1aINmWGrtyFK5qNTjtOhJ4pqTfeu8W/5Tf/LHKrXpXdb1k
+BDd13a57VKdG9jGcS+tPrIR8KpY6BVM4sMes/KbwDnTZoTxzYclVXyg/JOkE+tI6
+zArYSQkGgShndgp+vdWsYp0jVFiKR+1bWucKhjFBOjny1QxHgt4VoWsywxda4XzG
+SOAUTjrMnlbe53ERIT2IFG8e7TA80jJa4JDJSeiwiFAdLvYtGU+DsBf+QNvxX85x
+fcyhXTiBrzbgGJmTIzIPLZPaZiXZvLE3lji3iQ1qnORnou+6YMcwh5Y1oqZxU5iL
+lxKnpn2T7azCzGj2TmqCD2XwYRKfzidn40MZT/FXUl1cpf3Ejbv/YrGVOLAAz+dn
+Kfxw3onl692HJ88oB6zNbHcD2R1AycjS7C6Wa9dnZsPo4IRQS8DBDltd3O23R7dU
+mbZSdqGSg86BV8m6bBZTzZ0+52Skq+9+LJi0yddOXGQbnQssXBNG7Wz17t1Tr6WO
+ktzhI9PZPqTu4Tkstz41/XGvHxvTaNnff21aj67MNw==
+                </certificate>
+            </emrex-ncp>
+        </r:apis-implemented>
+    </host>
+</manifest>
