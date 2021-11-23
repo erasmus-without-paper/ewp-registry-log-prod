@@ -44,11 +44,9 @@
                 <ns29:http-security>
                     <ns5:client-auth-methods>
                         <ns33:httpsig/>
-                        <ns31:tlscert allows-self-signed="true"/>
                     </ns5:client-auth-methods>
                     <ns5:server-auth-methods>
                         <ns34:httpsig/>
-                        <ns35:tlscert/>
                     </ns5:server-auth-methods>
                 </ns29:http-security>
                 <ns29:url>https://www.service4mobility.com/plusinternational/ewp/echo</ns29:url>
@@ -115,11 +113,9 @@ YDAy5wIDAQAB&#xD;
                 <ns28:http-security>
                     <ns5:client-auth-methods>
                         <ns33:httpsig/>
-                        <ns31:tlscert allows-self-signed="true"/>
                     </ns5:client-auth-methods>
                     <ns5:server-auth-methods>
                         <ns34:httpsig/>
-                        <ns35:tlscert/>
                     </ns5:server-auth-methods>
                 </ns28:http-security>
                 <ns28:url>https://www.service4mobility.com/plusinternational/ewp/institutions</ns28:url>
@@ -183,48 +179,13 @@ YDAy5wIDAQAB&#xD;
     </ns3:host>
     <ns3:host>
         <ns2:apis-implemented>
-            <ns26:iias version="3.0.0">
-                <ns26:http-security>
-                    <ns5:client-auth-methods>
-                        <ns33:httpsig/>
-                        <ns31:tlscert allows-self-signed="true"/>
-                    </ns5:client-auth-methods>
-                    <ns5:server-auth-methods>
-                        <ns34:httpsig/>
-                        <ns35:tlscert/>
-                    </ns5:server-auth-methods>
-                </ns26:http-security>
-                <ns26:get-url>https://www.service4mobility.com/plusinternational/ewp/iias-v3/get</ns26:get-url>
-                <ns26:max-iia-ids>3</ns26:max-iia-ids>
-                <ns26:max-iia-codes>3</ns26:max-iia-codes>
-                <ns26:index-url>https://www.service4mobility.com/plusinternational/ewp/iias-v3/index</ns26:index-url>
-                <ns26:sends-notifications/>
-            </ns26:iias>
-            <ns25:iias version="4.0.0">
-                <ns25:http-security>
-                    <ns5:client-auth-methods>
-                        <ns33:httpsig/>
-                        <ns31:tlscert allows-self-signed="true"/>
-                    </ns5:client-auth-methods>
-                    <ns5:server-auth-methods>
-                        <ns34:httpsig/>
-                        <ns35:tlscert/>
-                    </ns5:server-auth-methods>
-                </ns25:http-security>
-                <ns25:get-url>https://www.service4mobility.com/plusinternational/ewp/iias-v4/get</ns25:get-url>
-                <ns25:max-iia-ids>3</ns25:max-iia-ids>
-                <ns25:max-iia-codes>3</ns25:max-iia-codes>
-                <ns25:index-url>https://www.service4mobility.com/plusinternational/ewp/iias-v4/index</ns25:index-url>
-            </ns25:iias>
-            <ns24:iias version="6.0.0">
+            <ns24:iias version="6.0.1">
                 <ns24:http-security>
                     <ns5:client-auth-methods>
                         <ns33:httpsig/>
-                        <ns31:tlscert allows-self-signed="true"/>
                     </ns5:client-auth-methods>
                     <ns5:server-auth-methods>
                         <ns34:httpsig/>
-                        <ns35:tlscert/>
                     </ns5:server-auth-methods>
                 </ns24:http-security>
                 <ns24:get-url>https://www.service4mobility.com/plusinternational/ewp/iias-v6/get</ns24:get-url>
@@ -294,11 +255,9 @@ YDAy5wIDAQAB&#xD;
                 <ns23:http-security>
                     <ns5:client-auth-methods>
                         <ns33:httpsig/>
-                        <ns31:tlscert allows-self-signed="true"/>
                     </ns5:client-auth-methods>
                     <ns5:server-auth-methods>
                         <ns34:httpsig/>
-                        <ns35:tlscert/>
                     </ns5:server-auth-methods>
                 </ns23:http-security>
                 <ns23:url>https://www.service4mobility.com/plusinternational/ewp/iias/cnr</ns23:url>
@@ -365,11 +324,9 @@ YDAy5wIDAQAB&#xD;
                 <ns22:http-security>
                     <ns5:client-auth-methods>
                         <ns33:httpsig/>
-                        <ns31:tlscert allows-self-signed="true"/>
                     </ns5:client-auth-methods>
                     <ns5:server-auth-methods>
                         <ns34:httpsig/>
-                        <ns35:tlscert/>
                     </ns5:server-auth-methods>
                 </ns22:http-security>
                 <ns22:url>https://www.service4mobility.com/plusinternational/ewp/iias-approval-v1/get</ns22:url>
@@ -437,11 +394,9 @@ YDAy5wIDAQAB&#xD;
                 <ns21:http-security>
                     <ns5:client-auth-methods>
                         <ns33:httpsig/>
-                        <ns31:tlscert allows-self-signed="true"/>
                     </ns5:client-auth-methods>
                     <ns5:server-auth-methods>
                         <ns34:httpsig/>
-                        <ns35:tlscert/>
                     </ns5:server-auth-methods>
                 </ns21:http-security>
                 <ns21:url>https://www.service4mobility.com/plusinternational/ewp/iias-approval-cnr-v1/cnr</ns21:url>
@@ -508,11 +463,9 @@ YDAy5wIDAQAB&#xD;
                 <ns6:http-security>
                     <ns5:client-auth-methods>
                         <ns33:httpsig/>
-                        <ns31:tlscert allows-self-signed="true"/>
                     </ns5:client-auth-methods>
                     <ns5:server-auth-methods>
                         <ns34:httpsig/>
-                        <ns35:tlscert/>
                     </ns5:server-auth-methods>
                 </ns6:http-security>
                 <ns6:url>https://www.service4mobility.com/plusinternational/ewp/factsheets</ns6:url>
