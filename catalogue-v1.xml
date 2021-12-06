@@ -5884,6 +5884,31 @@
     </host>
     <host>
         <apis-implemented>
+            <iac2:iia-cnr version="2.0.2">
+                <iac2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </iac2:http-security>
+                <iac2:url>https://mobility.thi.de/mobility/ewp/iias/cnr</iac2:url>
+            </iac2:iia-cnr>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>thi.de</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="af86c0cd64111c338ae04bc5a1453899c4083c53aecbe76abe8fa6e34d976e7f"/>
+            <rsa-public-key sha-256="3a77236856bb6efc7a0dbdb93ce3217526eac0df4c3e97d2ec724a0072ecaf37"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="3a77236856bb6efc7a0dbdb93ce3217526eac0df4c3e97d2ec724a0072ecaf37"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <apis-implemented>
             <iaa1:iias-approval
                 xmlns:iaa1="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
                 version="1.0.0"
