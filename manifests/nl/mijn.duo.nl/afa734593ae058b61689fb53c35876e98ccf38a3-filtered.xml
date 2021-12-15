@@ -1,0 +1,72 @@
+<manifest
+    xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v5"
+    xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
+    xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
+>
+    <host>
+        <ewp:admin-email>dt-diplomadiensten@duo.nl</ewp:admin-email>
+        <r:apis-implemented>
+            <discovery
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v5/manifest-entry.xsd"
+                version="5.0.0"
+            >
+                <url>https://mijn.duo.nl/services/dr-iud/emrex/duo.nl.prd.xml</url>
+            </discovery>
+            <emrex-data-access-point
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-emrex-data-access-point/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <url>https://mijn.duo.nl/services/dr-iud/emrex/</url>
+                <name>Netherlands EMP</name>
+                <country-code>NL</country-code>
+                <certificate>MIIIqjCCBpKgAwIBAgIUOP50T+3XFeRICKjuP3UccQEo0BEwDQYJKoZIhvcNAQEL
+BQAwSTELMAkGA1UEBhMCTkwxETAPBgNVBAoMCEtQTiBCLlYuMScwJQYDVQQDDB5L
+UE4gUEtJb3ZlcmhlaWQgU2VydmVyIENBIDIwMjAwHhcNMjAxMDAyMTUzMDQxWhcN
+MjExMDAyMTUzMDQxWjCBlzELMAkGA1UEBhMCTkwxEjAQBgNVBAcMCUdyb25pbmdl
+bjEkMCIGA1UECgwbRGllbnN0IFVpdHZvZXJpbmcgT25kZXJ3aWpzMRgwFgYDVQQL
+DA9JQ1QtQmV2ZWlsaWdpbmcxHTAbBgNVBAUTFDAwMDAwMDAxODAwODY2NDcyMDAw
+MRUwEwYDVQQDDAxlbXJleC5kdW8ubmwwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAw
+ggIKAoICAQDYRfIqWPfZwN0YYmJKW43h9wpO7CuundSCcn4Kq2WiSk+svtI9OOzo
+STU66tSG+reypBWZnUMtAO1UblAVVwuMK/1RwEQXPovCWjttBFV+qG/kATX2sT4+
+uU68dH5PxL8Ww3lVEJv3zCh/+acZshNzpSEKJdpVw8DD55KB7/Sx0x45ic75UfS9
+cMT2QCSHIYhvEBKRoAv3EtCuzQyOo1e7lg1mYc/qOTTheXlG/x/rdE3YCjoYAmhc
+gH+eII2zB0TC/jFzWODiAXOhVyTr5VlBqtFSVns7Ysmo2dgY4dZL3zWMB07GzDit
+gvja8ciLUKN14LhR1hMfEQDc82wuQqFfeP5pSTrWiIYFCjBxDwk380hCDiwm0w97
+6EAO6G2u4f0zE2y3fcGOBa2R697f/3fX4X3L8mv15Mb5WqVlB70nN0OejoX6AcKn
+sL/KTil7q6RkM2h5QKdzy5s+TvPqM05f/CKEn9QNO2x2B90vdcZtXZxuEiDRs4qR
+0wVMWOGJb6VIwDkcbnfE1d1Rp4Q7Q/IP+9xzV7HKF16ahxG026LdW6XF/j2ntMRJ
+co/7uVTjA41DBbUTZlWyO9azBTJ4tTkeF0y0Raysl+7pX88mweR+3vWIxDuzxIyC
+Ss8ACds+ENPuJsuHwljmxVX8pUFZ/BUKmnO1I7C6kifQP3znxjbg+wIDAQABo4ID
+OTCCAzUwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBQISqq7mSRvvlsH8aWKmVst
+R++5PDCBiQYIKwYBBQUHAQEEfTB7ME0GCCsGAQUFBzAChkFodHRwOi8vY2VydC5t
+YW5hZ2VkcGtpLmNvbS9DQWNlcnRzL0tQTlBLSW92ZXJoZWlkU2VydmVyQ0EyMDIw
+LmNlcjAqBggrBgEFBQcwAYYeaHR0cDovL29jc3AyMDIwLm1hbmFnZWRwa2kuY29t
+MBcGA1UdEQQQMA6CDGVtcmV4LmR1by5ubDCBsQYDVR0gBIGpMIGmMAgGBmeBDAEC
+AjCBmQYKYIQQAYdrAQIFCTCBijA3BggrBgEFBQcCARYraHR0cHM6Ly9jZXJ0aWZp
+Y2FhdC5rcG4uY29tL3BraW92ZXJoZWlkL2NwczBPBggrBgEFBQcCAjBDDEFPcCBk
+aXQgY2VydGlmaWNhYXQgaXMgaGV0IENQUyBQS0lvdmVyaGVpZCB2YW4gS1BOIHZh
+biB0b2VwYXNzaW5nLjAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwUwYD
+VR0fBEwwSjBIoEagRIZCaHR0cDovL2NybC5tYW5hZ2VkcGtpLmNvbS9LUE5QS0lv
+dmVyaGVpZFNlcnZlckNBMjAyMC9MYXRlc3RDUkwuY3JsMB0GA1UdDgQWBBSkBNDm
+X+lFxSpq78H0IQXluSXB2TAOBgNVHQ8BAf8EBAMCBaAwggEGBgorBgEEAdZ5AgQC
+BIH3BIH0APIAdwB9PvL4j/+IVWgkwsDKnlKJeSvFDngJfy5ql2iZfiLw1wAAAXTp
+79l0AAAEAwBIMEYCIQDAJRJ0XgrZfaNZ3FNu5AyXi/90/8XNb/3TVVg2gRGgCAIh
+ALx2ptXCtxw5GOA495KLtp+EZzQ2gMAs513JRhKolcRrAHcAb1N2rDHwMRnYmQCk
+URX/dxUcEdkCwQApBo2yCJo32RMAAAF06e/ZqgAABAMASDBGAiEA+rfrv6g81GOu
+Gh4f+Pgt7og6R+jQ5FaweV6+szmEEDYCIQDwS5vrdjyuWWQTNNIKxl/15kCVn4YF
+XcJjRKfRZOHuzjANBgkqhkiG9w0BAQsFAAOCAgEADOc691e1Bi2iFDffIQnJlZ4c
+Aupgll9GN4zMbxado33xdVVtRwYOOmPH0aVZH+zDW5ZsoMvPyWPYccWi6oA7HHzI
+LfLkhnXTfm1oVf32Jk9anY9grFAJ36yza4KLu3Ersm027YF9L4Xp/toPzaF1TRvq
+UXkKEbDp9Shp1p/bpcx3RGngVBcqNEYZAeEWPsyApOfYDs+kZU6UEsUoZVR4anNT
+wKbFBNazv0zubUQJV8r+U15GHHxfofP15i4dnfBCvQC/ISpf6a1PLC9lxwn16r/M
+XHmuLqdgr6qZvrdf1Nh8jrUsBTmXH1BQ1liBd+DSHa1oiM/ql1s9xlzeRxep8Q7C
+CmNz58+kK0/UzgVnBTlbVGAtknhV50wUENh4H3ZNIn85x/BdZMMTGHDHaWaf550x
+x64eZOBurwjkwJzfKOuC4i66AJ+FGUVNskyxoGktUw1v0HQdljt+nJvVY3uMFEw7
+z+ngkmH9TfzL+q3ERsxU47RwYs4UKdFEXoR5ZQAUwcuyCBAXxgf3BJcuN1G00lph
+N6Uo5dIk7n3GCabDHM+wVYMPI17A+5Z5vbo7zqB1TjVhzcjqGH4g4J6FGgXETgYi
+Scni6UioHteHlHpQCetWE0lv43yAQbxzPZ5FLrLQAFzzF3TAXrb7HWe201jZAMa5
+sYlvE8NqkgLPNJN4WAY=</certificate>
+            </emrex-data-access-point>
+        </r:apis-implemented>
+    </host>
+</manifest>
