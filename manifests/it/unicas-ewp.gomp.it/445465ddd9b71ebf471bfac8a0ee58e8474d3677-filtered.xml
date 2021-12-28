@@ -1,0 +1,48 @@
+<manifest
+    xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v5"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+>
+    <host>
+        <admin-notes xmlns="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"/>
+        <apis-implemented xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1">
+            <discovery
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v5/manifest-entry.xsd"
+                version="5.0.0"
+            >
+                <url>https://unicas-ewp.gomp.it/api/ewp/manifest</url>
+            </discovery>
+            <echo
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.1"
+            >
+                <http-security>
+                    <client-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </client-auth-methods>
+                    <server-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </server-auth-methods>
+                </http-security>
+                <url>https://unicas-ewp.gomp.it/api/ewp/echo</url>
+            </echo>
+        </apis-implemented>
+        <institutions-covered>
+            <hei
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
+                id="unicas.it"
+            >
+                <other-id type="erasmus">I  CASSINO01</other-id>
+                <name xml:lang="en">University of Cassino</name>
+                <name xml:lang="it">Università degli studi di Cassino e del Lazio Meridionale</name>
+            </hei>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate>MIIDtzCCAp+gAwIBAgIUUbuuFNsK1WTQ4jkfdRviTQ83OcUwDQYJKoZIhvcNAQELBQAwazELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUxhemlvMRAwDgYDVQQHDAdDYXNzaW5vMRwwGgYDVQQKDBNTaXN0ZW1pIGluZm9ybWF0aXZpMRwwGgYDVQQLDBNzbWFydGVkdV9FV1BfVU5JQ0FTMB4XDTIxMTEyNTE2MjE0MFoXDTMxMTEyMzE2MjE0MFowazELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUxhemlvMRAwDgYDVQQHDAdDYXNzaW5vMRwwGgYDVQQKDBNTaXN0ZW1pIGluZm9ybWF0aXZpMRwwGgYDVQQLDBNzbWFydGVkdV9FV1BfVU5JQ0FTMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqI7x6n3hvjeMk5FMl+laczedkOqjjKbfylp9biTNeCg+uwNxLOEXexHNDzKLvV8uHq47IvqN/QcwhdqXGc1J/mn8F/mY0oTawXnyMnpu9lnMien4PdaV0WDFh61j7Co/t8JzlYch61MAQ1w5WC1vW60FF1Q5JPJ5U4lpuJnIxkyEN155xgWFkEcNVea2Fx3G1m6yyCFWch+8ATyvmhFm9zJHZyyrl/H1cvMuHPOoAtiY32V5m88DtF2jBkS8nceQZ9Qa/p8iJ8lqNMsuuRvd3gWC4s/F84PyiNsaWb7Vw0c4i+xpuU6uKT+8khlfAdc37zYj8rFvIapxJDDCPsklsQIDAQABo1MwUTAdBgNVHQ4EFgQUFHyUUmB/ClJKeRuuNG4G8ATpFv8wHwYDVR0jBBgwFoAUFHyUUmB/ClJKeRuuNG4G8ATpFv8wDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAopujZkAnCXJAqwX7FJzfL5g0TPPLUWcJzjA6O14dMmEQ0QejbamC+CX8k0wkh2ltAyW7IPij4E8AJYIcoFzSv9DWKOPWjZzCR91nac75avL+dV0aod7ESUjbuzS6l9J14o22d9/6ezJzhk75LVy1WCcs4pCeyxM/97YsEfQgNtz9O27FMqh6F5FnKE9Es3oxTdsqD4i5b/oyVKL0xCbq7nXql69gVvfp8AOKZ9vhOAMb7dpUc4VDWtWolEy8kxKAEG/MLi5Fr4DHu7Blecju5ry1zvUyunl6VLFa5LhWT31HrPwszsXEpj05AuiQ8w9wKfT5cFFIEMCUFJkzfsEefQ==</certificate>
+            <rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsrLrbvbCDw7CJv1lFyuhfFGjYzr9kQxE6Zu9YHUNUzhey+d3mJzfAoMa0pA36Jpxz2x47+uNP7LfAyQK43imCCJ3w0sqQgHcBib5F67Qk0/MV1oULOTOLpHoXZrq65h8ox+kkxirLp5/GxbCeV1wkT1tCJL6/v41ZdyQGV7mpQBmnZHDakWXwW6raViw7uGmVzyqgV+Hza//0lSdMpigL783O20rgGB8d8k4vnfirC8ibYJ8PLuDb8Q3AaETfl2gGp6GHVXSJgQ97h1cjRM1lanViIeP2+MzhggMDwq591Im87ZhBuANedGAch7ZyHj5dmCr8pWCz9vCvMnQkggh+QIDAQAB</rsa-public-key>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsrLrbvbCDw7CJv1lFyuhfFGjYzr9kQxE6Zu9YHUNUzhey+d3mJzfAoMa0pA36Jpxz2x47+uNP7LfAyQK43imCCJ3w0sqQgHcBib5F67Qk0/MV1oULOTOLpHoXZrq65h8ox+kkxirLp5/GxbCeV1wkT1tCJL6/v41ZdyQGV7mpQBmnZHDakWXwW6raViw7uGmVzyqgV+Hza//0lSdMpigL783O20rgGB8d8k4vnfirC8ibYJ8PLuDb8Q3AaETfl2gGp6GHVXSJgQ97h1cjRM1lanViIeP2+MzhggMDwq591Im87ZhBuANedGAch7ZyHj5dmCr8pWCz9vCvMnQkggh+QIDAQAB</rsa-public-key>
+        </server-credentials-in-use>
+    </host>
+</manifest>
