@@ -179,4 +179,679 @@ b67ZRQIDAQAB&#xD;
 </ns3:rsa-public-key>
         </ns3:server-credentials-in-use>
     </ns3:host>
+    <ns3:host>
+        <ns2:apis-implemented>
+            <ns26:iias version="3.0.0">
+                <ns26:http-security>
+                    <ns5:client-auth-methods>
+                        <ns33:httpsig/>
+                        <ns31:tlscert allows-self-signed="true"/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns34:httpsig/>
+                        <ns35:tlscert/>
+                    </ns5:server-auth-methods>
+                </ns26:http-security>
+                <ns26:get-url>https://mobility.vilniustech.lt/mobility/ewp/iias-v3/get</ns26:get-url>
+                <ns26:max-iia-ids>3</ns26:max-iia-ids>
+                <ns26:max-iia-codes>3</ns26:max-iia-codes>
+                <ns26:index-url>https://mobility.vilniustech.lt/mobility/ewp/iias-v3/index</ns26:index-url>
+                <ns26:sends-notifications/>
+            </ns26:iias>
+            <ns25:iias version="4.0.0">
+                <ns25:http-security>
+                    <ns5:client-auth-methods>
+                        <ns33:httpsig/>
+                        <ns31:tlscert allows-self-signed="true"/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns34:httpsig/>
+                        <ns35:tlscert/>
+                    </ns5:server-auth-methods>
+                </ns25:http-security>
+                <ns25:get-url>https://mobility.vilniustech.lt/mobility/ewp/iias-v4/get</ns25:get-url>
+                <ns25:max-iia-ids>3</ns25:max-iia-ids>
+                <ns25:max-iia-codes>3</ns25:max-iia-codes>
+                <ns25:index-url>https://mobility.vilniustech.lt/mobility/ewp/iias-v4/index</ns25:index-url>
+            </ns25:iias>
+            <ns24:iias version="6.0.0">
+                <ns24:http-security>
+                    <ns5:client-auth-methods>
+                        <ns33:httpsig/>
+                        <ns31:tlscert allows-self-signed="true"/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns34:httpsig/>
+                        <ns35:tlscert/>
+                    </ns5:server-auth-methods>
+                </ns24:http-security>
+                <ns24:get-url>https://mobility.vilniustech.lt/mobility/ewp/iias-v6/get</ns24:get-url>
+                <ns24:max-iia-ids>3</ns24:max-iia-ids>
+                <ns24:max-iia-codes>3</ns24:max-iia-codes>
+                <ns24:index-url>https://mobility.vilniustech.lt/mobility/ewp/iias-v6/index</ns24:index-url>
+            </ns24:iias>
+        </ns2:apis-implemented>
+        <ns3:institutions-covered>
+            <ns2:hei id="vgtu.lt">
+                <ns2:other-id type="pic">9.4966851E8</ns2:other-id>
+                <ns2:other-id type="erasmus">LT VILNIUS02</ns2:other-id>
+                <ns2:name xml:lang="lt">VILNIUS GEDIMINAS TECHNICAL UNIVERSITY (VILNIUS TECH)</ns2:name>
+                <ns2:name xml:lang="en">VILNIUS GEDIMINAS TECHNICAL UNIVERSITY (VILNIUS TECH)</ns2:name>
+            </ns2:hei>
+        </ns3:institutions-covered>
+        <ns3:client-credentials-in-use>
+            <ns3:certificate>MIIFpjCCA46gAwIBAgICEBYwDQYJKoZIhvcNAQELBQAwgawxCzAJBgNVBAYTAkFUMQ8wDQYDVQQI&#xD;
+DAZWaWVubmExJzAlBgNVBAoMHlNPUCBIaWxtYmF1ZXIgJiBNYXViZXJnZXIgR21iSDEkMCIGA1UE&#xD;
+CwwbU09QIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MRwwGgYDVQQDDBNTT1AgSW50ZXJtZWRpYXRl&#xD;
+IENBMR8wHQYJKoZIhvcNAQkBFhBvZmZpY2VAc29wLmNvLmF0MB4XDTIxMTIwMjEwMjAwM1oXDTQ5&#xD;
+MDQxODEwMjAwM1owgaUxCzAJBgNVBAYTAkxUMRAwDgYDVQQIDAdWaWxuaXVzMScwJQYDVQQKDB5T&#xD;
+T1AgSGlsbWJhdWVyICYgTWF1YmVyZ2VyIEdtYkgxETAPBgNVBAsMCEVXUCBjZXJ0MSAwHgYDVQQD&#xD;
+DBdtb2JpbGl0eS52aWxuaXVzdGVjaC5sdDEmMCQGCSqGSIb3DQEJARYXZ2VvcmcuamFpZGxlckBz&#xD;
+b3AuY28uYXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC5rF3yV0J8SAhcVG4igdjt&#xD;
+r/Y7qwkVqgD6ZtKXT+cfxBxm7YGd8WXKv3btoJiKltNjaez/A7gF5kdBBwgybtnoc9Mc+yUfMcMf&#xD;
+OS8XyMIiVnSf7MyzNNcl8IQUiRR0IiaoNEUGWRFe9Eq3M/8eM0a/GHXhkMBiEBipC9vNHAuLshN0&#xD;
+4AiSFngv+o1tD1LXLSWA2HSJB0xVyCmTRH1BTIfr/NMlLv96VZgbuqbldVUO4Km0/RpKeaqu/NLG&#xD;
+kJOnVua149cOXvRua2+RdKvMxerfjaiqqgsQFHaAHh+rtipl7Io3JWLzCDtEkzh7j2nRbrA5Nl1U&#xD;
+w6J5kylNTjJvrtlFAgMBAAGjgdYwgdMwCQYDVR0TBAIwADARBglghkgBhvhCAQEEBAMCBeAwOgYJ&#xD;
+YIZIAYb4QgENBC0WK09wZW5TU0wgR2VuZXJhdGVkIENsaWVudC9TZXJ2ZXIgQ2VydGlmaWNhdGUw&#xD;
+HQYDVR0OBBYEFN0+2WFOCEfF8PPgv+flhLG50Mk/MB8GA1UdIwQYMBaAFOrubEyAPtoa5AsugeCS&#xD;
+qpgFjmjlMA4GA1UdDwEB/wQEAwIF4DAnBgNVHSUEIDAeBggrBgEFBQcDAQYIKwYBBQUHAwIGCCsG&#xD;
+AQUFBwMEMA0GCSqGSIb3DQEBCwUAA4ICAQBlIFtrAsCKMayqhUbkuR2O9qptYqg+I3bp9RcBOuP+&#xD;
+8UenSrejuVqYisMfvSfvSx6orgrM9310tGXVVF8cNlLp5ewOsvLlIfDHNX1Hbqa9PSpIoOx0zQMF&#xD;
+w0bzpTnWoxiKjMztIgS/WUcHit1f/aLaU15Nv7+Pj8HlVKKHkhSVhGKEtrtwtdZ5xp3xIGv0KNoD&#xD;
+0SMnf/Dsd86EwfL7Gi4F4brwrNkGW4f7uxe7tGa68C1azSleJQbM46wLplDheuYQPqoCchS+ZZns&#xD;
+fFY1odC1ddvbHH+Yt8mqaEdUOjLUMSTCqTM1yLYFt9IVQq2tLYkUKcOX6+P5kvl7Sx+Bz52FUjWw&#xD;
+FyezD1CAa8gMjA7uumYHm24ZncTwESYV1/sjBp/p1P2LEkwUWSpCSlnoVAuZvX1G37bRMCaH3Rae&#xD;
+B4Ukn5oTpMeOYklW1JlVd5V6KP6ZP2+J/fRxyDD2o/WS1BY5/Mh7mwGdSWVEaaa6TZK1RWnsAeYR&#xD;
+bFZnjLK85NcFopY8c13Fbeg1FmbQaMjH7vfhWMd1jS8em0Lqe67as0IsX5SFF5Q5wr/A8lT84oku&#xD;
+TT5xtlFj3g80GLbeCarqUHHk5iBC6po6ENa7OZ8sjD30ACAVF8K+CuYCrX6IvUp9CB+xzS3ZNDzA&#xD;
+tzyfUORMKPHIow//ZQWPwhKoobvz+th95w==&#xD;
+</ns3:certificate>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuaxd8ldCfEgIXFRuIoHY7a/2O6sJFaoA&#xD;
++mbSl0/nH8QcZu2BnfFlyr927aCYipbTY2ns/wO4BeZHQQcIMm7Z6HPTHPslHzHDHzkvF8jCIlZ0&#xD;
+n+zMszTXJfCEFIkUdCImqDRFBlkRXvRKtzP/HjNGvxh14ZDAYhAYqQvbzRwLi7ITdOAIkhZ4L/qN&#xD;
+bQ9S1y0lgNh0iQdMVcgpk0R9QUyH6/zTJS7/elWYG7qm5XVVDuCptP0aSnmqrvzSxpCTp1bmtePX&#xD;
+Dl70bmtvkXSrzMXq342oqqoLEBR2gB4fq7YqZeyKNyVi8wg7RJM4e49p0W6wOTZdVMOieZMpTU4y&#xD;
+b67ZRQIDAQAB&#xD;
+</ns3:rsa-public-key>
+        </ns3:client-credentials-in-use>
+        <ns3:server-credentials-in-use>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuaxd8ldCfEgIXFRuIoHY7a/2O6sJFaoA&#xD;
++mbSl0/nH8QcZu2BnfFlyr927aCYipbTY2ns/wO4BeZHQQcIMm7Z6HPTHPslHzHDHzkvF8jCIlZ0&#xD;
+n+zMszTXJfCEFIkUdCImqDRFBlkRXvRKtzP/HjNGvxh14ZDAYhAYqQvbzRwLi7ITdOAIkhZ4L/qN&#xD;
+bQ9S1y0lgNh0iQdMVcgpk0R9QUyH6/zTJS7/elWYG7qm5XVVDuCptP0aSnmqrvzSxpCTp1bmtePX&#xD;
+Dl70bmtvkXSrzMXq342oqqoLEBR2gB4fq7YqZeyKNyVi8wg7RJM4e49p0W6wOTZdVMOieZMpTU4y&#xD;
+b67ZRQIDAQAB&#xD;
+</ns3:rsa-public-key>
+        </ns3:server-credentials-in-use>
+    </ns3:host>
+    <ns3:host>
+        <ns2:apis-implemented>
+            <ns23:iia-cnr version="2.0.2">
+                <ns23:http-security>
+                    <ns5:client-auth-methods>
+                        <ns33:httpsig/>
+                        <ns31:tlscert allows-self-signed="true"/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns34:httpsig/>
+                        <ns35:tlscert/>
+                    </ns5:server-auth-methods>
+                </ns23:http-security>
+                <ns23:url>https://mobility.vilniustech.lt/mobility/ewp/iias/cnr</ns23:url>
+            </ns23:iia-cnr>
+        </ns2:apis-implemented>
+        <ns3:institutions-covered>
+            <ns2:hei id="vgtu.lt">
+                <ns2:other-id type="pic">9.4966851E8</ns2:other-id>
+                <ns2:other-id type="erasmus">LT VILNIUS02</ns2:other-id>
+                <ns2:name xml:lang="lt">VILNIUS GEDIMINAS TECHNICAL UNIVERSITY (VILNIUS TECH)</ns2:name>
+                <ns2:name xml:lang="en">VILNIUS GEDIMINAS TECHNICAL UNIVERSITY (VILNIUS TECH)</ns2:name>
+            </ns2:hei>
+        </ns3:institutions-covered>
+        <ns3:client-credentials-in-use>
+            <ns3:certificate>MIIFpjCCA46gAwIBAgICEBYwDQYJKoZIhvcNAQELBQAwgawxCzAJBgNVBAYTAkFUMQ8wDQYDVQQI&#xD;
+DAZWaWVubmExJzAlBgNVBAoMHlNPUCBIaWxtYmF1ZXIgJiBNYXViZXJnZXIgR21iSDEkMCIGA1UE&#xD;
+CwwbU09QIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MRwwGgYDVQQDDBNTT1AgSW50ZXJtZWRpYXRl&#xD;
+IENBMR8wHQYJKoZIhvcNAQkBFhBvZmZpY2VAc29wLmNvLmF0MB4XDTIxMTIwMjEwMjAwM1oXDTQ5&#xD;
+MDQxODEwMjAwM1owgaUxCzAJBgNVBAYTAkxUMRAwDgYDVQQIDAdWaWxuaXVzMScwJQYDVQQKDB5T&#xD;
+T1AgSGlsbWJhdWVyICYgTWF1YmVyZ2VyIEdtYkgxETAPBgNVBAsMCEVXUCBjZXJ0MSAwHgYDVQQD&#xD;
+DBdtb2JpbGl0eS52aWxuaXVzdGVjaC5sdDEmMCQGCSqGSIb3DQEJARYXZ2VvcmcuamFpZGxlckBz&#xD;
+b3AuY28uYXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC5rF3yV0J8SAhcVG4igdjt&#xD;
+r/Y7qwkVqgD6ZtKXT+cfxBxm7YGd8WXKv3btoJiKltNjaez/A7gF5kdBBwgybtnoc9Mc+yUfMcMf&#xD;
+OS8XyMIiVnSf7MyzNNcl8IQUiRR0IiaoNEUGWRFe9Eq3M/8eM0a/GHXhkMBiEBipC9vNHAuLshN0&#xD;
+4AiSFngv+o1tD1LXLSWA2HSJB0xVyCmTRH1BTIfr/NMlLv96VZgbuqbldVUO4Km0/RpKeaqu/NLG&#xD;
+kJOnVua149cOXvRua2+RdKvMxerfjaiqqgsQFHaAHh+rtipl7Io3JWLzCDtEkzh7j2nRbrA5Nl1U&#xD;
+w6J5kylNTjJvrtlFAgMBAAGjgdYwgdMwCQYDVR0TBAIwADARBglghkgBhvhCAQEEBAMCBeAwOgYJ&#xD;
+YIZIAYb4QgENBC0WK09wZW5TU0wgR2VuZXJhdGVkIENsaWVudC9TZXJ2ZXIgQ2VydGlmaWNhdGUw&#xD;
+HQYDVR0OBBYEFN0+2WFOCEfF8PPgv+flhLG50Mk/MB8GA1UdIwQYMBaAFOrubEyAPtoa5AsugeCS&#xD;
+qpgFjmjlMA4GA1UdDwEB/wQEAwIF4DAnBgNVHSUEIDAeBggrBgEFBQcDAQYIKwYBBQUHAwIGCCsG&#xD;
+AQUFBwMEMA0GCSqGSIb3DQEBCwUAA4ICAQBlIFtrAsCKMayqhUbkuR2O9qptYqg+I3bp9RcBOuP+&#xD;
+8UenSrejuVqYisMfvSfvSx6orgrM9310tGXVVF8cNlLp5ewOsvLlIfDHNX1Hbqa9PSpIoOx0zQMF&#xD;
+w0bzpTnWoxiKjMztIgS/WUcHit1f/aLaU15Nv7+Pj8HlVKKHkhSVhGKEtrtwtdZ5xp3xIGv0KNoD&#xD;
+0SMnf/Dsd86EwfL7Gi4F4brwrNkGW4f7uxe7tGa68C1azSleJQbM46wLplDheuYQPqoCchS+ZZns&#xD;
+fFY1odC1ddvbHH+Yt8mqaEdUOjLUMSTCqTM1yLYFt9IVQq2tLYkUKcOX6+P5kvl7Sx+Bz52FUjWw&#xD;
+FyezD1CAa8gMjA7uumYHm24ZncTwESYV1/sjBp/p1P2LEkwUWSpCSlnoVAuZvX1G37bRMCaH3Rae&#xD;
+B4Ukn5oTpMeOYklW1JlVd5V6KP6ZP2+J/fRxyDD2o/WS1BY5/Mh7mwGdSWVEaaa6TZK1RWnsAeYR&#xD;
+bFZnjLK85NcFopY8c13Fbeg1FmbQaMjH7vfhWMd1jS8em0Lqe67as0IsX5SFF5Q5wr/A8lT84oku&#xD;
+TT5xtlFj3g80GLbeCarqUHHk5iBC6po6ENa7OZ8sjD30ACAVF8K+CuYCrX6IvUp9CB+xzS3ZNDzA&#xD;
+tzyfUORMKPHIow//ZQWPwhKoobvz+th95w==&#xD;
+</ns3:certificate>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuaxd8ldCfEgIXFRuIoHY7a/2O6sJFaoA&#xD;
++mbSl0/nH8QcZu2BnfFlyr927aCYipbTY2ns/wO4BeZHQQcIMm7Z6HPTHPslHzHDHzkvF8jCIlZ0&#xD;
+n+zMszTXJfCEFIkUdCImqDRFBlkRXvRKtzP/HjNGvxh14ZDAYhAYqQvbzRwLi7ITdOAIkhZ4L/qN&#xD;
+bQ9S1y0lgNh0iQdMVcgpk0R9QUyH6/zTJS7/elWYG7qm5XVVDuCptP0aSnmqrvzSxpCTp1bmtePX&#xD;
+Dl70bmtvkXSrzMXq342oqqoLEBR2gB4fq7YqZeyKNyVi8wg7RJM4e49p0W6wOTZdVMOieZMpTU4y&#xD;
+b67ZRQIDAQAB&#xD;
+</ns3:rsa-public-key>
+        </ns3:client-credentials-in-use>
+        <ns3:server-credentials-in-use>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuaxd8ldCfEgIXFRuIoHY7a/2O6sJFaoA&#xD;
++mbSl0/nH8QcZu2BnfFlyr927aCYipbTY2ns/wO4BeZHQQcIMm7Z6HPTHPslHzHDHzkvF8jCIlZ0&#xD;
+n+zMszTXJfCEFIkUdCImqDRFBlkRXvRKtzP/HjNGvxh14ZDAYhAYqQvbzRwLi7ITdOAIkhZ4L/qN&#xD;
+bQ9S1y0lgNh0iQdMVcgpk0R9QUyH6/zTJS7/elWYG7qm5XVVDuCptP0aSnmqrvzSxpCTp1bmtePX&#xD;
+Dl70bmtvkXSrzMXq342oqqoLEBR2gB4fq7YqZeyKNyVi8wg7RJM4e49p0W6wOTZdVMOieZMpTU4y&#xD;
+b67ZRQIDAQAB&#xD;
+</ns3:rsa-public-key>
+        </ns3:server-credentials-in-use>
+    </ns3:host>
+    <ns3:host>
+        <ns2:apis-implemented>
+            <ns22:iias-approval version="1.0.0">
+                <ns22:http-security>
+                    <ns5:client-auth-methods>
+                        <ns33:httpsig/>
+                        <ns31:tlscert allows-self-signed="true"/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns34:httpsig/>
+                        <ns35:tlscert/>
+                    </ns5:server-auth-methods>
+                </ns22:http-security>
+                <ns22:url>https://mobility.vilniustech.lt/mobility/ewp/iias-approval-v1/get</ns22:url>
+                <ns22:max-iia-ids>3</ns22:max-iia-ids>
+            </ns22:iias-approval>
+        </ns2:apis-implemented>
+        <ns3:institutions-covered>
+            <ns2:hei id="vgtu.lt">
+                <ns2:other-id type="pic">9.4966851E8</ns2:other-id>
+                <ns2:other-id type="erasmus">LT VILNIUS02</ns2:other-id>
+                <ns2:name xml:lang="lt">VILNIUS GEDIMINAS TECHNICAL UNIVERSITY (VILNIUS TECH)</ns2:name>
+                <ns2:name xml:lang="en">VILNIUS GEDIMINAS TECHNICAL UNIVERSITY (VILNIUS TECH)</ns2:name>
+            </ns2:hei>
+        </ns3:institutions-covered>
+        <ns3:client-credentials-in-use>
+            <ns3:certificate>MIIFpjCCA46gAwIBAgICEBYwDQYJKoZIhvcNAQELBQAwgawxCzAJBgNVBAYTAkFUMQ8wDQYDVQQI&#xD;
+DAZWaWVubmExJzAlBgNVBAoMHlNPUCBIaWxtYmF1ZXIgJiBNYXViZXJnZXIgR21iSDEkMCIGA1UE&#xD;
+CwwbU09QIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MRwwGgYDVQQDDBNTT1AgSW50ZXJtZWRpYXRl&#xD;
+IENBMR8wHQYJKoZIhvcNAQkBFhBvZmZpY2VAc29wLmNvLmF0MB4XDTIxMTIwMjEwMjAwM1oXDTQ5&#xD;
+MDQxODEwMjAwM1owgaUxCzAJBgNVBAYTAkxUMRAwDgYDVQQIDAdWaWxuaXVzMScwJQYDVQQKDB5T&#xD;
+T1AgSGlsbWJhdWVyICYgTWF1YmVyZ2VyIEdtYkgxETAPBgNVBAsMCEVXUCBjZXJ0MSAwHgYDVQQD&#xD;
+DBdtb2JpbGl0eS52aWxuaXVzdGVjaC5sdDEmMCQGCSqGSIb3DQEJARYXZ2VvcmcuamFpZGxlckBz&#xD;
+b3AuY28uYXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC5rF3yV0J8SAhcVG4igdjt&#xD;
+r/Y7qwkVqgD6ZtKXT+cfxBxm7YGd8WXKv3btoJiKltNjaez/A7gF5kdBBwgybtnoc9Mc+yUfMcMf&#xD;
+OS8XyMIiVnSf7MyzNNcl8IQUiRR0IiaoNEUGWRFe9Eq3M/8eM0a/GHXhkMBiEBipC9vNHAuLshN0&#xD;
+4AiSFngv+o1tD1LXLSWA2HSJB0xVyCmTRH1BTIfr/NMlLv96VZgbuqbldVUO4Km0/RpKeaqu/NLG&#xD;
+kJOnVua149cOXvRua2+RdKvMxerfjaiqqgsQFHaAHh+rtipl7Io3JWLzCDtEkzh7j2nRbrA5Nl1U&#xD;
+w6J5kylNTjJvrtlFAgMBAAGjgdYwgdMwCQYDVR0TBAIwADARBglghkgBhvhCAQEEBAMCBeAwOgYJ&#xD;
+YIZIAYb4QgENBC0WK09wZW5TU0wgR2VuZXJhdGVkIENsaWVudC9TZXJ2ZXIgQ2VydGlmaWNhdGUw&#xD;
+HQYDVR0OBBYEFN0+2WFOCEfF8PPgv+flhLG50Mk/MB8GA1UdIwQYMBaAFOrubEyAPtoa5AsugeCS&#xD;
+qpgFjmjlMA4GA1UdDwEB/wQEAwIF4DAnBgNVHSUEIDAeBggrBgEFBQcDAQYIKwYBBQUHAwIGCCsG&#xD;
+AQUFBwMEMA0GCSqGSIb3DQEBCwUAA4ICAQBlIFtrAsCKMayqhUbkuR2O9qptYqg+I3bp9RcBOuP+&#xD;
+8UenSrejuVqYisMfvSfvSx6orgrM9310tGXVVF8cNlLp5ewOsvLlIfDHNX1Hbqa9PSpIoOx0zQMF&#xD;
+w0bzpTnWoxiKjMztIgS/WUcHit1f/aLaU15Nv7+Pj8HlVKKHkhSVhGKEtrtwtdZ5xp3xIGv0KNoD&#xD;
+0SMnf/Dsd86EwfL7Gi4F4brwrNkGW4f7uxe7tGa68C1azSleJQbM46wLplDheuYQPqoCchS+ZZns&#xD;
+fFY1odC1ddvbHH+Yt8mqaEdUOjLUMSTCqTM1yLYFt9IVQq2tLYkUKcOX6+P5kvl7Sx+Bz52FUjWw&#xD;
+FyezD1CAa8gMjA7uumYHm24ZncTwESYV1/sjBp/p1P2LEkwUWSpCSlnoVAuZvX1G37bRMCaH3Rae&#xD;
+B4Ukn5oTpMeOYklW1JlVd5V6KP6ZP2+J/fRxyDD2o/WS1BY5/Mh7mwGdSWVEaaa6TZK1RWnsAeYR&#xD;
+bFZnjLK85NcFopY8c13Fbeg1FmbQaMjH7vfhWMd1jS8em0Lqe67as0IsX5SFF5Q5wr/A8lT84oku&#xD;
+TT5xtlFj3g80GLbeCarqUHHk5iBC6po6ENa7OZ8sjD30ACAVF8K+CuYCrX6IvUp9CB+xzS3ZNDzA&#xD;
+tzyfUORMKPHIow//ZQWPwhKoobvz+th95w==&#xD;
+</ns3:certificate>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuaxd8ldCfEgIXFRuIoHY7a/2O6sJFaoA&#xD;
++mbSl0/nH8QcZu2BnfFlyr927aCYipbTY2ns/wO4BeZHQQcIMm7Z6HPTHPslHzHDHzkvF8jCIlZ0&#xD;
+n+zMszTXJfCEFIkUdCImqDRFBlkRXvRKtzP/HjNGvxh14ZDAYhAYqQvbzRwLi7ITdOAIkhZ4L/qN&#xD;
+bQ9S1y0lgNh0iQdMVcgpk0R9QUyH6/zTJS7/elWYG7qm5XVVDuCptP0aSnmqrvzSxpCTp1bmtePX&#xD;
+Dl70bmtvkXSrzMXq342oqqoLEBR2gB4fq7YqZeyKNyVi8wg7RJM4e49p0W6wOTZdVMOieZMpTU4y&#xD;
+b67ZRQIDAQAB&#xD;
+</ns3:rsa-public-key>
+        </ns3:client-credentials-in-use>
+        <ns3:server-credentials-in-use>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuaxd8ldCfEgIXFRuIoHY7a/2O6sJFaoA&#xD;
++mbSl0/nH8QcZu2BnfFlyr927aCYipbTY2ns/wO4BeZHQQcIMm7Z6HPTHPslHzHDHzkvF8jCIlZ0&#xD;
+n+zMszTXJfCEFIkUdCImqDRFBlkRXvRKtzP/HjNGvxh14ZDAYhAYqQvbzRwLi7ITdOAIkhZ4L/qN&#xD;
+bQ9S1y0lgNh0iQdMVcgpk0R9QUyH6/zTJS7/elWYG7qm5XVVDuCptP0aSnmqrvzSxpCTp1bmtePX&#xD;
+Dl70bmtvkXSrzMXq342oqqoLEBR2gB4fq7YqZeyKNyVi8wg7RJM4e49p0W6wOTZdVMOieZMpTU4y&#xD;
+b67ZRQIDAQAB&#xD;
+</ns3:rsa-public-key>
+        </ns3:server-credentials-in-use>
+    </ns3:host>
+    <ns3:host>
+        <ns2:apis-implemented>
+            <ns21:iia-approval-cnr version="1.0.0">
+                <ns21:http-security>
+                    <ns5:client-auth-methods>
+                        <ns33:httpsig/>
+                        <ns31:tlscert allows-self-signed="true"/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns34:httpsig/>
+                        <ns35:tlscert/>
+                    </ns5:server-auth-methods>
+                </ns21:http-security>
+                <ns21:url>https://mobility.vilniustech.lt/mobility/ewp/iias-approval-cnr-v1/cnr</ns21:url>
+            </ns21:iia-approval-cnr>
+        </ns2:apis-implemented>
+        <ns3:institutions-covered>
+            <ns2:hei id="vgtu.lt">
+                <ns2:other-id type="pic">9.4966851E8</ns2:other-id>
+                <ns2:other-id type="erasmus">LT VILNIUS02</ns2:other-id>
+                <ns2:name xml:lang="lt">VILNIUS GEDIMINAS TECHNICAL UNIVERSITY (VILNIUS TECH)</ns2:name>
+                <ns2:name xml:lang="en">VILNIUS GEDIMINAS TECHNICAL UNIVERSITY (VILNIUS TECH)</ns2:name>
+            </ns2:hei>
+        </ns3:institutions-covered>
+        <ns3:client-credentials-in-use>
+            <ns3:certificate>MIIFpjCCA46gAwIBAgICEBYwDQYJKoZIhvcNAQELBQAwgawxCzAJBgNVBAYTAkFUMQ8wDQYDVQQI&#xD;
+DAZWaWVubmExJzAlBgNVBAoMHlNPUCBIaWxtYmF1ZXIgJiBNYXViZXJnZXIgR21iSDEkMCIGA1UE&#xD;
+CwwbU09QIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MRwwGgYDVQQDDBNTT1AgSW50ZXJtZWRpYXRl&#xD;
+IENBMR8wHQYJKoZIhvcNAQkBFhBvZmZpY2VAc29wLmNvLmF0MB4XDTIxMTIwMjEwMjAwM1oXDTQ5&#xD;
+MDQxODEwMjAwM1owgaUxCzAJBgNVBAYTAkxUMRAwDgYDVQQIDAdWaWxuaXVzMScwJQYDVQQKDB5T&#xD;
+T1AgSGlsbWJhdWVyICYgTWF1YmVyZ2VyIEdtYkgxETAPBgNVBAsMCEVXUCBjZXJ0MSAwHgYDVQQD&#xD;
+DBdtb2JpbGl0eS52aWxuaXVzdGVjaC5sdDEmMCQGCSqGSIb3DQEJARYXZ2VvcmcuamFpZGxlckBz&#xD;
+b3AuY28uYXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC5rF3yV0J8SAhcVG4igdjt&#xD;
+r/Y7qwkVqgD6ZtKXT+cfxBxm7YGd8WXKv3btoJiKltNjaez/A7gF5kdBBwgybtnoc9Mc+yUfMcMf&#xD;
+OS8XyMIiVnSf7MyzNNcl8IQUiRR0IiaoNEUGWRFe9Eq3M/8eM0a/GHXhkMBiEBipC9vNHAuLshN0&#xD;
+4AiSFngv+o1tD1LXLSWA2HSJB0xVyCmTRH1BTIfr/NMlLv96VZgbuqbldVUO4Km0/RpKeaqu/NLG&#xD;
+kJOnVua149cOXvRua2+RdKvMxerfjaiqqgsQFHaAHh+rtipl7Io3JWLzCDtEkzh7j2nRbrA5Nl1U&#xD;
+w6J5kylNTjJvrtlFAgMBAAGjgdYwgdMwCQYDVR0TBAIwADARBglghkgBhvhCAQEEBAMCBeAwOgYJ&#xD;
+YIZIAYb4QgENBC0WK09wZW5TU0wgR2VuZXJhdGVkIENsaWVudC9TZXJ2ZXIgQ2VydGlmaWNhdGUw&#xD;
+HQYDVR0OBBYEFN0+2WFOCEfF8PPgv+flhLG50Mk/MB8GA1UdIwQYMBaAFOrubEyAPtoa5AsugeCS&#xD;
+qpgFjmjlMA4GA1UdDwEB/wQEAwIF4DAnBgNVHSUEIDAeBggrBgEFBQcDAQYIKwYBBQUHAwIGCCsG&#xD;
+AQUFBwMEMA0GCSqGSIb3DQEBCwUAA4ICAQBlIFtrAsCKMayqhUbkuR2O9qptYqg+I3bp9RcBOuP+&#xD;
+8UenSrejuVqYisMfvSfvSx6orgrM9310tGXVVF8cNlLp5ewOsvLlIfDHNX1Hbqa9PSpIoOx0zQMF&#xD;
+w0bzpTnWoxiKjMztIgS/WUcHit1f/aLaU15Nv7+Pj8HlVKKHkhSVhGKEtrtwtdZ5xp3xIGv0KNoD&#xD;
+0SMnf/Dsd86EwfL7Gi4F4brwrNkGW4f7uxe7tGa68C1azSleJQbM46wLplDheuYQPqoCchS+ZZns&#xD;
+fFY1odC1ddvbHH+Yt8mqaEdUOjLUMSTCqTM1yLYFt9IVQq2tLYkUKcOX6+P5kvl7Sx+Bz52FUjWw&#xD;
+FyezD1CAa8gMjA7uumYHm24ZncTwESYV1/sjBp/p1P2LEkwUWSpCSlnoVAuZvX1G37bRMCaH3Rae&#xD;
+B4Ukn5oTpMeOYklW1JlVd5V6KP6ZP2+J/fRxyDD2o/WS1BY5/Mh7mwGdSWVEaaa6TZK1RWnsAeYR&#xD;
+bFZnjLK85NcFopY8c13Fbeg1FmbQaMjH7vfhWMd1jS8em0Lqe67as0IsX5SFF5Q5wr/A8lT84oku&#xD;
+TT5xtlFj3g80GLbeCarqUHHk5iBC6po6ENa7OZ8sjD30ACAVF8K+CuYCrX6IvUp9CB+xzS3ZNDzA&#xD;
+tzyfUORMKPHIow//ZQWPwhKoobvz+th95w==&#xD;
+</ns3:certificate>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuaxd8ldCfEgIXFRuIoHY7a/2O6sJFaoA&#xD;
++mbSl0/nH8QcZu2BnfFlyr927aCYipbTY2ns/wO4BeZHQQcIMm7Z6HPTHPslHzHDHzkvF8jCIlZ0&#xD;
+n+zMszTXJfCEFIkUdCImqDRFBlkRXvRKtzP/HjNGvxh14ZDAYhAYqQvbzRwLi7ITdOAIkhZ4L/qN&#xD;
+bQ9S1y0lgNh0iQdMVcgpk0R9QUyH6/zTJS7/elWYG7qm5XVVDuCptP0aSnmqrvzSxpCTp1bmtePX&#xD;
+Dl70bmtvkXSrzMXq342oqqoLEBR2gB4fq7YqZeyKNyVi8wg7RJM4e49p0W6wOTZdVMOieZMpTU4y&#xD;
+b67ZRQIDAQAB&#xD;
+</ns3:rsa-public-key>
+        </ns3:client-credentials-in-use>
+        <ns3:server-credentials-in-use>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuaxd8ldCfEgIXFRuIoHY7a/2O6sJFaoA&#xD;
++mbSl0/nH8QcZu2BnfFlyr927aCYipbTY2ns/wO4BeZHQQcIMm7Z6HPTHPslHzHDHzkvF8jCIlZ0&#xD;
+n+zMszTXJfCEFIkUdCImqDRFBlkRXvRKtzP/HjNGvxh14ZDAYhAYqQvbzRwLi7ITdOAIkhZ4L/qN&#xD;
+bQ9S1y0lgNh0iQdMVcgpk0R9QUyH6/zTJS7/elWYG7qm5XVVDuCptP0aSnmqrvzSxpCTp1bmtePX&#xD;
+Dl70bmtvkXSrzMXq342oqqoLEBR2gB4fq7YqZeyKNyVi8wg7RJM4e49p0W6wOTZdVMOieZMpTU4y&#xD;
+b67ZRQIDAQAB&#xD;
+</ns3:rsa-public-key>
+        </ns3:server-credentials-in-use>
+    </ns3:host>
+    <ns3:host>
+        <ns2:apis-implemented>
+            <ns18:omobilities version="1.0.0">
+                <ns18:http-security>
+                    <ns5:client-auth-methods>
+                        <ns33:httpsig/>
+                        <ns31:tlscert allows-self-signed="true"/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns34:httpsig/>
+                        <ns35:tlscert/>
+                    </ns5:server-auth-methods>
+                </ns18:http-security>
+                <ns18:get-url>https://mobility.vilniustech.lt/mobility/ewp/mobility_out/get</ns18:get-url>
+                <ns18:index-url>https://mobility.vilniustech.lt/mobility/ewp/mobility_out/index</ns18:index-url>
+                <ns18:max-omobility-ids>1</ns18:max-omobility-ids>
+                <ns18:sends-notifications/>
+            </ns18:omobilities>
+        </ns2:apis-implemented>
+        <ns3:institutions-covered>
+            <ns2:hei id="vgtu.lt">
+                <ns2:other-id type="pic">9.4966851E8</ns2:other-id>
+                <ns2:other-id type="erasmus">LT VILNIUS02</ns2:other-id>
+                <ns2:name xml:lang="lt">VILNIUS GEDIMINAS TECHNICAL UNIVERSITY (VILNIUS TECH)</ns2:name>
+                <ns2:name xml:lang="en">VILNIUS GEDIMINAS TECHNICAL UNIVERSITY (VILNIUS TECH)</ns2:name>
+            </ns2:hei>
+        </ns3:institutions-covered>
+        <ns3:client-credentials-in-use>
+            <ns3:certificate>MIIFpjCCA46gAwIBAgICEBYwDQYJKoZIhvcNAQELBQAwgawxCzAJBgNVBAYTAkFUMQ8wDQYDVQQI&#xD;
+DAZWaWVubmExJzAlBgNVBAoMHlNPUCBIaWxtYmF1ZXIgJiBNYXViZXJnZXIgR21iSDEkMCIGA1UE&#xD;
+CwwbU09QIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MRwwGgYDVQQDDBNTT1AgSW50ZXJtZWRpYXRl&#xD;
+IENBMR8wHQYJKoZIhvcNAQkBFhBvZmZpY2VAc29wLmNvLmF0MB4XDTIxMTIwMjEwMjAwM1oXDTQ5&#xD;
+MDQxODEwMjAwM1owgaUxCzAJBgNVBAYTAkxUMRAwDgYDVQQIDAdWaWxuaXVzMScwJQYDVQQKDB5T&#xD;
+T1AgSGlsbWJhdWVyICYgTWF1YmVyZ2VyIEdtYkgxETAPBgNVBAsMCEVXUCBjZXJ0MSAwHgYDVQQD&#xD;
+DBdtb2JpbGl0eS52aWxuaXVzdGVjaC5sdDEmMCQGCSqGSIb3DQEJARYXZ2VvcmcuamFpZGxlckBz&#xD;
+b3AuY28uYXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC5rF3yV0J8SAhcVG4igdjt&#xD;
+r/Y7qwkVqgD6ZtKXT+cfxBxm7YGd8WXKv3btoJiKltNjaez/A7gF5kdBBwgybtnoc9Mc+yUfMcMf&#xD;
+OS8XyMIiVnSf7MyzNNcl8IQUiRR0IiaoNEUGWRFe9Eq3M/8eM0a/GHXhkMBiEBipC9vNHAuLshN0&#xD;
+4AiSFngv+o1tD1LXLSWA2HSJB0xVyCmTRH1BTIfr/NMlLv96VZgbuqbldVUO4Km0/RpKeaqu/NLG&#xD;
+kJOnVua149cOXvRua2+RdKvMxerfjaiqqgsQFHaAHh+rtipl7Io3JWLzCDtEkzh7j2nRbrA5Nl1U&#xD;
+w6J5kylNTjJvrtlFAgMBAAGjgdYwgdMwCQYDVR0TBAIwADARBglghkgBhvhCAQEEBAMCBeAwOgYJ&#xD;
+YIZIAYb4QgENBC0WK09wZW5TU0wgR2VuZXJhdGVkIENsaWVudC9TZXJ2ZXIgQ2VydGlmaWNhdGUw&#xD;
+HQYDVR0OBBYEFN0+2WFOCEfF8PPgv+flhLG50Mk/MB8GA1UdIwQYMBaAFOrubEyAPtoa5AsugeCS&#xD;
+qpgFjmjlMA4GA1UdDwEB/wQEAwIF4DAnBgNVHSUEIDAeBggrBgEFBQcDAQYIKwYBBQUHAwIGCCsG&#xD;
+AQUFBwMEMA0GCSqGSIb3DQEBCwUAA4ICAQBlIFtrAsCKMayqhUbkuR2O9qptYqg+I3bp9RcBOuP+&#xD;
+8UenSrejuVqYisMfvSfvSx6orgrM9310tGXVVF8cNlLp5ewOsvLlIfDHNX1Hbqa9PSpIoOx0zQMF&#xD;
+w0bzpTnWoxiKjMztIgS/WUcHit1f/aLaU15Nv7+Pj8HlVKKHkhSVhGKEtrtwtdZ5xp3xIGv0KNoD&#xD;
+0SMnf/Dsd86EwfL7Gi4F4brwrNkGW4f7uxe7tGa68C1azSleJQbM46wLplDheuYQPqoCchS+ZZns&#xD;
+fFY1odC1ddvbHH+Yt8mqaEdUOjLUMSTCqTM1yLYFt9IVQq2tLYkUKcOX6+P5kvl7Sx+Bz52FUjWw&#xD;
+FyezD1CAa8gMjA7uumYHm24ZncTwESYV1/sjBp/p1P2LEkwUWSpCSlnoVAuZvX1G37bRMCaH3Rae&#xD;
+B4Ukn5oTpMeOYklW1JlVd5V6KP6ZP2+J/fRxyDD2o/WS1BY5/Mh7mwGdSWVEaaa6TZK1RWnsAeYR&#xD;
+bFZnjLK85NcFopY8c13Fbeg1FmbQaMjH7vfhWMd1jS8em0Lqe67as0IsX5SFF5Q5wr/A8lT84oku&#xD;
+TT5xtlFj3g80GLbeCarqUHHk5iBC6po6ENa7OZ8sjD30ACAVF8K+CuYCrX6IvUp9CB+xzS3ZNDzA&#xD;
+tzyfUORMKPHIow//ZQWPwhKoobvz+th95w==&#xD;
+</ns3:certificate>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuaxd8ldCfEgIXFRuIoHY7a/2O6sJFaoA&#xD;
++mbSl0/nH8QcZu2BnfFlyr927aCYipbTY2ns/wO4BeZHQQcIMm7Z6HPTHPslHzHDHzkvF8jCIlZ0&#xD;
+n+zMszTXJfCEFIkUdCImqDRFBlkRXvRKtzP/HjNGvxh14ZDAYhAYqQvbzRwLi7ITdOAIkhZ4L/qN&#xD;
+bQ9S1y0lgNh0iQdMVcgpk0R9QUyH6/zTJS7/elWYG7qm5XVVDuCptP0aSnmqrvzSxpCTp1bmtePX&#xD;
+Dl70bmtvkXSrzMXq342oqqoLEBR2gB4fq7YqZeyKNyVi8wg7RJM4e49p0W6wOTZdVMOieZMpTU4y&#xD;
+b67ZRQIDAQAB&#xD;
+</ns3:rsa-public-key>
+        </ns3:client-credentials-in-use>
+        <ns3:server-credentials-in-use>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuaxd8ldCfEgIXFRuIoHY7a/2O6sJFaoA&#xD;
++mbSl0/nH8QcZu2BnfFlyr927aCYipbTY2ns/wO4BeZHQQcIMm7Z6HPTHPslHzHDHzkvF8jCIlZ0&#xD;
+n+zMszTXJfCEFIkUdCImqDRFBlkRXvRKtzP/HjNGvxh14ZDAYhAYqQvbzRwLi7ITdOAIkhZ4L/qN&#xD;
+bQ9S1y0lgNh0iQdMVcgpk0R9QUyH6/zTJS7/elWYG7qm5XVVDuCptP0aSnmqrvzSxpCTp1bmtePX&#xD;
+Dl70bmtvkXSrzMXq342oqqoLEBR2gB4fq7YqZeyKNyVi8wg7RJM4e49p0W6wOTZdVMOieZMpTU4y&#xD;
+b67ZRQIDAQAB&#xD;
+</ns3:rsa-public-key>
+        </ns3:server-credentials-in-use>
+    </ns3:host>
+    <ns3:host>
+        <ns2:apis-implemented>
+            <ns13:imobility-cnr version="1.0.0">
+                <ns13:http-security>
+                    <ns5:client-auth-methods>
+                        <ns33:httpsig/>
+                        <ns31:tlscert allows-self-signed="true"/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns34:httpsig/>
+                        <ns35:tlscert/>
+                    </ns5:server-auth-methods>
+                </ns13:http-security>
+                <ns13:url>https://mobility.vilniustech.lt/mobility/ewp/mobility_in/cnr</ns13:url>
+                <ns13:max-omobility-ids>1</ns13:max-omobility-ids>
+            </ns13:imobility-cnr>
+        </ns2:apis-implemented>
+        <ns3:institutions-covered>
+            <ns2:hei id="vgtu.lt">
+                <ns2:other-id type="pic">9.4966851E8</ns2:other-id>
+                <ns2:other-id type="erasmus">LT VILNIUS02</ns2:other-id>
+                <ns2:name xml:lang="lt">VILNIUS GEDIMINAS TECHNICAL UNIVERSITY (VILNIUS TECH)</ns2:name>
+                <ns2:name xml:lang="en">VILNIUS GEDIMINAS TECHNICAL UNIVERSITY (VILNIUS TECH)</ns2:name>
+            </ns2:hei>
+        </ns3:institutions-covered>
+        <ns3:client-credentials-in-use>
+            <ns3:certificate>MIIFpjCCA46gAwIBAgICEBYwDQYJKoZIhvcNAQELBQAwgawxCzAJBgNVBAYTAkFUMQ8wDQYDVQQI&#xD;
+DAZWaWVubmExJzAlBgNVBAoMHlNPUCBIaWxtYmF1ZXIgJiBNYXViZXJnZXIgR21iSDEkMCIGA1UE&#xD;
+CwwbU09QIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MRwwGgYDVQQDDBNTT1AgSW50ZXJtZWRpYXRl&#xD;
+IENBMR8wHQYJKoZIhvcNAQkBFhBvZmZpY2VAc29wLmNvLmF0MB4XDTIxMTIwMjEwMjAwM1oXDTQ5&#xD;
+MDQxODEwMjAwM1owgaUxCzAJBgNVBAYTAkxUMRAwDgYDVQQIDAdWaWxuaXVzMScwJQYDVQQKDB5T&#xD;
+T1AgSGlsbWJhdWVyICYgTWF1YmVyZ2VyIEdtYkgxETAPBgNVBAsMCEVXUCBjZXJ0MSAwHgYDVQQD&#xD;
+DBdtb2JpbGl0eS52aWxuaXVzdGVjaC5sdDEmMCQGCSqGSIb3DQEJARYXZ2VvcmcuamFpZGxlckBz&#xD;
+b3AuY28uYXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC5rF3yV0J8SAhcVG4igdjt&#xD;
+r/Y7qwkVqgD6ZtKXT+cfxBxm7YGd8WXKv3btoJiKltNjaez/A7gF5kdBBwgybtnoc9Mc+yUfMcMf&#xD;
+OS8XyMIiVnSf7MyzNNcl8IQUiRR0IiaoNEUGWRFe9Eq3M/8eM0a/GHXhkMBiEBipC9vNHAuLshN0&#xD;
+4AiSFngv+o1tD1LXLSWA2HSJB0xVyCmTRH1BTIfr/NMlLv96VZgbuqbldVUO4Km0/RpKeaqu/NLG&#xD;
+kJOnVua149cOXvRua2+RdKvMxerfjaiqqgsQFHaAHh+rtipl7Io3JWLzCDtEkzh7j2nRbrA5Nl1U&#xD;
+w6J5kylNTjJvrtlFAgMBAAGjgdYwgdMwCQYDVR0TBAIwADARBglghkgBhvhCAQEEBAMCBeAwOgYJ&#xD;
+YIZIAYb4QgENBC0WK09wZW5TU0wgR2VuZXJhdGVkIENsaWVudC9TZXJ2ZXIgQ2VydGlmaWNhdGUw&#xD;
+HQYDVR0OBBYEFN0+2WFOCEfF8PPgv+flhLG50Mk/MB8GA1UdIwQYMBaAFOrubEyAPtoa5AsugeCS&#xD;
+qpgFjmjlMA4GA1UdDwEB/wQEAwIF4DAnBgNVHSUEIDAeBggrBgEFBQcDAQYIKwYBBQUHAwIGCCsG&#xD;
+AQUFBwMEMA0GCSqGSIb3DQEBCwUAA4ICAQBlIFtrAsCKMayqhUbkuR2O9qptYqg+I3bp9RcBOuP+&#xD;
+8UenSrejuVqYisMfvSfvSx6orgrM9310tGXVVF8cNlLp5ewOsvLlIfDHNX1Hbqa9PSpIoOx0zQMF&#xD;
+w0bzpTnWoxiKjMztIgS/WUcHit1f/aLaU15Nv7+Pj8HlVKKHkhSVhGKEtrtwtdZ5xp3xIGv0KNoD&#xD;
+0SMnf/Dsd86EwfL7Gi4F4brwrNkGW4f7uxe7tGa68C1azSleJQbM46wLplDheuYQPqoCchS+ZZns&#xD;
+fFY1odC1ddvbHH+Yt8mqaEdUOjLUMSTCqTM1yLYFt9IVQq2tLYkUKcOX6+P5kvl7Sx+Bz52FUjWw&#xD;
+FyezD1CAa8gMjA7uumYHm24ZncTwESYV1/sjBp/p1P2LEkwUWSpCSlnoVAuZvX1G37bRMCaH3Rae&#xD;
+B4Ukn5oTpMeOYklW1JlVd5V6KP6ZP2+J/fRxyDD2o/WS1BY5/Mh7mwGdSWVEaaa6TZK1RWnsAeYR&#xD;
+bFZnjLK85NcFopY8c13Fbeg1FmbQaMjH7vfhWMd1jS8em0Lqe67as0IsX5SFF5Q5wr/A8lT84oku&#xD;
+TT5xtlFj3g80GLbeCarqUHHk5iBC6po6ENa7OZ8sjD30ACAVF8K+CuYCrX6IvUp9CB+xzS3ZNDzA&#xD;
+tzyfUORMKPHIow//ZQWPwhKoobvz+th95w==&#xD;
+</ns3:certificate>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuaxd8ldCfEgIXFRuIoHY7a/2O6sJFaoA&#xD;
++mbSl0/nH8QcZu2BnfFlyr927aCYipbTY2ns/wO4BeZHQQcIMm7Z6HPTHPslHzHDHzkvF8jCIlZ0&#xD;
+n+zMszTXJfCEFIkUdCImqDRFBlkRXvRKtzP/HjNGvxh14ZDAYhAYqQvbzRwLi7ITdOAIkhZ4L/qN&#xD;
+bQ9S1y0lgNh0iQdMVcgpk0R9QUyH6/zTJS7/elWYG7qm5XVVDuCptP0aSnmqrvzSxpCTp1bmtePX&#xD;
+Dl70bmtvkXSrzMXq342oqqoLEBR2gB4fq7YqZeyKNyVi8wg7RJM4e49p0W6wOTZdVMOieZMpTU4y&#xD;
+b67ZRQIDAQAB&#xD;
+</ns3:rsa-public-key>
+        </ns3:client-credentials-in-use>
+        <ns3:server-credentials-in-use>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuaxd8ldCfEgIXFRuIoHY7a/2O6sJFaoA&#xD;
++mbSl0/nH8QcZu2BnfFlyr927aCYipbTY2ns/wO4BeZHQQcIMm7Z6HPTHPslHzHDHzkvF8jCIlZ0&#xD;
+n+zMszTXJfCEFIkUdCImqDRFBlkRXvRKtzP/HjNGvxh14ZDAYhAYqQvbzRwLi7ITdOAIkhZ4L/qN&#xD;
+bQ9S1y0lgNh0iQdMVcgpk0R9QUyH6/zTJS7/elWYG7qm5XVVDuCptP0aSnmqrvzSxpCTp1bmtePX&#xD;
+Dl70bmtvkXSrzMXq342oqqoLEBR2gB4fq7YqZeyKNyVi8wg7RJM4e49p0W6wOTZdVMOieZMpTU4y&#xD;
+b67ZRQIDAQAB&#xD;
+</ns3:rsa-public-key>
+        </ns3:server-credentials-in-use>
+    </ns3:host>
+    <ns3:host>
+        <ns2:apis-implemented>
+            <ns14:imobilities version="1.0.0">
+                <ns14:http-security>
+                    <ns5:client-auth-methods>
+                        <ns33:httpsig/>
+                        <ns31:tlscert allows-self-signed="true"/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns34:httpsig/>
+                        <ns35:tlscert/>
+                    </ns5:server-auth-methods>
+                </ns14:http-security>
+                <ns14:get-url>https://mobility.vilniustech.lt/mobility/ewp/mobility_in/get</ns14:get-url>
+                <ns14:max-omobility-ids>1</ns14:max-omobility-ids>
+                <ns14:sends-notifications/>
+            </ns14:imobilities>
+        </ns2:apis-implemented>
+        <ns3:institutions-covered>
+            <ns2:hei id="vgtu.lt">
+                <ns2:other-id type="pic">9.4966851E8</ns2:other-id>
+                <ns2:other-id type="erasmus">LT VILNIUS02</ns2:other-id>
+                <ns2:name xml:lang="lt">VILNIUS GEDIMINAS TECHNICAL UNIVERSITY (VILNIUS TECH)</ns2:name>
+                <ns2:name xml:lang="en">VILNIUS GEDIMINAS TECHNICAL UNIVERSITY (VILNIUS TECH)</ns2:name>
+            </ns2:hei>
+        </ns3:institutions-covered>
+        <ns3:client-credentials-in-use>
+            <ns3:certificate>MIIFpjCCA46gAwIBAgICEBYwDQYJKoZIhvcNAQELBQAwgawxCzAJBgNVBAYTAkFUMQ8wDQYDVQQI&#xD;
+DAZWaWVubmExJzAlBgNVBAoMHlNPUCBIaWxtYmF1ZXIgJiBNYXViZXJnZXIgR21iSDEkMCIGA1UE&#xD;
+CwwbU09QIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MRwwGgYDVQQDDBNTT1AgSW50ZXJtZWRpYXRl&#xD;
+IENBMR8wHQYJKoZIhvcNAQkBFhBvZmZpY2VAc29wLmNvLmF0MB4XDTIxMTIwMjEwMjAwM1oXDTQ5&#xD;
+MDQxODEwMjAwM1owgaUxCzAJBgNVBAYTAkxUMRAwDgYDVQQIDAdWaWxuaXVzMScwJQYDVQQKDB5T&#xD;
+T1AgSGlsbWJhdWVyICYgTWF1YmVyZ2VyIEdtYkgxETAPBgNVBAsMCEVXUCBjZXJ0MSAwHgYDVQQD&#xD;
+DBdtb2JpbGl0eS52aWxuaXVzdGVjaC5sdDEmMCQGCSqGSIb3DQEJARYXZ2VvcmcuamFpZGxlckBz&#xD;
+b3AuY28uYXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC5rF3yV0J8SAhcVG4igdjt&#xD;
+r/Y7qwkVqgD6ZtKXT+cfxBxm7YGd8WXKv3btoJiKltNjaez/A7gF5kdBBwgybtnoc9Mc+yUfMcMf&#xD;
+OS8XyMIiVnSf7MyzNNcl8IQUiRR0IiaoNEUGWRFe9Eq3M/8eM0a/GHXhkMBiEBipC9vNHAuLshN0&#xD;
+4AiSFngv+o1tD1LXLSWA2HSJB0xVyCmTRH1BTIfr/NMlLv96VZgbuqbldVUO4Km0/RpKeaqu/NLG&#xD;
+kJOnVua149cOXvRua2+RdKvMxerfjaiqqgsQFHaAHh+rtipl7Io3JWLzCDtEkzh7j2nRbrA5Nl1U&#xD;
+w6J5kylNTjJvrtlFAgMBAAGjgdYwgdMwCQYDVR0TBAIwADARBglghkgBhvhCAQEEBAMCBeAwOgYJ&#xD;
+YIZIAYb4QgENBC0WK09wZW5TU0wgR2VuZXJhdGVkIENsaWVudC9TZXJ2ZXIgQ2VydGlmaWNhdGUw&#xD;
+HQYDVR0OBBYEFN0+2WFOCEfF8PPgv+flhLG50Mk/MB8GA1UdIwQYMBaAFOrubEyAPtoa5AsugeCS&#xD;
+qpgFjmjlMA4GA1UdDwEB/wQEAwIF4DAnBgNVHSUEIDAeBggrBgEFBQcDAQYIKwYBBQUHAwIGCCsG&#xD;
+AQUFBwMEMA0GCSqGSIb3DQEBCwUAA4ICAQBlIFtrAsCKMayqhUbkuR2O9qptYqg+I3bp9RcBOuP+&#xD;
+8UenSrejuVqYisMfvSfvSx6orgrM9310tGXVVF8cNlLp5ewOsvLlIfDHNX1Hbqa9PSpIoOx0zQMF&#xD;
+w0bzpTnWoxiKjMztIgS/WUcHit1f/aLaU15Nv7+Pj8HlVKKHkhSVhGKEtrtwtdZ5xp3xIGv0KNoD&#xD;
+0SMnf/Dsd86EwfL7Gi4F4brwrNkGW4f7uxe7tGa68C1azSleJQbM46wLplDheuYQPqoCchS+ZZns&#xD;
+fFY1odC1ddvbHH+Yt8mqaEdUOjLUMSTCqTM1yLYFt9IVQq2tLYkUKcOX6+P5kvl7Sx+Bz52FUjWw&#xD;
+FyezD1CAa8gMjA7uumYHm24ZncTwESYV1/sjBp/p1P2LEkwUWSpCSlnoVAuZvX1G37bRMCaH3Rae&#xD;
+B4Ukn5oTpMeOYklW1JlVd5V6KP6ZP2+J/fRxyDD2o/WS1BY5/Mh7mwGdSWVEaaa6TZK1RWnsAeYR&#xD;
+bFZnjLK85NcFopY8c13Fbeg1FmbQaMjH7vfhWMd1jS8em0Lqe67as0IsX5SFF5Q5wr/A8lT84oku&#xD;
+TT5xtlFj3g80GLbeCarqUHHk5iBC6po6ENa7OZ8sjD30ACAVF8K+CuYCrX6IvUp9CB+xzS3ZNDzA&#xD;
+tzyfUORMKPHIow//ZQWPwhKoobvz+th95w==&#xD;
+</ns3:certificate>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuaxd8ldCfEgIXFRuIoHY7a/2O6sJFaoA&#xD;
++mbSl0/nH8QcZu2BnfFlyr927aCYipbTY2ns/wO4BeZHQQcIMm7Z6HPTHPslHzHDHzkvF8jCIlZ0&#xD;
+n+zMszTXJfCEFIkUdCImqDRFBlkRXvRKtzP/HjNGvxh14ZDAYhAYqQvbzRwLi7ITdOAIkhZ4L/qN&#xD;
+bQ9S1y0lgNh0iQdMVcgpk0R9QUyH6/zTJS7/elWYG7qm5XVVDuCptP0aSnmqrvzSxpCTp1bmtePX&#xD;
+Dl70bmtvkXSrzMXq342oqqoLEBR2gB4fq7YqZeyKNyVi8wg7RJM4e49p0W6wOTZdVMOieZMpTU4y&#xD;
+b67ZRQIDAQAB&#xD;
+</ns3:rsa-public-key>
+        </ns3:client-credentials-in-use>
+        <ns3:server-credentials-in-use>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuaxd8ldCfEgIXFRuIoHY7a/2O6sJFaoA&#xD;
++mbSl0/nH8QcZu2BnfFlyr927aCYipbTY2ns/wO4BeZHQQcIMm7Z6HPTHPslHzHDHzkvF8jCIlZ0&#xD;
+n+zMszTXJfCEFIkUdCImqDRFBlkRXvRKtzP/HjNGvxh14ZDAYhAYqQvbzRwLi7ITdOAIkhZ4L/qN&#xD;
+bQ9S1y0lgNh0iQdMVcgpk0R9QUyH6/zTJS7/elWYG7qm5XVVDuCptP0aSnmqrvzSxpCTp1bmtePX&#xD;
+Dl70bmtvkXSrzMXq342oqqoLEBR2gB4fq7YqZeyKNyVi8wg7RJM4e49p0W6wOTZdVMOieZMpTU4y&#xD;
+b67ZRQIDAQAB&#xD;
+</ns3:rsa-public-key>
+        </ns3:server-credentials-in-use>
+    </ns3:host>
+    <ns3:host>
+        <ns2:apis-implemented>
+            <ns17:omobility-cnr version="1.0.0">
+                <ns17:http-security>
+                    <ns5:client-auth-methods>
+                        <ns33:httpsig/>
+                        <ns31:tlscert allows-self-signed="true"/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns34:httpsig/>
+                        <ns35:tlscert/>
+                    </ns5:server-auth-methods>
+                </ns17:http-security>
+                <ns17:url>https://mobility.vilniustech.lt/mobility/ewp/mobility_out/cnr</ns17:url>
+                <ns17:max-omobility-ids>1</ns17:max-omobility-ids>
+            </ns17:omobility-cnr>
+        </ns2:apis-implemented>
+        <ns3:institutions-covered>
+            <ns2:hei id="vgtu.lt">
+                <ns2:other-id type="pic">9.4966851E8</ns2:other-id>
+                <ns2:other-id type="erasmus">LT VILNIUS02</ns2:other-id>
+                <ns2:name xml:lang="lt">VILNIUS GEDIMINAS TECHNICAL UNIVERSITY (VILNIUS TECH)</ns2:name>
+                <ns2:name xml:lang="en">VILNIUS GEDIMINAS TECHNICAL UNIVERSITY (VILNIUS TECH)</ns2:name>
+            </ns2:hei>
+        </ns3:institutions-covered>
+        <ns3:client-credentials-in-use>
+            <ns3:certificate>MIIFpjCCA46gAwIBAgICEBYwDQYJKoZIhvcNAQELBQAwgawxCzAJBgNVBAYTAkFUMQ8wDQYDVQQI&#xD;
+DAZWaWVubmExJzAlBgNVBAoMHlNPUCBIaWxtYmF1ZXIgJiBNYXViZXJnZXIgR21iSDEkMCIGA1UE&#xD;
+CwwbU09QIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MRwwGgYDVQQDDBNTT1AgSW50ZXJtZWRpYXRl&#xD;
+IENBMR8wHQYJKoZIhvcNAQkBFhBvZmZpY2VAc29wLmNvLmF0MB4XDTIxMTIwMjEwMjAwM1oXDTQ5&#xD;
+MDQxODEwMjAwM1owgaUxCzAJBgNVBAYTAkxUMRAwDgYDVQQIDAdWaWxuaXVzMScwJQYDVQQKDB5T&#xD;
+T1AgSGlsbWJhdWVyICYgTWF1YmVyZ2VyIEdtYkgxETAPBgNVBAsMCEVXUCBjZXJ0MSAwHgYDVQQD&#xD;
+DBdtb2JpbGl0eS52aWxuaXVzdGVjaC5sdDEmMCQGCSqGSIb3DQEJARYXZ2VvcmcuamFpZGxlckBz&#xD;
+b3AuY28uYXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC5rF3yV0J8SAhcVG4igdjt&#xD;
+r/Y7qwkVqgD6ZtKXT+cfxBxm7YGd8WXKv3btoJiKltNjaez/A7gF5kdBBwgybtnoc9Mc+yUfMcMf&#xD;
+OS8XyMIiVnSf7MyzNNcl8IQUiRR0IiaoNEUGWRFe9Eq3M/8eM0a/GHXhkMBiEBipC9vNHAuLshN0&#xD;
+4AiSFngv+o1tD1LXLSWA2HSJB0xVyCmTRH1BTIfr/NMlLv96VZgbuqbldVUO4Km0/RpKeaqu/NLG&#xD;
+kJOnVua149cOXvRua2+RdKvMxerfjaiqqgsQFHaAHh+rtipl7Io3JWLzCDtEkzh7j2nRbrA5Nl1U&#xD;
+w6J5kylNTjJvrtlFAgMBAAGjgdYwgdMwCQYDVR0TBAIwADARBglghkgBhvhCAQEEBAMCBeAwOgYJ&#xD;
+YIZIAYb4QgENBC0WK09wZW5TU0wgR2VuZXJhdGVkIENsaWVudC9TZXJ2ZXIgQ2VydGlmaWNhdGUw&#xD;
+HQYDVR0OBBYEFN0+2WFOCEfF8PPgv+flhLG50Mk/MB8GA1UdIwQYMBaAFOrubEyAPtoa5AsugeCS&#xD;
+qpgFjmjlMA4GA1UdDwEB/wQEAwIF4DAnBgNVHSUEIDAeBggrBgEFBQcDAQYIKwYBBQUHAwIGCCsG&#xD;
+AQUFBwMEMA0GCSqGSIb3DQEBCwUAA4ICAQBlIFtrAsCKMayqhUbkuR2O9qptYqg+I3bp9RcBOuP+&#xD;
+8UenSrejuVqYisMfvSfvSx6orgrM9310tGXVVF8cNlLp5ewOsvLlIfDHNX1Hbqa9PSpIoOx0zQMF&#xD;
+w0bzpTnWoxiKjMztIgS/WUcHit1f/aLaU15Nv7+Pj8HlVKKHkhSVhGKEtrtwtdZ5xp3xIGv0KNoD&#xD;
+0SMnf/Dsd86EwfL7Gi4F4brwrNkGW4f7uxe7tGa68C1azSleJQbM46wLplDheuYQPqoCchS+ZZns&#xD;
+fFY1odC1ddvbHH+Yt8mqaEdUOjLUMSTCqTM1yLYFt9IVQq2tLYkUKcOX6+P5kvl7Sx+Bz52FUjWw&#xD;
+FyezD1CAa8gMjA7uumYHm24ZncTwESYV1/sjBp/p1P2LEkwUWSpCSlnoVAuZvX1G37bRMCaH3Rae&#xD;
+B4Ukn5oTpMeOYklW1JlVd5V6KP6ZP2+J/fRxyDD2o/WS1BY5/Mh7mwGdSWVEaaa6TZK1RWnsAeYR&#xD;
+bFZnjLK85NcFopY8c13Fbeg1FmbQaMjH7vfhWMd1jS8em0Lqe67as0IsX5SFF5Q5wr/A8lT84oku&#xD;
+TT5xtlFj3g80GLbeCarqUHHk5iBC6po6ENa7OZ8sjD30ACAVF8K+CuYCrX6IvUp9CB+xzS3ZNDzA&#xD;
+tzyfUORMKPHIow//ZQWPwhKoobvz+th95w==&#xD;
+</ns3:certificate>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuaxd8ldCfEgIXFRuIoHY7a/2O6sJFaoA&#xD;
++mbSl0/nH8QcZu2BnfFlyr927aCYipbTY2ns/wO4BeZHQQcIMm7Z6HPTHPslHzHDHzkvF8jCIlZ0&#xD;
+n+zMszTXJfCEFIkUdCImqDRFBlkRXvRKtzP/HjNGvxh14ZDAYhAYqQvbzRwLi7ITdOAIkhZ4L/qN&#xD;
+bQ9S1y0lgNh0iQdMVcgpk0R9QUyH6/zTJS7/elWYG7qm5XVVDuCptP0aSnmqrvzSxpCTp1bmtePX&#xD;
+Dl70bmtvkXSrzMXq342oqqoLEBR2gB4fq7YqZeyKNyVi8wg7RJM4e49p0W6wOTZdVMOieZMpTU4y&#xD;
+b67ZRQIDAQAB&#xD;
+</ns3:rsa-public-key>
+        </ns3:client-credentials-in-use>
+        <ns3:server-credentials-in-use>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuaxd8ldCfEgIXFRuIoHY7a/2O6sJFaoA&#xD;
++mbSl0/nH8QcZu2BnfFlyr927aCYipbTY2ns/wO4BeZHQQcIMm7Z6HPTHPslHzHDHzkvF8jCIlZ0&#xD;
+n+zMszTXJfCEFIkUdCImqDRFBlkRXvRKtzP/HjNGvxh14ZDAYhAYqQvbzRwLi7ITdOAIkhZ4L/qN&#xD;
+bQ9S1y0lgNh0iQdMVcgpk0R9QUyH6/zTJS7/elWYG7qm5XVVDuCptP0aSnmqrvzSxpCTp1bmtePX&#xD;
+Dl70bmtvkXSrzMXq342oqqoLEBR2gB4fq7YqZeyKNyVi8wg7RJM4e49p0W6wOTZdVMOieZMpTU4y&#xD;
+b67ZRQIDAQAB&#xD;
+</ns3:rsa-public-key>
+        </ns3:server-credentials-in-use>
+    </ns3:host>
+    <ns3:host>
+        <ns2:apis-implemented>
+            <ns6:factsheet version="0.3.0">
+                <ns6:http-security>
+                    <ns5:client-auth-methods>
+                        <ns33:httpsig/>
+                        <ns31:tlscert allows-self-signed="true"/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns34:httpsig/>
+                        <ns35:tlscert/>
+                    </ns5:server-auth-methods>
+                </ns6:http-security>
+                <ns6:url>https://mobility.vilniustech.lt/mobility/ewp/factsheets</ns6:url>
+                <ns6:max-hei-ids>3</ns6:max-hei-ids>
+            </ns6:factsheet>
+        </ns2:apis-implemented>
+        <ns3:institutions-covered>
+            <ns2:hei id="vgtu.lt">
+                <ns2:other-id type="pic">9.4966851E8</ns2:other-id>
+                <ns2:other-id type="erasmus">LT VILNIUS02</ns2:other-id>
+                <ns2:name xml:lang="lt">VILNIUS GEDIMINAS TECHNICAL UNIVERSITY (VILNIUS TECH)</ns2:name>
+                <ns2:name xml:lang="en">VILNIUS GEDIMINAS TECHNICAL UNIVERSITY (VILNIUS TECH)</ns2:name>
+            </ns2:hei>
+        </ns3:institutions-covered>
+        <ns3:client-credentials-in-use>
+            <ns3:certificate>MIIFpjCCA46gAwIBAgICEBYwDQYJKoZIhvcNAQELBQAwgawxCzAJBgNVBAYTAkFUMQ8wDQYDVQQI&#xD;
+DAZWaWVubmExJzAlBgNVBAoMHlNPUCBIaWxtYmF1ZXIgJiBNYXViZXJnZXIgR21iSDEkMCIGA1UE&#xD;
+CwwbU09QIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MRwwGgYDVQQDDBNTT1AgSW50ZXJtZWRpYXRl&#xD;
+IENBMR8wHQYJKoZIhvcNAQkBFhBvZmZpY2VAc29wLmNvLmF0MB4XDTIxMTIwMjEwMjAwM1oXDTQ5&#xD;
+MDQxODEwMjAwM1owgaUxCzAJBgNVBAYTAkxUMRAwDgYDVQQIDAdWaWxuaXVzMScwJQYDVQQKDB5T&#xD;
+T1AgSGlsbWJhdWVyICYgTWF1YmVyZ2VyIEdtYkgxETAPBgNVBAsMCEVXUCBjZXJ0MSAwHgYDVQQD&#xD;
+DBdtb2JpbGl0eS52aWxuaXVzdGVjaC5sdDEmMCQGCSqGSIb3DQEJARYXZ2VvcmcuamFpZGxlckBz&#xD;
+b3AuY28uYXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC5rF3yV0J8SAhcVG4igdjt&#xD;
+r/Y7qwkVqgD6ZtKXT+cfxBxm7YGd8WXKv3btoJiKltNjaez/A7gF5kdBBwgybtnoc9Mc+yUfMcMf&#xD;
+OS8XyMIiVnSf7MyzNNcl8IQUiRR0IiaoNEUGWRFe9Eq3M/8eM0a/GHXhkMBiEBipC9vNHAuLshN0&#xD;
+4AiSFngv+o1tD1LXLSWA2HSJB0xVyCmTRH1BTIfr/NMlLv96VZgbuqbldVUO4Km0/RpKeaqu/NLG&#xD;
+kJOnVua149cOXvRua2+RdKvMxerfjaiqqgsQFHaAHh+rtipl7Io3JWLzCDtEkzh7j2nRbrA5Nl1U&#xD;
+w6J5kylNTjJvrtlFAgMBAAGjgdYwgdMwCQYDVR0TBAIwADARBglghkgBhvhCAQEEBAMCBeAwOgYJ&#xD;
+YIZIAYb4QgENBC0WK09wZW5TU0wgR2VuZXJhdGVkIENsaWVudC9TZXJ2ZXIgQ2VydGlmaWNhdGUw&#xD;
+HQYDVR0OBBYEFN0+2WFOCEfF8PPgv+flhLG50Mk/MB8GA1UdIwQYMBaAFOrubEyAPtoa5AsugeCS&#xD;
+qpgFjmjlMA4GA1UdDwEB/wQEAwIF4DAnBgNVHSUEIDAeBggrBgEFBQcDAQYIKwYBBQUHAwIGCCsG&#xD;
+AQUFBwMEMA0GCSqGSIb3DQEBCwUAA4ICAQBlIFtrAsCKMayqhUbkuR2O9qptYqg+I3bp9RcBOuP+&#xD;
+8UenSrejuVqYisMfvSfvSx6orgrM9310tGXVVF8cNlLp5ewOsvLlIfDHNX1Hbqa9PSpIoOx0zQMF&#xD;
+w0bzpTnWoxiKjMztIgS/WUcHit1f/aLaU15Nv7+Pj8HlVKKHkhSVhGKEtrtwtdZ5xp3xIGv0KNoD&#xD;
+0SMnf/Dsd86EwfL7Gi4F4brwrNkGW4f7uxe7tGa68C1azSleJQbM46wLplDheuYQPqoCchS+ZZns&#xD;
+fFY1odC1ddvbHH+Yt8mqaEdUOjLUMSTCqTM1yLYFt9IVQq2tLYkUKcOX6+P5kvl7Sx+Bz52FUjWw&#xD;
+FyezD1CAa8gMjA7uumYHm24ZncTwESYV1/sjBp/p1P2LEkwUWSpCSlnoVAuZvX1G37bRMCaH3Rae&#xD;
+B4Ukn5oTpMeOYklW1JlVd5V6KP6ZP2+J/fRxyDD2o/WS1BY5/Mh7mwGdSWVEaaa6TZK1RWnsAeYR&#xD;
+bFZnjLK85NcFopY8c13Fbeg1FmbQaMjH7vfhWMd1jS8em0Lqe67as0IsX5SFF5Q5wr/A8lT84oku&#xD;
+TT5xtlFj3g80GLbeCarqUHHk5iBC6po6ENa7OZ8sjD30ACAVF8K+CuYCrX6IvUp9CB+xzS3ZNDzA&#xD;
+tzyfUORMKPHIow//ZQWPwhKoobvz+th95w==&#xD;
+</ns3:certificate>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuaxd8ldCfEgIXFRuIoHY7a/2O6sJFaoA&#xD;
++mbSl0/nH8QcZu2BnfFlyr927aCYipbTY2ns/wO4BeZHQQcIMm7Z6HPTHPslHzHDHzkvF8jCIlZ0&#xD;
+n+zMszTXJfCEFIkUdCImqDRFBlkRXvRKtzP/HjNGvxh14ZDAYhAYqQvbzRwLi7ITdOAIkhZ4L/qN&#xD;
+bQ9S1y0lgNh0iQdMVcgpk0R9QUyH6/zTJS7/elWYG7qm5XVVDuCptP0aSnmqrvzSxpCTp1bmtePX&#xD;
+Dl70bmtvkXSrzMXq342oqqoLEBR2gB4fq7YqZeyKNyVi8wg7RJM4e49p0W6wOTZdVMOieZMpTU4y&#xD;
+b67ZRQIDAQAB&#xD;
+</ns3:rsa-public-key>
+        </ns3:client-credentials-in-use>
+        <ns3:server-credentials-in-use>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuaxd8ldCfEgIXFRuIoHY7a/2O6sJFaoA&#xD;
++mbSl0/nH8QcZu2BnfFlyr927aCYipbTY2ns/wO4BeZHQQcIMm7Z6HPTHPslHzHDHzkvF8jCIlZ0&#xD;
+n+zMszTXJfCEFIkUdCImqDRFBlkRXvRKtzP/HjNGvxh14ZDAYhAYqQvbzRwLi7ITdOAIkhZ4L/qN&#xD;
+bQ9S1y0lgNh0iQdMVcgpk0R9QUyH6/zTJS7/elWYG7qm5XVVDuCptP0aSnmqrvzSxpCTp1bmtePX&#xD;
+Dl70bmtvkXSrzMXq342oqqoLEBR2gB4fq7YqZeyKNyVi8wg7RJM4e49p0W6wOTZdVMOieZMpTU4y&#xD;
+b67ZRQIDAQAB&#xD;
+</ns3:rsa-public-key>
+        </ns3:server-credentials-in-use>
+    </ns3:host>
 </ns3:manifest>
