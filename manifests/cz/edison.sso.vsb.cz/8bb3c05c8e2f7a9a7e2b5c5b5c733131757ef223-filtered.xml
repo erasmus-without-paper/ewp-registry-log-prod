@@ -46,6 +46,20 @@
             <f:discovery version="5.0.0">
                 <f:url>https://edison.sso.vsb.cz/ewp/manifest.xml</f:url>
             </f:discovery>
+            <l:iias-approval version="1.0.0">
+                <l:http-security>
+                    <q:client-auth-methods>
+                        <c:tlscert allows-self-signed="true"/>
+                        <a:httpsig/>
+                    </q:client-auth-methods>
+                    <q:server-auth-methods>
+                        <e:tlscert/>
+                        <d:httpsig/>
+                    </q:server-auth-methods>
+                </l:http-security>
+                <l:url>https://edison.sso.vsb.cz/ewp/rest/iias/approval</l:url>
+                <l:max-iia-ids>10</l:max-iia-ids>
+            </l:iias-approval>
             <n:institutions version="2.2.0">
                 <n:http-security>
                     <q:client-auth-methods>
@@ -73,6 +87,48 @@
                 </h:http-security>
                 <h:url>https://edison.sso.vsb.cz/ewp/rest/echo</h:url>
             </h:echo>
+            <i:iia-approval-cnr version="1.0.0">
+                <i:http-security>
+                    <q:client-auth-methods>
+                        <c:tlscert allows-self-signed="true"/>
+                        <a:httpsig/>
+                    </q:client-auth-methods>
+                    <q:server-auth-methods>
+                        <e:tlscert/>
+                        <d:httpsig/>
+                    </q:server-auth-methods>
+                </i:http-security>
+                <i:url>https://edison.sso.vsb.cz/ewp/rest/iias/approval/cnr</i:url>
+            </i:iia-approval-cnr>
+            <t:iias version="6.0.1">
+                <t:http-security>
+                    <q:client-auth-methods>
+                        <c:tlscert allows-self-signed="true"/>
+                        <a:httpsig/>
+                    </q:client-auth-methods>
+                    <q:server-auth-methods>
+                        <e:tlscert/>
+                        <d:httpsig/>
+                    </q:server-auth-methods>
+                </t:http-security>
+                <t:get-url>https://edison.sso.vsb.cz/ewp/rest/iias/get</t:get-url>
+                <t:max-iia-ids>10</t:max-iia-ids>
+                <t:max-iia-codes>10</t:max-iia-codes>
+                <t:index-url>https://edison.sso.vsb.cz/ewp/rest/iias/index</t:index-url>
+            </t:iias>
+            <j:iia-cnr version="2.0.3">
+                <j:http-security>
+                    <q:client-auth-methods>
+                        <c:tlscert allows-self-signed="true"/>
+                        <a:httpsig/>
+                    </q:client-auth-methods>
+                    <q:server-auth-methods>
+                        <e:tlscert/>
+                        <d:httpsig/>
+                    </q:server-auth-methods>
+                </j:http-security>
+                <j:url>https://edison.sso.vsb.cz/ewp/rest/iias/cnr</j:url>
+            </j:iia-cnr>
         </w:apis-implemented>
         <x:institutions-covered>
             <w:hei id="vsb.cz">
