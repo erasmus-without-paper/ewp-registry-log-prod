@@ -1,0 +1,29 @@
+<manifest
+    xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v5"
+    xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
+    xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
+>
+    <host>
+        <ewp:admin-email>cm@rz.uni-freiburg.de</ewp:admin-email>
+        <r:apis-implemented>
+            <discovery
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v5/manifest-entry.xsd"
+                version="5.0.0"
+            >
+                <url>https://campus.uni-freiburg.de/emrex/manifest.xml</url>
+            </discovery>
+            <emrex-data-access-point
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-emrex-data-access-point/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <url>https://campus.uni-freiburg.de/hisinone/api/v1/cs/psv/emrex</url>
+                <name>Albert-Ludwigs-Universität Freiburg im Breisgau</name>
+                <country-code>DE</country-code>
+                <institution>Albert-Ludwigs-Universität Freiburg im Breisgau</institution>
+                <certificate>
+                    MIIEAzCCAuugAwIBAgIEURBkPTANBgkqhkiG9w0BAQsFADCBsTELMAkGA1UEBhMC REUxGzAZBgNVBAgTEkJhZGVuLVd1ZXJ0dGVtYmVyZzEdMBsGA1UEBxMURnJlaWJ1 cmcgaW0gQnJlaXNnYXUxLTArBgNVBAoTJEFsYmVydC1MdWR3aWdzLVVuaXZlcnNp dGFldCBGcmVpYnVyZzEWMBQGA1UECxMNUmVjaGVuemVudHJ1bTEfMB0GA1UEAxMW Y2FtcHVzLnVuaS1mcmVpYnVyZy5kZTAeFw0yMjAxMjcxMDA5NTJaFw0yMjA0Mjcx MDA5NTJaMIGxMQswCQYDVQQGEwJERTEbMBkGA1UECBMSQmFkZW4tV3VlcnR0ZW1i ZXJnMR0wGwYDVQQHExRGcmVpYnVyZyBpbSBCcmVpc2dhdTEtMCsGA1UEChMkQWxi ZXJ0LUx1ZHdpZ3MtVW5pdmVyc2l0YWV0IEZyZWlidXJnMRYwFAYDVQQLEw1SZWNo ZW56ZW50cnVtMR8wHQYDVQQDExZjYW1wdXMudW5pLWZyZWlidXJnLmRlMIIBIjAN BgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqOsOJ/PHNxy739ZgzjHZdfdZJtyO W8KHW6JPctNuXpOJCs8WOWL16nWkXlbqIKOHVJs//Z3kCDZl0vwB9xskWCPdytAS Blnsr653JmRaKyVen3mGa62+MxWxhyU0M9lLGenKIvtOUiAjbJpR1el/likN1/R6 Mo36BFPl/1MHvKW6cVzSId+XeuY3xrA8NO7OPxzC1HGErgo7r9LfZu5OU0bA3RpD g2Pf96xEkcgz5auzHi8G6JoKKyh4LvvJ8UyrZixvz+AXF7DaySurpGilXIGByB6u COeop153nQDu296B0HqUUaBU4IXa3QbgOB/V88z9b0O70ofryjD2ZNDZSQIDAQAB oyEwHzAdBgNVHQ4EFgQULBYYew44yv25+7dDuVLneS7xFjQwDQYJKoZIhvcNAQEL BQADggEBABBAL2aSsIuVWhAbDceex0D+egzB2lgogezzgovYPey4XlvUqSYujtPx PUcCS9wloQktY3fj276jggoMYy7f3JWGwmWZ9LIUoaJ1b0mK0IpfCn78J68N1H0I 2FQX1tJnc4jmGuV65kpld05VkliQXYe8ZF9I9bzBF/alt0XqtsKAo91V00m5j8zF 48KAgRvYqqURTOKwd+GwXUcX043Ceb4ok6KlNYjm25ogJUhJwOV8O04yrDkwRWig OSjZ63r196XWObkpj25JBaMNRt3WQYHXQbt7eBp7Tc1EgI52xq06wL6IP3kVUpOY ScnUkZd1zXD3yfCBpmQShuvsUbWogec=
+                </certificate>
+            </emrex-data-access-point>
+        </r:apis-implemented>
+    </host>
+</manifest>
