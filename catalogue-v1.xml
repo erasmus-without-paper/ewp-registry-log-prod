@@ -14129,7 +14129,7 @@
             <hei-id>hs-furtwangen.de</hei-id>
             <hei-id>hs-harz.de</hei-id>
             <hei-id>hwg-lu.de</hei-id>
-            <hei-id>hochschule-rhein-waal.de</hei-id>
+            <hei-id>uni-mainz.de</hei-id>
             <hei-id>hochschule-biberach.de</hei-id>
             <hei-id>b-tu.de</hei-id>
             <hei-id>hs-coburg.de</hei-id>
@@ -14142,7 +14142,6 @@
             <hei-id>sciencespobordeaux.fr</hei-id>
             <hei-id>univ-brest.fr</hei-id>
             <hei-id>psbedu.paris</hei-id>
-            <hei-id>hz.nl</hei-id>
             <hei-id>umontreal.ca</hei-id>
             <hei-id>uca.fr</hei-id>
             <hei-id>ut-capitole.fr</hei-id>
@@ -14152,6 +14151,7 @@
             <hei-id>univ-larochelle.fr</hei-id>
             <hei-id>tudublin.ie</hei-id>
             <hei-id>uni-bayreuth.de</hei-id>
+            <hei-id>mdh.se</hei-id>
             <hei-id>arcada.fi</hei-id>
             <hei-id>hof-university.de</hei-id>
             <hei-id>psl.eu</hei-id>
@@ -14164,6 +14164,7 @@
             <hei-id>urv.cat</hei-id>
             <hei-id>bfh.ch</hei-id>
             <hei-id>chalmers.se</hei-id>
+            <hei-id>ism.de</hei-id>
             <hei-id>cbs.dk</hei-id>
             <hei-id>howest.be</hei-id>
             <hei-id>uax.es</hei-id>
@@ -14171,7 +14172,6 @@
             <hei-id>han.nl</hei-id>
             <hei-id>univ-tlse2.fr</hei-id>
             <hei-id>bi.no</hei-id>
-            <hei-id>htwsaar.de</hei-id>
             <hei-id>aalto.fi</hei-id>
             <hei-id>univ-orleans.fr</hei-id>
             <hei-id>skema.edu</hei-id>
@@ -25367,7 +25367,7 @@
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
                 </in2:http-security>
-                <in2:url>https://hsrw-ewp.moveon4.de/v1/institution</in2:url>
+                <in2:url>https://jgumainz-ewp.moveon4.de/v1/institution</in2:url>
                 <in2:max-hei-ids>10</in2:max-hei-ids>
             </in2:institutions>
             <ou2:organizational-units version="2.1.1">
@@ -25382,7 +25382,7 @@
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
                 </ou2:http-security>
-                <ou2:url>https://hsrw-ewp.moveon4.de/v1/ounit</ou2:url>
+                <ou2:url>https://jgumainz-ewp.moveon4.de/v1/ounit</ou2:url>
                 <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
                 <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
             </ou2:organizational-units>
@@ -25401,10 +25401,10 @@
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
                 </ia6:http-security>
-                <ia6:get-url>https://hsrw-ewp.moveon4.de/v1/iia/get</ia6:get-url>
+                <ia6:get-url>https://jgumainz-ewp.moveon4.de/v1/iia/get</ia6:get-url>
                 <ia6:max-iia-ids>10</ia6:max-iia-ids>
                 <ia6:max-iia-codes>10</ia6:max-iia-codes>
-                <ia6:index-url>https://hsrw-ewp.moveon4.de/v1/iia/index</ia6:index-url>
+                <ia6:index-url>https://jgumainz-ewp.moveon4.de/v1/iia/index</ia6:index-url>
             </ia6:iias>
             <iac2:iia-cnr version="2.0.3">
                 <iac2:http-security>
@@ -25417,7 +25417,7 @@
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
                 </iac2:http-security>
-                <iac2:url>https://hsrw-ewp.moveon4.de/v1/iia/cnr</iac2:url>
+                <iac2:url>https://jgumainz-ewp.moveon4.de/v1/iia/cnr</iac2:url>
             </iac2:iia-cnr>
             <om1:omobilities
                 xmlns:om1="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd"
@@ -25434,8 +25434,8 @@
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
                 </om1:http-security>
-                <om1:get-url>https://hsrw-ewp.moveon4.de/v1/omobility/get</om1:get-url>
-                <om1:index-url>https://hsrw-ewp.moveon4.de/v1/omobility/index</om1:index-url>
+                <om1:get-url>https://jgumainz-ewp.moveon4.de/v1/omobility/get</om1:get-url>
+                <om1:index-url>https://jgumainz-ewp.moveon4.de/v1/omobility/index</om1:index-url>
                 <om1:max-omobility-ids>10</om1:max-omobility-ids>
                 <om1:sends-notifications/>
             </om1:omobilities>
@@ -25453,7 +25453,7 @@
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
                 </omc1:http-security>
-                <omc1:url>https://hsrw-ewp.moveon4.de/v1/omobility/cnr</omc1:url>
+                <omc1:url>https://jgumainz-ewp.moveon4.de/v1/omobility/cnr</omc1:url>
                 <omc1:max-omobility-ids>10</omc1:max-omobility-ids>
             </omc1:omobility-cnr>
             <im1:imobilities
@@ -25471,7 +25471,7 @@
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
                 </im1:http-security>
-                <im1:get-url>https://hsrw-ewp.moveon4.de/v1/imobility/get</im1:get-url>
+                <im1:get-url>https://jgumainz-ewp.moveon4.de/v1/imobility/get</im1:get-url>
                 <im1:max-omobility-ids>10</im1:max-omobility-ids>
                 <im1:sends-notifications/>
             </im1:imobilities>
@@ -25489,7 +25489,7 @@
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
                 </imc1:http-security>
-                <imc1:url>https://hsrw-ewp.moveon4.de/v1/imobility/cnr</imc1:url>
+                <imc1:url>https://jgumainz-ewp.moveon4.de/v1/imobility/cnr</imc1:url>
                 <imc1:max-omobility-ids>10</imc1:max-omobility-ids>
             </imc1:imobility-cnr>
             <iaa1:iias-approval
@@ -25507,7 +25507,7 @@
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
                 </iaa1:http-security>
-                <iaa1:url>https://hsrw-ewp.moveon4.de/v1/iia/approval/get</iaa1:url>
+                <iaa1:url>https://jgumainz-ewp.moveon4.de/v1/iia/approval/get</iaa1:url>
                 <iaa1:max-iia-ids>10</iaa1:max-iia-ids>
             </iaa1:iias-approval>
             <iaac1:iia-approval-cnr
@@ -25524,7 +25524,7 @@
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
                 </iaac1:http-security>
-                <iaac1:url>https://hsrw-ewp.moveon4.de/v1/iia/approval/cnr</iaac1:url>
+                <iaac1:url>https://jgumainz-ewp.moveon4.de/v1/iia/approval/cnr</iaac1:url>
             </iaac1:iia-approval-cnr>
             <oml1:omobility-las
                 xmlns:oml1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd"
@@ -25541,9 +25541,9 @@
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
                 </oml1:http-security>
-                <oml1:get-url>https://hsrw-ewp.moveon4.de/v1/la/get</oml1:get-url>
-                <oml1:index-url>https://hsrw-ewp.moveon4.de/v1/la/index</oml1:index-url>
-                <oml1:update-url>https://hsrw-ewp.moveon4.de/v1/la/update</oml1:update-url>
+                <oml1:get-url>https://jgumainz-ewp.moveon4.de/v1/la/get</oml1:get-url>
+                <oml1:index-url>https://jgumainz-ewp.moveon4.de/v1/la/index</oml1:index-url>
+                <oml1:update-url>https://jgumainz-ewp.moveon4.de/v1/la/update</oml1:update-url>
                 <oml1:max-omobility-ids>10</oml1:max-omobility-ids>
             </oml1:omobility-las>
             <omlc1:omobility-la-cnr
@@ -25560,12 +25560,29 @@
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
                 </omlc1:http-security>
-                <omlc1:url>https://hsrw-ewp.moveon4.de/v1/la/cnr</omlc1:url>
+                <omlc1:url>https://jgumainz-ewp.moveon4.de/v1/la/cnr</omlc1:url>
                 <omlc1:max-omobility-ids>10</omlc1:max-omobility-ids>
             </omlc1:omobility-la-cnr>
+            <f1:factsheet
+                xmlns:f1="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <f1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </f1:http-security>
+                <f1:url>https://jgumainz-ewp.moveon4.de/v1/factsheet/get</f1:url>
+                <f1:max-hei-ids>10</f1:max-hei-ids>
+            </f1:factsheet>
         </apis-implemented>
         <institutions-covered>
-            <hei-id>hochschule-rhein-waal.de</hei-id>
+            <hei-id>uni-mainz.de</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
@@ -27909,20 +27926,6 @@
         <ewp:admin-email>umesh@qs.com</ewp:admin-email>
         <apis-implemented/>
         <institutions-covered>
-            <hei-id>hz.nl</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
-            <rsa-public-key sha-256="e4c7f55c93dc6e16e192943079a33d85aeef3cd6a6eaec1fcb21ac676c009fbc"/>
-        </client-credentials-in-use>
-        <server-credentials-in-use>
-            <rsa-public-key sha-256="e4c7f55c93dc6e16e192943079a33d85aeef3cd6a6eaec1fcb21ac676c009fbc"/>
-        </server-credentials-in-use>
-    </host>
-    <host>
-        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-        <apis-implemented/>
-        <institutions-covered>
             <hei-id>umontreal.ca</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
@@ -29594,6 +29597,20 @@
         </apis-implemented>
         <institutions-covered>
             <hei-id>uni-bayreuth.de</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
+            <rsa-public-key sha-256="e4c7f55c93dc6e16e192943079a33d85aeef3cd6a6eaec1fcb21ac676c009fbc"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="e4c7f55c93dc6e16e192943079a33d85aeef3cd6a6eaec1fcb21ac676c009fbc"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+        <apis-implemented/>
+        <institutions-covered>
+            <hei-id>mdh.se</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
@@ -31803,6 +31820,20 @@
     </host>
     <host>
         <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+        <apis-implemented/>
+        <institutions-covered>
+            <hei-id>ism.de</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
+            <rsa-public-key sha-256="e4c7f55c93dc6e16e192943079a33d85aeef3cd6a6eaec1fcb21ac676c009fbc"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="e4c7f55c93dc6e16e192943079a33d85aeef3cd6a6eaec1fcb21ac676c009fbc"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
         <apis-implemented>
             <in2:institutions version="2.2.0">
                 <ewp:admin-email>umesh@qs.com</ewp:admin-email>
@@ -33141,192 +33172,6 @@
         </apis-implemented>
         <institutions-covered>
             <hei-id>bi.no</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
-            <rsa-public-key sha-256="e4c7f55c93dc6e16e192943079a33d85aeef3cd6a6eaec1fcb21ac676c009fbc"/>
-        </client-credentials-in-use>
-        <server-credentials-in-use>
-            <rsa-public-key sha-256="e4c7f55c93dc6e16e192943079a33d85aeef3cd6a6eaec1fcb21ac676c009fbc"/>
-        </server-credentials-in-use>
-    </host>
-    <host>
-        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-        <apis-implemented>
-            <in2:institutions version="2.2.0">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <in2:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B1:tlscert/>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </in2:http-security>
-                <in2:url>https://htwsaar-ewp.moveon4.de/v1/institution</in2:url>
-                <in2:max-hei-ids>10</in2:max-hei-ids>
-            </in2:institutions>
-            <ou2:organizational-units version="2.1.1">
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <ou2:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B1:tlscert/>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </ou2:http-security>
-                <ou2:url>https://htwsaar-ewp.moveon4.de/v1/ounit</ou2:url>
-                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
-                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
-            </ou2:organizational-units>
-            <ia6:iias
-                xmlns:ia6="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v6/manifest-entry.xsd"
-                version="6.0.1"
-            >
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <ia6:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B1:tlscert/>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </ia6:http-security>
-                <ia6:get-url>https://htwsaar-ewp.moveon4.de/v1/iia/get</ia6:get-url>
-                <ia6:max-iia-ids>10</ia6:max-iia-ids>
-                <ia6:max-iia-codes>10</ia6:max-iia-codes>
-                <ia6:index-url>https://htwsaar-ewp.moveon4.de/v1/iia/index</ia6:index-url>
-            </ia6:iias>
-            <iac2:iia-cnr version="2.0.3">
-                <iac2:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B1:tlscert/>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </iac2:http-security>
-                <iac2:url>https://htwsaar-ewp.moveon4.de/v1/iia/cnr</iac2:url>
-            </iac2:iia-cnr>
-            <om1:omobilities
-                xmlns:om1="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd"
-                version="1.0.0"
-            >
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <om1:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B1:tlscert/>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </om1:http-security>
-                <om1:get-url>https://htwsaar-ewp.moveon4.de/v1/omobility/get</om1:get-url>
-                <om1:index-url>https://htwsaar-ewp.moveon4.de/v1/omobility/index</om1:index-url>
-                <om1:max-omobility-ids>10</om1:max-omobility-ids>
-                <om1:sends-notifications/>
-            </om1:omobilities>
-            <omc1:omobility-cnr
-                xmlns:omc1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/blob/stable-v1/manifest-entry.xsd"
-                version="1.0.0"
-            >
-                <omc1:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B1:tlscert/>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </omc1:http-security>
-                <omc1:url>https://htwsaar-ewp.moveon4.de/v1/omobility/cnr</omc1:url>
-                <omc1:max-omobility-ids>10</omc1:max-omobility-ids>
-            </omc1:omobility-cnr>
-            <im1:imobilities
-                xmlns:im1="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v1/manifest-entry.xsd"
-                version="1.0.0"
-            >
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <im1:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B1:tlscert/>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </im1:http-security>
-                <im1:get-url>https://htwsaar-ewp.moveon4.de/v1/imobility/get</im1:get-url>
-                <im1:max-omobility-ids>10</im1:max-omobility-ids>
-                <im1:sends-notifications/>
-            </im1:imobilities>
-            <imc1:imobility-cnr
-                xmlns:imc1="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-cnr/blob/stable-v1/manifest-entry.xsd"
-                version="1.0.0"
-            >
-                <imc1:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B1:tlscert/>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </imc1:http-security>
-                <imc1:url>https://htwsaar-ewp.moveon4.de/v1/imobility/cnr</imc1:url>
-                <imc1:max-omobility-ids>10</imc1:max-omobility-ids>
-            </imc1:imobility-cnr>
-            <iaa1:iias-approval
-                xmlns:iaa1="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
-                version="1.0.0"
-            >
-                <ewp:admin-email>umesh@qs.com</ewp:admin-email>
-                <iaa1:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B1:tlscert/>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </iaa1:http-security>
-                <iaa1:url>https://htwsaar-ewp.moveon4.de/v1/iia/approval/get</iaa1:url>
-                <iaa1:max-iia-ids>10</iaa1:max-iia-ids>
-            </iaa1:iias-approval>
-            <iaac1:iia-approval-cnr
-                xmlns:iaac1="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v1/manifest-entry.xsd"
-                version="1.0.0"
-            >
-                <iaac1:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A1:tlscert allows-self-signed="true"/>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B1:tlscert/>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </iaac1:http-security>
-                <iaac1:url>https://htwsaar-ewp.moveon4.de/v1/iia/approval/cnr</iaac1:url>
-            </iaac1:iia-approval-cnr>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>htwsaar.de</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
             <certificate sha-256="b14948f89282dbdeebcc2acda193d2370e95dcc6fa5fa127c6a17f24df786ad6"/>
@@ -72363,12 +72208,6 @@ BmV770wnSzfHKBupDpmNg4JaK8PZK3j+VilR6X7GCYlB</certificate>
             <other-id type="erasmus">D  HEIDELB05</other-id>
             <name/>
         </hei>
-        <hei id="hochschule-rhein-waal.de">
-            <other-id type="erasmus">D  KLEVE01</other-id>
-            <other-id type="erasmus-charter">258916</other-id>
-            <other-id type="pic">956546101</other-id>
-            <name xml:lang="en">Hochschule Rhein-Waal</name>
-        </hei>
         <hei id="hochschule-trier.de">
             <other-id type="erasmus">D  TRIER02</other-id>
             <name/>
@@ -72727,10 +72566,7 @@ BmV770wnSzfHKBupDpmNg4JaK8PZK3j+VilR6X7GCYlB</certificate>
         </hei>
         <hei id="htwsaar.de">
             <other-id type="erasmus">D  SAARBRU03</other-id>
-            <other-id type="erasmus-charter">28602</other-id>
-            <other-id type="pic">946235486</other-id>
             <name/>
-            <name xml:lang="en">Hochschule für Technik und Wirtschaft des Saarlandes</name>
         </hei>
         <hei id="hu-berlin.de">
             <other-id type="erasmus">D  BERLIN13</other-id>
@@ -72803,10 +72639,7 @@ BmV770wnSzfHKBupDpmNg4JaK8PZK3j+VilR6X7GCYlB</certificate>
         </hei>
         <hei id="hz.nl">
             <other-id type="erasmus">NL VLISSIN01</other-id>
-            <other-id type="erasmus-charter">27563</other-id>
-            <other-id type="pic">949468302</other-id>
             <name/>
-            <name xml:lang="en">HZ University of Applied Sciences</name>
         </hei>
         <hei id="iad-arts.be">
             <other-id type="erasmus">B  LOUVAIN02</other-id>
@@ -73444,7 +73277,10 @@ BmV770wnSzfHKBupDpmNg4JaK8PZK3j+VilR6X7GCYlB</certificate>
         </hei>
         <hei id="ism.de">
             <other-id type="erasmus">D  DORTMUN04</other-id>
+            <other-id type="erasmus-charter">210610</other-id>
+            <other-id type="pic">949283614</other-id>
             <name/>
+            <name xml:lang="en">International School of Management (ISM)</name>
         </hei>
         <hei id="ism.lt">
             <other-id type="erasmus">LT VILNIUS25</other-id>
@@ -74405,7 +74241,10 @@ BmV770wnSzfHKBupDpmNg4JaK8PZK3j+VilR6X7GCYlB</certificate>
         </hei>
         <hei id="mdh.se">
             <other-id type="erasmus">S  VASTERA01</other-id>
+            <other-id type="erasmus-charter">29369</other-id>
+            <other-id type="pic">999881530</other-id>
             <name/>
+            <name xml:lang="en">Mälardalens högskola</name>
         </hei>
         <hei id="mdw.ac.at">
             <other-id type="eche">28558-EPP-1-2014-1-AT-EPPKA3-ECHE</other-id>
@@ -77578,6 +77417,12 @@ BmV770wnSzfHKBupDpmNg4JaK8PZK3j+VilR6X7GCYlB</certificate>
         <hei id="uni-luebeck.de">
             <other-id type="erasmus">D  LUBECK01</other-id>
             <name/>
+        </hei>
+        <hei id="uni-mainz.de">
+            <other-id type="erasmus">D  MAINZ01</other-id>
+            <other-id type="erasmus-charter">29716</other-id>
+            <other-id type="pic">999978627</other-id>
+            <name xml:lang="en">Johannes Gutenberg-Universität Mainz</name>
         </hei>
         <hei id="uni-mannheim.de">
             <other-id type="erasmus">D  MANNHEI01</other-id>
