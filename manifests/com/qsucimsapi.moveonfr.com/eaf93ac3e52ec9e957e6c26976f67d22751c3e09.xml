@@ -38456,6 +38456,20 @@ IwIDAQAB
         </iaac1:http-security>
         <iaac1:url>https://avignonu-ewp.moveonfr.com/v1/iia/approval/cnr</iaac1:url>
       </iaac1:iia-approval-cnr>
+      <f1:factsheet version="1.0.0">
+        <f1:http-security>
+          <sec:client-auth-methods>
+            <sec-A1:tlscert allows-self-signed="true"/>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B1:tlscert/>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </f1:http-security>
+        <f1:url>https://avignonu-ewp.moveonfr.com/v1/factsheet/get</f1:url>
+        <f1:max-hei-ids>10</f1:max-hei-ids>
+      </f1:factsheet>
     </r:apis-implemented>
     <ns3:institutions-covered>
       <r:hei id="univ-avignon.fr">
