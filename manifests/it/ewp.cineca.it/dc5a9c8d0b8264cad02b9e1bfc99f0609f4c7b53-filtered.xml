@@ -314,6 +314,22 @@ dsFvCjkcALdEhPI8XWvg7n65N+R/s4BQMmpFCGGXH3GvAgMBAAE=
                 </http-security>
                 <url>https://ewp.cineca.it/api/incoming/lumsa.it/iia/cnr/approval</url>
             </iia-approval-cnr>
+            <omobility-la-cnr
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <http-security>
+                    <sec:client-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </sec:server-auth-methods>
+                </http-security>
+                <url>https://ewp.cineca.it/api/incoming/lumsa.it/outmob/las/cnr</url>
+                <max-omobility-ids>1</max-omobility-ids>
+            </omobility-la-cnr>
         </r:apis-implemented>
         <mf:institutions-covered xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1">
             <hei id="lumsa.it">
