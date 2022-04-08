@@ -2862,6 +2862,20 @@ IwIDAQAB
                 <omlc1:url>https://isep-ewp.moveonfr.com/v1/la/cnr</omlc1:url>
                 <omlc1:max-omobility-ids>10</omlc1:max-omobility-ids>
             </omlc1:omobility-la-cnr>
+            <f1:factsheet version="1.0.0">
+                <f1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </f1:http-security>
+                <f1:url>https://isep-ewp.moveonfr.com/v1/factsheet/get</f1:url>
+                <f1:max-hei-ids>10</f1:max-hei-ids>
+            </f1:factsheet>
         </r:apis-implemented>
         <ns3:institutions-covered>
             <r:hei id="isep.fr">
