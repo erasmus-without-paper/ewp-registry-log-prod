@@ -1,267 +1,156 @@
-<manifest xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v5" xmlns:mf="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v5" xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd" xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2" xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v5 https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-api-discovery/stable-v5/manifest.xsd https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1 https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-api-registry/stable-v1/catalogue.xsd https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-architecture/stable-v1/common-types.xsd https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v1/manifest-entry.xsd https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-api-echo/stable-v1/manifest-entry.xsd ">
-<host>
-<ewp:admin-email>ewp_support@cineca.it</ewp:admin-email>
-<ewp:admin-notes>UNICAL Prod environment.</ewp:admin-notes>
-<r:apis-implemented>
-<discovery xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v5/manifest-entry.xsd" version="5.0.0">
-<url>https://unical.esse3.cineca.it/ewp/Manifest.do</url>
-</discovery>
-<echo xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd" version="2.0.1">
-<ewp:admin-email>ewp_support@cineca.it</ewp:admin-email>
-<http-security>
-<sec:client-auth-methods>
-<httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
-</sec:client-auth-methods>
-<sec:server-auth-methods>
-<tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
-<httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
-</sec:server-auth-methods>
-</http-security>
-<url>https://unical.esse3.cineca.it/ewp/connector/Echo.do</url>
-</echo>
-<institutions xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-institutions/blob/stable-v2/manifest-entry.xsd" version="2.1.0">
-<http-security>
-<sec:client-auth-methods>
-<httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
-</sec:client-auth-methods>
-<sec:server-auth-methods>
-<tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
-<httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
-</sec:server-auth-methods>
-</http-security>
-<url>https://unical.esse3.cineca.it/ewp/connector/Institutions.do</url>
-<max-hei-ids>1</max-hei-ids>
-</institutions>
-<organizational-units xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/blob/stable-v2/manifest-entry.xsd" version="2.1.1">
-<http-security>
-<sec:client-auth-methods>
-<httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
-</sec:client-auth-methods>
-<sec:server-auth-methods>
-<tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
-<httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
-</sec:server-auth-methods>
-</http-security>
-<url>https://unical.esse3.cineca.it/ewp/connector/OrgUnits.do</url> 
-<max-ounit-ids>10</max-ounit-ids> 
-<max-ounit-codes>10</max-ounit-codes> 
-</organizational-units>
-<!--courses xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-courses/blob/stable-v1/manifest-entry.xsd" version="0.7.1">
-<http-security>
-<sec:client-auth-methods>
-<httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
-</sec:client-auth-methods>
-<sec:server-auth-methods>
-<tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
-<httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
-</sec:server-auth-methods>
-</http-security>
-<url>https://unical.esse3.cineca.it/ewp/connector/Courses.do</url> 
-<max-los-ids>10</max-los-ids> 
-<max-los-codes>10</max-los-codes> 
-</courses>
-<iias xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v4/manifest-entry.xsd" version="4.0.0">
-<http-security>
-<sec:client-auth-methods>
-<httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
-</sec:client-auth-methods>
-<sec:server-auth-methods>
-<tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
-<httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
-</sec:server-auth-methods>
-</http-security>
-<get-url>https://unical.esse3.cineca.it/ewp/connector/IIAGet.do</get-url>
-<max-iia-ids>10</max-iia-ids>
-<max-iia-codes>10</max-iia-codes>
-<index-url>https://unical.esse3.cineca.it/ewp/connector/IIAIndex.do</index-url>
-<sends-notifications/>
-</iias>
-<iia-cnr xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iia-cnr/blob/stable-v2/manifest-entry.xsd" version="2.0.2">
-<http-security>
-<sec:client-auth-methods>
-<httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
-</sec:client-auth-methods>
-<sec:server-auth-methods>
-<tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
-<httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
-</sec:server-auth-methods>
-</http-security>
-<url>https://unical.esse3.cineca.it/ewp/connector/IIACnr.do</url>
-</iia-cnr>
-<iias-approval xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd" version="0.2.1">
-<http-security>
-<sec:client-auth-methods>
-<httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
-</sec:client-auth-methods>
-<sec:server-auth-methods>
-<tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
-<httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
-</sec:server-auth-methods>
-</http-security>
-<url>https://unical.esse3.cineca.it/ewp/connector/IIAAppr.do</url>
-<max-iia-ids>10</max-iia-ids>
-<sends-notifications/>
-</iias-approval>
-<iia-approval-cnr xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v1/manifest-entry.xsd" version="0.2.0">
-<http-security>
-<sec:client-auth-methods>
-<httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
-</sec:client-auth-methods>
-<sec:server-auth-methods>
-<tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
-<httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
-</sec:server-auth-methods>
-</http-security>
-<url>https://unical.esse3.cineca.it/ewp/connector/IIAApprCnr.do</url>
-</iia-approval-cnr>
-<omobilities xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd" version="1.0.0">
-<http-security>
-<sec:client-auth-methods>
-<httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
-</sec:client-auth-methods>
-<sec:server-auth-methods>
-<tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
-<httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
-</sec:server-auth-methods>
-</http-security>
-<get-url>https://unical.esse3.cineca.it/ewp/connector/MobilitiesGet.do</get-url>
-<index-url>https://unical.esse3.cineca.it/ewp/connector/MobilitiesIndex.do</index-url>
-<max-omobility-ids>10</max-omobility-ids>
-</omobilities>
-<omobility-cnr xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/blob/stable-v1/manifest-entry.xsd" version="1.0.0">
-<http-security>
-<sec:client-auth-methods>
-<httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
-</sec:client-auth-methods>
-<sec:server-auth-methods>
-<tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
-<httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
-</sec:server-auth-methods>
-</http-security>
-<url>https://unical.esse3.cineca.it/ewp/connector/MobilitiesCnr.do</url>
-<max-omobility-ids>10</max-omobility-ids>
-</omobility-cnr>
-<imobilities xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v1/manifest-entry.xsd" version="1.0.0">
-<http-security>
-<sec:client-auth-methods>
-<httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
-</sec:client-auth-methods>
-<sec:server-auth-methods>
-<tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
-<httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
-</sec:server-auth-methods>
-</http-security>
-<get-url>https://unical.esse3.cineca.it/ewp/connector/IMobilitiesGet.do</get-url>
-<max-omobility-ids>10</max-omobility-ids>
-</imobilities>
-<imobility-cnr xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-cnr/blob/stable-v1/manifest-entry.xsd" version="1.0.0">
-<http-security>
-<sec:client-auth-methods>
-<httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
-</sec:client-auth-methods>
-<sec:server-auth-methods>
-<tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
-<httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
-</sec:server-auth-methods>
-</http-security>
-<url>https://unical.esse3.cineca.it/ewp/connector/IMobilitiesCnr.do</url>
-<max-omobility-ids>10</max-omobility-ids>
-</imobility-cnr>
-<imobility-tors xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-tors/blob/stable-v1/manifest-entry.xsd" version="0.7.0">
-<http-security>
-<sec:client-auth-methods>
-<httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
-</sec:client-auth-methods>
-<sec:server-auth-methods>
-<tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
-<httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
-</sec:server-auth-methods>
-</http-security>
-<get-url>https://unical.esse3.cineca.it/ewp/connector/Tor.do</get-url>
-<index-url>https://unical.esse3.cineca.it/ewp/connector/TorIndex.do</index-url>
-<max-omobility-ids>10</max-omobility-ids>
-</imobility-tors-->
+<!DOCTYPE html>
 
-</r:apis-implemented>
-<mf:institutions-covered xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1">
-<hei id="unical.it">
-<other-id type="pic">999863391</other-id>
-<other-id type="erasmus">I COSENZA01</other-id>
-<name xml:lang="it">Universita della CALABRIA</name>
-<name xml:lang="en">UNIVERSITY OF CALABRIA</name>
-</hei>
-</mf:institutions-covered>
-<client-credentials-in-use>
-<certificate>
-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
-oXhFHqLxYcN2XWVAD7PWZQtZNXsMSZE=
-</certificate>
-<rsa-public-key>
-MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAvbefP5avY9s2KBE2hjHn
-t1BMn/dNBJhDeiVIv9Ftl/A1+ACTSW0GH3GRWnrSucPg7T7DABRpsk7VCT/mDxlW
-9lA4fzfm0PNXXcqmToGcHn349XDQqTNTZEmxhPzQS3wJGi8xbgtHUsi9p2UFeZib
-80+ftYJMvueOKa+dLH3PilidSflJK/K1hBc9tcBE9l/Gy3hY+8Gdzk/ZpRhCN0MQ
-FCUzfUwmdMX3raQu5/xsl7ZSmev/MvQJfiv5j+60I6T/HNVOLYExx0rOEQqu6gJ7
-5Grh5UeONkOK+32zt7m0G5xqvVGKh7Hh7PwizyqfpdxrsETYdXf4BBnQ7ZGfxAWW
-xXWzXeNUBDTCOuTUznXFbhtSyJ3fx8zdeXC6/RXajyAGD7t6YHieRxtc91bkHaNv
-DkTzrEHLgXlsPx9cHnEqBwYKB1D/CiGP+i9z5vlB/FjML8+DK4ceA47IPZ1OUE1R
-C+C8tua78qiipjiDwCu/5tlOirnvxbgdKTeLmtFdno+HAgMBAAE=
-</rsa-public-key>
-</client-credentials-in-use>
-<server-credentials-in-use>
-<rsa-public-key>
-MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAvbefP5avY9s2KBE2hjHn
-t1BMn/dNBJhDeiVIv9Ftl/A1+ACTSW0GH3GRWnrSucPg7T7DABRpsk7VCT/mDxlW
-9lA4fzfm0PNXXcqmToGcHn349XDQqTNTZEmxhPzQS3wJGi8xbgtHUsi9p2UFeZib
-80+ftYJMvueOKa+dLH3PilidSflJK/K1hBc9tcBE9l/Gy3hY+8Gdzk/ZpRhCN0MQ
-FCUzfUwmdMX3raQu5/xsl7ZSmev/MvQJfiv5j+60I6T/HNVOLYExx0rOEQqu6gJ7
-5Grh5UeONkOK+32zt7m0G5xqvVGKh7Hh7PwizyqfpdxrsETYdXf4BBnQ7ZGfxAWW
-xXWzXeNUBDTCOuTUznXFbhtSyJ3fx8zdeXC6/RXajyAGD7t6YHieRxtc91bkHaNv
-DkTzrEHLgXlsPx9cHnEqBwYKB1D/CiGP+i9z5vlB/FjML8+DK4ceA47IPZ1OUE1R
-C+C8tua78qiipjiDwCu/5tlOirnvxbgdKTeLmtFdno+HAgMBAAE=
-</rsa-public-key>
-</server-credentials-in-use>
-</host>
-</manifest>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<title>Cineca - Waiting Room</title>
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+<!-- Angular Material requires Angular.js Libraries -->
+<!--
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular-animate.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular-aria.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular-messages.min.js"></script>
+-->
+<script src="libs/angularjs/1.6.3/angular.min.js"></script>
+<script src="libs/angularjs/1.6.3/angular-animate.min.js"></script>
+<script src="libs/angularjs/1.6.3/angular-aria.min.js"></script>
+<script src="libs/angularjs/1.6.3/angular-messages.min.js"></script>
+
+<!-- Angular Material Library -->
+<!--
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
+-->
+<link rel="stylesheet" href="libs/angular-material/1.1.0/angular-material.min.css" />
+<script src="libs/angular-material/1.1.0/angular-material.min.js"></script>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<!--
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+-->
+<script src="libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Bootstrap -->
+<!--
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+-->
+<link rel="stylesheet" href="libs/bootstrap/3.3.7/css/bootstrap.min.css" />
+<script src="libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="./js/waiting.js" type="text/javascript"></script>
+
+<link href="./css/waiting.css" rel="stylesheet" />
+
+
+</head>
+<body ng-app="waitingApp" class="ng-scope">
+	<!-- This comment is only for jmeter test to catch the waiting page -->
+	<div class="row">	
+		<div id="RowTestata">
+			<div class="col-xs-9" id="headTestata"><div id="headTestataInside"></div></div>
+			<div class="col-xs-3" id="headTestataDx"><div id="headTestataDxInside"></div></div>
+		</div>		
+	</div>
+
+	<div class="row">
+		<div class="col-xs-12" id="barra-generale"></div>
+	</div>
+	<div class="container">	
+	</div>
+	<div class="alert alert-danger" ng-cloak="" ng-show="controller.error">
+    	There was a problem.
+	</div>
+
+	<div class="container ng-scope" ng-controller="progessController" ng-init="init(&#39;eyJhbGciOiJIUzI1NiJ9.eyJ0ZW5hbnQiOiJ1bmljYWwtcHJvZCIsInVybCI6Imh0dHBzOi8vdW5pY2FsLmVzc2UzLmNpbmVjYS5pdC9ld3AvTWFuaWZlc3QuZG8iLCJ1c2VyQWdlbnQiOiJKYXZhLzEuOC4wXzMxMiIsInJlbW90ZUFkZHIiOiIxOTMuMC4xMDkuNDciLCJyZW1vdGVQb3J0Ijo1OTk5OCwianZtUm91dGUiOiJlc3NlMy11bmljYWwtcHJvZC0wNCIsImlzcyI6IndhaXRpbmdyb29tIiwic3ViIjoiZ3Vlc3QiLCJpYXQiOjE2NTA3OTgzODYsImV4cCI6MTY1MDgzNDM4Nn0.s0q3NNCcVo3p4ZQTemp09tcRs9UCOWJMYxGHeab3n9M&#39;, &#39;https://unical.esse3.cineca.it/ewp/Manifest.do&#39;)">
+		<div class="row tabsdemoDynamicHeight">
+			<div ng-cloak="">
+			  <md-content>
+			    <md-tabs md-dynamic-height="" md-border-bottom="">
+			      <md-tab label="ita">
+			        <md-content class="md-padding">
+						<h1 id="titleWaitForSystemAccess">Sei in attesa di accedere al sistema.</h1>
+						<h1 id="titleWaitForServiceAccess">Sei in attesa di accedere al servizio.</h1>
+						<h3 id="msgPeopleBefore">Davanti a te ci sono <span ng-bind="addSep(ticket.id - current)" class="ng-binding"></span> persone.</h3>
+						
+						<p>
+							<span id="msgTraffic">A causa dell&apos;elevato numero di accessi sei stato inserito in coda di attesa.</span>
+							<span id="msgTrafficRegister">Il sistema sta registrando un elevato numero di accessi.</span>
+							<span id="msgDoNot"><strong>Non chiudere n&eacute; ricaricare la pagina per non perdere la priorit&agrave; acquisita.</strong></span>
+							<span id="msgEnd">Al termine dell&apos;attesa sarai automaticamente rediretto alla pagina richiesta.</span>
+							<span id="msgEndFollowCursor">Segui l&apos;avanzamento del cursore: al termine dell&apos;attesa sarai automaticamente indirizzato alla pagina richiesta.</span> 
+							<span id="msgImmatricolazioni">L&apos;elevato numero di accessi &egrave; causato dall&apos;apertura delle immatricolazioni.</span>
+							<span id="msgManutenzione">Il sistema &egrave; in fase di manutenzione.</span>
+						</p>
+			        </md-content>
+			      </md-tab>
+			      <md-tab label="eng">
+			        <md-content class="md-padding">
+						<h1 id="titleWaitForSystemAccess">You are waiting to access the system.</h1>
+						<h1 id="titleWaitForServiceAccess">You are waiting to access the service.</h1>
+			            <h3 id="msgPeopleBefore">There are <span ng-bind="addSep(ticket.id - current)" class="ng-binding"></span> people before you.</h3>
+			            <p>
+                        	<span id="msgTraffic">Due to the high number of accesses you have been queued on the waiting list.</span> 
+							<span id="msgTrafficRegister">The system is registering a high number of accesses.</span>
+                         	<span id="msgDoNot"><strong>Please don&apos;t close the browser nor reload the web page in order not to lose the acquired priority.</strong></span>
+							<span id="msgEnd">At the end of the waiting you will be automatically redirected to the requested page.</span>
+							<span id="msgEndFollowCursor">Follow the cursor: at the end of the waiting you will be automatically redirected to the requested page.</span> 
+			            </p>
+			        </md-content>
+			      </md-tab>
+			    </md-tabs>
+			  </md-content>
+			</div>
+          </div>
+
+	<div class="row progress_indicator">
+		<div class="col-xs-12 col-sm-2">
+            <div class="wloader"></div><div><p class="counter"><span ng-bind="addSep(ticket.id - current)" class="ng-binding"></span></p></div>
+		</div>
+		<div class="col-xs-12 col-sm-10">
+			<div class="row" id="slidePosition">
+	            <div class="col-xs-12">
+	                <div id="currentPosition" style="margin-left: {{progressprec}}%">
+                        <p><span ng-bind="progressprec + '%'" class="ng-binding"></span></p>
+	                </div>
+	            </div>
+	        </div>
+	        <div class="row">
+	            <div class="col-xs-12">
+	                <div id="progessGraph"></div>
+	            </div>
+	        </div>
+	        <div class="row">
+	            <div class="col-xs-12">
+	                <div id="finishPosition">
+	                	<!-- 
+	                    <p>You: <span ng-bind="ticket.id" class="ng-binding"></span></p>
+	                     -->
+	                </div>
+	            </div>
+			</div>
+		</div>
+	</div>
+
+<!-- 		<div class="row">
+			<div id="waitProgress" class="wprogress">
+				<span class="wprogress-bar" style="width: {{progressprec"
+					data-ng-bind="length"></span>
+			</div>
+		</div> -->
+  </div>
+
+</body>
+</html>
