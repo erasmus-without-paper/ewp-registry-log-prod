@@ -87,6 +87,20 @@
                 </h:http-security>
                 <h:url>https://edison.sso.vsb.cz/ewp/rest/echo</h:url>
             </h:echo>
+            <k:factsheet version="1.1.0">
+                <k:http-security>
+                    <q:client-auth-methods>
+                        <c:tlscert allows-self-signed="true"/>
+                        <a:httpsig/>
+                    </q:client-auth-methods>
+                    <q:server-auth-methods>
+                        <e:tlscert/>
+                        <d:httpsig/>
+                    </q:server-auth-methods>
+                </k:http-security>
+                <k:url>https://edison.sso.vsb.cz/ewp/rest/factsheet</k:url>
+                <k:max-hei-ids>1</k:max-hei-ids>
+            </k:factsheet>
             <i:iia-approval-cnr version="1.0.0">
                 <i:http-security>
                     <q:client-auth-methods>
