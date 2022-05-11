@@ -37,10 +37,8 @@
 >
     <ns3:host>
         <admin-email>ewp@sop.co.at</admin-email>
+        <admin-notes>Mobility-Online</admin-notes>
         <ns2:apis-implemented>
-            <ns30:discovery version="5.0.0">
-                <ns30:url>https://mobility.uol.de/mobility/ewp/manifest?api=all</ns30:url>
-            </ns30:discovery>
             <ns29:echo version="2.0.0">
                 <ns29:http-security>
                     <ns5:client-auth-methods>
@@ -63,33 +61,6 @@
             </ns2:hei>
         </ns3:institutions-covered>
         <ns3:client-credentials-in-use>
-            <ns3:certificate>MIIFmDCCA4CgAwIBAgICEBcwDQYJKoZIhvcNAQELBQAwgawxCzAJBgNVBAYTAkFUMQ8wDQYDVQQI&#xD;
-DAZWaWVubmExJzAlBgNVBAoMHlNPUCBIaWxtYmF1ZXIgJiBNYXViZXJnZXIgR21iSDEkMCIGA1UE&#xD;
-CwwbU09QIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MRwwGgYDVQQDDBNTT1AgSW50ZXJtZWRpYXRl&#xD;
-IENBMR8wHQYJKoZIhvcNAQkBFhBvZmZpY2VAc29wLmNvLmF0MB4XDTIxMTIxNzEzMTQyM1oXDTQ5&#xD;
-MDUwMzEzMTQyM1owgZcxCzAJBgNVBAYTAkFUMQ8wDQYDVQQIDAZWaWVubmExJzAlBgNVBAoMHlNP&#xD;
-UCBIaWxtYmF1ZXIgJiBNYXViZXJnZXIgR21iSDEMMAoGA1UECwwDRVdQMRgwFgYDVQQDDA9tb2Jp&#xD;
-bGl0eS51b2wuZGUxJjAkBgkqhkiG9w0BCQEWF2dlb3JnLmphaWRsZXJAc29wLmNvLmF0MIIBIjAN&#xD;
-BgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2E5PkgnJTr7OCApb0c4cbq4N1/mP44TrjdL8QXOC&#xD;
-MS0njpek4ORMA2RLHzqAitwGEOWuP5cUHErK1YBR0Tc7MUWXyMVzmlHaFFinaHVGrNsIQBg972QY&#xD;
-mthjmsfao3EB5fs0LYjaA+d+39Mkzlzb2Btucs6Gg9AH5UFRRyfNNuDtwHBYZkFfee8O3rqSsRQL&#xD;
-rB/b4E7NPcFMAoum3neW+bc8s+OaANSAGw/s9rh7IPYDe8Mn7opfIE7E460JZaVdxqM8B28F3OUm&#xD;
-tgBhFm1fvfaM/UaAYj8V5shpDrN+qES6h9YNnwcOjMo50sBs02gYqrqRwIyWUn8PQlOyzR8GtwID&#xD;
-AQABo4HWMIHTMAkGA1UdEwQCMAAwEQYJYIZIAYb4QgEBBAQDAgXgMDoGCWCGSAGG+EIBDQQtFitP&#xD;
-cGVuU1NMIEdlbmVyYXRlZCBDbGllbnQvU2VydmVyIENlcnRpZmljYXRlMB0GA1UdDgQWBBQOgb7N&#xD;
-PSixn0qZYWJugs13+mdepjAfBgNVHSMEGDAWgBTq7mxMgD7aGuQLLoHgkqqYBY5o5TAOBgNVHQ8B&#xD;
-Af8EBAMCBeAwJwYDVR0lBCAwHgYIKwYBBQUHAwEGCCsGAQUFBwMCBggrBgEFBQcDBDANBgkqhkiG&#xD;
-9w0BAQsFAAOCAgEAE8Ca+0/np5wgXHsWz1A3tpd01PdQm7tThH8CT1Y+ScXpzBHrbFG9H0lDO0Xw&#xD;
-QBJyIKLdXVUSJwaeNJZFmAapyPOzlQz3qBHQ6lnM6InExqT4ZyuReJPDWkV3s8pDvtPVGYTPpltC&#xD;
-Mdh3Wg8EeKbqR8NnTX1jnu7gk+f1mU4Hwg27aLneJystUqD8UDlY/2cO4j5wrHZcUJsrUFWjskyj&#xD;
-B9NNTG8bbLbsdN0TMbjDRxEHjRGxXdCp4o+llFQK6QVC4/sfBxT33UTsJweiAtmJvIoNsm4z7K8l&#xD;
-jv/RWZaQiK/0by8z+qQA5z8efcr0IVfcnVSn+V5RZLngVz+bL2FpygAHgv8TnbZac2gkKogs7fhC&#xD;
-xe5Uuy1zRch6UGcWCmf9L/Z1lvEFqrsDAS9nmSXLchCUoU06OmS1mAVC4lxk1ZGncM/a9w7wyUXE&#xD;
-7E00c1PY5Eqgb5eW/rHcL+QZ5Bzkyj3UThlIeT6V3sVkkVux5hd0L8nE5hPm24TmWMmJAdfehYbo&#xD;
-7FOdGNSzdnjo4SwoHl9hifFC/9D80FultJbW8vMiYo+mB9oNXMpTL0V3j415t++xGQoVA8qGnAoy&#xD;
-/JSUsmTygLDpkzNWGY/zA+SvzFhLz3ifiljDZDHRr78kJz4XMBNJ3qEO9jbWiKkzGBodgkeuM0B2&#xD;
-2l05LEqUxCTD/8A=&#xD;
-</ns3:certificate>
             <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2E5PkgnJTr7OCApb0c4cbq4N1/mP44Tr&#xD;
 jdL8QXOCMS0njpek4ORMA2RLHzqAitwGEOWuP5cUHErK1YBR0Tc7MUWXyMVzmlHaFFinaHVGrNsI&#xD;
 QBg972QYmthjmsfao3EB5fs0LYjaA+d+39Mkzlzb2Btucs6Gg9AH5UFRRyfNNuDtwHBYZkFfee8O&#xD;
@@ -110,6 +81,7 @@ zR8GtwIDAQAB&#xD;
     </ns3:host>
     <ns3:host>
         <admin-email>ewp@sop.co.at</admin-email>
+        <admin-notes>Mobility-Online</admin-notes>
         <ns2:apis-implemented>
             <ns28:institutions version="2.1.0">
                 <ns28:http-security>
@@ -134,33 +106,6 @@ zR8GtwIDAQAB&#xD;
             </ns2:hei>
         </ns3:institutions-covered>
         <ns3:client-credentials-in-use>
-            <ns3:certificate>MIIFmDCCA4CgAwIBAgICEBcwDQYJKoZIhvcNAQELBQAwgawxCzAJBgNVBAYTAkFUMQ8wDQYDVQQI&#xD;
-DAZWaWVubmExJzAlBgNVBAoMHlNPUCBIaWxtYmF1ZXIgJiBNYXViZXJnZXIgR21iSDEkMCIGA1UE&#xD;
-CwwbU09QIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MRwwGgYDVQQDDBNTT1AgSW50ZXJtZWRpYXRl&#xD;
-IENBMR8wHQYJKoZIhvcNAQkBFhBvZmZpY2VAc29wLmNvLmF0MB4XDTIxMTIxNzEzMTQyM1oXDTQ5&#xD;
-MDUwMzEzMTQyM1owgZcxCzAJBgNVBAYTAkFUMQ8wDQYDVQQIDAZWaWVubmExJzAlBgNVBAoMHlNP&#xD;
-UCBIaWxtYmF1ZXIgJiBNYXViZXJnZXIgR21iSDEMMAoGA1UECwwDRVdQMRgwFgYDVQQDDA9tb2Jp&#xD;
-bGl0eS51b2wuZGUxJjAkBgkqhkiG9w0BCQEWF2dlb3JnLmphaWRsZXJAc29wLmNvLmF0MIIBIjAN&#xD;
-BgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2E5PkgnJTr7OCApb0c4cbq4N1/mP44TrjdL8QXOC&#xD;
-MS0njpek4ORMA2RLHzqAitwGEOWuP5cUHErK1YBR0Tc7MUWXyMVzmlHaFFinaHVGrNsIQBg972QY&#xD;
-mthjmsfao3EB5fs0LYjaA+d+39Mkzlzb2Btucs6Gg9AH5UFRRyfNNuDtwHBYZkFfee8O3rqSsRQL&#xD;
-rB/b4E7NPcFMAoum3neW+bc8s+OaANSAGw/s9rh7IPYDe8Mn7opfIE7E460JZaVdxqM8B28F3OUm&#xD;
-tgBhFm1fvfaM/UaAYj8V5shpDrN+qES6h9YNnwcOjMo50sBs02gYqrqRwIyWUn8PQlOyzR8GtwID&#xD;
-AQABo4HWMIHTMAkGA1UdEwQCMAAwEQYJYIZIAYb4QgEBBAQDAgXgMDoGCWCGSAGG+EIBDQQtFitP&#xD;
-cGVuU1NMIEdlbmVyYXRlZCBDbGllbnQvU2VydmVyIENlcnRpZmljYXRlMB0GA1UdDgQWBBQOgb7N&#xD;
-PSixn0qZYWJugs13+mdepjAfBgNVHSMEGDAWgBTq7mxMgD7aGuQLLoHgkqqYBY5o5TAOBgNVHQ8B&#xD;
-Af8EBAMCBeAwJwYDVR0lBCAwHgYIKwYBBQUHAwEGCCsGAQUFBwMCBggrBgEFBQcDBDANBgkqhkiG&#xD;
-9w0BAQsFAAOCAgEAE8Ca+0/np5wgXHsWz1A3tpd01PdQm7tThH8CT1Y+ScXpzBHrbFG9H0lDO0Xw&#xD;
-QBJyIKLdXVUSJwaeNJZFmAapyPOzlQz3qBHQ6lnM6InExqT4ZyuReJPDWkV3s8pDvtPVGYTPpltC&#xD;
-Mdh3Wg8EeKbqR8NnTX1jnu7gk+f1mU4Hwg27aLneJystUqD8UDlY/2cO4j5wrHZcUJsrUFWjskyj&#xD;
-B9NNTG8bbLbsdN0TMbjDRxEHjRGxXdCp4o+llFQK6QVC4/sfBxT33UTsJweiAtmJvIoNsm4z7K8l&#xD;
-jv/RWZaQiK/0by8z+qQA5z8efcr0IVfcnVSn+V5RZLngVz+bL2FpygAHgv8TnbZac2gkKogs7fhC&#xD;
-xe5Uuy1zRch6UGcWCmf9L/Z1lvEFqrsDAS9nmSXLchCUoU06OmS1mAVC4lxk1ZGncM/a9w7wyUXE&#xD;
-7E00c1PY5Eqgb5eW/rHcL+QZ5Bzkyj3UThlIeT6V3sVkkVux5hd0L8nE5hPm24TmWMmJAdfehYbo&#xD;
-7FOdGNSzdnjo4SwoHl9hifFC/9D80FultJbW8vMiYo+mB9oNXMpTL0V3j415t++xGQoVA8qGnAoy&#xD;
-/JSUsmTygLDpkzNWGY/zA+SvzFhLz3ifiljDZDHRr78kJz4XMBNJ3qEO9jbWiKkzGBodgkeuM0B2&#xD;
-2l05LEqUxCTD/8A=&#xD;
-</ns3:certificate>
             <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2E5PkgnJTr7OCApb0c4cbq4N1/mP44Tr&#xD;
 jdL8QXOCMS0njpek4ORMA2RLHzqAitwGEOWuP5cUHErK1YBR0Tc7MUWXyMVzmlHaFFinaHVGrNsI&#xD;
 QBg972QYmthjmsfao3EB5fs0LYjaA+d+39Mkzlzb2Btucs6Gg9AH5UFRRyfNNuDtwHBYZkFfee8O&#xD;
@@ -181,6 +126,7 @@ zR8GtwIDAQAB&#xD;
     </ns3:host>
     <ns3:host>
         <admin-email>ewp@sop.co.at</admin-email>
+        <admin-notes>Mobility-Online</admin-notes>
         <ns2:apis-implemented>
             <ns27:organizational-units version="2.1.1">
                 <ns27:http-security>
@@ -206,33 +152,6 @@ zR8GtwIDAQAB&#xD;
             </ns2:hei>
         </ns3:institutions-covered>
         <ns3:client-credentials-in-use>
-            <ns3:certificate>MIIFmDCCA4CgAwIBAgICEBcwDQYJKoZIhvcNAQELBQAwgawxCzAJBgNVBAYTAkFUMQ8wDQYDVQQI&#xD;
-DAZWaWVubmExJzAlBgNVBAoMHlNPUCBIaWxtYmF1ZXIgJiBNYXViZXJnZXIgR21iSDEkMCIGA1UE&#xD;
-CwwbU09QIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MRwwGgYDVQQDDBNTT1AgSW50ZXJtZWRpYXRl&#xD;
-IENBMR8wHQYJKoZIhvcNAQkBFhBvZmZpY2VAc29wLmNvLmF0MB4XDTIxMTIxNzEzMTQyM1oXDTQ5&#xD;
-MDUwMzEzMTQyM1owgZcxCzAJBgNVBAYTAkFUMQ8wDQYDVQQIDAZWaWVubmExJzAlBgNVBAoMHlNP&#xD;
-UCBIaWxtYmF1ZXIgJiBNYXViZXJnZXIgR21iSDEMMAoGA1UECwwDRVdQMRgwFgYDVQQDDA9tb2Jp&#xD;
-bGl0eS51b2wuZGUxJjAkBgkqhkiG9w0BCQEWF2dlb3JnLmphaWRsZXJAc29wLmNvLmF0MIIBIjAN&#xD;
-BgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2E5PkgnJTr7OCApb0c4cbq4N1/mP44TrjdL8QXOC&#xD;
-MS0njpek4ORMA2RLHzqAitwGEOWuP5cUHErK1YBR0Tc7MUWXyMVzmlHaFFinaHVGrNsIQBg972QY&#xD;
-mthjmsfao3EB5fs0LYjaA+d+39Mkzlzb2Btucs6Gg9AH5UFRRyfNNuDtwHBYZkFfee8O3rqSsRQL&#xD;
-rB/b4E7NPcFMAoum3neW+bc8s+OaANSAGw/s9rh7IPYDe8Mn7opfIE7E460JZaVdxqM8B28F3OUm&#xD;
-tgBhFm1fvfaM/UaAYj8V5shpDrN+qES6h9YNnwcOjMo50sBs02gYqrqRwIyWUn8PQlOyzR8GtwID&#xD;
-AQABo4HWMIHTMAkGA1UdEwQCMAAwEQYJYIZIAYb4QgEBBAQDAgXgMDoGCWCGSAGG+EIBDQQtFitP&#xD;
-cGVuU1NMIEdlbmVyYXRlZCBDbGllbnQvU2VydmVyIENlcnRpZmljYXRlMB0GA1UdDgQWBBQOgb7N&#xD;
-PSixn0qZYWJugs13+mdepjAfBgNVHSMEGDAWgBTq7mxMgD7aGuQLLoHgkqqYBY5o5TAOBgNVHQ8B&#xD;
-Af8EBAMCBeAwJwYDVR0lBCAwHgYIKwYBBQUHAwEGCCsGAQUFBwMCBggrBgEFBQcDBDANBgkqhkiG&#xD;
-9w0BAQsFAAOCAgEAE8Ca+0/np5wgXHsWz1A3tpd01PdQm7tThH8CT1Y+ScXpzBHrbFG9H0lDO0Xw&#xD;
-QBJyIKLdXVUSJwaeNJZFmAapyPOzlQz3qBHQ6lnM6InExqT4ZyuReJPDWkV3s8pDvtPVGYTPpltC&#xD;
-Mdh3Wg8EeKbqR8NnTX1jnu7gk+f1mU4Hwg27aLneJystUqD8UDlY/2cO4j5wrHZcUJsrUFWjskyj&#xD;
-B9NNTG8bbLbsdN0TMbjDRxEHjRGxXdCp4o+llFQK6QVC4/sfBxT33UTsJweiAtmJvIoNsm4z7K8l&#xD;
-jv/RWZaQiK/0by8z+qQA5z8efcr0IVfcnVSn+V5RZLngVz+bL2FpygAHgv8TnbZac2gkKogs7fhC&#xD;
-xe5Uuy1zRch6UGcWCmf9L/Z1lvEFqrsDAS9nmSXLchCUoU06OmS1mAVC4lxk1ZGncM/a9w7wyUXE&#xD;
-7E00c1PY5Eqgb5eW/rHcL+QZ5Bzkyj3UThlIeT6V3sVkkVux5hd0L8nE5hPm24TmWMmJAdfehYbo&#xD;
-7FOdGNSzdnjo4SwoHl9hifFC/9D80FultJbW8vMiYo+mB9oNXMpTL0V3j415t++xGQoVA8qGnAoy&#xD;
-/JSUsmTygLDpkzNWGY/zA+SvzFhLz3ifiljDZDHRr78kJz4XMBNJ3qEO9jbWiKkzGBodgkeuM0B2&#xD;
-2l05LEqUxCTD/8A=&#xD;
-</ns3:certificate>
             <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2E5PkgnJTr7OCApb0c4cbq4N1/mP44Tr&#xD;
 jdL8QXOCMS0njpek4ORMA2RLHzqAitwGEOWuP5cUHErK1YBR0Tc7MUWXyMVzmlHaFFinaHVGrNsI&#xD;
 QBg972QYmthjmsfao3EB5fs0LYjaA+d+39Mkzlzb2Btucs6Gg9AH5UFRRyfNNuDtwHBYZkFfee8O&#xD;
@@ -253,6 +172,7 @@ zR8GtwIDAQAB&#xD;
     </ns3:host>
     <ns3:host>
         <admin-email>ewp@sop.co.at</admin-email>
+        <admin-notes>Mobility-Online</admin-notes>
         <ns2:apis-implemented>
             <ns24:iias version="6.0.1">
                 <ns24:http-security>
@@ -279,33 +199,6 @@ zR8GtwIDAQAB&#xD;
             </ns2:hei>
         </ns3:institutions-covered>
         <ns3:client-credentials-in-use>
-            <ns3:certificate>MIIFmDCCA4CgAwIBAgICEBcwDQYJKoZIhvcNAQELBQAwgawxCzAJBgNVBAYTAkFUMQ8wDQYDVQQI&#xD;
-DAZWaWVubmExJzAlBgNVBAoMHlNPUCBIaWxtYmF1ZXIgJiBNYXViZXJnZXIgR21iSDEkMCIGA1UE&#xD;
-CwwbU09QIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MRwwGgYDVQQDDBNTT1AgSW50ZXJtZWRpYXRl&#xD;
-IENBMR8wHQYJKoZIhvcNAQkBFhBvZmZpY2VAc29wLmNvLmF0MB4XDTIxMTIxNzEzMTQyM1oXDTQ5&#xD;
-MDUwMzEzMTQyM1owgZcxCzAJBgNVBAYTAkFUMQ8wDQYDVQQIDAZWaWVubmExJzAlBgNVBAoMHlNP&#xD;
-UCBIaWxtYmF1ZXIgJiBNYXViZXJnZXIgR21iSDEMMAoGA1UECwwDRVdQMRgwFgYDVQQDDA9tb2Jp&#xD;
-bGl0eS51b2wuZGUxJjAkBgkqhkiG9w0BCQEWF2dlb3JnLmphaWRsZXJAc29wLmNvLmF0MIIBIjAN&#xD;
-BgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2E5PkgnJTr7OCApb0c4cbq4N1/mP44TrjdL8QXOC&#xD;
-MS0njpek4ORMA2RLHzqAitwGEOWuP5cUHErK1YBR0Tc7MUWXyMVzmlHaFFinaHVGrNsIQBg972QY&#xD;
-mthjmsfao3EB5fs0LYjaA+d+39Mkzlzb2Btucs6Gg9AH5UFRRyfNNuDtwHBYZkFfee8O3rqSsRQL&#xD;
-rB/b4E7NPcFMAoum3neW+bc8s+OaANSAGw/s9rh7IPYDe8Mn7opfIE7E460JZaVdxqM8B28F3OUm&#xD;
-tgBhFm1fvfaM/UaAYj8V5shpDrN+qES6h9YNnwcOjMo50sBs02gYqrqRwIyWUn8PQlOyzR8GtwID&#xD;
-AQABo4HWMIHTMAkGA1UdEwQCMAAwEQYJYIZIAYb4QgEBBAQDAgXgMDoGCWCGSAGG+EIBDQQtFitP&#xD;
-cGVuU1NMIEdlbmVyYXRlZCBDbGllbnQvU2VydmVyIENlcnRpZmljYXRlMB0GA1UdDgQWBBQOgb7N&#xD;
-PSixn0qZYWJugs13+mdepjAfBgNVHSMEGDAWgBTq7mxMgD7aGuQLLoHgkqqYBY5o5TAOBgNVHQ8B&#xD;
-Af8EBAMCBeAwJwYDVR0lBCAwHgYIKwYBBQUHAwEGCCsGAQUFBwMCBggrBgEFBQcDBDANBgkqhkiG&#xD;
-9w0BAQsFAAOCAgEAE8Ca+0/np5wgXHsWz1A3tpd01PdQm7tThH8CT1Y+ScXpzBHrbFG9H0lDO0Xw&#xD;
-QBJyIKLdXVUSJwaeNJZFmAapyPOzlQz3qBHQ6lnM6InExqT4ZyuReJPDWkV3s8pDvtPVGYTPpltC&#xD;
-Mdh3Wg8EeKbqR8NnTX1jnu7gk+f1mU4Hwg27aLneJystUqD8UDlY/2cO4j5wrHZcUJsrUFWjskyj&#xD;
-B9NNTG8bbLbsdN0TMbjDRxEHjRGxXdCp4o+llFQK6QVC4/sfBxT33UTsJweiAtmJvIoNsm4z7K8l&#xD;
-jv/RWZaQiK/0by8z+qQA5z8efcr0IVfcnVSn+V5RZLngVz+bL2FpygAHgv8TnbZac2gkKogs7fhC&#xD;
-xe5Uuy1zRch6UGcWCmf9L/Z1lvEFqrsDAS9nmSXLchCUoU06OmS1mAVC4lxk1ZGncM/a9w7wyUXE&#xD;
-7E00c1PY5Eqgb5eW/rHcL+QZ5Bzkyj3UThlIeT6V3sVkkVux5hd0L8nE5hPm24TmWMmJAdfehYbo&#xD;
-7FOdGNSzdnjo4SwoHl9hifFC/9D80FultJbW8vMiYo+mB9oNXMpTL0V3j415t++xGQoVA8qGnAoy&#xD;
-/JSUsmTygLDpkzNWGY/zA+SvzFhLz3ifiljDZDHRr78kJz4XMBNJ3qEO9jbWiKkzGBodgkeuM0B2&#xD;
-2l05LEqUxCTD/8A=&#xD;
-</ns3:certificate>
             <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2E5PkgnJTr7OCApb0c4cbq4N1/mP44Tr&#xD;
 jdL8QXOCMS0njpek4ORMA2RLHzqAitwGEOWuP5cUHErK1YBR0Tc7MUWXyMVzmlHaFFinaHVGrNsI&#xD;
 QBg972QYmthjmsfao3EB5fs0LYjaA+d+39Mkzlzb2Btucs6Gg9AH5UFRRyfNNuDtwHBYZkFfee8O&#xD;
@@ -326,6 +219,7 @@ zR8GtwIDAQAB&#xD;
     </ns3:host>
     <ns3:host>
         <admin-email>ewp@sop.co.at</admin-email>
+        <admin-notes>Mobility-Online</admin-notes>
         <ns2:apis-implemented>
             <ns23:iia-cnr version="2.0.2">
                 <ns23:http-security>
@@ -349,33 +243,6 @@ zR8GtwIDAQAB&#xD;
             </ns2:hei>
         </ns3:institutions-covered>
         <ns3:client-credentials-in-use>
-            <ns3:certificate>MIIFmDCCA4CgAwIBAgICEBcwDQYJKoZIhvcNAQELBQAwgawxCzAJBgNVBAYTAkFUMQ8wDQYDVQQI&#xD;
-DAZWaWVubmExJzAlBgNVBAoMHlNPUCBIaWxtYmF1ZXIgJiBNYXViZXJnZXIgR21iSDEkMCIGA1UE&#xD;
-CwwbU09QIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MRwwGgYDVQQDDBNTT1AgSW50ZXJtZWRpYXRl&#xD;
-IENBMR8wHQYJKoZIhvcNAQkBFhBvZmZpY2VAc29wLmNvLmF0MB4XDTIxMTIxNzEzMTQyM1oXDTQ5&#xD;
-MDUwMzEzMTQyM1owgZcxCzAJBgNVBAYTAkFUMQ8wDQYDVQQIDAZWaWVubmExJzAlBgNVBAoMHlNP&#xD;
-UCBIaWxtYmF1ZXIgJiBNYXViZXJnZXIgR21iSDEMMAoGA1UECwwDRVdQMRgwFgYDVQQDDA9tb2Jp&#xD;
-bGl0eS51b2wuZGUxJjAkBgkqhkiG9w0BCQEWF2dlb3JnLmphaWRsZXJAc29wLmNvLmF0MIIBIjAN&#xD;
-BgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2E5PkgnJTr7OCApb0c4cbq4N1/mP44TrjdL8QXOC&#xD;
-MS0njpek4ORMA2RLHzqAitwGEOWuP5cUHErK1YBR0Tc7MUWXyMVzmlHaFFinaHVGrNsIQBg972QY&#xD;
-mthjmsfao3EB5fs0LYjaA+d+39Mkzlzb2Btucs6Gg9AH5UFRRyfNNuDtwHBYZkFfee8O3rqSsRQL&#xD;
-rB/b4E7NPcFMAoum3neW+bc8s+OaANSAGw/s9rh7IPYDe8Mn7opfIE7E460JZaVdxqM8B28F3OUm&#xD;
-tgBhFm1fvfaM/UaAYj8V5shpDrN+qES6h9YNnwcOjMo50sBs02gYqrqRwIyWUn8PQlOyzR8GtwID&#xD;
-AQABo4HWMIHTMAkGA1UdEwQCMAAwEQYJYIZIAYb4QgEBBAQDAgXgMDoGCWCGSAGG+EIBDQQtFitP&#xD;
-cGVuU1NMIEdlbmVyYXRlZCBDbGllbnQvU2VydmVyIENlcnRpZmljYXRlMB0GA1UdDgQWBBQOgb7N&#xD;
-PSixn0qZYWJugs13+mdepjAfBgNVHSMEGDAWgBTq7mxMgD7aGuQLLoHgkqqYBY5o5TAOBgNVHQ8B&#xD;
-Af8EBAMCBeAwJwYDVR0lBCAwHgYIKwYBBQUHAwEGCCsGAQUFBwMCBggrBgEFBQcDBDANBgkqhkiG&#xD;
-9w0BAQsFAAOCAgEAE8Ca+0/np5wgXHsWz1A3tpd01PdQm7tThH8CT1Y+ScXpzBHrbFG9H0lDO0Xw&#xD;
-QBJyIKLdXVUSJwaeNJZFmAapyPOzlQz3qBHQ6lnM6InExqT4ZyuReJPDWkV3s8pDvtPVGYTPpltC&#xD;
-Mdh3Wg8EeKbqR8NnTX1jnu7gk+f1mU4Hwg27aLneJystUqD8UDlY/2cO4j5wrHZcUJsrUFWjskyj&#xD;
-B9NNTG8bbLbsdN0TMbjDRxEHjRGxXdCp4o+llFQK6QVC4/sfBxT33UTsJweiAtmJvIoNsm4z7K8l&#xD;
-jv/RWZaQiK/0by8z+qQA5z8efcr0IVfcnVSn+V5RZLngVz+bL2FpygAHgv8TnbZac2gkKogs7fhC&#xD;
-xe5Uuy1zRch6UGcWCmf9L/Z1lvEFqrsDAS9nmSXLchCUoU06OmS1mAVC4lxk1ZGncM/a9w7wyUXE&#xD;
-7E00c1PY5Eqgb5eW/rHcL+QZ5Bzkyj3UThlIeT6V3sVkkVux5hd0L8nE5hPm24TmWMmJAdfehYbo&#xD;
-7FOdGNSzdnjo4SwoHl9hifFC/9D80FultJbW8vMiYo+mB9oNXMpTL0V3j415t++xGQoVA8qGnAoy&#xD;
-/JSUsmTygLDpkzNWGY/zA+SvzFhLz3ifiljDZDHRr78kJz4XMBNJ3qEO9jbWiKkzGBodgkeuM0B2&#xD;
-2l05LEqUxCTD/8A=&#xD;
-</ns3:certificate>
             <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2E5PkgnJTr7OCApb0c4cbq4N1/mP44Tr&#xD;
 jdL8QXOCMS0njpek4ORMA2RLHzqAitwGEOWuP5cUHErK1YBR0Tc7MUWXyMVzmlHaFFinaHVGrNsI&#xD;
 QBg972QYmthjmsfao3EB5fs0LYjaA+d+39Mkzlzb2Btucs6Gg9AH5UFRRyfNNuDtwHBYZkFfee8O&#xD;
@@ -396,6 +263,7 @@ zR8GtwIDAQAB&#xD;
     </ns3:host>
     <ns3:host>
         <admin-email>ewp@sop.co.at</admin-email>
+        <admin-notes>Mobility-Online</admin-notes>
         <ns2:apis-implemented>
             <ns22:iias-approval version="1.0.0">
                 <ns22:http-security>
@@ -420,33 +288,6 @@ zR8GtwIDAQAB&#xD;
             </ns2:hei>
         </ns3:institutions-covered>
         <ns3:client-credentials-in-use>
-            <ns3:certificate>MIIFmDCCA4CgAwIBAgICEBcwDQYJKoZIhvcNAQELBQAwgawxCzAJBgNVBAYTAkFUMQ8wDQYDVQQI&#xD;
-DAZWaWVubmExJzAlBgNVBAoMHlNPUCBIaWxtYmF1ZXIgJiBNYXViZXJnZXIgR21iSDEkMCIGA1UE&#xD;
-CwwbU09QIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MRwwGgYDVQQDDBNTT1AgSW50ZXJtZWRpYXRl&#xD;
-IENBMR8wHQYJKoZIhvcNAQkBFhBvZmZpY2VAc29wLmNvLmF0MB4XDTIxMTIxNzEzMTQyM1oXDTQ5&#xD;
-MDUwMzEzMTQyM1owgZcxCzAJBgNVBAYTAkFUMQ8wDQYDVQQIDAZWaWVubmExJzAlBgNVBAoMHlNP&#xD;
-UCBIaWxtYmF1ZXIgJiBNYXViZXJnZXIgR21iSDEMMAoGA1UECwwDRVdQMRgwFgYDVQQDDA9tb2Jp&#xD;
-bGl0eS51b2wuZGUxJjAkBgkqhkiG9w0BCQEWF2dlb3JnLmphaWRsZXJAc29wLmNvLmF0MIIBIjAN&#xD;
-BgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2E5PkgnJTr7OCApb0c4cbq4N1/mP44TrjdL8QXOC&#xD;
-MS0njpek4ORMA2RLHzqAitwGEOWuP5cUHErK1YBR0Tc7MUWXyMVzmlHaFFinaHVGrNsIQBg972QY&#xD;
-mthjmsfao3EB5fs0LYjaA+d+39Mkzlzb2Btucs6Gg9AH5UFRRyfNNuDtwHBYZkFfee8O3rqSsRQL&#xD;
-rB/b4E7NPcFMAoum3neW+bc8s+OaANSAGw/s9rh7IPYDe8Mn7opfIE7E460JZaVdxqM8B28F3OUm&#xD;
-tgBhFm1fvfaM/UaAYj8V5shpDrN+qES6h9YNnwcOjMo50sBs02gYqrqRwIyWUn8PQlOyzR8GtwID&#xD;
-AQABo4HWMIHTMAkGA1UdEwQCMAAwEQYJYIZIAYb4QgEBBAQDAgXgMDoGCWCGSAGG+EIBDQQtFitP&#xD;
-cGVuU1NMIEdlbmVyYXRlZCBDbGllbnQvU2VydmVyIENlcnRpZmljYXRlMB0GA1UdDgQWBBQOgb7N&#xD;
-PSixn0qZYWJugs13+mdepjAfBgNVHSMEGDAWgBTq7mxMgD7aGuQLLoHgkqqYBY5o5TAOBgNVHQ8B&#xD;
-Af8EBAMCBeAwJwYDVR0lBCAwHgYIKwYBBQUHAwEGCCsGAQUFBwMCBggrBgEFBQcDBDANBgkqhkiG&#xD;
-9w0BAQsFAAOCAgEAE8Ca+0/np5wgXHsWz1A3tpd01PdQm7tThH8CT1Y+ScXpzBHrbFG9H0lDO0Xw&#xD;
-QBJyIKLdXVUSJwaeNJZFmAapyPOzlQz3qBHQ6lnM6InExqT4ZyuReJPDWkV3s8pDvtPVGYTPpltC&#xD;
-Mdh3Wg8EeKbqR8NnTX1jnu7gk+f1mU4Hwg27aLneJystUqD8UDlY/2cO4j5wrHZcUJsrUFWjskyj&#xD;
-B9NNTG8bbLbsdN0TMbjDRxEHjRGxXdCp4o+llFQK6QVC4/sfBxT33UTsJweiAtmJvIoNsm4z7K8l&#xD;
-jv/RWZaQiK/0by8z+qQA5z8efcr0IVfcnVSn+V5RZLngVz+bL2FpygAHgv8TnbZac2gkKogs7fhC&#xD;
-xe5Uuy1zRch6UGcWCmf9L/Z1lvEFqrsDAS9nmSXLchCUoU06OmS1mAVC4lxk1ZGncM/a9w7wyUXE&#xD;
-7E00c1PY5Eqgb5eW/rHcL+QZ5Bzkyj3UThlIeT6V3sVkkVux5hd0L8nE5hPm24TmWMmJAdfehYbo&#xD;
-7FOdGNSzdnjo4SwoHl9hifFC/9D80FultJbW8vMiYo+mB9oNXMpTL0V3j415t++xGQoVA8qGnAoy&#xD;
-/JSUsmTygLDpkzNWGY/zA+SvzFhLz3ifiljDZDHRr78kJz4XMBNJ3qEO9jbWiKkzGBodgkeuM0B2&#xD;
-2l05LEqUxCTD/8A=&#xD;
-</ns3:certificate>
             <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2E5PkgnJTr7OCApb0c4cbq4N1/mP44Tr&#xD;
 jdL8QXOCMS0njpek4ORMA2RLHzqAitwGEOWuP5cUHErK1YBR0Tc7MUWXyMVzmlHaFFinaHVGrNsI&#xD;
 QBg972QYmthjmsfao3EB5fs0LYjaA+d+39Mkzlzb2Btucs6Gg9AH5UFRRyfNNuDtwHBYZkFfee8O&#xD;
@@ -467,6 +308,7 @@ zR8GtwIDAQAB&#xD;
     </ns3:host>
     <ns3:host>
         <admin-email>ewp@sop.co.at</admin-email>
+        <admin-notes>Mobility-Online</admin-notes>
         <ns2:apis-implemented>
             <ns21:iia-approval-cnr version="1.0.0">
                 <ns21:http-security>
@@ -490,33 +332,6 @@ zR8GtwIDAQAB&#xD;
             </ns2:hei>
         </ns3:institutions-covered>
         <ns3:client-credentials-in-use>
-            <ns3:certificate>MIIFmDCCA4CgAwIBAgICEBcwDQYJKoZIhvcNAQELBQAwgawxCzAJBgNVBAYTAkFUMQ8wDQYDVQQI&#xD;
-DAZWaWVubmExJzAlBgNVBAoMHlNPUCBIaWxtYmF1ZXIgJiBNYXViZXJnZXIgR21iSDEkMCIGA1UE&#xD;
-CwwbU09QIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MRwwGgYDVQQDDBNTT1AgSW50ZXJtZWRpYXRl&#xD;
-IENBMR8wHQYJKoZIhvcNAQkBFhBvZmZpY2VAc29wLmNvLmF0MB4XDTIxMTIxNzEzMTQyM1oXDTQ5&#xD;
-MDUwMzEzMTQyM1owgZcxCzAJBgNVBAYTAkFUMQ8wDQYDVQQIDAZWaWVubmExJzAlBgNVBAoMHlNP&#xD;
-UCBIaWxtYmF1ZXIgJiBNYXViZXJnZXIgR21iSDEMMAoGA1UECwwDRVdQMRgwFgYDVQQDDA9tb2Jp&#xD;
-bGl0eS51b2wuZGUxJjAkBgkqhkiG9w0BCQEWF2dlb3JnLmphaWRsZXJAc29wLmNvLmF0MIIBIjAN&#xD;
-BgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2E5PkgnJTr7OCApb0c4cbq4N1/mP44TrjdL8QXOC&#xD;
-MS0njpek4ORMA2RLHzqAitwGEOWuP5cUHErK1YBR0Tc7MUWXyMVzmlHaFFinaHVGrNsIQBg972QY&#xD;
-mthjmsfao3EB5fs0LYjaA+d+39Mkzlzb2Btucs6Gg9AH5UFRRyfNNuDtwHBYZkFfee8O3rqSsRQL&#xD;
-rB/b4E7NPcFMAoum3neW+bc8s+OaANSAGw/s9rh7IPYDe8Mn7opfIE7E460JZaVdxqM8B28F3OUm&#xD;
-tgBhFm1fvfaM/UaAYj8V5shpDrN+qES6h9YNnwcOjMo50sBs02gYqrqRwIyWUn8PQlOyzR8GtwID&#xD;
-AQABo4HWMIHTMAkGA1UdEwQCMAAwEQYJYIZIAYb4QgEBBAQDAgXgMDoGCWCGSAGG+EIBDQQtFitP&#xD;
-cGVuU1NMIEdlbmVyYXRlZCBDbGllbnQvU2VydmVyIENlcnRpZmljYXRlMB0GA1UdDgQWBBQOgb7N&#xD;
-PSixn0qZYWJugs13+mdepjAfBgNVHSMEGDAWgBTq7mxMgD7aGuQLLoHgkqqYBY5o5TAOBgNVHQ8B&#xD;
-Af8EBAMCBeAwJwYDVR0lBCAwHgYIKwYBBQUHAwEGCCsGAQUFBwMCBggrBgEFBQcDBDANBgkqhkiG&#xD;
-9w0BAQsFAAOCAgEAE8Ca+0/np5wgXHsWz1A3tpd01PdQm7tThH8CT1Y+ScXpzBHrbFG9H0lDO0Xw&#xD;
-QBJyIKLdXVUSJwaeNJZFmAapyPOzlQz3qBHQ6lnM6InExqT4ZyuReJPDWkV3s8pDvtPVGYTPpltC&#xD;
-Mdh3Wg8EeKbqR8NnTX1jnu7gk+f1mU4Hwg27aLneJystUqD8UDlY/2cO4j5wrHZcUJsrUFWjskyj&#xD;
-B9NNTG8bbLbsdN0TMbjDRxEHjRGxXdCp4o+llFQK6QVC4/sfBxT33UTsJweiAtmJvIoNsm4z7K8l&#xD;
-jv/RWZaQiK/0by8z+qQA5z8efcr0IVfcnVSn+V5RZLngVz+bL2FpygAHgv8TnbZac2gkKogs7fhC&#xD;
-xe5Uuy1zRch6UGcWCmf9L/Z1lvEFqrsDAS9nmSXLchCUoU06OmS1mAVC4lxk1ZGncM/a9w7wyUXE&#xD;
-7E00c1PY5Eqgb5eW/rHcL+QZ5Bzkyj3UThlIeT6V3sVkkVux5hd0L8nE5hPm24TmWMmJAdfehYbo&#xD;
-7FOdGNSzdnjo4SwoHl9hifFC/9D80FultJbW8vMiYo+mB9oNXMpTL0V3j415t++xGQoVA8qGnAoy&#xD;
-/JSUsmTygLDpkzNWGY/zA+SvzFhLz3ifiljDZDHRr78kJz4XMBNJ3qEO9jbWiKkzGBodgkeuM0B2&#xD;
-2l05LEqUxCTD/8A=&#xD;
-</ns3:certificate>
             <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2E5PkgnJTr7OCApb0c4cbq4N1/mP44Tr&#xD;
 jdL8QXOCMS0njpek4ORMA2RLHzqAitwGEOWuP5cUHErK1YBR0Tc7MUWXyMVzmlHaFFinaHVGrNsI&#xD;
 QBg972QYmthjmsfao3EB5fs0LYjaA+d+39Mkzlzb2Btucs6Gg9AH5UFRRyfNNuDtwHBYZkFfee8O&#xD;
@@ -537,6 +352,7 @@ zR8GtwIDAQAB&#xD;
     </ns3:host>
     <ns3:host>
         <admin-email>ewp@sop.co.at</admin-email>
+        <admin-notes>Mobility-Online</admin-notes>
         <ns2:apis-implemented>
             <ns18:omobilities version="1.0.0">
                 <ns18:http-security>
@@ -563,33 +379,6 @@ zR8GtwIDAQAB&#xD;
             </ns2:hei>
         </ns3:institutions-covered>
         <ns3:client-credentials-in-use>
-            <ns3:certificate>MIIFmDCCA4CgAwIBAgICEBcwDQYJKoZIhvcNAQELBQAwgawxCzAJBgNVBAYTAkFUMQ8wDQYDVQQI&#xD;
-DAZWaWVubmExJzAlBgNVBAoMHlNPUCBIaWxtYmF1ZXIgJiBNYXViZXJnZXIgR21iSDEkMCIGA1UE&#xD;
-CwwbU09QIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MRwwGgYDVQQDDBNTT1AgSW50ZXJtZWRpYXRl&#xD;
-IENBMR8wHQYJKoZIhvcNAQkBFhBvZmZpY2VAc29wLmNvLmF0MB4XDTIxMTIxNzEzMTQyM1oXDTQ5&#xD;
-MDUwMzEzMTQyM1owgZcxCzAJBgNVBAYTAkFUMQ8wDQYDVQQIDAZWaWVubmExJzAlBgNVBAoMHlNP&#xD;
-UCBIaWxtYmF1ZXIgJiBNYXViZXJnZXIgR21iSDEMMAoGA1UECwwDRVdQMRgwFgYDVQQDDA9tb2Jp&#xD;
-bGl0eS51b2wuZGUxJjAkBgkqhkiG9w0BCQEWF2dlb3JnLmphaWRsZXJAc29wLmNvLmF0MIIBIjAN&#xD;
-BgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2E5PkgnJTr7OCApb0c4cbq4N1/mP44TrjdL8QXOC&#xD;
-MS0njpek4ORMA2RLHzqAitwGEOWuP5cUHErK1YBR0Tc7MUWXyMVzmlHaFFinaHVGrNsIQBg972QY&#xD;
-mthjmsfao3EB5fs0LYjaA+d+39Mkzlzb2Btucs6Gg9AH5UFRRyfNNuDtwHBYZkFfee8O3rqSsRQL&#xD;
-rB/b4E7NPcFMAoum3neW+bc8s+OaANSAGw/s9rh7IPYDe8Mn7opfIE7E460JZaVdxqM8B28F3OUm&#xD;
-tgBhFm1fvfaM/UaAYj8V5shpDrN+qES6h9YNnwcOjMo50sBs02gYqrqRwIyWUn8PQlOyzR8GtwID&#xD;
-AQABo4HWMIHTMAkGA1UdEwQCMAAwEQYJYIZIAYb4QgEBBAQDAgXgMDoGCWCGSAGG+EIBDQQtFitP&#xD;
-cGVuU1NMIEdlbmVyYXRlZCBDbGllbnQvU2VydmVyIENlcnRpZmljYXRlMB0GA1UdDgQWBBQOgb7N&#xD;
-PSixn0qZYWJugs13+mdepjAfBgNVHSMEGDAWgBTq7mxMgD7aGuQLLoHgkqqYBY5o5TAOBgNVHQ8B&#xD;
-Af8EBAMCBeAwJwYDVR0lBCAwHgYIKwYBBQUHAwEGCCsGAQUFBwMCBggrBgEFBQcDBDANBgkqhkiG&#xD;
-9w0BAQsFAAOCAgEAE8Ca+0/np5wgXHsWz1A3tpd01PdQm7tThH8CT1Y+ScXpzBHrbFG9H0lDO0Xw&#xD;
-QBJyIKLdXVUSJwaeNJZFmAapyPOzlQz3qBHQ6lnM6InExqT4ZyuReJPDWkV3s8pDvtPVGYTPpltC&#xD;
-Mdh3Wg8EeKbqR8NnTX1jnu7gk+f1mU4Hwg27aLneJystUqD8UDlY/2cO4j5wrHZcUJsrUFWjskyj&#xD;
-B9NNTG8bbLbsdN0TMbjDRxEHjRGxXdCp4o+llFQK6QVC4/sfBxT33UTsJweiAtmJvIoNsm4z7K8l&#xD;
-jv/RWZaQiK/0by8z+qQA5z8efcr0IVfcnVSn+V5RZLngVz+bL2FpygAHgv8TnbZac2gkKogs7fhC&#xD;
-xe5Uuy1zRch6UGcWCmf9L/Z1lvEFqrsDAS9nmSXLchCUoU06OmS1mAVC4lxk1ZGncM/a9w7wyUXE&#xD;
-7E00c1PY5Eqgb5eW/rHcL+QZ5Bzkyj3UThlIeT6V3sVkkVux5hd0L8nE5hPm24TmWMmJAdfehYbo&#xD;
-7FOdGNSzdnjo4SwoHl9hifFC/9D80FultJbW8vMiYo+mB9oNXMpTL0V3j415t++xGQoVA8qGnAoy&#xD;
-/JSUsmTygLDpkzNWGY/zA+SvzFhLz3ifiljDZDHRr78kJz4XMBNJ3qEO9jbWiKkzGBodgkeuM0B2&#xD;
-2l05LEqUxCTD/8A=&#xD;
-</ns3:certificate>
             <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2E5PkgnJTr7OCApb0c4cbq4N1/mP44Tr&#xD;
 jdL8QXOCMS0njpek4ORMA2RLHzqAitwGEOWuP5cUHErK1YBR0Tc7MUWXyMVzmlHaFFinaHVGrNsI&#xD;
 QBg972QYmthjmsfao3EB5fs0LYjaA+d+39Mkzlzb2Btucs6Gg9AH5UFRRyfNNuDtwHBYZkFfee8O&#xD;
@@ -610,6 +399,7 @@ zR8GtwIDAQAB&#xD;
     </ns3:host>
     <ns3:host>
         <admin-email>ewp@sop.co.at</admin-email>
+        <admin-notes>Mobility-Online</admin-notes>
         <ns2:apis-implemented>
             <ns13:imobility-cnr version="1.0.0">
                 <ns13:http-security>
@@ -634,33 +424,6 @@ zR8GtwIDAQAB&#xD;
             </ns2:hei>
         </ns3:institutions-covered>
         <ns3:client-credentials-in-use>
-            <ns3:certificate>MIIFmDCCA4CgAwIBAgICEBcwDQYJKoZIhvcNAQELBQAwgawxCzAJBgNVBAYTAkFUMQ8wDQYDVQQI&#xD;
-DAZWaWVubmExJzAlBgNVBAoMHlNPUCBIaWxtYmF1ZXIgJiBNYXViZXJnZXIgR21iSDEkMCIGA1UE&#xD;
-CwwbU09QIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MRwwGgYDVQQDDBNTT1AgSW50ZXJtZWRpYXRl&#xD;
-IENBMR8wHQYJKoZIhvcNAQkBFhBvZmZpY2VAc29wLmNvLmF0MB4XDTIxMTIxNzEzMTQyM1oXDTQ5&#xD;
-MDUwMzEzMTQyM1owgZcxCzAJBgNVBAYTAkFUMQ8wDQYDVQQIDAZWaWVubmExJzAlBgNVBAoMHlNP&#xD;
-UCBIaWxtYmF1ZXIgJiBNYXViZXJnZXIgR21iSDEMMAoGA1UECwwDRVdQMRgwFgYDVQQDDA9tb2Jp&#xD;
-bGl0eS51b2wuZGUxJjAkBgkqhkiG9w0BCQEWF2dlb3JnLmphaWRsZXJAc29wLmNvLmF0MIIBIjAN&#xD;
-BgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2E5PkgnJTr7OCApb0c4cbq4N1/mP44TrjdL8QXOC&#xD;
-MS0njpek4ORMA2RLHzqAitwGEOWuP5cUHErK1YBR0Tc7MUWXyMVzmlHaFFinaHVGrNsIQBg972QY&#xD;
-mthjmsfao3EB5fs0LYjaA+d+39Mkzlzb2Btucs6Gg9AH5UFRRyfNNuDtwHBYZkFfee8O3rqSsRQL&#xD;
-rB/b4E7NPcFMAoum3neW+bc8s+OaANSAGw/s9rh7IPYDe8Mn7opfIE7E460JZaVdxqM8B28F3OUm&#xD;
-tgBhFm1fvfaM/UaAYj8V5shpDrN+qES6h9YNnwcOjMo50sBs02gYqrqRwIyWUn8PQlOyzR8GtwID&#xD;
-AQABo4HWMIHTMAkGA1UdEwQCMAAwEQYJYIZIAYb4QgEBBAQDAgXgMDoGCWCGSAGG+EIBDQQtFitP&#xD;
-cGVuU1NMIEdlbmVyYXRlZCBDbGllbnQvU2VydmVyIENlcnRpZmljYXRlMB0GA1UdDgQWBBQOgb7N&#xD;
-PSixn0qZYWJugs13+mdepjAfBgNVHSMEGDAWgBTq7mxMgD7aGuQLLoHgkqqYBY5o5TAOBgNVHQ8B&#xD;
-Af8EBAMCBeAwJwYDVR0lBCAwHgYIKwYBBQUHAwEGCCsGAQUFBwMCBggrBgEFBQcDBDANBgkqhkiG&#xD;
-9w0BAQsFAAOCAgEAE8Ca+0/np5wgXHsWz1A3tpd01PdQm7tThH8CT1Y+ScXpzBHrbFG9H0lDO0Xw&#xD;
-QBJyIKLdXVUSJwaeNJZFmAapyPOzlQz3qBHQ6lnM6InExqT4ZyuReJPDWkV3s8pDvtPVGYTPpltC&#xD;
-Mdh3Wg8EeKbqR8NnTX1jnu7gk+f1mU4Hwg27aLneJystUqD8UDlY/2cO4j5wrHZcUJsrUFWjskyj&#xD;
-B9NNTG8bbLbsdN0TMbjDRxEHjRGxXdCp4o+llFQK6QVC4/sfBxT33UTsJweiAtmJvIoNsm4z7K8l&#xD;
-jv/RWZaQiK/0by8z+qQA5z8efcr0IVfcnVSn+V5RZLngVz+bL2FpygAHgv8TnbZac2gkKogs7fhC&#xD;
-xe5Uuy1zRch6UGcWCmf9L/Z1lvEFqrsDAS9nmSXLchCUoU06OmS1mAVC4lxk1ZGncM/a9w7wyUXE&#xD;
-7E00c1PY5Eqgb5eW/rHcL+QZ5Bzkyj3UThlIeT6V3sVkkVux5hd0L8nE5hPm24TmWMmJAdfehYbo&#xD;
-7FOdGNSzdnjo4SwoHl9hifFC/9D80FultJbW8vMiYo+mB9oNXMpTL0V3j415t++xGQoVA8qGnAoy&#xD;
-/JSUsmTygLDpkzNWGY/zA+SvzFhLz3ifiljDZDHRr78kJz4XMBNJ3qEO9jbWiKkzGBodgkeuM0B2&#xD;
-2l05LEqUxCTD/8A=&#xD;
-</ns3:certificate>
             <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2E5PkgnJTr7OCApb0c4cbq4N1/mP44Tr&#xD;
 jdL8QXOCMS0njpek4ORMA2RLHzqAitwGEOWuP5cUHErK1YBR0Tc7MUWXyMVzmlHaFFinaHVGrNsI&#xD;
 QBg972QYmthjmsfao3EB5fs0LYjaA+d+39Mkzlzb2Btucs6Gg9AH5UFRRyfNNuDtwHBYZkFfee8O&#xD;
@@ -681,6 +444,7 @@ zR8GtwIDAQAB&#xD;
     </ns3:host>
     <ns3:host>
         <admin-email>ewp@sop.co.at</admin-email>
+        <admin-notes>Mobility-Online</admin-notes>
         <ns2:apis-implemented>
             <ns14:imobilities version="1.0.0">
                 <ns14:http-security>
@@ -706,33 +470,6 @@ zR8GtwIDAQAB&#xD;
             </ns2:hei>
         </ns3:institutions-covered>
         <ns3:client-credentials-in-use>
-            <ns3:certificate>MIIFmDCCA4CgAwIBAgICEBcwDQYJKoZIhvcNAQELBQAwgawxCzAJBgNVBAYTAkFUMQ8wDQYDVQQI&#xD;
-DAZWaWVubmExJzAlBgNVBAoMHlNPUCBIaWxtYmF1ZXIgJiBNYXViZXJnZXIgR21iSDEkMCIGA1UE&#xD;
-CwwbU09QIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MRwwGgYDVQQDDBNTT1AgSW50ZXJtZWRpYXRl&#xD;
-IENBMR8wHQYJKoZIhvcNAQkBFhBvZmZpY2VAc29wLmNvLmF0MB4XDTIxMTIxNzEzMTQyM1oXDTQ5&#xD;
-MDUwMzEzMTQyM1owgZcxCzAJBgNVBAYTAkFUMQ8wDQYDVQQIDAZWaWVubmExJzAlBgNVBAoMHlNP&#xD;
-UCBIaWxtYmF1ZXIgJiBNYXViZXJnZXIgR21iSDEMMAoGA1UECwwDRVdQMRgwFgYDVQQDDA9tb2Jp&#xD;
-bGl0eS51b2wuZGUxJjAkBgkqhkiG9w0BCQEWF2dlb3JnLmphaWRsZXJAc29wLmNvLmF0MIIBIjAN&#xD;
-BgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2E5PkgnJTr7OCApb0c4cbq4N1/mP44TrjdL8QXOC&#xD;
-MS0njpek4ORMA2RLHzqAitwGEOWuP5cUHErK1YBR0Tc7MUWXyMVzmlHaFFinaHVGrNsIQBg972QY&#xD;
-mthjmsfao3EB5fs0LYjaA+d+39Mkzlzb2Btucs6Gg9AH5UFRRyfNNuDtwHBYZkFfee8O3rqSsRQL&#xD;
-rB/b4E7NPcFMAoum3neW+bc8s+OaANSAGw/s9rh7IPYDe8Mn7opfIE7E460JZaVdxqM8B28F3OUm&#xD;
-tgBhFm1fvfaM/UaAYj8V5shpDrN+qES6h9YNnwcOjMo50sBs02gYqrqRwIyWUn8PQlOyzR8GtwID&#xD;
-AQABo4HWMIHTMAkGA1UdEwQCMAAwEQYJYIZIAYb4QgEBBAQDAgXgMDoGCWCGSAGG+EIBDQQtFitP&#xD;
-cGVuU1NMIEdlbmVyYXRlZCBDbGllbnQvU2VydmVyIENlcnRpZmljYXRlMB0GA1UdDgQWBBQOgb7N&#xD;
-PSixn0qZYWJugs13+mdepjAfBgNVHSMEGDAWgBTq7mxMgD7aGuQLLoHgkqqYBY5o5TAOBgNVHQ8B&#xD;
-Af8EBAMCBeAwJwYDVR0lBCAwHgYIKwYBBQUHAwEGCCsGAQUFBwMCBggrBgEFBQcDBDANBgkqhkiG&#xD;
-9w0BAQsFAAOCAgEAE8Ca+0/np5wgXHsWz1A3tpd01PdQm7tThH8CT1Y+ScXpzBHrbFG9H0lDO0Xw&#xD;
-QBJyIKLdXVUSJwaeNJZFmAapyPOzlQz3qBHQ6lnM6InExqT4ZyuReJPDWkV3s8pDvtPVGYTPpltC&#xD;
-Mdh3Wg8EeKbqR8NnTX1jnu7gk+f1mU4Hwg27aLneJystUqD8UDlY/2cO4j5wrHZcUJsrUFWjskyj&#xD;
-B9NNTG8bbLbsdN0TMbjDRxEHjRGxXdCp4o+llFQK6QVC4/sfBxT33UTsJweiAtmJvIoNsm4z7K8l&#xD;
-jv/RWZaQiK/0by8z+qQA5z8efcr0IVfcnVSn+V5RZLngVz+bL2FpygAHgv8TnbZac2gkKogs7fhC&#xD;
-xe5Uuy1zRch6UGcWCmf9L/Z1lvEFqrsDAS9nmSXLchCUoU06OmS1mAVC4lxk1ZGncM/a9w7wyUXE&#xD;
-7E00c1PY5Eqgb5eW/rHcL+QZ5Bzkyj3UThlIeT6V3sVkkVux5hd0L8nE5hPm24TmWMmJAdfehYbo&#xD;
-7FOdGNSzdnjo4SwoHl9hifFC/9D80FultJbW8vMiYo+mB9oNXMpTL0V3j415t++xGQoVA8qGnAoy&#xD;
-/JSUsmTygLDpkzNWGY/zA+SvzFhLz3ifiljDZDHRr78kJz4XMBNJ3qEO9jbWiKkzGBodgkeuM0B2&#xD;
-2l05LEqUxCTD/8A=&#xD;
-</ns3:certificate>
             <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2E5PkgnJTr7OCApb0c4cbq4N1/mP44Tr&#xD;
 jdL8QXOCMS0njpek4ORMA2RLHzqAitwGEOWuP5cUHErK1YBR0Tc7MUWXyMVzmlHaFFinaHVGrNsI&#xD;
 QBg972QYmthjmsfao3EB5fs0LYjaA+d+39Mkzlzb2Btucs6Gg9AH5UFRRyfNNuDtwHBYZkFfee8O&#xD;
@@ -753,6 +490,7 @@ zR8GtwIDAQAB&#xD;
     </ns3:host>
     <ns3:host>
         <admin-email>ewp@sop.co.at</admin-email>
+        <admin-notes>Mobility-Online</admin-notes>
         <ns2:apis-implemented>
             <ns17:omobility-cnr version="1.0.0">
                 <ns17:http-security>
@@ -777,33 +515,6 @@ zR8GtwIDAQAB&#xD;
             </ns2:hei>
         </ns3:institutions-covered>
         <ns3:client-credentials-in-use>
-            <ns3:certificate>MIIFmDCCA4CgAwIBAgICEBcwDQYJKoZIhvcNAQELBQAwgawxCzAJBgNVBAYTAkFUMQ8wDQYDVQQI&#xD;
-DAZWaWVubmExJzAlBgNVBAoMHlNPUCBIaWxtYmF1ZXIgJiBNYXViZXJnZXIgR21iSDEkMCIGA1UE&#xD;
-CwwbU09QIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MRwwGgYDVQQDDBNTT1AgSW50ZXJtZWRpYXRl&#xD;
-IENBMR8wHQYJKoZIhvcNAQkBFhBvZmZpY2VAc29wLmNvLmF0MB4XDTIxMTIxNzEzMTQyM1oXDTQ5&#xD;
-MDUwMzEzMTQyM1owgZcxCzAJBgNVBAYTAkFUMQ8wDQYDVQQIDAZWaWVubmExJzAlBgNVBAoMHlNP&#xD;
-UCBIaWxtYmF1ZXIgJiBNYXViZXJnZXIgR21iSDEMMAoGA1UECwwDRVdQMRgwFgYDVQQDDA9tb2Jp&#xD;
-bGl0eS51b2wuZGUxJjAkBgkqhkiG9w0BCQEWF2dlb3JnLmphaWRsZXJAc29wLmNvLmF0MIIBIjAN&#xD;
-BgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2E5PkgnJTr7OCApb0c4cbq4N1/mP44TrjdL8QXOC&#xD;
-MS0njpek4ORMA2RLHzqAitwGEOWuP5cUHErK1YBR0Tc7MUWXyMVzmlHaFFinaHVGrNsIQBg972QY&#xD;
-mthjmsfao3EB5fs0LYjaA+d+39Mkzlzb2Btucs6Gg9AH5UFRRyfNNuDtwHBYZkFfee8O3rqSsRQL&#xD;
-rB/b4E7NPcFMAoum3neW+bc8s+OaANSAGw/s9rh7IPYDe8Mn7opfIE7E460JZaVdxqM8B28F3OUm&#xD;
-tgBhFm1fvfaM/UaAYj8V5shpDrN+qES6h9YNnwcOjMo50sBs02gYqrqRwIyWUn8PQlOyzR8GtwID&#xD;
-AQABo4HWMIHTMAkGA1UdEwQCMAAwEQYJYIZIAYb4QgEBBAQDAgXgMDoGCWCGSAGG+EIBDQQtFitP&#xD;
-cGVuU1NMIEdlbmVyYXRlZCBDbGllbnQvU2VydmVyIENlcnRpZmljYXRlMB0GA1UdDgQWBBQOgb7N&#xD;
-PSixn0qZYWJugs13+mdepjAfBgNVHSMEGDAWgBTq7mxMgD7aGuQLLoHgkqqYBY5o5TAOBgNVHQ8B&#xD;
-Af8EBAMCBeAwJwYDVR0lBCAwHgYIKwYBBQUHAwEGCCsGAQUFBwMCBggrBgEFBQcDBDANBgkqhkiG&#xD;
-9w0BAQsFAAOCAgEAE8Ca+0/np5wgXHsWz1A3tpd01PdQm7tThH8CT1Y+ScXpzBHrbFG9H0lDO0Xw&#xD;
-QBJyIKLdXVUSJwaeNJZFmAapyPOzlQz3qBHQ6lnM6InExqT4ZyuReJPDWkV3s8pDvtPVGYTPpltC&#xD;
-Mdh3Wg8EeKbqR8NnTX1jnu7gk+f1mU4Hwg27aLneJystUqD8UDlY/2cO4j5wrHZcUJsrUFWjskyj&#xD;
-B9NNTG8bbLbsdN0TMbjDRxEHjRGxXdCp4o+llFQK6QVC4/sfBxT33UTsJweiAtmJvIoNsm4z7K8l&#xD;
-jv/RWZaQiK/0by8z+qQA5z8efcr0IVfcnVSn+V5RZLngVz+bL2FpygAHgv8TnbZac2gkKogs7fhC&#xD;
-xe5Uuy1zRch6UGcWCmf9L/Z1lvEFqrsDAS9nmSXLchCUoU06OmS1mAVC4lxk1ZGncM/a9w7wyUXE&#xD;
-7E00c1PY5Eqgb5eW/rHcL+QZ5Bzkyj3UThlIeT6V3sVkkVux5hd0L8nE5hPm24TmWMmJAdfehYbo&#xD;
-7FOdGNSzdnjo4SwoHl9hifFC/9D80FultJbW8vMiYo+mB9oNXMpTL0V3j415t++xGQoVA8qGnAoy&#xD;
-/JSUsmTygLDpkzNWGY/zA+SvzFhLz3ifiljDZDHRr78kJz4XMBNJ3qEO9jbWiKkzGBodgkeuM0B2&#xD;
-2l05LEqUxCTD/8A=&#xD;
-</ns3:certificate>
             <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2E5PkgnJTr7OCApb0c4cbq4N1/mP44Tr&#xD;
 jdL8QXOCMS0njpek4ORMA2RLHzqAitwGEOWuP5cUHErK1YBR0Tc7MUWXyMVzmlHaFFinaHVGrNsI&#xD;
 QBg972QYmthjmsfao3EB5fs0LYjaA+d+39Mkzlzb2Btucs6Gg9AH5UFRRyfNNuDtwHBYZkFfee8O&#xD;
@@ -824,6 +535,7 @@ zR8GtwIDAQAB&#xD;
     </ns3:host>
     <ns3:host>
         <admin-email>ewp@sop.co.at</admin-email>
+        <admin-notes>Mobility-Online</admin-notes>
         <ns2:apis-implemented>
             <ns6:factsheet version="1.0.0">
                 <ns6:http-security>
@@ -848,33 +560,6 @@ zR8GtwIDAQAB&#xD;
             </ns2:hei>
         </ns3:institutions-covered>
         <ns3:client-credentials-in-use>
-            <ns3:certificate>MIIFmDCCA4CgAwIBAgICEBcwDQYJKoZIhvcNAQELBQAwgawxCzAJBgNVBAYTAkFUMQ8wDQYDVQQI&#xD;
-DAZWaWVubmExJzAlBgNVBAoMHlNPUCBIaWxtYmF1ZXIgJiBNYXViZXJnZXIgR21iSDEkMCIGA1UE&#xD;
-CwwbU09QIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MRwwGgYDVQQDDBNTT1AgSW50ZXJtZWRpYXRl&#xD;
-IENBMR8wHQYJKoZIhvcNAQkBFhBvZmZpY2VAc29wLmNvLmF0MB4XDTIxMTIxNzEzMTQyM1oXDTQ5&#xD;
-MDUwMzEzMTQyM1owgZcxCzAJBgNVBAYTAkFUMQ8wDQYDVQQIDAZWaWVubmExJzAlBgNVBAoMHlNP&#xD;
-UCBIaWxtYmF1ZXIgJiBNYXViZXJnZXIgR21iSDEMMAoGA1UECwwDRVdQMRgwFgYDVQQDDA9tb2Jp&#xD;
-bGl0eS51b2wuZGUxJjAkBgkqhkiG9w0BCQEWF2dlb3JnLmphaWRsZXJAc29wLmNvLmF0MIIBIjAN&#xD;
-BgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2E5PkgnJTr7OCApb0c4cbq4N1/mP44TrjdL8QXOC&#xD;
-MS0njpek4ORMA2RLHzqAitwGEOWuP5cUHErK1YBR0Tc7MUWXyMVzmlHaFFinaHVGrNsIQBg972QY&#xD;
-mthjmsfao3EB5fs0LYjaA+d+39Mkzlzb2Btucs6Gg9AH5UFRRyfNNuDtwHBYZkFfee8O3rqSsRQL&#xD;
-rB/b4E7NPcFMAoum3neW+bc8s+OaANSAGw/s9rh7IPYDe8Mn7opfIE7E460JZaVdxqM8B28F3OUm&#xD;
-tgBhFm1fvfaM/UaAYj8V5shpDrN+qES6h9YNnwcOjMo50sBs02gYqrqRwIyWUn8PQlOyzR8GtwID&#xD;
-AQABo4HWMIHTMAkGA1UdEwQCMAAwEQYJYIZIAYb4QgEBBAQDAgXgMDoGCWCGSAGG+EIBDQQtFitP&#xD;
-cGVuU1NMIEdlbmVyYXRlZCBDbGllbnQvU2VydmVyIENlcnRpZmljYXRlMB0GA1UdDgQWBBQOgb7N&#xD;
-PSixn0qZYWJugs13+mdepjAfBgNVHSMEGDAWgBTq7mxMgD7aGuQLLoHgkqqYBY5o5TAOBgNVHQ8B&#xD;
-Af8EBAMCBeAwJwYDVR0lBCAwHgYIKwYBBQUHAwEGCCsGAQUFBwMCBggrBgEFBQcDBDANBgkqhkiG&#xD;
-9w0BAQsFAAOCAgEAE8Ca+0/np5wgXHsWz1A3tpd01PdQm7tThH8CT1Y+ScXpzBHrbFG9H0lDO0Xw&#xD;
-QBJyIKLdXVUSJwaeNJZFmAapyPOzlQz3qBHQ6lnM6InExqT4ZyuReJPDWkV3s8pDvtPVGYTPpltC&#xD;
-Mdh3Wg8EeKbqR8NnTX1jnu7gk+f1mU4Hwg27aLneJystUqD8UDlY/2cO4j5wrHZcUJsrUFWjskyj&#xD;
-B9NNTG8bbLbsdN0TMbjDRxEHjRGxXdCp4o+llFQK6QVC4/sfBxT33UTsJweiAtmJvIoNsm4z7K8l&#xD;
-jv/RWZaQiK/0by8z+qQA5z8efcr0IVfcnVSn+V5RZLngVz+bL2FpygAHgv8TnbZac2gkKogs7fhC&#xD;
-xe5Uuy1zRch6UGcWCmf9L/Z1lvEFqrsDAS9nmSXLchCUoU06OmS1mAVC4lxk1ZGncM/a9w7wyUXE&#xD;
-7E00c1PY5Eqgb5eW/rHcL+QZ5Bzkyj3UThlIeT6V3sVkkVux5hd0L8nE5hPm24TmWMmJAdfehYbo&#xD;
-7FOdGNSzdnjo4SwoHl9hifFC/9D80FultJbW8vMiYo+mB9oNXMpTL0V3j415t++xGQoVA8qGnAoy&#xD;
-/JSUsmTygLDpkzNWGY/zA+SvzFhLz3ifiljDZDHRr78kJz4XMBNJ3qEO9jbWiKkzGBodgkeuM0B2&#xD;
-2l05LEqUxCTD/8A=&#xD;
-</ns3:certificate>
             <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2E5PkgnJTr7OCApb0c4cbq4N1/mP44Tr&#xD;
 jdL8QXOCMS0njpek4ORMA2RLHzqAitwGEOWuP5cUHErK1YBR0Tc7MUWXyMVzmlHaFFinaHVGrNsI&#xD;
 QBg972QYmthjmsfao3EB5fs0LYjaA+d+39Mkzlzb2Btucs6Gg9AH5UFRRyfNNuDtwHBYZkFfee8O&#xD;
