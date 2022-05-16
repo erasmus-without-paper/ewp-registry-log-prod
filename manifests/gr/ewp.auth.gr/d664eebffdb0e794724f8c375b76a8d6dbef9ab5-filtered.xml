@@ -30,9 +30,6 @@
         <admin-email>adapps@it.auth.gr</admin-email>
         <admin-notes>This is a EWP reference connector instance for AUTH.</admin-notes>
         <ns2:apis-implemented>
-            <ns21:discovery version="5.0.0">
-                <ns21:url>https://ewp.auth.gr/rest/manifest</ns21:url>
-            </ns21:discovery>
             <ns19:institutions version="2.1.0">
                 <ns19:http-security>
                     <ns5:client-auth-methods>
@@ -75,6 +72,9 @@
                 </ns20:http-security>
                 <ns20:url>https://ewp.auth.gr/rest/echo</ns20:url>
             </ns20:echo>
+            <ns21:discovery version="5.0.0">
+                <ns21:url>https://ewp.auth.gr/rest/manifest</ns21:url>
+            </ns21:discovery>
             <ns14:simple-course-replication version="1.0.0">
                 <ns14:http-security>
                     <ns5:client-auth-methods>
