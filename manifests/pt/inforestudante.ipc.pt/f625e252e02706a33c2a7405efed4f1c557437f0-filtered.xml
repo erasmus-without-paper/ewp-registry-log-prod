@@ -77,6 +77,62 @@
                 <ns20:max-ounit-ids>5</ns20:max-ounit-ids>
                 <ns20:max-ounit-codes>5</ns20:max-ounit-codes>
             </ns20:organizational-units>
+            <ns10:iias version="6.0.1">
+                <ns10:http-security>
+                    <ns25:client-auth-methods>
+                        <ns24:tlscert allows-self-signed="true"/>
+                        <ns23:httpsig/>
+                    </ns25:client-auth-methods>
+                    <ns25:server-auth-methods>
+                        <ns27:tlscert/>
+                        <ns26:httpsig/>
+                    </ns25:server-auth-methods>
+                </ns10:http-security>
+                <ns10:get-url>https://inforestudante.ipc.pt/nonio/rest/ewp/interinstitutionalagreements/get</ns10:get-url>
+                <ns10:max-iia-ids>5</ns10:max-iia-ids>
+                <ns10:max-iia-codes>5</ns10:max-iia-codes>
+                <ns10:index-url>https://inforestudante.ipc.pt/nonio/rest/ewp/interinstitutionalagreements/index</ns10:index-url>
+            </ns10:iias>
+            <ns8:iia-cnr version="2.0.3">
+                <ns8:http-security>
+                    <ns25:client-auth-methods>
+                        <ns24:tlscert allows-self-signed="true"/>
+                        <ns23:httpsig/>
+                    </ns25:client-auth-methods>
+                    <ns25:server-auth-methods>
+                        <ns27:tlscert/>
+                        <ns26:httpsig/>
+                    </ns25:server-auth-methods>
+                </ns8:http-security>
+                <ns8:url>https://inforestudante.ipc.pt/nonio/rest/ewp/interinstitutionalagreements/cnr</ns8:url>
+            </ns8:iia-cnr>
+            <ns9:iias-approval version="1.0.0">
+                <ns9:http-security>
+                    <ns25:client-auth-methods>
+                        <ns24:tlscert allows-self-signed="true"/>
+                        <ns23:httpsig/>
+                    </ns25:client-auth-methods>
+                    <ns25:server-auth-methods>
+                        <ns27:tlscert/>
+                        <ns26:httpsig/>
+                    </ns25:server-auth-methods>
+                </ns9:http-security>
+                <ns9:url>https://inforestudante.ipc.pt/nonio/rest/ewp/interinstitutionalagreementsapproval/</ns9:url>
+                <ns9:max-iia-ids>5</ns9:max-iia-ids>
+            </ns9:iias-approval>
+            <ns7:iia-approval-cnr version="1.0.0">
+                <ns7:http-security>
+                    <ns25:client-auth-methods>
+                        <ns24:tlscert allows-self-signed="true"/>
+                        <ns23:httpsig/>
+                    </ns25:client-auth-methods>
+                    <ns25:server-auth-methods>
+                        <ns27:tlscert/>
+                        <ns26:httpsig/>
+                    </ns25:server-auth-methods>
+                </ns7:http-security>
+                <ns7:url>https://inforestudante.ipc.pt/nonio/rest/ewp/interinstitutionalagreementsapproval/cnr</ns7:url>
+            </ns7:iia-approval-cnr>
             <ns16:omobilities version="1.0.0">
                 <ns16:http-security>
                     <ns25:client-auth-methods>
