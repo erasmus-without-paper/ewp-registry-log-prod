@@ -33,25 +33,34 @@
 
     <body>
 
-
+        
 <div class="container-fluid">
     <div class="row-fluid" >
         <div class="panel panel-default centering text-center  col-xs-8  col-sm-8 col-md-5" >
-            <!--<i class="fa fa-gears fa-5x"></i>-->
-            <br><br><br><br><br>
-            <h1 class="es active">Sistema fuera de servicio por tareas de mantenimiento t&#233;cnico desde las 14:00 con una duraci&#243;n estimada de 6 horas.</h1>
-            <!--h1 class="es active">Sistema fuera de servicio por tareas de mantenimiento t&#233;cnico</h1-->
+            <i class="fa fa-gears fa-5x"></i>
+            <h1 class="es active">Estamos en tareas de mantenimiento.</h1>
             <h2 class="es active"> Disculpen las molestias.</h2>
-            <h1 class="en active">The system will be out of service due to technical maintenance from 14:00 with an estimated duration of 6 hours</h1>
-            <!--h1 class="en active">The system will be out of service due to technical maintenance</h1-->
-           <h2 class="en active"> Sorry for the inconvenience.</h2>
+            <h1 class="ca">Estem en tasques de manteniment.</h1>
+            <h2 class="ca"> Disculpin les molèsties.</h2>  
+            <h1 class="en">This site is currently down for maintenance.</h1>
+            <h2 class="en"> Sorry for the inconvenience.</h2>                            
            <img src="/General/img/sty_error/responsive/img/logo-big_frontal.png" class="img-responsive center-block logoUni">
         </div>
     </div>
 </div>
 
-        <script src="/General/img/sty_error/responsive/js/jquery-1.10.2.min.js"></script>
-        <script src="/General/img/sty_error/bootsrap/js/bootstrap.min.js"></script>
+        <script src="/General/img/sty_error/responsive/js/jquery-1.10.2.min.js"></script>    
+        <script src="/General/img/sty_error/bootsrap/js/bootstrap.min.js"></script>    
+
+        <script type="text/javascript">
+            
+            var userLang = navigator.language || navigator.userLanguage;
+
+            if($('.' + userLang.split('-')[0]).length) {
+                $('h1').removeClass('active');
+                $('h2').removeClass('active');                
+                $('.' + userLang.split('-')[0]).addClass('active');
+            }
 
         </script>
 
