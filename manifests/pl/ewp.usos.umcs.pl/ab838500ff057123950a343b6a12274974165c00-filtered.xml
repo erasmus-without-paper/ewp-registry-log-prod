@@ -36,8 +36,8 @@
     xmlns:ns4="https://github.com/erasmus-without-paper/ewp-specs-types-address/tree/stable-v1"
     xmlns:ns40="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/endpoints/update-request.xsd"
     xmlns:ns41="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/endpoints/get-response.xsd"
-    xmlns:ns42="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/endpoints/update-response.xsd"
-    xmlns:ns43="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/endpoints/index-response.xsd"
+    xmlns:ns42="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/endpoints/index-response.xsd"
+    xmlns:ns43="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/endpoints/update-response.xsd"
     xmlns:ns44="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/endpoints/get-response.xsd"
     xmlns:ns45="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/endpoints/index-response.xsd"
     xmlns:ns46="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v1/endpoints/get-response.xsd"
@@ -261,20 +261,6 @@
                 <ns13:update-url>https://ewp.usos.umcs.pl/ewp/la/update</ns13:update-url>
                 <ns13:max-omobility-ids>100</ns13:max-omobility-ids>
             </ns13:omobility-las>
-            <ns14:omobility-la-cnr version="1.0.0">
-                <ns14:http-security>
-                    <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
-                        <ns47:httpsig/>
-                    </ns11:client-auth-methods>
-                    <ns11:server-auth-methods>
-                        <ns56:tlscert/>
-                        <ns55:httpsig/>
-                    </ns11:server-auth-methods>
-                </ns14:http-security>
-                <ns14:url>https://ewp.usos.umcs.pl/ewp/la/cnr</ns14:url>
-                <ns14:max-omobility-ids>100</ns14:max-omobility-ids>
-            </ns14:omobility-la-cnr>
             <ns21:imobility-tors version="0.7.0">
                 <ns21:http-security>
                     <ns11:client-auth-methods>
