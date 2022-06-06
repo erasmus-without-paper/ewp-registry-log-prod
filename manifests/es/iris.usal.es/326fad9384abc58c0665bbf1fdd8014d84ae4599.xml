@@ -18,23 +18,24 @@
 		        https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2
 		        https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-sec-intro/stable-v2/schema.xsd
 		        https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-none/tree/stable-v1
-		        https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-sec-cliauth-none/stable-v1/security-entries.xsd
+        		https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-sec-cliauth-none/stable-v1/security-entries.xsd
 		        https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1
 		        https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/stable-v1/security-entries.xsd
 		        https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1
 		        https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/stable-v1/security-entries.xsd
 		        https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1
 		        https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/stable-v1/security-entries.xsd
-		        https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1
-		        https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/stable-v1/security-entries.xsd
 		        https://github.com/erasmus-without-paper/ewp-specs-sec-reqencr-tls/tree/stable-v1
 		        https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-sec-reqencr-tls/stable-v1/security-entries.xsd
 		        https://github.com/erasmus-without-paper/ewp-specs-sec-resencr-tls/tree/stable-v1
 		        https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-sec-resencr-tls/stable-v1/security-entries.xsd
+				https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1
+		        https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/stable-v1/security-entries.xsd
 		    "
 		>
 		    <host>
 		        <ewp:admin-email>iris@usal.es</ewp:admin-email>
+		        <ewp:admin-notes>Provider: University of Salamanca (IRIS)</ewp:admin-notes>
 		        
 		        <r:apis-implemented>
 		           	<discovery
@@ -48,7 +49,7 @@
 		                version="2.0.1"
 		            >
 		                <ewp:admin-email>iris@usal.es</ewp:admin-email>
-		                <ewp:admin-notes>Test enviroment</ewp:admin-notes>
+		                <ewp:admin-notes>University of Salamanca manifest</ewp:admin-notes>
 		                <http-security>
 		                    <sec:client-auth-methods>
 		                        <tlscert
@@ -108,8 +109,8 @@
 						<max-ounit-codes>27</max-ounit-codes>
 					</organizational-units>
 					<iias
-						xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v4/manifest-entry.xsd"
-						version="4.0.0"
+						xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v6/manifest-entry.xsd"
+						version="6.0.1"
 					>
 						<http-security>
 							<sec:client-auth-methods>
@@ -125,14 +126,13 @@
                             </sec:server-auth-methods>
 						</http-security>
 						<get-url>https://iris.usal.es/api/iias/get</get-url>
-						<max-iia-ids>5</max-iia-ids>
-						<max-iia-codes>5</max-iia-codes>
+						<max-iia-ids>1</max-iia-ids>
+						<max-iia-codes>1</max-iia-codes>
 						<index-url>https://iris.usal.es/api/iias/index</index-url>
-						<sends-notifications/>
 					</iias>
 					<iia-cnr
 						xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iia-cnr/blob/stable-v2/manifest-entry.xsd"
-						version="2.0.2"
+						version="2.0.3"
 					>
 						<http-security>
 							<sec:client-auth-methods>
@@ -151,7 +151,7 @@
 					</iia-cnr>
 					<iias-approval
 						xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
-						version="0.2.1"
+						version="1.0.0"
 					>
 						<http-security>
 							<sec:client-auth-methods>
@@ -168,11 +168,10 @@
 						</http-security>
 						<url>https://iris.usal.es/api/iias/approval</url>
 						<max-iia-ids>10</max-iia-ids>
-						<sends-notifications/>
 					</iias-approval>
 					<iia-approval-cnr
 						xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v1/manifest-entry.xsd"
-						version="0.2.0"
+						version="1.0.0"
 					>
 						<http-security>
 							<sec:client-auth-methods>
@@ -191,7 +190,7 @@
 					</iia-approval-cnr>
 					<factsheet
 						xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
-						version="0.3.0"
+						version="1.0.0"
 					>
 						<http-security>
 							<sec:client-auth-methods>
@@ -208,117 +207,11 @@
 						</http-security>
 						<url>https://iris.usal.es/api/factsheet</url>
 						<max-hei-ids>1</max-hei-ids>
-					</factsheet>
-                    <omobilities
-                        xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd"
-                        version="1.0.0"
-                    >
-                        <http-security>
-                            <sec:client-auth-methods>
-                                <tlscert
-                                    xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
-                                    allows-self-signed="true"
-                                />
-                                <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
-                            </sec:client-auth-methods>
-                            <sec:server-auth-methods>
-                                <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
-                                <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
-                            </sec:server-auth-methods>
-                        </http-security>
-                        <get-url>https://iris.usal.es/api/omobilities/get</get-url>
-                        <index-url>https://iris.usal.es/api/omobilities/index</index-url>
-                        <max-omobility-ids>100</max-omobility-ids>
-						<sends-notifications/>
-                    </omobilities>
-                    <omobility-cnr
-                        xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/blob/stable-v1/manifest-entry.xsd"
-                        version="1.0.0"
-                    >
-                        <http-security>
-                            <sec:client-auth-methods>
-                                <tlscert
-                                    xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
-                                    allows-self-signed="true"
-                                />
-                                <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
-                            </sec:client-auth-methods>
-                            <sec:server-auth-methods>
-                                <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
-                                <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
-                            </sec:server-auth-methods>
-                        </http-security>
-                        <url>https://iris.usal.es/api/omobilities/cnr</url>
-                        <max-omobility-ids>1</max-omobility-ids>
-                    </omobility-cnr>
-                    <omobility-las
-                        xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd"
-                        version="1.0.1"
-                    >
-                        <http-security>
-                            <sec:client-auth-methods>
-                                <tlscert
-                                    xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
-                                    allows-self-signed="true"
-                                />
-                                <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
-                            </sec:client-auth-methods>
-                            <sec:server-auth-methods>
-                                <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
-                                <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
-                            </sec:server-auth-methods>
-                        </http-security>
-                        <get-url>https://iris.usal.es/api/olas/get</get-url>
-                        <index-url>https://iris.usal.es/api/olas/index</index-url>
-                        <update-url>https://iris.usal.es/api/olas/update</update-url>
-                        <max-omobility-ids>100</max-omobility-ids>
-                    </omobility-las>
-                    <omobility-la-cnr
-                        xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd"
-                        version="1.0.0"
-                    >
-                        <http-security>
-                            <sec:client-auth-methods>
-                                <tlscert
-                                    xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
-                                    allows-self-signed="true"
-                                />
-                                <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
-                            </sec:client-auth-methods>
-                            <sec:server-auth-methods>
-                                <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
-                                <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
-                            </sec:server-auth-methods>
-                        </http-security>
-                        <url>https://iris.usal.es/api/olas/cnr</url>
-                        <max-omobility-ids>1</max-omobility-ids>
-                    </omobility-la-cnr>
-                    <imobilities
-                        xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v1/manifest-entry.xsd"
-                        version="1.0.0"
-                    >
-                        <http-security>
-                            <sec:client-auth-methods>
-                                <tlscert
-                                    xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
-                                    allows-self-signed="true"
-                                />
-                                <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
-                            </sec:client-auth-methods>
-                            <sec:server-auth-methods>
-                                <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
-                                <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
-                            </sec:server-auth-methods>
-                        </http-security>
-                        <get-url>https://iris.usal.es/api/imobilities/get</get-url>
-                        <max-omobility-ids>100</max-omobility-ids>
-						<sends-notifications/>
-                    </imobilities>
-		        </r:apis-implemented>
+					</factsheet></r:apis-implemented>
 		        <mf:institutions-covered xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1">
 		            <hei id="usal.es">
 		                <other-id type="pic">999846610</other-id>
-		                <other-id type="erasmus">E SALAMAN02</other-id>		 
+		                <other-id type="erasmus">E  SALAMAN02</other-id>		 
 		                <name xml:lang="en">University of Salamanca</name>
 		            </hei>
 		        </mf:institutions-covered>
