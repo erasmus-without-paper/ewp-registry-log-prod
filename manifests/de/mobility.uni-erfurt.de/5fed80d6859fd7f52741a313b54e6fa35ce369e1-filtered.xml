@@ -39,6 +39,9 @@
         <admin-email>ewp@sop.co.at</admin-email>
         <admin-notes>Mobility-Online</admin-notes>
         <ns2:apis-implemented>
+            <ns30:discovery version="5.0.0">
+                <ns30:url>https://mobility.uni-erfurt.de/mobility/ewp/manifest?api=all</ns30:url>
+            </ns30:discovery>
             <ns29:echo version="2.0.0">
                 <ns29:http-security>
                     <ns5:client-auth-methods>
