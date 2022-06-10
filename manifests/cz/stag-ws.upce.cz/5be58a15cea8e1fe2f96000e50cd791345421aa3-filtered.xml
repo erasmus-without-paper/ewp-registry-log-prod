@@ -43,9 +43,9 @@
                         <ns28:httpsig/>
                     </ns5:server-auth-methods>
                 </ns23:http-security>
-                <ns23:url>https://stag-ws.upce.cz:8843/ws/services/ewp/echo</ns23:url>
+                <ns23:url>https://stag-ws.upce.cz/ws/services/ewp/echo</ns23:url>
             </ns23:echo>
-            <ns24:discovery version="5.0.0">
+            <ns24:discovery version="5.1.0">
                 <ns24:url>https://stag-ws.upce.cz:8843/ws/services/ewp/manifest</ns24:url>
             </ns24:discovery>
             <ns22:institutions version="2.2.0">
@@ -59,7 +59,7 @@
                         <ns28:httpsig/>
                     </ns5:server-auth-methods>
                 </ns22:http-security>
-                <ns22:url>https://stag-ws.upce.cz:8843/ws/services/ewp/institutions</ns22:url>
+                <ns22:url>https://stag-ws.upce.cz/ws/services/ewp/institutions</ns22:url>
                 <ns22:max-hei-ids>1</ns22:max-hei-ids>
             </ns22:institutions>
             <ns21:organizational-units version="2.1.1">
@@ -73,7 +73,7 @@
                         <ns28:httpsig/>
                     </ns5:server-auth-methods>
                 </ns21:http-security>
-                <ns21:url>https://stag-ws.upce.cz:8843/ws/services/ewp/ounits</ns21:url>
+                <ns21:url>https://stag-ws.upce.cz/ws/services/ewp/ounits</ns21:url>
                 <ns21:max-ounit-ids>10</ns21:max-ounit-ids>
                 <ns21:max-ounit-codes>10</ns21:max-ounit-codes>
             </ns21:organizational-units>
@@ -88,47 +88,6 @@
             </ns2:hei>
         </ns3:institutions-covered>
         <ns3:client-credentials-in-use>
-            <ns3:certificate>MIIHczCCBVugAwIBAgIRANmVinbfxT2p3QE0iaTyMqUwDQYJKoZIhvcNAQEMBQAw
-RDELMAkGA1UEBhMCTkwxGTAXBgNVBAoTEEdFQU5UIFZlcmVuaWdpbmcxGjAYBgNV
-BAMTEUdFQU5UIE9WIFJTQSBDQSA0MB4XDTIxMTExNTAwMDAwMFoXDTIyMTExNTIz
-NTk1OVowgYAxCzAJBgNVBAYTAkNaMRkwFwYDVQQIDBBQYXJkdWJpY2vDvSBrcmFq
-MR0wGwYDVQQHExRQYXJkdWJpY2UgLSBQb2xhYmlueTEdMBsGA1UEChMUVW5pdmVy
-eml0YSBQYXJkdWJpY2UxGDAWBgNVBAMTD3N0YWctd3MudXBjZS5jejCCASIwDQYJ
-KoZIhvcNAQEBBQADggEPADCCAQoCggEBAM0DHZfawTQVmqUTmKXn6rIPuQaetd8v
-2DXMptk0LKypopDm0yKH7zHJxMQK3kPrOkWTpPrU8Ux85yZoIrpu19L2FtCo5Qx2
-90Ryd7ZPfVPC+pxrKT/qojVsasKAOjIBny4u54Eim1NCQ5wsZX6mJG+zvzP65ttT
-m/NuLVaIQ5dJ0Ww8PSbMp0/T5RsXySNTqpaTINaZ674OaPRhmT+7UuQnILkAm+XJ
-kMROQhMzujQJWWHyCqeyaOPmpFnmVwqLkdXz/ieDHFf2RCCjVSB5qI6qNnpNR6Gt
-jR9Nnx8is2YzQMHDWcxSyszknn7HTVJ9rOd5+goWWW11LiV/5AbRNI0CAwEAAaOC
-AyEwggMdMB8GA1UdIwQYMBaAFG8dNUkQbDL6WaCevIroH5W+cXoMMB0GA1UdDgQW
-BBSALUi5miSdslZXHAJAdA/yDgGOJzAOBgNVHQ8BAf8EBAMCBaAwDAYDVR0TAQH/
-BAIwADAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwSQYDVR0gBEIwQDA0
-BgsrBgEEAbIxAQICTzAlMCMGCCsGAQUFBwIBFhdodHRwczovL3NlY3RpZ28uY29t
-L0NQUzAIBgZngQwBAgIwPwYDVR0fBDgwNjA0oDKgMIYuaHR0cDovL0dFQU5ULmNy
-bC5zZWN0aWdvLmNvbS9HRUFOVE9WUlNBQ0E0LmNybDB1BggrBgEFBQcBAQRpMGcw
-OgYIKwYBBQUHMAKGLmh0dHA6Ly9HRUFOVC5jcnQuc2VjdGlnby5jb20vR0VBTlRP
-VlJTQUNBNC5jcnQwKQYIKwYBBQUHMAGGHWh0dHA6Ly9HRUFOVC5vY3NwLnNlY3Rp
-Z28uY29tMIIBfQYKKwYBBAHWeQIEAgSCAW0EggFpAWcAdgBGpVXrdfqRIDC1oolp
-9PN9ESxBdL79SbiFq/L8cP5tRwAAAX0h+lbpAAAEAwBHMEUCIATqejH1hWFx+1ip
-WxXVwksywvs5g+elbkzVTXjvMwUJAiEA0Z1CMhrRvcoHUc+v/PIG62J5/1A/inmV
-zu4o31c6bXwAdQDfpV6raIJPH2yt7rhfTj5a6s2iEqRqXo47EsAgRFwqcwAAAX0h
-+laLAAAEAwBGMEQCIFD83lUATFIGN77AFUKqPyhP0XZI4RdfRaH1OJiXX5SLAiBn
-RvjLPq8KRBCxkWtI1F/SsPvQKHmAnYkE58kCmqqY1wB2ACl5vvCeOTkh8FZzn2Ol
-d+W+V32cYAr4+U1dJlwlXceEAAABfSH6VogAAAQDAEcwRQIgMn2M7kokT3dN0WTC
-J3XI02leHCi30Ub4KGXGUxwwhn0CIQDVB52Ku5M8U+704S7geIZImkxoCKh0SOpF
-+x2f94JuOzAaBgNVHREEEzARgg9zdGFnLXdzLnVwY2UuY3owDQYJKoZIhvcNAQEM
-BQADggIBAC60yfCCBXq77jOGcTMI9A66hnKJVyvndizvxomJnQirG1pwYlCtmFrm
-iJPiYHG13V1KauI+uWONnBQ6KpzKf24/xtdOOgqm32OhZk1yXiaT42AkNpZxOiYA
-2jKvdx4BTsuA/7LTO1inKdJZuNpZN8x5yag9Sj92CX8hk90haHEYGG9x1X87aJB4
-J0c7/kxt7CC2y7jwS17CuYUKv8UbLfTQDTX38GmPOqoBQTsqXMiCm4Z6DX2PXnul
-29gwNcTdf/XXb5IDebDZymSKAjZXaMXtdYUogFURGJGpg21L/WAL2JLMMR6JSbfC
-ZQE8MR7P4rJeiNU9q13jLe0SEnmz1XTZwI4u70udQ2CJtTSp6pcyrfbM+ZYWvdvf
-VMLb/SHvSbGaKyJTkrpMEVrh+7maQ/Yqg/2Y++qyDG4SpHvHWcZPww+8/dqBJPcV
-Pr5In0jEx4SYZQLdzEIS5GbxD65wJX/rN/zex5zQR0JsOVpmpEkPy0+WrBQYdlsM
-wDQIKeLkOd2wlXoMvJGy45Vo2BESxLP6Z9W9ZygNgKJr7g0LCqANpXwIB5VP9luR
-PZZKVx/fJXg2eJ9iLwIu5Qg7IrCz7RSIAUeGnmsSK06bwaQi/Vu6h3gcUsMOJxi7
-Y1Ro/Fx2GBEEeV7Z0CNhDa15MjWKC/JeTQfzLMxj/oRGQK+tIXk9
-</ns3:certificate>
             <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzQMdl9rBNBWapROYpefq
 sg+5Bp613y/YNcym2TQsrKmikObTIofvMcnExAreQ+s6RZOk+tTxTHznJmgium7X
 0vYW0KjlDHb3RHJ3tk99U8L6nGspP+qiNWxqwoA6MgGfLi7ngSKbU0JDnCxlfqYk
