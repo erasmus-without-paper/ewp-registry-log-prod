@@ -46,6 +46,12 @@
     xmlns:ns5="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd"
     xmlns:ns50="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
     xmlns:ns51="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns52="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns53="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/tree/stable-v1"
+    xmlns:ns54="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns55="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/endpoints/get-response.xsd"
+    xmlns:ns56="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/endpoints/index-response.xsd"
+    xmlns:ns57="https://github.com/erasmus-without-paper/ewp-specs-types-academic-term/tree/stable-v2"
     xmlns:ns6="https://github.com/erasmus-without-paper/ewp-specs-api-mt-projects/blob/stable-v1/manifest-entry.xsd"
     xmlns:ns7="https://github.com/erasmus-without-paper/ewp-specs-api-mt-institutions/blob/stable-v1/manifest-entry.xsd"
     xmlns:ns8="https://github.com/erasmus-without-paper/ewp-specs-api-mt-dictionaries/blob/stable-v1/manifest-entry.xsd"
@@ -159,26 +165,106 @@
                 </ns51:http-security>
                 <ns51:url>https://vega.gestion.uco.es/ewp/rest/iia/approval/cnr</ns51:url>
             </ns51:iia-approval-cnr>
+            <ns52:omobility-la-cnr version="1.0.0">
+                <ns52:http-security>
+                    <ns3:client-auth-methods>
+                        <ns44:tlscert allows-self-signed="true"/>
+                        <ns43:httpsig/>
+                    </ns3:client-auth-methods>
+                    <ns3:server-auth-methods>
+                        <ns21:tlscert/>
+                        <ns20:httpsig/>
+                    </ns3:server-auth-methods>
+                </ns52:http-security>
+                <ns52:url>https://vega.gestion.uco.es/ewp/rest/omobility-las/cnr</ns52:url>
+                <ns52:max-omobility-ids>1</ns52:max-omobility-ids>
+            </ns52:omobility-la-cnr>
+            <ns54:omobility-las version="1.0.0">
+                <ns54:http-security>
+                    <ns3:client-auth-methods>
+                        <ns44:tlscert allows-self-signed="true"/>
+                        <ns43:httpsig/>
+                    </ns3:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <ns21:tlscert/>
+                        <ns20:httpsig/>
+                    </sec:server-auth-methods>
+                </ns54:http-security>
+                <ns54:get-url>https://vega.gestion.uco.es/ewp/rest/omobility-las/get</ns54:get-url>
+                <ns54:index-url>https://vega.gestion.uco.es/ewp/rest/omobility-las/index</ns54:index-url>
+                <ns54:update-url>https://vega.gestion.uco.es/ewp/rest/omobility-las/update</ns54:update-url>
+                <ns54:max-omobility-ids>1</ns54:max-omobility-ids>
+            </ns54:omobility-las>
         </r:apis-implemented>
         <mf:institutions-covered xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1">
             <hei id="uco.es">
                 <other-id type="pic">E10208905</other-id>
-                <other-id type="erasmus">E CORDOBA01</other-id>
+                <other-id type="erasmus">E  CORDOBA01</other-id>
                 <name xml:lang="es">Universidad de Cordoba</name>
                 <name xml:lang="en">University of Cordoba</name>
             </hei>
         </mf:institutions-covered>
         <client-credentials-in-use>
             <certificate>                                                   
-            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0UA3sLthicb+OrKY1HeiNLhkXDeAmoNeZS/N//iCYssUfw5iBKt4iXyM8rqh288n8fSr7AAHx4HTksrEfUuG6Z2zEZFGeClRYqybhnr/JL4WaGgYJHp/rhuo2skWoDJQ/tMBHvjQ2MvTyZ5DXwXHpd4zj5uSQ64GbaBQ1yH7B2GuxetYE3MCh4CfQm72nO310OlNKf8Fr2icQAJvAbrebItdJyEOBPJ2Q35lFKYqGy+oPUrKCd8lFle4+5+92D+xurymieM=
+            MIIJYzCCB0ugAwIBAgIQR/Qns2VqDIRhbmOK6+XO6jANBgkqhkiG9w0BAQsFADBn
+MQswCQYDVQQGEwJFUzERMA8GA1UECgwIRk5NVC1SQ00xDjAMBgNVBAsMBUNlcmVz
+MRgwFgYDVQRhDA9WQVRFUy1RMjgyNjAwNEoxGzAZBgNVBAMMEkFDIFNlY3RvciBQ
+w7pibGljbzAeFw0yMTEwMTkwNjE5NTNaFw0yNDEwMTkwNjE5NTNaMIHHMQswCQYD
+VQQGEwJFUzERMA8GA1UEBwwIQ8OzcmRvYmExHzAdBgNVBAoMFlVOSVZFUlNJREFE
+IERFIENPUkRPQkExGjAYBgNVBAsMEVNFTExPIEVMRUNUUk9OSUNPMRgwFgYDVQRh
+DA9WQVRFUy1RMTQxODAwMUIxEjAQBgNVBAUTCVExNDE4MDAxQjE6MDgGA1UEAwwx
+U2VjcmV0YXLDrWEgR2VuZXJhbCBkZSBsYSBVbml2ZXJzaWRhZCBkZSBDw7NyZG9i
+YTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAIy6hwcyks1ZREQzgzZd
+GsVksgeyFn6yHJimgcnhh03tOHk14nfBgeEWNAa3TIG86iPqXo+IPuT8knRHm4nf
+2E8dge2VkJb7vOkF3mqKe6znHC54oxlcOS7U4YCF/zTCDuZ75aIXoiIghTArzjJv
+dECZB5jTRxhpIZ+QPZuwEhljmswesdLhPaE+/nxCRZBubDtiFoVGaWDHt2E/f2Py
+iNc6VuQy1Ux4cwJD98q7hOY2ooFRQUn0k6a0PE5DUUohocaO2p4iMJMYZim9qhMz
+CAdfclouT5zuQ6Xy1hHv7MMsIyw4sNvm0X7xm2Lvx5FBH5TcboCBsqCoehKhtPGx
+ErMCAwEAAaOCBKgwggSkMIHfBgNVHREEgdcwgdSBF0UtQURNSU5JU1RSQUNJT05A
+VUNPLkVTpIG4MIG1MUAwPgYJYIVUAQMFBgIFDDFTZWNyZXRhcsOtYSBHZW5lcmFs
+IGRlIGxhIFVuaXZlcnNpZGFkIGRlIEPDs3Jkb2JhMRgwFgYJYIVUAQMFBgIDDAlR
+MTQxODAwMUIxJjAkBglghVQBAwUGAgIMF1VuaXZlcnNpZGFkIGRlIEPDs3Jkb2Jh
+MS8wLQYJYIVUAQMFBgIBDCBTRUxMTyBFTEVDVFJPTklDTyBERSBOSVZFTCBNRURJ
+TzAMBgNVHRMBAf8EAjAAMB0GA1UdJQQWMBQGCCsGAQUFBwMEBggrBgEFBQcDAjAO
+BgNVHQ8BAf8EBAMCBeAwHQYDVR0OBBYEFLIRSs9I8dC0lESS6D49OKb12IqOMB8G
+A1UdIwQYMBaAFOcE7nCREZJE+Q6Sj1ZDHgcdvwScMIHDBggrBgEFBQcBAwSBtjCB
+szAIBgYEAI5GAQEwCwYGBACORgEDAgEPMBMGBgQAjkYBBjAJBgcEAI5GAQYCMG4G
+BgQAjkYBBTBkMDAWKmh0dHBzOi8vd3d3LmNlcnQuZm5tdC5lcy9wZHMvUERTX1NQ
+X2VzLnBkZhMCZXMwMBYqaHR0cHM6Ly93d3cuY2VydC5mbm10LmVzL3Bkcy9QRFNf
+U1BfZW4ucGRmEwJlbjAVBggrBgEFBQcLAjAJBgcEAIvsSQECMIIBGAYDVR0gBIIB
+DzCCAQswgfEGCisGAQQBrGYDEQEwgeIwKQYIKwYBBQUHAgEWHWh0dHA6Ly93d3cu
+Y2VydC5mbm10LmVzL2RwY3MvMIG0BggrBgEFBQcCAjCBpwyBpENlcnRpZmljYWRv
+IGN1YWxpZmljYWRvIGRlIHNlbGxvIGVsZWN0csOzbmljby4gU3VqZXRvIGEgbGFz
+IGNvbmRpY2lvbmVzIGRlIHVzbyBleHB1ZXN0YXMgZW4gRFBDIGRlIEZOTVQtUkNN
+LCBOSUY6IFEyODI2MDA0LUogKEMvSm9yZ2UgSnVhbiAxMDYtMjgwMDktTWFkcmlk
+LUVzcGHDsWEpMAkGBwQAi+xAAQEwCgYIYIVUAQMFBgIwfwYIKwYBBQUHAQEEczBx
+MDIGCCsGAQUFBzAChiZodHRwOi8vd3d3LmNlcnQuZm5tdC5lcy9jZXJ0cy9BQ1NQ
+LmNydDA7BggrBgEFBQcwAYYvaHR0cDovL29jc3BzcC5jZXJ0LmZubXQuZXMvb2Nz
+cHNwL09jc3BSZXNwb25kZXIwgd8GA1UdHwSB1zCB1DCB0aCBzqCBy4YqaHR0cDov
+L3d3dy5jZXJ0LmZubXQuZXMvY3Jsc2Fjc3AvQ1JMNTguY3JshoGcbGRhcDovL2xk
+YXBzcC5jZXJ0LmZubXQuZXMvY249Q1JMNTgsY249QUMlMjBTZWN0b3IlMjBQdWJs
+aWNvLG91PUNFUkVTLG89Rk5NVC1SQ00sQz1FUz9jZXJ0aWZpY2F0ZVJldm9jYXRp
+b25MaXN0O2JpbmFyeT9iYXNlP29iamVjdGNsYXNzPWNSTERpc3RyaWJ1dGlvblBv
+aW50MA0GCSqGSIb3DQEBCwUAA4ICAQAEo2MkKuAw/w8ptotM9c9bS8dle2ezIMZc
+VHyPnaKLZgdXGMRcvY0xXIG3oJnRNoPRt9Lum4j85q53Hc5jJ4FPONvXVdWm6JJW
+xVxUNBV5IUcla/U2e5/NEc9uOMziMxViWGYBGOuYiYVV46x1hyNHMZiPRpHg3yBe
+Ur8+EQNYZE/ZdXFG1SwmFE59xyq0mgCvLtcBZ2WkV2g/B9gHtPcYJQXLIcHYJGxD
+YskPxmw9lnLlz58FUWtXLnvdAceHSJEH/9JqPcDiybG3fAe3uTwNlm51ZKORTbHW
+/e+p+IlNWiheZNDQaVsrZe+pV8B8B+M/aLpiGn6V/xsJuRklBKefCTDKk9I+1lrH
+hCCU48099QDngvTkJvEpnrupcxGRVDmk8fbeM5YIL1/0LW2YUnVjKLCJTwIAkHWQ
+0MITx88AGFWjp0MZqenlc0OT/ktZ981lsByvpKLxLcQHZkJ5zqvovfMYRV9DDTHr
+qiABhFHepW1pGAwzt9X/HA7VE9jg9YVdNfoPEHj374vF0X5aYcCJm5HttZCp9E07
+Pm7x9LwhVtSjZ9/kLRexAou2PecmVTJEVlQ1GC/bVxeauhw7scERFAbzPG4SQ3/c
+c8NGtDhRnrQzmpLTy1qe+81AhCTeJP/bMb7CKSKPLu6a22PHJbv1ElYlhyiJxHoW
+xgjNA4+Lqw==
             </certificate>
             <rsa-public-key>
-            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4rz+p7l/W2EiBWIR34IjUTo/FCtFSMwixvFFt/IB6c6fjpxKFxSdwdALaPLSghDoO/9VgqngRgGCIirl6Oj83Rz+yc/SkfYadcRg3MJHmVicl4/pidWeK2Gz6PoRMyaCXjwfxRflCNxk1IpHZSZOnch+ALMQdh1yoLizLDjRQ2rgV2uBMgVdvT4mraVeU82a/gPm4K85KWhnTwYThJ8Vn+3NEx4wX5d7T1OaGTsCcXtEuVjozyXvX0z6My0Q3vkt7caL4OUk7Ysvo1/1tAv/UyggG8v89u4wZfSt6caaHqTObsQBlf0A7xeBI0uooLHH2Hb850SH6hP7OIGUoq1gSQIDAQAB
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjLqHBzKSzVlERDODNl0axWSyB7IWfrIcmKaByeGHTe04eTXid8GB4RY0BrdMgbzqI+pej4g+5PySdEebid/YTx2B7ZWQlvu86QXeaop7rOccLnijGVw5LtThgIX/NMIO5nvloheiIiCFMCvOMm90QJkHmNNHGGkhn5A9m7ASGWOazB6x0uE9oT7+fEJFkG5sO2IWhUZpYMe3YT9/Y/KI1zpW5DLVTHhzAkP3yruE5jaigVFBSfSTprQ8TkNRSiGhxo7aniIwkxhmKb2qEzMIB19yWi5PnO5DpfLWEe/swywjLDiw2+bRfvGbYu/HkUEflNxugIGyoKh6EqG08bESswIDAQAB
             </rsa-public-key>
         </client-credentials-in-use>
         <server-credentials-in-use>
             <rsa-public-key>
-            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4rz+p7l/W2EiBWIR34IjUTo/FCtFSMwixvFFt/IB6c6fjpxKFxSdwdALaPLSghDoO/9VgqngRgGCIirl6Oj83Rz+yc/SkfYadcRg3MJHmVicl4/pidWeK2Gz6PoRMyaCXjwfxRflCNxk1IpHZSZOnch+ALMQdh1yoLizLDjRQ2rgV2uBMgVdvT4mraVeU82a/gPm4K85KWhnTwYThJ8Vn+3NEx4wX5d7T1OaGTsCcXtEuVjozyXvX0z6My0Q3vkt7caL4OUk7Ysvo1/1tAv/UyggG8v89u4wZfSt6caaHqTObsQBlf0A7xeBI0uooLHH2Hb850SH6hP7OIGUoq1gSQIDAQAB
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjLqHBzKSzVlERDODNl0axWSyB7IWfrIcmKaByeGHTe04eTXid8GB4RY0BrdMgbzqI+pej4g+5PySdEebid/YTx2B7ZWQlvu86QXeaop7rOccLnijGVw5LtThgIX/NMIO5nvloheiIiCFMCvOMm90QJkHmNNHGGkhn5A9m7ASGWOazB6x0uE9oT7+fEJFkG5sO2IWhUZpYMe3YT9/Y/KI1zpW5DLVTHhzAkP3yruE5jaigVFBSfSTprQ8TkNRSiGhxo7aniIwkxhmKb2qEzMIB19yWi5PnO5DpfLWEe/swywjLDiw2+bRfvGbYu/HkUEflNxugIGyoKh6EqG08bESswIDAQAB
             </rsa-public-key>
         </server-credentials-in-use>
     </host>
