@@ -12348,6 +12348,33 @@ IwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
+      <in2:institutions version="2.2.0">
+        <admin-email>moveon-ewp@qs.com</admin-email>
+        <in2:http-security>
+          <sec:client-auth-methods>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </in2:http-security>
+        <in2:url>https://hsessling-ewp.moveon4.de/v1/institution</in2:url>
+        <in2:max-hei-ids>10</in2:max-hei-ids>
+      </in2:institutions>
+      <ou2:organizational-units version="2.1.1">
+        <admin-email>moveon-ewp@qs.com</admin-email>
+        <ou2:http-security>
+          <sec:client-auth-methods>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </ou2:http-security>
+        <ou2:url>https://hsessling-ewp.moveon4.de/v1/ounit</ou2:url>
+        <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
+        <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
+      </ou2:organizational-units>
       <ia6:iias version="6.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <ia6:http-security>
@@ -12398,6 +12425,18 @@ IwIDAQAB
         </iaac1:http-security>
         <iaac1:url>https://hsessling-ewp.moveon4.de/v1/iia/approval/cnr</iaac1:url>
       </iaac1:iia-approval-cnr>
+      <f1:factsheet version="1.0.0">
+        <f1:http-security>
+          <sec:client-auth-methods>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </f1:http-security>
+        <f1:url>https://hsessling-ewp.moveon4.de/v1/factsheet/get</f1:url>
+        <f1:max-hei-ids>10</f1:max-hei-ids>
+      </f1:factsheet>
     </r:apis-implemented>
     <ns3:institutions-covered>
       <r:hei id="hs-esslingen.de">
