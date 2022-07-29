@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ns3:manifest xmlns:ns3="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v5" xmlns="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd" xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1" xmlns:d5="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v5/manifest-entry.xsd" xmlns:e2="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd" xmlns:in2="https://github.com/erasmus-without-paper/ewp-specs-api-institutions/blob/stable-v2/manifest-entry.xsd" xmlns:ou2="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/blob/stable-v2/manifest-entry.xsd" xmlns:ia6="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v6/manifest-entry.xsd" xmlns:f1="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd" xmlns:iac2="https://github.com/erasmus-without-paper/ewp-specs-api-iia-cnr/blob/stable-v2/manifest-entry.xsd" xmlns:iaa1="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd" xmlns:iaac1="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v1/manifest-entry.xsd" xmlns:im1="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v1/manifest-entry.xsd" xmlns:imc1="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-cnr/blob/stable-v1/manifest-entry.xsd" xmlns:om1="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd" xmlns:omc1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/blob/stable-v1/manifest-entry.xsd" xmlns:oml1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd" xmlns:omlc1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd" xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2" xmlns:sec-A1="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1" xmlns:sec-A2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1" xmlns:sec-B1="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1" xmlns:sec-B2="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1">
+<ns3:manifest xmlns:ns3="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v5" xmlns="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd" xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1" xmlns:d6="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6/manifest-entry.xsd" xmlns:e2="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd" xmlns:in2="https://github.com/erasmus-without-paper/ewp-specs-api-institutions/blob/stable-v2/manifest-entry.xsd" xmlns:ou2="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/blob/stable-v2/manifest-entry.xsd" xmlns:ia6="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v6/manifest-entry.xsd" xmlns:f1="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd" xmlns:iac2="https://github.com/erasmus-without-paper/ewp-specs-api-iia-cnr/blob/stable-v2/manifest-entry.xsd" xmlns:iaa1="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd" xmlns:iaac1="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v1/manifest-entry.xsd" xmlns:im1="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v1/manifest-entry.xsd" xmlns:imc1="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-cnr/blob/stable-v1/manifest-entry.xsd" xmlns:om1="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd" xmlns:omc1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/blob/stable-v1/manifest-entry.xsd" xmlns:oml1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd" xmlns:omlc1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd" xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2" xmlns:sec-A1="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1" xmlns:sec-A2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1" xmlns:sec-B1="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1" xmlns:sec-B2="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1">
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
-        <d5:url>https://qsucimsapi.moveonfr.com/ewpapi/manifest</d5:url>
-      </d5:discovery>
-    </r:apis-implemented>
-  </ns3:host>
-  <ns3:host>
-    <admin-email>moveon-ewp@qs.com</admin-email>
-    <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://artois-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://artois-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -203,10 +195,10 @@ qQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://ecn-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://ecn-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -422,10 +414,10 @@ nwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://grenobl22-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://grenobl22-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -641,10 +633,10 @@ fbqKTy0Ne1b3NOjoQ9A5/PTtwDEdnyJCBsgismWOhmmSc1bfNF8eiwcbfqEHfsLs
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://enscm-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://enscm-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -860,10 +852,10 @@ ZQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://ensapl-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://ensapl-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -936,10 +928,10 @@ uwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://insarennes-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://insarennes-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -1155,10 +1147,10 @@ ywIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://insarouen-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://insarouen-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -1334,10 +1326,10 @@ A0W4khKXbOxbDsKPd3nepuIZbTvTxrkwx/GUoRN/fvix3plTqxFjhfrtX7qZLO0b
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://ehess-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://ehess-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -1383,10 +1375,10 @@ KpO3WeAY9iiMAClv1emOYSVncLSyAOq2ZbzOgXUFUhYNiYhLX5GmKq2icu1QCkav
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://ieprennes-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://ieprennes-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -1602,10 +1594,10 @@ LwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://icp-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://icp-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -1821,10 +1813,10 @@ mQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://inpb-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://inpb-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -1870,10 +1862,10 @@ ax5PzlPox6YHonI72lRrA1aFniHFBi3YjkPHtEfCPLUP/7HICBuK2APp/qoBZSFa
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://essca-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://essca-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -2076,10 +2068,10 @@ jQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://epf-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://epf-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -2295,10 +2287,10 @@ sdliC1Sc/Y59VBPu86rKeRZMkqxABQXiscNkX6xlRoo0IXNaGg4bu1nlLjbGJAxO
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://inpt-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://inpt-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -2501,10 +2493,10 @@ uQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://isep-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://isep-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -2720,10 +2712,10 @@ cwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://jeanmonnet-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://jeanmonnet-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -2939,10 +2931,10 @@ VQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://paris1-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://paris1-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -3131,10 +3123,10 @@ RQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://montaigne-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://montaigne-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -3310,10 +3302,10 @@ ywIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://paris3-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://paris3-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -3516,10 +3508,10 @@ LwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://paris8-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://paris8-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -3655,10 +3647,10 @@ iQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://psud-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://psud-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -3861,10 +3853,10 @@ wQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://rscergpont-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://rscergpont-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -4080,10 +4072,10 @@ QwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://tlse3-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://tlse3-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -4286,10 +4278,10 @@ jQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://ubx-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://ubx-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -4464,10 +4456,10 @@ ol4fJokL56BOCvkxNwNpRgY/p8vLDZfptubSJQVOvPM0wCDilO0zpGjQj1BHAyXm
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://uga-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://uga-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -4682,10 +4674,10 @@ LwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://uha-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://uha-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -4811,10 +4803,10 @@ iwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://uloyola-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://uloyola-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -5029,10 +5021,10 @@ fwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://unicaen-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://unicaen-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -5248,10 +5240,10 @@ kwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://unimontpel-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://unimontpel-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -5426,10 +5418,10 @@ mQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://unistra-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://unistra-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -5645,10 +5637,10 @@ dQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://unireunion-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://unireunion-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -5864,10 +5856,10 @@ EQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://unival-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://unival-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -6070,10 +6062,10 @@ WQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://univangers-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://univangers-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -6289,10 +6281,10 @@ mdl5aAa3NcwewoX3F8OunIgKjNdd5eSj0ZN9ERlvqTZ3CfFXWqeXk45mixWlC06/
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://univlemans-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://univlemans-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -6495,10 +6487,10 @@ WQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://univlille-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://univlille-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -6673,10 +6665,10 @@ VwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://uparis10-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://uparis10-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -6865,10 +6857,10 @@ owIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://upec-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://upec-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -7057,10 +7049,10 @@ hwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://upicardie-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://upicardie-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -7276,10 +7268,10 @@ LQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://usmb-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://usmb-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -7495,10 +7487,10 @@ KwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://utoulon-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://utoulon-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -7674,10 +7666,10 @@ TMSI9ckfZ1UAWWyJeM7FDSccIlIGUsIayXmXVGwzB8mEQXlCJ0WJ73vsKxGQHCor
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://uvsq-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://uvsq-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -7893,10 +7885,10 @@ KIvCowNfAJl6lfyydHbri8lROGaiq4fg996ig/HkowCzenO71/L4azIDJRCqzM2e
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://utt-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://utt-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -8099,10 +8091,10 @@ YwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://ash-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://ash-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -8148,10 +8140,10 @@ brg7RMzIc/nHvZCBn5LBviMdV89iaw1sILakveVb7vWakjxo/j7TzRQ6GMVzjRFi
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://au-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://au-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -8367,10 +8359,10 @@ NQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://biberach-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://biberach-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -8586,10 +8578,10 @@ UQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://bth-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://bth-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -8792,10 +8784,10 @@ swIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://btu-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://btu-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -9011,10 +9003,10 @@ fID3fi3FA80OA06Nc4bOGkHFyG9wy7KrRGrGO0oOdON9EmXcCJpRkY/oyynAtNb5
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://coburg-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://coburg-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -9190,10 +9182,10 @@ IQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://dalarna-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://dalarna-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -9382,10 +9374,10 @@ fwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://fhaachen-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://fhaachen-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -9431,10 +9423,10 @@ cRTWR5Zt41RcnYnCX+CnraadAN7CjiwuwOtlHCP2vSMhX3+e2gy2xdzaCZIYJZcm
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://fhws-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://fhws-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -9650,10 +9642,10 @@ YALTOVpk4RhctW5DSNUdJOhIjTySsv77b6XCUZoQjpJHMLnv8BbOcaSSi3HMGEGt
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://flensburg-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://flensburg-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -9842,10 +9834,10 @@ IwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://giessen-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://giessen-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -10061,10 +10053,10 @@ QQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://fuberlin-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://fuberlin-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -10253,10 +10245,10 @@ rwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://goettingen-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://goettingen-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -10445,10 +10437,10 @@ NwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://hannover-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://hannover-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -10637,10 +10629,10 @@ vwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://hawk-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://hawk-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -10856,10 +10848,10 @@ ywIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://hda-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://hda-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -11075,10 +11067,10 @@ nuVOfi34TrYQ5VCphMTxrdudiy71hbTt06qBiO5elFultdmtEW49wj7DtxGJgXAI
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://hhu-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://hhu-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -11267,10 +11259,10 @@ lH4k0TEF7mW/NWf6KVg2VY22nHYABranV3+IG51VKK8zM5WKt2ym7M3rZk8p/J75
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://hm-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://hm-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -11486,10 +11478,10 @@ CwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://hsab-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://hsab-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -11692,10 +11684,10 @@ D3k+juITP4Zs4trFyvVWIZUkKUwOHqZ4K++dwoxVKZRLWii1y/Po+UJH4amCHJ9R
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://hsbremen-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://hsbremen-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -11911,10 +11903,10 @@ SQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://hsel-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://hsel-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -12130,10 +12122,10 @@ IwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://hsessling-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://hsessling-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -12269,10 +12261,10 @@ jQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://hsfurtw-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://hsfurtw-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -12398,10 +12390,10 @@ mwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://hsharz-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://hsharz-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -12590,10 +12582,10 @@ tM0ADrLOvhTh1QMhIZoGdoV3WOXhq8bK+IcYwevqN8NSimhk+Fm6P0YRnikY+y08
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://hsludwhf-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://hsludwhf-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -12809,10 +12801,10 @@ qSnVLKSpFZKr6XNQcofOVpgxca0Ujpo6JDZvJC2C8zDjsdU0Kde/rAQ9/XatrdC7
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://hsreutl-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://hsreutl-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -13001,10 +12993,10 @@ LQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://hsrw-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://hsrw-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -13207,10 +13199,10 @@ ywIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://hswt-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://hswt-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -13386,10 +13378,10 @@ pQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://huberlin-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://huberlin-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -13578,10 +13570,10 @@ EQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://jgumainz-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://jgumainz-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -13797,10 +13789,10 @@ jQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://jku-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://jku-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -14016,10 +14008,10 @@ zwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://khberlin-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://khberlin-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -14235,10 +14227,10 @@ WzU7u/nAdrZ9UUksImnrfGnFo2rm9h1Inr1avp5LHllCG1FuOuj3+DtfR1zliKyF
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://leuphana-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://leuphana-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -14454,10 +14446,10 @@ AQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://lmu-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://lmu-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -14646,10 +14638,10 @@ pQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://malmo-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://malmo-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -14865,10 +14857,10 @@ cwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://mbs-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://mbs-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -15084,10 +15076,10 @@ uQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://mittweida-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://mittweida-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -15290,10 +15282,10 @@ jQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://osnabrueck-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://osnabrueck-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -15455,10 +15447,10 @@ hQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://ostfalia-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://ostfalia-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -15674,10 +15666,10 @@ vQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://ovgu-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://ovgu-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -15893,10 +15885,10 @@ CQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://passau-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://passau-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -16112,10 +16104,10 @@ FwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://paulvalery-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://paulvalery-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -16188,10 +16180,10 @@ CwKQBLkPuzxCx9AXrESYwCbpB+EGhZac5A2MlenA4U978hrnzOI2RD5Rgfz0juM9
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://phludwigsb-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://phludwigsb-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -16380,10 +16372,10 @@ EQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://potsdam-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://potsdam-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -16572,10 +16564,10 @@ dedCXVk4VaX4lOSZJPdOTyYUH11WnY1pJ1XbRtdfPR3UKa8RrvZClZ1bousVNq4t
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://rub-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://rub-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -16764,10 +16756,10 @@ vz6CdhwEPY6xA+GoMSWmzhQKZe0+wbiq9xBYs9xuKWRrswSdAdaPYTrXXgoTiBOH
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://rwthaachen-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://rwthaachen-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -16893,10 +16885,10 @@ EQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://siegen-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://siegen-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -17099,10 +17091,10 @@ ywIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://slu-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://slu-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -17291,10 +17283,10 @@ Q4XLiYXS11PCgaIa/1juOqS5xs6DCDP7dEr1Wc5HTY50M+mx4d8oz3/+5ewD7bsa
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://stralsund-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://stralsund-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -17497,10 +17489,10 @@ awIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://tuda-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://tuda-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -17676,10 +17668,10 @@ GQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://tudo-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://tudo-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -17868,10 +17860,10 @@ CQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://tum-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://tum-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -17997,10 +17989,10 @@ IwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://udk-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://udk-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -18216,10 +18208,10 @@ GQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://uds-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://uds-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -18355,10 +18347,10 @@ ZwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://ulm-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://ulm-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -18404,10 +18396,10 @@ OwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://unibas-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://unibas-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -18610,10 +18602,10 @@ KQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://unigreifsw-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://unigreifsw-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -18829,10 +18821,10 @@ oQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://unidue-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://unidue-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -19008,10 +19000,10 @@ JwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://unijena-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://unijena-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -19227,10 +19219,10 @@ KQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://unikassel-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://unikassel-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -19446,10 +19438,10 @@ KwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://unikoeln-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://unikoeln-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -19558,10 +19550,10 @@ qQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://unikold-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://unikold-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -19764,10 +19756,10 @@ xQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://unilux-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://unilux-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -19983,10 +19975,10 @@ gwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://unileipzig-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://unileipzig-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -20175,10 +20167,10 @@ ZtQvWInulzvtt+t3f66y8k+4NgBKF/XaQ899X3CIKB9cg91EVsRnEtg0qvl7rsR1
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://unitrier-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://unitrier-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -20367,10 +20359,10 @@ zwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://ur-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://ur-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -20559,10 +20551,10 @@ W0jbTLGNa4o9RmbCAgEfkDsixMTqKVDKpCzIPRbNAB+IMRj/tSapM/jYYnmzskWm
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://uu-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://uu-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -20778,10 +20770,10 @@ jQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://weimar-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://weimar-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -20970,10 +20962,10 @@ rwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://west-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://west-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -21189,10 +21181,10 @@ FwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://worms-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://worms-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -21408,10 +21400,10 @@ ZQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://wuerzburg-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://wuerzburg-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -21627,10 +21619,10 @@ eollupdJCu1ZZY2oVG2uNHYw9ruuA8ijANPhfqG6ibxKUlj7aem+zDBsJ6Ot1nZ1
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://wwum-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://wwum-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -21756,10 +21748,10 @@ zQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://zwickau-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://zwickau-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -21975,10 +21967,10 @@ zwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://scpobx-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://scpobx-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -22114,10 +22106,10 @@ rk8lqj4sCN6xnwlP/YXFUitRnQeDhFRXW4P/HZy4vUYIxTNY2zYS0p5T1NDBbXy/
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://bpc-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://bpc-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -22332,10 +22324,10 @@ oQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://ubo-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://ubo-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -22538,10 +22530,10 @@ jHaaxxs3dNyIxQmxle82UZgbBnGfL3A/7Hgmvmg+ddOnTlQ31yAkxmHiquQAxiv1
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://capitole-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://capitole-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -22717,10 +22709,10 @@ IQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://paris13-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://paris13-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -22896,10 +22888,10 @@ xwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://upem-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://upem-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -23115,10 +23107,10 @@ EwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://hh-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://hh-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -23321,10 +23313,10 @@ YIcPJQLhfy4g3gqIJybwOu6rsBwz4+5BiQquN0+WU742Px5L08x6psie08OwA5TW
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://studialis-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://studialis-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -23540,10 +23532,10 @@ w5/zR8Ga8Kx61ViRmXoEJB1Ga/ZBCr+wAgxUJ4slwmXX6gJQnAkrpQ81EPIk2Pfq
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://lruniv-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://lruniv-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -23696,10 +23688,10 @@ nwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://kp-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://kp-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -23888,10 +23880,10 @@ cwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://ucl-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://ucl-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -24107,10 +24099,10 @@ CwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://tubs-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://tubs-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -24299,10 +24291,10 @@ FPgh7XuW23BSCqvQn4SDZjl/HbPv8y/qzbapLMsCMyM5g7+/G8YcV3YgW6NTyIkK
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://uva-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://uva-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -24348,10 +24340,10 @@ HQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://pha-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://pha-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -24567,10 +24559,10 @@ awIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://hz-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://hz-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -24616,10 +24608,10 @@ ZQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://tudublin-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://tudublin-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -24835,10 +24827,10 @@ ywIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://bayreuth-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://bayreuth-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -25041,10 +25033,10 @@ al1pRAVjJl5pVv87cUk5rX3qNmhrMMrQAOMXQolLL+RHZTaYSuw1lK6TrvXhk0+Z
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://cth-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://cth-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -25260,10 +25252,10 @@ PwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://mdh-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://mdh-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -25309,10 +25301,10 @@ eQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://oru-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://oru-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -25528,10 +25520,10 @@ TwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://universidadeuropea-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://universidadeuropea-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -25747,10 +25739,10 @@ xQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://ulb-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://ulb-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -25966,10 +25958,10 @@ XQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://arcada-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://arcada-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -26158,10 +26150,10 @@ JQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://ism-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://ism-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -26207,10 +26199,10 @@ swIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://hof-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://hof-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -26426,10 +26418,10 @@ E1hnH7yc+tgPWkULQ4gTk7aNFovrDBNnXzwqPZhuqNcG4V/BGvPaQvR9B80By2qc
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://ucn-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://ucn-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -26644,10 +26636,10 @@ twIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://ucsyd-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://ucsyd-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -26863,10 +26855,10 @@ RQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://dauphine-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://dauphine-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -27082,10 +27074,10 @@ tQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://liu-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://liu-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -27301,10 +27293,10 @@ QQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://oamk-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://oamk-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -27520,10 +27512,10 @@ RwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://cbs-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://cbs-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -27739,10 +27731,10 @@ xwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://uvic-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://uvic-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -27958,10 +27950,10 @@ cwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://ucc-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://ucc-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -28150,10 +28142,10 @@ LQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://udc-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://udc-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -28369,10 +28361,10 @@ fwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://uax-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://uax-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -28418,10 +28410,10 @@ tQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://lavillette-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://lavillette-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -28637,10 +28629,10 @@ UQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://ucm-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://ucm-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -28856,10 +28848,10 @@ FQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://hahe-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://hahe-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -29062,10 +29054,10 @@ uwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://europauni-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://europauni-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -29254,10 +29246,10 @@ rQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://ensicaen1-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://ensicaen1-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -29303,10 +29295,10 @@ KQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://unileon-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://unileon-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -29432,10 +29424,10 @@ xwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://udl-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://udl-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -29624,10 +29616,10 @@ iwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://han-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://han-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -29843,10 +29835,10 @@ MwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://ltu-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://ltu-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -30062,10 +30054,10 @@ b15zPrEAD4pGILNL20ZhwWYfd740OtfBO/1H4iUSUVSSP11FBdLj/aCY24fgw+/u
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://insacvl-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://insacvl-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -30280,10 +30272,10 @@ pQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://inholland-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://inholland-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -30499,10 +30491,10 @@ eNLd82o+hv9vuiS5of77aWAeTNvTZ4MhsOOZNbI/DdeXZbXqBXf6s+4E3Vvey2PM
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://usj-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://usj-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -30718,10 +30710,10 @@ wQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://viauc-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://viauc-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -30924,10 +30916,10 @@ nwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://zagreb-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://zagreb-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -31116,10 +31108,10 @@ IwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://devinci-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://devinci-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -31282,10 +31274,10 @@ OQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://tlse2-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://tlse2-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -31461,10 +31453,10 @@ dwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://bi-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://bi-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -31680,10 +31672,10 @@ NQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://htwsaar-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://htwsaar-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -31859,10 +31851,10 @@ GQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://urv-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://urv-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -32065,10 +32057,10 @@ pwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://bfh-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://bfh-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -32244,10 +32236,10 @@ fwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://aalto-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://aalto-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -32450,10 +32442,10 @@ sQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://insalyon-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://insalyon-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -32669,10 +32661,10 @@ Wo//iXxg+LO5N9nClv/r8pmaiwlIcMI6hbV/CF82iQK6KPqNMwdnkU6VZ2w4bd38
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://uorleans-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://uorleans-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -32848,10 +32840,10 @@ qwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://upm-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://upm-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -33040,10 +33032,10 @@ ezmC5+Yq9PTV0XSfZvSLRFcA4bOQkYfl6JqezYH9Igb/3QpVzSdJ9uP6sAckY8HU
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://lyon2-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://lyon2-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -33259,10 +33251,10 @@ NkXjesaU14tz1javrtVNbR54cRtgvtfDmYkavjXpRfSqs5CKaPjEZNNXCzOr+jVa
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://skema-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://skema-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -33308,10 +33300,10 @@ KwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://ruc-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://ruc-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -33527,10 +33519,10 @@ aQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://insatlse-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://insatlse-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -33589,10 +33581,10 @@ XwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://thnio-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://thnio-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -33638,10 +33630,10 @@ BwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://kau-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://kau-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -33830,10 +33822,10 @@ FwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://enslyon-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://enslyon-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -34049,10 +34041,10 @@ dwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://agrobdx-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://agrobdx-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -34255,10 +34247,10 @@ UwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://avignonu-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://avignonu-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -34367,10 +34359,10 @@ ZQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://um-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://um-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -34416,10 +34408,10 @@ HQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://cs-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://cs-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -34633,10 +34625,10 @@ iQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://tmk-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://tmk-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -34852,10 +34844,10 @@ hwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://tmma-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://tmma-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -35071,10 +35063,10 @@ cQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://hesso-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://hesso-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -35119,10 +35111,10 @@ vwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://uvigo-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://uvigo-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -35338,10 +35330,10 @@ VwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://univparis-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://univparis-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -35544,10 +35536,10 @@ UQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://bristol-ewp.moveon4.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://bristol-ewp.moveon4.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -35593,10 +35585,10 @@ JwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://essex-ewp.moveon4.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://essex-ewp.moveon4.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -35666,10 +35658,10 @@ JwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://gsa-ewp.moveon4.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://gsa-ewp.moveon4.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -35715,10 +35707,10 @@ kQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://herts-ewp.moveon4.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://herts-ewp.moveon4.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -35764,10 +35756,10 @@ MwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://nu-ewp.moveon4.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://nu-ewp.moveon4.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -35940,10 +35932,10 @@ o/Nw907KTZsTYDECoDWWvvhe9OCK3C9W11tAj/YdpqLeYwMGpB7lXlGYrve0iqsP
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://rgu-ewp.moveon4.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://rgu-ewp.moveon4.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -35989,10 +35981,10 @@ zwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://surrey-ewp.moveon4.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://surrey-ewp.moveon4.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -36168,10 +36160,10 @@ zQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://uwe-ewp.moveon4.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://uwe-ewp.moveon4.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -36217,10 +36209,10 @@ oQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://baaa-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://baaa-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -36422,10 +36414,10 @@ zQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://ulco-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://ulco-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -36641,10 +36633,10 @@ bwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://ensulm-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://ensulm-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -36847,10 +36839,10 @@ fQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://clermont-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://clermont-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -37065,10 +37057,10 @@ wQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://aams-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://aams-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -37284,10 +37276,10 @@ gwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://dcu-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://dcu-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -37503,10 +37495,10 @@ lQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://amu-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://amu-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -37722,10 +37714,10 @@ n3+FGCFHWQu1EYJ0gX3P4Pa9EI4n8Yaq3ErnMPd6f7mN7+SrT6JFGk0k3P/A61Te
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://iogs-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://iogs-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -37941,10 +37933,10 @@ gQIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://angewandte-ewp.moveon4.de/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://angewandte-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -38080,10 +38072,10 @@ f8qJW70RDlyQxTOfQpFuWyIOO4pxJeymp75ZCmuTKrL1a0K12PUazs6kQR0cf7k6
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://villanueva-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://villanueva-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
@@ -38299,10 +38291,10 @@ lwIDAQAB
   <ns3:host>
     <admin-email>moveon-ewp@qs.com</admin-email>
     <r:apis-implemented>
-      <d5:discovery version="5.0.0">
+      <d6:discovery version="6.0.0">
         <admin-email>moveon-ewp@qs.com</admin-email>
-        <d5:url>https://insastras-ewp.moveonfr.com/v1/manifest</d5:url>
-      </d5:discovery>
+        <d6:url>https://insastras-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
       <e2:echo version="2.0.1">
         <admin-email>moveon-ewp@qs.com</admin-email>
         <e2:http-security>
