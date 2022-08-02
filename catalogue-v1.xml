@@ -36310,6 +36310,220 @@
         </server-credentials-in-use>
     </host>
     <host>
+        <ewp:admin-email>ewp@kion.com.tr</ewp:admin-email>
+        <ewp:admin-provider>KION (EXCHANGER)</ewp:admin-provider>
+        <apis-implemented>
+            <d6:discovery version="6.0.0">
+                <d6:url>https://ewp.kion.com.tr/api/manifest/selcuk</d6:url>
+            </d6:discovery>
+            <e2:echo version="2.0.1">
+                <e2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </e2:http-security>
+                <e2:url>https://ewp.kion.com.tr/api/echo/selcuk</e2:url>
+            </e2:echo>
+            <in2:institutions version="2.1.0">
+                <in2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </in2:http-security>
+                <in2:url>https://ewp.kion.com.tr/api/institutions/selcuk</in2:url>
+                <in2:max-hei-ids>10</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.1.1">
+                <ou2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </ou2:http-security>
+                <ou2:url>https://ewp.kion.com.tr/api/organizationalunits/selcuk</ou2:url>
+                <ou2:max-ounit-ids>100</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>100</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+            <ia6:iias
+                xmlns:ia6="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v6/manifest-entry.xsd"
+                version="6.0.1"
+            >
+                <ia6:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </ia6:http-security>
+                <ia6:get-url>https://ewp.kion.com.tr/api/interinstitutionalagreements/get/selcuk</ia6:get-url>
+                <ia6:max-iia-ids>1</ia6:max-iia-ids>
+                <ia6:max-iia-codes>1</ia6:max-iia-codes>
+                <ia6:index-url>https://ewp.kion.com.tr/api/interinstitutionalagreements/index/selcuk</ia6:index-url>
+            </ia6:iias>
+            <iac2:iia-cnr version="2.0.3">
+                <iac2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </iac2:http-security>
+                <iac2:url>https://ewp.kion.com.tr/api/interinstitutionalagreements/cnr/selcuk</iac2:url>
+            </iac2:iia-cnr>
+            <iaa1:iias-approval
+                xmlns:iaa1="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <iaa1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </iaa1:http-security>
+                <iaa1:url>https://ewp.kion.com.tr/api/interinstitutionalagreements/approval/selcuk</iaa1:url>
+                <iaa1:max-iia-ids>1</iaa1:max-iia-ids>
+            </iaa1:iias-approval>
+            <iaac1:iia-approval-cnr
+                xmlns:iaac1="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <iaac1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </iaac1:http-security>
+                <iaac1:url>https://ewp.kion.com.tr/api/interinstitutionalagreements/approval/cnr/selcuk</iaac1:url>
+            </iaac1:iia-approval-cnr>
+            <f1:factsheet
+                xmlns:f1="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <f1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </f1:http-security>
+                <f1:url>https://ewp.kion.com.tr/api/interinstitutionalagreements/factsheet/selcuk</f1:url>
+                <f1:max-hei-ids>25</f1:max-hei-ids>
+            </f1:factsheet>
+            <om1:omobilities
+                xmlns:om1="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <om1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </om1:http-security>
+                <om1:get-url>https://ewp.kion.com.tr/api/outgoingmobilities/get/selcuk</om1:get-url>
+                <om1:index-url>https://ewp.kion.com.tr/api/outgoingmobilities/index/selcuk</om1:index-url>
+                <om1:max-omobility-ids>25</om1:max-omobility-ids>
+                <om1:sends-notifications/>
+            </om1:omobilities>
+            <omc1:omobility-cnr
+                xmlns:omc1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <omc1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </omc1:http-security>
+                <omc1:url>https://ewp.kion.com.tr/api/outgoingmobilities/cnr/selcuk</omc1:url>
+                <omc1:max-omobility-ids>25</omc1:max-omobility-ids>
+            </omc1:omobility-cnr>
+            <im1:imobilities
+                xmlns:im1="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <im1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </im1:http-security>
+                <im1:get-url>https://ewp.kion.com.tr/api/incomingmobilities/get/selcuk</im1:get-url>
+                <im1:max-omobility-ids>25</im1:max-omobility-ids>
+                <im1:sends-notifications/>
+            </im1:imobilities>
+            <imc1:imobility-cnr
+                xmlns:imc1="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <imc1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </imc1:http-security>
+                <imc1:url>https://ewp.kion.com.tr/api/incomingmobilities/cnr/selcuk</imc1:url>
+                <imc1:max-omobility-ids>25</imc1:max-omobility-ids>
+            </imc1:imobility-cnr>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>selcuk.edu.tr</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="32f8293914d2ee6391a8d047c0f9aaf9b32df77cd974d2fe8cd5eb4665a4f381"/>
+            <rsa-public-key sha-256="f0724073c3cf6828f9c9dfda145aebe90833d268c395794505755633275305f5"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="f0724073c3cf6828f9c9dfda145aebe90833d268c395794505755633275305f5"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
         <ewp:admin-email>usosweb@uwb.edu.pl</ewp:admin-email>
         <ewp:admin-provider>MUCI (USOS)</ewp:admin-provider>
         <apis-implemented>
@@ -71027,6 +71241,8 @@ Standort Lörrach</name>
             <other-id type="erasmus">TR KONYA01</other-id>
             <other-id type="pic">998993883</other-id>
             <name>Selcuk Universitesi</name>
+            <name xml:lang="en">Selçuk University</name>
+            <name xml:lang="tr">Selçuk Üniversitesi</name>
         </hei>
         <hei id="semmelweis-univ.hu">
             <other-id type="eche">1528160</other-id>
@@ -79025,6 +79241,14 @@ USEA (VSU) "L. Karavelov"</name>
             jkhwGtnu916vVvfWqema3rFsvQwRcA0vMqJ6NiaQusGUNDfMJS81ey+Zxgiv+OGEIT0TwA2OIpwX
             4X397tISYtBzMPO7WNm2E+bw5v01DEPygm2HfH8WZ3Dv8oksWPteQ8woviH8TyspnmPai1EsDoRW
             cwvYuwIDAQAB
+        </rsa-public-key>
+        <rsa-public-key sha-256="f0724073c3cf6828f9c9dfda145aebe90833d268c395794505755633275305f5">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0MG3ujNsUsFzEzGJmOpB/OLZ6SMwI9SS
+            Qh7tTAIFmhsVOImeefgKoFRW+XsB9gsuj7B6thABGLXYFZJi01/3RAETe+oponqD1Yn65rHVXeh/
+            5Oeke6qGYIML3jCTIPq19Z10tZQ5oaNqEwM9A3LP2FwJDXGMO4K/+r9V49Yu0aE6kFoOWqcMLyDW
+            gojVcJPlihUzBdzFmqdXo0Yq4jSQQspDVDnfqCo3rq+ve29rgLy4K1Ewo2EMbrdWbZlPtzNb+FhO
+            RZuRtQ6krNL1yh089VGMfe1I65Z89pH40QvVJYAM3KwA/xL22/1tl7yAtHxxJdPfB6OfkTfHfEYL
+            y0q8wQIDAQAB
         </rsa-public-key>
         <rsa-public-key sha-256="f082369e32f8b44b60fd37214cf0c666889f09a7a07eee77b8c26a7eaf0de729">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqbwKGci9qVG98DnYI5vTK9FpxSMXPuLw
