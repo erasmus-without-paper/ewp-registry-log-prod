@@ -211,6 +211,42 @@
                 <url>https://ewp.kion.com.tr/api/incomingmobilities/cnr/ozyegin</url>
                 <max-omobility-ids>25</max-omobility-ids>
             </imobility-cnr>
+            <omobility-las
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.1"
+            >
+                <http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </http-security>
+                <get-url>https://ewp.kion.com.tr/api/outgoingmobilities/learning-agreement/get/ozyegin</get-url>
+                <index-url>https://ewp.kion.com.tr/api/outgoingmobilities/learning-agreement/index/ozyegin</index-url>
+                <update-url>https://ewp.kion.com.tr/api/outgoingmobilities/learning-agreement/update/ozyegin</update-url>
+                <max-omobility-ids>1</max-omobility-ids>
+            </omobility-las>
+            <omobility-la-cnr
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </http-security>
+                <url>https://ewp.kion.com.tr/api/outgoingmobilities/learning-agreement/cnr/ozyegin</url>
+                <max-omobility-ids>1</max-omobility-ids>
+            </omobility-la-cnr>
         </r:apis-implemented>
         <institutions-covered>
             <r:hei id="ozyegin.edu.tr">
