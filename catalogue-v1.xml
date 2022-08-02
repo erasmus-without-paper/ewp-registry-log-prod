@@ -35632,6 +35632,220 @@
         </server-credentials-in-use>
     </host>
     <host>
+        <ewp:admin-email>ewp@kion.com.tr</ewp:admin-email>
+        <ewp:admin-provider>KION (EXCHANGER)</ewp:admin-provider>
+        <apis-implemented>
+            <d6:discovery version="6.0.0">
+                <d6:url>https://ewp.kion.com.tr/api/manifest/maltepe</d6:url>
+            </d6:discovery>
+            <e2:echo version="2.0.1">
+                <e2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </e2:http-security>
+                <e2:url>https://ewp.kion.com.tr/api/echo/maltepe</e2:url>
+            </e2:echo>
+            <in2:institutions version="2.1.0">
+                <in2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </in2:http-security>
+                <in2:url>https://ewp.kion.com.tr/api/institutions/maltepe</in2:url>
+                <in2:max-hei-ids>10</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.1.1">
+                <ou2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </ou2:http-security>
+                <ou2:url>https://ewp.kion.com.tr/api/organizationalunits/maltepe</ou2:url>
+                <ou2:max-ounit-ids>100</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>100</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+            <ia6:iias
+                xmlns:ia6="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v6/manifest-entry.xsd"
+                version="6.0.1"
+            >
+                <ia6:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </ia6:http-security>
+                <ia6:get-url>https://ewp.kion.com.tr/api/interinstitutionalagreements/get/maltepe</ia6:get-url>
+                <ia6:max-iia-ids>1</ia6:max-iia-ids>
+                <ia6:max-iia-codes>1</ia6:max-iia-codes>
+                <ia6:index-url>https://ewp.kion.com.tr/api/interinstitutionalagreements/index/maltepe</ia6:index-url>
+            </ia6:iias>
+            <iac2:iia-cnr version="2.0.3">
+                <iac2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </iac2:http-security>
+                <iac2:url>https://ewp.kion.com.tr/api/interinstitutionalagreements/cnr/maltepe</iac2:url>
+            </iac2:iia-cnr>
+            <iaa1:iias-approval
+                xmlns:iaa1="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <iaa1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </iaa1:http-security>
+                <iaa1:url>https://ewp.kion.com.tr/api/interinstitutionalagreements/approval/maltepe</iaa1:url>
+                <iaa1:max-iia-ids>1</iaa1:max-iia-ids>
+            </iaa1:iias-approval>
+            <iaac1:iia-approval-cnr
+                xmlns:iaac1="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <iaac1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </iaac1:http-security>
+                <iaac1:url>https://ewp.kion.com.tr/api/interinstitutionalagreements/approval/cnr/maltepe</iaac1:url>
+            </iaac1:iia-approval-cnr>
+            <f1:factsheet
+                xmlns:f1="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <f1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </f1:http-security>
+                <f1:url>https://ewp.kion.com.tr/api/interinstitutionalagreements/factsheet/maltepe</f1:url>
+                <f1:max-hei-ids>25</f1:max-hei-ids>
+            </f1:factsheet>
+            <om1:omobilities
+                xmlns:om1="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <om1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </om1:http-security>
+                <om1:get-url>https://ewp.kion.com.tr/api/outgoingmobilities/get/maltepe</om1:get-url>
+                <om1:index-url>https://ewp.kion.com.tr/api/outgoingmobilities/index/maltepe</om1:index-url>
+                <om1:max-omobility-ids>25</om1:max-omobility-ids>
+                <om1:sends-notifications/>
+            </om1:omobilities>
+            <omc1:omobility-cnr
+                xmlns:omc1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <omc1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </omc1:http-security>
+                <omc1:url>https://ewp.kion.com.tr/api/outgoingmobilities/cnr/maltepe</omc1:url>
+                <omc1:max-omobility-ids>25</omc1:max-omobility-ids>
+            </omc1:omobility-cnr>
+            <im1:imobilities
+                xmlns:im1="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <im1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </im1:http-security>
+                <im1:get-url>https://ewp.kion.com.tr/api/incomingmobilities/get/maltepe</im1:get-url>
+                <im1:max-omobility-ids>25</im1:max-omobility-ids>
+                <im1:sends-notifications/>
+            </im1:imobilities>
+            <imc1:imobility-cnr
+                xmlns:imc1="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <imc1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A1:tlscert allows-self-signed="true"/>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </imc1:http-security>
+                <imc1:url>https://ewp.kion.com.tr/api/incomingmobilities/cnr/maltepe</imc1:url>
+                <imc1:max-omobility-ids>25</imc1:max-omobility-ids>
+            </imc1:imobility-cnr>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>maltepe.edu.tr</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <certificate sha-256="2b550b09e1df57c767bbcf663e6335370b9dd3157d855482fa8b70450e359c3e"/>
+            <rsa-public-key sha-256="4cf8599b1bc25cc02d8795610aad339cdeb1eccbca5d16655da4688478e01b8b"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="4cf8599b1bc25cc02d8795610aad339cdeb1eccbca5d16655da4688478e01b8b"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
         <ewp:admin-email>usosweb@uwb.edu.pl</ewp:admin-email>
         <ewp:admin-provider>MUCI (USOS)</ewp:admin-provider>
         <apis-implemented>
@@ -68485,6 +68699,8 @@ Standort Lörrach</name>
             <other-id type="erasmus">TR ISTANBU18</other-id>
             <other-id type="pic">949408065</other-id>
             <name>Maltepe Universitesi</name>
+            <name xml:lang="en">Maltepe University</name>
+            <name xml:lang="tr">Maltepe Üniversitesi</name>
         </hei>
         <hei id="manchester.ac.uk">
             <other-id type="erasmus">UK MANCHES01</other-id>
@@ -76130,6 +76346,14 @@ USEA (VSU) "L. Karavelov"</name>
             zESl2AnmcSWxffIKEQBQmPAHFQk1cx2HIqO0qcr5/KVmzSBYtnbTBFYgOuEy9Q+rTC0c/2z7553o
             LYFRKS6wbD+hkt56z4eE659K1rXKEwiANSgHGnEfKYKK/jYlyUPn/ITFiIx3gMjUhRRHq4fmAhfC
             ROoIuQIDAQAB
+        </rsa-public-key>
+        <rsa-public-key sha-256="4cf8599b1bc25cc02d8795610aad339cdeb1eccbca5d16655da4688478e01b8b">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2CqXOeEAfFOVSkZrCsRQH05GpjHSh5Xs
+            4QBwN0AVcPyrcccZNwGc8jkmOa1tLVbIZOqfV5juz90Eyq4rUs3gSE/DybOCTKi/c6BHU+xpg5pb
+            5Y9tzbIWfocvv3/UVTBgwQ7H8WPaPebaHt9kuQw6ffzXv5YzgjtdXZS960UA+aqu/yNIUTCCeyVW
+            0QzmeGavf5xZo7WKDXjKB7vqgOkP59cOr69D7tbtfIcxr17A+DBZoYj6O37dKZvhvOIyXbx6Og4y
+            eIZNKESDRQhiT2RkzTkVsD/tMw0o8Lgj3z4QX6RjGpofEHCMep8fmD4FoY1PXBFIYllPQ1q7EwXS
+            FKLQiQIDAQAB
         </rsa-public-key>
         <rsa-public-key sha-256="4d1e0a95d1dce5deaeacc696c8af608dad0ce6733d44d597d609746769d04e8f">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAup0TQOijbpaRzgSN9QxbzXZQk7YfcRFj
