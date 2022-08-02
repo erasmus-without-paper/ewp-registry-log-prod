@@ -710,7 +710,22 @@ Vhm1ywIDAQAB&#xD;
     <ns3:host>
         <admin-email>ewp@sop.co.at</admin-email>
         <admin-notes>Mobility-Online</admin-notes>
-        <ns2:apis-implemented/>
+        <ns2:apis-implemented>
+            <ns24:iias version="6.0.1">
+                <ns24:http-security>
+                    <ns5:client-auth-methods>
+                        <ns33:httpsig/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns34:httpsig/>
+                    </ns5:server-auth-methods>
+                </ns24:http-security>
+                <ns24:get-url>https://www.service4mobility.com/mobility_connect/ewp/iias-v6/get</ns24:get-url>
+                <ns24:max-iia-ids>3</ns24:max-iia-ids>
+                <ns24:max-iia-codes>3</ns24:max-iia-codes>
+                <ns24:index-url>https://www.service4mobility.com/mobility_connect/ewp/iias-v6/index</ns24:index-url>
+            </ns24:iias>
+        </ns2:apis-implemented>
         <ns3:institutions-covered>
             <ns2:hei id="utcluj.ro">
                 <ns2:other-id type="pic">999897244</ns2:other-id>
@@ -807,7 +822,19 @@ Vhm1ywIDAQAB&#xD;
     <ns3:host>
         <admin-email>ewp@sop.co.at</admin-email>
         <admin-notes>Mobility-Online</admin-notes>
-        <ns2:apis-implemented/>
+        <ns2:apis-implemented>
+            <ns23:iia-cnr version="2.0.2">
+                <ns23:http-security>
+                    <ns5:client-auth-methods>
+                        <ns33:httpsig/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns34:httpsig/>
+                    </ns5:server-auth-methods>
+                </ns23:http-security>
+                <ns23:url>https://www.service4mobility.com/mobility_connect/ewp/iias/cnr</ns23:url>
+            </ns23:iia-cnr>
+        </ns2:apis-implemented>
         <ns3:institutions-covered>
             <ns2:hei id="utcluj.ro">
                 <ns2:other-id type="pic">999897244</ns2:other-id>
@@ -904,7 +931,20 @@ Vhm1ywIDAQAB&#xD;
     <ns3:host>
         <admin-email>ewp@sop.co.at</admin-email>
         <admin-notes>Mobility-Online</admin-notes>
-        <ns2:apis-implemented/>
+        <ns2:apis-implemented>
+            <ns22:iias-approval version="1.0.0">
+                <ns22:http-security>
+                    <ns5:client-auth-methods>
+                        <ns33:httpsig/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns34:httpsig/>
+                    </ns5:server-auth-methods>
+                </ns22:http-security>
+                <ns22:url>https://www.service4mobility.com/mobility_connect/ewp/iias-approval-v1/get</ns22:url>
+                <ns22:max-iia-ids>3</ns22:max-iia-ids>
+            </ns22:iias-approval>
+        </ns2:apis-implemented>
         <ns3:institutions-covered>
             <ns2:hei id="utcluj.ro">
                 <ns2:other-id type="pic">999897244</ns2:other-id>
@@ -1001,7 +1041,19 @@ Vhm1ywIDAQAB&#xD;
     <ns3:host>
         <admin-email>ewp@sop.co.at</admin-email>
         <admin-notes>Mobility-Online</admin-notes>
-        <ns2:apis-implemented/>
+        <ns2:apis-implemented>
+            <ns21:iia-approval-cnr version="1.0.0">
+                <ns21:http-security>
+                    <ns5:client-auth-methods>
+                        <ns33:httpsig/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns34:httpsig/>
+                    </ns5:server-auth-methods>
+                </ns21:http-security>
+                <ns21:url>https://www.service4mobility.com/mobility_connect/ewp/iias-approval-cnr-v1/cnr</ns21:url>
+            </ns21:iia-approval-cnr>
+        </ns2:apis-implemented>
         <ns3:institutions-covered>
             <ns2:hei id="utcluj.ro">
                 <ns2:other-id type="pic">999897244</ns2:other-id>
@@ -1488,7 +1540,34 @@ Vhm1ywIDAQAB&#xD;
     <ns3:host>
         <admin-email>ewp@sop.co.at</admin-email>
         <admin-notes>Mobility-Online</admin-notes>
-        <ns2:apis-implemented/>
+        <ns2:apis-implemented>
+            <ns16:omobility-las version="1.0.0">
+                <ns16:http-security>
+                    <ns5:client-auth-methods>
+                        <ns33:httpsig/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns34:httpsig/>
+                    </ns5:server-auth-methods>
+                </ns16:http-security>
+                <ns16:get-url>https://www.service4mobility.com/mobility_connect/ewp/mobility_out_la/get</ns16:get-url>
+                <ns16:index-url>https://www.service4mobility.com/mobility_connect/ewp/mobility_out_la/index</ns16:index-url>
+                <ns16:update-url>https://www.service4mobility.com/mobility_connect/ewp/mobility_out_la/update</ns16:update-url>
+                <ns16:max-omobility-ids>1</ns16:max-omobility-ids>
+            </ns16:omobility-las>
+            <ns15:omobility-la-cnr version="1.0.0">
+                <ns15:http-security>
+                    <ns5:client-auth-methods>
+                        <ns33:httpsig/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns34:httpsig/>
+                    </ns5:server-auth-methods>
+                </ns15:http-security>
+                <ns15:url>https://www.service4mobility.com/mobility_connect/ewp/mobility_out_la/cnr</ns15:url>
+                <ns15:max-omobility-ids>1</ns15:max-omobility-ids>
+            </ns15:omobility-la-cnr>
+        </ns2:apis-implemented>
         <ns3:institutions-covered>
             <ns2:hei id="polizei.sachsen.de">
                 <ns2:other-id type="pic">920294291</ns2:other-id>
@@ -1559,7 +1638,20 @@ Vhm1ywIDAQAB&#xD;
     <ns3:host>
         <admin-email>ewp@sop.co.at</admin-email>
         <admin-notes>Mobility-Online</admin-notes>
-        <ns2:apis-implemented/>
+        <ns2:apis-implemented>
+            <ns6:factsheet version="1.0.0">
+                <ns6:http-security>
+                    <ns5:client-auth-methods>
+                        <ns33:httpsig/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns34:httpsig/>
+                    </ns5:server-auth-methods>
+                </ns6:http-security>
+                <ns6:url>https://www.service4mobility.com/mobility_connect/ewp/factsheets</ns6:url>
+                <ns6:max-hei-ids>3</ns6:max-hei-ids>
+            </ns6:factsheet>
+        </ns2:apis-implemented>
         <ns3:institutions-covered>
             <ns2:hei id="ufg.at">
                 <ns2:other-id type="pic">998777282</ns2:other-id>
