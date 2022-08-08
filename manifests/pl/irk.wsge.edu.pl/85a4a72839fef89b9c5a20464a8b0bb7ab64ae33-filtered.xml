@@ -1,0 +1,40 @@
+<manifest
+    xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v5"
+    xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
+    xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
+    xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
+>
+    <host>
+        <ewp:admin-email>admin@wsge.edu.pl</ewp:admin-email>
+        <r:apis-implemented/>
+        <institutions-covered>
+            <hei
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
+                id="wsge.edu.pl"
+            >
+                <other-id type="erasmus">PL JOZEFOW01</other-id>
+                <other-id type="pic">949670838</other-id>
+                <name xml:lang="pl">Wyższa Szkoła Gospodarki Euroregionalnej im. Alcide De Gasperi</name>
+                <name xml:lang="en">University of Euroregional Economy in Józefów - Warsaw</name>
+            </hei>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvQDCaWxhEVM7VDW5tt2J
+dyK87dycs3O4NAcyDcusMD/PbqUfUGqPWrm7Q4tIihZh7qR+5XIhXY82+MdKxTLn
+q7cd2DoEJwM3fRNxN9/Fuu8oikt4GDlZxiyRq5jiQoiT/xXhljNslIjAyhpieFrG
+4oRY6AvxCtbNAaC776umQfQjdufvXJp8LDWEHsNxYJuHSvbVdRUNdDqAL+nm6XPV
+6QO3op1v/Y86e0E77p1OTZS7EthZcFuR9UNI7Zj3E/JjCGNL8yZWRJ2PZUV6hv3p
+xI43ZW9PQnVnXs65P6NcCp9roh1jc9f1OX5W6jubF9sel4FiRZazNdFpBoBr/zMq
+BwIDAQAB</rsa-public-key>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvQDCaWxhEVM7VDW5tt2J
+dyK87dycs3O4NAcyDcusMD/PbqUfUGqPWrm7Q4tIihZh7qR+5XIhXY82+MdKxTLn
+q7cd2DoEJwM3fRNxN9/Fuu8oikt4GDlZxiyRq5jiQoiT/xXhljNslIjAyhpieFrG
+4oRY6AvxCtbNAaC776umQfQjdufvXJp8LDWEHsNxYJuHSvbVdRUNdDqAL+nm6XPV
+6QO3op1v/Y86e0E77p1OTZS7EthZcFuR9UNI7Zj3E/JjCGNL8yZWRJ2PZUV6hv3p
+xI43ZW9PQnVnXs65P6NcCp9roh1jc9f1OX5W6jubF9sel4FiRZazNdFpBoBr/zMq
+BwIDAQAB</rsa-public-key>
+        </server-credentials-in-use>
+    </host>
+</manifest>
