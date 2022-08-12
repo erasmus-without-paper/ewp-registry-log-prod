@@ -1,0 +1,89 @@
+<manifest
+    xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
+    xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
+    xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
+    xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
+>
+    <host>
+        <ewp:admin-email>usosadmin@sgh.waw.pl</ewp:admin-email>
+        <ewp:admin-provider>MUCI (USOS IRK)</ewp:admin-provider>
+        <r:apis-implemented>
+            <discovery
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6/manifest-entry.xsd"
+                version="6.0.0"
+            >
+                <url>https://irk.sgh.waw.pl/ewp/manifest/</url>
+            </discovery>
+            <echo
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.1"
+            >
+                <http-security>
+                    <client-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </client-auth-methods>
+                    <server-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
+                        <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </server-auth-methods>
+                </http-security>
+                <url>https://irk.sgh.waw.pl/ewp/echo/</url>
+            </echo>
+            <omobility-la-cnr
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <http-security>
+                    <client-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </client-auth-methods>
+                    <server-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
+                        <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </server-auth-methods>
+                </http-security>
+                <url>https://irk.sgh.waw.pl/ewp/la/cnr/</url>
+                <max-omobility-ids>100</max-omobility-ids>
+            </omobility-la-cnr>
+        </r:apis-implemented>
+        <institutions-covered>
+            <hei
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
+                id="sgh.waw.pl"
+            >
+                <other-id type="erasmus">PL WARSZAW03</other-id>
+                <other-id type="pic">998695705</other-id>
+                <name xml:lang="pl">Szkoła Główna Handlowa w Warszawie</name>
+                <name xml:lang="en">SGH Warsaw School of Economics</name>
+            </hei>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <rsa-public-key>MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA86hAI9NsS9OdPTHyIqtl
+WSenM8Ie2J6jEDQocDhuy92mZnqqJbSbLsCfRS555WTvySYRYy8hjfmQ0xvItn35
+FFMxOrKMEjfrwFQkUF5rZbn4N7cdovs8oQo7gtcBmCl9O/dwBYaydkrrZp9JzT73
+aiFDH7PQhoq/hjiJk0P6pbJzXbWW7+GQc7Z4jxYlLwVOp2g68QIvXIO0yTTe3pj3
+skIJwiay9ZXjRXrcrH1hTIhpr/G6xXI04S1BT+RNz92q2BrIz9n36ho7RWdxeV9t
+Iwc/0DWjfWdMjUqNwWNkuHZ+mqRHKWoMNyoaP4BXyPMIxumUf55ZM3PuPXwmapAY
+xeo6L1tP+/6cr7uAKY3+2QzF7pplrDEVFVg5WBJdY/eRD2zCkGP2E9xdMYMftfB8
+N2xvPoBOxnYs55iyPBPrCFEU8p38Bd3HEzD7M7C33nR3mb0mJH+12YElbnKASzBI
+h/9JO1BV3Y+bsYOLWYyMOc+5Fmjj/vTUwyEKh+qHMzH9YYrJgwYX6p8aPzkEPZ2t
+t+PRnc3MqrazbXGNQEeq/dkcwjrgamHfVwqEX6BN4qjdpbJSykxYgvgKuDkWeniV
+7x+nKDN06HxZL0Z3t45Q9pnPH7PrjlK8u1SwqJXmuUe7FUl6otXpWbTD5uPMPOrI
+5Tck0Sf5ESHS1368qvkS1aMCAwEAAQ==</rsa-public-key>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key>MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA86hAI9NsS9OdPTHyIqtl
+WSenM8Ie2J6jEDQocDhuy92mZnqqJbSbLsCfRS555WTvySYRYy8hjfmQ0xvItn35
+FFMxOrKMEjfrwFQkUF5rZbn4N7cdovs8oQo7gtcBmCl9O/dwBYaydkrrZp9JzT73
+aiFDH7PQhoq/hjiJk0P6pbJzXbWW7+GQc7Z4jxYlLwVOp2g68QIvXIO0yTTe3pj3
+skIJwiay9ZXjRXrcrH1hTIhpr/G6xXI04S1BT+RNz92q2BrIz9n36ho7RWdxeV9t
+Iwc/0DWjfWdMjUqNwWNkuHZ+mqRHKWoMNyoaP4BXyPMIxumUf55ZM3PuPXwmapAY
+xeo6L1tP+/6cr7uAKY3+2QzF7pplrDEVFVg5WBJdY/eRD2zCkGP2E9xdMYMftfB8
+N2xvPoBOxnYs55iyPBPrCFEU8p38Bd3HEzD7M7C33nR3mb0mJH+12YElbnKASzBI
+h/9JO1BV3Y+bsYOLWYyMOc+5Fmjj/vTUwyEKh+qHMzH9YYrJgwYX6p8aPzkEPZ2t
+t+PRnc3MqrazbXGNQEeq/dkcwjrgamHfVwqEX6BN4qjdpbJSykxYgvgKuDkWeniV
+7x+nKDN06HxZL0Z3t45Q9pnPH7PrjlK8u1SwqJXmuUe7FUl6otXpWbTD5uPMPOrI
+5Tck0Sf5ESHS1368qvkS1aMCAwEAAQ==</rsa-public-key>
+        </server-credentials-in-use>
+    </host>
+</manifest>
