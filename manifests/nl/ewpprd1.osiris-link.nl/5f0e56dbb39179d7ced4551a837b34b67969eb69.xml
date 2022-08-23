@@ -1,8 +1,8 @@
-<manifest xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v5" xmlns:mf="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v5" xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd" xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2" xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="
-        https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v5
-        https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-api-discovery/stable-v5/manifest.xsd
-        https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v5
-        https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-api-discovery/stable-v5/manifest-entry.xsd
+<manifest xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6" xmlns:mf="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6" xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd" xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2" xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="
+        https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6
+            https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-api-discovery/stable-v6/manifest.xsd
+        https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6
+        https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-api-discovery/stable-v6/manifest-entry.xsd
         https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1
         https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-api-registry/stable-v1/catalogue.xsd
         https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd
@@ -28,10 +28,11 @@
     ">
     <host>
         <ewp:admin-email>berlage@caci.nl</ewp:admin-email>
+        <ewp:admin-provider>CACI (Osiris)</ewp:admin-provider>
 
         <r:apis-implemented>
             <!-- The entry for the Discovery Manifest API (a self-reference). -->
-            <discovery xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v5/manifest-entry.xsd" version="5.0.0">
+            <discovery xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6/manifest-entry.xsd" version="6.0.0">
                 <url>https://ewpprd1.osiris-link.nl/marnixacademie.nl/manifest.xml</url>
             </discovery>
 
@@ -140,16 +141,11 @@
                 MIIDZjCCAk6gAwIBAgIEYuFNCDANBgkqhkiG9w0BAQsFADB1MQswCQYDVQQGEwJOTDEWMBQGA1UECAwNTm9vcmQtSG9sbGFuZDESMBAGA1UEBwwJQW1zdGVyZGFtMREwDwYDVQQKDAhDQUNJIEIuVjEMMAoGA1UECwwDSUNUMRkwFwYDVQQDDBAqLm9zaXJpcy1saW5rLm5sMB4XDTIyMDcyNzE0MzQ0OFoXDTMyMDcyNzE0MzQ0OFowdTELMAkGA1UEBhMCTkwxFjAUBgNVBAgMDU5vb3JkLUhvbGxhbmQxEjAQBgNVBAcMCUFtc3RlcmRhbTERMA8GA1UECgwIQ0FDSSBCLlYxDDAKBgNVBAsMA0lDVDEZMBcGA1UEAwwQKi5vc2lyaXMtbGluay5ubDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALRp4pxc7HzyEzGgHMZH3R8ZI7Ec5zwz9WsVCnWu7btj35l5ngLL4k3IzideWY2mHQDoQZePoH7GwM0xa8myCoEnRM0uxVd/xUb88yjqdzMgP/lnv9SGIqvGkW/yZ397So6N9moP+n5uOcRX/rUE5th4m7nmpedbPsLIAKoJ6EeeaKfKeDVcpBfMFneVvOyWSWn9ZhAJmqxU40ThLQgruhZAnLbxzQwNbetOCw9yRhvlUd4QDeeDapSI3XkbzVLnnBgUGfofNmHWLQtjfp0JDAOZwKuuiTjOTsclWdQgPm7UDJaFk4JjtrbaF05PWPrFYtQDw3Ft2NBV1uMRJLsD8J8CAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAGCQ7ZUslealC2n/NpzpaVSYicz3SaI5eGAd19piih9GJ6fjVQEmDbJj1exY6RUi6CBHVImRb4QgFpobrsDCt+u/yhMmcaJWFNBjyY8jsPX4y0qLsQeSRLejvdqiLp0yrAHBl/kKu4jrRR6/0XdybsrEWnvSVNQniQsr3xn59M3kwOR62EwjIUBDfA/dT6gvpWXZyyYP2YIcTPU1lMiaNyc8+DwXU1Obf3UJgvzh0+KKcU5mpny931LHwIW2Gq0YIVzuN/+wC0xyNh3KcIj3OQELBjE3T+YPmHWcI9UBWEtVkBGjrSo7+excAqW+EQkNVAsV8wQSZF8ZhnCcpe5KHjQ==
             </certificate>
 
-            <!-- we use this certifate to be able to connect to the EWP network from our local machines  -->
-            <certificate> MIIDAzCCAeugAwIBAgIIcV08HkbqNcMwDQYJKoZIhvcNAQELBQAwFDESMBAGA1UEAxMJbG9jYWxob3N0MB4XDTIxMDYwMTExMTIwMloXDTMxMDUzMDExMTIwMlowFDESMBAGA1UEAxMJbG9jYWxob3N0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAieMki5hkqvdD0H9hTH6+yDZ8TWxOJjYov5xipi12040D1MwtYaoenv8UjrymU1T+0u+VcCfYhV4sIsDslxwWrclicass3OiTNUtCUSPQjLzhkiqYU1DWjVRYbbvOWVhFgMmTl/ku5EPSLEIPSIt8wweL3/yVdi3Im4iFwMjWpYhyRohwa/LdDGKFcaXvPi7V+mlhzc6D59osAlbY6PVJyf73LSS7Mbcwq1Sdk5sdRt9kFnTsG03wVamFeS8ObCLp6oXBjIMw2et5uTyAZ/Va6Z8CyhpWxNEC4bxwIwti8pSMwXhlsPlhxwQ9Aw4wVNBasA1M71yn9uwagxVstWPZtwIDAQABo1kwVzAdBgNVHQ4EFgQUTPlMdJ5FkzMQ2Y8PMmwr9CpXVf8wNgYDVR0RBC8wLYIUaG9zdC5kb2NrZXIuaW50ZXJuYWyCCmV3cC1icm9rZXKCCWxvY2FsaG9zdDANBgkqhkiG9w0BAQsFAAOCAQEABZZDGqZqvO3XJkqYd93Iqs4JaMdemucvnx+8KxiFT14hLl3OzYlJVFp8f2XyuIXhHtqxwvE79ysXdPoabKlyKdQJi57DYySKyWVI1Qbok1n9lRBUL32mlY+Rv2or25F7o64pnAVUsVi+yN6p2+fM1HmHgFEc/9MBBNS5sz3Ivv4xG4Mxn8+GS3dGVid6jtj/OpH9/TqsJHqvoRkAUZhvYzWEJrHdu2f14ZDWm0kXpcqYKXdkxMKzL/1P7DRjekHgZgfDVeesZeKC4Qd8gXz89qDKlBit81zuDFWmJyWk9zSn4iPwH7Tuqh74ZXeOhmTTYiQCfzt0Frc1LZFchYopKg== </certificate>
-
             <!-- And this one is used for HTTP Signature Authentication -->
             <rsa-public-key>
                 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtGninFzsfPITMaAcxkfdHxkjsRznPDP1axUKda7tu2PfmXmeAsviTcjOJ15ZjaYdAOhBl4+gfsbAzTFrybIKgSdEzS7FV3/FRvzzKOp3MyA/+We/1IYiq8aRb/Jnf3tKjo32ag/6fm45xFf+tQTm2Hibueal51s+wsgAqgnoR55op8p4NVykF8wWd5W87JZJaf1mEAmarFTjROEtCCu6FkCctvHNDA1t604LD3JGG+VR3hAN54NqlIjdeRvNUuecGBQZ+h82YdYtC2N+nQkMA5nAq66JOM5OxyVZ1CA+btQMloWTgmO2ttoXTk9Y+sVi1APDcW3Y0FXW4xEkuwPwnwIDAQAB
             </rsa-public-key>
 
-            <!-- we use this publick key to be able to connect to the EWP network from our local machines  -->
-            <rsa-public-key> MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAieMki5hkqvdD0H9hTH6+yDZ8TWxOJjYov5xipi12040D1MwtYaoenv8UjrymU1T+0u+VcCfYhV4sIsDslxwWrclicass3OiTNUtCUSPQjLzhkiqYU1DWjVRYbbvOWVhFgMmTl/ku5EPSLEIPSIt8wweL3/yVdi3Im4iFwMjWpYhyRohwa/LdDGKFcaXvPi7V+mlhzc6D59osAlbY6PVJyf73LSS7Mbcwq1Sdk5sdRt9kFnTsG03wVamFeS8ObCLp6oXBjIMw2et5uTyAZ/Va6Z8CyhpWxNEC4bxwIwti8pSMwXhlsPlhxwQ9Aw4wVNBasA1M71yn9uwagxVstWPZtwIDAQAB </rsa-public-key>
         </client-credentials-in-use>
 
         <server-credentials-in-use>
@@ -157,9 +153,6 @@
             <rsa-public-key>
                 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtGninFzsfPITMaAcxkfdHxkjsRznPDP1axUKda7tu2PfmXmeAsviTcjOJ15ZjaYdAOhBl4+gfsbAzTFrybIKgSdEzS7FV3/FRvzzKOp3MyA/+We/1IYiq8aRb/Jnf3tKjo32ag/6fm45xFf+tQTm2Hibueal51s+wsgAqgnoR55op8p4NVykF8wWd5W87JZJaf1mEAmarFTjROEtCCu6FkCctvHNDA1t604LD3JGG+VR3hAN54NqlIjdeRvNUuecGBQZ+h82YdYtC2N+nQkMA5nAq66JOM5OxyVZ1CA+btQMloWTgmO2ttoXTk9Y+sVi1APDcW3Y0FXW4xEkuwPwnwIDAQAB
             </rsa-public-key>
-
-            <!-- we use this public key to be able to connect to the EWP network from our local machines  -->
-            <rsa-public-key> MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAieMki5hkqvdD0H9hTH6+yDZ8TWxOJjYov5xipi12040D1MwtYaoenv8UjrymU1T+0u+VcCfYhV4sIsDslxwWrclicass3OiTNUtCUSPQjLzhkiqYU1DWjVRYbbvOWVhFgMmTl/ku5EPSLEIPSIt8wweL3/yVdi3Im4iFwMjWpYhyRohwa/LdDGKFcaXvPi7V+mlhzc6D59osAlbY6PVJyf73LSS7Mbcwq1Sdk5sdRt9kFnTsG03wVamFeS8ObCLp6oXBjIMw2et5uTyAZ/Va6Z8CyhpWxNEC4bxwIwti8pSMwXhlsPlhxwQ9Aw4wVNBasA1M71yn9uwagxVstWPZtwIDAQAB </rsa-public-key>
 
         </server-credentials-in-use>
     </host>
