@@ -17577,6 +17577,19 @@ Q4XLiYXS11PCgaIa/1juOqS5xs6DCDP7dEr1Wc5HTY50M+mx4d8oz3/+5ewD7bsa
                 <omlc1:url>https://stralsund-ewp.moveon4.de/v1/la/cnr</omlc1:url>
                 <omlc1:max-omobility-ids>10</omlc1:max-omobility-ids>
             </omlc1:omobility-la-cnr>
+            <f1:factsheet version="1.0.0">
+                <admin-email>moveon-ewp@qs.com</admin-email>
+                <f1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </f1:http-security>
+                <f1:url>https://stralsund-ewp.moveon4.de/v1/factsheet/get</f1:url>
+                <f1:max-hei-ids>10</f1:max-hei-ids>
+            </f1:factsheet>
         </r:apis-implemented>
         <ns3:institutions-covered>
             <r:hei id="hochschule-stralsund.de">
