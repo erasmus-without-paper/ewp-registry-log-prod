@@ -72,7 +72,6 @@
             <ns30:echo version="2.0.1">
                 <ns30:http-security>
                     <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
                         <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
@@ -85,7 +84,6 @@
             <ns20:institutions version="2.2.0">
                 <ns20:http-security>
                     <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
                         <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
@@ -99,7 +97,6 @@
             <ns12:organizational-units version="2.1.1">
                 <ns12:http-security>
                     <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
                         <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
@@ -114,7 +111,6 @@
             <ns31:courses version="0.7.1">
                 <ns31:http-security>
                     <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
                         <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
@@ -129,7 +125,6 @@
             <ns25:iias version="6.0.1">
                 <ns25:http-security>
                     <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
                         <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
@@ -145,7 +140,6 @@
             <ns27:iia-cnr version="2.0.3">
                 <ns27:http-security>
                     <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
                         <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
@@ -158,7 +152,6 @@
             <ns26:iias-approval version="1.0.0">
                 <ns26:http-security>
                     <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
                         <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
@@ -172,7 +165,6 @@
             <ns28:iia-approval-cnr version="1.0.0">
                 <ns28:http-security>
                     <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
                         <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
@@ -182,6 +174,19 @@
                 </ns28:http-security>
                 <ns28:url>https://ewp.uni.opole.pl/ewp/iia/approval/cnr</ns28:url>
             </ns28:iia-approval-cnr>
+            <ns29:factsheet version="1.1.0">
+                <ns29:http-security>
+                    <ns11:client-auth-methods>
+                        <ns47:httpsig/>
+                    </ns11:client-auth-methods>
+                    <ns11:server-auth-methods>
+                        <ns56:tlscert/>
+                        <ns55:httpsig/>
+                    </ns11:server-auth-methods>
+                </ns29:http-security>
+                <ns29:url>https://ewp.uni.opole.pl/ewp/factsheet</ns29:url>
+                <ns29:max-hei-ids>1</ns29:max-hei-ids>
+            </ns29:factsheet>
         </ns7:apis-implemented>
         <ns9:institutions-covered>
             <ns7:hei id="uni.opole.pl">
@@ -192,26 +197,6 @@
             </ns7:hei>
         </ns9:institutions-covered>
         <ns9:client-credentials-in-use>
-            <ns9:certificate>MIIDrzCCApegAwIBAgIEfOw56TANBgkqhkiG9w0BAQsFADCBhzELMAkGA1UEBhMC
-UEwxETAPBgNVBAgTCE9wb2xza2llMQ4wDAYDVQQHEwVPcG9sZTEcMBoGA1UEChMT
-VW5pd2Vyc3l0ZXQgT3BvbHNraTEpMCcGA1UECxMgQ2VudHJ1bSBOb3dvY3plc255
-Y2ggVGVjaG5vbG9naWkxDDAKBgNVBAMTA0VXUDAeFw0yMjAzMDYyMTIzNThaFw0y
-NDAyMjQyMTIzNThaMIGHMQswCQYDVQQGEwJQTDERMA8GA1UECBMIT3BvbHNraWUx
-DjAMBgNVBAcTBU9wb2xlMRwwGgYDVQQKExNVbml3ZXJzeXRldCBPcG9sc2tpMSkw
-JwYDVQQLEyBDZW50cnVtIE5vd29jemVzbnljaCBUZWNobm9sb2dpaTEMMAoGA1UE
-AxMDRVdQMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkDyhVv3bM1/1
-oNqt0XKTO6QpjMevkrOm2ISpiyxamKuq70comc+tUo6e+AvcdJzHn+dYVLeGWF6X
-Z0BGsGl1rvI8izVPCsv9p8PSVETMjyBDBTMjBqPrwxPYD+7LzAOUlwKu58qNhRep
-Hk9QISiPnh7xCBP7k8KPjJtUB7K5x12iF9JXVwt5p/WknjGoSPp4cm9kfVggYkTn
-RLAPx0ze7HCIWMH+sdQAy2vveSzk2vVfWdoYxC2t2w0yalJOE+dGcgX/5Ksk8gkz
-8Q7mCCbbaWZgOGpIYftjiC5OjgLH/3qkghH5l/18tvvgkcLQgNYjppu+GYOh4zwf
-HnlOqYJMPQIDAQABoyEwHzAdBgNVHQ4EFgQUjJNlSQLvSXhm/VoqBwcua0V4XYcw
-DQYJKoZIhvcNAQELBQADggEBADULRskGXAdCcPoCeUFqoVeTcVK1QUH8ZMfYxU6W
-5ObfyRC7RhdLpUs3vgqkbOijQQTBxi6sfg2KLAyGXxrs5UtqxhHiI8V7LG+xowZR
-kfM3azFYdXFi7S6BNC9MvEGx6b+HNwuGk02QKt5FeNJj8DN8A/Y5oSgB1Ad0uB85
-4PsI94nIkcLbNeRJJyBSvat6IYhoSeTX3N0HiBxTCXTzMcCGwIOEx1F2RCScG1BW
-btJl4475+g+Eaw64LpKw3y+8jNKtO8gllSY33l9co6cGkNI5W0shWdUTzA0OcknT
-0MKDEa3l/lhpxbz6OolREdVlWvDIHKprSyjhAf/hhARhedc=</ns9:certificate>
             <ns9:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkDyhVv3bM1/1oNqt0XKT
 O6QpjMevkrOm2ISpiyxamKuq70comc+tUo6e+AvcdJzHn+dYVLeGWF6XZ0BGsGl1
 rvI8izVPCsv9p8PSVETMjyBDBTMjBqPrwxPYD+7LzAOUlwKu58qNhRepHk9QISiP
