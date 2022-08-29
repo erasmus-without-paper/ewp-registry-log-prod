@@ -72,7 +72,6 @@
             <ns30:echo version="2.0.1">
                 <ns30:http-security>
                     <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
                         <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
@@ -85,7 +84,6 @@
             <ns20:institutions version="2.2.0">
                 <ns20:http-security>
                     <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
                         <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
@@ -99,7 +97,6 @@
             <ns12:organizational-units version="2.1.1">
                 <ns12:http-security>
                     <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
                         <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
@@ -114,7 +111,6 @@
             <ns31:courses version="0.7.1">
                 <ns31:http-security>
                     <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
                         <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
@@ -129,7 +125,6 @@
             <ns25:iias version="6.0.1">
                 <ns25:http-security>
                     <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
                         <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
@@ -145,7 +140,6 @@
             <ns27:iia-cnr version="2.0.3">
                 <ns27:http-security>
                     <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
                         <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
@@ -158,7 +152,6 @@
             <ns26:iias-approval version="1.0.0">
                 <ns26:http-security>
                     <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
                         <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
@@ -172,7 +165,6 @@
             <ns28:iia-approval-cnr version="1.0.0">
                 <ns28:http-security>
                     <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
                         <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
@@ -182,10 +174,22 @@
                 </ns28:http-security>
                 <ns28:url>https://ewp.pwsz.elblag.pl/ewp/iia/approval/cnr</ns28:url>
             </ns28:iia-approval-cnr>
-            <ns24:imobilities version="0.3.0">
+            <ns29:factsheet version="1.1.0">
+                <ns29:http-security>
+                    <ns11:client-auth-methods>
+                        <ns47:httpsig/>
+                    </ns11:client-auth-methods>
+                    <ns11:server-auth-methods>
+                        <ns56:tlscert/>
+                        <ns55:httpsig/>
+                    </ns11:server-auth-methods>
+                </ns29:http-security>
+                <ns29:url>https://ewp.pwsz.elblag.pl/ewp/factsheet</ns29:url>
+                <ns29:max-hei-ids>1</ns29:max-hei-ids>
+            </ns29:factsheet>
+            <ns24:imobilities version="1.0.0">
                 <ns24:http-security>
                     <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
                         <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
@@ -197,10 +201,9 @@
                 <ns24:max-omobility-ids>100</ns24:max-omobility-ids>
                 <ns24:sends-notifications/>
             </ns24:imobilities>
-            <ns23:imobility-cnr version="0.1.1">
+            <ns23:imobility-cnr version="1.0.0">
                 <ns23:http-security>
                     <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
                         <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
@@ -214,7 +217,6 @@
             <ns16:omobilities version="1.0.0">
                 <ns16:http-security>
                     <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
                         <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
@@ -230,7 +232,6 @@
             <ns15:omobility-cnr version="1.0.0">
                 <ns15:http-security>
                     <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
                         <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
@@ -244,7 +245,6 @@
             <ns13:omobility-las version="1.0.1">
                 <ns13:http-security>
                     <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
                         <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
@@ -257,24 +257,9 @@
                 <ns13:update-url>https://ewp.pwsz.elblag.pl/ewp/la/update</ns13:update-url>
                 <ns13:max-omobility-ids>100</ns13:max-omobility-ids>
             </ns13:omobility-las>
-            <ns14:omobility-la-cnr version="1.0.0">
-                <ns14:http-security>
-                    <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
-                        <ns47:httpsig/>
-                    </ns11:client-auth-methods>
-                    <ns11:server-auth-methods>
-                        <ns56:tlscert/>
-                        <ns55:httpsig/>
-                    </ns11:server-auth-methods>
-                </ns14:http-security>
-                <ns14:url>https://ewp.pwsz.elblag.pl/ewp/la/cnr</ns14:url>
-                <ns14:max-omobility-ids>100</ns14:max-omobility-ids>
-            </ns14:omobility-la-cnr>
-            <ns21:imobility-tors version="0.7.0">
+            <ns21:imobility-tors version="1.0.0">
                 <ns21:http-security>
                     <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
                         <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
@@ -287,10 +272,9 @@
                 <ns21:max-omobility-ids>10</ns21:max-omobility-ids>
                 <ns21:sends-notifications/>
             </ns21:imobility-tors>
-            <ns22:imobility-tor-cnr version="0.1.1">
+            <ns22:imobility-tor-cnr version="1.0.0">
                 <ns22:http-security>
                     <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
                         <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
@@ -311,25 +295,6 @@
             </ns7:hei>
         </ns9:institutions-covered>
         <ns9:client-credentials-in-use>
-            <ns9:certificate>MIIDYTCCAkmgAwIBAgIEBRw+cTANBgkqhkiG9w0BAQsFADBhMQswCQYDVQQGEwJQ
-TDELMAkGA1UECBMCV00xDzANBgNVBAcTBkVsYmxhZzEOMAwGA1UEChMFUFdTWkUx
-CzAJBgNVBAsTAklUMRcwFQYDVQQDEw5wd3N6LmVsYmxhZy5wbDAeFw0yMTA2MjIx
-NTEzMDBaFw0yMTA5MjAxNTEzMDBaMGExCzAJBgNVBAYTAlBMMQswCQYDVQQIEwJX
-TTEPMA0GA1UEBxMGRWxibGFnMQ4wDAYDVQQKEwVQV1NaRTELMAkGA1UECxMCSVQx
-FzAVBgNVBAMTDnB3c3ouZWxibGFnLnBsMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A
-MIIBCgKCAQEAh7RAuARBh/fG6gmL2AAnKxFQUecb87JbyopfPJ+PtMSoCQGXtXmP
-mqEWHnalewu43xeoD4ZEy9hSOuaDMRqt1I9Xnik7P+tOnQtt3icjx/BueyeYG+LN
-/PL3qikimAMQt0nQEH46yE4FDlGZ2XgFpUHofOXTz3apNgerqpi4IKTkjs2ir3qc
-7xa8MePXLenj8vVi2X1lMNTlN0i2qnYhUoduJTGTs+4ZNMz8TYXnSEP1wpjQWxsX
-Kmq/ECL3k1ql8d4XwoAr8XpvtzP2qHWPfEKS0ipEigGIMOZJ+K17q/mjrHhn+Gma
-5Opcu48gZs6Zj+pOPo9ms10QhTbZPDsJVwIDAQABoyEwHzAdBgNVHQ4EFgQUGiPx
-EyqXukK/2HmNtn+LbQAfCvYwDQYJKoZIhvcNAQELBQADggEBACQplVPtORSrciB8
-QiuWLPHPKKeMdhMB5FWRh4Jyavn1RGvxeSM+Fy3tAQi9iGaAEyPtgHADhb9IRan6
-IjIKJCywigbFvthQ/cUIgmJC4wyz+izXJAuOvAzbO7if9t44kXCVbSsdxzxStp90
-sVixv8R5VPNgQOiTdRm60QKTpUS1mFK76sROUK9H+S5Q1NziPfdJBOfZLXxynlz6
-gB1DH9KH9rxZBOzOBwbOraa2ivTw+zV65k7jG/u0F4P0mK271elcV+yiZLJ0vSH1
-rJRpsBVO/sxCCtiG7eyzTgLK91cyeRVUBDXLf84uwfRVfrl0qHk0t4311+iz7hHi
-dYRoY5c=</ns9:certificate>
             <ns9:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAh7RAuARBh/fG6gmL2AAn
 KxFQUecb87JbyopfPJ+PtMSoCQGXtXmPmqEWHnalewu43xeoD4ZEy9hSOuaDMRqt
 1I9Xnik7P+tOnQtt3icjx/BueyeYG+LN/PL3qikimAMQt0nQEH46yE4FDlGZ2XgF
