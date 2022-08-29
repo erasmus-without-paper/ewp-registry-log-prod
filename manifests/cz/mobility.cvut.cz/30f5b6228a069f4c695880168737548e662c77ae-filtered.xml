@@ -1,7 +1,7 @@
 <disc:manifest
-    xmlns:disc="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v5"
+    xmlns:disc="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
     xmlns:common="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
-    xmlns:disc-e="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v5/manifest-entry.xsd"
+    xmlns:disc-e="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6/manifest-entry.xsd"
     xmlns:echo="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd"
     xmlns:fsheet="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
     xmlns:iias="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v6/manifest-entry.xsd"
@@ -21,9 +21,10 @@
 >
     <disc:host>
         <common:admin-email>developers@cvut.cz</common:admin-email>
+        <common:admin-provider>CTU (Mobility)</common:admin-provider>
         <common:admin-notes>Erasmus Without Paper API module for Mobility application</common:admin-notes>
         <reg:apis-implemented>
-            <disc-e:discovery version="5.0.0">
+            <disc-e:discovery version="6.0.0">
                 <disc-e:url>https://mobility.cvut.cz/ewp/api/manifest</disc-e:url>
             </disc-e:discovery>
             <echo:echo version="2.0.1">
