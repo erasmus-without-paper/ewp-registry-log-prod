@@ -39,19 +39,6 @@
                 </echo:http-security>
                 <echo:url>https://mobility.cvut.cz/ewp/api/echo</echo:url>
             </echo:echo>
-            <inst:institutions version="2.2.0">
-                <inst:http-security>
-                    <sec:client-auth-methods>
-                        <sec-ctls:tlscert allows-self-signed="true"/>
-                        <sec-csig:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-stls:tlscert/>
-                    </sec:server-auth-methods>
-                </inst:http-security>
-                <inst:url>https://mobility.cvut.cz/ewp/api/institutions</inst:url>
-                <inst:max-hei-ids>1</inst:max-hei-ids>
-            </inst:institutions>
             <iias:iias version="6.0.1">
                 <iias:http-security>
                     <sec:client-auth-methods>
