@@ -1,5 +1,5 @@
 <ns53:manifest
-    xmlns:ns53="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v5"
+    xmlns:ns53="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
     xmlns:iias="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v6/endpoints/get-response.xsd"
     xmlns:ns10="https://github.com/erasmus-without-paper/ewp-specs-api-mt-projects/blob/stable-v1/manifest-entry.xsd"
     xmlns:ns11="https://github.com/erasmus-without-paper/ewp-specs-api-mt-institutions/blob/stable-v1/manifest-entry.xsd"
@@ -14,7 +14,7 @@
     xmlns:ns2="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
     xmlns:ns20="https://github.com/erasmus-without-paper/ewp-specs-api-iia-cnr/blob/stable-v2/manifest-entry.xsd"
     xmlns:ns21="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v1/manifest-entry.xsd"
-    xmlns:ns22="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v5/manifest-entry.xsd"
+    xmlns:ns22="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6/manifest-entry.xsd"
     xmlns:ns23="https://github.com/erasmus-without-paper/ewp-specs-api-courses/blob/stable-v1/manifest-entry.xsd"
     xmlns:ns24="https://github.com/erasmus-without-paper/ewp-specs-api-echo/tree/stable-v2"
     xmlns:ns25="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
@@ -63,9 +63,10 @@
 >
     <ns53:host>
         <ns2:admin-email>digital.innovation@uni-corvinus.hu</ns2:admin-email>
+        <ns2:admin-provider>Corvinus University of Budapest (Kelesys Mobility Manager)</ns2:admin-provider>
         <ns2:admin-notes>Corvinus University of Budapest</ns2:admin-notes>
         <ns52:apis-implemented>
-            <ns22:discovery version="5.0.0">
+            <ns22:discovery version="6.0.0">
                 <ns22:url>https://ewp.uni-corvinus.hu/manifest/manifest.xml</ns22:url>
             </ns22:discovery>
             <ns4:echo version="2.0.1">
@@ -194,37 +195,15 @@ W4v2BIj1odZTstWTAJtcngK4rXSGyGMigZH82l4UliGl5+UP6AAUIXdp6Blwd7Xg
 eFCfVOFfna5qT4Aja0I1TD7eIHiyz54xlMZzLx2NvWEhsOU3HgdXqD4UJyUwdWQQ
 bvrLAJGozlqd6+O5OHiXfXZ0QZaKn+3J0CwyDfIAL1uSLMzWB/VW0am4KgJTd5KA
 5cRCRtOfKzQpWxtKC9zx2w67A6Wu5MLjRRM+X1kFI4IE91bP
-            </ns53:certificate>
+      </ns53:certificate>
             <ns53:rsa-public-key>
-MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAwoOmOq8ITXFG0exJ5QOV
-vNn92W+UbzC2HDuUOEj8k6LmC6XkMpF4tS9OhrqF/uPBu2oZl1XfkslEyaTyROtR
-lL+ijlPjAn/bVkPGoON3mnPyWMYiboQ4AseBISCvqSAjIUuPtCr8dLHL1zg7rR1l
-XO3SfAgKkLOCueqKOUMNCfnWUG6JPnH5C9qFlRvBlq3kmL8GmRIaHn2s1D9zWd0j
-Gn7DVU9FsC23E4EuOVR1Z2OjwbogFAKZ026yJ3QlQ1lzds/aDcWvDO2ql3gMbRIc
-1MRFQuNk5U7uaykauVECUDQ5t+lolhYiXed4LXMFifJt5rZQT3eklY5dvrLpLQw1
-MYjqxMsErOyJZsbAN28evPMgep978+N6o0J3wPtRmsG4k6StnNYflwdndqXAILR5
-HbwSrzZ254jtgTEhL5Ty+0HuHmdb3Z8M5Db4GoUPCC8JIa39mRvZZTEByFhKYG9l
-JMf+2MQat1REShEwJEA1VLVHo4I7bblOKdMqgADANKyAjGJh2l3VR7JP6LAxMvkd
-H7WwEGKNtl5Fp2qqPIHvU2MFzp9WrDtOVdkeD/jB06Xrq4ChKFKde3cj40lf7gNY
-DMtCN+HXPUa3erEhwji+plYMBTLvZ5GsTPBHkQvnrnXrGNgK1u3ImdsL3ydy13uh
-iF4ek6ky8bbq5tSLmfySvpECAwEAAQ==
-            </ns53:rsa-public-key>
+MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAwoOmOq8ITXFG0exJ5QOV vNn92W+UbzC2HDuUOEj8k6LmC6XkMpF4tS9OhrqF/uPBu2oZl1XfkslEyaTyROtR lL+ijlPjAn/bVkPGoON3mnPyWMYiboQ4AseBISCvqSAjIUuPtCr8dLHL1zg7rR1l XO3SfAgKkLOCueqKOUMNCfnWUG6JPnH5C9qFlRvBlq3kmL8GmRIaHn2s1D9zWd0j Gn7DVU9FsC23E4EuOVR1Z2OjwbogFAKZ026yJ3QlQ1lzds/aDcWvDO2ql3gMbRIc 1MRFQuNk5U7uaykauVECUDQ5t+lolhYiXed4LXMFifJt5rZQT3eklY5dvrLpLQw1 MYjqxMsErOyJZsbAN28evPMgep978+N6o0J3wPtRmsG4k6StnNYflwdndqXAILR5 HbwSrzZ254jtgTEhL5Ty+0HuHmdb3Z8M5Db4GoUPCC8JIa39mRvZZTEByFhKYG9l JMf+2MQat1REShEwJEA1VLVHo4I7bblOKdMqgADANKyAjGJh2l3VR7JP6LAxMvkd H7WwEGKNtl5Fp2qqPIHvU2MFzp9WrDtOVdkeD/jB06Xrq4ChKFKde3cj40lf7gNY DMtCN+HXPUa3erEhwji+plYMBTLvZ5GsTPBHkQvnrnXrGNgK1u3ImdsL3ydy13uh iF4ek6ky8bbq5tSLmfySvpECAwEAAQ==
+      </ns53:rsa-public-key>
         </ns53:client-credentials-in-use>
         <ns53:server-credentials-in-use>
             <ns53:rsa-public-key>
-MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAwoOmOq8ITXFG0exJ5QOV
-vNn92W+UbzC2HDuUOEj8k6LmC6XkMpF4tS9OhrqF/uPBu2oZl1XfkslEyaTyROtR
-lL+ijlPjAn/bVkPGoON3mnPyWMYiboQ4AseBISCvqSAjIUuPtCr8dLHL1zg7rR1l
-XO3SfAgKkLOCueqKOUMNCfnWUG6JPnH5C9qFlRvBlq3kmL8GmRIaHn2s1D9zWd0j
-Gn7DVU9FsC23E4EuOVR1Z2OjwbogFAKZ026yJ3QlQ1lzds/aDcWvDO2ql3gMbRIc
-1MRFQuNk5U7uaykauVECUDQ5t+lolhYiXed4LXMFifJt5rZQT3eklY5dvrLpLQw1
-MYjqxMsErOyJZsbAN28evPMgep978+N6o0J3wPtRmsG4k6StnNYflwdndqXAILR5
-HbwSrzZ254jtgTEhL5Ty+0HuHmdb3Z8M5Db4GoUPCC8JIa39mRvZZTEByFhKYG9l
-JMf+2MQat1REShEwJEA1VLVHo4I7bblOKdMqgADANKyAjGJh2l3VR7JP6LAxMvkd
-H7WwEGKNtl5Fp2qqPIHvU2MFzp9WrDtOVdkeD/jB06Xrq4ChKFKde3cj40lf7gNY
-DMtCN+HXPUa3erEhwji+plYMBTLvZ5GsTPBHkQvnrnXrGNgK1u3ImdsL3ydy13uh
-iF4ek6ky8bbq5tSLmfySvpECAwEAAQ==
-            </ns53:rsa-public-key>
+MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAwoOmOq8ITXFG0exJ5QOV vNn92W+UbzC2HDuUOEj8k6LmC6XkMpF4tS9OhrqF/uPBu2oZl1XfkslEyaTyROtR lL+ijlPjAn/bVkPGoON3mnPyWMYiboQ4AseBISCvqSAjIUuPtCr8dLHL1zg7rR1l XO3SfAgKkLOCueqKOUMNCfnWUG6JPnH5C9qFlRvBlq3kmL8GmRIaHn2s1D9zWd0j Gn7DVU9FsC23E4EuOVR1Z2OjwbogFAKZ026yJ3QlQ1lzds/aDcWvDO2ql3gMbRIc 1MRFQuNk5U7uaykauVECUDQ5t+lolhYiXed4LXMFifJt5rZQT3eklY5dvrLpLQw1 MYjqxMsErOyJZsbAN28evPMgep978+N6o0J3wPtRmsG4k6StnNYflwdndqXAILR5 HbwSrzZ254jtgTEhL5Ty+0HuHmdb3Z8M5Db4GoUPCC8JIa39mRvZZTEByFhKYG9l JMf+2MQat1REShEwJEA1VLVHo4I7bblOKdMqgADANKyAjGJh2l3VR7JP6LAxMvkd H7WwEGKNtl5Fp2qqPIHvU2MFzp9WrDtOVdkeD/jB06Xrq4ChKFKde3cj40lf7gNY DMtCN+HXPUa3erEhwji+plYMBTLvZ5GsTPBHkQvnrnXrGNgK1u3ImdsL3ydy13uh iF4ek6ky8bbq5tSLmfySvpECAwEAAQ==
+      </ns53:rsa-public-key>
         </ns53:server-credentials-in-use>
     </ns53:host>
 </ns53:manifest>
