@@ -1,5 +1,5 @@
 <manifest
-    xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v5"
+    xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
     xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
     xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
     xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
@@ -11,10 +11,11 @@
 >
     <host>
         <ewp:admin-email>gestion.ori@uca.es</ewp:admin-email>
+        <ewp:admin-provider>University of Cadiz (ORI2)</ewp:admin-provider>
         <r:apis-implemented>
             <ns0:discovery
-                xmlns:ns0="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v5/manifest-entry.xsd"
-                version="5.0.0"
+                xmlns:ns0="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6/manifest-entry.xsd"
+                version="6.0.0"
             >
                 <ns0:url>https://ori2.uca.es/es/ewp/manifest</ns0:url>
             </ns0:discovery>
@@ -36,7 +37,7 @@
             </ns1:echo>
             <ns2:institutions
                 xmlns:ns2="https://github.com/erasmus-without-paper/ewp-specs-api-institutions/blob/stable-v2/manifest-entry.xsd"
-                version="2.1.0"
+                version="2.2.0"
             >
                 <ns2:http-security>
                     <sec:client-auth-methods>
@@ -123,7 +124,7 @@
             </ns6:file>
             <ns7:iias
                 xmlns:ns7="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v6/manifest-entry.xsd"
-                version="6.0.1"
+                version="6.1.0"
             >
                 <ns7:http-security>
                     <sec:client-auth-methods>
@@ -158,7 +159,7 @@
             </ns8:iia-cnr>
             <ns9:iias-approval
                 xmlns:ns9="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
-                version="1.0.0"
+                version="1.1.0"
             >
                 <ns9:http-security>
                     <sec:client-auth-methods>
@@ -175,7 +176,7 @@
             </ns9:iias-approval>
             <ns10:iia-approval-cnr
                 xmlns:ns10="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v1/manifest-entry.xsd"
-                version="1.0.0"
+                version="1.1.0"
             >
                 <ns10:http-security>
                     <sec:client-auth-methods>
