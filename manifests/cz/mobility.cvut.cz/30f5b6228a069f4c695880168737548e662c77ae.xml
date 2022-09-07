@@ -49,7 +49,7 @@
                         <sec-csig:httpsig />
                     </sec:client-auth-methods>
                     <sec:server-auth-methods>
-                        
+                        <sec-stls:tlscert />
                     </sec:server-auth-methods>
                 </inst:http-security>
                     <inst:url>https://mobility.cvut.cz/ewp/api/institutions</inst:url>
@@ -133,7 +133,7 @@
                         <sec-csig:httpsig />
                     </sec:client-auth-methods>
                     <sec:server-auth-methods>
-                        
+                        <sec-stls:tlscert />
                     </sec:server-auth-methods>
                 </ounits:http-security>
                     <ounits:url>https://mobility.cvut.cz/ewp/api/organization-units</ounits:url>
