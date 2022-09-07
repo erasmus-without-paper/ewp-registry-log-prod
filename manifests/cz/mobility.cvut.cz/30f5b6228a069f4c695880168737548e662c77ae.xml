@@ -129,11 +129,11 @@
                  <ounits:http-security>
                     <sec:client-auth-methods>
                         <sec-none:anonymous/>
-                        <sec-ctls:tlscert allows-self-signed="true"/>
+                        
                         <sec-csig:httpsig />
                     </sec:client-auth-methods>
                     <sec:server-auth-methods>
-                        <sec-stls:tlscert />
+                        
                     </sec:server-auth-methods>
                 </ounits:http-security>
                     <ounits:url>https://mobility.cvut.cz/ewp/api/organization-units</ounits:url>

@@ -104,21 +104,6 @@
                 <fsheet:url>https://mobility.cvut.cz/ewp/api/factsheet</fsheet:url>
                 <fsheet:max-hei-ids>1</fsheet:max-hei-ids>
             </fsheet:factsheet>
-            <ounits:organizational-units version="2.1.1">
-                <ounits:http-security>
-                    <sec:client-auth-methods>
-                        <sec-none:anonymous/>
-                        <sec-ctls:tlscert allows-self-signed="true"/>
-                        <sec-csig:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-stls:tlscert/>
-                    </sec:server-auth-methods>
-                </ounits:http-security>
-                <ounits:url>https://mobility.cvut.cz/ewp/api/organization-units</ounits:url>
-                <ounits:max-ounit-ids>11</ounits:max-ounit-ids>
-                <ounits:max-ounit-codes>11</ounits:max-ounit-codes>
-            </ounits:organizational-units>
         </reg:apis-implemented>
         <disc:institutions-covered>
             <reg:hei id="cvut.cz">
