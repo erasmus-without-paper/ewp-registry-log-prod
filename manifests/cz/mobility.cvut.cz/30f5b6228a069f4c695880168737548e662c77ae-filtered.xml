@@ -42,6 +42,8 @@
             <inst:institutions version="2.2.0">
                 <inst:http-security>
                     <sec:client-auth-methods>
+                        <sec-none:anonymous/>
+                        <sec-ctls:tlscert allows-self-signed="true"/>
                         <sec-csig:httpsig/>
                     </sec:client-auth-methods>
                     <sec:server-auth-methods>
@@ -120,6 +122,7 @@
                 <ounits:http-security>
                     <sec:client-auth-methods>
                         <sec-none:anonymous/>
+                        <sec-ctls:tlscert allows-self-signed="true"/>
                         <sec-csig:httpsig/>
                     </sec:client-auth-methods>
                     <sec:server-auth-methods>
