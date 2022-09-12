@@ -1,7 +1,7 @@
 <ns9:manifest
-    xmlns:ns9="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v5"
+    xmlns:ns9="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
     xmlns:iias="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v6/endpoints/get-response.xsd"
-    xmlns:ns10="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v5/manifest-entry.xsd"
+    xmlns:ns10="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6/manifest-entry.xsd"
     xmlns:ns11="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
     xmlns:ns12="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/blob/stable-v2/manifest-entry.xsd"
     xmlns:ns13="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd"
@@ -64,15 +64,14 @@
 >
     <ns9:host>
         <ns8:admin-email>it@prawowroclaw.edu.pl</ns8:admin-email>
-        <ns8:admin-notes>Provider: MUCI (USOS)</ns8:admin-notes>
+        <ns8:admin-provider>MUCI (USOS)</ns8:admin-provider>
         <ns7:apis-implemented>
-            <ns10:discovery version="5.0.0">
+            <ns10:discovery version="6.0.0">
                 <ns10:url>https://ewp.prawowroclaw.edu.pl/ewp/manifest</ns10:url>
             </ns10:discovery>
             <ns30:echo version="2.0.1">
                 <ns30:http-security>
                     <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
                         <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
@@ -85,7 +84,6 @@
             <ns20:institutions version="2.2.0">
                 <ns20:http-security>
                     <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
                         <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
@@ -99,7 +97,6 @@
             <ns12:organizational-units version="2.1.1">
                 <ns12:http-security>
                     <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
                         <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
@@ -114,7 +111,6 @@
             <ns31:courses version="0.7.1">
                 <ns31:http-security>
                     <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
                         <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
@@ -129,7 +125,6 @@
             <ns25:iias version="6.0.1">
                 <ns25:http-security>
                     <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
                         <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
@@ -145,7 +140,6 @@
             <ns27:iia-cnr version="2.0.3">
                 <ns27:http-security>
                     <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
                         <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
@@ -158,7 +152,6 @@
             <ns26:iias-approval version="1.0.0">
                 <ns26:http-security>
                     <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
                         <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
@@ -172,7 +165,6 @@
             <ns28:iia-approval-cnr version="1.0.0">
                 <ns28:http-security>
                     <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
                         <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
@@ -182,10 +174,22 @@
                 </ns28:http-security>
                 <ns28:url>https://ewp.prawowroclaw.edu.pl/ewp/iia/approval/cnr</ns28:url>
             </ns28:iia-approval-cnr>
-            <ns24:imobilities version="0.3.0">
+            <ns29:factsheet version="1.1.0">
+                <ns29:http-security>
+                    <ns11:client-auth-methods>
+                        <ns47:httpsig/>
+                    </ns11:client-auth-methods>
+                    <ns11:server-auth-methods>
+                        <ns56:tlscert/>
+                        <ns55:httpsig/>
+                    </ns11:server-auth-methods>
+                </ns29:http-security>
+                <ns29:url>https://ewp.prawowroclaw.edu.pl/ewp/factsheet</ns29:url>
+                <ns29:max-hei-ids>1</ns29:max-hei-ids>
+            </ns29:factsheet>
+            <ns24:imobilities version="1.0.0">
                 <ns24:http-security>
                     <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
                         <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
@@ -197,10 +201,9 @@
                 <ns24:max-omobility-ids>100</ns24:max-omobility-ids>
                 <ns24:sends-notifications/>
             </ns24:imobilities>
-            <ns23:imobility-cnr version="0.1.1">
+            <ns23:imobility-cnr version="1.0.0">
                 <ns23:http-security>
                     <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
                         <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
@@ -214,7 +217,6 @@
             <ns16:omobilities version="1.0.0">
                 <ns16:http-security>
                     <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
                         <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
@@ -230,7 +232,6 @@
             <ns15:omobility-cnr version="1.0.0">
                 <ns15:http-security>
                     <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
                         <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
@@ -244,7 +245,6 @@
             <ns13:omobility-las version="1.0.1">
                 <ns13:http-security>
                     <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
                         <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
@@ -257,10 +257,9 @@
                 <ns13:update-url>https://ewp.prawowroclaw.edu.pl/ewp/la/update</ns13:update-url>
                 <ns13:max-omobility-ids>100</ns13:max-omobility-ids>
             </ns13:omobility-las>
-            <ns21:imobility-tors version="0.7.0">
+            <ns21:imobility-tors version="1.0.0">
                 <ns21:http-security>
                     <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
                         <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
@@ -273,10 +272,9 @@
                 <ns21:max-omobility-ids>10</ns21:max-omobility-ids>
                 <ns21:sends-notifications/>
             </ns21:imobility-tors>
-            <ns22:imobility-tor-cnr version="0.1.1">
+            <ns22:imobility-tor-cnr version="1.0.0">
                 <ns22:http-security>
                     <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
                         <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
@@ -297,25 +295,6 @@
             </ns7:hei>
         </ns9:institutions-covered>
         <ns9:client-credentials-in-use>
-            <ns9:certificate>MIIDfzCCAmegAwIBAgIEY5lEjDANBgkqhkiG9w0BAQsFADBwMQswCQYDVQQGEwJQ
-TDEVMBMGA1UECBMMRG9sbm9zbGFza2llMRAwDgYDVQQHEwdXcm9jbGF3MQwwCgYD
-VQQKEwNXU1AxDDAKBgNVBAsTA1dTUDEcMBoGA1UEAxMTV3l6c3phIFN6a29sYSBQ
-cmF3YTAeFw0yMjA2MjcxNjIyMzdaFw0zMjA2MjQxNjIyMzdaMHAxCzAJBgNVBAYT
-AlBMMRUwEwYDVQQIEwxEb2xub3NsYXNraWUxEDAOBgNVBAcTB1dyb2NsYXcxDDAK
-BgNVBAoTA1dTUDEMMAoGA1UECxMDV1NQMRwwGgYDVQQDExNXeXpzemEgU3prb2xh
-IFByYXdhMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtOxsnC/SsQri
-HfauCXr1atUwOoLhwFyL1rqyfBXW7H7ksXpRgK2ejN0wNv0SzeSowhMpdDGrF7QA
-M3hP80K9Zoa6m05HmdZ/Wpt5Fek24AwwK3ruhz3tTj+Mtm6g+PPvmyh5gMMrAqb5
-V6/a67vvlZ+vUbygTxdp8eHqXQ7K+tO0Gkupu9k8GRD3cqBbbd6E5gadZMrJkuOM
-Mb4PtjMvP1QiLS0RFIHC+XNAx94Ei0tSWN8dXe3MC+Wik+OZAzxLcySBHDez32N+
-Sbfdeo3hi0xz9JiQKUXTYBbhPmkewskLTnQm0WHP69H1tG0oAykofr20gBuCUMjZ
-5eTmlFe+hQIDAQABoyEwHzAdBgNVHQ4EFgQUQEPCRcM05KxHKMVHiV9gCYcWIMcw
-DQYJKoZIhvcNAQELBQADggEBACvEA77PweJ+6zHLi309mrlkW9Ahh8o9EhhohZGO
-20JmfzcOMTKsY1L3lpT6XZyAHxtqjkAf01F7mBz9MNn+RycxecFiUWfD+I4k/KS9
-zASA+QEzTnFBUa9Yu9ZjIhA2NerPUYSnmG/JZYOtMu8EO4mNdWuhO4dxalw28ikM
-Mmx+hq31auQMrtctpvQpJ6fzv7ZFY3ejDm7R1vmSFyTAA/BNx4v8nwHmYuF8S5ZD
-52Sf+7dYu4vvD4p/NqC2EPPxGdA9E2wz/ju84QTON0BJCACKS2FOmjLL/VzcIpp4
-XwXDcrT5tDpEfuXKY1dg9iA/nO7v3rpH1Ej2+KtTM1h3HEw=</ns9:certificate>
             <ns9:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtOxsnC/SsQriHfauCXr1
 atUwOoLhwFyL1rqyfBXW7H7ksXpRgK2ejN0wNv0SzeSowhMpdDGrF7QAM3hP80K9
 Zoa6m05HmdZ/Wpt5Fek24AwwK3ruhz3tTj+Mtm6g+PPvmyh5gMMrAqb5V6/a67vv
