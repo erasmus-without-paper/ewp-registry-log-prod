@@ -21,7 +21,7 @@
         <p:admin-provider>College Charlemagne (PENELOPE)</p:admin-provider>
         <m:apis-implemented>
             <e:discovery version="6.0.0">
-                <e:url>https://my.hech.be/ws_penelope/EWP/manifest</e:url>
+                <e:url>https://my-demo.hech.be/ws_penelope/EWP/manifest</e:url>
             </e:discovery>
             <f:echo version="2.0.1">
                 <f:http-security>
@@ -32,7 +32,7 @@
                         <d:tlscert/>
                     </i:server-auth-methods>
                 </f:http-security>
-                <f:url>https://my.hech.be/ws_penelope/EWP/echo</f:url>
+                <f:url>https://my-demo.hech.be/ws_penelope/EWP/echo</f:url>
             </f:echo>
             <k:institutions version="2.2.0">
                 <k:http-security>
@@ -43,7 +43,7 @@
                         <d:tlscert/>
                     </i:server-auth-methods>
                 </k:http-security>
-                <k:url>https://my.hech.be/ws_penelope/EWP/institutions</k:url>
+                <k:url>https://my-demo.hech.be/ws_penelope/EWP/institutions</k:url>
                 <k:max-hei-ids>10</k:max-hei-ids>
             </k:institutions>
             <l:organizational-units version="2.1.1">
@@ -55,7 +55,7 @@
                         <d:tlscert/>
                     </i:server-auth-methods>
                 </l:http-security>
-                <l:url>https://my.hech.be/ws_penelope/EWP/ounits</l:url>
+                <l:url>https://my-demo.hech.be/ws_penelope/EWP/ounits</l:url>
                 <l:max-ounit-ids>10</l:max-ounit-ids>
                 <l:max-ounit-codes>10</l:max-ounit-codes>
             </l:organizational-units>
