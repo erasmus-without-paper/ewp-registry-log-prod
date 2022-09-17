@@ -1,22 +1,23 @@
 <manifest
-    xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v5"
+    xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
     xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
     xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
 >
     <host>
         <ewp:admin-email>usosweb@uwb.edu.pl</ewp:admin-email>
+        <ewp:admin-provider>MUCI (USOS)</ewp:admin-provider>
         <r:apis-implemented>
             <discovery
-                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v5/manifest-entry.xsd"
-                version="5.0.0"
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6/manifest-entry.xsd"
+                version="6.0.0"
             >
                 <url>https://usosweb.uwb.edu.pl/api/manifest.php</url>
             </discovery>
-            <emrex-ncp
-                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-emrex-ncp/blob/stable-v1/manifest-entry.xsd"
+            <emrex-data-access-point
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-emrex-data-access-point/blob/stable-v1/manifest-entry.xsd"
                 version="1.0.0"
             >
-                <url>https://usosweb.uwb.edu.pl/ncp_endpoint.php</url>
+                <url>https://usosweb.uwb.edu.pl/emp_endpoint.php</url>
                 <name>UwB</name>
                 <country-code>PL</country-code>
                 <institution>University of Bialystok</institution>
@@ -52,7 +53,7 @@ xxHZ/j7RXsfacRIjl0lNKP9BPFaF3F9Y9YHRvprBLFDTEtUAt54W1GTaHUjV1LXk
 SgJxxAYJW5/F6c7aircq4xBgXCoMq3cBMp39+wVw6mvpXYnaV7/Hc7y4HdV792Zq
 1DuivWz56mFf2GbIwqUukwDB/lM7MSo+TUggnQNjgqywTV15cQrtELXAnI+InvK3
 54qnf9GcN4aH</certificate>
-            </emrex-ncp>
+            </emrex-data-access-point>
         </r:apis-implemented>
     </host>
 </manifest>
