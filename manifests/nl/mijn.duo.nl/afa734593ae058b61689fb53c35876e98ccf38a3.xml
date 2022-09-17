@@ -1,70 +1,490 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest
-        xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v5"
-        xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
-        xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1">
-    <host>
-        <ewp:admin-email>dt-diplomadiensten@duo.nl</ewp:admin-email>
-        <r:apis-implemented>
-            <discovery
-                    xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v5/manifest-entry.xsd"
-                    version="5.0.0">
-                <url>https://mijn.duo.nl/services/dr-iud/emrex/duo.nl.prd.xml</url>
-            </discovery>
-            <emrex-data-access-point
-                    xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-emrex-data-access-point/blob/stable-v1/manifest-entry.xsd"
-                    version="1.0.0">
-                <url>https://mijn.duo.nl/services/dr-iud/emrex/</url>
-                <name>Netherlands EMP</name>
-                <country-code>NL</country-code>
-                <certificate>MIIIqjCCBpKgAwIBAgIUOP50T+3XFeRICKjuP3UccQEo0BEwDQYJKoZIhvcNAQEL
-BQAwSTELMAkGA1UEBhMCTkwxETAPBgNVBAoMCEtQTiBCLlYuMScwJQYDVQQDDB5L
-UE4gUEtJb3ZlcmhlaWQgU2VydmVyIENBIDIwMjAwHhcNMjAxMDAyMTUzMDQxWhcN
-MjExMDAyMTUzMDQxWjCBlzELMAkGA1UEBhMCTkwxEjAQBgNVBAcMCUdyb25pbmdl
-bjEkMCIGA1UECgwbRGllbnN0IFVpdHZvZXJpbmcgT25kZXJ3aWpzMRgwFgYDVQQL
-DA9JQ1QtQmV2ZWlsaWdpbmcxHTAbBgNVBAUTFDAwMDAwMDAxODAwODY2NDcyMDAw
-MRUwEwYDVQQDDAxlbXJleC5kdW8ubmwwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAw
-ggIKAoICAQDYRfIqWPfZwN0YYmJKW43h9wpO7CuundSCcn4Kq2WiSk+svtI9OOzo
-STU66tSG+reypBWZnUMtAO1UblAVVwuMK/1RwEQXPovCWjttBFV+qG/kATX2sT4+
-uU68dH5PxL8Ww3lVEJv3zCh/+acZshNzpSEKJdpVw8DD55KB7/Sx0x45ic75UfS9
-cMT2QCSHIYhvEBKRoAv3EtCuzQyOo1e7lg1mYc/qOTTheXlG/x/rdE3YCjoYAmhc
-gH+eII2zB0TC/jFzWODiAXOhVyTr5VlBqtFSVns7Ysmo2dgY4dZL3zWMB07GzDit
-gvja8ciLUKN14LhR1hMfEQDc82wuQqFfeP5pSTrWiIYFCjBxDwk380hCDiwm0w97
-6EAO6G2u4f0zE2y3fcGOBa2R697f/3fX4X3L8mv15Mb5WqVlB70nN0OejoX6AcKn
-sL/KTil7q6RkM2h5QKdzy5s+TvPqM05f/CKEn9QNO2x2B90vdcZtXZxuEiDRs4qR
-0wVMWOGJb6VIwDkcbnfE1d1Rp4Q7Q/IP+9xzV7HKF16ahxG026LdW6XF/j2ntMRJ
-co/7uVTjA41DBbUTZlWyO9azBTJ4tTkeF0y0Raysl+7pX88mweR+3vWIxDuzxIyC
-Ss8ACds+ENPuJsuHwljmxVX8pUFZ/BUKmnO1I7C6kifQP3znxjbg+wIDAQABo4ID
-OTCCAzUwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBQISqq7mSRvvlsH8aWKmVst
-R++5PDCBiQYIKwYBBQUHAQEEfTB7ME0GCCsGAQUFBzAChkFodHRwOi8vY2VydC5t
-YW5hZ2VkcGtpLmNvbS9DQWNlcnRzL0tQTlBLSW92ZXJoZWlkU2VydmVyQ0EyMDIw
-LmNlcjAqBggrBgEFBQcwAYYeaHR0cDovL29jc3AyMDIwLm1hbmFnZWRwa2kuY29t
-MBcGA1UdEQQQMA6CDGVtcmV4LmR1by5ubDCBsQYDVR0gBIGpMIGmMAgGBmeBDAEC
-AjCBmQYKYIQQAYdrAQIFCTCBijA3BggrBgEFBQcCARYraHR0cHM6Ly9jZXJ0aWZp
-Y2FhdC5rcG4uY29tL3BraW92ZXJoZWlkL2NwczBPBggrBgEFBQcCAjBDDEFPcCBk
-aXQgY2VydGlmaWNhYXQgaXMgaGV0IENQUyBQS0lvdmVyaGVpZCB2YW4gS1BOIHZh
-biB0b2VwYXNzaW5nLjAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwUwYD
-VR0fBEwwSjBIoEagRIZCaHR0cDovL2NybC5tYW5hZ2VkcGtpLmNvbS9LUE5QS0lv
-dmVyaGVpZFNlcnZlckNBMjAyMC9MYXRlc3RDUkwuY3JsMB0GA1UdDgQWBBSkBNDm
-X+lFxSpq78H0IQXluSXB2TAOBgNVHQ8BAf8EBAMCBaAwggEGBgorBgEEAdZ5AgQC
-BIH3BIH0APIAdwB9PvL4j/+IVWgkwsDKnlKJeSvFDngJfy5ql2iZfiLw1wAAAXTp
-79l0AAAEAwBIMEYCIQDAJRJ0XgrZfaNZ3FNu5AyXi/90/8XNb/3TVVg2gRGgCAIh
-ALx2ptXCtxw5GOA495KLtp+EZzQ2gMAs513JRhKolcRrAHcAb1N2rDHwMRnYmQCk
-URX/dxUcEdkCwQApBo2yCJo32RMAAAF06e/ZqgAABAMASDBGAiEA+rfrv6g81GOu
-Gh4f+Pgt7og6R+jQ5FaweV6+szmEEDYCIQDwS5vrdjyuWWQTNNIKxl/15kCVn4YF
-XcJjRKfRZOHuzjANBgkqhkiG9w0BAQsFAAOCAgEADOc691e1Bi2iFDffIQnJlZ4c
-Aupgll9GN4zMbxado33xdVVtRwYOOmPH0aVZH+zDW5ZsoMvPyWPYccWi6oA7HHzI
-LfLkhnXTfm1oVf32Jk9anY9grFAJ36yza4KLu3Ersm027YF9L4Xp/toPzaF1TRvq
-UXkKEbDp9Shp1p/bpcx3RGngVBcqNEYZAeEWPsyApOfYDs+kZU6UEsUoZVR4anNT
-wKbFBNazv0zubUQJV8r+U15GHHxfofP15i4dnfBCvQC/ISpf6a1PLC9lxwn16r/M
-XHmuLqdgr6qZvrdf1Nh8jrUsBTmXH1BQ1liBd+DSHa1oiM/ql1s9xlzeRxep8Q7C
-CmNz58+kK0/UzgVnBTlbVGAtknhV50wUENh4H3ZNIn85x/BdZMMTGHDHaWaf550x
-x64eZOBurwjkwJzfKOuC4i66AJ+FGUVNskyxoGktUw1v0HQdljt+nJvVY3uMFEw7
-z+ngkmH9TfzL+q3ERsxU47RwYs4UKdFEXoR5ZQAUwcuyCBAXxgf3BJcuN1G00lph
-N6Uo5dIk7n3GCabDHM+wVYMPI17A+5Z5vbo7zqB1TjVhzcjqGH4g4J6FGgXETgYi
-Scni6UioHteHlHpQCetWE0lv43yAQbxzPZ5FLrLQAFzzF3TAXrb7HWe201jZAMa5
-sYlvE8NqkgLPNJN4WAY=</certificate>
-            </emrex-data-access-point>
-        </r:apis-implemented>
-    </host>
-</manifest>
+<!DOCTYPE html>
+<html lang="nl">
+<!--[if lte IE 9]>
+<html lang="en-us" class="ie9"><![endif]-->
+<head>
+    <title>Inloggen op Mijn DUO - DUO</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="apple-mobile-web-app-title" content="Inloggen op Mijn DUO - DUO" />
+<meta name="description" content="Log in op Mijn DUO met de DigiD app of DigiD met sms-controle. Vraag de app of sms-controle aan op digid.nl. U kunt ook buiten Nederland inloggen." />
+<meta property="og:title" content="Inloggen op Mijn DUO - DUO" />
+<meta property="og:image" content="https://www.duo.nl/images/logoduo.png" />
+<meta property="og:image:height" content="200" />
+<meta property="og:image:width" content="400" />
+<meta property="og:site_name" content="duo.nl" />
+<meta property="og:url" content="https://www.duo.nl/particulier/inloggen-op-mijn-duo.jsp" />
+<meta property="og:description" content="Log in op Mijn DUO met de DigiD app of DigiD met sms-controle. Vraag de app of sms-controle aan op digid.nl. U kunt ook buiten Nederland inloggen." />
+<meta property="og:locale" content="nl_NL" />
+<meta property="twitter:site" content="duostudent" />
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:title" content="Inloggen op Mijn DUO - DUO" />
+<meta property="twitter:description" content="Log in op Mijn DUO met de DigiD app of DigiD met sms-controle. Vraag de app of sms-controle aan op digid.nl. U kunt ook buiten Nederland inloggen." />
+<meta property="twitter:url" content="https://www.duo.nl/particulier/inloggen-op-mijn-duo.jsp" />
+<meta property="twitter:image" content="https://www.duo.nl/images/logoduo.png" />
+
+
+<!-- Google Tag Manager -->
+<script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TTN8HBZ');</script>
+<!-- End Google Tag Manager -->
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<link href="/libs/uno/dist/components/favicon/favicon.ico" type="image/x-icon" rel="icon" />
+<link href="/libs/uno/dist/core/uno.css" rel="stylesheet" />
+
+<link href="/custom/particulier/css/duo-custom.css" rel="stylesheet" />
+
+<link href="/custom/particulier/css/chat.css" rel="stylesheet" />
+
+<link href="/libs/kennisbank-toggle/dist/css/kennisbank.css" rel="stylesheet" />
+
+<style>
+    .content > .notification.notification--warning:first-of-type {
+    background: #fdf6bb;
+    border-bottom: 2px solid rgba(43,43,43,.25);    
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+    border-left: none;
+}</style>
+
+<script type="text/javascript">
+    var _basepath = "/particulier/";
+    var _siteId = 1;
+    var _paq = _paq || [];
+    var cobrowsing = "";
+    var CAN_START_CHATBOT = false;
+    var thema = "";
+</script>
+
+<!-- AssemblyVersion       : v1.5 -->
+<!-- PageUrl               : /particulier/inloggen-op-mijn-duo.jsp -->
+<!-- PageId                : tcm:102-66852-64 -->
+<!-- PublishedDate         : 2022-09-17 06:15:26Z  -->
+<!-- PreviousUrl	       :  -->
+    
+</head>
+    <body class="taakgericht particulier theme--large-padding">
+        <svg xmlns="http://www.w3.org/2000/svg" style="visibility: hidden;position: absolute;z-index:-20;">
+
+    <symbol id="icon-calendar" viewBox="0 0 32 32" preserveAspectRatio="xMinYMin">
+        <g fill-rule="evenodd">
+            <path d="M7.2 24.8h17.6V13.36H7.2V24.8zM23.076 7.64l-.753 2.53c-.047.143-.162.1-.162.1V7.64c-.01-.554-.028-1.472-.083-1.813-.049-.293-.1-.827-.527-.827h-1.256c-.426 0-.517.54-.565.833-.055.34-.132 1.255-.176 1.807h-7.039l-.752 2.53c-.046.143-.162.1-.162.1V7.64c-.01-.554-.028-1.472-.083-1.813-.048-.293-.1-.827-.526-.827H9.734c-.426 0-.518.54-.565.833-.056.34-.132 1.255-.175 1.807H5.88a.88.88 0 0 0-.88.881v17.6c0 .486.394.88.88.88h20.24a.88.88 0 0 0 .88-.88V8.52a.88.88 0 0 0-.88-.88h-3.045z" />
+            <path d="M9 19h4v-3H9zm5.023 0h4v-3h-4zm4.965 0h4v-3h-4zM9 23h4v-3H9zm5.023 0h4v-3h-4zm4.965 0h4v-3h-4z" />
+        </g>
+    </symbol>
+
+    <symbol id="icon-lock" viewBox="0 0 32 32" preserveAspectRatio="xMinYMin">
+        <path d="M17 21.252v2.373h-1.5v-2.373a1.568 1.568 0 0 1-.825-1.377 1.575 1.575 0 1 1 3.15 0c0 .597-.336 1.11-.825 1.377zm-4.875-8.127A4.13 4.13 0 0 1 16.25 9a4.13 4.13 0 0 1 4.125 4.125v1.758c.653.126 1.694.33 1.775.355.12.039.102.117.094.137H12.125v-2.25zm11.625 2.25h-.375v-2.25A7.133 7.133 0 0 0 16.25 6a7.133 7.133 0 0 0-7.125 7.125v1.758c.653.126 1.694.33 1.775.355.12.039.102.117.094.137H8.75a.75.75 0 0 0-.75.75v9.13a.75.75 0 0 0 .621.739c1.196.212 4.023.631 7.629.631s6.433-.419 7.629-.631a.75.75 0 0 0 .621-.739v-9.13a.75.75 0 0 0-.75-.75z" />
+    </symbol>
+
+    <symbol id="icon-search" viewBox="0 0 32 32" preserveAspectRatio="xMinYMin">
+        <path fill-rule="evenodd" d="M9.7 13.85a4.15 4.15 0 1 1 8.3.002 4.15 4.15 0 0 1-8.3-.003m14.722 7.77l-4.536-4.536a6.81 6.81 0 0 0 .814-3.234A6.858 6.858 0 0 0 13.849 7 6.857 6.857 0 0 0 7 13.85c0 3.777 3.073 6.851 6.849 6.851 1.155 0 2.242-.29 3.197-.796l4.546 4.545a1.827 1.827 0 0 0 2.58 0l.25-.25a1.825 1.825 0 0 0 0-2.58" />
+    </symbol>
+
+    <symbol id="icon-flag-gb" preserveAspectRatio="xMinYMin" viewBox="0 0 60 30">
+        <clipPath id="a">
+            <path d="M30 15h30v15zv15H0zH0V0zV0h30z" />
+        </clipPath>
+        <path fill="#00247d" d="M0 0v30h60V0z" />
+        <path stroke="#fff" stroke-width="6" d="M0 0l60 30m0-30L0 30" />
+        <path stroke="#cf142b" stroke-width="4" d="M0 0l60 30m0-30L0 30" clip-path="url(#a)" />
+        <path stroke="#fff" stroke-width="10" d="M30 0v30M0 15h60" />
+        <path stroke="#cf142b" stroke-width="6" d="M30 0v30M0 15h60" />
+    </symbol>
+
+    <symbol id="icon-arrow-down" viewBox="0 0 32 32" preserveAspectRatio="xMinYMin">
+        <g fill="none" fill-rule="evenodd">
+            <path d="M32 0v32H0V0z" />
+            <path fill="#000" d="M21.17 12.83c-.504-.504-1.149-.676-1.652-.172l-3.872 3.873-3.873-3.873c-.504-.504-1.149-.332-1.653.172-.505.504-.677 1.149-.173 1.652l4.787 4.785a1.29 1.29 0 0 0 1.823 0l4.785-4.785c.504-.503.332-1.148-.172-1.652" />
+        </g>
+    </symbol>
+
+    <symbol id="icon-home" viewBox="0 0 32 32" preserveAspectRatio="xMinYMin">
+        <path fill-rule="evenodd" d="M25.74 15.438l-9.471-8.34a.423.423 0 0 0-.54 0l-9.469 8.34a.745.745 0 0 0-.26.57v.56c0 .22.179.39.4.39H8v8.04h6V19h4v5.997h6v-8.04h1.599c.222 0 .401-.17.401-.39v-.56c0-.22-.09-.42-.26-.57" />
+    </symbol>
+
+</svg>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TTN8HBZ"
+                    height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <!-- End Google Tag Manager (noscript) -->
+        
+        <div class="wrapper">
+            <a class="skiplink" href="#content">
+                <span class="skiplink__text">Ga direct naar inhoud</span>
+            </a>
+            <!-- tab-navigatie over sites -->
+<div class="wrapper">
+    <div class="container">
+        <nav  class="header-tabs header-tabs--scrollable">
+            <ul class="header-tabs__list">
+                <li class="header-tabs__item header-tabs__item--particulier">
+                    <a href="http://duo.nl/particulier" class="header-tabs__link" >
+                        Particulier
+                        
+                    </a>
+                </li>
+                
+                <li class="header-tabs__item header-tabs__item--zakelijk">
+                    <a href="https://duo.nl/zakelijk/" class="header-tabs__link" >
+                        Zakelijk
+                        
+                    </a>
+                </li>
+                
+                <li class="header-tabs__item header-tabs__item--onderwijsdata">
+                    <a href="https://duo.nl/open_onderwijsdata/" class="header-tabs__link" >
+                        Onderwijsdata
+                        
+                    </a>
+                </li>
+                                <li class="header-tabs__item header-tabs__item--inburger">
+                    <a href="https://www.inburgeren.nl/" class="header-tabs__link" rel="external">
+                        Inburgeren
+                        <span class="screenreader-only">Link opent externe pagina</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div><header class="header" role="banner">
+    <div class="header-logo">
+        <a href="/particulier/" title="Logo Dienst Uitvoering Onderwijs, Ministerie van Onderwijs, Cultuur en Wetenschap">
+            <span class="screenreader-only">naar de homepagina</span>
+        </a>
+    </div>
+</header>
+<!-- Blauwe balk met bradcrumb, zoek- en loginknop -->
+<nav class="top-nav top-nav--hemelblauw">
+
+    <div class="container">
+
+        <div class="breadcrumbs hidden-md-down">
+            <ul class="breadcrumbs__list">
+                <li>
+                    <a href="/" title="Home">
+                        <i class="icon icon-home" role="presentation"></i>
+                        <span>Particulier</span>
+                            </a>
+                </li>
+
+                <li>
+                                <span>Inloggen op Mijn DUO</span>
+                            </li>
+                        </ul>
+        </div>
+
+        <!-- Home + zoek- en login knop in blauwe balk in mobile weergave -->
+        <div class="navigation-mobile hidden-lg-up">
+            <a href="/" class="navigation-mobile__button top-nav__block-item nav__link">
+                <span class="icon icon-home" role="presentation" focusable="false"></span>
+                <span>Home</span>
+            </a>
+            <button class="navigation-mobile__button top-nav__block-item top-nav__block-item--collapse nav__link" href="#modalSearch" data-toggle="modal" onclick="openModal('modalSearch')">
+                <span class="icon icon-magnifier" role="presentation" focusable="false"></span>
+                <span>Zoek</span>
+            </button>
+            <a class="navigation-mobile__button top-nav__block-item nav__link" href="/particulier/inloggen-op-mijn-duo.jsp
+" role="button" tabindex="0">
+                    <span class="icon icon-secure" role="presentation" focusable="false"></span>
+                    <span>Log in</span>
+                </a>
+            </div>
+
+        <!-- Zoek- en login knop in blauwe balk -->
+        <div class="top-nav__block top-nav__block--right hidden-md-down">
+            <button class="top-nav__block-item top-nav__block-item--collapse btn--icon-text" x-uno-collapse x-uno-collapse-group="collapse-search" x-uno-collapse-target="collapse-search">
+                <i class="icon icon-magnifier btn__icon" role="presentation"></i>
+                <span>Zoek</span>
+            </button>
+            <a class="top-nav__block-item nav__link btn--icon-text" href="/particulier/inloggen-op-mijn-duo.jsp
+" role="button">
+                    <i class="icon icon-secure btn__icon"></i>
+                    <span>Log in</span>
+                </a>
+            </div>
+    </div>
+</nav>
+
+<!-- Zoekveld en knop onder de blauwe balk
+(verschijnt als je op zoek in blauwe balk klikt) -->
+<div class="collapse collapse--nav">
+    <div class="container collapse__details collapse__details--nav" id="collapse-search">
+        <div class="row">
+            <div class="col-md-offset-2 col-md-8">
+                <form class="form" action="/particulier/system/zoekresultaat.jsp" method='get'>
+                    <div class="input input--search">
+                        <div class="input__control-group">
+                            <input type="text" name="q" id="q" aria-labelledby="search_button" class="input__control input__control--large input__control--search">
+                            <button class="btn btn--icon btn--search" id="search_button" title="Zoeken"><span class="btn__content"><span class="icon icon-magnifier" role="presentation" focusable="false"></span>Zoek</span></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Zoekvenster in mobile weergave -->
+<div class="modal modal--navigation" id="modalSearch">
+    <section class="modal__content" role="document">
+        <header class="modal__title">
+            <div class="is-h1">Zoeken</div>
+            <button class="modal__close-button" onclick="closeModal('modalSearch')">
+                <i class="icon icon-cross"></i>
+                <span>Sluit</span>
+            </button>
+        </header>
+
+        <div class="modal__body" role="document">
+
+            <form class="form" action="/particulier/system/zoekresultaat.jsp" method="get">
+                <div class="input input--search">
+                    <div class="input__control-group">
+                        <input name="q" type="text" id="search_mobile" aria-labelledby="search_button" class="input__control input__control--search" placeholder="Zoek op duo.nl">
+                        <button class="btn btn--icon" title="Zoek"><span class="icon icon-magnifier" role="presentation" focusable="false"></span></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </section>
+</div>
+<main class="skiplink-target main" id="content" tabindex="-1">
+    <div class="container">
+        <section class="row">
+            <div class="col-xl-8 col-xl-offset-2 col-lg-10 col-lg-offset-1" id="contentheader">
+                <div class="content">
+                    <a href="/particulier/" title="Naar Home" class="content__header-backlink backlink">Naar Home</a>
+    <header class="content__header">
+                        <h1 id="inloggen-op-mijn-duo" class="content__header-title">Inloggen op Mijn DUO</h1>
+                        
+                        
+                        
+                    </header>
+                </div>
+            </div>
+        </section>
+        
+        <article>
+    <div class="row">
+        <div class="col-xl-8 col-xl-offset-2 col-lg-10 col-lg-offset-1">
+            
+            <div class="content-background">
+                
+                <div class="content">
+                    
+
+<div class="notification notification--info">
+    <div class="notification__content">
+        
+        <h2 class="notification__title">Mijn DUO niet beschikbaar </h2>       
+        <p>Vanwege onderhoud is het niet mogelijk om in te loggen van zaterdag 17 september 06.00 uur tot zondag 18 september 06.00 uur.</p>
+        
+    </div>
+</div>
+
+<!--groupuitklapbaar-->
+<div class="collapse" x-uno-collapse-group="">
+    <div class="collapse__header" x-uno-collapse="">
+        <i class="collapse__indicator"></i>
+        <span id="inloggen-buiten-nederland" class="collapse__title">Inloggen buiten Nederland</span>
+    </div>
+    <div class="collapse__details collapse__details--indented">
+        <h3 id="digid-app" >DigiD app</h3>
+<p>Met DigiD kunt u ook buiten Nederland inloggen op Mijn DUO. <a href="https://www.digid.nl/inlogmethodes/digid-app" class="" >Installeer en activeer</a> de DigiD app voordat u naar het buitenland gaat.</p>
+<p>Krijgt u een nieuw (buitenlands) telefoonnummer? Log dan in op <a href="https://digid.nl/inloggen" class="" >Mijn DigiD</a> en koppel uw nieuwe nummer aan de app. Woont u al in het buitenland en hebt u geen werkende DigiD app? Kijk dan op <a href="https://www.digid.nl/buitenland/" class="" >digid.nl/buitenland</a> welke mogelijkheden u hebt.</p>
+<h3 id="digid-op-aruba-curacao-sint-maarten-en-bonaire" >DigiD op Aruba, Curaçao, Sint Maarten en Bonaire</h3>
+<p>Woont u op Aruba, Curaçao, Sint Maarten of Bonaire en hebt u een burgerservicenummer? Ook dan kunt u een DigiD aanvragen. U moet wel aan een aantal voorwaarden voldoen. Kijk voor meer informatie op <a rel="external" href="https://www.rijksoverheid.nl/onderwerpen/caribische-deel-van-het-koninkrijk/vraag-en-antwoord/digid-aanvragen-in-aruba-curacao-sint-maarten-of-bonaire" >DigiD Caribisch gebied <span class="screenreader-only">Link opent externe pagina </span></a>.</p>
+<h3 id="inloggen-met-europees-inlogmiddel" >Inloggen met Europees inlogmiddel</h3>
+<p>EU-burgers kunnen met een Europees inlogmiddel en hun burgerservicenummer (bsn) inloggen op Mijn DUO. U hebt dan geen DigiD nodig. Op <a rel="external" href="https://www.rijksoverheid.nl/onderwerpen/inloggen-europese-economische-ruimte-eer-eidas/vraag-en-antwoord/hoe-kan-ik-vanuit-een-ander-eu-land-inloggen-bij-nederlandse-overheidsorganisaties" >rijksoverheid.nl <span class="screenreader-only">Link opent externe pagina </span></a> leest u voor welke landen dit mogelijk is. Hebt u geen bsn? U krijgt een bsn als u zich inschrijft in de <a rel="external" href="https://www.rijksoverheid.nl/onderwerpen/privacy-en-persoonsgegevens/vraag-en-antwoord/waar-registratie-niet-ingezetenen-rni" >Registratie Niet-Ingezetenen <span class="screenreader-only">Link opent externe pagina </span></a> (RNI).</p>
+<h3 id="formulier" >Formulier</h3>
+<p>Kunt u niet inloggen op Mijn DUO? <a href="/particulier/formulieren/index.jsp" class="">Gebruik dan een formulier</a> om uw aanvraag of wijziging door te geven. De verwerkingstijd van een formulier is langer dan een digitale aanvraag.</p>
+<h3 id="onze-post-weer-op-papier" >Onze post weer op papier</h3>
+<p>Krijgt u onze berichten digitaal, maar kunt u niet meer inloggen op Mijn DUO? <a title="Ga naar het mailformulier" href="https://duo.nl/apps/contactformulier/index.html?onderwerp=CFPOP-Verzoek%20post%20op%20papier">Gebruik het mailformulier</a> als u onze berichten weer per post wilt ontvangen. Vermeld uw volledige naam en geboortedatum.</p>
+        
+    </div><div class="collapse__header" x-uno-collapse="">
+        <i class="collapse__indicator"></i>
+        <span id="problemen-met-inloggen" class="collapse__title">Problemen met inloggen</span>
+    </div>
+    <div class="collapse__details collapse__details--indented">
+        <h3 id="hoe-werkt-inloggen" >Hoe werkt inloggen?</h3>
+U hebt <a href="https://www.digid.nl/" class="" >DigiD</a> nodig om te kunnen inloggen.
+<ul>
+<li>De makkelijkste manier is inloggen met de DigiD app. U logt in met een zelfgekozen pincode.
+<br /></li>
+<li>Hebt u geen smartphone? Dan kunt u inloggen met sms-controle. U logt in met uw DigiD-wachtwoord en een code die u krijgt per sms.</li>
+</ul>
+<h3 id="wachtwoord-of-gebruikersnaam-vergeten" >Wachtwoord of gebruikersnaam vergeten</h3>
+<p>Bent u uw DigiD-wachtwoord of gebruikersnaam vergeten? <a rel="external" href="https://www.digid.nl/vraag-en-antwoord/" >DigiD helpt u verder <span class="screenreader-only">Link opent externe pagina </span></a>.</p>
+<h3 id="directe-link" >Directe link</h3>
+<p>Probeer deze directe link om Mijn DUO te openen:</p>
+<p><a href="https://mijn.duo.nl/particulier/portaal/dashboard">https://mijn.duo.nl/particulier/portaal/dashboard</a></p>
+<h3 id="cookies-wissen-of-andere-browser" >Cookies wissen of andere browser</h3>
+<p>Probeer uw cookies te wissen of in te loggen via een andere browser.</p>
+<h3 id="privemodus" >Privémodus</h3>
+<p>Gebruikt u Safari op een iPhone of iPad? Zet dan de privémodus uit.</p>
+<p>Bij andere browsers werkt Mijn DUO vaak het beste als u de privémodus aanzet.</p>
+<h3 id="update-uw-besturingssysteem" >Update uw besturingssysteem</h3>
+<p>Om te kunnen inloggen met uw DigiD moet u minimaal beschikken over een van de volgende besturingssystemen:</p>
+<p>Voor uw computer:</p>
+<ul>
+<li>Windows 7 / 8.1</li>
+<li>Windows 10</li>
+<li>OSX 10.9.4 of hoger</li>
+</ul>
+<p>Voor uw mobiele apparaat:</p>
+<ul>
+<li>iOS 7 of hoger</li>
+<li>Android 6 of hoger</li>
+</ul>
+<h3 id="melding-over-niet-veilige-verbinding" >Melding over niet-veilige verbinding</h3>
+<p>Krijgt u de melding dat een certificaat is verlopen? Dan zijn de certificaten 'domein' en 'intermediair G3' niet automatisch bijgewerkt op uw apparaat. Ga naar <a rel="external" href="https://cert.pkioverheid.nl/" >Logius | PKIoverheid certificaten <span class="screenreader-only">Link opent externe pagina </span></a> en download en installeer de volgende certificaten:</p>
+<ul>
+<li>Staat der Nederlanden Organisatie Services CA - G3</li>
+<li>KPN BV PKIOverheid Organisatie Server CA - G3</li>
+</ul>
+<h3 id="europees-inlogmiddel" >Europees inlogmiddel</h3>
+<p>Lukt inloggen met uw Europese inlogmiddel niet? Neem dan contact op met de aanbieder van uw Europese inlogmiddel.</p>
+        
+    </div><div class="collapse__header" x-uno-collapse="">
+        <i class="collapse__indicator"></i>
+        <span id="gebruik-een-veilige-browser" class="collapse__title">Gebruik een veilige browser</span>
+    </div>
+    <div class="collapse__details collapse__details--indented">
+        <p>DUO adviseert u om geen gebruik te maken van Internet Explorer. Gebruik liever Chrome, Firefox of Edge. Deze browsers zijn veiliger en geven minder vaak problemen bij het gebruik van Mijn DUO.</p>
+        
+    </div>
+</div>
+<!--groupuitklapbaar-->
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    
+</article>
+
+        
+    </div>
+
+    
+</main>
+
+
+
+
+
+
+
+
+            <footer class="footer">
+    <div class="footer__content background--hemelblauw">
+        <div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-md-10 col-md-offset-1">
+            <span class="footer__header footer__header--title">Samen maken we onderwijs en ontwikkeling mogelijk</span>
+        </div>
+
+        <div class="col-xs-12 col-md-3 col-md-offset-1">
+            <h2 class="footer__header">Service</h2>
+            <ul class="list list--links footer__nav">
+                <li>
+                    <a href="/particulier/betaaldatums.jsp" class="">Betaaldatums</a></li>
+                                <li>
+                    <a href="/particulier/rekeningnummers.jsp" class="">Rekeningnummers</a></li>
+                                <li>
+                    <a href="/particulier/rekenhulpen/index.jsp" class="">Rekenhulpen</a></li>
+                                <li>
+                    <a href="/webinar/index.jsp" class="">Webinars</a></li>
+                                <li>
+                    <a href="/particulier/privacy.jsp" class="">Privacy</a></li>
+                                <li>
+                    <a href="/particulier/inzageverzoek.jsp" class="">Inzageverzoek</a></li>
+                                <li>
+                    <a href="/particulier/proclaimer.jsp" class="">Proclaimer</a></li>
+            </ul>
+        </div>
+                <div class="col-xs-12 col-md-3 ">
+            <h2 class="footer__header">Contact</h2>
+            <ul class="list list--links footer__nav">
+                <li>
+                    <a href="/particulier/contact/index.jsp" class="">Contact opnemen</a></li>
+                                <li>
+                    <a href="/particulier/duo-bellen-betaal-niet-te-veel.jsp" class="">DUO bellen: betaal niet te veel</a></li>
+                                <li>
+                    <a href="/particulier/verwerkingstijden.jsp" class="">Verwerkingstijden</a></li>
+                                <li>
+                    <a href="/particulier/iemand-machtigen.jsp" class="">Iemand machtigen</a></li>
+                                <li>
+                    <a href="/particulier/overlijden-melden.jsp" class="">Overlijden melden</a></li>
+                                <li>
+                    <a href="/particulier/fraude-melden.jsp" class="">Fraude melden</a></li>
+                                <li>
+                    <a href="/particulier/bewindvoering.jsp" class="">Bewindvoering</a></li>
+            </ul>
+        </div>
+                <div class="col-xs-12 col-md-3 ">
+            <h2 class="footer__header">Oneens met DUO</h2>
+            <ul class="list list--links footer__nav">
+                <li>
+                    <a href="/particulier/oneens-met-duo/bezwaar-maken.jsp" class="">Bezwaar maken</a></li>
+                                <li>
+                    <a href="/particulier/oneens-met-duo/in-beroep-gaan.jsp" class="">In beroep gaan</a></li>
+                                <li>
+                    <a href="/particulier/oneens-met-duo/een-klacht-indienen.jsp" class="">Een klacht indienen</a></li>
+                                <li>
+                    <a href="/particulier/oneens-met-duo/duo-is-te-laat.jsp" class="">DUO is te laat</a></li>
+                                <li>
+                    <a href="/particulier/controles-door-duo.jsp" class="">Controles door DUO</a></li>
+            </ul>
+        </div>
+
+        <section>
+            <script type="text/javascript">cobrowsing = cobrowsing == "Specific" ? cobrowsing : ""</script>
+        </section>
+    </div>
+    </div></div>
+</footer>
+
+        </div>
+        
+        <!-- javascript -->
+        <script type="text/javascript" src="/libs/jquery/dist/jquery.min.js"></script>
+
+<script type="text/javascript" src="/libs/when/es6-shim/Promise.min.js"></script>
+
+<script type="text/javascript" src="/libs/systemjs/dist/system.js"></script>
+
+<script type="text/javascript" src="/custom/particulier/js/main.js"></script>
+
+<script type="text/javascript" src="/custom/particulier/js/copylink.js"></script>
+
+<script type="text/javascript" src="/libs/kennisbank-toggle/dist/js/kennisbank.js"></script>
+<script type="text/javascript">
+    var myModal = [];
+
+    // Load modal component
+    System.import('/libs/uno/dist/components/modal/modal.js').then(function (module) {
+        
+    });
+
+    // Called when the user clicks the button
+    function openButtonModal(modalId) {
+        myModal[modalId].open();
+    }
+</script>
+
+
+
+        
+    </body>
+</html>
