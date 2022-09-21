@@ -20063,6 +20063,67 @@
         </server-credentials-in-use>
     </host>
     <host>
+        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+        <ewp:admin-provider>QS MoveON</ewp:admin-provider>
+        <apis-implemented>
+            <d6:discovery version="6.0.0">
+                <d6:url>https://essex-ewp.moveon4.com/v1/manifest</d6:url>
+            </d6:discovery>
+            <e2:echo version="2.0.1">
+                <e2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </e2:http-security>
+                <e2:url>https://essex-ewp.moveon4.com/v1/echo</e2:url>
+            </e2:echo>
+            <oml1:omobility-las
+                xmlns:oml1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.1"
+            >
+                <oml1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </oml1:http-security>
+                <oml1:get-url>https://essex-ewp.moveon4.com/v1/la/get</oml1:get-url>
+                <oml1:index-url>https://essex-ewp.moveon4.com/v1/la/index</oml1:index-url>
+                <oml1:update-url>https://essex-ewp.moveon4.com/v1/la/update</oml1:update-url>
+                <oml1:max-omobility-ids>10</oml1:max-omobility-ids>
+            </oml1:omobility-las>
+            <omlc1:omobility-la-cnr
+                xmlns:omlc1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <omlc1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </omlc1:http-security>
+                <omlc1:url>https://essex-ewp.moveon4.com/v1/la/cnr</omlc1:url>
+                <omlc1:max-omobility-ids>10</omlc1:max-omobility-ids>
+            </omlc1:omobility-la-cnr>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>essex.ac.uk</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <rsa-public-key sha-256="dcb0ba7dd0d9f41743e906d1cccf4d95aad470bb7024d4c8d3b2fafd587ba7ef"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="dcb0ba7dd0d9f41743e906d1cccf4d95aad470bb7024d4c8d3b2fafd587ba7ef"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
         <ewp:admin-email>ewp@sop.co.at</ewp:admin-email>
         <ewp:admin-notes>Mobility-Online</ewp:admin-notes>
         <apis-implemented>
@@ -71611,6 +71672,7 @@ Standort Lörrach</name>
             <other-id type="erasmus">UK COLCHES01</other-id>
             <other-id type="pic">999856989</other-id>
             <name>University of Essex</name>
+            <name xml:lang="en">University of Essex</name>
         </hei>
         <hei id="esta-groupe.fr">
             <other-id type="erasmus">F  BELFORT07</other-id>
@@ -83767,6 +83829,14 @@ USEA (VSU) "L. Karavelov"</name>
             cP3EP/uMBNEHg6voJsNV3Ba0VFjtylIamX4xL25Yr2JTDp6H9yI1fYQ381f0DFIpyUuRCPsCb+l8
             dA5k+BybSM8lWsj3g8QpgvNm7cDqlMkD7MklypRI+ZESh1hd/lB8vuJbWwfi4GS58/LMaIT2UB21
             2nwiZwIDAQAB
+        </rsa-public-key>
+        <rsa-public-key sha-256="dcb0ba7dd0d9f41743e906d1cccf4d95aad470bb7024d4c8d3b2fafd587ba7ef">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1v43rBDu7SjtSgNgYOrgVHyMo7UNOQnI
+            Oz1fXLRYb4OSKZSdKU5tcADpKPCxwHDsq7cEVQOzY+y7uv5Fezxz94KZ/Y050M3IECNtUAysGf8x
+            Rb5vE5cmkVfQeivYWXOXbK7yh4KloYMDd95FWyo0a4md25Hf7bpwQcEuY7Rcsw48IIxlnpydM7pS
+            VEkyGiZnIGBcn0apSojNKVein3YTc253FFbTcNescvg7utg1DwZbrvRL+bPOsAYFGLvljaOysCZG
+            9Isb4BB0WV/KTOn/BdEZnAWbc/7J/FkNyE2lkhxNDW6VN30w9smbY8rIDInH4sJY0hGlXca1ACLr
+            7RM+JwIDAQAB
         </rsa-public-key>
         <rsa-public-key sha-256="dd3e369a3e01240d9949e116072aaf622de662fa08abc9109ed0ecbe6c74ca93">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0t3FpTy8M1a8VDbdAw7fcGmIUAFg2heM
