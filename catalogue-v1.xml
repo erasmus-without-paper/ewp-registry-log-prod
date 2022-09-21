@@ -18266,6 +18266,227 @@
         </server-credentials-in-use>
     </host>
     <host>
+        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+        <ewp:admin-provider>QS MoveON</ewp:admin-provider>
+        <apis-implemented>
+            <d6:discovery version="6.0.0">
+                <d6:url>https://clermont-ewp.moveonfr.com/v1/manifest</d6:url>
+            </d6:discovery>
+            <e2:echo version="2.0.1">
+                <e2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </e2:http-security>
+                <e2:url>https://clermont-ewp.moveonfr.com/v1/echo</e2:url>
+            </e2:echo>
+            <in2:institutions version="2.2.0">
+                <in2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </in2:http-security>
+                <in2:url>https://clermont-ewp.moveonfr.com/v1/institution</in2:url>
+                <in2:max-hei-ids>10</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.1.1">
+                <ou2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </ou2:http-security>
+                <ou2:url>https://clermont-ewp.moveonfr.com/v1/ounit</ou2:url>
+                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+            <ia6:iias
+                xmlns:ia6="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v6/manifest-entry.xsd"
+                version="6.1.0"
+            >
+                <ia6:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </ia6:http-security>
+                <ia6:get-url>https://clermont-ewp.moveonfr.com/v1/iia/get</ia6:get-url>
+                <ia6:max-iia-ids>10</ia6:max-iia-ids>
+                <ia6:max-iia-codes>10</ia6:max-iia-codes>
+                <ia6:index-url>https://clermont-ewp.moveonfr.com/v1/iia/index</ia6:index-url>
+            </ia6:iias>
+            <iac2:iia-cnr version="2.0.3">
+                <iac2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </iac2:http-security>
+                <iac2:url>https://clermont-ewp.moveonfr.com/v1/iia/cnr</iac2:url>
+            </iac2:iia-cnr>
+            <om1:omobilities
+                xmlns:om1="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <om1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </om1:http-security>
+                <om1:get-url>https://clermont-ewp.moveonfr.com/v1/omobility/get</om1:get-url>
+                <om1:index-url>https://clermont-ewp.moveonfr.com/v1/omobility/index</om1:index-url>
+                <om1:max-omobility-ids>10</om1:max-omobility-ids>
+                <om1:sends-notifications/>
+            </om1:omobilities>
+            <omc1:omobility-cnr
+                xmlns:omc1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <omc1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </omc1:http-security>
+                <omc1:url>https://clermont-ewp.moveonfr.com/v1/omobility/cnr</omc1:url>
+                <omc1:max-omobility-ids>10</omc1:max-omobility-ids>
+            </omc1:omobility-cnr>
+            <im1:imobilities
+                xmlns:im1="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <im1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </im1:http-security>
+                <im1:get-url>https://clermont-ewp.moveonfr.com/v1/imobility/get</im1:get-url>
+                <im1:max-omobility-ids>10</im1:max-omobility-ids>
+                <im1:sends-notifications/>
+            </im1:imobilities>
+            <imc1:imobility-cnr
+                xmlns:imc1="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <imc1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </imc1:http-security>
+                <imc1:url>https://clermont-ewp.moveonfr.com/v1/imobility/cnr</imc1:url>
+                <imc1:max-omobility-ids>10</imc1:max-omobility-ids>
+            </imc1:imobility-cnr>
+            <iaa1:iias-approval
+                xmlns:iaa1="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
+                version="1.1.0"
+            >
+                <iaa1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </iaa1:http-security>
+                <iaa1:url>https://clermont-ewp.moveonfr.com/v1/iia/approval/get</iaa1:url>
+                <iaa1:max-iia-ids>10</iaa1:max-iia-ids>
+            </iaa1:iias-approval>
+            <iaac1:iia-approval-cnr
+                xmlns:iaac1="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="1.1.0"
+            >
+                <iaac1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </iaac1:http-security>
+                <iaac1:url>https://clermont-ewp.moveonfr.com/v1/iia/approval/cnr</iaac1:url>
+            </iaac1:iia-approval-cnr>
+            <oml1:omobility-las
+                xmlns:oml1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.1"
+            >
+                <oml1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </oml1:http-security>
+                <oml1:get-url>https://clermont-ewp.moveonfr.com/v1/la/get</oml1:get-url>
+                <oml1:index-url>https://clermont-ewp.moveonfr.com/v1/la/index</oml1:index-url>
+                <oml1:update-url>https://clermont-ewp.moveonfr.com/v1/la/update</oml1:update-url>
+                <oml1:max-omobility-ids>10</oml1:max-omobility-ids>
+            </oml1:omobility-las>
+            <omlc1:omobility-la-cnr
+                xmlns:omlc1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <omlc1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </omlc1:http-security>
+                <omlc1:url>https://clermont-ewp.moveonfr.com/v1/la/cnr</omlc1:url>
+                <omlc1:max-omobility-ids>10</omlc1:max-omobility-ids>
+            </omlc1:omobility-la-cnr>
+            <f1:factsheet
+                xmlns:f1="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <f1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </f1:http-security>
+                <f1:url>https://clermont-ewp.moveonfr.com/v1/factsheet/get</f1:url>
+                <f1:max-hei-ids>10</f1:max-hei-ids>
+            </f1:factsheet>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>clermont-auvergne-inp.fr</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <rsa-public-key sha-256="f6468554ea96eb20c09724225fef295b6f3c2208c2795a3a3c6f319218513782"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="f6468554ea96eb20c09724225fef295b6f3c2208c2795a3a3c6f319218513782"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
         <ewp:admin-email>ewp@sop.co.at</ewp:admin-email>
         <ewp:admin-notes>Mobility-Online</ewp:admin-notes>
         <apis-implemented>
@@ -67802,6 +68023,11 @@ IZn8Of7Tww==
             <other-id type="pic">999837395</other-id>
             <name>Collegium Civitas</name>
         </hei>
+        <hei id="clermont-auvergne-inp.fr">
+            <other-id type="erasmus">F  AUBIERE04</other-id>
+            <other-id type="pic">922622970</other-id>
+            <name xml:lang="en">Clermont Auvergne INP</name>
+        </hei>
         <hei id="clermont-fd.archi.fr">
             <other-id type="erasmus">F  CLERMON10</other-id>
             <other-id type="pic">949020550</other-id>
@@ -82109,6 +82335,14 @@ USEA (VSU) "L. Karavelov"</name>
             uRZmQXIJfjG1UPqO+brFsgMdJ/86y2dQc2sX8pYpQmm5oOCmt5/LkzWIa3wcwxt9+TGy4h9Tt0MZ
             9XirKu6tTbG6B4izzZZ9/ngFsDMghG7ayO82QTYTUZSD/PxyPf2wxeIwZpYpfj0n/SriicZhEWqr
             dZAERQIDAQAB
+        </rsa-public-key>
+        <rsa-public-key sha-256="f6468554ea96eb20c09724225fef295b6f3c2208c2795a3a3c6f319218513782">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApF1xw+FNqbLTxl5BFmTW4uRr6pxLfAtb
+            8q9xUbIcQ9HOp6jut8n/SwyudJtQclAl+kYQJ2ct8nVw9qZzaZLca+9/H284emNRBUPikzXW+Ncz
+            9qcef/rIWKBDy7Q00A5ZTV3ggPyUvZIrm8LoPf76nRUSnR7lTITwsgfhMrTPKK+qgsA941zvktpE
+            SX/OvRGarMryHTmMQ/S6/c79QWUC5hK8OU5TdErmm4GdHvmoImlH4nlvyLW3+HsXX2RIw5y/uJXU
+            PbZQqyPAueUXCE/dw6Al2BXYbfss0iLO+mCl48wa93uMVqm6x4kizK1snxGpJmcoYePzGEQdoV43
+            6ua4wQIDAQAB
         </rsa-public-key>
         <rsa-public-key sha-256="f6944037eb9acfa0dedd28be9c7d84ef798d619b13442c262e44b95238e8ce5f">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxCchJFKWE3EhbjHPBal89YqZoSEMXytc
