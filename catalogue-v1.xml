@@ -21196,6 +21196,35 @@
         </server-credentials-in-use>
     </host>
     <host>
+        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+        <ewp:admin-provider>QS MoveON</ewp:admin-provider>
+        <apis-implemented>
+            <d6:discovery version="6.0.0">
+                <d6:url>https://fhaachen-ewp.moveon4.de/v1/manifest</d6:url>
+            </d6:discovery>
+            <e2:echo version="2.0.1">
+                <e2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </e2:http-security>
+                <e2:url>https://fhaachen-ewp.moveon4.de/v1/echo</e2:url>
+            </e2:echo>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>fh-aachen.de</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <rsa-public-key sha-256="002da9e7021c35d0e9132ee6bc034a956a92a39d2f6aeff9dcb99b78589c9c55"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="002da9e7021c35d0e9132ee6bc034a956a92a39d2f6aeff9dcb99b78589c9c55"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
         <ewp:admin-email>ewp@sop.co.at</ewp:admin-email>
         <ewp:admin-notes>Mobility-Online</ewp:admin-notes>
         <apis-implemented>
@@ -72951,8 +72980,10 @@ Standort Lörrach</name>
         </hei>
         <hei id="fh-aachen.de">
             <other-id type="erasmus">D  AACHEN02</other-id>
+            <other-id type="erasmus-charter">28343</other-id>
             <other-id type="pic">996033928</other-id>
             <name>Fachhochschule Aachen</name>
+            <name xml:lang="en">Fachhochschule Aachen</name>
         </hei>
         <hei id="fh-bielefeld.de">
             <other-id type="erasmus">D  BIELEFE02</other-id>
@@ -82800,6 +82831,14 @@ USEA (VSU) "L. Karavelov"</name>
         </hei>
     </institutions>
     <binaries>
+        <rsa-public-key sha-256="002da9e7021c35d0e9132ee6bc034a956a92a39d2f6aeff9dcb99b78589c9c55">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAv4ZkTPjY1f5Jq/EYc1J7ZWCZYNFpRGVq
+            ET/55lvcmnPgeSCjJGltRwJo5QR2jB6/GBUb6g9i1h5N/XV3ZO5MLKYgu+FS3A8XSpZ55eNPDJqG
+            PpJDKypX+Jfu/EDpiT16R0ENnuxtpmaM72TPBOXklEk9TFFH4X/aMUotciasp1TJC04EjKoS+yaS
+            p/PxN8lwceHLM3A0QHdQZXB2jrrOcRTWR5Zt41RcnYnCX+CnraadAN7CjiwuwOtlHCP2vSMhX3+e
+            2gy2xdzaCZIYJZcm76i1RPKEc5V7lU6FhwVevsj0l1Xr4wYuz4pE5d8s/Lz8EY2SHpavoVbXu7C7
+            lYDf8wIDAQAB
+        </rsa-public-key>
         <rsa-public-key sha-256="01927a50c8f000a54c563b7a422834d456be56c2308c7df0c56d3cdd70b92c8b">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjMPBQ/vk7NbnO/g3bhhoVf5R/2YuQ/0p
             5F4liOWmo8iLG8nByfRJBMTLMTay1yOTN4TYNnQmIVoLjEGwvWGtrwBWsoZmiL/V3eNEwjLDzOR7
