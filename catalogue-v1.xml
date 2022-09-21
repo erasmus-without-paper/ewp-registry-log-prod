@@ -21824,6 +21824,35 @@
         </server-credentials-in-use>
     </host>
     <host>
+        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+        <ewp:admin-provider>QS MoveON</ewp:admin-provider>
+        <apis-implemented>
+            <d6:discovery version="6.0.0">
+                <d6:url>https://ensicaen1-ewp.moveonfr.com/v1/manifest</d6:url>
+            </d6:discovery>
+            <e2:echo version="2.0.1">
+                <e2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </e2:http-security>
+                <e2:url>https://ensicaen1-ewp.moveonfr.com/v1/echo</e2:url>
+            </e2:echo>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>ensicaen.fr</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <rsa-public-key sha-256="2e7a48602bc596b4c2ebc850a87622522f79736bf7f9d1a2d1d0bb40437a0074"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="2e7a48602bc596b4c2ebc850a87622522f79736bf7f9d1a2d1d0bb40437a0074"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
         <ewp:admin-email>ewp@sop.co.at</ewp:admin-email>
         <ewp:admin-notes>Mobility-Online</ewp:admin-notes>
         <apis-implemented>
@@ -72772,8 +72801,10 @@ Standort Lörrach</name>
         </hei>
         <hei id="ensicaen.fr">
             <other-id type="erasmus">F  CAEN05</other-id>
+            <other-id type="erasmus-charter">27967</other-id>
             <other-id type="pic">986038369</other-id>
             <name>Ecole Nationale Superieure d'Ingenieurs de Caen</name>
+            <name xml:lang="en">Ecole Nationale Supérieure d'Ingénieurs de Caen (ENSICAEN)</name>
         </hei>
         <hei id="ensiie.fr">
             <other-id type="erasmus">F  EVRY05</other-id>
@@ -83933,6 +83964,14 @@ USEA (VSU) "L. Karavelov"</name>
             eWRAJZEEH1JurSw3keTbe7tyUHtnCMVIDzmOGcJaYT15b9lPi8pIw4hVCjAlWrS+ohh0NEp6BOk4
             01kKz5QZ/HNCHYY7fNYZNT9L+jtJOBjkiX9Er8vlocNrg94qLPXJnjKlJlQeyL8WDGsMlMX59DJh
             CxsqmQIDAQAB
+        </rsa-public-key>
+        <rsa-public-key sha-256="2e7a48602bc596b4c2ebc850a87622522f79736bf7f9d1a2d1d0bb40437a0074">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtsRKhAITyjVWdMgGtFKT+a3AU3XEV1on
+            Z5Ue9usHEpEvcydTDmG2pErqWdMrAq8mwgq0tkc1Ksvw58fG5TUxGa3FvSF9J3bVmD47K2FNGGvD
+            U0mG/ftgXEHVhsh9sLnot6pJdInjoYm8TW1tLZfAJnB63ksX+5BstIstXzT1SNJxoq9Ldw8e3R9h
+            BJ4ss37JTKXdiz6h9wBpIwzKRCwuRidYFLSsT9ne2ztxNtRtgnTjZY5YEhnESjRT0Oh9Wy3EUCpt
+            JPMYPOYDMzT5Z9GSJFCgpGr5lo7ih910fQ6QkwDWPbz3sSypnMQ9YtTdKbGrcPUi611yMBaGairo
+            fIXtKQIDAQAB
         </rsa-public-key>
         <rsa-public-key sha-256="2eed0a8276a085749df5278585da487ea510314e39843b975717457eab3f6718">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArBRii1Pnv3IYDshVTzNyZBzxQO9NzcBk
