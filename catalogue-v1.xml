@@ -20313,6 +20313,35 @@
         </server-credentials-in-use>
     </host>
     <host>
+        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+        <ewp:admin-provider>QS MoveON</ewp:admin-provider>
+        <apis-implemented>
+            <d6:discovery version="6.0.0">
+                <d6:url>https://ehess-ewp.moveonfr.com/v1/manifest</d6:url>
+            </d6:discovery>
+            <e2:echo version="2.0.1">
+                <e2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </e2:http-security>
+                <e2:url>https://ehess-ewp.moveonfr.com/v1/echo</e2:url>
+            </e2:echo>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>ehess.fr</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <rsa-public-key sha-256="129d6ccd2d84621ae2630da548be02217a609e228b6f104c809dd6d75ff856d7"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="129d6ccd2d84621ae2630da548be02217a609e228b6f104c809dd6d75ff856d7"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
         <ewp:admin-email>ewp@sop.co.at</ewp:admin-email>
         <ewp:admin-notes>Mobility-Online</ewp:admin-notes>
         <apis-implemented>
@@ -71017,8 +71046,10 @@ Standort Lörrach</name>
         </hei>
         <hei id="ehess.fr">
             <other-id type="erasmus">F  PARIS057</other-id>
+            <other-id type="erasmus-charter">28334</other-id>
             <other-id type="pic">999510117</other-id>
             <name>Ecole des Hautes Etudes en Sciences Sociales</name>
+            <name xml:lang="en">Ecole des Hautes Etudes en Sciences Sociales</name>
         </hei>
         <hei id="ehs-dresden.de">
             <other-id type="erasmus">D  DRESDEN07</other-id>
@@ -82114,6 +82145,14 @@ USEA (VSU) "L. Karavelov"</name>
             7TnqA6P9u875U51gwfzkZffAXkNeETvX4P6CmabQk0hqnyklCX9/b5XnR4RZWwMUwZm5Zp+5tMFY
             SR/2+ROM8a/44Wb5cncPujcmzSLTrSVplv+RiFg3799Zj/xt5Xt7hk/2H4glb3BjYXZ51YALbBbM
             PARYHQIDAQAB
+        </rsa-public-key>
+        <rsa-public-key sha-256="129d6ccd2d84621ae2630da548be02217a609e228b6f104c809dd6d75ff856d7">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyp+YSA0JqhU8+9PiE2shBnk4Rq26HnlU
+            BQTVBGx3CssAqQh4vuSs9kQKPiDDXWl+4UrHJH2NcY5Fhe4wVmVdq48wat7RJew/ZPc4Xs5ZSq5d
+            8khzDSr2iV8hAqIbM/N8lZCVXNw/S5kM9kWapGovYOBSH8oilykFL9Dxl6BdW0NMKP3wXgV4BOBV
+            S58C6xVUiiRqNyKhuzYiM/z7RRM1/TYaqACLKH/EL/O4Um8Oqsp9apfuKbakKtS7UjW3bOXU4oJA
+            u3YzuNkst/JiI0NyKpO3WeAY9iiMAClv1emOYSVncLSyAOq2ZbzOgXUFUhYNiYhLX5GmKq2icu1Q
+            Ckav2wIDAQAB
         </rsa-public-key>
         <rsa-public-key sha-256="129f8913b56bd27af562a168f96e9cd5ffdc722d1611781481ee0d118b8ebce0">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAq56nFrB5eUmAJslOUw1MknEt7V8bErSV
