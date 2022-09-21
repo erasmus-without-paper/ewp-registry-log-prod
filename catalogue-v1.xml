@@ -18079,6 +18079,35 @@
         </server-credentials-in-use>
     </host>
     <host>
+        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+        <ewp:admin-provider>QS MoveON</ewp:admin-provider>
+        <apis-implemented>
+            <d6:discovery version="6.0.0">
+                <d6:url>https://bristol-ewp.moveon4.com/v1/manifest</d6:url>
+            </d6:discovery>
+            <e2:echo version="2.0.1">
+                <e2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </e2:http-security>
+                <e2:url>https://bristol-ewp.moveon4.com/v1/echo</e2:url>
+            </e2:echo>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>bristol.ac.uk</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <rsa-public-key sha-256="044fbd66123d7578c9713b0a9df911da8ff6c8279f7e71c1648836711337fecb"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="044fbd66123d7578c9713b0a9df911da8ff6c8279f7e71c1648836711337fecb"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
         <ewp:admin-email>ewp@sop.co.at</ewp:admin-email>
         <ewp:admin-notes>Mobility-Online</ewp:admin-notes>
         <apis-implemented>
@@ -67273,6 +67302,12 @@ IZn8Of7Tww==
             <other-id type="pic">934186631</other-id>
             <name>Brest Business School - Esc Force Ouest</name>
         </hei>
+        <hei id="bristol.ac.uk">
+            <other-id type="erasmus">UK BRISTOL01</other-id>
+            <other-id type="erasmus-charter">28190</other-id>
+            <other-id type="pic">999974262</other-id>
+            <name xml:lang="en">University of Bristol</name>
+        </hei>
         <hei id="brookes.ac.uk">
             <other-id type="erasmus">UK OXFORD04</other-id>
             <other-id type="pic">999446873</other-id>
@@ -79620,6 +79655,14 @@ USEA (VSU) "L. Karavelov"</name>
             aVM5JsWb4m9swkCTtjUzZSd2/vNK4yvtFzK/ufwfaJFmsd61WWm759n/HGr1s3m+wKDKiD1NxJJY
             ZhM0CKWHwfIqOpxKwClSyA5HV34Pi9z5bLGGaQbIcKv0NUaZ79tajuo01gML8zmW4ckYHAEuBbUi
             c4bcXwIDAQAB
+        </rsa-public-key>
+        <rsa-public-key sha-256="044fbd66123d7578c9713b0a9df911da8ff6c8279f7e71c1648836711337fecb">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsZbHRyTFfiRPImAHTmEnNDg32lavOLIe
+            xXdzuxXNkdTmgTa9fP8WqcdpGtMGnCuUh6Dq6Ej+eKVtJsX/tB9LlBLxTo3P8cG8x1HfWAPFgHsc
+            7jUQMMklwO3eJ+zgUlP8JS4k6nyJwWoep56SPbla4xUT7IwGXxbWs6D213PV3wglRggZEx0Wo6qY
+            VJtfayro4ib5jv7ExM8At533zkGRTEqXdWSOVJYQDGUwFAr5bPdFKIGyOrePbBIIYq+7tGmAERxz
+            +YXZevGxEAtz3yw59ZuzdJtwBZ3ygEAwEtVGF12CdjAcVwcEHFN3bTyWfo1YKek52zUaFtLPsJUz
+            qr26JwIDAQAB
         </rsa-public-key>
         <rsa-public-key sha-256="047dccb1efb89cf2121bf99fc32e21c3b072be5c80764c3b17b312405bc3ec2b">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAw88Ph5BllrcVHmTey9M4MB17IawJCA+s
