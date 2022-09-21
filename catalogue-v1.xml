@@ -16141,6 +16141,35 @@
         </server-credentials-in-use>
     </host>
     <host>
+        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+        <ewp:admin-provider>QS MoveON</ewp:admin-provider>
+        <apis-implemented>
+            <d6:discovery version="6.0.0">
+                <d6:url>https://ash-ewp.moveon4.de/v1/manifest</d6:url>
+            </d6:discovery>
+            <e2:echo version="2.0.1">
+                <e2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </e2:http-security>
+                <e2:url>https://ash-ewp.moveon4.de/v1/echo</e2:url>
+            </e2:echo>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>ash-berlin.eu</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <rsa-public-key sha-256="be850fa05eb142acb3292a5f3c4dc62c3c14b554527b3c8b18c69d5d35bfd427"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="be850fa05eb142acb3292a5f3c4dc62c3c14b554527b3c8b18c69d5d35bfd427"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
         <ewp:admin-email>ewp@sop.co.at</ewp:admin-email>
         <ewp:admin-notes>Mobility-Online</ewp:admin-notes>
         <apis-implemented>
@@ -64806,8 +64835,10 @@ IZn8Of7Tww==
         </hei>
         <hei id="ash-berlin.eu">
             <other-id type="erasmus">D  BERLIN05</other-id>
+            <other-id type="erasmus-charter">29763</other-id>
             <other-id type="pic">949249858</other-id>
             <name>Alice Salomon Hochschule Berlin</name>
+            <name xml:lang="en">Alice Salomon Hochschule Berlin</name>
         </hei>
         <hei id="asp.gda.pl">
             <other-id type="eche">218524-EPP-1-2014-1-PL-EPPKA3-ECHE</other-id>
@@ -79400,6 +79431,14 @@ USEA (VSU) "L. Karavelov"</name>
             gFOIz4C3siBU+h91mFLnMMLumg8uP9aW2kwL63pT4P3NoxR43b3jAEIpkmUHCHk9RVFvDonJJfBa
             NwET3s9npu46/+67azK6u8ANlZG8Qz+jrG0wIULyOCuATj19UOF1lAyv2x9v5k8Ma9K3W6Ctj+qq
             yvjyPQIDAQAB
+        </rsa-public-key>
+        <rsa-public-key sha-256="be850fa05eb142acb3292a5f3c4dc62c3c14b554527b3c8b18c69d5d35bfd427">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxWkVYNyaGEGglX7CJpfpKzB66JL9A17z
+            4ykMkozG1cSSX6ddr4okhjuLxgO4E5s/Is9fRqorzJK/M/qVymZdp5dUrzpSFuRdXxtGPFn5DgdV
+            Y0rrTwehVGje1tEU/9F0jiydAsmY/2cTrGWg/CJ2n3Usb319p8o6ZZtx9kjvCL28oRYGUTuKLxvy
+            BKfvof+s5uGOB+VwqKXH193MCmStvPXzQ3Y6i7+aBN6iWuFQcVJU1xM0w7gxgI/CWaFWJhn4xP/P
+            Q8IkztVzKzJy5FrYbrg7RMzIc/nHvZCBn5LBviMdV89iaw1sILakveVb7vWakjxo/j7TzRQ6GMVz
+            jRFi1QIDAQAB
         </rsa-public-key>
         <rsa-public-key sha-256="beb209c447133e08aedefa3acd5ad0a5ad4269acb59236bd2adc87a7be1ca1c4">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAve0sUx0RTNreA2RaZW2iyqadT9UB2qza
