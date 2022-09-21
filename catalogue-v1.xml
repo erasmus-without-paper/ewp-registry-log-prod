@@ -18050,6 +18050,35 @@
         </server-credentials-in-use>
     </host>
     <host>
+        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+        <ewp:admin-provider>QS MoveON</ewp:admin-provider>
+        <apis-implemented>
+            <d6:discovery version="6.0.0">
+                <d6:url>https://inpb-ewp.moveonfr.com/v1/manifest</d6:url>
+            </d6:discovery>
+            <e2:echo version="2.0.1">
+                <e2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </e2:http-security>
+                <e2:url>https://inpb-ewp.moveonfr.com/v1/echo</e2:url>
+            </e2:echo>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>bordeaux-inp.fr</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <rsa-public-key sha-256="9397d03acae787dfdb62b39774991d7c114800a38549dc194932cd49123945b2"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="9397d03acae787dfdb62b39774991d7c114800a38549dc194932cd49123945b2"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
         <ewp:admin-email>ewp@sop.co.at</ewp:admin-email>
         <ewp:admin-notes>Mobility-Online</ewp:admin-notes>
         <apis-implemented>
@@ -67208,6 +67237,12 @@ IZn8Of7Tww==
             <name xml:lang="de">Universität für Bodenkultur Wien</name>
             <name xml:lang="en">Universität für Bodenkultur Wien</name>
         </hei>
+        <hei id="bordeaux-inp.fr">
+            <other-id type="erasmus">F  BORDEAU54</other-id>
+            <other-id type="erasmus-charter">256164</other-id>
+            <other-id type="pic">991798035</other-id>
+            <name xml:lang="en">Institut Polytechnique de Bordeaux</name>
+        </hei>
         <hei id="bordeaux.archi.fr">
             <other-id type="erasmus">F  BORDEAU16</other-id>
             <other-id type="pic">949503513</other-id>
@@ -80981,6 +81016,14 @@ USEA (VSU) "L. Karavelov"</name>
             E+Miyikbc0fFXakQG0FFcPuiEyMKgMUkgheNd+4YsCGm3d89+PLyqsSPXPFOYxzNPRNYBgYjFZT8
             6+0Yb4LtCiK1dUh/4p1ennguNLtDR6GpDv8ZzgazEIUwfUNS6HSvPo9qS4SwfMOrD9WW9GAW8L3k
             vH7qFwIDAQAB
+        </rsa-public-key>
+        <rsa-public-key sha-256="9397d03acae787dfdb62b39774991d7c114800a38549dc194932cd49123945b2">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0Pwj7SkdKvcXFLUWFh+tBtzwediMlCe0
+            sxauYsMNYC8Kt3Xo1sU4Dpeghs2UdEgom8lsgWK8GsCyaC5/VnsP6Xe2gPr3zHTXJUyACAYSi4yX
+            7saAqDVZV1M1MeBi6oOCson+LZeRzXQ6aWWeu2gEbf14B9Lst+EiMR9DqoU7U5h53aP0ZMePvMuV
+            1ge46raTTDF1mekpZSWH8B9KHsErtvCZtAXvKTUr+DIW4XtwOuR9dSLzoH1NdQ8NdPJxUeF+C8Xr
+            uPWH748KdWATtALKax5PzlPox6YHonI72lRrA1aFniHFBi3YjkPHtEfCPLUP/7HICBuK2APp/qoB
+            ZSFa9wIDAQAB
         </rsa-public-key>
         <rsa-public-key sha-256="943d5808eb36286039cca2dd17ae83efe1a435f5893f839c4acfbf2e9b0ceb73">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkwvbwrXJXuzaN4Hi/+VWve1uuswbxW+h
