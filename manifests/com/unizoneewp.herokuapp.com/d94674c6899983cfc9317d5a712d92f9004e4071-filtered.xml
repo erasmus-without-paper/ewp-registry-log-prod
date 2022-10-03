@@ -10,7 +10,8 @@
     xmlns:sec-svr-tls="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
 >
     <host>
-        <ewp:admin-email>ewp.admin@erasmus-dashboard.eu</ewp:admin-email>
+        <ewp:admin-email>ewp-plus@it.auth.gr</ewp:admin-email>
+        <ewp:admin-email>ewp-monitor@it.auth.gr</ewp:admin-email>
         <ewp:admin-notes>Manifest File for general endpoints Erasmus Dashboard.</ewp:admin-notes>
         <r:apis-implemented>
             <iias
@@ -7872,6 +7873,11 @@
                 <r:other-id type="pic">950406777</r:other-id>
                 <r:name>Akademia Finansow i Biznesu Vistula</r:name>
             </r:hei>
+            <r:hei id="vistulahospitality.edu.pl">
+                <r:other-id type="erasmus">PL WARSZAW79</r:other-id>
+                <r:other-id type="pic">949227063</r:other-id>
+                <r:name>Szkola Glowna Turystyki i Hotelarstwa Vistula</r:name>
+            </r:hei>
             <r:hei id="nencki.edu.pl">
                 <r:other-id type="erasmus">PL WARSZAW81</r:other-id>
                 <r:other-id type="pic">999489359</r:other-id>
@@ -9709,7 +9715,6 @@
             </r:hei>
         </institutions-covered>
         <client-credentials-in-use>
-            <certificate>MIIEDzCCAvegAwIBAgIUPRdcKeeyNd+gKafZrDgh7LcfH78wDQYJKoZIhvcNAQELBQAwgZYxCzAJBgNVBAYTAkJFMREwDwYDVQQIDAhCcnVzc2VsczERMA8GA1UEBwwIQnJ1c3NlbHMxDDAKBgNVBAoMA0VVRjEMMAoGA1UECwwDRVVGMSIwIAYDVQQDDBl1bml6b25lLWV3cC5oZXJva3VhcHAuY29tMSEwHwYJKoZIhvcNAQkBFhJmcGVpeG90b0B1cG9ydG8ucHQwHhcNMjExMTE5MDk1MDA3WhcNMjIxMTE5MDk1MDA3WjCBljELMAkGA1UEBhMCQkUxETAPBgNVBAgMCEJydXNzZWxzMREwDwYDVQQHDAhCcnVzc2VsczEMMAoGA1UECgwDRVVGMQwwCgYDVQQLDANFVUYxIjAgBgNVBAMMGXVuaXpvbmUtZXdwLmhlcm9rdWFwcC5jb20xITAfBgkqhkiG9w0BCQEWEmZwZWl4b3RvQHVwb3J0by5wdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOJrON+t6oIMrwJ8WnGnBt0wSzBOsePUMRUgRIWc4Nrdc6psGzbxwjpquzhNB5kchk5nd1BFMGSwWtw/84i/4MsToUjjkVHvAIVzW8YjLXXcBMU5hIwd9ddLMI/sDKRYrx/xkuuFg2BdPgGdW8ZBu5n9pwlc1Gi4MKNzuhwm7G78W3TjA7mujG1+NMZ1hcQCpRXDltR0WYcPmZ/7ZGzGr0j9CJ7nFaHltQrLNi/dMiZrSd1fiv7Z/vrRqoRsv4rpJIk51jozeMvSsni+//iNG5L1+yIxEoc9sD7tl5uzlRVEACmURKfItGX1+EgqiGscY3V96+bvEhWOSlO2J6Twcu8CAwEAAaNTMFEwHQYDVR0OBBYEFIs6hSSHaPYr5Tijh7D1TO+m/vtFMB8GA1UdIwQYMBaAFIs6hSSHaPYr5Tijh7D1TO+m/vtFMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAC+tgecaFRQ0WLPmyqSvi6MJnF6i0cbe0tIBIJGPsRkhpHAbQqjzP+MlVedDAkAALMv8r7VDAe5ioTHNEeyerx9W5mZdHAZSNQ6ibzJzOyb3ZLR1IAfZX0h1pIz2b/UcnLq5d4Xixj+wAtvIJOUwBHBSIsiEsBUFWD7RX1zwmUk1Dara/W/5O6ffEaIIjSAi5DhX3qKIjcKT2zU9kd7ILTQ60BFhujk1WzRd3eOBqBCTPg/235pzAqH70VZIwUsXYwCCqPWC4qM0AK2YvLaT2xSbrBseO+wSgCDB3KYTRhVsKo9p1PXZVSTiWr5NCuOyNnremoTuuMIoMIEayc4ho10=</certificate>
             <rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4ms4363qggyvAnxacacG3TBLME6x49QxFSBEhZzg2t1zqmwbNvHCOmq7OE0HmRyGTmd3UEUwZLBa3D/ziL/gyxOhSOORUe8AhXNbxiMtddwExTmEjB3110swj+wMpFivH/GS64WDYF0+AZ1bxkG7mf2nCVzUaLgwo3O6HCbsbvxbdOMDua6MbX40xnWFxAKlFcOW1HRZhw+Zn/tkbMavSP0InucVoeW1Css2L90yJmtJ3V+K/tn++tGqhGy/iukkiTnWOjN4y9KyeL7/+I0bkvX7IjEShz2wPu2Xm7OVFUQAKZREp8i0ZfX4SCqIaxxjdX3r5u8SFY5KU7YnpPBy7wIDAQAB</rsa-public-key>
         </client-credentials-in-use>
         <server-credentials-in-use>
@@ -9717,7 +9722,8 @@
         </server-credentials-in-use>
     </host>
     <host>
-        <ewp:admin-email>ewp.admin@erasmus-dashboard.eu</ewp:admin-email>
+        <ewp:admin-email>ewp-plus@it.auth.gr</ewp:admin-email>
+        <ewp:admin-email>ewp-monitor@it.auth.gr</ewp:admin-email>
         <ewp:admin-notes>Manifest File for general endpoints Erasmus Dashboard.</ewp:admin-notes>
         <r:apis-implemented>
             <organizational-units
@@ -9733,7 +9739,7 @@
                     </sec:server-auth-methods>
                 </http-security>
                 <url>https://unizoneewp.herokuapp.com/rest/ounits</url>
-                <max-ounit-ids>3</max-ounit-ids>
+                <max-ounit-ids>1</max-ounit-ids>
                 <max-ounit-codes>1</max-ounit-codes>
             </organizational-units>
         </r:apis-implemented>
@@ -15818,10 +15824,6 @@
                 <r:other-id type="pic">928908861</r:other-id>
                 <r:name>Luxembourg School of Business Asbl</r:name>
             </r:hei>
-            <r:hei id="uni-foundation.eu">
-                <r:other-id type="erasmus">LUXTESTING99</r:other-id>
-                <r:name>European University Foundation</r:name>
-            </r:hei>
             <r:hei id="du.lv">
                 <r:other-id type="erasmus">LV DAUGAVP01</r:other-id>
                 <r:other-id type="pic">999830702</r:other-id>
@@ -17394,6 +17396,11 @@
                 <r:other-id type="erasmus">PL WARSZAW78</r:other-id>
                 <r:other-id type="pic">950406777</r:other-id>
                 <r:name>Akademia Finansow i Biznesu Vistula</r:name>
+            </r:hei>
+            <r:hei id="vistulahospitality.edu.pl">
+                <r:other-id type="erasmus">PL WARSZAW79</r:other-id>
+                <r:other-id type="pic">949227063</r:other-id>
+                <r:name>Szkola Glowna Turystyki i Hotelarstwa Vistula</r:name>
             </r:hei>
             <r:hei id="nencki.edu.pl">
                 <r:other-id type="erasmus">PL WARSZAW81</r:other-id>
@@ -19227,7 +19234,6 @@
             </r:hei>
         </institutions-covered>
         <client-credentials-in-use>
-            <certificate>MIIEDzCCAvegAwIBAgIUPRdcKeeyNd+gKafZrDgh7LcfH78wDQYJKoZIhvcNAQELBQAwgZYxCzAJBgNVBAYTAkJFMREwDwYDVQQIDAhCcnVzc2VsczERMA8GA1UEBwwIQnJ1c3NlbHMxDDAKBgNVBAoMA0VVRjEMMAoGA1UECwwDRVVGMSIwIAYDVQQDDBl1bml6b25lLWV3cC5oZXJva3VhcHAuY29tMSEwHwYJKoZIhvcNAQkBFhJmcGVpeG90b0B1cG9ydG8ucHQwHhcNMjExMTE5MDk1MDA3WhcNMjIxMTE5MDk1MDA3WjCBljELMAkGA1UEBhMCQkUxETAPBgNVBAgMCEJydXNzZWxzMREwDwYDVQQHDAhCcnVzc2VsczEMMAoGA1UECgwDRVVGMQwwCgYDVQQLDANFVUYxIjAgBgNVBAMMGXVuaXpvbmUtZXdwLmhlcm9rdWFwcC5jb20xITAfBgkqhkiG9w0BCQEWEmZwZWl4b3RvQHVwb3J0by5wdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOJrON+t6oIMrwJ8WnGnBt0wSzBOsePUMRUgRIWc4Nrdc6psGzbxwjpquzhNB5kchk5nd1BFMGSwWtw/84i/4MsToUjjkVHvAIVzW8YjLXXcBMU5hIwd9ddLMI/sDKRYrx/xkuuFg2BdPgGdW8ZBu5n9pwlc1Gi4MKNzuhwm7G78W3TjA7mujG1+NMZ1hcQCpRXDltR0WYcPmZ/7ZGzGr0j9CJ7nFaHltQrLNi/dMiZrSd1fiv7Z/vrRqoRsv4rpJIk51jozeMvSsni+//iNG5L1+yIxEoc9sD7tl5uzlRVEACmURKfItGX1+EgqiGscY3V96+bvEhWOSlO2J6Twcu8CAwEAAaNTMFEwHQYDVR0OBBYEFIs6hSSHaPYr5Tijh7D1TO+m/vtFMB8GA1UdIwQYMBaAFIs6hSSHaPYr5Tijh7D1TO+m/vtFMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAC+tgecaFRQ0WLPmyqSvi6MJnF6i0cbe0tIBIJGPsRkhpHAbQqjzP+MlVedDAkAALMv8r7VDAe5ioTHNEeyerx9W5mZdHAZSNQ6ibzJzOyb3ZLR1IAfZX0h1pIz2b/UcnLq5d4Xixj+wAtvIJOUwBHBSIsiEsBUFWD7RX1zwmUk1Dara/W/5O6ffEaIIjSAi5DhX3qKIjcKT2zU9kd7ILTQ60BFhujk1WzRd3eOBqBCTPg/235pzAqH70VZIwUsXYwCCqPWC4qM0AK2YvLaT2xSbrBseO+wSgCDB3KYTRhVsKo9p1PXZVSTiWr5NCuOyNnremoTuuMIoMIEayc4ho10=</certificate>
             <rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4ms4363qggyvAnxacacG3TBLME6x49QxFSBEhZzg2t1zqmwbNvHCOmq7OE0HmRyGTmd3UEUwZLBa3D/ziL/gyxOhSOORUe8AhXNbxiMtddwExTmEjB3110swj+wMpFivH/GS64WDYF0+AZ1bxkG7mf2nCVzUaLgwo3O6HCbsbvxbdOMDua6MbX40xnWFxAKlFcOW1HRZhw+Zn/tkbMavSP0InucVoeW1Css2L90yJmtJ3V+K/tn++tGqhGy/iukkiTnWOjN4y9KyeL7/+I0bkvX7IjEShz2wPu2Xm7OVFUQAKZREp8i0ZfX4SCqIaxxjdX3r5u8SFY5KU7YnpPBy7wIDAQAB</rsa-public-key>
         </client-credentials-in-use>
         <server-credentials-in-use>
@@ -19235,7 +19241,8 @@
         </server-credentials-in-use>
     </host>
     <host>
-        <ewp:admin-email>edssi@it.auth.gr</ewp:admin-email>
+        <ewp:admin-email>ewp-plus@it.auth.gr</ewp:admin-email>
+        <ewp:admin-email>ewp-monitor@it.auth.gr</ewp:admin-email>
         <ewp:admin-notes>Manifest File for general endpoints Erasmus Dashboard.</ewp:admin-notes>
         <r:apis-implemented>
             <omobility-las
@@ -23486,11 +23493,6 @@
                 <r:other-id type="pic">999858541</r:other-id>
                 <r:name>Universite de Rennes I</r:name>
             </r:hei>
-            <r:hei id="univ-rennes2.fr">
-                <r:other-id type="erasmus">F  RENNES02</r:other-id>
-                <r:other-id type="pic">999956220</r:other-id>
-                <r:name>Universite Rennes Ii</r:name>
-            </r:hei>
             <r:hei id="ensc-rennes.fr">
                 <r:other-id type="erasmus">F  RENNES09</r:other-id>
                 <r:other-id type="pic">998205758</r:other-id>
@@ -24289,6 +24291,11 @@
                 <r:other-id type="erasmus">HU ZSAMBEK01</r:other-id>
                 <r:other-id type="pic">949586448</r:other-id>
                 <r:name>Apor Vilmos Katolikus Foiskola</r:name>
+            </r:hei>
+            <r:hei id="conservatorioadria.it">
+                <r:other-id type="erasmus">I  ADRIA01</r:other-id>
+                <r:other-id type="pic">945391101</r:other-id>
+                <r:name>Conservatorio di Adria</r:name>
             </r:hei>
             <r:hei id="conservatoriovivaldi.it">
                 <r:other-id type="erasmus">I  ALESSAN01</r:other-id>
@@ -28575,7 +28582,6 @@
             </r:hei>
         </institutions-covered>
         <client-credentials-in-use>
-            <certificate>MIIEDzCCAvegAwIBAgIUPRdcKeeyNd+gKafZrDgh7LcfH78wDQYJKoZIhvcNAQELBQAwgZYxCzAJBgNVBAYTAkJFMREwDwYDVQQIDAhCcnVzc2VsczERMA8GA1UEBwwIQnJ1c3NlbHMxDDAKBgNVBAoMA0VVRjEMMAoGA1UECwwDRVVGMSIwIAYDVQQDDBl1bml6b25lLWV3cC5oZXJva3VhcHAuY29tMSEwHwYJKoZIhvcNAQkBFhJmcGVpeG90b0B1cG9ydG8ucHQwHhcNMjExMTE5MDk1MDA3WhcNMjIxMTE5MDk1MDA3WjCBljELMAkGA1UEBhMCQkUxETAPBgNVBAgMCEJydXNzZWxzMREwDwYDVQQHDAhCcnVzc2VsczEMMAoGA1UECgwDRVVGMQwwCgYDVQQLDANFVUYxIjAgBgNVBAMMGXVuaXpvbmUtZXdwLmhlcm9rdWFwcC5jb20xITAfBgkqhkiG9w0BCQEWEmZwZWl4b3RvQHVwb3J0by5wdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOJrON+t6oIMrwJ8WnGnBt0wSzBOsePUMRUgRIWc4Nrdc6psGzbxwjpquzhNB5kchk5nd1BFMGSwWtw/84i/4MsToUjjkVHvAIVzW8YjLXXcBMU5hIwd9ddLMI/sDKRYrx/xkuuFg2BdPgGdW8ZBu5n9pwlc1Gi4MKNzuhwm7G78W3TjA7mujG1+NMZ1hcQCpRXDltR0WYcPmZ/7ZGzGr0j9CJ7nFaHltQrLNi/dMiZrSd1fiv7Z/vrRqoRsv4rpJIk51jozeMvSsni+//iNG5L1+yIxEoc9sD7tl5uzlRVEACmURKfItGX1+EgqiGscY3V96+bvEhWOSlO2J6Twcu8CAwEAAaNTMFEwHQYDVR0OBBYEFIs6hSSHaPYr5Tijh7D1TO+m/vtFMB8GA1UdIwQYMBaAFIs6hSSHaPYr5Tijh7D1TO+m/vtFMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAC+tgecaFRQ0WLPmyqSvi6MJnF6i0cbe0tIBIJGPsRkhpHAbQqjzP+MlVedDAkAALMv8r7VDAe5ioTHNEeyerx9W5mZdHAZSNQ6ibzJzOyb3ZLR1IAfZX0h1pIz2b/UcnLq5d4Xixj+wAtvIJOUwBHBSIsiEsBUFWD7RX1zwmUk1Dara/W/5O6ffEaIIjSAi5DhX3qKIjcKT2zU9kd7ILTQ60BFhujk1WzRd3eOBqBCTPg/235pzAqH70VZIwUsXYwCCqPWC4qM0AK2YvLaT2xSbrBseO+wSgCDB3KYTRhVsKo9p1PXZVSTiWr5NCuOyNnremoTuuMIoMIEayc4ho10=</certificate>
             <rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4ms4363qggyvAnxacacG3TBLME6x49QxFSBEhZzg2t1zqmwbNvHCOmq7OE0HmRyGTmd3UEUwZLBa3D/ziL/gyxOhSOORUe8AhXNbxiMtddwExTmEjB3110swj+wMpFivH/GS64WDYF0+AZ1bxkG7mf2nCVzUaLgwo3O6HCbsbvxbdOMDua6MbX40xnWFxAKlFcOW1HRZhw+Zn/tkbMavSP0InucVoeW1Css2L90yJmtJ3V+K/tn++tGqhGy/iukkiTnWOjN4y9KyeL7/+I0bkvX7IjEShz2wPu2Xm7OVFUQAKZREp8i0ZfX4SCqIaxxjdX3r5u8SFY5KU7YnpPBy7wIDAQAB</rsa-public-key>
         </client-credentials-in-use>
         <server-credentials-in-use>
@@ -28583,7 +28589,8 @@
         </server-credentials-in-use>
     </host>
     <host>
-        <ewp:admin-email>ewp.admin@erasmus-dashboard.eu</ewp:admin-email>
+        <ewp:admin-email>ewp-plus@it.auth.gr</ewp:admin-email>
+        <ewp:admin-email>ewp-monitor@it.auth.gr</ewp:admin-email>
         <ewp:admin-notes>Manifest File for general endpoints Erasmus Dashboard.</ewp:admin-notes>
         <r:apis-implemented>
             <factsheet
@@ -28599,7 +28606,7 @@
                     </sec:server-auth-methods>
                 </http-security>
                 <url>https://unizoneewp.herokuapp.com/rest/static-data</url>
-                <max-hei-ids>3</max-hei-ids>
+                <max-hei-ids>1</max-hei-ids>
             </factsheet>
         </r:apis-implemented>
         <institutions-covered>
@@ -35786,11 +35793,6 @@
                 <r:other-id type="pic">939160306</r:other-id>
                 <r:name>Ufuk University</r:name>
             </r:hei>
-            <r:hei id="jsga.edu.tr">
-                <r:other-id type="erasmus">TR ANKARA22</r:other-id>
-                <r:other-id type="pic">916350174</r:other-id>
-                <r:name>Jandarma ve Sahil Guvenlik Akademisi Baskanligi</r:name>
-            </r:hei>
             <r:hei id="hacibayram.edu.tr">
                 <r:other-id type="erasmus">TR ANKARA24</r:other-id>
                 <r:other-id type="pic">905396643</r:other-id>
@@ -36473,7 +36475,6 @@
             </r:hei>
         </institutions-covered>
         <client-credentials-in-use>
-            <certificate>MIIEDzCCAvegAwIBAgIUPRdcKeeyNd+gKafZrDgh7LcfH78wDQYJKoZIhvcNAQELBQAwgZYxCzAJBgNVBAYTAkJFMREwDwYDVQQIDAhCcnVzc2VsczERMA8GA1UEBwwIQnJ1c3NlbHMxDDAKBgNVBAoMA0VVRjEMMAoGA1UECwwDRVVGMSIwIAYDVQQDDBl1bml6b25lLWV3cC5oZXJva3VhcHAuY29tMSEwHwYJKoZIhvcNAQkBFhJmcGVpeG90b0B1cG9ydG8ucHQwHhcNMjExMTE5MDk1MDA3WhcNMjIxMTE5MDk1MDA3WjCBljELMAkGA1UEBhMCQkUxETAPBgNVBAgMCEJydXNzZWxzMREwDwYDVQQHDAhCcnVzc2VsczEMMAoGA1UECgwDRVVGMQwwCgYDVQQLDANFVUYxIjAgBgNVBAMMGXVuaXpvbmUtZXdwLmhlcm9rdWFwcC5jb20xITAfBgkqhkiG9w0BCQEWEmZwZWl4b3RvQHVwb3J0by5wdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOJrON+t6oIMrwJ8WnGnBt0wSzBOsePUMRUgRIWc4Nrdc6psGzbxwjpquzhNB5kchk5nd1BFMGSwWtw/84i/4MsToUjjkVHvAIVzW8YjLXXcBMU5hIwd9ddLMI/sDKRYrx/xkuuFg2BdPgGdW8ZBu5n9pwlc1Gi4MKNzuhwm7G78W3TjA7mujG1+NMZ1hcQCpRXDltR0WYcPmZ/7ZGzGr0j9CJ7nFaHltQrLNi/dMiZrSd1fiv7Z/vrRqoRsv4rpJIk51jozeMvSsni+//iNG5L1+yIxEoc9sD7tl5uzlRVEACmURKfItGX1+EgqiGscY3V96+bvEhWOSlO2J6Twcu8CAwEAAaNTMFEwHQYDVR0OBBYEFIs6hSSHaPYr5Tijh7D1TO+m/vtFMB8GA1UdIwQYMBaAFIs6hSSHaPYr5Tijh7D1TO+m/vtFMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAC+tgecaFRQ0WLPmyqSvi6MJnF6i0cbe0tIBIJGPsRkhpHAbQqjzP+MlVedDAkAALMv8r7VDAe5ioTHNEeyerx9W5mZdHAZSNQ6ibzJzOyb3ZLR1IAfZX0h1pIz2b/UcnLq5d4Xixj+wAtvIJOUwBHBSIsiEsBUFWD7RX1zwmUk1Dara/W/5O6ffEaIIjSAi5DhX3qKIjcKT2zU9kd7ILTQ60BFhujk1WzRd3eOBqBCTPg/235pzAqH70VZIwUsXYwCCqPWC4qM0AK2YvLaT2xSbrBseO+wSgCDB3KYTRhVsKo9p1PXZVSTiWr5NCuOyNnremoTuuMIoMIEayc4ho10=</certificate>
             <rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4ms4363qggyvAnxacacG3TBLME6x49QxFSBEhZzg2t1zqmwbNvHCOmq7OE0HmRyGTmd3UEUwZLBa3D/ziL/gyxOhSOORUe8AhXNbxiMtddwExTmEjB3110swj+wMpFivH/GS64WDYF0+AZ1bxkG7mf2nCVzUaLgwo3O6HCbsbvxbdOMDua6MbX40xnWFxAKlFcOW1HRZhw+Zn/tkbMavSP0InucVoeW1Css2L90yJmtJ3V+K/tn++tGqhGy/iukkiTnWOjN4y9KyeL7/+I0bkvX7IjEShz2wPu2Xm7OVFUQAKZREp8i0ZfX4SCqIaxxjdX3r5u8SFY5KU7YnpPBy7wIDAQAB</rsa-public-key>
         </client-credentials-in-use>
         <server-credentials-in-use>
@@ -36481,8 +36482,8 @@
         </server-credentials-in-use>
     </host>
     <host>
-        <ewp:admin-email>ewp.admin@erasmus-dashboard.eu</ewp:admin-email>
-        <ewp:admin-email>edssi@it.auth.gr</ewp:admin-email>
+        <ewp:admin-email>ewp-plus@it.auth.gr</ewp:admin-email>
+        <ewp:admin-email>ewp-monitor@it.auth.gr</ewp:admin-email>
         <ewp:admin-notes>Manifest File for general endpoints Erasmus Dashboard.</ewp:admin-notes>
         <r:apis-implemented>
             <discovery
@@ -36499,7 +36500,6 @@
             </echo>
         </r:apis-implemented>
         <client-credentials-in-use>
-            <certificate>MIIEDzCCAvegAwIBAgIUPRdcKeeyNd+gKafZrDgh7LcfH78wDQYJKoZIhvcNAQELBQAwgZYxCzAJBgNVBAYTAkJFMREwDwYDVQQIDAhCcnVzc2VsczERMA8GA1UEBwwIQnJ1c3NlbHMxDDAKBgNVBAoMA0VVRjEMMAoGA1UECwwDRVVGMSIwIAYDVQQDDBl1bml6b25lLWV3cC5oZXJva3VhcHAuY29tMSEwHwYJKoZIhvcNAQkBFhJmcGVpeG90b0B1cG9ydG8ucHQwHhcNMjExMTE5MDk1MDA3WhcNMjIxMTE5MDk1MDA3WjCBljELMAkGA1UEBhMCQkUxETAPBgNVBAgMCEJydXNzZWxzMREwDwYDVQQHDAhCcnVzc2VsczEMMAoGA1UECgwDRVVGMQwwCgYDVQQLDANFVUYxIjAgBgNVBAMMGXVuaXpvbmUtZXdwLmhlcm9rdWFwcC5jb20xITAfBgkqhkiG9w0BCQEWEmZwZWl4b3RvQHVwb3J0by5wdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOJrON+t6oIMrwJ8WnGnBt0wSzBOsePUMRUgRIWc4Nrdc6psGzbxwjpquzhNB5kchk5nd1BFMGSwWtw/84i/4MsToUjjkVHvAIVzW8YjLXXcBMU5hIwd9ddLMI/sDKRYrx/xkuuFg2BdPgGdW8ZBu5n9pwlc1Gi4MKNzuhwm7G78W3TjA7mujG1+NMZ1hcQCpRXDltR0WYcPmZ/7ZGzGr0j9CJ7nFaHltQrLNi/dMiZrSd1fiv7Z/vrRqoRsv4rpJIk51jozeMvSsni+//iNG5L1+yIxEoc9sD7tl5uzlRVEACmURKfItGX1+EgqiGscY3V96+bvEhWOSlO2J6Twcu8CAwEAAaNTMFEwHQYDVR0OBBYEFIs6hSSHaPYr5Tijh7D1TO+m/vtFMB8GA1UdIwQYMBaAFIs6hSSHaPYr5Tijh7D1TO+m/vtFMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAC+tgecaFRQ0WLPmyqSvi6MJnF6i0cbe0tIBIJGPsRkhpHAbQqjzP+MlVedDAkAALMv8r7VDAe5ioTHNEeyerx9W5mZdHAZSNQ6ibzJzOyb3ZLR1IAfZX0h1pIz2b/UcnLq5d4Xixj+wAtvIJOUwBHBSIsiEsBUFWD7RX1zwmUk1Dara/W/5O6ffEaIIjSAi5DhX3qKIjcKT2zU9kd7ILTQ60BFhujk1WzRd3eOBqBCTPg/235pzAqH70VZIwUsXYwCCqPWC4qM0AK2YvLaT2xSbrBseO+wSgCDB3KYTRhVsKo9p1PXZVSTiWr5NCuOyNnremoTuuMIoMIEayc4ho10=</certificate>
             <rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4ms4363qggyvAnxacacG3TBLME6x49QxFSBEhZzg2t1zqmwbNvHCOmq7OE0HmRyGTmd3UEUwZLBa3D/ziL/gyxOhSOORUe8AhXNbxiMtddwExTmEjB3110swj+wMpFivH/GS64WDYF0+AZ1bxkG7mf2nCVzUaLgwo3O6HCbsbvxbdOMDua6MbX40xnWFxAKlFcOW1HRZhw+Zn/tkbMavSP0InucVoeW1Css2L90yJmtJ3V+K/tn++tGqhGy/iukkiTnWOjN4y9KyeL7/+I0bkvX7IjEShz2wPu2Xm7OVFUQAKZREp8i0ZfX4SCqIaxxjdX3r5u8SFY5KU7YnpPBy7wIDAQAB</rsa-public-key>
         </client-credentials-in-use>
         <server-credentials-in-use>
