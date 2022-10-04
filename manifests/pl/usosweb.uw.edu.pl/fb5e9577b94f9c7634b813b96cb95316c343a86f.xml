@@ -1,39 +1,59 @@
-<!DOCTYPE html>
-<!-- saved from url=(0030)https://graylog.net.uw.edu.pl/ -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript">window["_gaUserPrefs"] = { ioo : function() { return true; } }</script>
-
-<title>Serwis chwilowo niedostępny</title>
-<style>
-  body {  margin:0; padding:0;}
-  #topBaner {margin:0; padding:10px; color:#fff; background:#093E67;  font: 13px Helvetica, sans-serif; }
-  #topBaner a{color:#fff;}
-  #topBaner a:hover{color:#999;}
-  #topBaner img {padding-bottom: 2px; padding-right: 6px;}
-  
-  h1 { font-size: 45px; }
-  body { font: 20px Helvetica, sans-serif; color: #333; }
-  @media (max-width: 800px) {article { display: block; text-align: left; width: 80%; margin: 0 auto; padding-top: 120px; }}
-  @media (min-width: 800px) {article { display: block; text-align: left; width: 40%; margin: 0 auto; padding-top: 120px; }}
-  
-  a { color: #dc8100; text-decoration: none; }
-  a:hover { color: #333; text-decoration: none; }
-</style>
-</head>
-<body>
-	<div id="topBaner"><a href="http://www.uw.edu.pl/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAFCAYAAACXU8ZrAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADBJREFUeNpi+v//PwMU/0dio2AmBgj4D8SMDDgAC1QBAxKNVREjIZNg1jHiMwkgwADzyCDyJwSfoQAAAABJRU5ErkJggg=="> Przejdź na stronę główną Uniwersytetu Warszawskiego</a></div>
-<article>
-
-	
-    <h1>Serwis chwilowo niedostępny</h1>
-
-    <div>
-	    <p>Spróbuj ponownie za chwilę</p>
-
-        <p>Aktualne informacje o pracach serwisowych <a href="https://it.uw.edu.pl/">it.uw.edu.pl</a></p>
-    </div>
-</article>
-
-
-
-
-</body></html>
+<?xml version="1.0"?>
+<manifest xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6" xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd" xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1">
+  <host>
+    <ewp:admin-email>dsksysadm@adm.uw.edu.pl</ewp:admin-email>
+    <ewp:admin-provider>MUCI (USOS)</ewp:admin-provider>
+    <r:apis-implemented>
+      <discovery xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6/manifest-entry.xsd" version="6.0.0">
+        <url>https://usosweb.uw.edu.pl/api/manifest.php</url>
+      </discovery>
+      <emrex-data-access-point xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-emrex-data-access-point/blob/stable-v1/manifest-entry.xsd" version="1.0.0">
+        <url>https://usosweb.uw.edu.pl/emp_endpoint.php</url>
+        <name>UW</name>
+        <country-code>PL</country-code>
+        <institution>University of Warsaw</institution>
+        <certificate>MIIHljCCBX6gAwIBAgIRALC7IEoNbhIZ0LQOJNNBREkwDQYJKoZIhvcNAQEMBQAw
+RDELMAkGA1UEBhMCTkwxGTAXBgNVBAoTEEdFQU5UIFZlcmVuaWdpbmcxGjAYBgNV
+BAMTEUdFQU5UIE9WIFJTQSBDQSA0MB4XDTIxMTEwNDAwMDAwMFoXDTIyMTEwNDIz
+NTk1OVowezELMAkGA1UEBhMCUEwxFDASBgNVBAgTC01hem93aWVja2llMREwDwYD
+VQQHEwhXYXJzemF3YTEfMB0GA1UEChMWVW5pd2Vyc3l0ZXQgV2Fyc3phd3NraTEi
+MCAGA1UEAxMZc2lnbmluZy51c29zd2ViLnV3LmVkdS5wbDCCASIwDQYJKoZIhvcN
+AQEBBQADggEPADCCAQoCggEBANQY1kMaAtbvPzHoMHoSh4A6rdejvMvY/8iMAEPe
+vvgco4o1Uz3BclfsyKN3YQS1B/8YFAfh0wjwrdf4XZ3a16S+S08BWU4QNmj/K+AB
+U072PIjBtGY7Er1MAB3L/6/WCXdXkx0RoPnoxvBcDR6fc/htKv5WA6DGmML/OOrX
+cv6XGP8+F0NLQeuvNOvKFp0CmB26vgEF3NvZyECEnoEGoXdUx2bdstZmXNAW69dJ
+QQbgBxAF+pLecAbthgNBFO0uulhjNIcQkrB2mirxNxVHSGWtBbLmGy+HEBAzP834
+re57yigFH4xEliT2wwKmdLqVbfD8O7F3E5dUogKwTvBu/skCAwEAAaOCA0owggNG
+MB8GA1UdIwQYMBaAFG8dNUkQbDL6WaCevIroH5W+cXoMMB0GA1UdDgQWBBTn2kl5
+hYrT3CI1FyZy//79eXvIxjAOBgNVHQ8BAf8EBAMCBaAwDAYDVR0TAQH/BAIwADAd
+BgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwSQYDVR0gBEIwQDA0BgsrBgEE
+AbIxAQICTzAlMCMGCCsGAQUFBwIBFhdodHRwczovL3NlY3RpZ28uY29tL0NQUzAI
+BgZngQwBAgIwPwYDVR0fBDgwNjA0oDKgMIYuaHR0cDovL0dFQU5ULmNybC5zZWN0
+aWdvLmNvbS9HRUFOVE9WUlNBQ0E0LmNybDB1BggrBgEFBQcBAQRpMGcwOgYIKwYB
+BQUHMAKGLmh0dHA6Ly9HRUFOVC5jcnQuc2VjdGlnby5jb20vR0VBTlRPVlJTQUNB
+NC5jcnQwKQYIKwYBBQUHMAGGHWh0dHA6Ly9HRUFOVC5vY3NwLnNlY3RpZ28uY29t
+MEMGA1UdEQQ8MDqCGXNpZ25pbmcudXNvc3dlYi51dy5lZHUucGyCHXd3dy5zaWdu
+aW5nLnVzb3N3ZWIudXcuZWR1LnBsMIIBfQYKKwYBBAHWeQIEAgSCAW0EggFpAWcA
+dQBGpVXrdfqRIDC1oolp9PN9ESxBdL79SbiFq/L8cP5tRwAAAXzrEUCXAAAEAwBG
+MEQCIGHE2wvnZn2uHm9FgaClrQlGh4pMk4TcVgaW+zHgr61dAiBqj6/UeHZb31uM
+1Fb26W4QMY4o8C4FeLzzy4obn1S0nwB2AEHIyrHfIkZKEMahOglCh15OMYsbA+vr
+S8do8JBilgb2AAABfOsRQGcAAAQDAEcwRQIgAriV5OfsW+1B1kPmRE7Wep+de1DE
+koE04C8twqXnmkICIQDPvXOjePxFh2UDrQzFLsxEeJnKwS77s2sVkMl6IzQhjQB2
+ACl5vvCeOTkh8FZzn2Old+W+V32cYAr4+U1dJlwlXceEAAABfOsRQDoAAAQDAEcw
+RQIhAMdEbeoOND1CM9Z36/uDk4PtTYkXheWBJ8OJJvY3cx0fAiBIaiU4kG2ucv44
+Dvv94YZ3KH9zxBPATpjL5FbA0eJ7lDANBgkqhkiG9w0BAQwFAAOCAgEAQN1kTkRR
+0+lOnx5V4OMqrweaJPrDfP/UqPM1JWQ3cgOLPG+eMnVHl99cvNEB4h7JGjZUn8v5
+sSaRhZRWSEkQiiDdpRgM2cnsJ+SS0QNUNCQ0jFCJPDxgFI+kS2Tj7TqqdLNSproZ
+4He4ag+OBePapmCTp1bhdOltgdYtT7hL3HzpieVNzXaIpq4LKJAJALZsM7Z+JKM9
+5OTVPElbbuI9cy+iXm54ICcby718uEDwSuIdFNnm1N0b6jgPuarx/Ry00DgTE3HX
+T/2+rmshc1Dz6bwm5s2QVgSLVx/5+MKlJxYycQnhQabb4yDlHHrZowN8sMaw/Jum
+0jUm96NPm//J1jIr3zCjwWrCRkse07KU4gPqYomjh55dv7VykF+EGpkuYXkO4rJj
+m0JEZ8OrYR2xOoSrs/WAlylrq2C1TRrNTu1uAXq7z7ozu4XeacTONC95aedQIt+H
+OUzDrYc0XZYm23VHYq/qeSJsHC57telssYXusSNA3QV0vz2CBJIPa0oJ04Qnx6HD
+U7rpN5HzripXfzSsYkjODoJSQ9E3PSG5hcbMJ0GNKj0g4fo+3rfz/vv9gIfFAyH9
+BB0Gt8kIsMXkIwbwYQHYlZ0vuYm9kg0D90qD3NqUMdyHOQPWtqEfrN9Q27vS1N3+
+CkuGny/Rctlg2p1b5t9yp1B//ukHrIJfUmI=</certificate>
+      </emrex-data-access-point>
+    </r:apis-implemented>
+  </host>
+</manifest>
