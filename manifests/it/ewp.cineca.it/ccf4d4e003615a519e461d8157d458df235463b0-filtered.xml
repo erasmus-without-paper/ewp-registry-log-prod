@@ -1,0 +1,263 @@
+<manifest
+    xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
+    xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
+    xmlns:mf="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
+    xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
+    xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6
+        https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-api-discovery/stable-v6/manifest.xsd
+
+        https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1
+        https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-api-registry/stable-v1/catalogue.xsd
+
+        https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd
+        https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-architecture/stable-v1/common-types.xsd
+
+        https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd
+        https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-api-echo/stable-v2/manifest-entry.xsd
+
+        https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2
+        https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-sec-intro/stable-v2/schema.xsd
+
+        https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1
+        https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/stable-v1/security-entries.xsd
+
+        https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1
+        https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/stable-v1/security-entries.xsd
+
+        https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1
+        https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/stable-v1/security-entries.xsd
+
+        https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1
+        https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/stable-v1/security-entries.xsd
+    "
+>
+    <host>
+        <ewp:admin-email>ewp_support@cineca.it</ewp:admin-email>
+        <ewp:admin-provider>CINECA Consorzio Interuniversitario</ewp:admin-provider>
+        <ewp:admin-notes>UNITS PROD environment</ewp:admin-notes>
+        <r:apis-implemented>
+            <discovery
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6/manifest-entry.xsd"
+                version="6.0.0"
+            >
+                <url>https://ewp.cineca.it/api/v1/primary/manifest/units.it</url>
+            </discovery>
+            <echo
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.1"
+            >
+                <http-security>
+                    <sec:client-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </sec:server-auth-methods>
+                </http-security>
+                <url>https://ewp.cineca.it/api/v1/primary/echo/units.it</url>
+            </echo>
+            <institutions
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-institutions/blob/stable-v2/manifest-entry.xsd"
+                version="2.2.0"
+            >
+                <http-security>
+                    <sec:client-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </sec:server-auth-methods>
+                </http-security>
+                <url>https://ewp.cineca.it/api/incoming/units.it/gp/institutions</url>
+                <max-hei-ids>1</max-hei-ids>
+            </institutions>
+            <organizational-units
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/blob/stable-v2/manifest-entry.xsd"
+                version="2.1.1"
+            >
+                <http-security>
+                    <sec:client-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </sec:server-auth-methods>
+                </http-security>
+                <url>https://ewp.cineca.it/api/incoming/units.it/gp/orgunits</url>
+                <max-ounit-ids>10</max-ounit-ids>
+                <max-ounit-codes>10</max-ounit-codes>
+            </organizational-units>
+            <courses
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-courses/blob/stable-v1/manifest-entry.xsd"
+                version="0.7.1"
+            >
+                <http-security>
+                    <sec:client-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </sec:server-auth-methods>
+                </http-security>
+                <url>https://ewp.cineca.it/api/incoming/units.it/gp/courses</url>
+                <max-los-ids>10</max-los-ids>
+                <max-los-codes>10</max-los-codes>
+            </courses>
+            <simple-course-replication
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-course-replication/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <http-security>
+                    <sec:client-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </sec:server-auth-methods>
+                </http-security>
+                <url>https://ewp.cineca.it/api/incoming/units.it/gp/courserep</url>
+                <allows-anonymous-access>false</allows-anonymous-access>
+                <supports-modified-since>true</supports-modified-since>
+            </simple-course-replication>
+            <iias
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v6/manifest-entry.xsd"
+                version="6.0.1"
+            >
+                <http-security>
+                    <sec:client-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </sec:server-auth-methods>
+                </http-security>
+                <get-url>https://ewp.cineca.it/api/incoming/units.it/iia/get</get-url>
+                <max-iia-ids>10</max-iia-ids>
+                <max-iia-codes>10</max-iia-codes>
+                <index-url>https://ewp.cineca.it/api/incoming/units.it/iia/index</index-url>
+            </iias>
+            <iia-cnr
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iia-cnr/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.3"
+            >
+                <http-security>
+                    <sec:client-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </sec:server-auth-methods>
+                </http-security>
+                <url>https://ewp.cineca.it/api/incoming/units.it/iia/cnr</url>
+            </iia-cnr>
+            <iias-approval
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <http-security>
+                    <sec:client-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </sec:server-auth-methods>
+                </http-security>
+                <url>https://ewp.cineca.it/api/incoming/units.it/iia/approval</url>
+                <max-iia-ids>1</max-iia-ids>
+            </iias-approval>
+            <iia-approval-cnr
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <http-security>
+                    <sec:client-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </sec:server-auth-methods>
+                </http-security>
+                <url>https://ewp.cineca.it/api/incoming/units.it/iia/cnr/approval</url>
+            </iia-approval-cnr>
+            <factsheet
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
+                version="1.1.0"
+            >
+                <http-security>
+                    <sec:client-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </sec:server-auth-methods>
+                </http-security>
+                <url>https://ewp.cineca.it/api/incoming/units.it/iia/factsheet</url>
+                <max-hei-ids>1</max-hei-ids>
+            </factsheet>
+        </r:apis-implemented>
+        <mf:institutions-covered xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1">
+            <hei id="units.it">
+                <other-id type="pic">999842051</other-id>
+                <other-id type="erasmus">I TRIESTE01</other-id>
+                <name xml:lang="it">Università degli Studi di TRIESTE</name>
+            </hei>
+        </mf:institutions-covered>
+        <client-credentials-in-use>
+            <certificate>
+MIIDlzCCAn8CBhJkAF2LBDANBgkqhkiG9w0BAQsFADCBhTELMAkGA1UEBhMCSVQx
+HDAaBgNVBAcME0Nhc2FsZWNjaGlvIGRpIFJlbm8xLDAqBgNVBAoMI0NpbmVjYSBD
+b25zb3J6aW8gSW50ZXJ1bml2ZXJzaXRhcmlvMQ8wDQYDVQQLDAZDSU5FQ0ExGTAX
+BgNVBAMMEGV3cC5wcC5jaW5lY2EuaXQwHhcNMjIwNzEyMTQwMDA0WhcNMzIwNzA5
+MTQwMDA0WjCBlzELMAkGA1UEBhMCSVQxHDAaBgNVBAcME0Nhc2FsZWNjaGlvIGRp
+IFJlbm8xLDAqBgNVBAoMI0NpbmVjYSBDb25zb3J6aW8gSW50ZXJ1bml2ZXJzaXRh
+cmlvMSEwHwYDVQQLDBhFV1AgR2F0ZXdheSBmb3IgdW5pdHMuaXQxGTAXBgNVBAMM
+EGV3cC5wcC5jaW5lY2EuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIB
+AQDHv0Rx32/EH1CSIvSgSyDkehecdQgaEiJdYKTkRbS78j9TApVKuK4qxC+ynZFm
+AC7s1H4UBO3V/SI4VezaudaI7E3crdveQJe1qL/rFWLiVWyZ2Sg+dVFf/iFOklav
+mnEqQb+1H4G8rgsnhyVbbnFcTbGrQLXkT4x3t5p8LZ0mTFiBIBfy1TVd/aSnIqn4
+Iw9WLhVIO5wQSNfYSAkJmMFEkh3dEF1oGFuywV6819PnW5MV/RsO82mkKkit/rI8
+XaD3R/47D+BDGDmj+YHglqd2SfVoHgkg2RBHXxT1HhpFmz7IKxaAwCXp9cBEwdM8
+x5D+vBj+aP02Ob5TxZUpg46lAgMBAAEwDQYJKoZIhvcNAQELBQADggEBALLzKtJR
+8tQmhuUJHkK1d9fGUe9Wpo1K3JGHnvhV9Q5C+PPqLwlHHgBV8jSf6vzt+kkmfwm/
+HUxvn2UMmxOoyaBtzpifLsmcMMbXGzvyQEUKVLPYDRsmmSz7OEwpjhax3mnh1x7N
+lto21eGik92/yXoYAYls0AGGaXje8sgACZh3XoU07vT7g0+++Jm6yAps6HN16/S+
+Gd8KXo1vEwO+c003t+sFeF3hMgbMbVdeXKlTEvnB6xwCpbyVGeG+ELh8pkwbq4hQ
+WcSEADQd03/k7KABMw0Le2XfrEY8ANtQNG+7x+w+dsKzt4FrsY3Gk92VLGhGVJz2
+Uer3i9IPKYBI9dI=
+</certificate>
+            <rsa-public-key>
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAx79Ecd9vxB9QkiL0oEsg
+5HoXnHUIGhIiXWCk5EW0u/I/UwKVSriuKsQvsp2RZgAu7NR+FATt1f0iOFXs2rnW
+iOxN3K3b3kCXtai/6xVi4lVsmdkoPnVRX/4hTpJWr5pxKkG/tR+BvK4LJ4clW25x
+XE2xq0C15E+Md7eafC2dJkxYgSAX8tU1Xf2kpyKp+CMPVi4VSDucEEjX2EgJCZjB
+RJId3RBdaBhbssFevNfT51uTFf0bDvNppCpIrf6yPF2g90f+Ow/gQxg5o/mB4Jan
+dkn1aB4JINkQR18U9R4aRZs+yCsWgMAl6fXARMHTPMeQ/rwY/mj9Njm+U8WVKYOO
+pQIDAQAB
+</rsa-public-key>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key>
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAx79Ecd9vxB9QkiL0oEsg
+5HoXnHUIGhIiXWCk5EW0u/I/UwKVSriuKsQvsp2RZgAu7NR+FATt1f0iOFXs2rnW
+iOxN3K3b3kCXtai/6xVi4lVsmdkoPnVRX/4hTpJWr5pxKkG/tR+BvK4LJ4clW25x
+XE2xq0C15E+Md7eafC2dJkxYgSAX8tU1Xf2kpyKp+CMPVi4VSDucEEjX2EgJCZjB
+RJId3RBdaBhbssFevNfT51uTFf0bDvNppCpIrf6yPF2g90f+Ow/gQxg5o/mB4Jan
+dkn1aB4JINkQR18U9R4aRZs+yCsWgMAl6fXARMHTPMeQ/rwY/mj9Njm+U8WVKYOO
+pQIDAQAB
+</rsa-public-key>
+        </server-credentials-in-use>
+    </host>
+</manifest>
