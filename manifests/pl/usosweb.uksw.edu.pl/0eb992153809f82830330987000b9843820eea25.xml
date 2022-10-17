@@ -1,13 +1,14 @@
 <?xml version="1.0"?>
-<manifest xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v5" xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd" xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1">
+<manifest xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6" xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd" xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1">
   <host>
     <ewp:admin-email>usos@uksw.edu.pl</ewp:admin-email>
+    <ewp:admin-provider>MUCI (USOS)</ewp:admin-provider>
     <r:apis-implemented>
-      <discovery xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v5/manifest-entry.xsd" version="5.0.0">
+      <discovery xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6/manifest-entry.xsd" version="6.0.0">
         <url>https://usosweb.uksw.edu.pl/api/manifest.php</url>
       </discovery>
-      <emrex-ncp xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-emrex-ncp/blob/stable-v1/manifest-entry.xsd" version="1.0.0">
-        <url>https://usosweb.uksw.edu.pl/ncp_endpoint.php</url>
+      <emrex-data-access-point xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-emrex-data-access-point/blob/stable-v1/manifest-entry.xsd" version="1.0.0">
+        <url>https://usosweb.uksw.edu.pl/emp_endpoint.php</url>
         <name>UKSW</name>
         <country-code>PL</country-code>
         <institution>Cardinal Stefan Wyszynski University in Warsaw</institution>
@@ -48,7 +49,7 @@ K07Tvi2ZzSP7yAqWPWZ3BvQMJMKdwbwQJbdd9SRoGIhkkALzFwZivoThMeW0qeut
 RbP8/hYDTEJyrE897VsDOb3btya61+xKPm3I0FWsHbuKuQ6smHHy1AotaONXkjHf
 L6YkvGRIWvkaO6VQWZ/MGUI9uSRW758e3NxAY2tTDVjQI04prqwzpY7pG1yQFSDZ
 2C+5Zog7oYAd+bk23oqWX5pa/H02OHJ48f67ZtJsW8tlehq6f+9dqljjzE1c6Xo=</certificate>
-      </emrex-ncp>
+      </emrex-data-access-point>
     </r:apis-implemented>
   </host>
 </manifest>
