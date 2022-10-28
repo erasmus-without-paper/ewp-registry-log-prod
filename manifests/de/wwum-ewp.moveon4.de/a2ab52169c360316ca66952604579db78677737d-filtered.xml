@@ -22,4 +22,129 @@
     xmlns:sec-A2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
     xmlns:sec-B1="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
     xmlns:sec-B2="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
-/>
+>
+    <ns3:host>
+        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+        <ewp:admin-provider>QS MoveON</ewp:admin-provider>
+        <r:apis-implemented>
+            <d6:discovery version="6.0.0">
+                <d6:url>https://wwum-ewp.moveon4.de/v1/manifest</d6:url>
+            </d6:discovery>
+            <e2:echo version="2.0.1">
+                <e2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </e2:http-security>
+                <e2:url>https://wwum-ewp.moveon4.de/v1/echo</e2:url>
+            </e2:echo>
+            <in2:institutions version="2.2.0">
+                <in2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </in2:http-security>
+                <in2:url>https://wwum-ewp.moveon4.de/v1/institution</in2:url>
+                <in2:max-hei-ids>10</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.1.1">
+                <ou2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </ou2:http-security>
+                <ou2:url>https://wwum-ewp.moveon4.de/v1/ounit</ou2:url>
+                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+            <om1:omobilities version="1.0.0">
+                <om1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </om1:http-security>
+                <om1:get-url>https://wwum-ewp.moveon4.de/v1/omobility/get</om1:get-url>
+                <om1:index-url>https://wwum-ewp.moveon4.de/v1/omobility/index</om1:index-url>
+                <om1:max-omobility-ids>10</om1:max-omobility-ids>
+                <om1:sends-notifications/>
+            </om1:omobilities>
+            <omc1:omobility-cnr version="1.0.0">
+                <omc1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </omc1:http-security>
+                <omc1:url>https://wwum-ewp.moveon4.de/v1/omobility/cnr</omc1:url>
+                <omc1:max-omobility-ids>10</omc1:max-omobility-ids>
+            </omc1:omobility-cnr>
+            <im1:imobilities version="1.0.0">
+                <im1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </im1:http-security>
+                <im1:get-url>https://wwum-ewp.moveon4.de/v1/imobility/get</im1:get-url>
+                <im1:max-omobility-ids>10</im1:max-omobility-ids>
+                <im1:sends-notifications/>
+            </im1:imobilities>
+            <imc1:imobility-cnr version="1.0.0">
+                <imc1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </imc1:http-security>
+                <imc1:url>https://wwum-ewp.moveon4.de/v1/imobility/cnr</imc1:url>
+                <imc1:max-omobility-ids>10</imc1:max-omobility-ids>
+            </imc1:imobility-cnr>
+        </r:apis-implemented>
+        <ns3:institutions-covered>
+            <r:hei id="uni-muenster.de">
+                <r:other-id type="erasmus">D  MUNSTER01</r:other-id>
+                <r:other-id type="erasmus-charter">28449</r:other-id>
+                <r:other-id type="pic">999853691</r:other-id>
+                <r:name xml:lang="en">Westfälische Wilhelms-Universität Münster</r:name>
+            </r:hei>
+        </ns3:institutions-covered>
+        <ns3:client-credentials-in-use>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArBJFoVfIhD6iNyTEQ8J2
+vOfuvoqsMcWoHOKVcFAmOQga7kyjiSAjj/y8yb15B5+9n9HYFt3lkxnT4kjNMcRE
+YYkZFUss190WVW8l5r9AHT7s4477RdfDuKEE8da6lPNOVgQw+EYfAGoROEne539L
+iF4mdgpbvTTlKQ3FAK19+u24agKqNfoCO7IRb0zKRux99B6VUuXZDTRXxXP6sQdD
+2cgb9X7QK4TiNhie+gSXA6ZGfoCtGD8PxCSAUY+R3Kq/2pU2uRkOG+NLfP7fZygP
+9wdxM4HUFmkyGCRhSYvOctDvNDRIJeQGx2bXgFn0uSCHJ5nZwDlkUv0UXvqjoiT+
+zQIDAQAB
+</ns3:rsa-public-key>
+        </ns3:client-credentials-in-use>
+        <ns3:server-credentials-in-use>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArBJFoVfIhD6iNyTEQ8J2
+vOfuvoqsMcWoHOKVcFAmOQga7kyjiSAjj/y8yb15B5+9n9HYFt3lkxnT4kjNMcRE
+YYkZFUss190WVW8l5r9AHT7s4477RdfDuKEE8da6lPNOVgQw+EYfAGoROEne539L
+iF4mdgpbvTTlKQ3FAK19+u24agKqNfoCO7IRb0zKRux99B6VUuXZDTRXxXP6sQdD
+2cgb9X7QK4TiNhie+gSXA6ZGfoCtGD8PxCSAUY+R3Kq/2pU2uRkOG+NLfP7fZygP
+9wdxM4HUFmkyGCRhSYvOctDvNDRIJeQGx2bXgFn0uSCHJ5nZwDlkUv0UXvqjoiT+
+zQIDAQAB
+</ns3:rsa-public-key>
+        </ns3:server-credentials-in-use>
+    </ns3:host>
+</ns3:manifest>
