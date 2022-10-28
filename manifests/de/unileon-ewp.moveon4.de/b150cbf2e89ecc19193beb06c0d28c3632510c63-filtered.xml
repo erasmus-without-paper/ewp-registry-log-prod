@@ -22,4 +22,129 @@
     xmlns:sec-A2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
     xmlns:sec-B1="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
     xmlns:sec-B2="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
-/>
+>
+    <ns3:host>
+        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+        <ewp:admin-provider>QS MoveON</ewp:admin-provider>
+        <r:apis-implemented>
+            <d6:discovery version="6.0.0">
+                <d6:url>https://unileon-ewp.moveon4.de/v1/manifest</d6:url>
+            </d6:discovery>
+            <e2:echo version="2.0.1">
+                <e2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </e2:http-security>
+                <e2:url>https://unileon-ewp.moveon4.de/v1/echo</e2:url>
+            </e2:echo>
+            <in2:institutions version="2.2.0">
+                <in2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </in2:http-security>
+                <in2:url>https://unileon-ewp.moveon4.de/v1/institution</in2:url>
+                <in2:max-hei-ids>10</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.1.1">
+                <ou2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </ou2:http-security>
+                <ou2:url>https://unileon-ewp.moveon4.de/v1/ounit</ou2:url>
+                <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+            <om1:omobilities version="1.0.0">
+                <om1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </om1:http-security>
+                <om1:get-url>https://unileon-ewp.moveon4.de/v1/omobility/get</om1:get-url>
+                <om1:index-url>https://unileon-ewp.moveon4.de/v1/omobility/index</om1:index-url>
+                <om1:max-omobility-ids>10</om1:max-omobility-ids>
+                <om1:sends-notifications/>
+            </om1:omobilities>
+            <omc1:omobility-cnr version="1.0.0">
+                <omc1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </omc1:http-security>
+                <omc1:url>https://unileon-ewp.moveon4.de/v1/omobility/cnr</omc1:url>
+                <omc1:max-omobility-ids>10</omc1:max-omobility-ids>
+            </omc1:omobility-cnr>
+            <im1:imobilities version="1.0.0">
+                <im1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </im1:http-security>
+                <im1:get-url>https://unileon-ewp.moveon4.de/v1/imobility/get</im1:get-url>
+                <im1:max-omobility-ids>10</im1:max-omobility-ids>
+                <im1:sends-notifications/>
+            </im1:imobilities>
+            <imc1:imobility-cnr version="1.0.0">
+                <imc1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </imc1:http-security>
+                <imc1:url>https://unileon-ewp.moveon4.de/v1/imobility/cnr</imc1:url>
+                <imc1:max-omobility-ids>10</imc1:max-omobility-ids>
+            </imc1:imobility-cnr>
+        </r:apis-implemented>
+        <ns3:institutions-covered>
+            <r:hei id="unileon.es">
+                <r:other-id type="erasmus">E  LEON01</r:other-id>
+                <r:other-id type="erasmus-charter">29505</r:other-id>
+                <r:other-id type="pic">999453372</r:other-id>
+                <r:name xml:lang="en">Universidad de León</r:name>
+            </r:hei>
+        </ns3:institutions-covered>
+        <ns3:client-credentials-in-use>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuTJTfvvksEUYP4GFZ7gr
+d1fhgkAtLQS7tXURgFBa/Iu9aE+mZra9QPCVwDzvqcOhIf5Mh8L9WYW9xSdzuWYA
+i2Ii2ULqEee4l0R7h9q4g2tZ9qisUo5cfM15BmY+WoTAF42KdEonbIc34J9u699a
+Ea6E4kwY5AJdxkner6tJAlsilNFv+bueNC5FVEUDCp6D8daHKYEqs8TGZZo93G0T
+zafcKU7KY8grO4J4f/XEHvY/hW+/ZYs1i9XWrT34Cv3WNSoplMrZreRVhuIsgiC/
+va3vOJySO+QyJb1wfeXuSJgGaj1Ht+nIqT8YvcqY/0hZXnMpnYc077Ax2rhDi6Ca
+xwIDAQAB
+</ns3:rsa-public-key>
+        </ns3:client-credentials-in-use>
+        <ns3:server-credentials-in-use>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuTJTfvvksEUYP4GFZ7gr
+d1fhgkAtLQS7tXURgFBa/Iu9aE+mZra9QPCVwDzvqcOhIf5Mh8L9WYW9xSdzuWYA
+i2Ii2ULqEee4l0R7h9q4g2tZ9qisUo5cfM15BmY+WoTAF42KdEonbIc34J9u699a
+Ea6E4kwY5AJdxkner6tJAlsilNFv+bueNC5FVEUDCp6D8daHKYEqs8TGZZo93G0T
+zafcKU7KY8grO4J4f/XEHvY/hW+/ZYs1i9XWrT34Cv3WNSoplMrZreRVhuIsgiC/
+va3vOJySO+QyJb1wfeXuSJgGaj1Ht+nIqT8YvcqY/0hZXnMpnYc077Ax2rhDi6Ca
+xwIDAQAB
+</ns3:rsa-public-key>
+        </ns3:server-credentials-in-use>
+    </ns3:host>
+</ns3:manifest>
