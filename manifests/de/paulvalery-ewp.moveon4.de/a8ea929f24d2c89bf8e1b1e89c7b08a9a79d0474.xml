@@ -1,2 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ns3:manifest xmlns:ns3="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6" xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd" xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1" xmlns:d6="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6/manifest-entry.xsd" xmlns:e2="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd" xmlns:in2="https://github.com/erasmus-without-paper/ewp-specs-api-institutions/blob/stable-v2/manifest-entry.xsd" xmlns:ou2="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/blob/stable-v2/manifest-entry.xsd" xmlns:ia6="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v6/manifest-entry.xsd" xmlns:f1="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd" xmlns:iac2="https://github.com/erasmus-without-paper/ewp-specs-api-iia-cnr/blob/stable-v2/manifest-entry.xsd" xmlns:iaa1="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd" xmlns:iaac1="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v1/manifest-entry.xsd" xmlns:im1="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v1/manifest-entry.xsd" xmlns:imc1="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-cnr/blob/stable-v1/manifest-entry.xsd" xmlns:om1="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd" xmlns:omc1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/blob/stable-v1/manifest-entry.xsd" xmlns:oml1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd" xmlns:omlc1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd" xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2" xmlns:sec-A1="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1" xmlns:sec-A2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1" xmlns:sec-B1="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1" xmlns:sec-B2="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+<ns3:manifest xmlns:ns3="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6" xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd" xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1" xmlns:d6="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6/manifest-entry.xsd" xmlns:e2="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd" xmlns:in2="https://github.com/erasmus-without-paper/ewp-specs-api-institutions/blob/stable-v2/manifest-entry.xsd" xmlns:ou2="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/blob/stable-v2/manifest-entry.xsd" xmlns:ia6="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v6/manifest-entry.xsd" xmlns:f1="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd" xmlns:iac2="https://github.com/erasmus-without-paper/ewp-specs-api-iia-cnr/blob/stable-v2/manifest-entry.xsd" xmlns:iaa1="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd" xmlns:iaac1="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v1/manifest-entry.xsd" xmlns:im1="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v1/manifest-entry.xsd" xmlns:imc1="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-cnr/blob/stable-v1/manifest-entry.xsd" xmlns:om1="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd" xmlns:omc1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/blob/stable-v1/manifest-entry.xsd" xmlns:oml1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd" xmlns:omlc1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd" xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2" xmlns:sec-A1="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1" xmlns:sec-A2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1" xmlns:sec-B1="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1" xmlns:sec-B2="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1">
+  <ns3:host>
+    <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+    <ewp:admin-provider>QS MoveON</ewp:admin-provider>
+    <r:apis-implemented>
+      <d6:discovery version="6.0.0">
+        <d6:url>https://paulvalery-ewp.moveon4.de/v1/manifest</d6:url>
+      </d6:discovery>
+      <e2:echo version="2.0.1">
+        <e2:http-security>
+          <sec:client-auth-methods>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </e2:http-security>
+        <e2:url>https://paulvalery-ewp.moveon4.de/v1/echo</e2:url>
+      </e2:echo>
+      <in2:institutions version="2.2.0">
+        <in2:http-security>
+          <sec:client-auth-methods>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </in2:http-security>
+        <in2:url>https://paulvalery-ewp.moveon4.de/v1/institution</in2:url>
+        <in2:max-hei-ids>10</in2:max-hei-ids>
+      </in2:institutions>
+      <ou2:organizational-units version="2.1.1">
+        <ou2:http-security>
+          <sec:client-auth-methods>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </ou2:http-security>
+        <ou2:url>https://paulvalery-ewp.moveon4.de/v1/ounit</ou2:url>
+        <ou2:max-ounit-ids>10</ou2:max-ounit-ids>
+        <ou2:max-ounit-codes>10</ou2:max-ounit-codes>
+      </ou2:organizational-units>
+    </r:apis-implemented>
+    <ns3:institutions-covered>
+      <r:hei id="univ-montp3.fr">
+        <r:other-id type="erasmus">F  MONTPEL03</r:other-id>
+        <r:other-id type="erasmus-charter">28497</r:other-id>
+        <r:other-id type="pic">984247943</r:other-id>
+        <r:name xml:lang="en">Université Paul Valéry Montpellier</r:name>
+      </r:hei>
+    </ns3:institutions-covered>
+    <ns3:client-credentials-in-use>
+      <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmJgp71DVnc49t5CmUPG0
+hFV0Z5+lpla0WF6hPoECNUP/R3oCb0p7jAC/l8nLPfBDqXfZ4FOT+1065Su7OBCV
+eR7hj+NnOcQXoYeCfR/1VwHNolQ+VreV8Ti4KACogffZH/zD9FiHxhxYna8DIqzr
+yWXNBPWvPY/eOp68Qcp4pHW9rJHzMruq2uHG0EIkGrxHQzfVaDofFiTgBZSSxXbs
+6NOl81aaR7zE1wCit0V6+yZWTVP2OWkVVAwDiw0pyr/wTKlBDDUnZFsIAOuhOx7r
+CwKQBLkPuzxCx9AXrESYwCbpB+EGhZac5A2MlenA4U978hrnzOI2RD5Rgfz0juM9
+6wIDAQAB
+</ns3:rsa-public-key>
+    </ns3:client-credentials-in-use>
+    <ns3:server-credentials-in-use>
+      <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmJgp71DVnc49t5CmUPG0
+hFV0Z5+lpla0WF6hPoECNUP/R3oCb0p7jAC/l8nLPfBDqXfZ4FOT+1065Su7OBCV
+eR7hj+NnOcQXoYeCfR/1VwHNolQ+VreV8Ti4KACogffZH/zD9FiHxhxYna8DIqzr
+yWXNBPWvPY/eOp68Qcp4pHW9rJHzMruq2uHG0EIkGrxHQzfVaDofFiTgBZSSxXbs
+6NOl81aaR7zE1wCit0V6+yZWTVP2OWkVVAwDiw0pyr/wTKlBDDUnZFsIAOuhOx7r
+CwKQBLkPuzxCx9AXrESYwCbpB+EGhZac5A2MlenA4U978hrnzOI2RD5Rgfz0juM9
+6wIDAQAB
+</ns3:rsa-public-key>
+    </ns3:server-credentials-in-use>
+  </ns3:host>
+</ns3:manifest>
