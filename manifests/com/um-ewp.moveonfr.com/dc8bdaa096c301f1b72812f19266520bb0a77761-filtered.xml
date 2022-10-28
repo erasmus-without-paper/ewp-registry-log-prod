@@ -22,4 +22,53 @@
     xmlns:sec-A2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
     xmlns:sec-B1="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
     xmlns:sec-B2="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
-/>
+>
+    <ns3:host>
+        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+        <ewp:admin-provider>QS MoveON</ewp:admin-provider>
+        <r:apis-implemented>
+            <d6:discovery version="6.0.0">
+                <d6:url>https://um-ewp.moveonfr.com/v1/manifest</d6:url>
+            </d6:discovery>
+            <e2:echo version="2.0.1">
+                <e2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </e2:http-security>
+                <e2:url>https://um-ewp.moveonfr.com/v1/echo</e2:url>
+            </e2:echo>
+        </r:apis-implemented>
+        <ns3:institutions-covered>
+            <r:hei id="unimaas.nl">
+                <r:other-id type="erasmus">NL MAASTRI01</r:other-id>
+                <r:other-id type="erasmus-charter">28843</r:other-id>
+                <r:other-id type="pic">999975911</r:other-id>
+                <r:name xml:lang="en">Maastricht University</r:name>
+            </r:hei>
+        </ns3:institutions-covered>
+        <ns3:client-credentials-in-use>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt7k+MabVIMTofR27+iow
+faSgwV8S5unq+qQ2OscC8F5q+61rYtpewAnyxyMNGVKYKis84mbOrmB70oBIEVYU
+SAfc+BahUvGMKrL3BHf1NuLCQU+7Bx2C1OreRq8YivumfmUp7MH4TNFSSbtb+NnS
+E5zT6NaUrfUOXQqW9RnlF9YK7Cou9kweWN6nwSbkcv4Mvq3oQtHHM86KAZv5JS+y
+vFzIird1VbC6m+kdsdlopCMdwDToQkIPvAovDvPsCDNKebwjBEnHdcAhqjINTTG9
+pD+hbvJKZb9u9jeY/WHvUj7nsQB6JXOzyFwkAJB9GYFnlRmeMhJXG+G2IaeFPmMI
+HQIDAQAB
+</ns3:rsa-public-key>
+        </ns3:client-credentials-in-use>
+        <ns3:server-credentials-in-use>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt7k+MabVIMTofR27+iow
+faSgwV8S5unq+qQ2OscC8F5q+61rYtpewAnyxyMNGVKYKis84mbOrmB70oBIEVYU
+SAfc+BahUvGMKrL3BHf1NuLCQU+7Bx2C1OreRq8YivumfmUp7MH4TNFSSbtb+NnS
+E5zT6NaUrfUOXQqW9RnlF9YK7Cou9kweWN6nwSbkcv4Mvq3oQtHHM86KAZv5JS+y
+vFzIird1VbC6m+kdsdlopCMdwDToQkIPvAovDvPsCDNKebwjBEnHdcAhqjINTTG9
+pD+hbvJKZb9u9jeY/WHvUj7nsQB6JXOzyFwkAJB9GYFnlRmeMhJXG+G2IaeFPmMI
+HQIDAQAB
+</ns3:rsa-public-key>
+        </ns3:server-credentials-in-use>
+    </ns3:host>
+</ns3:manifest>
