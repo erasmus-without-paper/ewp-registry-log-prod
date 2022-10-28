@@ -22,4 +22,53 @@
     xmlns:sec-A2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
     xmlns:sec-B1="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
     xmlns:sec-B2="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
-/>
+>
+    <ns3:host>
+        <ewp:admin-email>umesh@qs.com</ewp:admin-email>
+        <ewp:admin-provider>QS MoveON</ewp:admin-provider>
+        <r:apis-implemented>
+            <d6:discovery version="6.0.0">
+                <d6:url>https://herts-ewp.moveon4.com/v1/manifest</d6:url>
+            </d6:discovery>
+            <e2:echo version="2.0.1">
+                <e2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </e2:http-security>
+                <e2:url>https://herts-ewp.moveon4.com/v1/echo</e2:url>
+            </e2:echo>
+        </r:apis-implemented>
+        <ns3:institutions-covered>
+            <r:hei id="herts.ac.uk">
+                <r:other-id type="erasmus">UK HATFIEL01</r:other-id>
+                <r:other-id type="erasmus-charter">28632</r:other-id>
+                <r:other-id type="pic">999911115</r:other-id>
+                <r:name xml:lang="en">University of Hertfordshire</r:name>
+            </r:hei>
+        </ns3:institutions-covered>
+        <ns3:client-credentials-in-use>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA19pUtsAwfsdo9sUl9Pom
+Mn33PZUljXvtMLAPbInpz/Ru11AUz5KWmoyAplgxlWw9Pm/r1sj8YpfWob5VecVF
+7jsxr5+CgEOMF/SuEkeqzByxAd+2QEDn4q3LzGUvXAVSEiu+YQ+2lQ/wSsiDncNc
+kt1oqLkjx3id7XW5xLAUb3pYLMT5UJKdX0fFMlFxloxksVuK2DneOsdBmS31D0K+
+QY5JSQJv2bvACPi6geNAfX5dK1chSct+aEZkOJAKqxLXaz7VN9HExfRNxJaBU9LR
+iKiEB0+Mn/i6kAjUDOm9ujDEh0XoaKgP5FWmPQXfrU4Y1EzRLa28Nu7hWjeyAcr6
+MwIDAQAB
+</ns3:rsa-public-key>
+        </ns3:client-credentials-in-use>
+        <ns3:server-credentials-in-use>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA19pUtsAwfsdo9sUl9Pom
+Mn33PZUljXvtMLAPbInpz/Ru11AUz5KWmoyAplgxlWw9Pm/r1sj8YpfWob5VecVF
+7jsxr5+CgEOMF/SuEkeqzByxAd+2QEDn4q3LzGUvXAVSEiu+YQ+2lQ/wSsiDncNc
+kt1oqLkjx3id7XW5xLAUb3pYLMT5UJKdX0fFMlFxloxksVuK2DneOsdBmS31D0K+
+QY5JSQJv2bvACPi6geNAfX5dK1chSct+aEZkOJAKqxLXaz7VN9HExfRNxJaBU9LR
+iKiEB0+Mn/i6kAjUDOm9ujDEh0XoaKgP5FWmPQXfrU4Y1EzRLa28Nu7hWjeyAcr6
+MwIDAQAB
+</ns3:rsa-public-key>
+        </ns3:server-credentials-in-use>
+    </ns3:host>
+</ns3:manifest>
