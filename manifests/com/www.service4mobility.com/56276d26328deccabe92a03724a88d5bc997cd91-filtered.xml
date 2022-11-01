@@ -90,6 +90,7 @@
                 <ns24:max-iia-ids>3</ns24:max-iia-ids>
                 <ns24:max-iia-codes>3</ns24:max-iia-codes>
                 <ns24:index-url>https://www.service4mobility.com/europe/ewp/iias-v6/index/hs-weingarten.de</ns24:index-url>
+                <ns24:stats-url>https://www.service4mobility.com/europe/ewp/iias-v6/stats/hs-weingarten.de</ns24:stats-url>
             </ns24:iias>
             <ns23:iia-cnr version="2.0.3">
                 <ns23:http-security>
@@ -125,6 +126,57 @@
                 </ns21:http-security>
                 <ns21:url>https://www.service4mobility.com/europe/ewp/iias-approval-cnr-v1/cnr/hs-weingarten.de</ns21:url>
             </ns21:iia-approval-cnr>
+            <ns18:omobilities version="2.0.0">
+                <ns18:http-security>
+                    <ns5:client-auth-methods>
+                        <ns31:httpsig/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns32:httpsig/>
+                    </ns5:server-auth-methods>
+                </ns18:http-security>
+                <ns18:get-url>https://www.service4mobility.com/europe/ewp/mobility_out/get/hs-weingarten.de</ns18:get-url>
+                <ns18:index-url>https://www.service4mobility.com/europe/ewp/mobility_out/index/hs-weingarten.de</ns18:index-url>
+                <ns18:max-omobility-ids>1</ns18:max-omobility-ids>
+                <ns18:sends-notifications/>
+            </ns18:omobilities>
+            <ns13:imobility-cnr version="1.0.0">
+                <ns13:http-security>
+                    <ns5:client-auth-methods>
+                        <ns31:httpsig/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns32:httpsig/>
+                    </ns5:server-auth-methods>
+                </ns13:http-security>
+                <ns13:url>https://www.service4mobility.com/europe/ewp/mobility_in/cnr/hs-weingarten.de</ns13:url>
+                <ns13:max-omobility-ids>1</ns13:max-omobility-ids>
+            </ns13:imobility-cnr>
+            <ns14:imobilities version="1.0.0">
+                <ns14:http-security>
+                    <ns5:client-auth-methods>
+                        <ns31:httpsig/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns32:httpsig/>
+                    </ns5:server-auth-methods>
+                </ns14:http-security>
+                <ns14:get-url>https://www.service4mobility.com/europe/ewp/mobility_in/get/hs-weingarten.de</ns14:get-url>
+                <ns14:max-omobility-ids>1</ns14:max-omobility-ids>
+                <ns14:sends-notifications/>
+            </ns14:imobilities>
+            <ns17:omobility-cnr version="1.0.0">
+                <ns17:http-security>
+                    <ns5:client-auth-methods>
+                        <ns31:httpsig/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns32:httpsig/>
+                    </ns5:server-auth-methods>
+                </ns17:http-security>
+                <ns17:url>https://www.service4mobility.com/europe/ewp/mobility_out/cnr/hs-weingarten.de</ns17:url>
+                <ns17:max-omobility-ids>1</ns17:max-omobility-ids>
+            </ns17:omobility-cnr>
             <ns16:omobility-las version="1.1.0">
                 <ns16:http-security>
                     <ns5:client-auth-methods>
@@ -137,6 +189,7 @@
                 <ns16:get-url>https://www.service4mobility.com/europe/ewp/mobility_out_la/get/hs-weingarten.de</ns16:get-url>
                 <ns16:index-url>https://www.service4mobility.com/europe/ewp/mobility_out_la/index/hs-weingarten.de</ns16:index-url>
                 <ns16:update-url>https://www.service4mobility.com/europe/ewp/mobility_out_la/update/hs-weingarten.de</ns16:update-url>
+                <ns16:stats-url>https://www.service4mobility.com/europe/ewp/mobility_out_la/get/stats/hs-weingarten.de</ns16:stats-url>
                 <ns16:max-omobility-ids>1</ns16:max-omobility-ids>
             </ns16:omobility-las>
             <ns15:omobility-la-cnr version="1.1.0">
@@ -149,6 +202,7 @@
                     </ns5:server-auth-methods>
                 </ns15:http-security>
                 <ns15:url>https://www.service4mobility.com/europe/ewp/mobility_out_la/cnr/hs-weingarten.de</ns15:url>
+                <ns15:stats-url>https://www.service4mobility.com/europe/ewp/mobility_out_la/cnr/stats/hs-weingarten.de</ns15:stats-url>
                 <ns15:max-omobility-ids>1</ns15:max-omobility-ids>
             </ns15:omobility-la-cnr>
             <ns6:factsheet version="1.1.0">
