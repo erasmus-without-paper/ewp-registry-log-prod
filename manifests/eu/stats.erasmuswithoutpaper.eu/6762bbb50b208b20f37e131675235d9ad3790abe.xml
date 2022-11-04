@@ -1,0 +1,62 @@
+<manifest
+    xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
+    xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
+    xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
+    xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+>
+    <host>
+        <ewp:admin-email>ewp-tech@lists.erasmuswithoutpaper.eu</ewp:admin-email>
+        <ewp:admin-provider>ESCI consortium (EWP Stats Portal)</ewp:admin-provider>
+        <r:apis-implemented>
+            <discovery xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6/manifest-entry.xsd" version="6.0.0">
+                <url>https://stats.erasmuswithoutpaper.eu/ewp/manifest/</url>
+            </discovery>
+            <echo xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd" version="2.0.1">
+                <http-security>
+    <client-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
+        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+    </client-auth-methods>
+    <server-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
+        <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
+        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+    </server-auth-methods>
+</http-security>
+                <url>https://stats.erasmuswithoutpaper.eu/ewp/echo/</url>
+            </echo>
+        </r:apis-implemented>
+        <institutions-covered>
+            <hei xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1" id="stats.erasmuswithoutpaper.eu">
+                <name xml:lang="en">EWP Stats Portal</name>
+            </hei>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <rsa-public-key>MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEArTiLJHMojC0EeamL2XQh
+sJRWrRepeMCVXvelZpMEgAzyjZzWx0rDV7Zmo79kRy8uhljHn32KldTDtj5Hs6XJ
+jKxclyhZYCU8VIeq0GffgiSiTK6f9YaGeDlgVqQQUBRLh8m1bA5kIXlBo+31MyoS
+V+yCW3Q9jteVAGnoLbMKCj8j+Vy/AohA+ZiU83oM0x08tjn4LydOyTC+mJNfEir0
+njMyi0ykM8nLcII4KdLzVMmRCnQEclPsOj4hkhFfYoOWgNWW3t9OsbbGlK+vDWB8
+yl3USOrRkjQAVtRjiUotbqo2XpO6xtZmPMqAwx7avseNUT5Nu9TNBU1PjVzy7Uhi
+hqNcwbEkmhvq936HMsWFhnB+fKN62rBWF1YNuvnF2PGYZRSzMHjVxl9BS6n01u8D
+tyPfVASfHpDM3T2ISbMJSZV2jXT6oM8xBjzEIXxgI7EuAX93dc7Uks9UHokScWIg
+1OrLb4rq0fES5tsCtOT6/44x3x3UVkQmLr6STe6qf0pO+B2iYoyQLZKaKDEUYfIY
+waMJUxI0mJiMCZ8icKjejDgFQssK5KSBcciN4b06qMuiI26TVUZMOZud8oR8ft73
+UNMG2wf8vF2P2nZ9BozXN/489geHLhSyfGBrfwDwVkUFeKfq9WXJC8PLoj33JZmI
+tP4i+xsC2z1BVSxUov4xe6kCAwEAAQ==</rsa-public-key>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key>MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEArTiLJHMojC0EeamL2XQh
+sJRWrRepeMCVXvelZpMEgAzyjZzWx0rDV7Zmo79kRy8uhljHn32KldTDtj5Hs6XJ
+jKxclyhZYCU8VIeq0GffgiSiTK6f9YaGeDlgVqQQUBRLh8m1bA5kIXlBo+31MyoS
+V+yCW3Q9jteVAGnoLbMKCj8j+Vy/AohA+ZiU83oM0x08tjn4LydOyTC+mJNfEir0
+njMyi0ykM8nLcII4KdLzVMmRCnQEclPsOj4hkhFfYoOWgNWW3t9OsbbGlK+vDWB8
+yl3USOrRkjQAVtRjiUotbqo2XpO6xtZmPMqAwx7avseNUT5Nu9TNBU1PjVzy7Uhi
+hqNcwbEkmhvq936HMsWFhnB+fKN62rBWF1YNuvnF2PGYZRSzMHjVxl9BS6n01u8D
+tyPfVASfHpDM3T2ISbMJSZV2jXT6oM8xBjzEIXxgI7EuAX93dc7Uks9UHokScWIg
+1OrLb4rq0fES5tsCtOT6/44x3x3UVkQmLr6STe6qf0pO+B2iYoyQLZKaKDEUYfIY
+waMJUxI0mJiMCZ8icKjejDgFQssK5KSBcciN4b06qMuiI26TVUZMOZud8oR8ft73
+UNMG2wf8vF2P2nZ9BozXN/489geHLhSyfGBrfwDwVkUFeKfq9WXJC8PLoj33JZmI
+tP4i+xsC2z1BVSxUov4xe6kCAwEAAQ==</rsa-public-key>
+        </server-credentials-in-use>
+    </host>
+</manifest>
