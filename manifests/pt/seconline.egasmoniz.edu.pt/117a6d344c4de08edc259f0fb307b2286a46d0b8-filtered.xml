@@ -264,6 +264,87 @@
                 <ns33:url>https://seconline.egasmoniz.edu.pt/mobilidadenet/ewp/ewpstage/factsheet</ns33:url>
                 <ns33:max-hei-ids>1</ns33:max-hei-ids>
             </ns33:factsheet>
+            <ns35:omobilities version="1.0.0">
+                <ns35:http-security>
+                    <ns22:client-auth-methods>
+                        <ns44:httpsig/>
+                    </ns22:client-auth-methods>
+                    <ns22:server-auth-methods>
+                        <ns45:httpsig/>
+                        <ns41:tlscert/>
+                    </ns22:server-auth-methods>
+                    <ns22:request-encryption-methods>
+                        <ns46:tls/>
+                    </ns22:request-encryption-methods>
+                    <ns22:response-encryption-methods>
+                        <ns47:tls/>
+                    </ns22:response-encryption-methods>
+                </ns35:http-security>
+                <ns35:get-url>https://seconline.egasmoniz.edu.pt/mobilidadenet/ewp/ewpstage/omobilities_get</ns35:get-url>
+                <ns35:index-url>https://seconline.egasmoniz.edu.pt/mobilidadenet/ewp/ewpstage/omobilities_index</ns35:index-url>
+                <ns35:max-omobility-ids>1</ns35:max-omobility-ids>
+            </ns35:omobilities>
+            <ns38:omobility-las version="1.0.1">
+                <ns38:http-security>
+                    <ns22:client-auth-methods>
+                        <ns44:httpsig/>
+                    </ns22:client-auth-methods>
+                    <ns22:server-auth-methods>
+                        <ns45:httpsig/>
+                        <ns41:tlscert/>
+                    </ns22:server-auth-methods>
+                    <ns22:request-encryption-methods>
+                        <ns46:tls/>
+                    </ns22:request-encryption-methods>
+                    <ns22:response-encryption-methods>
+                        <ns47:tls/>
+                    </ns22:response-encryption-methods>
+                </ns38:http-security>
+                <ns38:get-url>https://seconline.egasmoniz.edu.pt/mobilidadenet/ewp/ewpstage/omobility_la_get</ns38:get-url>
+                <ns38:index-url>https://seconline.egasmoniz.edu.pt/mobilidadenet/ewp/ewpstage/omobility_la_index</ns38:index-url>
+                <ns38:update-url>https://seconline.egasmoniz.edu.pt/mobilidadenet/ewp/ewpstage/omobility_la_update</ns38:update-url>
+                <ns38:max-omobility-ids>1</ns38:max-omobility-ids>
+            </ns38:omobility-las>
+            <ns39:omobility-cnr version="1.0.0">
+                <admin-email>erasmus@egasmoniz.edu.pt</admin-email>
+                <ns39:http-security>
+                    <ns22:client-auth-methods>
+                        <ns44:httpsig/>
+                    </ns22:client-auth-methods>
+                    <ns22:server-auth-methods>
+                        <ns45:httpsig/>
+                        <ns41:tlscert/>
+                    </ns22:server-auth-methods>
+                    <ns22:request-encryption-methods>
+                        <ns46:tls/>
+                    </ns22:request-encryption-methods>
+                    <ns22:response-encryption-methods>
+                        <ns47:tls/>
+                    </ns22:response-encryption-methods>
+                </ns39:http-security>
+                <ns39:url>https://seconline.egasmoniz.edu.pt/mobilidadenet/ewp/ewpstage/omobility_cnr</ns39:url>
+                <ns39:max-omobility-ids>1</ns39:max-omobility-ids>
+            </ns39:omobility-cnr>
+            <ns25:omobility-la-cnr version="1.0.0">
+                <admin-email>erasmus@egasmoniz.edu.pt</admin-email>
+                <ns25:http-security>
+                    <ns22:client-auth-methods>
+                        <ns44:httpsig/>
+                    </ns22:client-auth-methods>
+                    <ns22:server-auth-methods>
+                        <ns45:httpsig/>
+                        <ns41:tlscert/>
+                    </ns22:server-auth-methods>
+                    <ns22:request-encryption-methods>
+                        <ns46:tls/>
+                    </ns22:request-encryption-methods>
+                    <ns22:response-encryption-methods>
+                        <ns47:tls/>
+                    </ns22:response-encryption-methods>
+                </ns25:http-security>
+                <ns25:url>https://seconline.egasmoniz.edu.pt/mobilidadenet/ewp/ewpstage/omobility_la_cnr</ns25:url>
+                <ns25:max-omobility-ids>1</ns25:max-omobility-ids>
+            </ns25:omobility-la-cnr>
         </ns2:apis-implemented>
         <ns3:institutions-covered>
             <ns2:hei id="egasmoniz.edu.pt">
