@@ -1,0 +1,42 @@
+<manifest
+    xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v5"
+    xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
+    xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
+>
+    <host>
+        <ewp:admin-email>its-ladok-ops@lists.umu.se</ewp:admin-email>
+        <r:apis-implemented>
+            <discovery
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v5/manifest-entry.xsd"
+                version="5.0.0"
+            >
+                <url>https://www.student.ladok.se/ewp/manifest.xml</url>
+            </discovery>
+            <emrex-data-access-point
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-emrex-data-access-point/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <url>https://www.student.ladok.se/student/ncp/login</url>
+                <name>Sweden registry</name>
+                <country-code>SE</country-code>
+                <certificate>MIIDETCCAfmgAwIBAgIJAKV+6EJ/KCifMA0GCSqGSIb3DQEBCwUAMB8xHTAbBgNV
+BAMMFHd3dy5zdHVkZW50LmxhZG9rLnNlMB4XDTIxMDMxMTExNDQxOFoXDTMxMDMw
+OTExNDQxOFowHzEdMBsGA1UEAwwUd3d3LnN0dWRlbnQubGFkb2suc2UwggEiMA0G
+CSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCePC4bW6P3hEyjeGIZljE0XXUVYGRD
+fNz4B831UEYMtO3PfIvBpfWkzaXbSs64dSMhf4vgoj33CVWcmq3wThKyrc+3sWAq
+9VHpkpIN/X0J3/+L6tIEfqVhnGQ+lrJbo9nalHQCXd7sfEnfqH+eH2a/39c/WLdv
+sv7fRiWBMSfYIbWzVIy6gypUTObwg4qe0ey0Yxd57BmQLQhTqfOuUPOihqwljnAe
+afwEGfpRI+3ePeaMMnGX36s79UgJHrdTt3vhSPOx34vuOI3FGbIeIzsj3OXOhkK+
+QEI5UB/SCjtX4u4P9VtePgjEckFgkTdVJiTfu9FQ44JzNQxvbcb1PmUrAgMBAAGj
+UDBOMB0GA1UdDgQWBBS/92hwDfU8Zmm/hz6YTYrj2QMzyzAfBgNVHSMEGDAWgBS/
+92hwDfU8Zmm/hz6YTYrj2QMzyzAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUA
+A4IBAQAQOBqOCvouqDr5JNLS9VB1lxQkpMdGsiGuZHewAxlXtR5sUibKq50cfP4z
+HN6kePMF9ffHSDFH6ZnYNmAICO9UHxDe+Jwy6AFxI6WoW6sshqprzsY/jeTKTNgS
+nU5Rsdp+IK6NJGqsa2NjPCDNbMh7/1yO1n38KAGQBETcBIBX2jQHGuFi8yvt5p/b
+rYKe0j0njMIAUzdJF80pb8DSgtCO3mbavMrHDkw93nKYOfM9H1b5LqC2xStL1X5F
+mSdWzZKFTIOfgQ22PkEpBFxpiraW1j1eGHBhwGmhd+CUQcgoPkrQd1Gcu1hXeXtJ
+O2lmO4YPfXD/givJW3wEAXhWIRwp</certificate>
+            </emrex-data-access-point>
+        </r:apis-implemented>
+    </host>
+</manifest>
