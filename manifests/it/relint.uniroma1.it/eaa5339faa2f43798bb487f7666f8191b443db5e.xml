@@ -158,46 +158,7 @@
         <stats-url>https://relint.uniroma1.it/ewp/api/iia_stats.aspx</stats-url>
       </iias>      
     
-     <omobility-las version="1.0.1" xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd">
-        <http-security>
-          <sec:client-auth-methods>
-            <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
-          </sec:client-auth-methods>
-          <sec:server-auth-methods>
-            <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
-          </sec:server-auth-methods>
-          <sec:request-encryption-methods>
-            <tls xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-reqencr-tls/tree/stable-v1" />
-          </sec:request-encryption-methods>
-          <sec:response-encryption-methods>
-            <tls xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-resencr-tls/tree/stable-v1" />
-          </sec:response-encryption-methods>
-        </http-security>
-        <get-url>https://relint.uniroma1.it/ewp/api/las.aspx</get-url>
-        <index-url>https://relint.uniroma1.it/ewp/api/las_index.aspx</index-url>
-        <update-url>https://relint.uniroma1.it/ewp/api/las_update.aspx</update-url>
-        <max-omobility-ids>999</max-omobility-ids>
-        
-      </omobility-las>
-      
-      <omobility-la-cnr version="1.0.0" xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd">
-        <http-security>
-          <sec:client-auth-methods>
-            <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
-          </sec:client-auth-methods>
-          <sec:server-auth-methods>
-            <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
-          </sec:server-auth-methods>
-          <sec:request-encryption-methods>
-            <tls xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-reqencr-tls/tree/stable-v1" />
-          </sec:request-encryption-methods>
-          <sec:response-encryption-methods>
-            <tls xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-resencr-tls/tree/stable-v1" />
-          </sec:response-encryption-methods>
-        </http-security>
-        <url>https://relint.uniroma1.it/ewp/api/las_cnr.aspx</url>
-        <max-omobility-ids>999</max-omobility-ids>
-      </omobility-la-cnr>
+   
     
     
     </r:apis-implemented>
