@@ -28,8 +28,8 @@
 >
     <ns3:host>
         <admin-email>cesia.assistenzaalmarm@unibo.it</admin-email>
-        <admin-provider>ALMA MATER STUDIORUM - Università di Bologna (AlmaRM)</admin-provider>
-        <admin-notes>Provider: ALMA MATER STUDIORUM - Università di Bologna (AlmaRM)</admin-notes>
+        <admin-provider>University of Bologna</admin-provider>
+        <admin-notes>Provider: University of Bologna</admin-notes>
         <ns2:apis-implemented>
             <ns4:discovery version="6.0.0">
                 <ns4:url>https://ewp.unibo.it/ewp/rest/manifest</ns4:url>
@@ -135,27 +135,6 @@
                 <ns12:max-iia-codes>1</ns12:max-iia-codes>
                 <ns12:index-url>https://ewp.unibo.it/ewp/rest/iia/v3/index</ns12:index-url>
             </ns12:iias>
-            <ns13:iias version="2.2.2">
-                <ns13:http-security>
-                    <ns5:client-auth-methods>
-                        <ns22:httpsig/>
-                    </ns5:client-auth-methods>
-                    <ns5:server-auth-methods>
-                        <ns23:tlscert/>
-                        <ns24:httpsig/>
-                    </ns5:server-auth-methods>
-                    <ns5:request-encryption-methods>
-                        <ns25:tls/>
-                    </ns5:request-encryption-methods>
-                    <ns5:response-encryption-methods>
-                        <ns26:tls/>
-                    </ns5:response-encryption-methods>
-                </ns13:http-security>
-                <ns13:get-url>https://ewp.unibo.it/ewp/rest/iia/v2/get</ns13:get-url>
-                <ns13:max-iia-ids>1</ns13:max-iia-ids>
-                <ns13:max-iia-codes>1</ns13:max-iia-codes>
-                <ns13:index-url>https://ewp.unibo.it/ewp/rest/iia/v2/index</ns13:index-url>
-            </ns13:iias>
             <ns14:iia-cnr version="2.0.3">
                 <ns14:http-security>
                     <ns5:client-auth-methods>
