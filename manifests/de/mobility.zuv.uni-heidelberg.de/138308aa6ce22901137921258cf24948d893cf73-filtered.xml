@@ -125,31 +125,6 @@
                 </ns21:http-security>
                 <ns21:url>https://mobility.zuv.uni-heidelberg.de/mobility/ewp/iias-approval-cnr-v1/cnr/uni-heidelberg.de</ns21:url>
             </ns21:iia-approval-cnr>
-            <ns14:imobilities version="1.0.0">
-                <ns14:http-security>
-                    <ns5:client-auth-methods>
-                        <ns31:httpsig/>
-                    </ns5:client-auth-methods>
-                    <ns5:server-auth-methods>
-                        <ns32:httpsig/>
-                    </ns5:server-auth-methods>
-                </ns14:http-security>
-                <ns14:get-url>https://mobility.zuv.uni-heidelberg.de/mobility/ewp/mobility_in/get/uni-heidelberg.de</ns14:get-url>
-                <ns14:max-omobility-ids>1</ns14:max-omobility-ids>
-                <ns14:sends-notifications/>
-            </ns14:imobilities>
-            <ns17:omobility-cnr version="1.0.0">
-                <ns17:http-security>
-                    <ns5:client-auth-methods>
-                        <ns31:httpsig/>
-                    </ns5:client-auth-methods>
-                    <ns5:server-auth-methods>
-                        <ns32:httpsig/>
-                    </ns5:server-auth-methods>
-                </ns17:http-security>
-                <ns17:url>https://mobility.zuv.uni-heidelberg.de/mobility/ewp/mobility_out/cnr/uni-heidelberg.de</ns17:url>
-                <ns17:max-omobility-ids>1</ns17:max-omobility-ids>
-            </ns17:omobility-cnr>
             <ns6:factsheet version="1.1.0">
                 <ns6:http-security>
                     <ns5:client-auth-methods>
