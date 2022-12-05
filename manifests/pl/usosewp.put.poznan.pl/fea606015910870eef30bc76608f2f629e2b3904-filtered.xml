@@ -1,7 +1,7 @@
 <ns9:manifest
-    xmlns:ns9="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v5"
+    xmlns:ns9="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
     xmlns:iias="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v6/endpoints/get-response.xsd"
-    xmlns:ns10="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v5/manifest-entry.xsd"
+    xmlns:ns10="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6/manifest-entry.xsd"
     xmlns:ns11="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
     xmlns:ns12="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/blob/stable-v2/manifest-entry.xsd"
     xmlns:ns13="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd"
@@ -36,8 +36,8 @@
     xmlns:ns4="https://github.com/erasmus-without-paper/ewp-specs-types-address/tree/stable-v1"
     xmlns:ns40="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/endpoints/update-request.xsd"
     xmlns:ns41="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/endpoints/get-response.xsd"
-    xmlns:ns42="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/endpoints/update-response.xsd"
-    xmlns:ns43="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/endpoints/index-response.xsd"
+    xmlns:ns42="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/endpoints/index-response.xsd"
+    xmlns:ns43="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/endpoints/update-response.xsd"
     xmlns:ns44="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/endpoints/get-response.xsd"
     xmlns:ns45="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/endpoints/index-response.xsd"
     xmlns:ns46="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v1/endpoints/get-response.xsd"
@@ -64,15 +64,14 @@
 >
     <ns9:host>
         <ns8:admin-email>usos@put.poznan.pl</ns8:admin-email>
-        <ns8:admin-notes>Provider: MUCI (USOS)</ns8:admin-notes>
+        <ns8:admin-provider>MUCI (USOS)</ns8:admin-provider>
         <ns7:apis-implemented>
-            <ns10:discovery version="5.0.0">
+            <ns10:discovery version="6.0.0">
                 <ns10:url>https://usosewp.put.poznan.pl/ewp/manifest</ns10:url>
             </ns10:discovery>
             <ns30:echo version="2.0.1">
                 <ns30:http-security>
                     <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
                         <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
@@ -85,7 +84,6 @@
             <ns20:institutions version="2.2.0">
                 <ns20:http-security>
                     <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
                         <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
@@ -99,7 +97,6 @@
             <ns12:organizational-units version="2.1.1">
                 <ns12:http-security>
                     <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
                         <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
@@ -114,7 +111,6 @@
             <ns31:courses version="0.7.1">
                 <ns31:http-security>
                     <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
                         <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
@@ -129,7 +125,6 @@
             <ns25:iias version="6.0.1">
                 <ns25:http-security>
                     <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
                         <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
@@ -145,7 +140,6 @@
             <ns27:iia-cnr version="2.0.3">
                 <ns27:http-security>
                     <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
                         <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
@@ -158,7 +152,6 @@
             <ns26:iias-approval version="1.0.0">
                 <ns26:http-security>
                     <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
                         <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
@@ -172,7 +165,6 @@
             <ns28:iia-approval-cnr version="1.0.0">
                 <ns28:http-security>
                     <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
                         <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
@@ -182,111 +174,19 @@
                 </ns28:http-security>
                 <ns28:url>https://usosewp.put.poznan.pl/ewp/iia/approval/cnr</ns28:url>
             </ns28:iia-approval-cnr>
-            <ns24:imobilities version="0.3.0">
-                <ns24:http-security>
+            <ns29:factsheet version="1.1.0">
+                <ns29:http-security>
                     <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
                         <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
                         <ns56:tlscert/>
                         <ns55:httpsig/>
                     </ns11:server-auth-methods>
-                </ns24:http-security>
-                <ns24:get-url>https://usosewp.put.poznan.pl/ewp/imobilities/get</ns24:get-url>
-                <ns24:max-omobility-ids>100</ns24:max-omobility-ids>
-                <ns24:sends-notifications/>
-            </ns24:imobilities>
-            <ns23:imobility-cnr version="0.1.1">
-                <ns23:http-security>
-                    <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
-                        <ns47:httpsig/>
-                    </ns11:client-auth-methods>
-                    <ns11:server-auth-methods>
-                        <ns56:tlscert/>
-                        <ns55:httpsig/>
-                    </ns11:server-auth-methods>
-                </ns23:http-security>
-                <ns23:url>https://usosewp.put.poznan.pl/ewp/imobilities/cnr</ns23:url>
-                <ns23:max-omobility-ids>100</ns23:max-omobility-ids>
-            </ns23:imobility-cnr>
-            <ns16:omobilities version="1.0.0">
-                <ns16:http-security>
-                    <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
-                        <ns47:httpsig/>
-                    </ns11:client-auth-methods>
-                    <ns11:server-auth-methods>
-                        <ns56:tlscert/>
-                        <ns55:httpsig/>
-                    </ns11:server-auth-methods>
-                </ns16:http-security>
-                <ns16:get-url>https://usosewp.put.poznan.pl/ewp/omobilities/get</ns16:get-url>
-                <ns16:index-url>https://usosewp.put.poznan.pl/ewp/omobilities/index</ns16:index-url>
-                <ns16:max-omobility-ids>100</ns16:max-omobility-ids>
-                <ns16:sends-notifications/>
-            </ns16:omobilities>
-            <ns15:omobility-cnr version="1.0.0">
-                <ns15:http-security>
-                    <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
-                        <ns47:httpsig/>
-                    </ns11:client-auth-methods>
-                    <ns11:server-auth-methods>
-                        <ns56:tlscert/>
-                        <ns55:httpsig/>
-                    </ns11:server-auth-methods>
-                </ns15:http-security>
-                <ns15:url>https://usosewp.put.poznan.pl/ewp/omobilities/cnr</ns15:url>
-                <ns15:max-omobility-ids>100</ns15:max-omobility-ids>
-            </ns15:omobility-cnr>
-            <ns13:omobility-las version="1.0.1">
-                <ns13:http-security>
-                    <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
-                        <ns47:httpsig/>
-                    </ns11:client-auth-methods>
-                    <ns11:server-auth-methods>
-                        <ns56:tlscert/>
-                        <ns55:httpsig/>
-                    </ns11:server-auth-methods>
-                </ns13:http-security>
-                <ns13:get-url>https://usosewp.put.poznan.pl/ewp/la/get</ns13:get-url>
-                <ns13:index-url>https://usosewp.put.poznan.pl/ewp/la/index</ns13:index-url>
-                <ns13:update-url>https://usosewp.put.poznan.pl/ewp/la/update</ns13:update-url>
-                <ns13:max-omobility-ids>100</ns13:max-omobility-ids>
-            </ns13:omobility-las>
-            <ns21:imobility-tors version="0.7.0">
-                <ns21:http-security>
-                    <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
-                        <ns47:httpsig/>
-                    </ns11:client-auth-methods>
-                    <ns11:server-auth-methods>
-                        <ns56:tlscert/>
-                        <ns55:httpsig/>
-                    </ns11:server-auth-methods>
-                </ns21:http-security>
-                <ns21:get-url>https://usosewp.put.poznan.pl/ewp/tors/get</ns21:get-url>
-                <ns21:index-url>https://usosewp.put.poznan.pl/ewp/tors/index</ns21:index-url>
-                <ns21:max-omobility-ids>10</ns21:max-omobility-ids>
-                <ns21:sends-notifications/>
-            </ns21:imobility-tors>
-            <ns22:imobility-tor-cnr version="0.1.1">
-                <ns22:http-security>
-                    <ns11:client-auth-methods>
-                        <ns48:tlscert allows-self-signed="true"/>
-                        <ns47:httpsig/>
-                    </ns11:client-auth-methods>
-                    <ns11:server-auth-methods>
-                        <ns56:tlscert/>
-                        <ns55:httpsig/>
-                    </ns11:server-auth-methods>
-                </ns22:http-security>
-                <ns22:url>https://usosewp.put.poznan.pl/ewp/tors/cnr</ns22:url>
-                <ns22:max-omobility-ids>10</ns22:max-omobility-ids>
-            </ns22:imobility-tor-cnr>
+                </ns29:http-security>
+                <ns29:url>https://usosewp.put.poznan.pl/ewp/factsheet</ns29:url>
+                <ns29:max-hei-ids>1</ns29:max-hei-ids>
+            </ns29:factsheet>
         </ns7:apis-implemented>
         <ns9:institutions-covered>
             <ns7:hei id="put.poznan.pl">
@@ -297,27 +197,6 @@
             </ns7:hei>
         </ns9:institutions-covered>
         <ns9:client-credentials-in-use>
-            <ns9:certificate>MIID0TCCArmgAwIBAgIEHpdxXjANBgkqhkiG9w0BAQsFADCBmDELMAkGA1UEBhMC
-UEwxFTATBgNVBAgTDHdpZWxrb3BvbHNrYTEPMA0GA1UEBxMGUG96bmFuMSgwJgYD
-VQQKEx9Qb3puYW4gVW5pdmVyc2l0eSBvZiBUZWNobm9sb2d5MQ0wCwYDVQQLEwRV
-U09TMSgwJgYDVQQDEx9Qb3puYW4gVW5pdmVyc2l0eSBvZiBUZWNobm9sb2d5MB4X
-DTIyMDYyNzA2MDkyMVoXDTIyMDkyNTA2MDkyMVowgZgxCzAJBgNVBAYTAlBMMRUw
-EwYDVQQIEwx3aWVsa29wb2xza2ExDzANBgNVBAcTBlBvem5hbjEoMCYGA1UEChMf
-UG96bmFuIFVuaXZlcnNpdHkgb2YgVGVjaG5vbG9neTENMAsGA1UECxMEVVNPUzEo
-MCYGA1UEAxMfUG96bmFuIFVuaXZlcnNpdHkgb2YgVGVjaG5vbG9neTCCASIwDQYJ
-KoZIhvcNAQEBBQADggEPADCCAQoCggEBAI0OGQs8hoxJKBDeLNIqNYyshvT3zC5j
-vxz3pmFkCOaZDv6MUypsadpUDOT0lxbctLQjl4SswWmtKZzVYtO8c/ztNB2sabam
-2pl1oUXYCA9n3zNnNSV8nzHO2q0yNQe3+9cx8WFc83l+YBbu9tU7cKESbnaf4+ue
-irxhH9753VVsTNzxEZ4wiiy7yJyJaAZuYHKl+ohfxWqwG8nK1J++xszp053JSN/u
-rrIbgumiQSzQNOdhFO3dnN3fvoIqokJoqp3ytXqXPom/9SCXih1WLTnx0S/85naj
-28ScYUIut84QaMy8urKqSf4n1sg28MVWIzZfwA8Qp8KUnUxAwncJV1kCAwEAAaMh
-MB8wHQYDVR0OBBYEFAMF8XSgPh0iHMcFx7Epe/y9/vg/MA0GCSqGSIb3DQEBCwUA
-A4IBAQBSlOZeb869vsO+mNvYfpPAztf2l77+YQYQCWegAEXSBDl4s1lSjuMDeOqn
-7sFm1yLJZfGO5izRfTi9EQvURSPx1G0/o4nKoDRjuUtGL5vbx6bECy03ASOa5RN9
-qdAIue7Uy4u8xIhR3ajf4EsN5VDSNTJvfjXLFLTuNE522b7bbEWeoNQfKdMm+Zga
-zu+eIGZ4RkGkzA4Z3jIvXx6DJiz0OLbiJFj2j8GN4RuOlUMKGmRU38C1dZSzx1Ur
-7zRnKj/GGfo5PvX7ns/96WurJg4subiV9xiFFNBbYkGLIHk7bT+b1r6Jo2mr+Ngc
-U1hH3/BUJ24FocKMQEzhlHnKrE6M</ns9:certificate>
             <ns9:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjQ4ZCzyGjEkoEN4s0io1
 jKyG9PfMLmO/HPemYWQI5pkO/oxTKmxp2lQM5PSXFty0tCOXhKzBaa0pnNVi07xz
 /O00HaxptqbamXWhRdgID2ffM2c1JXyfMc7arTI1B7f71zHxYVzzeX5gFu721Ttw
