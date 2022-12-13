@@ -264,6 +264,87 @@
                 <ns35:url>https://mobilidade.ipbeja.pt/mobilidadenet/ewp/ewpstage/factsheet</ns35:url>
                 <ns35:max-hei-ids>1</ns35:max-hei-ids>
             </ns35:factsheet>
+            <ns37:omobilities version="1.0.0">
+                <ns37:http-security>
+                    <ns24:client-auth-methods>
+                        <ns46:httpsig/>
+                    </ns24:client-auth-methods>
+                    <ns24:server-auth-methods>
+                        <ns47:httpsig/>
+                        <ns43:tlscert/>
+                    </ns24:server-auth-methods>
+                    <ns24:request-encryption-methods>
+                        <ns48:tls/>
+                    </ns24:request-encryption-methods>
+                    <ns24:response-encryption-methods>
+                        <ns49:tls/>
+                    </ns24:response-encryption-methods>
+                </ns37:http-security>
+                <ns37:get-url>https://mobilidade.ipbeja.pt/mobilidadenet/ewp/ewpstage/omobilities_get</ns37:get-url>
+                <ns37:index-url>https://mobilidade.ipbeja.pt/mobilidadenet/ewp/ewpstage/omobilities_index</ns37:index-url>
+                <ns37:max-omobility-ids>1</ns37:max-omobility-ids>
+            </ns37:omobilities>
+            <ns40:omobility-las version="1.0.1">
+                <ns40:http-security>
+                    <ns24:client-auth-methods>
+                        <ns46:httpsig/>
+                    </ns24:client-auth-methods>
+                    <ns24:server-auth-methods>
+                        <ns47:httpsig/>
+                        <ns43:tlscert/>
+                    </ns24:server-auth-methods>
+                    <ns24:request-encryption-methods>
+                        <ns48:tls/>
+                    </ns24:request-encryption-methods>
+                    <ns24:response-encryption-methods>
+                        <ns49:tls/>
+                    </ns24:response-encryption-methods>
+                </ns40:http-security>
+                <ns40:get-url>https://mobilidade.ipbeja.pt/mobilidadenet/ewp/ewpstage/omobility_la_get</ns40:get-url>
+                <ns40:index-url>https://mobilidade.ipbeja.pt/mobilidadenet/ewp/ewpstage/omobility_la_index</ns40:index-url>
+                <ns40:update-url>https://mobilidade.ipbeja.pt/mobilidadenet/ewp/ewpstage/omobility_la_update</ns40:update-url>
+                <ns40:max-omobility-ids>1</ns40:max-omobility-ids>
+            </ns40:omobility-las>
+            <ns41:omobility-cnr version="1.0.0">
+                <admin-email>gri@ipbeja.pt</admin-email>
+                <ns41:http-security>
+                    <ns24:client-auth-methods>
+                        <ns46:httpsig/>
+                    </ns24:client-auth-methods>
+                    <ns24:server-auth-methods>
+                        <ns47:httpsig/>
+                        <ns43:tlscert/>
+                    </ns24:server-auth-methods>
+                    <ns24:request-encryption-methods>
+                        <ns48:tls/>
+                    </ns24:request-encryption-methods>
+                    <ns24:response-encryption-methods>
+                        <ns49:tls/>
+                    </ns24:response-encryption-methods>
+                </ns41:http-security>
+                <ns41:url>https://mobilidade.ipbeja.pt/mobilidadenet/ewp/ewpstage/omobility_cnr</ns41:url>
+                <ns41:max-omobility-ids>1</ns41:max-omobility-ids>
+            </ns41:omobility-cnr>
+            <ns27:omobility-la-cnr version="1.0.0">
+                <admin-email>gri@ipbeja.pt</admin-email>
+                <ns27:http-security>
+                    <ns24:client-auth-methods>
+                        <ns46:httpsig/>
+                    </ns24:client-auth-methods>
+                    <ns24:server-auth-methods>
+                        <ns47:httpsig/>
+                        <ns43:tlscert/>
+                    </ns24:server-auth-methods>
+                    <ns24:request-encryption-methods>
+                        <ns48:tls/>
+                    </ns24:request-encryption-methods>
+                    <ns24:response-encryption-methods>
+                        <ns49:tls/>
+                    </ns24:response-encryption-methods>
+                </ns27:http-security>
+                <ns27:url>https://mobilidade.ipbeja.pt/mobilidadenet/ewp/ewpstage/omobility_la_cnr</ns27:url>
+                <ns27:max-omobility-ids>1</ns27:max-omobility-ids>
+            </ns27:omobility-la-cnr>
         </ns2:apis-implemented>
         <ns3:institutions-covered>
             <ns2:hei id="ipbeja.pt">
