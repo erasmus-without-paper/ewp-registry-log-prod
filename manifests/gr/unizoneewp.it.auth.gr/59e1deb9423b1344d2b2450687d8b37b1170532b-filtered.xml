@@ -10090,6 +10090,40 @@
         <ewp:admin-email>ewp-monitor@it.auth.gr</ewp:admin-email>
         <ewp:admin-notes>Manifest File for general endpoints Erasmus Dashboard.</ewp:admin-notes>
         <r:apis-implemented>
+            <institutions
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-institutions/blob/stable-v2/manifest-entry.xsd"
+                version="2.1.0"
+            >
+                <http-security>
+                    <sec:client-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </sec:server-auth-methods>
+                </http-security>
+                <url>https://unizoneewp.it.auth.gr/rest/institutions/brussels.uni-foundation.eu</url>
+                <max-hei-ids>1</max-hei-ids>
+            </institutions>
+        </r:apis-implemented>
+        <institutions-covered>
+            <r:hei id="brussels.uni-foundation.eu">
+                <r:other-id type="erasmus">B  TESTING99</r:other-id>
+                <r:name>European University Foundation - Brussels office</r:name>
+            </r:hei>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4ms4363qggyvAnxacacG3TBLME6x49QxFSBEhZzg2t1zqmwbNvHCOmq7OE0HmRyGTmd3UEUwZLBa3D/ziL/gyxOhSOORUe8AhXNbxiMtddwExTmEjB3110swj+wMpFivH/GS64WDYF0+AZ1bxkG7mf2nCVzUaLgwo3O6HCbsbvxbdOMDua6MbX40xnWFxAKlFcOW1HRZhw+Zn/tkbMavSP0InucVoeW1Css2L90yJmtJ3V+K/tn++tGqhGy/iukkiTnWOjN4y9KyeL7/+I0bkvX7IjEShz2wPu2Xm7OVFUQAKZREp8i0ZfX4SCqIaxxjdX3r5u8SFY5KU7YnpPBy7wIDAQAB</rsa-public-key>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4ms4363qggyvAnxacacG3TBLME6x49QxFSBEhZzg2t1zqmwbNvHCOmq7OE0HmRyGTmd3UEUwZLBa3D/ziL/gyxOhSOORUe8AhXNbxiMtddwExTmEjB3110swj+wMpFivH/GS64WDYF0+AZ1bxkG7mf2nCVzUaLgwo3O6HCbsbvxbdOMDua6MbX40xnWFxAKlFcOW1HRZhw+Zn/tkbMavSP0InucVoeW1Css2L90yJmtJ3V+K/tn++tGqhGy/iukkiTnWOjN4y9KyeL7/+I0bkvX7IjEShz2wPu2Xm7OVFUQAKZREp8i0ZfX4SCqIaxxjdX3r5u8SFY5KU7YnpPBy7wIDAQAB</rsa-public-key>
+        </server-credentials-in-use>
+    </host>
+    <host>
+        <ewp:admin-email>ewp-plus@it.auth.gr</ewp:admin-email>
+        <ewp:admin-email>ewp-monitor@it.auth.gr</ewp:admin-email>
+        <ewp:admin-notes>Manifest File for general endpoints Erasmus Dashboard.</ewp:admin-notes>
+        <r:apis-implemented>
             <organizational-units
                 xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/blob/stable-v2/manifest-entry.xsd"
                 version="2.1.0"
