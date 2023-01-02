@@ -106,6 +106,7 @@
                 <max-iia-ids>255</max-iia-ids>
                 <max-iia-codes>255</max-iia-codes>
                 <index-url>https://unitus-ewp.gomp.it/api/ewp/iaasindex620</index-url>
+                <stats-url>https://unitus-ewp.gomp.it/api/ewp/iaasstats620</stats-url>
             </iias>
             <iia-cnr
                 xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iia-cnr/blob/stable-v2/manifest-entry.xsd"
@@ -152,7 +153,7 @@
             </iia-approval-cnr>
             <omobility-las
                 xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd"
-                version="1.0.1"
+                version="1.2.0"
             >
                 <http-security>
                     <client-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
@@ -162,9 +163,10 @@
                         <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
                     </server-auth-methods>
                 </http-security>
-                <get-url>https://unitus-ewp.gomp.it/api/ewp/omobilitylasget101</get-url>
-                <index-url>https://unitus-ewp.gomp.it/api/ewp/omobilitylasindex101</index-url>
-                <update-url>https://unitus-ewp.gomp.it/api/ewp/omobilitylasupdate101</update-url>
+                <get-url>https://unitus-ewp.gomp.it/api/ewp/omobilitylasget120</get-url>
+                <index-url>https://unitus-ewp.gomp.it/api/ewp/omobilitylasindex120</index-url>
+                <update-url>https://unitus-ewp.gomp.it/api/ewp/omobilitylasupdate120</update-url>
+                <stats-url>https://unitus-ewp.gomp.it/api/ewp/omobilitylasstats120</stats-url>
                 <max-omobility-ids>255</max-omobility-ids>
             </omobility-las>
             <omobility-la-cnr
