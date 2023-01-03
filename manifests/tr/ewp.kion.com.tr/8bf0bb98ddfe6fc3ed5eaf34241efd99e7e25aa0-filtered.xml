@@ -64,7 +64,7 @@
                 <ou2:max-ounit-ids>100</ou2:max-ounit-ids>
                 <ou2:max-ounit-codes>100</ou2:max-ounit-codes>
             </ou2:organizational-units>
-            <ia6:iias version="6.0.1">
+            <ia6:iias version="6.2.0">
                 <ia6:http-security>
                     <sec:client-auth-methods>
                         <sec-A2:httpsig/>
@@ -77,6 +77,7 @@
                 <ia6:max-iia-ids>1</ia6:max-iia-ids>
                 <ia6:max-iia-codes>1</ia6:max-iia-codes>
                 <ia6:index-url>https://ewp.kion.com.tr/api/interinstitutionalagreements/index/nevsehir</ia6:index-url>
+                <ia6:stats-url>https://ewp.kion.com.tr/api/interinstitutionalagreements/stats/nevsehir</ia6:stats-url>
             </ia6:iias>
             <iac2:iia-cnr version="2.0.3">
                 <iac2:http-security>
@@ -89,7 +90,7 @@
                 </iac2:http-security>
                 <iac2:url>https://ewp.kion.com.tr/api/interinstitutionalagreements/cnr/nevsehir</iac2:url>
             </iac2:iia-cnr>
-            <iaa1:iias-approval version="1.0.0">
+            <iaa1:iias-approval version="1.1.0">
                 <iaa1:http-security>
                     <sec:client-auth-methods>
                         <sec-A2:httpsig/>
@@ -101,7 +102,7 @@
                 <iaa1:url>https://ewp.kion.com.tr/api/interinstitutionalagreements/approval/nevsehir</iaa1:url>
                 <iaa1:max-iia-ids>1</iaa1:max-iia-ids>
             </iaa1:iias-approval>
-            <iaac1:iia-approval-cnr version="1.0.0">
+            <iaac1:iia-approval-cnr version="1.1.0">
                 <iaac1:http-security>
                     <sec:client-auth-methods>
                         <sec-A2:httpsig/>
