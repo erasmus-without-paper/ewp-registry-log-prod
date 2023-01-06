@@ -54,7 +54,7 @@
             </organizational-units>
             <iias
                 xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v6/manifest-entry.xsd"
-                version="6.0.1"
+                version="6.2.0"
             >
                 <http-security>
                     <sec:client-auth-methods>
@@ -68,6 +68,7 @@
                 <max-iia-ids>1</max-iia-ids>
                 <max-iia-codes>1</max-iia-codes>
                 <index-url>https://unizoneewp.it.auth.gr/rest/iias/index/ph-noe.ac.at</index-url>
+                <stats-url>https://unizoneewp.it.auth.gr/rest/iias/stats/ph-noe.ac.at</stats-url>
             </iias>
             <iia-cnr
                 xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iia-cnr/blob/stable-v2/manifest-entry.xsd"
@@ -114,7 +115,7 @@
             </iia-approval-cnr>
             <omobility-las
                 xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd"
-                version="1.0.1"
+                version="1.2.0"
             >
                 <http-security>
                     <sec:client-auth-methods>
@@ -127,11 +128,12 @@
                 <get-url>https://unizoneewp.it.auth.gr/rest/las/get/ph-noe.ac.at</get-url>
                 <index-url>https://unizoneewp.it.auth.gr/rest/las/index/ph-noe.ac.at</index-url>
                 <update-url>https://unizoneewp.it.auth.gr/rest/las/update/ph-noe.ac.at</update-url>
+                <stats-url>https://unizoneewp.it.auth.gr/rest/las/stats/outgoing/ph-noe.ac.at</stats-url>
                 <max-omobility-ids>1</max-omobility-ids>
             </omobility-las>
             <omobility-la-cnr
                 xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd"
-                version="1.0.0"
+                version="1.1.0"
             >
                 <http-security>
                     <sec:client-auth-methods>
@@ -142,6 +144,7 @@
                     </sec:server-auth-methods>
                 </http-security>
                 <url>https://unizoneewp.it.auth.gr/rest/las/cnr/ph-noe.ac.at</url>
+                <stats-url>https://unizoneewp.it.auth.gr/rest/las/stats/incoming/ph-noe.ac.at</stats-url>
                 <max-omobility-ids>1</max-omobility-ids>
             </omobility-la-cnr>
             <factsheet
