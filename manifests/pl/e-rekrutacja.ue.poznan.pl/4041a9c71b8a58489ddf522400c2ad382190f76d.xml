@@ -1,0 +1,69 @@
+<manifest
+    xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
+    xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
+    xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
+    xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+>
+    <host>
+        <ewp:admin-email>ewp.admin@ue.poznan.pl</ewp:admin-email>
+        <ewp:admin-provider>MUCI (USOS IRK)</ewp:admin-provider>
+        <r:apis-implemented>
+            <discovery xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6/manifest-entry.xsd" version="6.0.0">
+                <url>https://e-rekrutacja.ue.poznan.pl/ewp/manifest/</url>
+            </discovery>
+            <echo xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd" version="2.0.1">
+                <http-security>
+    <client-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
+        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+    </client-auth-methods>
+    <server-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
+        <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
+        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+    </server-auth-methods>
+</http-security>
+                <url>https://e-rekrutacja.ue.poznan.pl/ewp/echo/</url>
+            </echo>
+            <omobility-la-cnr xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd" version="1.1.0">
+                <http-security>
+    <client-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
+        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+    </client-auth-methods>
+    <server-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
+        <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
+        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+    </server-auth-methods>
+</http-security>
+                <url>https://e-rekrutacja.ue.poznan.pl/ewp/la/cnr/</url>
+                <stats-url>https://e-rekrutacja.ue.poznan.pl/ewp/la/cnr/stats/</stats-url>
+                <max-omobility-ids>100</max-omobility-ids>
+            </omobility-la-cnr>
+        </r:apis-implemented>
+        <institutions-covered>
+            <hei xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1" id="ue.poznan.pl">
+                <other-id type="erasmus">PL POZNAN03</other-id>
+                <other-id type="pic">999839723</other-id>
+                <name xml:lang="pl">Uniwersytet Ekonomiczny w Poznaniu</name>
+                <name xml:lang="en">Poznan University of Economics and Business</name>
+            </hei>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqW4BL/ndmPsVKeBtLgGQ
+t2aBlR7A982PVfIxga4AQLMoMZihLQkNmT+u4V3O+GfAWFmDpzYYGlGWTcPpNVsg
+xTRxYOkRxo1ZbZbl/x4HuMQrak7DK58yozURZnNjTUvN2R22HJROAk1nb1Kl4Wvt
+O/1RZrRB3jZVRDOLfKGn3S612sDWRLfsl7sPaL4gxke+2JG92koYf6AJRYV4E7tM
+sFcwyE/tW5QoD4hSrEAlzznlgJjgSEsf/XQhIXGpgGEdHCUMCPDvPJUqRWZoYnhf
+ypAfXGgdyxIAzGY4RNm+OKzkNK8MA5/sXGFudnLm705VonQHnXwHH0DjkTYfV/eK
+AQIDAQAB</rsa-public-key>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqW4BL/ndmPsVKeBtLgGQ
+t2aBlR7A982PVfIxga4AQLMoMZihLQkNmT+u4V3O+GfAWFmDpzYYGlGWTcPpNVsg
+xTRxYOkRxo1ZbZbl/x4HuMQrak7DK58yozURZnNjTUvN2R22HJROAk1nb1Kl4Wvt
+O/1RZrRB3jZVRDOLfKGn3S612sDWRLfsl7sPaL4gxke+2JG92koYf6AJRYV4E7tM
+sFcwyE/tW5QoD4hSrEAlzznlgJjgSEsf/XQhIXGpgGEdHCUMCPDvPJUqRWZoYnhf
+ypAfXGgdyxIAzGY4RNm+OKzkNK8MA5/sXGFudnLm705VonQHnXwHH0DjkTYfV/eK
+AQIDAQAB</rsa-public-key>
+        </server-credentials-in-use>
+    </host>
+</manifest>
