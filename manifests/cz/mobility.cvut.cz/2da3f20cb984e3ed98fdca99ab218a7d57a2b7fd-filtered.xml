@@ -1,7 +1,7 @@
 <disc:manifest
-    xmlns:disc="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v5"
+    xmlns:disc="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
     xmlns:common="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
-    xmlns:disc-e="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v5/manifest-entry.xsd"
+    xmlns:disc-e="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6/manifest-entry.xsd"
     xmlns:echo="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd"
     xmlns:fsheet="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
     xmlns:iias="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v6/manifest-entry.xsd"
@@ -21,117 +21,12 @@
 >
     <disc:host>
         <common:admin-email>developers@cvut.cz</common:admin-email>
+        <common:admin-provider>CTU (Mobility)</common:admin-provider>
         <common:admin-notes>Erasmus Without Paper API module for Mobility application</common:admin-notes>
         <reg:apis-implemented>
-            <disc-e:discovery version="5.0.0">
+            <disc-e:discovery version="6.0.0">
                 <disc-e:url>https://mobility.cvut.cz/ewp/api/manifest</disc-e:url>
             </disc-e:discovery>
-            <echo:echo version="2.0.1">
-                <echo:http-security>
-                    <sec:client-auth-methods>
-                        <sec-ctls:tlscert allows-self-signed="true"/>
-                        <sec-csig:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-stls:tlscert/>
-                    </sec:server-auth-methods>
-                </echo:http-security>
-                <echo:url>https://mobility.cvut.cz/ewp/api/echo</echo:url>
-            </echo:echo>
-            <inst:institutions version="2.2.0">
-                <inst:http-security>
-                    <sec:client-auth-methods>
-                        <sec-none:anonymous/>
-                        <sec-ctls:tlscert allows-self-signed="true"/>
-                        <sec-csig:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-stls:tlscert/>
-                    </sec:server-auth-methods>
-                </inst:http-security>
-                <inst:url>https://mobility.cvut.cz/ewp/api/institutions</inst:url>
-                <inst:max-hei-ids>1</inst:max-hei-ids>
-            </inst:institutions>
-            <iias:iias version="6.0.1">
-                <iias:http-security>
-                    <sec:client-auth-methods>
-                        <sec-ctls:tlscert allows-self-signed="true"/>
-                        <sec-csig:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-stls:tlscert/>
-                    </sec:server-auth-methods>
-                </iias:http-security>
-                <iias:get-url>https://mobility.cvut.cz/ewp/api/iias/get</iias:get-url>
-                <iias:max-iia-ids>1</iias:max-iia-ids>
-                <iias:max-iia-codes>1</iias:max-iia-codes>
-                <iias:index-url>https://mobility.cvut.cz/ewp/api/iias/index</iias:index-url>
-            </iias:iias>
-            <iias-cnr:iia-cnr version="2.0.2">
-                <iias-cnr:http-security>
-                    <sec:client-auth-methods>
-                        <sec-ctls:tlscert allows-self-signed="true"/>
-                        <sec-csig:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-stls:tlscert/>
-                    </sec:server-auth-methods>
-                </iias-cnr:http-security>
-                <iias-cnr:url>https://mobility.cvut.cz/ewp/api/iias/cnr</iias-cnr:url>
-            </iias-cnr:iia-cnr>
-            <iias-appl:iias-approval version="1.0.0">
-                <iias-appl:http-security>
-                    <sec:client-auth-methods>
-                        <sec-ctls:tlscert allows-self-signed="true"/>
-                        <sec-csig:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-stls:tlscert/>
-                    </sec:server-auth-methods>
-                </iias-appl:http-security>
-                <iias-appl:url>https://mobility.cvut.cz/ewp/api/iias/approval</iias-appl:url>
-                <iias-appl:max-iia-ids>1</iias-appl:max-iia-ids>
-            </iias-appl:iias-approval>
-            <iias-appl-cnr:iia-approval-cnr version="1.0.0">
-                <iias-appl-cnr:http-security>
-                    <sec:client-auth-methods>
-                        <sec-ctls:tlscert allows-self-signed="true"/>
-                        <sec-csig:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-stls:tlscert/>
-                    </sec:server-auth-methods>
-                </iias-appl-cnr:http-security>
-                <iias-appl-cnr:url>https://mobility.cvut.cz/ewp/api/iias/approval/cnr</iias-appl-cnr:url>
-            </iias-appl-cnr:iia-approval-cnr>
-            <fsheet:factsheet version="1.0.0">
-                <fsheet:http-security>
-                    <sec:client-auth-methods>
-                        <sec-ctls:tlscert allows-self-signed="true"/>
-                        <sec-csig:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-stls:tlscert/>
-                    </sec:server-auth-methods>
-                </fsheet:http-security>
-                <fsheet:url>https://mobility.cvut.cz/ewp/api/factsheet</fsheet:url>
-                <fsheet:max-hei-ids>1</fsheet:max-hei-ids>
-            </fsheet:factsheet>
-            <ounits:organizational-units version="2.1.1">
-                <ounits:http-security>
-                    <sec:client-auth-methods>
-                        <sec-none:anonymous/>
-                        <sec-ctls:tlscert allows-self-signed="true"/>
-                        <sec-csig:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-stls:tlscert/>
-                    </sec:server-auth-methods>
-                </ounits:http-security>
-                <ounits:url>https://mobility.cvut.cz/ewp/api/organization-units</ounits:url>
-                <ounits:max-ounit-ids>11</ounits:max-ounit-ids>
-                <ounits:max-ounit-codes>11</ounits:max-ounit-codes>
-            </ounits:organizational-units>
         </reg:apis-implemented>
         <disc:institutions-covered>
             <reg:hei id="cvut.cz">
@@ -144,15 +39,15 @@
         </disc:institutions-covered>
         <disc:client-credentials-in-use>
             <disc:certificate>
-                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
+                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
             </disc:certificate>
             <disc:rsa-public-key>
-                MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsICu+1YwOrbDEgLfLhl8Bjc50NQVafjzfsFcDMU++nDrO1xuqm8qSEv7sNCB0ulzilMIXTrQaASY/dqqsiu/pSf5HcfEa297NczMCmoerpSu+EHiRWhkQdO4OhOtX4209qPvcj3oqlIMMHdmmZsWs5JX1Vpt6M2o/z+PN0eP41LNca2/YRs59SLyhhh+dMZ0m5x1r2QS7ooB2mFbSYEVyUVwhmp9YkvfnxIZXE+akYhcIJXEQEiyNgcCth2nQ1nxkbhEbsNDY3HWts46Jk0uC9/hBHoUIc25X61V7Tv1vLfN59hZ3dGDKWuaD+g/CcW+WwDaS5tV3Vic2v20QVvX5QIDAQAB
+                MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArDrSb7BVtTZa/aVY4FxWnq+EkCZB8uk67OeCYp+v2ykRedbIS0uxz60FFAGZb0VIsLB9GFSXeVA/CMmz+BnOuyFXrmIC2D5xt7SMyUmmXk1LEM4OMU/IPRDaBEvfW0Bsetw5VwhNVCPJ8/vSJ1iGx6c9mV7l4Tdg52ddsOuytLRg7XIqQuHKKKR1B8YRmBl0P+pD+i46bDgizcKvo9NTH45YlmKWubACEvIQh4KJDwoBOOgQnA6iIWtnZDiLq8q4bCqlAXYrcURKWEGuB+yElLKXMovjkrjmUIRXeOHen2QA1hk9Lsx/fZvCFJFgeqVbSiGc905GLMsvWxBaGGM1fQIDAQAB
             </disc:rsa-public-key>
         </disc:client-credentials-in-use>
         <disc:server-credentials-in-use>
             <disc:rsa-public-key>
-                MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsICu+1YwOrbDEgLfLhl8Bjc50NQVafjzfsFcDMU++nDrO1xuqm8qSEv7sNCB0ulzilMIXTrQaASY/dqqsiu/pSf5HcfEa297NczMCmoerpSu+EHiRWhkQdO4OhOtX4209qPvcj3oqlIMMHdmmZsWs5JX1Vpt6M2o/z+PN0eP41LNca2/YRs59SLyhhh+dMZ0m5x1r2QS7ooB2mFbSYEVyUVwhmp9YkvfnxIZXE+akYhcIJXEQEiyNgcCth2nQ1nxkbhEbsNDY3HWts46Jk0uC9/hBHoUIc25X61V7Tv1vLfN59hZ3dGDKWuaD+g/CcW+WwDaS5tV3Vic2v20QVvX5QIDAQAB
+                MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArDrSb7BVtTZa/aVY4FxWnq+EkCZB8uk67OeCYp+v2ykRedbIS0uxz60FFAGZb0VIsLB9GFSXeVA/CMmz+BnOuyFXrmIC2D5xt7SMyUmmXk1LEM4OMU/IPRDaBEvfW0Bsetw5VwhNVCPJ8/vSJ1iGx6c9mV7l4Tdg52ddsOuytLRg7XIqQuHKKKR1B8YRmBl0P+pD+i46bDgizcKvo9NTH45YlmKWubACEvIQh4KJDwoBOOgQnA6iIWtnZDiLq8q4bCqlAXYrcURKWEGuB+yElLKXMovjkrjmUIRXeOHen2QA1hk9Lsx/fZvCFJFgeqVbSiGc905GLMsvWxBaGGM1fQIDAQAB
             </disc:rsa-public-key>
         </disc:server-credentials-in-use>
     </disc:host>
