@@ -132,8 +132,8 @@
                 <max-los-codes>100</max-los-codes>
             </courses>
             <iias
-                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v2/manifest-entry.xsd"
-                version="2.0.0"
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/v6.2.0/manifest-entry.xsd"
+                version="6.2.0"
             >
                 <http-security>
                     <sec:client-auth-methods>
@@ -191,7 +191,7 @@
         </mf:institutions-covered>
         <client-credentials-in-use>
             <certificate>
-				MIIHCDCCBPCgAwIBAgIQQvKtcMF6OhJeL+Dx6TnktzANBgkqhkiG9w0BAQwFADBE
+                MIIHCDCCBPCgAwIBAgIQQvKtcMF6OhJeL+Dx6TnktzANBgkqhkiG9w0BAQwFADBE
 				MQswCQYDVQQGEwJOTDEZMBcGA1UEChMQR0VBTlQgVmVyZW5pZ2luZzEaMBgGA1UE
 				AxMRR0VBTlQgT1YgUlNBIENBIDQwHhcNMjEwMjA4MDAwMDAwWhcNMjIwMjA4MjM1
 				OTU5WjCBljELMAkGA1UEBhMCRVMxDjAMBgNVBBETBTQxMDA0MRAwDgYDVQQIEwdT
@@ -229,27 +229,27 @@
 				uArhnuGyjXm7kSEvzsCmJsvAvEofWfZGUyv4FrMn6aZ9Q5/TDpz247+c80g0sopq
 				WqcZxm2MKLMQMWdcpRBPH2ldu8LPxfNrRG7XnR42VXbjdu1mmuuChZZbV9sFU/x0
 				kGnWuwt4Wwt/d4ggw79lF3vxYrqaq3OtMVx20g==
-			</certificate>
+            </certificate>
             <rsa-public-key>
-				MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt9nVf1LeS0iWM74bhJCA
+                MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt9nVf1LeS0iWM74bhJCA
 				I7LCG6bzvWiIk8gX38fMy2dOULAXyP8TCdiGJ9fNoS05ex8kfcoKrqOcLc9PaPVN
 				Abx3eqw1ngL5KiuJMaTkyNJySGpiOVCvL/bKS6NJKSJAHP8MxB6WuX8M79NcFckN
 				rxBHwNtZuCHQQMzCjCxiINalFxCKmKN8cnSBDwoDE3XuLZhcPQ3ixoQnru787Crk
 				VgFhIetp0UYlv8iBYzdumRMAVfAKJ6bZ7G+pB+siPYOqJHA9hSrR+7TgYA8l+nR9
 				VKHfszr0YcIRjm1UGMmYIBfp3tLEYJhgREoyIz6vhkj/EomAkdU3Ed0mpPvnaLqg
 				yQIDAQAB
-			</rsa-public-key>
+            </rsa-public-key>
         </client-credentials-in-use>
         <server-credentials-in-use>
             <rsa-public-key>
-				MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt9nVf1LeS0iWM74bhJCA
+                MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt9nVf1LeS0iWM74bhJCA
 				I7LCG6bzvWiIk8gX38fMy2dOULAXyP8TCdiGJ9fNoS05ex8kfcoKrqOcLc9PaPVN
 				Abx3eqw1ngL5KiuJMaTkyNJySGpiOVCvL/bKS6NJKSJAHP8MxB6WuX8M79NcFckN
 				rxBHwNtZuCHQQMzCjCxiINalFxCKmKN8cnSBDwoDE3XuLZhcPQ3ixoQnru787Crk
 				VgFhIetp0UYlv8iBYzdumRMAVfAKJ6bZ7G+pB+siPYOqJHA9hSrR+7TgYA8l+nR9
 				VKHfszr0YcIRjm1UGMmYIBfp3tLEYJhgREoyIz6vhkj/EomAkdU3Ed0mpPvnaLqg
 				yQIDAQAB
-			</rsa-public-key>
+            </rsa-public-key>
         </server-credentials-in-use>
     </host>
 </manifest>
