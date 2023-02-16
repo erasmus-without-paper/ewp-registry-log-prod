@@ -1,69 +1,236 @@
-<manifest
-    xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
-    xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
-    xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
-    xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
-    xmlns:xml="http://www.w3.org/XML/1998/namespace"
->
-    <host>
-        <ewp:admin-email>ewp@csi.uksw.edu.pl</ewp:admin-email>
-        <ewp:admin-provider>MUCI (USOS IRK)</ewp:admin-provider>
-        <r:apis-implemented>
-            <discovery xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6/manifest-entry.xsd" version="6.0.0">
-                <url>https://oferta.uksw.edu.pl/ewp/manifest/</url>
-            </discovery>
-            <echo xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd" version="2.0.1">
-                <http-security>
-    <client-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
-        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
-    </client-auth-methods>
-    <server-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
-        <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
-        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
-    </server-auth-methods>
-</http-security>
-                <url>https://oferta.uksw.edu.pl/ewp/echo/</url>
-            </echo>
-            <omobility-la-cnr xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd" version="1.1.0">
-                <http-security>
-    <client-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
-        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
-    </client-auth-methods>
-    <server-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
-        <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
-        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
-    </server-auth-methods>
-</http-security>
-                <url>https://oferta.uksw.edu.pl/ewp/la/cnr/</url>
-                <stats-url>https://oferta.uksw.edu.pl/ewp/la/cnr/stats/</stats-url>
-                <max-omobility-ids>100</max-omobility-ids>
-            </omobility-la-cnr>
-        </r:apis-implemented>
-        <institutions-covered>
-            <hei xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1" id="uksw.edu.pl">
-                <other-id type="erasmus">PL WARSZAW07</other-id>
-                <other-id type="pic">996314743</other-id>
-                <name xml:lang="pl">Uniwersytet Kardynała Stefana Wyszyńskiego w Warszawie</name>
-                <name xml:lang="en">Cardinal Stefan Wyszyński University in Warsaw</name>
-            </hei>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmcJNv91QMti5cO99Ibqk
-dQivmGkaJCqST9KgAy7lL9k+FuSnhdJ8XPozT6AwdycBkrKzYKApTFoVfaRqln/h
-7ClZY36gyCtv2OcovGwe3qQ18kTkU/cZx8Qga8+u/XuNqNUyJWQaouKr9iHDzLxI
-kajAMWn9DSY+tJXQkIJHo3Xy3qa0ZR3x3qrDzUlmtUXqEJvr5uxkINuBPjWRJSeD
-FJ/q3ZrxAOkfy9qtde5hVXtkLzaCQMojk3khuFgPNEzuM0qI0F7OvP1rDlmig+zj
-z9slaH7SEPJBoyz/JbthYooGcv/SJMrrhHnACIDxi8LCFfQLzCKS7/bEKLqpTVOG
-DQIDAQAB</rsa-public-key>
-        </client-credentials-in-use>
-        <server-credentials-in-use>
-            <rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmcJNv91QMti5cO99Ibqk
-dQivmGkaJCqST9KgAy7lL9k+FuSnhdJ8XPozT6AwdycBkrKzYKApTFoVfaRqln/h
-7ClZY36gyCtv2OcovGwe3qQ18kTkU/cZx8Qga8+u/XuNqNUyJWQaouKr9iHDzLxI
-kajAMWn9DSY+tJXQkIJHo3Xy3qa0ZR3x3qrDzUlmtUXqEJvr5uxkINuBPjWRJSeD
-FJ/q3ZrxAOkfy9qtde5hVXtkLzaCQMojk3khuFgPNEzuM0qI0F7OvP1rDlmig+zj
-z9slaH7SEPJBoyz/JbthYooGcv/SJMrrhHnACIDxi8LCFfQLzCKS7/bEKLqpTVOG
-DQIDAQAB</rsa-public-key>
-        </server-credentials-in-use>
-    </host>
-</manifest>
+<!DOCTYPE html>
+<html lang="pl" >
+<head>
+    <meta charset="utf-8">
+    <meta name="google-site-verification" content="" />
+    <meta property="og:description" content="Uniwersytet Kardynała Stefana Wyszyńskiego w Warszawie" />
+    <meta property="og:image" content="https://irk.uksw.edu.pl/static/images/header-image.jpg" />
+    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link href="/static/images/favicon.ico" rel="icon"/>
+    <link rel="stylesheet" href="/static/CACHE/css/output.c9080ab1c02c.css" type="text/css">
+    
+    
+    
+    
+    <script>
+        var CSRF_TOKEN = 'j4y8406Wew4GTKjGNeXgc56t8qrgKyuRFtZwZIfcRu3UO56yx2I23BzVaRWdJosW';
+    </script>
+    <script src="/pl/js/settings.js"></script>
+    <script src="/pl/js/i18n.js"></script>
+    <script src="/static/js/moment-with-locales.min.js"></script>
+    <script src="/static/CACHE/js/output.1bbf39be04d0.js"></script>
+    
+    
+    
+    
+    
+    <script>
+        $(function() {
+            $(".top-menu-trigger").click(function(e) {
+                e.stopPropagation();
+                $(".top-menu").slideToggle(200);
+                $(document).one('click', function() {
+                    if ($(".top-menu-trigger").is(':visible')) {
+                        $(".top-menu").slideUp(200);
+                    }
+                })
+            }).keypress(function(event) {
+                if (event.which === $.ui.keyCode.ENTER) {
+                    $(this).click();
+                }
+            });
+            $(".top-menu").click(function(e) {
+                e.stopPropagation();
+            });
+            $(".main-menu-trigger").click(function() {
+                $(".main-menu").slideToggle(300);
+            }).keypress(function(event) {
+                if (event.which === $.ui.keyCode.ENTER) {
+                    $(this).click();
+                }
+            });
+        });
+    </script>
+
+    <title>IRK</title>
+    <noscript>
+        <style>
+            .vanisher {
+                opacity: 1;
+            }
+            html {
+                cursor: initial;
+            }
+            a {
+                cursor: pointer;
+            }
+        </style>
+    </noscript>
+</head>
+<body class="home-page">
+    <div id="navskipper">
+        <a href="javascript:go_to_anchor('#menu')">przeskocz do menu</a>
+        <a href="javascript:go_to_anchor('#content')">przeskocz do treści strony</a>
+    </div>
+    
+    
+    
+    <header>
+    
+    
+    
+        <div class="top-bar"><div class="accessibility"><ul class="font-size"><li><a role="button" href="javascript:decrease_font_size()" id="font-decrease" title="zmniejsz czcionkę"><span class="fa fa-minus-square"></span><span class="sr-label">zmniejsz czcionkę</span></a></li><li><a role="button" href="javascript:standard_font_size()" id="font-normal" title="przywróć wielkość czcionki"><span class="fa fa-lg fa-font"></span><span class="sr-label">przywróć wielkość czcionki</span></a></li><li><a role="button" href="javascript:increase_font_size()" id="font-increase" title="zwiększ czcionkę"><span class="fa fa-plus-square"></span><span class="sr-label">zwiększ czcionkę</span></a></li></ul><ul class="contrast"><li><a role="button" href="javascript:toggle_contrast()" id="contrast-yellow-black" title="przełącz wysoki kontrast"><span class="fa"></span><span class="sr-label">przełącz wysoki kontrast</span></a></li></ul></div><div class="eu-financing"><button class="link" href="#financing_info" data-fancybox title="Informacje o finansowaniu projektu IRK"><img class="eu-logo" src="/static/images/eu.png" alt=""/><strong class="eu-name">Unia Europejska</strong></button><div id="financing_info" style="display: none"><table style="max-width: 800px"><tr><td style="width: 25%"><a href="http://euslugi.uw.edu.pl" target="_blank"><img src="/static/images/e-uslugi.png" alt=""/></a></td><td><p style="padding-left: 3%">
+                    Projekt „e-UW – rozwój e-usług Uniwersytetu Warszawskiego związanych z edukacją” jest współfinansowany ze środków Regionalnego Programu Operacyjnego Województwa Mazowieckiego 2014-2020. Projekt realizowany jest w latach 2016-2019.
+                    <a href="http://euslugi.uw.edu.pl" target="_blank">Dowiedz się więcej</a></p></td></tr><tr><td colspan="2"><img src="/static/images/rpo-wm.jpg" style="max-width: 100%" alt=""/></td></tr></table></div></div><button class="link top-infobox-trigger" data-fancybox href="#infobox" title="Pomoc"><span class="fa fa-question-circle fa-lg" aria-hidden="true"></span></button><div class="top-menu-trigger" title="moje konto" tabindex="0"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div><div class="top-menu vanisher"><ul class="top-menu-items"><li><a href="/pl/auth/login/?next=/pl/"><span class="fa fa-sign-in"></span><span class="label">zaloguj się</span></a></li><li><a href="/pl/auth/register/consent/"><span class="fa fa-user-plus"></span><span class="label">utwórz konto</span></a></li><li><form name="setLang" action="/i18n/language/set/" method="post"><input type="hidden" name="csrfmiddlewaretoken" value="j4y8406Wew4GTKjGNeXgc56t8qrgKyuRFtZwZIfcRu3UO56yx2I23BzVaRWdJosW"><label for="language_picker"><span class="fa fa-language" title="Wybierz język"></span></label><input name="next" type="hidden" value="/"/><select name="language" id="language_picker"><option lang="pl" value="pl"
+                            selected="selected">
+                        Polski
+                    </option><option lang="en-gb" value="en-gb"
+                            >
+                        English
+                    </option></select><script>
+                    $('#language_picker').on('click', function(e) {
+                        if ($(this).val() !== 'pl') {
+                            document.setLang.submit();
+                        }
+                    }).on('keydown', function(e) {
+                        if (e.which === $.ui.keyCode.ENTER) {
+                            $(this).click();
+                        }
+                    });
+                </script><noscript><input type="submit" value="zapisz"/></noscript></form></li></ul></div><div style="clear: both"></div></div><div id="header"><div><div><div><a href="/pl/" tabindex="-1"><img src="/static/images/logo/header-pl.svg" alt="strona główna"></a></div><div><a href="/pl/home/" style="display: block">
+                    REKRUTACJA
+                
+                </a></div></div></div></div><div id="menu" tabindex="-1" style="outline: none"><div class="main-menu-trigger" tabindex="0"><i class="fa fa-bars" aria-hidden="true"></i>
+        MENU
+    </div><nav class="main-menu" aria-label="menu główne"><ul><li><a href="/pl/news/">Aktualności</a></li><li><a href="/pl/offer/">Oferta</a></li><li><a href="/pl/offer/units/">Jednostki</a></li><li><a href="/pl/offer/registration/">Rekrutacja</a></li></ul></nav></div><img src="/static/images/header-image.jpg" alt=""/>
+
+    
+    
+
+    </header>
+    <main>
+        <button class="infobox-trigger" data-fancybox href="#infobox" title="Pomoc">
+            <span class="fa fa-question fa-lg" aria-hidden="true"></span>
+        </button>
+        <div class="vanisher">
+            
+                
+    
+
+    <div id="unselected-registration">
+        <div>
+            
+                
+            
+            <p>Dane prezentowane na tej stronie mają charakter ogólny. Wybierz rekrutację, aby zobaczyć informacje z nią związane.</p>
+            <div>
+                <a href="/pl/offer/registration-select/?next=/pl/">
+                    <span class="fa fa-th"></span>wybierz rekrutację
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+                
+
+                <div id="content" tabindex="-1" style="outline: none">
+                    
+                    
+
+
+
+
+
+
+                    
+    <article class="tinymce-content">
+        
+    </article>
+
+                </div>
+            
+            <div style="clear: both"></div>
+        </div>
+    </main>
+    <footer id="footer" class="vanisher">
+        <section id="info">
+            <section>
+            
+                <img src="/static/images/logo/footer-pl.svg" alt="">
+            
+            </section>
+            <section>
+                
+                    <div>Uniwersytet Kardynała Stefana Wyszyńskiego w Warszawie</div>
+                    <div><span class="fa fa-map-marker fa-fw"></span> ul. Dewajtis 5<br/>01-815 Warszawa</div>
+                    <div><span class="fa fa-phone fa-fw"></span> tel: centrala 22 561 88 00</div>
+                    <div><span class="fa fa-globe fa-fw"></span> www: <a href="https://uksw.edu.pl/">https://uksw.edu.pl/</a></div>
+                
+            </section>
+            <section>
+                <div>Internetowa Rekrutacja Kandydatów</div>
+                <div><span class="fa fa-code-fork fa-fw"></span> IRK 1.13.6 (3a1f2638-dirty) :: 2022-11-15</div>
+                <div><span class="fa fa-map-signs fa-fw"></span> <a href="/pl/sitemap/">mapa strony</a></div>
+                
+                <div><span class="fa fa-envelope-o fa-fw"></span> <a href="/pl/contact/">kontakt</a></div>
+            </section>
+        </section>
+        <section id="copyright">
+            <span class="fa fa-copyright"></span> <a href="http://www.muci.edu.pl/">Międzyuniwersyteckie Centrum Informatyzacji</a>. Wszystkie prawa zastrzeżone.
+        </section>
+    </footer>
+    <div id="black-footer-frame" class="vanisher"></div>
+    <div id="infobox" style="display: none">
+        <p><span class="fa fa-question-circle fa-lg" aria-hidden="true"></span> Pomoc</p>
+        <div></div>
+    </div>
+    <script>
+        $(function() {
+            if (!$('#infobox > div').text().trim()) {
+                $('.infobox-trigger, .top-infobox-trigger').remove();
+            }
+            // Accessibility
+            $('.button>.fa').each(function() {
+                $(this).attr('aria-hidden', 'true');
+            });
+            var box = $('.success-box, .warning-box, .error-box');
+            box.attr('tabindex', -1).focus();
+            var tabs = $('#tabs-1');
+            if (tabs.length && tabs.is(':visible')) {
+                box.find('+br').remove();
+                tabs.prepend(box);
+            }
+            $(document).on('keydown', function(e) {
+                if (e.which == $.ui.keyCode.TAB) {
+                    $('body').addClass('tab-focus');
+                }
+            });
+            $(document).on('mousedown', function() {
+                $('body').removeClass('tab-focus');
+            });
+        });
+        $(document).on('submit', 'form:not(.filter-form)', function() {
+            var form = $(this);
+            window.setTimeout(function() {
+                form.find('[type=submit]').prop('disabled', true).addClass('keep-color');
+            }, 0);
+            window.setTimeout(function() {
+                form.find('[type=submit]').prop('disabled', false).removeClass('keep-color');
+            }, 2000);
+        });
+        function go_to_anchor(element) {
+            $(element).focus();
+            $('html, body').animate({scrollTop: $(element).offset().top-10}, 0);
+        }
+    </script>
+    
+    
+
+</body>
+</html>
