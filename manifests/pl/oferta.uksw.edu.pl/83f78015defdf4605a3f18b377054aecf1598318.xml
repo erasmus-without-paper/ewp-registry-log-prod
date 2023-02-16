@@ -1,236 +1,167 @@
 <!DOCTYPE html>
-<html lang="pl" >
+<html lang="pl">
 <head>
-    <meta charset="utf-8">
-    <meta name="google-site-verification" content="" />
-    <meta property="og:description" content="Uniwersytet Kardynała Stefana Wyszyńskiego w Warszawie" />
-    <meta property="og:image" content="https://irk.uksw.edu.pl/static/images/header-image.jpg" />
-    
-    
+  
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link type="text/css" rel="stylesheet" href="/static/css/font-awesome/font-awesome.css"/>
+    <link type="text/css" rel="stylesheet" href="/static/css/jquery/fancybox/jquery.fancybox.css"/>
+    <link type="text/css" rel="stylesheet" href="/static/css/general.css"/>
+    <link type="text/css" rel="stylesheet" href="/static/css/general-responsive.css"/>
+    <script type="text/javascript" src="/static/js/jquery/jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="/static/js/jquery/jquery.fancybox.js"></script>
+    <title>Internetowa Rekrutacja Kandydatów</title>
+    <style>
+        body > header {
+            margin-top: 40px;
+        }
 
-    <link href="/static/images/favicon.ico" rel="icon"/>
-    <link rel="stylesheet" href="/static/CACHE/css/output.c9080ab1c02c.css" type="text/css">
-    
-    
-    
-    
-    <script>
-        var CSRF_TOKEN = 'j4y8406Wew4GTKjGNeXgc56t8qrgKyuRFtZwZIfcRu3UO56yx2I23BzVaRWdJosW';
-    </script>
-    <script src="/pl/js/settings.js"></script>
-    <script src="/pl/js/i18n.js"></script>
-    <script src="/static/js/moment-with-locales.min.js"></script>
-    <script src="/static/CACHE/js/output.1bbf39be04d0.js"></script>
-    
-    
-    
-    
-    
-    <script>
-        $(function() {
-            $(".top-menu-trigger").click(function(e) {
-                e.stopPropagation();
-                $(".top-menu").slideToggle(200);
-                $(document).one('click', function() {
-                    if ($(".top-menu-trigger").is(':visible')) {
-                        $(".top-menu").slideUp(200);
-                    }
-                })
-            }).keypress(function(event) {
-                if (event.which === $.ui.keyCode.ENTER) {
-                    $(this).click();
-                }
-            });
-            $(".top-menu").click(function(e) {
-                e.stopPropagation();
-            });
-            $(".main-menu-trigger").click(function() {
-                $(".main-menu").slideToggle(300);
-            }).keypress(function(event) {
-                if (event.which === $.ui.keyCode.ENTER) {
-                    $(this).click();
-                }
-            });
+        a.lang_switch {
+            position: absolute;
+            top: 40px;
+            right: 20px;
+            height: 25px;
+            z-index: 5;
+        }
+
+        @media only screen and (max-width: 370px) {
+            a.lang_switch {
+                top: 7px;
+            }
+        }
+
+        a.lang_switch img {
+            height: 25px;
+            width: auto;
+            box-shadow: 2px 2px 10px grey;
+        }
+
+        div.links-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        div.links-container > a {
+            width: 350px;
+            min-width: 300px;
+            margin: 15px 5px;
+        }
+
+        a.frontpage-box {
+            display: inline-block;
+            border: 1px solid silver;
+            border-radius: 10px;
+            box-shadow: silver 0 0 10px;
+            text-align: center;
+            vertical-align: top;
+        }
+
+        a.frontpage-box:hover {
+            background: #eeeeee;
+        }
+
+        a.frontpage-box p {
+            font-size: 1.3em;
+            min-height: 60px;
+            margin: 10px;
+        }
+
+        a.frontpage-box p.icons {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+
+        .frontpage-fancybox {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            align-content: flex-start;
+        }
+
+        .frontpage-fancybox > section {
+            min-width: 250px;
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+        }
+
+        .frontpage-fancybox > section a {
+            min-width: 200px;
+            max-width: 450px;
+            margin: 10px;
+       }
+      
+       .boxtest {
+        	min-width: 350px;
+        	max-width: 450px;
+         	margin: 10px;
+      }
+
+        .center-content {
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+      	div.un p {
+  			margin-top: 2px ;
+  			margin-bottom: 2px ;
+		} 
+      	.bold_text {
+       	font-weight: 1000;
+		}
+
+    </style>
+    <script type="text/javascript">
+        $(function () {
+            $(".fancybox[href^='#']").fancybox();
         });
     </script>
-
-    <title>IRK</title>
-    <noscript>
-        <style>
-            .vanisher {
-                opacity: 1;
-            }
-            html {
-                cursor: initial;
-            }
-            a {
-                cursor: pointer;
-            }
-        </style>
-    </noscript>
 </head>
-<body class="home-page">
-    <div id="navskipper">
-        <a href="javascript:go_to_anchor('#menu')">przeskocz do menu</a>
-        <a href="javascript:go_to_anchor('#content')">przeskocz do treści strony</a>
-    </div>
-    
-    
-    
-    <header>
-    
-    
-    
-        <div class="top-bar"><div class="accessibility"><ul class="font-size"><li><a role="button" href="javascript:decrease_font_size()" id="font-decrease" title="zmniejsz czcionkę"><span class="fa fa-minus-square"></span><span class="sr-label">zmniejsz czcionkę</span></a></li><li><a role="button" href="javascript:standard_font_size()" id="font-normal" title="przywróć wielkość czcionki"><span class="fa fa-lg fa-font"></span><span class="sr-label">przywróć wielkość czcionki</span></a></li><li><a role="button" href="javascript:increase_font_size()" id="font-increase" title="zwiększ czcionkę"><span class="fa fa-plus-square"></span><span class="sr-label">zwiększ czcionkę</span></a></li></ul><ul class="contrast"><li><a role="button" href="javascript:toggle_contrast()" id="contrast-yellow-black" title="przełącz wysoki kontrast"><span class="fa"></span><span class="sr-label">przełącz wysoki kontrast</span></a></li></ul></div><div class="eu-financing"><button class="link" href="#financing_info" data-fancybox title="Informacje o finansowaniu projektu IRK"><img class="eu-logo" src="/static/images/eu.png" alt=""/><strong class="eu-name">Unia Europejska</strong></button><div id="financing_info" style="display: none"><table style="max-width: 800px"><tr><td style="width: 25%"><a href="http://euslugi.uw.edu.pl" target="_blank"><img src="/static/images/e-uslugi.png" alt=""/></a></td><td><p style="padding-left: 3%">
-                    Projekt „e-UW – rozwój e-usług Uniwersytetu Warszawskiego związanych z edukacją” jest współfinansowany ze środków Regionalnego Programu Operacyjnego Województwa Mazowieckiego 2014-2020. Projekt realizowany jest w latach 2016-2019.
-                    <a href="http://euslugi.uw.edu.pl" target="_blank">Dowiedz się więcej</a></p></td></tr><tr><td colspan="2"><img src="/static/images/rpo-wm.jpg" style="max-width: 100%" alt=""/></td></tr></table></div></div><button class="link top-infobox-trigger" data-fancybox href="#infobox" title="Pomoc"><span class="fa fa-question-circle fa-lg" aria-hidden="true"></span></button><div class="top-menu-trigger" title="moje konto" tabindex="0"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div><div class="top-menu vanisher"><ul class="top-menu-items"><li><a href="/pl/auth/login/?next=/pl/"><span class="fa fa-sign-in"></span><span class="label">zaloguj się</span></a></li><li><a href="/pl/auth/register/consent/"><span class="fa fa-user-plus"></span><span class="label">utwórz konto</span></a></li><li><form name="setLang" action="/i18n/language/set/" method="post"><input type="hidden" name="csrfmiddlewaretoken" value="j4y8406Wew4GTKjGNeXgc56t8qrgKyuRFtZwZIfcRu3UO56yx2I23BzVaRWdJosW"><label for="language_picker"><span class="fa fa-language" title="Wybierz język"></span></label><input name="next" type="hidden" value="/"/><select name="language" id="language_picker"><option lang="pl" value="pl"
-                            selected="selected">
-                        Polski
-                    </option><option lang="en-gb" value="en-gb"
-                            >
-                        English
-                    </option></select><script>
-                    $('#language_picker').on('click', function(e) {
-                        if ($(this).val() !== 'pl') {
-                            document.setLang.submit();
-                        }
-                    }).on('keydown', function(e) {
-                        if (e.which === $.ui.keyCode.ENTER) {
-                            $(this).click();
-                        }
-                    });
-                </script><noscript><input type="submit" value="zapisz"/></noscript></form></li></ul></div><div style="clear: both"></div></div><div id="header"><div><div><div><a href="/pl/" tabindex="-1"><img src="/static/images/logo/header-pl.svg" alt="strona główna"></a></div><div><a href="/pl/home/" style="display: block">
-                    REKRUTACJA
-                
-                </a></div></div></div></div><div id="menu" tabindex="-1" style="outline: none"><div class="main-menu-trigger" tabindex="0"><i class="fa fa-bars" aria-hidden="true"></i>
-        MENU
-    </div><nav class="main-menu" aria-label="menu główne"><ul><li><a href="/pl/news/">Aktualności</a></li><li><a href="/pl/offer/">Oferta</a></li><li><a href="/pl/offer/units/">Jednostki</a></li><li><a href="/pl/offer/registration/">Rekrutacja</a></li></ul></nav></div><img src="/static/images/header-image.jpg" alt=""/>
-
-    
-    
-
-    </header>
-    <main>
-        <button class="infobox-trigger" data-fancybox href="#infobox" title="Pomoc">
-            <span class="fa fa-question fa-lg" aria-hidden="true"></span>
-        </button>
-        <div class="vanisher">
-            
-                
-    
-
-    <div id="unselected-registration">
+<body>
+<header>
+    <a href="/en-gb/" class="lang_switch">
+        <img src="/static/images/flags/gb.svg">
+    </a>
+    <div id="header">
         <div>
-            
-                
-            
-            <p>Dane prezentowane na tej stronie mają charakter ogólny. Wybierz rekrutację, aby zobaczyć informacje z nią związane.</p>
             <div>
-                <a href="/pl/offer/registration-select/?next=/pl/">
-                    <span class="fa fa-th"></span>wybierz rekrutację
-                </a>
+                <div>
+                    <a href="/home/">
+                        <img src="/static/images/logo/header-pl.svg" alt="Logo uczelni">
+                    </a>
+                </div>
+                <div>
+INTERNETOWA REJESTRACJA KANDYDATÓW
+                </div>
             </div>
         </div>
     </div>
-
-
-
-                
-
-                <div id="content" tabindex="-1" style="outline: none">
-                    
-                    
-
-
-
-
-
-
-                    
-    <article class="tinymce-content">
+</header>
+<main>
+<p class="MsoNormal" style="line-height: normal; text-align: center;"><span style="font-size: 1rem; font-family: Open Sans, arial, helvetica, sans-serif;">Witamy w systemie Internetowej Rekrutacji Kandydatów (IRK) na studia w Uniwersytecie Kardynała Stefana Wyszyńskiego</span></p>
+<p class="MsoNormal" style="line-height: normal; text-align: center;"><span style="font-size: 1rem; font-family: Open Sans, arial, helvetica, sans-serif;">w Warszawie</span></p>
+<p class="MsoNormal" style="line-height: normal; text-align: left;"><span style="font-family: Open Sans, arial, helvetica, sans-serif;">&nbsp;</span></p>
+<p style="text-align: center;"><span style="font-size: 1rem; font-family: Open Sans, arial, helvetica, sans-serif;">Wybierz jedną z <a href="/pl/offer/registration-select/?next=/pl/" style="cursor: pointer;">rekrutacji</a>, aby zobaczyć ofertę dostępną w tej rekrutacji.</span></p>
         
-    </article>
-
-                </div>
-            
-            <div style="clear: both"></div>
-        </div>
-    </main>
-    <footer id="footer" class="vanisher">
-        <section id="info">
-            <section>
-            
-                <img src="/static/images/logo/footer-pl.svg" alt="">
-            
-            </section>
-            <section>
-                
-                    <div>Uniwersytet Kardynała Stefana Wyszyńskiego w Warszawie</div>
-                    <div><span class="fa fa-map-marker fa-fw"></span> ul. Dewajtis 5<br/>01-815 Warszawa</div>
-                    <div><span class="fa fa-phone fa-fw"></span> tel: centrala 22 561 88 00</div>
-                    <div><span class="fa fa-globe fa-fw"></span> www: <a href="https://uksw.edu.pl/">https://uksw.edu.pl/</a></div>
-                
-            </section>
-            <section>
-                <div>Internetowa Rekrutacja Kandydatów</div>
-                <div><span class="fa fa-code-fork fa-fw"></span> IRK 1.13.6 (3a1f2638-dirty) :: 2022-11-15</div>
-                <div><span class="fa fa-map-signs fa-fw"></span> <a href="/pl/sitemap/">mapa strony</a></div>
-                
-                <div><span class="fa fa-envelope-o fa-fw"></span> <a href="/pl/contact/">kontakt</a></div>
-            </section>
-        </section>
-        <section id="copyright">
-            <span class="fa fa-copyright"></span> <a href="http://www.muci.edu.pl/">Międzyuniwersyteckie Centrum Informatyzacji</a>. Wszystkie prawa zastrzeżone.
-        </section>
-    </footer>
-    <div id="black-footer-frame" class="vanisher"></div>
-    <div id="infobox" style="display: none">
-        <p><span class="fa fa-question-circle fa-lg" aria-hidden="true"></span> Pomoc</p>
-        <div></div>
-    </div>
-    <script>
-        $(function() {
-            if (!$('#infobox > div').text().trim()) {
-                $('.infobox-trigger, .top-infobox-trigger').remove();
-            }
-            // Accessibility
-            $('.button>.fa').each(function() {
-                $(this).attr('aria-hidden', 'true');
-            });
-            var box = $('.success-box, .warning-box, .error-box');
-            box.attr('tabindex', -1).focus();
-            var tabs = $('#tabs-1');
-            if (tabs.length && tabs.is(':visible')) {
-                box.find('+br').remove();
-                tabs.prepend(box);
-            }
-            $(document).on('keydown', function(e) {
-                if (e.which == $.ui.keyCode.TAB) {
-                    $('body').addClass('tab-focus');
-                }
-            });
-            $(document).on('mousedown', function() {
-                $('body').removeClass('tab-focus');
-            });
-        });
-        $(document).on('submit', 'form:not(.filter-form)', function() {
-            var form = $(this);
-            window.setTimeout(function() {
-                form.find('[type=submit]').prop('disabled', true).addClass('keep-color');
-            }, 0);
-            window.setTimeout(function() {
-                form.find('[type=submit]').prop('disabled', false).removeClass('keep-color');
-            }, 2000);
-        });
-        function go_to_anchor(element) {
-            $(element).focus();
-            $('html, body').animate({scrollTop: $(element).offset().top-10}, 0);
-        }
-    </script>
     
     
-
+</main>
+<footer>
+    <section id="info">
+        <section>
+            <img src="/static/images/logo/footer-pl.svg" alt="">
+        </section>
+        <section>
+            <div>Uniwersytet Kardynała Stefana Wyszyńskiego w Warszawie </div>
+            <div><span class="fa fa-map-marker"></span> Dewajtis 5<br/>01-815 Warsaw</div>
+            <div><span class="fa fa-phone"></span> tel: +48 22 561 88 00</div>
+            <div><span class="fa fa-globe"></span> www: <a href="https://uksw.edu.pl">https://uksw.edu.pl</a></div>
+        </section>
+    </section>
+</footer>
+<div id="black-footer-frame" class=""></div>
 </body>
 </html>
