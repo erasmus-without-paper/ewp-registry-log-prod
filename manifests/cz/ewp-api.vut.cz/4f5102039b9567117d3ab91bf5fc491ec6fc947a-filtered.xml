@@ -40,6 +40,18 @@
                 </e1:http-security>
                 <e1:url>https://ewp-api.vut.cz/ewp/api/echo</e1:url>
             </e1:echo>
+            <in2:institutions version="2.2.0">
+                <in2:http-security>
+                    <sec:client-auth-methods>
+                        <sec_cs:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec_sc:tlscert/>
+                    </sec:server-auth-methods>
+                </in2:http-security>
+                <in2:url>https://ewp-api.vut.cz/ewp/api/institutions</in2:url>
+                <in2:max-hei-ids>1</in2:max-hei-ids>
+            </in2:institutions>
             <ia2:iias version="6.2.0">
                 <ia2:http-security>
                     <sec:client-auth-methods>
