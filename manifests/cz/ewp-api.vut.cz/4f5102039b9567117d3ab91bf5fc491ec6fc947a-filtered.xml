@@ -40,6 +40,55 @@
                 </e1:http-security>
                 <e1:url>https://ewp-api.vut.cz/ewp/api/echo</e1:url>
             </e1:echo>
+            <ia2:iias version="6.2.0">
+                <ia2:http-security>
+                    <sec:client-auth-methods>
+                        <sec_cs:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec_sc:tlscert/>
+                    </sec:server-auth-methods>
+                </ia2:http-security>
+                <ia2:get-url>https://ewp-api.vut.cz/ewp/api/iias/get</ia2:get-url>
+                <ia2:max-iia-ids>20</ia2:max-iia-ids>
+                <ia2:max-iia-codes>20</ia2:max-iia-codes>
+                <ia2:index-url>https://ewp-api.vut.cz/ewp/api/iias/index</ia2:index-url>
+                <ia2:stats-url>https://ewp-api.vut.cz/ewp/api/iias/stats</ia2:stats-url>
+            </ia2:iias>
+            <iac2:iia-cnr version="2.0.3">
+                <iac2:http-security>
+                    <sec:client-auth-methods>
+                        <sec_cs:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec_sc:tlscert/>
+                    </sec:server-auth-methods>
+                </iac2:http-security>
+                <iac2:url>https://ewp-api.vut.cz/ewp/api/iia-cnr</iac2:url>
+            </iac2:iia-cnr>
+            <iaap:iias-approval version="1.1.0">
+                <iaap:http-security>
+                    <sec:client-auth-methods>
+                        <sec_cs:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec_sc:tlscert/>
+                    </sec:server-auth-methods>
+                </iaap:http-security>
+                <iaap:url>https://ewp-api.vut.cz/ewp/api/iias-approval</iaap:url>
+                <iaap:max-iia-ids>20</iaap:max-iia-ids>
+            </iaap:iias-approval>
+            <iapc:iia-approval-cnr version="1.1.0">
+                <iapc:http-security>
+                    <sec:client-auth-methods>
+                        <sec_cs:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec_sc:tlscert/>
+                    </sec:server-auth-methods>
+                </iapc:http-security>
+                <iapc:url>https://ewp-api.vut.cz/ewp/api/iia-approval-cnr</iapc:url>
+            </iapc:iia-approval-cnr>
         </ns2:apis-implemented>
         <ns1:institutions-covered>
             <ns2:hei id="vutbr.cz">
