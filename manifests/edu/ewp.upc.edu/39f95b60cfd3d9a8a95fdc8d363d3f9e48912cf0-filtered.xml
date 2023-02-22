@@ -70,6 +70,20 @@
                 <ounits:max-ounit-ids>10</ounits:max-ounit-ids>
                 <ounits:max-ounit-codes>10</ounits:max-ounit-codes>
             </ounits:organizational-units>
+            <olas:omobility-las version="1.2.0">
+                <olas:http-security>
+                    <sec:client-auth-methods>
+                        <cliauthsig1:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <srvauthsig1:httpsig/>
+                    </sec:server-auth-methods>
+                </olas:http-security>
+                <olas:get-url>https://ewp.upc.edu/api/omobility-las/get</olas:get-url>
+                <olas:index-url>https://ewp.upc.edu/api/omobility-las/index</olas:index-url>
+                <olas:update-url>https://ewp.upc.edu/api/omobility-las/update</olas:update-url>
+                <olas:max-omobility-ids>10</olas:max-omobility-ids>
+            </olas:omobility-las>
             <olascnr:omobility-la-cnr version="1.1.0">
                 <olascnr:http-security>
                     <sec:client-auth-methods>
