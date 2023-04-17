@@ -10,7 +10,7 @@
       <apis-implemented xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1">
          <discovery version="6.0.0"
            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6/manifest-entry.xsd">
-            <url>https://intranet.comillas.edu/comillas/manifest.xml</url>
+            <url>https://intranet.comillas.edu/ewp/manifest.xml</url>
          </discovery>
          <echo version="2.0.1"
            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd">
@@ -23,7 +23,7 @@
                   <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
                </sec:server-auth-methods>
             </http-security>
-            <url>https://intranet.comillas.edu/comillas/api/echo</url>
+            <url>https://intranet.comillas.edu/ewp/api/echo</url>
          </echo>
          <institutions version="2.2.0"
            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-institutions/blob/stable-v2/manifest-entry.xsd">
@@ -36,7 +36,7 @@
                   <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
                </sec:server-auth-methods>
             </http-security>
-            <url>https://intranet.comillas.edu/comillas/api/institution</url>
+            <url>https://intranet.comillas.edu/ewp/api/institution</url>
             <max-hei-ids>1</max-hei-ids>
          </institutions>
          <organizational-units version="2.1.1"
@@ -50,7 +50,7 @@
                   <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
                </sec:server-auth-methods>
             </http-security>
-            <url>https://intranet.comillas.edu/comillas/api/organizationalunit</url>
+            <url>https://intranet.comillas.edu/ewp/api/organizationalunit</url>
             <max-ounit-ids>10</max-ounit-ids>
             <max-ounit-codes>10</max-ounit-codes>
          </organizational-units>
@@ -64,10 +64,10 @@
                   <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
                </sec:server-auth-methods>
             </http-security>
-            <get-url>https://intranet.comillas.edu/comillas/api/Iia</get-url>
+            <get-url>https://intranet.comillas.edu/ewp/api/Iia</get-url>
             <max-iia-ids>1</max-iia-ids>
             <max-iia-codes>1</max-iia-codes>
-            <index-url>https://intranet.comillas.edu/comillas/api/Iia/Index</index-url>
+            <index-url>https://intranet.comillas.edu/ewp/api/Iia/Index</index-url>
          </iias>
          <iia-cnr version="2.0.3"
            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iia-cnr/blob/stable-v2/manifest-entry.xsd">
@@ -79,7 +79,7 @@
                   <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
                </sec:server-auth-methods>
             </http-security>
-            <url>https://intranet.comillas.edu/comillas/api/IiaCNR</url>
+            <url>https://intranet.comillas.edu/ewp/api/IiaCNR</url>
          </iia-cnr>
          <iia-approval-cnr version="1.1.0"
            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v1/manifest-entry.xsd">
@@ -91,7 +91,7 @@
                   <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
                </sec:server-auth-methods>
             </http-security>
-            <url>https://intranet.comillas.edu/comillas/api/IiaAprovalCNR</url>
+            <url>https://intranet.comillas.edu/ewp/api/IiaAprovalCNR</url>
          </iia-approval-cnr>
          <iias-approval version="1.1.0"
            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd">
@@ -103,7 +103,7 @@
                   <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
                </server-auth-methods>
             </http-security>
-            <url>https://intranet.comillas.edu/comillas/api/IiaAproval</url>
+            <url>https://intranet.comillas.edu/ewp/api/IiaAproval</url>
             <max-iia-ids>1</max-iia-ids>
          </iias-approval>
          <omobility-las version="1.2.0"
@@ -116,12 +116,12 @@
                   <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
                </server-auth-methods>
             </http-security>
-            <get-url>https://intranet.comillas.edu/comillas/api/OMobilityLas</get-url>
-            <index-url>https://intranet.comillas.edu/comillas/api/OMobilityLas/Index</index-url>
-            <update-url>https://intranet.comillas.edu/comillas/api/OMobilityLas/Update</update-url>
+            <get-url>https://intranet.comillas.edu/ewp/api/OMobilityLas</get-url>
+            <index-url>https://intranet.comillas.edu/ewp/api/OMobilityLas/Index</index-url>
+            <update-url>https://intranet.comillas.edu/ewp/api/OMobilityLas/Update</update-url>
             <max-omobility-ids>1</max-omobility-ids>
          </omobility-las>
-         <omobility-la-cnr version="1.1.0"
+         <!-- <omobility-la-cnr version="1.1.0"
            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd">
             <http-security>
                <client-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
@@ -131,9 +131,9 @@
                   <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
                </server-auth-methods>
             </http-security>
-            <url>https://intranet.comillas.edu/comillas/api/OMobilityLaCNR</url>
+            <url>https://intranet.comillas.edu/ewp/api/OMobilityLaCNR</url>
             <max-omobility-ids>1</max-omobility-ids>
-         </omobility-la-cnr>
+         </omobility-la-cnr> -->
          <omobility-cnr version="1.0.0"
            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/blob/stable-v1/manifest-entry.xsd">
             <http-security>
@@ -144,7 +144,7 @@
                   <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
                </server-auth-methods>
             </http-security>
-            <url>https://intranet.comillas.edu/comillas/api/OMobilityCNR</url>
+            <url>https://intranet.comillas.edu/ewp/api/OMobilityCNR</url>
             <max-omobility-ids>1</max-omobility-ids>
          </omobility-cnr>
          <omobilities version="2.0.0"
@@ -157,8 +157,8 @@
                   <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
                </server-auth-methods>
             </http-security>
-            <get-url>https://intranet.comillas.edu/comillas/api/OMobility</get-url>
-            <index-url>https://intranet.comillas.edu/comillas/api/OMobility/Index</index-url>
+            <get-url>https://intranet.comillas.edu/ewp/api/OMobility</get-url>
+            <index-url>https://intranet.comillas.edu/ewp/api/OMobility/Index</index-url>
             <max-omobility-ids>1</max-omobility-ids>
          </omobilities>
          <imobilities version="1.0.0"
@@ -171,7 +171,7 @@
                   <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
                </server-auth-methods>
             </http-security>
-            <get-url>https://intranet.comillas.edu/comillas/api/IMobility</get-url>
+            <get-url>https://intranet.comillas.edu/ewp/api/IMobility</get-url>
             <max-omobility-ids>1</max-omobility-ids>
             <sends-notifications />
          </imobilities>
@@ -185,7 +185,7 @@
                   <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
                </server-auth-methods>
             </http-security>
-            <url>https://intranet.comillas.edu/comillas/api/IMobilityCNR</url>
+            <url>https://intranet.comillas.edu/ewp/api/IMobilityCNR</url>
             <max-omobility-ids>1</max-omobility-ids>
          </imobility-cnr>
       </apis-implemented>
