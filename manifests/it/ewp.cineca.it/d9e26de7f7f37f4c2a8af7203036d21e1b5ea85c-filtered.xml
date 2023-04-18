@@ -145,7 +145,7 @@
             </factsheet>
             <iias
                 xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v6/manifest-entry.xsd"
-                version="6.0.1"
+                version="6.2.0"
             >
                 <http-security>
                     <sec:client-auth-methods>
@@ -160,6 +160,7 @@
                 <max-iia-ids>10</max-iia-ids>
                 <max-iia-codes>10</max-iia-codes>
                 <index-url>https://ewp.cineca.it/api/incoming/unibg.it/iia/index</index-url>
+                <stats-url>https://ewp.cineca.it/api/incoming/unibg.it/iia/stats</stats-url>
             </iias>
             <iia-cnr
                 xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iia-cnr/blob/stable-v2/manifest-entry.xsd"
@@ -209,7 +210,7 @@
             </iia-approval-cnr>
             <omobility-la-cnr
                 xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd"
-                version="1.0.0"
+                version="1.1.0"
             >
                 <http-security>
                     <sec:client-auth-methods>
@@ -221,11 +222,12 @@
                     </sec:server-auth-methods>
                 </http-security>
                 <url>https://ewp.cineca.it/api/incoming/unibg.it/outmob/las/cnr</url>
+                <stats-url>https://ewp.cineca.it/api/incoming/unibg.it/outmob/las/cnr/stats</stats-url>
                 <max-omobility-ids>1</max-omobility-ids>
             </omobility-la-cnr>
             <omobility-las
                 xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd"
-                version="1.0.1"
+                version="1.2.0"
             >
                 <http-security>
                     <sec:client-auth-methods>
@@ -239,6 +241,7 @@
                 <get-url>https://ewp.cineca.it/api/incoming/unibg.it/outmob/las/get</get-url>
                 <index-url>https://ewp.cineca.it/api/incoming/unibg.it/outmob/las/index</index-url>
                 <update-url>https://ewp.cineca.it/api/incoming/unibg.it/outmob/las/update</update-url>
+                <stats-url>https://ewp.cineca.it/api/incoming/unibg.it/outmob/las/stats</stats-url>
                 <max-omobility-ids>1</max-omobility-ids>
             </omobility-las>
         </r:apis-implemented>
