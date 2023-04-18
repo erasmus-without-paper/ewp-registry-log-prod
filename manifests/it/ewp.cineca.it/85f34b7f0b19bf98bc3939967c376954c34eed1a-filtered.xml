@@ -79,7 +79,7 @@
             </courses>
             <omobility-la-cnr
                 xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd"
-                version="1.0.0"
+                version="1.1.0"
             >
                 <http-security>
                     <sec:client-auth-methods>
@@ -91,11 +91,12 @@
                     </sec:server-auth-methods>
                 </http-security>
                 <url>https://ewp.cineca.it/api/incoming/unipd.it/outmob/las/cnr</url>
+                <stats-url>https://ewp.cineca.it/api/incoming/unipd.it/outmob/las/cnr/stats</stats-url>
                 <max-omobility-ids>1</max-omobility-ids>
             </omobility-la-cnr>
             <omobility-las
                 xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd"
-                version="1.0.1"
+                version="1.2.0"
             >
                 <http-security>
                     <sec:client-auth-methods>
@@ -109,6 +110,7 @@
                 <get-url>https://ewp.cineca.it/api/incoming/unipd.it/outmob/las/get</get-url>
                 <index-url>https://ewp.cineca.it/api/incoming/unipd.it/outmob/las/index</index-url>
                 <update-url>https://ewp.cineca.it/api/incoming/unipd.it/outmob/las/update</update-url>
+                <stats-url>https://ewp.cineca.it/api/incoming/unipd.it/outmob/las/stats</stats-url>
                 <max-omobility-ids>1</max-omobility-ids>
             </omobility-las>
         </r:apis-implemented>
