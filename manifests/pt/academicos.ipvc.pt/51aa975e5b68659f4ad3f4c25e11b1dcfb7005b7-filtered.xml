@@ -4,7 +4,7 @@
     xmlns:ns10="https://github.com/erasmus-without-paper/ewp-specs-api-courses/tree/stable-v1"
     xmlns:ns11="https://github.com/erasmus-without-paper/ewp-specs-types-academic-term/tree/stable-v1"
     xmlns:ns12="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/tree/stable-v1"
-    xmlns:ns13="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/endpoints/get-response.xsd"
+    xmlns:ns13="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v2/endpoints/get-response.xsd"
     xmlns:ns14="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/tree/stable-v1"
     xmlns:ns15="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/endpoints/get-response.xsd"
     xmlns:ns16="https://github.com/erasmus-without-paper/ewp-specs-types-academic-term/tree/stable-v2"
@@ -22,14 +22,14 @@
     xmlns:ns27="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v1/manifest-entry.xsd"
     xmlns:ns28="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
     xmlns:ns29="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd"
-    xmlns:ns30="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd"
-    xmlns:ns31="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-tors/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns30="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v2/manifest-entry.xsd"
+    xmlns:ns31="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-tors/blob/stable-v2/manifest-entry.xsd"
     xmlns:ns32="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-tor-cnr/blob/stable-v1/manifest-entry.xsd"
     xmlns:ns33="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd"
     xmlns:ns34="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6/manifest-entry.xsd"
     xmlns:ns35="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/blob/stable-v1/manifest-entry.xsd"
     xmlns:ns36="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v6/manifest-entry.xsd"
-    xmlns:ns37="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/endpoints/index-response.xsd"
+    xmlns:ns37="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v2/endpoints/index-response.xsd"
     xmlns:ns38="https://github.com/erasmus-without-paper/ewp-specs-sec-reqencr-tls/tree/stable-v1"
     xmlns:ns39="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/endpoints/index-response.xsd"
     xmlns:ns4="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/tree/stable-v2"
@@ -143,7 +143,7 @@
                 <ns24:max-los-ids>1</ns24:max-los-ids>
                 <ns24:max-los-codes>1</ns24:max-los-codes>
             </ns24:courses>
-            <ns22:simple-course-replication version="0.7.1">
+            <ns22:simple-course-replication version="1.0.0">
                 <admin-email>internacional@ipvc.pt</admin-email>
                 <ns22:http-security>
                     <ns17:client-auth-methods>
@@ -164,7 +164,7 @@
                 <ns22:allows-anonymous-access>false</ns22:allows-anonymous-access>
                 <ns22:supports-modified-since>false</ns22:supports-modified-since>
             </ns22:simple-course-replication>
-            <ns36:iias version="6.0.1">
+            <ns36:iias version="6.2.0">
                 <admin-email>internacional@ipvc.pt</admin-email>
                 <ns36:http-security>
                     <ns17:client-auth-methods>
@@ -205,7 +205,7 @@
                 </ns26:http-security>
                 <ns26:url>https://academicos.ipvc.pt/mobilidadenet/ewp/ewpstage/iias_cnr</ns26:url>
             </ns26:iia-cnr>
-            <ns25:iias-approval version="1.0.0">
+            <ns25:iias-approval version="1.1.0">
                 <admin-email>internacional@ipvc.pt</admin-email>
                 <ns25:http-security>
                     <ns17:client-auth-methods>
@@ -225,7 +225,7 @@
                 <ns25:url>https://academicos.ipvc.pt/mobilidadenet/ewp/ewpstage/iias_approval</ns25:url>
                 <ns25:max-iia-ids>1</ns25:max-iia-ids>
             </ns25:iias-approval>
-            <ns23:iia-approval-cnr version="1.0.0">
+            <ns23:iia-approval-cnr version="1.1.0">
                 <admin-email>internacional@ipvc.pt</admin-email>
                 <ns23:http-security>
                     <ns17:client-auth-methods>
@@ -244,7 +244,7 @@
                 </ns23:http-security>
                 <ns23:url>https://academicos.ipvc.pt/mobilidadenet/ewp/ewpstage/iias_approval_cnr</ns23:url>
             </ns23:iia-approval-cnr>
-            <ns28:factsheet version="1.0.0">
+            <ns28:factsheet version="1.1.0">
                 <ns28:http-security>
                     <ns17:client-auth-methods>
                         <ns46:httpsig/>
@@ -264,7 +264,7 @@
                 <ns28:url>https://academicos.ipvc.pt/mobilidadenet/ewp/ewpstage/factsheet</ns28:url>
                 <ns28:max-hei-ids>1</ns28:max-hei-ids>
             </ns28:factsheet>
-            <ns30:omobilities version="1.0.0">
+            <ns30:omobilities version="2.0.0">
                 <ns30:http-security>
                     <ns17:client-auth-methods>
                         <ns46:httpsig/>
@@ -284,7 +284,7 @@
                 <ns30:index-url>https://academicos.ipvc.pt/mobilidadenet/ewp/ewpstage/omobilities_index</ns30:index-url>
                 <ns30:max-omobility-ids>1</ns30:max-omobility-ids>
             </ns30:omobilities>
-            <ns33:omobility-las version="1.0.1">
+            <ns33:omobility-las version="1.2.0">
                 <ns33:http-security>
                     <ns17:client-auth-methods>
                         <ns46:httpsig/>
@@ -325,7 +325,7 @@
                 <ns35:url>https://academicos.ipvc.pt/mobilidadenet/ewp/ewpstage/omobility_cnr</ns35:url>
                 <ns35:max-omobility-ids>1</ns35:max-omobility-ids>
             </ns35:omobility-cnr>
-            <ns20:omobility-la-cnr version="1.0.0">
+            <ns20:omobility-la-cnr version="1.1.0">
                 <admin-email>internacional@ipvc.pt</admin-email>
                 <ns20:http-security>
                     <ns17:client-auth-methods>
