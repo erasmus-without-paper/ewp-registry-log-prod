@@ -47,7 +47,7 @@
     "
 >
     <host>
-        <ewp:admin-email>berlage@caci.nl</ewp:admin-email>
+        <ewp:admin-email>ewp@caci.nl</ewp:admin-email>
         <ewp:admin-provider>CACI (Osiris)</ewp:admin-provider>
         <r:apis-implemented>
             <discovery
@@ -86,7 +86,7 @@
             </iia-cnr>
             <iias
                 xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v6/manifest-entry.xsd"
-                version="6.0.1"
+                version="6.2.0"
             >
                 <http-security>
                     <sec:client-auth-methods>
@@ -100,6 +100,7 @@
                 <max-iia-ids>1</max-iia-ids>
                 <max-iia-codes>1</max-iia-codes>
                 <index-url>https://ewpprd1.osiris-link.nl/uu.nl/iia/index</index-url>
+                <stats-url>https://ewpprd1.osiris-link.nl/uu.nl/iia/stats</stats-url>
             </iias>
             <iias-approval
                 xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
