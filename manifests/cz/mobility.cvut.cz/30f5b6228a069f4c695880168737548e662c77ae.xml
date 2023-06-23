@@ -1,81 +1,167 @@
-<!DOCTYPE html>
-<html lang="cs">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
-            rel="apple-touch-icon"
-            sizes="180x180"
-            href="/apple-touch-icon.png"
-        />
-        <link
-            rel="icon"
-            type="image/x-icon"
-            sizes="32x32"
-            href="/favicon.ico"
-        />
-        <link
-            rel="icon"
-            type="image/x-icon"
-            sizes="16x16"
-            href="/favicon.ico"
-        />
-        <link rel="manifest" href="/site.webmanifest" />
-        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0065bd" />
-        <meta name="msapplication-TileColor" content="#ffffff" />
-        <meta name="theme-color" content="#0065bd" />
-        <script src="/configuration.js" type="application/javascript"></script>
-        <script type="application/json" src="/version.json"></script>
-        <title>Mobility</title>
-        <!-- Google Tag Manager -->
-        <script defer>
-            if (
-                typeof MOBILITY_RUNTIME_CONFIGURATION !== "undefined" &&
-                typeof MOBILITY_RUNTIME_CONFIGURATION.GTM_ID !== "undefined" &&
-                typeof MOBILITY_RUNTIME_CONFIGURATION.GTM_AUTH !== "undefined"
-            ) {
-                (function (w, d, s, l, i) {
-                    w[l] = w[l] || [];
-                    w[l].push({
-                        "gtm.start": new Date().getTime(),
-                        event: "gtm.js",
-                    });
-                    var f = d.getElementsByTagName(s)[0],
-                        j = d.createElement(s),
-                        dl = l != "dataLayer" ? "&l=" + l : "";
-                    j.async = true;
-                    j.src =
-                        "https://www.googletagmanager.com/gtm.js?id=" +
-                        i +
-                        dl +
-                        "&gtm_auth=" +
-                        MOBILITY_RUNTIME_CONFIGURATION.GTM_AUTH +
-                        "&gtm_cookies_win=x";
-                    f.parentNode.insertBefore(j, f);
-                })(
-                    window,
-                    document,
-                    "script",
-                    "dataLayer",
-                    MOBILITY_RUNTIME_CONFIGURATION.GTM_ID
-                );
-            }
-        </script>
-        <!-- End Google Tag Manager -->
-      <script type="module" crossorigin src="/assets/index.e06981d1.js"></script>
-      <link rel="modulepreload" href="/assets/vendor.133f0e8d.js">
-      <link rel="modulepreload" href="/assets/dayjs.c515b593.js">
-      <link rel="modulepreload" href="/assets/@vuelidate/validators.fe4f26f9.js">
-      <link rel="modulepreload" href="/assets/@fortawesome/fontawesome-svg-core.bc6c3fc2.js">
-      <link rel="modulepreload" href="/assets/@fortawesome/free-solid-svg-icons.9c4d713f.js">
-      <link rel="modulepreload" href="/assets/@fortawesome/free-regular-svg-icons.2364c2d7.js">
-      <link rel="modulepreload" href="/assets/ctu-components-library.3ae5cea5.js">
-      <link rel="modulepreload" href="/assets/bowser.c2c60c1a.js">
-      <link rel="modulepreload" href="/assets/@elastic/apm-rum-vue.30d321ed.js">
-      <link rel="stylesheet" href="/assets/index.5fa1f92b.css">
-    </head>
-    <body>
-        <div id="app"></div>
-        
-    </body>
-</html>
+<?xml version='1.0' encoding='utf-8'?>
+<disc:manifest
+        xmlns:common="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
+        xmlns:reg="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
+        xmlns:disc="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
+        xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
+        xmlns:iias="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v6/manifest-entry.xsd"
+        xmlns:echo="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd"
+        xmlns:disc-e="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6/manifest-entry.xsd"
+        xmlns:sec-ctls="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
+        xmlns:sec-csig="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
+        xmlns:sec-none="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-none/tree/stable-v1"
+        xmlns:sec-stls="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
+        xmlns:sec-ssig="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
+        xmlns:inst="https://github.com/erasmus-without-paper/ewp-specs-api-institutions/blob/stable-v2/manifest-entry.xsd"
+        xmlns:iias-cnr="https://github.com/erasmus-without-paper/ewp-specs-api-iia-cnr/blob/stable-v2/manifest-entry.xsd"
+        xmlns:iias-appl="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
+        xmlns:iias-appl-cnr="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v1/manifest-entry.xsd"
+        xmlns:fsheet="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
+        xmlns:ounits="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/blob/stable-v2/manifest-entry.xsd"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+>
+    <disc:host>
+        <common:admin-email>developers@cvut.cz</common:admin-email>
+        <common:admin-provider>CTU (Mobility)</common:admin-provider>
+        <common:admin-notes>Erasmus Without Paper API module for Mobility application</common:admin-notes>
+        <reg:apis-implemented>
+            <disc-e:discovery version="6.0.0">
+                    <disc-e:url>https://mobility.cvut.cz/ewp/api/manifest</disc-e:url>
+            </disc-e:discovery>
+            <echo:echo version="2.0.1">
+                 <echo:http-security>
+                    <sec:client-auth-methods>
+                        
+                        <sec-ctls:tlscert allows-self-signed="true"/>
+                        <sec-csig:httpsig />
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-stls:tlscert />
+                    </sec:server-auth-methods>
+                </echo:http-security>
+                    <echo:url>https://mobility.cvut.cz/ewp/api/echo</echo:url>
+            </echo:echo>
+            <inst:institutions version="2.2.0">
+                 <inst:http-security>
+                    <sec:client-auth-methods>
+                        <sec-none:anonymous/>
+                        <sec-ctls:tlscert allows-self-signed="true"/>
+                        <sec-csig:httpsig />
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-stls:tlscert />
+                    </sec:server-auth-methods>
+                </inst:http-security>
+                    <inst:url>https://mobility.cvut.cz/ewp/api/institutions</inst:url>
+                    <inst:max-hei-ids>1</inst:max-hei-ids>
+            </inst:institutions>
+            <iias:iias version="6.0.1">
+                 <iias:http-security>
+                    <sec:client-auth-methods>
+                        
+                        <sec-ctls:tlscert allows-self-signed="true"/>
+                        <sec-csig:httpsig />
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-stls:tlscert />
+                    </sec:server-auth-methods>
+                </iias:http-security>
+                    <iias:get-url>https://mobility.cvut.cz/ewp/api/iias/get</iias:get-url>
+                    <iias:max-iia-ids>1</iias:max-iia-ids>
+                    <iias:max-iia-codes>1</iias:max-iia-codes>
+                    <iias:index-url>https://mobility.cvut.cz/ewp/api/iias/index</iias:index-url>
+            </iias:iias>
+            <iias-cnr:iia-cnr version="2.0.2">
+                 <iias-cnr:http-security>
+                    <sec:client-auth-methods>
+                        
+                        <sec-ctls:tlscert allows-self-signed="true"/>
+                        <sec-csig:httpsig />
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-stls:tlscert />
+                    </sec:server-auth-methods>
+                </iias-cnr:http-security>
+                    <iias-cnr:url>https://mobility.cvut.cz/ewp/api/iias/cnr</iias-cnr:url>
+            </iias-cnr:iia-cnr>
+            <iias-appl:iias-approval version="1.0.0">
+                 <iias-appl:http-security>
+                    <sec:client-auth-methods>
+                        
+                        <sec-ctls:tlscert allows-self-signed="true"/>
+                        <sec-csig:httpsig />
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-stls:tlscert />
+                    </sec:server-auth-methods>
+                </iias-appl:http-security>
+                    <iias-appl:url>https://mobility.cvut.cz/ewp/api/iias/approval</iias-appl:url>
+                    <iias-appl:max-iia-ids>1</iias-appl:max-iia-ids>
+            </iias-appl:iias-approval>
+            <iias-appl-cnr:iia-approval-cnr version="1.0.0">
+                 <iias-appl-cnr:http-security>
+                    <sec:client-auth-methods>
+                        
+                        <sec-ctls:tlscert allows-self-signed="true"/>
+                        <sec-csig:httpsig />
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-stls:tlscert />
+                    </sec:server-auth-methods>
+                </iias-appl-cnr:http-security>
+                    <iias-appl-cnr:url>https://mobility.cvut.cz/ewp/api/iias/approval/cnr</iias-appl-cnr:url>
+            </iias-appl-cnr:iia-approval-cnr>
+            <fsheet:factsheet version="1.0.0">
+                 <fsheet:http-security>
+                    <sec:client-auth-methods>
+                        
+                        <sec-ctls:tlscert allows-self-signed="true"/>
+                        <sec-csig:httpsig />
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-stls:tlscert />
+                    </sec:server-auth-methods>
+                </fsheet:http-security>
+                    <fsheet:url>https://mobility.cvut.cz/ewp/api/factsheet</fsheet:url>
+                    <fsheet:max-hei-ids>1</fsheet:max-hei-ids>
+            </fsheet:factsheet>
+            <ounits:organizational-units version="2.1.1">
+                 <ounits:http-security>
+                    <sec:client-auth-methods>
+                        <sec-none:anonymous/>
+                        <sec-ctls:tlscert allows-self-signed="true"/>
+                        <sec-csig:httpsig />
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-stls:tlscert />
+                    </sec:server-auth-methods>
+                </ounits:http-security>
+                    <ounits:url>https://mobility.cvut.cz/ewp/api/organization-units</ounits:url>
+                    <ounits:max-ounit-ids>11</ounits:max-ounit-ids>
+                    <ounits:max-ounit-codes>11</ounits:max-ounit-codes>
+            </ounits:organizational-units>
+        </reg:apis-implemented>
+        <disc:institutions-covered>
+            <reg:hei id="cvut.cz">
+                <reg:other-id type="pic">999848744</reg:other-id>
+                <reg:other-id type="erasmus-charter">51698-EPP-1-2014-1-CZ-EPPKA3-ECHE</reg:other-id>
+                <reg:other-id type="erasmus">CZ PRAHA10</reg:other-id>
+                <reg:name xml:lang="cs">České vysoké učení technické v Praze</reg:name>
+                <reg:name xml:lang="en">Czech Technical University in Prague</reg:name>
+            </reg:hei>
+        </disc:institutions-covered>
+        <disc:client-credentials-in-use>
+            <disc:certificate>
+                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
+            </disc:certificate>
+            <disc:rsa-public-key>
+                MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArDrSb7BVtTZa/aVY4FxWnq+EkCZB8uk67OeCYp+v2ykRedbIS0uxz60FFAGZb0VIsLB9GFSXeVA/CMmz+BnOuyFXrmIC2D5xt7SMyUmmXk1LEM4OMU/IPRDaBEvfW0Bsetw5VwhNVCPJ8/vSJ1iGx6c9mV7l4Tdg52ddsOuytLRg7XIqQuHKKKR1B8YRmBl0P+pD+i46bDgizcKvo9NTH45YlmKWubACEvIQh4KJDwoBOOgQnA6iIWtnZDiLq8q4bCqlAXYrcURKWEGuB+yElLKXMovjkrjmUIRXeOHen2QA1hk9Lsx/fZvCFJFgeqVbSiGc905GLMsvWxBaGGM1fQIDAQAB
+            </disc:rsa-public-key>
+        </disc:client-credentials-in-use>
+        <disc:server-credentials-in-use>
+            <disc:rsa-public-key>
+                MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArDrSb7BVtTZa/aVY4FxWnq+EkCZB8uk67OeCYp+v2ykRedbIS0uxz60FFAGZb0VIsLB9GFSXeVA/CMmz+BnOuyFXrmIC2D5xt7SMyUmmXk1LEM4OMU/IPRDaBEvfW0Bsetw5VwhNVCPJ8/vSJ1iGx6c9mV7l4Tdg52ddsOuytLRg7XIqQuHKKKR1B8YRmBl0P+pD+i46bDgizcKvo9NTH45YlmKWubACEvIQh4KJDwoBOOgQnA6iIWtnZDiLq8q4bCqlAXYrcURKWEGuB+yElLKXMovjkrjmUIRXeOHen2QA1hk9Lsx/fZvCFJFgeqVbSiGc905GLMsvWxBaGGM1fQIDAQAB
+            </disc:rsa-public-key>
+        </disc:server-credentials-in-use>
+    </disc:host>
+</disc:manifest>
