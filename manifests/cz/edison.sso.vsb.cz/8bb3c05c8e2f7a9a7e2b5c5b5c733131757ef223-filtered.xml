@@ -22,31 +22,16 @@
     xmlns:s="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
     xmlns:t="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v1/manifest-entry.xsd"
     xmlns:u="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/blob/stable-v2/manifest-entry.xsd"
-    xmlns:v="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v6/manifest-entry.xsd"
-    xmlns:w="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v2/manifest-entry.xsd"
-    xmlns:x="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd"
-    xmlns:y="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
+    xmlns:v="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v2/manifest-entry.xsd"
+    xmlns:w="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd"
+    xmlns:x="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
+    xmlns:y="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v6/manifest-entry.xsd"
 >
     <z:host>
         <A:admin-email>ewp-admin@vsb.cz</A:admin-email>
-        <A:admin-provider>VSB - Technical University of Ostrava (EDISON)</A:admin-provider>
-        <y:apis-implemented>
-            <w:omobilities version="2.0.0">
-                <w:http-security>
-                    <s:client-auth-methods>
-                        <c:tlscert allows-self-signed="true"/>
-                        <a:httpsig/>
-                    </s:client-auth-methods>
-                    <s:server-auth-methods>
-                        <e:tlscert/>
-                        <d:httpsig/>
-                    </s:server-auth-methods>
-                </w:http-security>
-                <w:get-url>https://edison.sso.vsb.cz/ewp/rest/omobilities/get</w:get-url>
-                <w:index-url>https://edison.sso.vsb.cz/ewp/rest/omobilities/index</w:index-url>
-                <w:max-omobility-ids>1</w:max-omobility-ids>
-                <w:sends-notifications/>
-            </w:omobilities>
+        <A:admin-provider>VSB - Technical University of Ostrava (EDISON)
+		</A:admin-provider>
+        <x:apis-implemented>
             <u:organizational-units version="2.1.1">
                 <u:http-security>
                     <s:client-auth-methods>
@@ -62,6 +47,55 @@
                 <u:max-ounit-ids>10</u:max-ounit-ids>
                 <u:max-ounit-codes>10</u:max-ounit-codes>
             </u:organizational-units>
+            <y:iias version="6.2.0">
+                <y:http-security>
+                    <s:client-auth-methods>
+                        <c:tlscert allows-self-signed="true"/>
+                        <a:httpsig/>
+                    </s:client-auth-methods>
+                    <s:server-auth-methods>
+                        <e:tlscert/>
+                        <d:httpsig/>
+                    </s:server-auth-methods>
+                </y:http-security>
+                <y:get-url>https://edison.sso.vsb.cz/ewp/rest/iias/get</y:get-url>
+                <y:max-iia-ids>10</y:max-iia-ids>
+                <y:max-iia-codes>10</y:max-iia-codes>
+                <y:index-url>https://edison.sso.vsb.cz/ewp/rest/iias/index
+				</y:index-url>
+                <y:stats-url>https://edison.sso.vsb.cz/ewp/rest/iias/stats
+				</y:stats-url>
+            </y:iias>
+            <g:discovery version="6.0.0">
+                <g:url>https://edison.sso.vsb.cz/ewp/manifest.xml</g:url>
+            </g:discovery>
+            <p:institutions version="2.2.0">
+                <p:http-security>
+                    <s:client-auth-methods>
+                        <c:tlscert allows-self-signed="true"/>
+                        <a:httpsig/>
+                    </s:client-auth-methods>
+                    <s:server-auth-methods>
+                        <e:tlscert/>
+                        <d:httpsig/>
+                    </s:server-auth-methods>
+                </p:http-security>
+                <p:url>https://edison.sso.vsb.cz/ewp/rest/institutions</p:url>
+                <p:max-hei-ids>1</p:max-hei-ids>
+            </p:institutions>
+            <i:echo version="2.0.1">
+                <i:http-security>
+                    <s:client-auth-methods>
+                        <c:tlscert allows-self-signed="true"/>
+                        <a:httpsig/>
+                    </s:client-auth-methods>
+                    <s:server-auth-methods>
+                        <e:tlscert/>
+                        <d:httpsig/>
+                    </s:server-auth-methods>
+                </i:http-security>
+                <i:url>https://edison.sso.vsb.cz/ewp/rest/echo</i:url>
+            </i:echo>
             <n:iias-approval version="1.0.0">
                 <n:http-security>
                     <s:client-auth-methods>
@@ -90,49 +124,6 @@
                 <o:url>https://edison.sso.vsb.cz/ewp/rest/imobilities/cnr</o:url>
                 <o:max-omobility-ids>1</o:max-omobility-ids>
             </o:imobility-cnr>
-            <p:institutions version="2.2.0">
-                <p:http-security>
-                    <s:client-auth-methods>
-                        <c:tlscert allows-self-signed="true"/>
-                        <a:httpsig/>
-                    </s:client-auth-methods>
-                    <s:server-auth-methods>
-                        <e:tlscert/>
-                        <d:httpsig/>
-                    </s:server-auth-methods>
-                </p:http-security>
-                <p:url>https://edison.sso.vsb.cz/ewp/rest/institutions</p:url>
-                <p:max-hei-ids>1</p:max-hei-ids>
-            </p:institutions>
-            <i:echo version="2.0.1">
-                <i:http-security>
-                    <s:client-auth-methods>
-                        <c:tlscert allows-self-signed="true"/>
-                        <a:httpsig/>
-                    </s:client-auth-methods>
-                    <s:server-auth-methods>
-                        <e:tlscert/>
-                        <d:httpsig/>
-                    </s:server-auth-methods>
-                </i:http-security>
-                <i:url>https://edison.sso.vsb.cz/ewp/rest/echo</i:url>
-            </i:echo>
-            <x:omobility-las version="1.0.1">
-                <x:http-security>
-                    <s:client-auth-methods>
-                        <c:tlscert allows-self-signed="true"/>
-                        <a:httpsig/>
-                    </s:client-auth-methods>
-                    <s:server-auth-methods>
-                        <e:tlscert/>
-                        <d:httpsig/>
-                    </s:server-auth-methods>
-                </x:http-security>
-                <x:get-url>https://edison.sso.vsb.cz/ewp/rest/las/get</x:get-url>
-                <x:index-url>https://edison.sso.vsb.cz/ewp/rest/las/index</x:index-url>
-                <x:update-url>https://edison.sso.vsb.cz/ewp/rest/las/update</x:update-url>
-                <x:max-omobility-ids>1</x:max-omobility-ids>
-            </x:omobility-las>
             <m:factsheet version="1.1.0">
                 <m:http-security>
                     <s:client-auth-methods>
@@ -147,6 +138,24 @@
                 <m:url>https://edison.sso.vsb.cz/ewp/rest/factsheet</m:url>
                 <m:max-hei-ids>1</m:max-hei-ids>
             </m:factsheet>
+            <w:omobility-las version="1.0.1">
+                <w:http-security>
+                    <s:client-auth-methods>
+                        <c:tlscert allows-self-signed="true"/>
+                        <a:httpsig/>
+                    </s:client-auth-methods>
+                    <s:server-auth-methods>
+                        <e:tlscert/>
+                        <d:httpsig/>
+                    </s:server-auth-methods>
+                </w:http-security>
+                <w:get-url>https://edison.sso.vsb.cz/ewp/rest/las/get</w:get-url>
+                <w:index-url>https://edison.sso.vsb.cz/ewp/rest/las/index
+				</w:index-url>
+                <w:update-url>https://edison.sso.vsb.cz/ewp/rest/las/update
+				</w:update-url>
+                <w:max-omobility-ids>1</w:max-omobility-ids>
+            </w:omobility-las>
             <k:iia-approval-cnr version="1.0.0">
                 <k:http-security>
                     <s:client-auth-methods>
@@ -160,25 +169,6 @@
                 </k:http-security>
                 <k:url>https://edison.sso.vsb.cz/ewp/rest/iias/approval/cnr</k:url>
             </k:iia-approval-cnr>
-            <v:iias version="6.0.1">
-                <v:http-security>
-                    <s:client-auth-methods>
-                        <c:tlscert allows-self-signed="true"/>
-                        <a:httpsig/>
-                    </s:client-auth-methods>
-                    <s:server-auth-methods>
-                        <e:tlscert/>
-                        <d:httpsig/>
-                    </s:server-auth-methods>
-                </v:http-security>
-                <v:get-url>https://edison.sso.vsb.cz/ewp/rest/iias/get</v:get-url>
-                <v:max-iia-ids>10</v:max-iia-ids>
-                <v:max-iia-codes>10</v:max-iia-codes>
-                <v:index-url>https://edison.sso.vsb.cz/ewp/rest/iias/index</v:index-url>
-            </v:iias>
-            <g:discovery version="6.0.0">
-                <g:url>https://edison.sso.vsb.cz/ewp/manifest.xml</g:url>
-            </g:discovery>
             <l:iia-cnr version="2.0.3">
                 <l:http-security>
                     <s:client-auth-methods>
@@ -192,14 +182,15 @@
                 </l:http-security>
                 <l:url>https://edison.sso.vsb.cz/ewp/rest/iias/cnr</l:url>
             </l:iia-cnr>
-        </y:apis-implemented>
+        </x:apis-implemented>
         <z:institutions-covered>
-            <y:hei id="vsb.cz">
-                <y:other-id type="pic">999868144</y:other-id>
-                <y:other-id type="erasmus">CZ OSTRAVA01</y:other-id>
-                <y:other-id type="erasmus-charter">101012547</y:other-id>
-                <y:name xml:lang="en">VSB - Technical University of Ostrava</y:name>
-            </y:hei>
+            <x:hei id="vsb.cz">
+                <x:other-id type="pic">999868144</x:other-id>
+                <x:other-id type="erasmus">CZ OSTRAVA01</x:other-id>
+                <x:other-id type="erasmus-charter">101012547</x:other-id>
+                <x:name xml:lang="en">VSB - Technical University of Ostrava
+				</x:name>
+            </x:hei>
         </z:institutions-covered>
         <z:client-credentials-in-use>
             <z:certificate>MIIHszCCBZugAwIBAgIRALPHUDRo8SJxI9vxMDcOQfkwDQYJKoZIhvcNAQEMBQAw
