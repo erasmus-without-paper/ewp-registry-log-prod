@@ -169,6 +169,24 @@
                 </k:http-security>
                 <k:url>https://edison.sso.vsb.cz/ewp/rest/iias/approval/cnr</k:url>
             </k:iia-approval-cnr>
+            <v:omobilities version="2.0.0">
+                <v:http-security>
+                    <s:client-auth-methods>
+                        <c:tlscert allows-self-signed="true"/>
+                        <a:httpsig/>
+                    </s:client-auth-methods>
+                    <s:server-auth-methods>
+                        <e:tlscert/>
+                        <d:httpsig/>
+                    </s:server-auth-methods>
+                </v:http-security>
+                <v:get-url>https://edison.sso.vsb.cz/ewp/rest/omobilities/get
+				</v:get-url>
+                <v:index-url>https://edison.sso.vsb.cz/ewp/rest/omobilities/index
+				</v:index-url>
+                <v:max-omobility-ids>1</v:max-omobility-ids>
+                <v:sends-notifications/>
+            </v:omobilities>
             <l:iia-cnr version="2.0.3">
                 <l:http-security>
                     <s:client-auth-methods>
