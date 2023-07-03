@@ -29,8 +29,7 @@
 	xmlns:A="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd">
 	<z:host>
 		<A:admin-email>ewp-admin@vsb.cz</A:admin-email>
-		<A:admin-provider>VSB - Technical University of Ostrava (EDISON)
-		</A:admin-provider>
+		<A:admin-provider>VSB - Technical University of Ostrava (EDISON)</A:admin-provider>
 		<x:apis-implemented>
 			<u:organizational-units version="2.1.1">
 				<u:http-security>
@@ -61,10 +60,8 @@
 				<y:get-url>https://edison.sso.vsb.cz/ewp/rest/iias/get</y:get-url>
 				<y:max-iia-ids>10</y:max-iia-ids>
 				<y:max-iia-codes>10</y:max-iia-codes>
-				<y:index-url>https://edison.sso.vsb.cz/ewp/rest/iias/index
-				</y:index-url>
-				<y:stats-url>https://edison.sso.vsb.cz/ewp/rest/iias/stats
-				</y:stats-url>
+				<y:index-url>https://edison.sso.vsb.cz/ewp/rest/iias/index</y:index-url>
+				<y:stats-url>https://edison.sso.vsb.cz/ewp/rest/iias/stats</y:stats-url>
 			</y:iias>
 			<g:discovery version="6.0.0">
 				<g:url>https://edison.sso.vsb.cz/ewp/manifest.xml</g:url>
@@ -150,10 +147,8 @@
 					</s:server-auth-methods>
 				</w:http-security>
 				<w:get-url>https://edison.sso.vsb.cz/ewp/rest/las/get</w:get-url>
-				<w:index-url>https://edison.sso.vsb.cz/ewp/rest/las/index
-				</w:index-url>
-				<w:update-url>https://edison.sso.vsb.cz/ewp/rest/las/update
-				</w:update-url>
+				<w:index-url>https://edison.sso.vsb.cz/ewp/rest/las/index</w:index-url>
+				<w:update-url>https://edison.sso.vsb.cz/ewp/rest/las/update</w:update-url>
 				<w:max-omobility-ids>1</w:max-omobility-ids>
 			</w:omobility-las>
 			<k:iia-approval-cnr version="1.0.0">
@@ -180,10 +175,8 @@
 						<d:httpsig></d:httpsig>
 					</s:server-auth-methods>
 				</v:http-security>
-				<v:get-url>https://edison.sso.vsb.cz/ewp/rest/omobilities/get
-				</v:get-url>
-				<v:index-url>https://edison.sso.vsb.cz/ewp/rest/omobilities/index
-				</v:index-url>
+				<v:get-url>https://edison.sso.vsb.cz/ewp/rest/omobilities/get</v:get-url>
+				<v:index-url>https://edison.sso.vsb.cz/ewp/rest/omobilities/index</v:index-url>
 				<v:max-omobility-ids>1</v:max-omobility-ids>
 				<v:sends-notifications></v:sends-notifications>
 			</v:omobilities>
@@ -206,8 +199,7 @@
 				<x:other-id type="pic">999868144</x:other-id>
 				<x:other-id type="erasmus">CZ OSTRAVA01</x:other-id>
 				<x:other-id type="erasmus-charter">101012547</x:other-id>
-				<x:name xml:lang="en">VSB - Technical University of Ostrava
-				</x:name>
+				<x:name xml:lang="en">VSB - Technical University of Ostrava</x:name>
 			</x:hei>
 		</z:institutions-covered>
 		<z:client-credentials-in-use>
