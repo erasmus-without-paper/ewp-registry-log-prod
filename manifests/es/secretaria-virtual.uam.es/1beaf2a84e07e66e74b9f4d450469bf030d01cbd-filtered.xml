@@ -23,8 +23,9 @@
     xmlns:ns29="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/blob/stable-v2/manifest-entry.xsd"
     xmlns:ns3="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
     xmlns:ns30="https://github.com/erasmus-without-paper/ewp-specs-api-institutions/blob/stable-v2/manifest-entry.xsd"
-    xmlns:ns31="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd"
-    xmlns:ns32="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6/manifest-entry.xsd"
+    xmlns:ns31="https://github.com/erasmus-without-paper/ewp-specs-api-monitoring/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns32="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd"
+    xmlns:ns33="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6/manifest-entry.xsd"
     xmlns:ns4="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
     xmlns:ns5="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
     xmlns:ns6="https://github.com/erasmus-without-paper/ewp-specs-sec-reqencr-tls/tree/stable-v1"
@@ -36,9 +37,9 @@
         <ns10:admin-email>tecnicos-ewp-l@uam.es</ns10:admin-email>
         <ns10:admin-provider>SIGMA Gestión Universitaria, AIE (MP)</ns10:admin-provider>
         <ns11:apis-implemented>
-            <ns32:discovery version="6.0.0">
-                <ns32:url>https://secretaria-virtual.uam.es/ewp/rest/manifest.xml</ns32:url>
-            </ns32:discovery>
+            <ns33:discovery version="6.0.0">
+                <ns33:url>https://secretaria-virtual.uam.es/ewp/rest/manifest.xml</ns33:url>
+            </ns33:discovery>
             <ns30:institutions version="2.2.0">
                 <ns30:http-security>
                     <ns14:client-auth-methods>
