@@ -127,6 +127,59 @@
                 <ns22:max-ounit-ids>1</ns22:max-ounit-ids>
                 <ns22:max-ounit-codes>1</ns22:max-ounit-codes>
             </ns22:organizational-units>
+            <ns26:iias version="6.0.1">
+                <ns26:http-security>
+                    <ns8:client-auth-methods>
+                        <ns58:httpsig/>
+                    </ns8:client-auth-methods>
+                    <ns8:server-auth-methods>
+                        <ns62:tlscert/>
+                        <ns61:httpsig/>
+                    </ns8:server-auth-methods>
+                </ns26:http-security>
+                <ns26:get-url>https://artemis.ugr.es/ewp/iias/get</ns26:get-url>
+                <ns26:max-iia-ids>1</ns26:max-iia-ids>
+                <ns26:max-iia-codes>1</ns26:max-iia-codes>
+                <ns26:index-url>https://artemis.ugr.es/ewp/iias/index</ns26:index-url>
+                <ns26:stats-url>https://artemis.ugr.es/ewp/iias/stats</ns26:stats-url>
+            </ns26:iias>
+            <ns9:iia-cnr version="2.0.3">
+                <ns9:http-security>
+                    <ns8:client-auth-methods>
+                        <ns58:httpsig/>
+                    </ns8:client-auth-methods>
+                    <ns8:server-auth-methods>
+                        <ns61:httpsig/>
+                    </ns8:server-auth-methods>
+                </ns9:http-security>
+                <ns9:url>https://artemis.ugr.es/ewp/iias/cnr</ns9:url>
+            </ns9:iia-cnr>
+            <ns24:iias-approval version="1.0.0">
+                <ns24:http-security>
+                    <ns8:client-auth-methods>
+                        <ns58:httpsig/>
+                        <ns60:anonymous/>
+                    </ns8:client-auth-methods>
+                    <ns8:server-auth-methods>
+                        <ns62:tlscert/>
+                        <ns61:httpsig/>
+                    </ns8:server-auth-methods>
+                </ns24:http-security>
+                <ns24:url>https://artemis.ugr.es/ewp/iias/approval</ns24:url>
+                <ns24:max-iia-ids>1</ns24:max-iia-ids>
+            </ns24:iias-approval>
+            <ns23:iia-approval-cnr version="1.0.0">
+                <ns23:http-security>
+                    <ns8:client-auth-methods>
+                        <ns58:httpsig/>
+                    </ns8:client-auth-methods>
+                    <ns8:server-auth-methods>
+                        <ns62:tlscert/>
+                        <ns61:httpsig/>
+                    </ns8:server-auth-methods>
+                </ns23:http-security>
+                <ns23:url>https://artemis.ugr.es/ewp/iias/approval/cnr</ns23:url>
+            </ns23:iia-approval-cnr>
         </ns43:apis-implemented>
         <ns56:institutions-covered>
             <ns43:hei id="ugr.es">
