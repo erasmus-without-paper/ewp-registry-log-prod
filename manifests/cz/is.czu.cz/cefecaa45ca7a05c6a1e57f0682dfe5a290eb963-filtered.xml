@@ -109,6 +109,18 @@
                 </iac2:http-security>
                 <iac2:url>https://is.czu.cz/ewp/iias/cnr.pl</iac2:url>
             </iac2:iia-cnr>
+            <f1:factsheet version="1.1.0">
+                <f1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-cs:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-sc:tlscert/>
+                    </sec:server-auth-methods>
+                </f1:http-security>
+                <f1:url>https://is.czu.cz/ewp/factsheet_api.pl</f1:url>
+                <f1:max-hei-ids>1</f1:max-hei-ids>
+            </f1:factsheet>
         </ns2:apis-implemented>
         <ns1:institutions-covered>
             <ns2:hei id="czu.cz">
