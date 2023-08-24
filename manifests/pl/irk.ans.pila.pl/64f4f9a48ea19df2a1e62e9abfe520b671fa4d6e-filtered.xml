@@ -1,0 +1,80 @@
+<manifest
+    xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
+    xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
+    xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
+    xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
+>
+    <host>
+        <ewp:admin-email>usos@ans.pila.pl</ewp:admin-email>
+        <ewp:admin-provider>MUCI (USOS IRK)</ewp:admin-provider>
+        <r:apis-implemented>
+            <discovery
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6/manifest-entry.xsd"
+                version="6.0.0"
+            >
+                <url>https://irk.ans.pila.pl/ewp/manifest/</url>
+            </discovery>
+            <echo
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.1"
+            >
+                <http-security>
+                    <client-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </client-auth-methods>
+                    <server-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
+                        <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </server-auth-methods>
+                </http-security>
+                <url>https://irk.ans.pila.pl/ewp/echo/</url>
+            </echo>
+            <omobility-la-cnr
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="1.1.0"
+            >
+                <http-security>
+                    <client-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </client-auth-methods>
+                    <server-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
+                        <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </server-auth-methods>
+                </http-security>
+                <url>https://irk.ans.pila.pl/ewp/la/cnr/</url>
+                <stats-url>https://irk.ans.pila.pl/ewp/la/cnr/stats/</stats-url>
+                <max-omobility-ids>100</max-omobility-ids>
+            </omobility-la-cnr>
+        </r:apis-implemented>
+        <institutions-covered>
+            <hei
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
+                id="ans.pila.pl"
+            >
+                <other-id type="erasmus">PL PILA02</other-id>
+                <other-id type="pic">947656924</other-id>
+                <name xml:lang="pl">Akademia Nauk Stosowanych im. Stanisława Staszica w Pile</name>
+                <name xml:lang="en">Stanisław Staszic State University of Applied Sciences in Piła</name>
+            </hei>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtSXzffSCISIq9OaHAvn7
+kjU0nmVyJe15xhE/UxtaUmkMAzg9jwCJGB2HRVGdNvWzglKSZB4lPDZxB9Pu6Mh0
+TjAuNQQfoFmrDvrOeh70HExqNH15Q9WxxLjZF3XP3w53ZlQoShiv5wtjyxcieE5P
+s+dRfsh6I2ao328RvdJif3c7jpiV3pXdhXeZjhCwiUyeZlAOp0XcFQnAUKsdzkXP
+udDo1V87WjPnzYZLXjpA4OE/Ve3gyvbWS+ozS6Fpn+/5hDRmAWJkysvT8Ikz85s7
+f1F8/0siRnYka5Y0O1+GbL8ZVIZB3Ie9AVPzSdpHXpA2BGilRqZtTFolqnHehxG9
+BwIDAQAB</rsa-public-key>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtSXzffSCISIq9OaHAvn7
+kjU0nmVyJe15xhE/UxtaUmkMAzg9jwCJGB2HRVGdNvWzglKSZB4lPDZxB9Pu6Mh0
+TjAuNQQfoFmrDvrOeh70HExqNH15Q9WxxLjZF3XP3w53ZlQoShiv5wtjyxcieE5P
+s+dRfsh6I2ao328RvdJif3c7jpiV3pXdhXeZjhCwiUyeZlAOp0XcFQnAUKsdzkXP
+udDo1V87WjPnzYZLXjpA4OE/Ve3gyvbWS+ozS6Fpn+/5hDRmAWJkysvT8Ikz85s7
+f1F8/0siRnYka5Y0O1+GbL8ZVIZB3Ie9AVPzSdpHXpA2BGilRqZtTFolqnHehxG9
+BwIDAQAB</rsa-public-key>
+        </server-credentials-in-use>
+    </host>
+</manifest>
