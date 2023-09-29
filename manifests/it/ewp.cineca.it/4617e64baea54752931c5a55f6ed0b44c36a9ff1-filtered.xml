@@ -110,6 +110,7 @@
                 <max-iia-ids>10</max-iia-ids>
                 <max-iia-codes>10</max-iia-codes>
                 <index-url>https://ewp.cineca.it/api/incoming/unibocconi.it/iia/index</index-url>
+                <stats-url>https://ewp.cineca.it/api/incoming/unibocconi.it/iia/stats</stats-url>
             </iias>
             <iia-cnr
                 xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iia-cnr/blob/stable-v2/manifest-entry.xsd"
@@ -187,6 +188,7 @@
                     </sec:server-auth-methods>
                 </http-security>
                 <url>https://ewp.cineca.it/api/incoming/unibocconi.it/outmob/las/cnr</url>
+                <stats-url>https://ewp.cineca.it/api/incoming/unibocconi.it/outmob/las/cnr/stats</stats-url>
                 <max-omobility-ids>1</max-omobility-ids>
             </omobility-la-cnr>
             <omobility-las
@@ -205,6 +207,7 @@
                 <get-url>https://ewp.cineca.it/api/incoming/unibocconi.it/outmob/las/get</get-url>
                 <index-url>https://ewp.cineca.it/api/incoming/unibocconi.it/outmob/las/index</index-url>
                 <update-url>https://ewp.cineca.it/api/incoming/unibocconi.it/outmob/las/update</update-url>
+                <stats-url>https://ewp.cineca.it/api/incoming/unibocconi.it/outmob/las/stats</stats-url>
                 <max-omobility-ids>1</max-omobility-ids>
             </omobility-las>
         </r:apis-implemented>
