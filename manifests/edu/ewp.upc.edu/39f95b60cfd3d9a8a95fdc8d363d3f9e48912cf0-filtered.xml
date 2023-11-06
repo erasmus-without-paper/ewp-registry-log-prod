@@ -46,6 +46,7 @@
                         <cliauthsig1:httpsig/>
                     </sec:client-auth-methods>
                     <sec:server-auth-methods>
+                        <srvauthtls1:tlscert/>
                         <srvauthsig1:httpsig/>
                     </sec:server-auth-methods>
                 </e2:http-security>
@@ -56,6 +57,10 @@
                     <sec:client-auth-methods>
                         <cliauthsig1:httpsig/>
                     </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <srvauthtls1:tlscert/>
+                        <srvauthsig1:httpsig/>
+                    </sec:server-auth-methods>
                 </inst:http-security>
                 <inst:url>https://ewp.upc.edu/api/institutions</inst:url>
                 <inst:max-hei-ids>1</inst:max-hei-ids>
@@ -65,6 +70,10 @@
                     <sec:client-auth-methods>
                         <cliauthsig1:httpsig/>
                     </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <srvauthtls1:tlscert/>
+                        <srvauthsig1:httpsig/>
+                    </sec:server-auth-methods>
                 </ounits:http-security>
                 <ounits:url>https://ewp.upc.edu/api/ounits</ounits:url>
                 <ounits:max-ounit-ids>10</ounits:max-ounit-ids>
@@ -76,6 +85,7 @@
                         <cliauthsig1:httpsig/>
                     </sec:client-auth-methods>
                     <sec:server-auth-methods>
+                        <srvauthtls1:tlscert/>
                         <srvauthsig1:httpsig/>
                     </sec:server-auth-methods>
                 </olas:http-security>
@@ -91,6 +101,7 @@
                         <cliauthsig1:httpsig/>
                     </sec:client-auth-methods>
                     <sec:server-auth-methods>
+                        <srvauthtls1:tlscert/>
                         <srvauthsig1:httpsig/>
                     </sec:server-auth-methods>
                 </olascnr:http-security>
