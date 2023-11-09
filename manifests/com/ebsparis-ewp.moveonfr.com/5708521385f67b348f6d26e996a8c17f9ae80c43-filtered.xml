@@ -1,0 +1,86 @@
+<ns3:manifest
+    xmlns:ns3="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
+    xmlns:d6="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6/manifest-entry.xsd"
+    xmlns:e2="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd"
+    xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
+    xmlns:f1="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
+    xmlns:file1="https://github.com/erasmus-without-paper/ewp-specs-api-file/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ia6="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v6/manifest-entry.xsd"
+    xmlns:iaa1="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
+    xmlns:iaac1="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v1/manifest-entry.xsd"
+    xmlns:iac2="https://github.com/erasmus-without-paper/ewp-specs-api-iia-cnr/blob/stable-v2/manifest-entry.xsd"
+    xmlns:im1="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v1/manifest-entry.xsd"
+    xmlns:imc1="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-cnr/blob/stable-v1/manifest-entry.xsd"
+    xmlns:in2="https://github.com/erasmus-without-paper/ewp-specs-api-institutions/blob/stable-v2/manifest-entry.xsd"
+    xmlns:om2="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v2/manifest-entry.xsd"
+    xmlns:omc1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/blob/stable-v1/manifest-entry.xsd"
+    xmlns:oml1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd"
+    xmlns:omlc1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ou2="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/blob/stable-v2/manifest-entry.xsd"
+    xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
+    xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
+    xmlns:sec-A1="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
+    xmlns:sec-A2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
+    xmlns:sec-B1="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
+    xmlns:sec-B2="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
+>
+    <ns3:host>
+        <ewp:admin-email>moveon-ewp@qs.com</ewp:admin-email>
+        <ewp:admin-provider>QS MoveON</ewp:admin-provider>
+        <r:apis-implemented>
+            <d6:discovery version="6.0.0">
+                <d6:url>https://ebsparis-ewp.moveonfr.com/v1/manifest</d6:url>
+            </d6:discovery>
+            <e2:echo version="2.0.1">
+                <e2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </e2:http-security>
+                <e2:url>https://ebsparis-ewp.moveonfr.com/v1/echo</e2:url>
+            </e2:echo>
+            <file1:file version="1.0.0">
+                <file1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </file1:http-security>
+                <file1:url>https://ebsparis-ewp.moveonfr.com/v1/file/get</file1:url>
+            </file1:file>
+        </r:apis-implemented>
+        <ns3:institutions-covered>
+            <r:hei id="ebs-paris.com">
+                <r:other-id type="erasmus">F  PARIS258</r:other-id>
+                <r:other-id type="erasmus-charter">75671</r:other-id>
+                <r:other-id type="pic">949142770</r:other-id>
+                <r:name xml:lang="en">EBS – European Business School – Paris</r:name>
+            </r:hei>
+        </ns3:institutions-covered>
+        <ns3:client-credentials-in-use>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4p+r4BxX7Q/E5mXqu470
+AIx/u6VLaMQ7SivhhWsM+SWG/UeohKnF+OcUJGChrjKa5Xy4iQLS/fKZg4hfcr43
+VIyxwEx0v8+M6P8OMtCDcVPAaweiDSABWwR+5hO0uLZGePkpuU/VEDTdHbMfXfrX
+rC1uaFaPpVShehivFyh3nBg/E0SeByERpkOd9PCv7/wjRx3UM5OASrfBxuMN4kfK
++fbB8AxgDJs4BxfSAVp4CWWoQKXKHywBVFr3dRv+TtXr3feJuIAjYXfroQnAXAk3
+ZCU5Y/AraLdRXzOelIdAqArTZL9Osl4m4ahBbp6ClXwCxyusJK8ws6uzwjA5+Fjb
+iwIDAQAB
+</ns3:rsa-public-key>
+        </ns3:client-credentials-in-use>
+        <ns3:server-credentials-in-use>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4p+r4BxX7Q/E5mXqu470
+AIx/u6VLaMQ7SivhhWsM+SWG/UeohKnF+OcUJGChrjKa5Xy4iQLS/fKZg4hfcr43
+VIyxwEx0v8+M6P8OMtCDcVPAaweiDSABWwR+5hO0uLZGePkpuU/VEDTdHbMfXfrX
+rC1uaFaPpVShehivFyh3nBg/E0SeByERpkOd9PCv7/wjRx3UM5OASrfBxuMN4kfK
++fbB8AxgDJs4BxfSAVp4CWWoQKXKHywBVFr3dRv+TtXr3feJuIAjYXfroQnAXAk3
+ZCU5Y/AraLdRXzOelIdAqArTZL9Osl4m4ahBbp6ClXwCxyusJK8ws6uzwjA5+Fjb
+iwIDAQAB
+</ns3:rsa-public-key>
+        </ns3:server-credentials-in-use>
+    </ns3:host>
+</ns3:manifest>
