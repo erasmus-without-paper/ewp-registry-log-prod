@@ -31,6 +31,20 @@
 		<A:admin-email>ewp-admin@vsb.cz</A:admin-email>
 		<A:admin-provider>VSB - Technical University of Ostrava (EDISON)</A:admin-provider>
 		<x:apis-implemented>
+			<r:omobility-la-cnr version="1.0.0">
+				<r:http-security>
+					<s:client-auth-methods>
+						<c:tlscert allows-self-signed="true"></c:tlscert>
+						<a:httpsig></a:httpsig>
+					</s:client-auth-methods>
+					<s:server-auth-methods>
+						<e:tlscert></e:tlscert>
+						<d:httpsig></d:httpsig>
+					</s:server-auth-methods>
+				</r:http-security>
+				<r:url>https://edison.sso.vsb.cz/ewp/rest/las/cnr</r:url>
+				<r:max-omobility-ids>1</r:max-omobility-ids>
+			</r:omobility-la-cnr>
 			<u:organizational-units version="2.1.1">
 				<u:http-security>
 					<s:client-auth-methods>
@@ -66,6 +80,20 @@
 			<g:discovery version="6.0.0">
 				<g:url>https://edison.sso.vsb.cz/ewp/manifest.xml</g:url>
 			</g:discovery>
+			<q:omobility-cnr version="1.0.0">
+				<q:http-security>
+					<s:client-auth-methods>
+						<c:tlscert allows-self-signed="true"></c:tlscert>
+						<a:httpsig></a:httpsig>
+					</s:client-auth-methods>
+					<s:server-auth-methods>
+						<e:tlscert></e:tlscert>
+						<d:httpsig></d:httpsig>
+					</s:server-auth-methods>
+				</q:http-security>
+				<q:url>https://edison.sso.vsb.cz/ewp/rest/omobilities/cnr</q:url>
+				<q:max-omobility-ids>1</q:max-omobility-ids>
+			</q:omobility-cnr>
 			<p:institutions version="2.2.0">
 				<p:http-security>
 					<s:client-auth-methods>
@@ -180,6 +208,21 @@
 				<v:max-omobility-ids>1</v:max-omobility-ids>
 				<v:sends-notifications></v:sends-notifications>
 			</v:omobilities>
+			<t:imobilities version="1.0.0">
+				<t:http-security>
+					<s:client-auth-methods>
+						<c:tlscert allows-self-signed="true"></c:tlscert>
+						<a:httpsig></a:httpsig>
+					</s:client-auth-methods>
+					<s:server-auth-methods>
+						<e:tlscert></e:tlscert>
+						<d:httpsig></d:httpsig>
+					</s:server-auth-methods>
+				</t:http-security>
+				<t:get-url>https://edison.sso.vsb.cz/ewp/rest/imobilities/get</t:get-url>
+				<t:max-omobility-ids>1</t:max-omobility-ids>
+				<t:sends-notifications></t:sends-notifications>
+			</t:imobilities>
 			<l:iia-cnr version="2.0.3">
 				<l:http-security>
 					<s:client-auth-methods>
