@@ -1,90 +1,44 @@
 <ns3:manifest
     xmlns:ns3="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
     xmlns="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
-    xmlns:ns10="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-tors/blob/stable-v1/manifest-entry.xsd"
-    xmlns:ns11="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-cnr/blob/stable-v1/manifest-entry.xsd"
-    xmlns:ns12="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v1/manifest-entry.xsd"
-    xmlns:ns13="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/blob/stable-v1/manifest-entry.xsd"
-    xmlns:ns14="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd"
-    xmlns:ns15="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd"
-    xmlns:ns16="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd"
-    xmlns:ns17="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v1/manifest-entry.xsd"
-    xmlns:ns18="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
-    xmlns:ns19="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns10="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-cnr/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns11="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns12="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns13="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns14="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns15="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns16="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns17="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns18="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns19="https://github.com/erasmus-without-paper/ewp-specs-api-iia-cnr/blob/stable-v2/manifest-entry.xsd"
     xmlns:ns2="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
-    xmlns:ns20="https://github.com/erasmus-without-paper/ewp-specs-api-iia-cnr/blob/stable-v2/manifest-entry.xsd"
-    xmlns:ns21="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v4/manifest-entry.xsd"
-    xmlns:ns22="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/blob/stable-v2/manifest-entry.xsd"
-    xmlns:ns23="https://github.com/erasmus-without-paper/ewp-specs-api-institutions/blob/stable-v2/manifest-entry.xsd"
-    xmlns:ns24="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd"
-    xmlns:ns25="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6/manifest-entry.xsd"
+    xmlns:ns20="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v6/manifest-entry.xsd"
+    xmlns:ns21="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/blob/stable-v2/manifest-entry.xsd"
+    xmlns:ns22="https://github.com/erasmus-without-paper/ewp-specs-api-institutions/blob/stable-v2/manifest-entry.xsd"
+    xmlns:ns23="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd"
+    xmlns:ns24="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6/manifest-entry.xsd"
     xmlns:ns4="https://github.com/erasmus-without-paper/ewp-specs-api-registry/blob/stable-v1/manifest-entry.xsd"
     xmlns:ns5="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
-    xmlns:ns6="https://github.com/erasmus-without-paper/ewp-specs-api-mt-dictionaries/blob/stable-v1/manifest-entry.xsd"
-    xmlns:ns7="https://github.com/erasmus-without-paper/ewp-specs-api-mt-projects/blob/stable-v1/manifest-entry.xsd"
-    xmlns:ns8="https://github.com/erasmus-without-paper/ewp-specs-api-mt-institutions/blob/stable-v1/manifest-entry.xsd"
-    xmlns:ns9="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-tor-cnr/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns6="https://github.com/erasmus-without-paper/ewp-specs-api-mt-projects/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns7="https://github.com/erasmus-without-paper/ewp-specs-api-mt-institutions/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns8="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-tor-cnr/blob/stable-v1/manifest-entry.xsd"
+    xmlns:ns9="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-tors/blob/stable-v1/manifest-entry.xsd"
 >
     <ns3:host>
         <admin-email>ewpsiuv@uv.es</admin-email>
         <admin-provider>UNIVERSITAT DE VALENCIA</admin-provider>
-        <admin-notes>Version 02.00.00 of EWPCV - 09/02/2023</admin-notes>
+        <admin-notes>Version 02.01.00 of EWPCV - 16/11/2023</admin-notes>
         <ns2:apis-implemented>
-            <ns25:discovery version="6.0.0">
-                <ns25:url>https://webges.uv.es/uvEWPWeb/discovery</ns25:url>
-            </ns25:discovery>
-            <ns24:echo version="2.0.1">
+            <ns24:discovery version="6.0.0">
+                <ns24:url>https://webges.uv.es/uvEWPWeb/discovery</ns24:url>
+            </ns24:discovery>
+            <ns23:echo version="2.0.1">
                 <admin-notes>Echo service covered by tls or httpSig security</admin-notes>
-                <ns24:http-security>
-                    <ns5:client-auth-methods>
-                        <cli-sec2:httpsig
-                            xmlns:cli-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
-                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd"
-                            xmlns:cli-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
-                            xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
-                            xmlns:mf="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
-                            xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
-                            xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
-                            xmlns:srv-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
-                            xmlns:srv-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
-                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                        />
-                    </ns5:client-auth-methods>
-                    <ns5:server-auth-methods>
-                        <srv-sec:tlscert
-                            xmlns:srv-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
-                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd"
-                            xmlns:cli-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
-                            xmlns:cli-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
-                            xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
-                            xmlns:mf="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
-                            xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
-                            xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
-                            xmlns:srv-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
-                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                        />
-                        <srv-sec2:httpsig
-                            xmlns:srv-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
-                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd"
-                            xmlns:cli-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
-                            xmlns:cli-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
-                            xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
-                            xmlns:mf="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
-                            xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
-                            xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
-                            xmlns:srv-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
-                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                        />
-                    </ns5:server-auth-methods>
-                </ns24:http-security>
-                <ns24:url>https://webges.uv.es/uvEWPWeb/echo</ns24:url>
-            </ns24:echo>
-            <ns23:institutions version="2.2.0">
                 <ns23:http-security>
                     <ns5:client-auth-methods>
                         <cli-sec2:httpsig
                             xmlns:cli-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
-                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-institutions/blob/stable-v2/manifest-entry.xsd"
+                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd"
                             xmlns:cli-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
                             xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
                             xmlns:mf="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
@@ -98,7 +52,7 @@
                     <ns5:server-auth-methods>
                         <srv-sec:tlscert
                             xmlns:srv-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
-                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-institutions/blob/stable-v2/manifest-entry.xsd"
+                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd"
                             xmlns:cli-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
                             xmlns:cli-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
                             xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
@@ -110,7 +64,7 @@
                         />
                         <srv-sec2:httpsig
                             xmlns:srv-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
-                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-institutions/blob/stable-v2/manifest-entry.xsd"
+                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd"
                             xmlns:cli-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
                             xmlns:cli-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
                             xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
@@ -122,15 +76,14 @@
                         />
                     </ns5:server-auth-methods>
                 </ns23:http-security>
-                <ns23:url>https://webges.uv.es/uvEWPWeb/institutions/get</ns23:url>
-                <ns23:max-hei-ids>1</ns23:max-hei-ids>
-            </ns23:institutions>
-            <ns22:organizational-units version="2.1.1">
+                <ns23:url>https://webges.uv.es/uvEWPWeb/echo</ns23:url>
+            </ns23:echo>
+            <ns22:institutions version="2.2.0">
                 <ns22:http-security>
                     <ns5:client-auth-methods>
                         <cli-sec2:httpsig
                             xmlns:cli-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
-                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/blob/stable-v2/manifest-entry.xsd"
+                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-institutions/blob/stable-v2/manifest-entry.xsd"
                             xmlns:cli-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
                             xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
                             xmlns:mf="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
@@ -144,7 +97,7 @@
                     <ns5:server-auth-methods>
                         <srv-sec:tlscert
                             xmlns:srv-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
-                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/blob/stable-v2/manifest-entry.xsd"
+                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-institutions/blob/stable-v2/manifest-entry.xsd"
                             xmlns:cli-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
                             xmlns:cli-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
                             xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
@@ -156,7 +109,7 @@
                         />
                         <srv-sec2:httpsig
                             xmlns:srv-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
-                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/blob/stable-v2/manifest-entry.xsd"
+                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-institutions/blob/stable-v2/manifest-entry.xsd"
                             xmlns:cli-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
                             xmlns:cli-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
                             xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
@@ -168,43 +121,15 @@
                         />
                     </ns5:server-auth-methods>
                 </ns22:http-security>
-                <ns22:url>https://webges.uv.es/uvEWPWeb/ounits/get</ns22:url>
-                <ns22:max-ounit-ids>1</ns22:max-ounit-ids>
-                <ns22:max-ounit-codes>1</ns22:max-ounit-codes>
-            </ns22:organizational-units>
-            <iias
-                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v6/manifest-entry.xsd"
-                xmlns:cli-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
-                xmlns:cli-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
-                xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
-                xmlns:mf="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
-                xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
-                xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
-                xmlns:srv-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
-                xmlns:srv-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
-                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                version="6.0.1"
-            >
-                <http-security>
-                    <sec:client-auth-methods>
-                        <cli-sec2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <srv-sec:tlscert/>
-                        <srv-sec2:httpsig/>
-                    </sec:server-auth-methods>
-                </http-security>
-                <get-url>https://webges.uv.es/uvEWPWeb/iias/get</get-url>
-                <max-iia-ids>1</max-iia-ids>
-                <max-iia-codes>1</max-iia-codes>
-                <index-url>https://webges.uv.es/uvEWPWeb/iias/index</index-url>
-            </iias>
-            <ns20:iia-cnr version="2.0.3">
-                <ns20:http-security>
+                <ns22:url>https://webges.uv.es/uvEWPWeb/institutions/get</ns22:url>
+                <ns22:max-hei-ids>1</ns22:max-hei-ids>
+            </ns22:institutions>
+            <ns21:organizational-units version="2.1.1">
+                <ns21:http-security>
                     <ns5:client-auth-methods>
                         <cli-sec2:httpsig
                             xmlns:cli-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
-                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iia-cnr/blob/stable-v2/manifest-entry.xsd"
+                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/blob/stable-v2/manifest-entry.xsd"
                             xmlns:cli-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
                             xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
                             xmlns:mf="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
@@ -218,7 +143,7 @@
                     <ns5:server-auth-methods>
                         <srv-sec:tlscert
                             xmlns:srv-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
-                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iia-cnr/blob/stable-v2/manifest-entry.xsd"
+                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/blob/stable-v2/manifest-entry.xsd"
                             xmlns:cli-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
                             xmlns:cli-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
                             xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
@@ -230,7 +155,54 @@
                         />
                         <srv-sec2:httpsig
                             xmlns:srv-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
-                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iia-cnr/blob/stable-v2/manifest-entry.xsd"
+                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/blob/stable-v2/manifest-entry.xsd"
+                            xmlns:cli-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
+                            xmlns:cli-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
+                            xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
+                            xmlns:mf="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
+                            xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
+                            xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
+                            xmlns:srv-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
+                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        />
+                    </ns5:server-auth-methods>
+                </ns21:http-security>
+                <ns21:url>https://webges.uv.es/uvEWPWeb/ounits/get</ns21:url>
+                <ns21:max-ounit-ids>1</ns21:max-ounit-ids>
+                <ns21:max-ounit-codes>1</ns21:max-ounit-codes>
+            </ns21:organizational-units>
+            <ns20:iias version="6.2.0">
+                <ns20:http-security>
+                    <ns5:client-auth-methods>
+                        <cli-sec2:httpsig
+                            xmlns:cli-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
+                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v6/manifest-entry.xsd"
+                            xmlns:cli-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
+                            xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
+                            xmlns:mf="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
+                            xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
+                            xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
+                            xmlns:srv-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
+                            xmlns:srv-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
+                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        />
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <srv-sec:tlscert
+                            xmlns:srv-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
+                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v6/manifest-entry.xsd"
+                            xmlns:cli-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
+                            xmlns:cli-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
+                            xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
+                            xmlns:mf="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
+                            xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
+                            xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
+                            xmlns:srv-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
+                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        />
+                        <srv-sec2:httpsig
+                            xmlns:srv-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
+                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v6/manifest-entry.xsd"
                             xmlns:cli-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
                             xmlns:cli-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
                             xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
@@ -242,14 +214,18 @@
                         />
                     </ns5:server-auth-methods>
                 </ns20:http-security>
-                <ns20:url>https://webges.uv.es/uvEWPWeb/iias/cnr</ns20:url>
-            </ns20:iia-cnr>
-            <ns19:iias-approval version="1.0.0">
+                <ns20:get-url>https://webges.uv.es/uvEWPWeb/iias/get</ns20:get-url>
+                <ns20:max-iia-ids>1</ns20:max-iia-ids>
+                <ns20:max-iia-codes>1</ns20:max-iia-codes>
+                <ns20:index-url>https://webges.uv.es/uvEWPWeb/iias/index</ns20:index-url>
+                <ns20:stats-url>https://webges.uv.es/uvEWPWeb/StatisticsIia</ns20:stats-url>
+            </ns20:iias>
+            <ns19:iia-cnr version="2.0.3">
                 <ns19:http-security>
                     <ns5:client-auth-methods>
                         <cli-sec2:httpsig
                             xmlns:cli-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
-                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
+                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iia-cnr/blob/stable-v2/manifest-entry.xsd"
                             xmlns:cli-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
                             xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
                             xmlns:mf="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
@@ -263,7 +239,7 @@
                     <ns5:server-auth-methods>
                         <srv-sec:tlscert
                             xmlns:srv-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
-                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
+                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iia-cnr/blob/stable-v2/manifest-entry.xsd"
                             xmlns:cli-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
                             xmlns:cli-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
                             xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
@@ -275,7 +251,7 @@
                         />
                         <srv-sec2:httpsig
                             xmlns:srv-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
-                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
+                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iia-cnr/blob/stable-v2/manifest-entry.xsd"
                             xmlns:cli-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
                             xmlns:cli-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
                             xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
@@ -287,60 +263,14 @@
                         />
                     </ns5:server-auth-methods>
                 </ns19:http-security>
-                <ns19:url>https://webges.uv.es/uvEWPWeb/iias/approval/get</ns19:url>
-                <ns19:max-iia-ids>1</ns19:max-iia-ids>
-            </ns19:iias-approval>
-            <ns17:iia-approval-cnr version="1.0.0">
-                <ns17:http-security>
-                    <ns5:client-auth-methods>
-                        <cli-sec2:httpsig
-                            xmlns:cli-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
-                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v1/manifest-entry.xsd"
-                            xmlns:cli-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
-                            xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
-                            xmlns:mf="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
-                            xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
-                            xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
-                            xmlns:srv-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
-                            xmlns:srv-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
-                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                        />
-                    </ns5:client-auth-methods>
-                    <ns5:server-auth-methods>
-                        <srv-sec:tlscert
-                            xmlns:srv-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
-                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v1/manifest-entry.xsd"
-                            xmlns:cli-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
-                            xmlns:cli-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
-                            xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
-                            xmlns:mf="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
-                            xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
-                            xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
-                            xmlns:srv-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
-                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                        />
-                        <srv-sec2:httpsig
-                            xmlns:srv-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
-                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v1/manifest-entry.xsd"
-                            xmlns:cli-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
-                            xmlns:cli-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
-                            xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
-                            xmlns:mf="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
-                            xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
-                            xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
-                            xmlns:srv-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
-                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                        />
-                    </ns5:server-auth-methods>
-                </ns17:http-security>
-                <ns17:url>https://webges.uv.es/uvEWPWeb/iias/approval/cnr</ns17:url>
-            </ns17:iia-approval-cnr>
-            <ns18:factsheet version="1.0.0">
+                <ns19:url>https://webges.uv.es/uvEWPWeb/iias/cnr</ns19:url>
+            </ns19:iia-cnr>
+            <ns18:iias-approval version="1.0.0">
                 <ns18:http-security>
                     <ns5:client-auth-methods>
                         <cli-sec2:httpsig
                             xmlns:cli-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
-                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
+                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
                             xmlns:cli-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
                             xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
                             xmlns:mf="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
@@ -354,7 +284,7 @@
                     <ns5:server-auth-methods>
                         <srv-sec:tlscert
                             xmlns:srv-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
-                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
+                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
                             xmlns:cli-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
                             xmlns:cli-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
                             xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
@@ -366,7 +296,7 @@
                         />
                         <srv-sec2:httpsig
                             xmlns:srv-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
-                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
+                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd"
                             xmlns:cli-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
                             xmlns:cli-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
                             xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
@@ -378,108 +308,15 @@
                         />
                     </ns5:server-auth-methods>
                 </ns18:http-security>
-                <ns18:url>https://webges.uv.es/uvEWPWeb/factsheet/get</ns18:url>
-                <ns18:max-hei-ids>1</ns18:max-hei-ids>
-            </ns18:factsheet>
-            <ns12:imobilities version="1.0.0">
-                <ns12:http-security>
-                    <ns5:client-auth-methods>
-                        <cli-sec2:httpsig
-                            xmlns:cli-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
-                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v1/manifest-entry.xsd"
-                            xmlns:cli-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
-                            xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
-                            xmlns:mf="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
-                            xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
-                            xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
-                            xmlns:srv-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
-                            xmlns:srv-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
-                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                        />
-                    </ns5:client-auth-methods>
-                    <ns5:server-auth-methods>
-                        <srv-sec:tlscert
-                            xmlns:srv-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
-                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v1/manifest-entry.xsd"
-                            xmlns:cli-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
-                            xmlns:cli-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
-                            xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
-                            xmlns:mf="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
-                            xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
-                            xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
-                            xmlns:srv-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
-                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                        />
-                        <srv-sec2:httpsig
-                            xmlns:srv-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
-                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v1/manifest-entry.xsd"
-                            xmlns:cli-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
-                            xmlns:cli-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
-                            xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
-                            xmlns:mf="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
-                            xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
-                            xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
-                            xmlns:srv-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
-                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                        />
-                    </ns5:server-auth-methods>
-                </ns12:http-security>
-                <ns12:get-url>https://webges.uv.es/uvEWPWeb/incomingmobilities/get</ns12:get-url>
-                <ns12:max-omobility-ids>1</ns12:max-omobility-ids>
-                <ns12:sends-notifications/>
-            </ns12:imobilities>
-            <ns11:imobility-cnr version="1.0.0">
-                <ns11:http-security>
-                    <ns5:client-auth-methods>
-                        <cli-sec2:httpsig
-                            xmlns:cli-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
-                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-cnr/blob/stable-v1/manifest-entry.xsd"
-                            xmlns:cli-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
-                            xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
-                            xmlns:mf="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
-                            xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
-                            xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
-                            xmlns:srv-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
-                            xmlns:srv-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
-                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                        />
-                    </ns5:client-auth-methods>
-                    <ns5:server-auth-methods>
-                        <srv-sec:tlscert
-                            xmlns:srv-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
-                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-cnr/blob/stable-v1/manifest-entry.xsd"
-                            xmlns:cli-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
-                            xmlns:cli-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
-                            xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
-                            xmlns:mf="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
-                            xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
-                            xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
-                            xmlns:srv-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
-                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                        />
-                        <srv-sec2:httpsig
-                            xmlns:srv-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
-                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-cnr/blob/stable-v1/manifest-entry.xsd"
-                            xmlns:cli-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
-                            xmlns:cli-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
-                            xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
-                            xmlns:mf="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
-                            xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
-                            xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
-                            xmlns:srv-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
-                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                        />
-                    </ns5:server-auth-methods>
-                </ns11:http-security>
-                <ns11:url>https://webges.uv.es/uvEWPWeb/incomingmobilities/cnr</ns11:url>
-                <ns11:max-omobility-ids>1</ns11:max-omobility-ids>
-            </ns11:imobility-cnr>
-            <ns16:omobilities version="1.0.0">
+                <ns18:url>https://webges.uv.es/uvEWPWeb/iias/approval/get</ns18:url>
+                <ns18:max-iia-ids>1</ns18:max-iia-ids>
+            </ns18:iias-approval>
+            <ns16:iia-approval-cnr version="1.0.0">
                 <ns16:http-security>
                     <ns5:client-auth-methods>
                         <cli-sec2:httpsig
                             xmlns:cli-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
-                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd"
+                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v1/manifest-entry.xsd"
                             xmlns:cli-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
                             xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
                             xmlns:mf="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
@@ -493,7 +330,7 @@
                     <ns5:server-auth-methods>
                         <srv-sec:tlscert
                             xmlns:srv-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
-                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd"
+                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v1/manifest-entry.xsd"
                             xmlns:cli-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
                             xmlns:cli-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
                             xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
@@ -505,7 +342,7 @@
                         />
                         <srv-sec2:httpsig
                             xmlns:srv-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
-                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd"
+                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v1/manifest-entry.xsd"
                             xmlns:cli-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
                             xmlns:cli-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
                             xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
@@ -517,17 +354,14 @@
                         />
                     </ns5:server-auth-methods>
                 </ns16:http-security>
-                <ns16:get-url>https://webges.uv.es/uvEWPWeb/outgoingmobilities/get</ns16:get-url>
-                <ns16:index-url>https://webges.uv.es/uvEWPWeb/outgoingmobilities/index</ns16:index-url>
-                <ns16:max-omobility-ids>1</ns16:max-omobility-ids>
-                <ns16:sends-notifications/>
-            </ns16:omobilities>
-            <ns13:omobility-cnr version="1.0.0">
-                <ns13:http-security>
+                <ns16:url>https://webges.uv.es/uvEWPWeb/iias/approval/cnr</ns16:url>
+            </ns16:iia-approval-cnr>
+            <ns17:factsheet version="1.0.0">
+                <ns17:http-security>
                     <ns5:client-auth-methods>
                         <cli-sec2:httpsig
                             xmlns:cli-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
-                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/blob/stable-v1/manifest-entry.xsd"
+                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
                             xmlns:cli-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
                             xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
                             xmlns:mf="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
@@ -541,7 +375,7 @@
                     <ns5:server-auth-methods>
                         <srv-sec:tlscert
                             xmlns:srv-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
-                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/blob/stable-v1/manifest-entry.xsd"
+                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
                             xmlns:cli-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
                             xmlns:cli-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
                             xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
@@ -553,7 +387,7 @@
                         />
                         <srv-sec2:httpsig
                             xmlns:srv-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
-                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/blob/stable-v1/manifest-entry.xsd"
+                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
                             xmlns:cli-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
                             xmlns:cli-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
                             xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
@@ -564,16 +398,16 @@
                             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                         />
                     </ns5:server-auth-methods>
-                </ns13:http-security>
-                <ns13:url>https://webges.uv.es/uvEWPWeb/outgoingmobilities/cnr</ns13:url>
-                <ns13:max-omobility-ids>1</ns13:max-omobility-ids>
-            </ns13:omobility-cnr>
-            <ns15:omobility-las version="1.0.1">
-                <ns15:http-security>
+                </ns17:http-security>
+                <ns17:url>https://webges.uv.es/uvEWPWeb/factsheet/get</ns17:url>
+                <ns17:max-hei-ids>1</ns17:max-hei-ids>
+            </ns17:factsheet>
+            <ns11:imobilities version="1.0.0">
+                <ns11:http-security>
                     <ns5:client-auth-methods>
                         <cli-sec2:httpsig
                             xmlns:cli-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
-                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd"
+                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v1/manifest-entry.xsd"
                             xmlns:cli-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
                             xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
                             xmlns:mf="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
@@ -587,7 +421,7 @@
                     <ns5:server-auth-methods>
                         <srv-sec:tlscert
                             xmlns:srv-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
-                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd"
+                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v1/manifest-entry.xsd"
                             xmlns:cli-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
                             xmlns:cli-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
                             xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
@@ -599,7 +433,100 @@
                         />
                         <srv-sec2:httpsig
                             xmlns:srv-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
-                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd"
+                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v1/manifest-entry.xsd"
+                            xmlns:cli-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
+                            xmlns:cli-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
+                            xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
+                            xmlns:mf="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
+                            xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
+                            xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
+                            xmlns:srv-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
+                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        />
+                    </ns5:server-auth-methods>
+                </ns11:http-security>
+                <ns11:get-url>https://webges.uv.es/uvEWPWeb/incomingmobilities/get</ns11:get-url>
+                <ns11:max-omobility-ids>1</ns11:max-omobility-ids>
+                <ns11:sends-notifications/>
+            </ns11:imobilities>
+            <ns10:imobility-cnr version="1.0.0">
+                <ns10:http-security>
+                    <ns5:client-auth-methods>
+                        <cli-sec2:httpsig
+                            xmlns:cli-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
+                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-cnr/blob/stable-v1/manifest-entry.xsd"
+                            xmlns:cli-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
+                            xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
+                            xmlns:mf="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
+                            xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
+                            xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
+                            xmlns:srv-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
+                            xmlns:srv-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
+                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        />
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <srv-sec:tlscert
+                            xmlns:srv-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
+                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-cnr/blob/stable-v1/manifest-entry.xsd"
+                            xmlns:cli-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
+                            xmlns:cli-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
+                            xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
+                            xmlns:mf="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
+                            xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
+                            xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
+                            xmlns:srv-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
+                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        />
+                        <srv-sec2:httpsig
+                            xmlns:srv-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
+                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-cnr/blob/stable-v1/manifest-entry.xsd"
+                            xmlns:cli-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
+                            xmlns:cli-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
+                            xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
+                            xmlns:mf="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
+                            xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
+                            xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
+                            xmlns:srv-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
+                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        />
+                    </ns5:server-auth-methods>
+                </ns10:http-security>
+                <ns10:url>https://webges.uv.es/uvEWPWeb/incomingmobilities/cnr</ns10:url>
+                <ns10:max-omobility-ids>1</ns10:max-omobility-ids>
+            </ns10:imobility-cnr>
+            <ns15:omobilities version="1.0.0">
+                <ns15:http-security>
+                    <ns5:client-auth-methods>
+                        <cli-sec2:httpsig
+                            xmlns:cli-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
+                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd"
+                            xmlns:cli-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
+                            xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
+                            xmlns:mf="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
+                            xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
+                            xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
+                            xmlns:srv-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
+                            xmlns:srv-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
+                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        />
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <srv-sec:tlscert
+                            xmlns:srv-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
+                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd"
+                            xmlns:cli-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
+                            xmlns:cli-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
+                            xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
+                            xmlns:mf="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
+                            xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
+                            xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
+                            xmlns:srv-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
+                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        />
+                        <srv-sec2:httpsig
+                            xmlns:srv-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
+                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd"
                             xmlns:cli-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
                             xmlns:cli-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
                             xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
@@ -611,17 +538,17 @@
                         />
                     </ns5:server-auth-methods>
                 </ns15:http-security>
-                <ns15:get-url>https://webges.uv.es/uvEWPWeb/omobilities/get</ns15:get-url>
-                <ns15:index-url>https://webges.uv.es/uvEWPWeb/omobilities/index</ns15:index-url>
-                <ns15:update-url>https://webges.uv.es/uvEWPWeb/omobilities/update</ns15:update-url>
+                <ns15:get-url>https://webges.uv.es/uvEWPWeb/outgoingmobilities/get</ns15:get-url>
+                <ns15:index-url>https://webges.uv.es/uvEWPWeb/outgoingmobilities/index</ns15:index-url>
                 <ns15:max-omobility-ids>1</ns15:max-omobility-ids>
-            </ns15:omobility-las>
-            <ns14:omobility-la-cnr version="1.0.1">
-                <ns14:http-security>
+                <ns15:sends-notifications/>
+            </ns15:omobilities>
+            <ns12:omobility-cnr version="1.0.0">
+                <ns12:http-security>
                     <ns5:client-auth-methods>
                         <cli-sec2:httpsig
                             xmlns:cli-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
-                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd"
+                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/blob/stable-v1/manifest-entry.xsd"
                             xmlns:cli-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
                             xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
                             xmlns:mf="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
@@ -635,7 +562,7 @@
                     <ns5:server-auth-methods>
                         <srv-sec:tlscert
                             xmlns:srv-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
-                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd"
+                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/blob/stable-v1/manifest-entry.xsd"
                             xmlns:cli-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
                             xmlns:cli-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
                             xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
@@ -647,7 +574,7 @@
                         />
                         <srv-sec2:httpsig
                             xmlns:srv-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
-                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd"
+                            xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/blob/stable-v1/manifest-entry.xsd"
                             xmlns:cli-sec="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
                             xmlns:cli-sec2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
                             xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
@@ -658,10 +585,10 @@
                             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                         />
                     </ns5:server-auth-methods>
-                </ns14:http-security>
-                <ns14:url>https://webges.uv.es/uvEWPWeb/omobilities/cnr</ns14:url>
-                <ns14:max-omobility-ids>1</ns14:max-omobility-ids>
-            </ns14:omobility-la-cnr>
+                </ns12:http-security>
+                <ns12:url>https://webges.uv.es/uvEWPWeb/outgoingmobilities/cnr</ns12:url>
+                <ns12:max-omobility-ids>1</ns12:max-omobility-ids>
+            </ns12:omobility-cnr>
         </ns2:apis-implemented>
         <ns3:institutions-covered>
             <ns2:hei id="uv.es">
