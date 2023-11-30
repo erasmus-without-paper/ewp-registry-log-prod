@@ -1,8 +1,8 @@
 <manifest xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6">
     <host>
-        <admin-email xmlns="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd">assistance.dsi@tbs-education.fr</admin-email>
-        <admin-provider xmlns="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd">Toulouse Business School GSE (in-house software)</admin-provider>
-        <admin-notes xmlns="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd">Toulouse Business School EWP Manifest</admin-notes>
+        <admin-email xmlns="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd">ewp@tbs-education.fr</admin-email>
+        <admin-provider xmlns="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd">Toulouse Business School GSE</admin-provider>
+        <admin-notes xmlns="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd">Toulouse Business School in-house software</admin-notes>
         <apis-implemented xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1">
             <discovery
                 xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6/manifest-entry.xsd"
@@ -126,6 +126,52 @@
                 </http-security>
                 <url>https://ewp.webservices.tbs-education.fr/api/iia/approval/cnr</url>
             </iia-approval-cnr>
+            <institutions
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-institutions/blob/stable-v2/manifest-entry.xsd"
+                version="2.2.0"
+            >
+                <http-security>
+                    <client-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
+                        <anonymous xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-none/tree/stable-v1"/>
+                    </client-auth-methods>
+                    <server-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
+                        <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
+                    </server-auth-methods>
+                </http-security>
+                <url>https://ewp.webservices.tbs-education.fr/api/institution/get</url>
+                <max-hei-ids>1</max-hei-ids>
+            </institutions>
+            <factsheet
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
+                version="1.2.0"
+            >
+                <http-security>
+                    <client-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
+                        <anonymous xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-none/tree/stable-v1"/>
+                    </client-auth-methods>
+                    <server-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
+                        <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
+                    </server-auth-methods>
+                </http-security>
+                <url>https://ewp.webservices.tbs-education.fr/api/factsheet/get</url>
+                <max-hei-ids>1</max-hei-ids>
+            </factsheet>
+            <organizational-units
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/blob/stable-v2/manifest-entry.xsd"
+                version="2.1.1"
+            >
+                <http-security>
+                    <client-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
+                        <anonymous xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-none/tree/stable-v1"/>
+                    </client-auth-methods>
+                    <server-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
+                        <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
+                    </server-auth-methods>
+                </http-security>
+                <url>https://ewp.webservices.tbs-education.fr/api/orgunits/get</url>
+                <max-ounit-ids>1</max-ounit-ids>
+                <max-ounit-codes>1</max-ounit-codes>
+            </organizational-units>
         </apis-implemented>
         <institutions-covered>
             <hei
