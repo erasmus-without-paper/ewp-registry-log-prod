@@ -21,37 +21,6 @@
             >
                 <url>https://unizoneewp.it.auth.gr/rest/manifest/vu.lt</url>
             </discovery>
-            <institutions
-                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-institutions/blob/stable-v2/manifest-entry.xsd"
-                version="2.1.0"
-            >
-                <http-security>
-                    <sec:client-auth-methods>
-                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
-                    </sec:server-auth-methods>
-                </http-security>
-                <url>https://unizoneewp.it.auth.gr/rest/institutions/vu.lt</url>
-                <max-hei-ids>1</max-hei-ids>
-            </institutions>
-            <organizational-units
-                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/blob/stable-v2/manifest-entry.xsd"
-                version="2.1.0"
-            >
-                <http-security>
-                    <sec:client-auth-methods>
-                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
-                    </sec:server-auth-methods>
-                </http-security>
-                <url>https://unizoneewp.it.auth.gr/rest/ounits/vu.lt</url>
-                <max-ounit-ids>100</max-ounit-ids>
-                <max-ounit-codes>100</max-ounit-codes>
-            </organizational-units>
             <omobility-las
                 xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd"
                 version="1.2.0"
@@ -117,21 +86,6 @@
                 <url>https://unizoneewp.it.auth.gr/rest/tors/imobilities/cnr/vu.lt</url>
                 <max-omobility-ids>1</max-omobility-ids>
             </imobility-tor-cnr>
-            <factsheet
-                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
-                version="1.1.0"
-            >
-                <http-security>
-                    <sec:client-auth-methods>
-                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
-                    </sec:server-auth-methods>
-                </http-security>
-                <url>https://unizoneewp.it.auth.gr/rest/factsheet/vu.lt</url>
-                <max-hei-ids>1</max-hei-ids>
-            </factsheet>
         </r:apis-implemented>
         <institutions-covered>
             <r:hei id="vu.lt">
