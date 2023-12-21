@@ -53,6 +53,19 @@
                 <ns26:url>https://www.service4mobility.com/europe/ewp/institutions/vu.lt</ns26:url>
                 <ns26:max-hei-ids>3</ns26:max-hei-ids>
             </ns26:institutions>
+            <ns25:organizational-units version="2.1.1">
+                <ns25:http-security>
+                    <ns5:client-auth-methods>
+                        <ns31:httpsig/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns32:httpsig/>
+                    </ns5:server-auth-methods>
+                </ns25:http-security>
+                <ns25:url>https://www.service4mobility.com/europe/ewp/ounits/vu.lt</ns25:url>
+                <ns25:max-ounit-ids>3</ns25:max-ounit-ids>
+                <ns25:max-ounit-codes>3</ns25:max-ounit-codes>
+            </ns25:organizational-units>
             <ns24:iias version="6.2.0">
                 <ns24:http-security>
                     <ns5:client-auth-methods>
@@ -102,6 +115,18 @@
                 </ns21:http-security>
                 <ns21:url>https://www.service4mobility.com/europe/ewp/iias-approval-cnr-v1/cnr/vu.lt</ns21:url>
             </ns21:iia-approval-cnr>
+            <ns6:factsheet version="1.1.0">
+                <ns6:http-security>
+                    <ns5:client-auth-methods>
+                        <ns31:httpsig/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns32:httpsig/>
+                    </ns5:server-auth-methods>
+                </ns6:http-security>
+                <ns6:url>https://www.service4mobility.com/europe/ewp/factsheets/vu.lt</ns6:url>
+                <ns6:max-hei-ids>3</ns6:max-hei-ids>
+            </ns6:factsheet>
         </ns2:apis-implemented>
         <ns3:institutions-covered>
             <ns2:hei id="vu.lt">
