@@ -24,6 +24,9 @@
         <common:admin-provider>CTU (Mobility)</common:admin-provider>
         <common:admin-notes>Erasmus Without Paper API module for Mobility application</common:admin-notes>
         <reg:apis-implemented>
+            <disc-e:discovery version="6.0.0">
+                <disc-e:url>https://mobility.cvut.cz/ewp/api/manifest</disc-e:url>
+            </disc-e:discovery>
             <echo:echo version="2.0.1">
                 <echo:http-security>
                     <sec:client-auth-methods>
