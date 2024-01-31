@@ -57,7 +57,11 @@
     <ns3:host>
         <admin-email>erasmus@unl.pt</admin-email>
         <admin-provider>Digitalis Informatica, Lda</admin-provider>
-        <ns2:apis-implemented/>
+        <ns2:apis-implemented>
+            <ns21:discovery version="6.0.0">
+                <ns21:url>https://mobilidadenet.unl.pt/mobilidadenet/ewp/ewpstage/manifest</ns21:url>
+            </ns21:discovery>
+        </ns2:apis-implemented>
         <ns3:institutions-covered>
             <ns2:hei id="unl.pt">
                 <ns2:other-id type="erasmus">P  LISBOA03</ns2:other-id>
