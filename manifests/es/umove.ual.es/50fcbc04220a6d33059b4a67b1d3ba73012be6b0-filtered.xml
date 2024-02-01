@@ -35,6 +35,9 @@
         <admin-provider>University of Almería (UMove)</admin-provider>
         <admin-notes>Provider: University of Almería (UMove)</admin-notes>
         <ns2:apis-implemented>
+            <ns25:discovery version="6.0.0">
+                <ns25:url>https://umove.ual.es/mobilityUCA/seam/resource/rest/ewp/manifest</ns25:url>
+            </ns25:discovery>
             <ns24:echo version="2.0.1">
                 <ns24:http-security>
                     <ns5:client-auth-methods>
