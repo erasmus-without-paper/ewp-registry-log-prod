@@ -50,6 +50,12 @@
         <ewp:admin-email>ewp@caci.nl</ewp:admin-email>
         <ewp:admin-provider>CACI (Osiris)</ewp:admin-provider>
         <r:apis-implemented>
+            <discovery
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6/manifest-entry.xsd"
+                version="6.0.0"
+            >
+                <url>https://ewpprd1.osiris-link.nl/uu.nl/manifest.xml</url>
+            </discovery>
             <echo
                 xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd"
                 version="2.0.1"
