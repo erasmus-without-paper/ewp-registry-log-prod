@@ -28,23 +28,23 @@
     xmlns:ns33="https://github.com/erasmus-without-paper/ewp-specs-types-contact/tree/stable-v1"
     xmlns:ns34="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v6/endpoints/get-response.xsd"
     xmlns:ns35="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v2/endpoints/get-response.xsd"
-    xmlns:ns36="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
-    xmlns:ns37="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
-    xmlns:ns38="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-none/tree/stable-v1"
-    xmlns:ns39="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
+    xmlns:ns36="https://github.com/erasmus-without-paper/ewp-specs-api-course-replication/tree/stable-v1"
+    xmlns:ns37="https://github.com/erasmus-without-paper/ewp-specs-types-academic-term/tree/stable-v1"
+    xmlns:ns38="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/tree/stable-v1"
+    xmlns:ns39="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v6/endpoints/index-response.xsd"
     xmlns:ns4="https://github.com/erasmus-without-paper/ewp-specs-api-echo/tree/stable-v2"
-    xmlns:ns40="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
-    xmlns:ns41="https://github.com/erasmus-without-paper/ewp-specs-sec-reqencr-tls/tree/stable-v1"
-    xmlns:ns42="https://github.com/erasmus-without-paper/ewp-specs-sec-resencr-tls/tree/stable-v1"
-    xmlns:ns43="https://github.com/erasmus-without-paper/ewp-specs-api-course-replication/tree/stable-v1"
-    xmlns:ns44="https://github.com/erasmus-without-paper/ewp-specs-types-academic-term/tree/stable-v1"
-    xmlns:ns45="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/tree/stable-v1"
-    xmlns:ns46="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v6/endpoints/index-response.xsd"
-    xmlns:ns47="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v2/endpoints/index-response.xsd"
-    xmlns:ns48="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/endpoints/index-response.xsd"
-    xmlns:ns49="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/endpoints/update-response.xsd"
+    xmlns:ns40="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v2/endpoints/index-response.xsd"
+    xmlns:ns41="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/endpoints/index-response.xsd"
+    xmlns:ns42="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/endpoints/update-response.xsd"
+    xmlns:ns43="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/tree/stable-v2"
+    xmlns:ns44="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
+    xmlns:ns45="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
+    xmlns:ns46="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-none/tree/stable-v1"
+    xmlns:ns47="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
+    xmlns:ns48="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
+    xmlns:ns49="https://github.com/erasmus-without-paper/ewp-specs-sec-reqencr-tls/tree/stable-v1"
     xmlns:ns5="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/endpoints/get-response.xsd"
-    xmlns:ns50="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/tree/stable-v2"
+    xmlns:ns50="https://github.com/erasmus-without-paper/ewp-specs-sec-resencr-tls/tree/stable-v1"
     xmlns:ns51="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/tree/stable-v1"
     xmlns:ns52="https://github.com/erasmus-without-paper/ewp-specs-api-iia-cnr/tree/stable-v2"
     xmlns:ns53="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/tree/stable-v1"
@@ -58,21 +58,24 @@
         <admin-email>gri@ipbeja.pt</admin-email>
         <admin-provider>Digitalis Informatica, Lda</admin-provider>
         <ns2:apis-implemented>
+            <ns28:discovery version="6.0.0">
+                <ns28:url>https://mobilidade.ipbeja.pt/mobilidadenet/ewp/ewpstage/manifest</ns28:url>
+            </ns28:discovery>
             <ns23:echo version="2.0.1">
                 <admin-email>gri@ipbeja.pt</admin-email>
                 <ns23:http-security>
                     <ns11:client-auth-methods>
-                        <ns39:httpsig/>
+                        <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
-                        <ns40:httpsig/>
-                        <ns36:tlscert/>
+                        <ns48:httpsig/>
+                        <ns44:tlscert/>
                     </ns11:server-auth-methods>
                     <ns11:request-encryption-methods>
-                        <ns41:tls/>
+                        <ns49:tls/>
                     </ns11:request-encryption-methods>
                     <ns11:response-encryption-methods>
-                        <ns42:tls/>
+                        <ns50:tls/>
                     </ns11:response-encryption-methods>
                 </ns23:http-security>
                 <ns23:url>https://mobilidade.ipbeja.pt/mobilidadenet/ewp/ewpstage/echo</ns23:url>
@@ -81,18 +84,18 @@
                 <admin-email>gri@ipbeja.pt</admin-email>
                 <ns15:http-security>
                     <ns11:client-auth-methods>
-                        <ns39:httpsig/>
-                        <ns38:anonymous/>
+                        <ns47:httpsig/>
+                        <ns46:anonymous/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
-                        <ns40:httpsig/>
-                        <ns36:tlscert/>
+                        <ns48:httpsig/>
+                        <ns44:tlscert/>
                     </ns11:server-auth-methods>
                     <ns11:request-encryption-methods>
-                        <ns41:tls/>
+                        <ns49:tls/>
                     </ns11:request-encryption-methods>
                     <ns11:response-encryption-methods>
-                        <ns42:tls/>
+                        <ns50:tls/>
                     </ns11:response-encryption-methods>
                 </ns15:http-security>
                 <ns15:url>https://mobilidade.ipbeja.pt/mobilidadenet/ewp/ewpstage/institutions</ns15:url>
@@ -102,17 +105,17 @@
                 <admin-email>gri@ipbeja.pt</admin-email>
                 <ns12:http-security>
                     <ns11:client-auth-methods>
-                        <ns39:httpsig/>
+                        <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
-                        <ns40:httpsig/>
-                        <ns36:tlscert/>
+                        <ns48:httpsig/>
+                        <ns44:tlscert/>
                     </ns11:server-auth-methods>
                     <ns11:request-encryption-methods>
-                        <ns41:tls/>
+                        <ns49:tls/>
                     </ns11:request-encryption-methods>
                     <ns11:response-encryption-methods>
-                        <ns42:tls/>
+                        <ns50:tls/>
                     </ns11:response-encryption-methods>
                 </ns12:http-security>
                 <ns12:url>https://mobilidade.ipbeja.pt/mobilidadenet/ewp/ewpstage/ounits</ns12:url>
@@ -123,17 +126,17 @@
                 <admin-email>gri@ipbeja.pt</admin-email>
                 <ns18:http-security>
                     <ns11:client-auth-methods>
-                        <ns39:httpsig/>
+                        <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
-                        <ns40:httpsig/>
-                        <ns36:tlscert/>
+                        <ns48:httpsig/>
+                        <ns44:tlscert/>
                     </ns11:server-auth-methods>
                     <ns11:request-encryption-methods>
-                        <ns41:tls/>
+                        <ns49:tls/>
                     </ns11:request-encryption-methods>
                     <ns11:response-encryption-methods>
-                        <ns42:tls/>
+                        <ns50:tls/>
                     </ns11:response-encryption-methods>
                 </ns18:http-security>
                 <ns18:url>https://mobilidade.ipbeja.pt/mobilidadenet/ewp/ewpstage/courses</ns18:url>
@@ -144,17 +147,17 @@
                 <admin-email>gri@ipbeja.pt</admin-email>
                 <ns16:http-security>
                     <ns11:client-auth-methods>
-                        <ns39:httpsig/>
+                        <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
-                        <ns40:httpsig/>
-                        <ns36:tlscert/>
+                        <ns48:httpsig/>
+                        <ns44:tlscert/>
                     </ns11:server-auth-methods>
                     <ns11:request-encryption-methods>
-                        <ns41:tls/>
+                        <ns49:tls/>
                     </ns11:request-encryption-methods>
                     <ns11:response-encryption-methods>
-                        <ns42:tls/>
+                        <ns50:tls/>
                     </ns11:response-encryption-methods>
                 </ns16:http-security>
                 <ns16:url>https://mobilidade.ipbeja.pt/mobilidadenet/ewp/ewpstage/courserep</ns16:url>
@@ -165,17 +168,17 @@
                 <admin-email>gri@ipbeja.pt</admin-email>
                 <ns30:http-security>
                     <ns11:client-auth-methods>
-                        <ns39:httpsig/>
+                        <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
-                        <ns40:httpsig/>
-                        <ns36:tlscert/>
+                        <ns48:httpsig/>
+                        <ns44:tlscert/>
                     </ns11:server-auth-methods>
                     <ns11:request-encryption-methods>
-                        <ns41:tls/>
+                        <ns49:tls/>
                     </ns11:request-encryption-methods>
                     <ns11:response-encryption-methods>
-                        <ns42:tls/>
+                        <ns50:tls/>
                     </ns11:response-encryption-methods>
                 </ns30:http-security>
                 <ns30:get-url>https://mobilidade.ipbeja.pt/mobilidadenet/ewp/ewpstage/iias_get</ns30:get-url>
@@ -187,17 +190,17 @@
                 <admin-email>gri@ipbeja.pt</admin-email>
                 <ns20:http-security>
                     <ns11:client-auth-methods>
-                        <ns39:httpsig/>
+                        <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
-                        <ns40:httpsig/>
-                        <ns36:tlscert/>
+                        <ns48:httpsig/>
+                        <ns44:tlscert/>
                     </ns11:server-auth-methods>
                     <ns11:request-encryption-methods>
-                        <ns41:tls/>
+                        <ns49:tls/>
                     </ns11:request-encryption-methods>
                     <ns11:response-encryption-methods>
-                        <ns42:tls/>
+                        <ns50:tls/>
                     </ns11:response-encryption-methods>
                 </ns20:http-security>
                 <ns20:url>https://mobilidade.ipbeja.pt/mobilidadenet/ewp/ewpstage/iias_cnr</ns20:url>
@@ -206,17 +209,17 @@
                 <admin-email>gri@ipbeja.pt</admin-email>
                 <ns19:http-security>
                     <ns11:client-auth-methods>
-                        <ns39:httpsig/>
+                        <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
-                        <ns40:httpsig/>
-                        <ns36:tlscert/>
+                        <ns48:httpsig/>
+                        <ns44:tlscert/>
                     </ns11:server-auth-methods>
                     <ns11:request-encryption-methods>
-                        <ns41:tls/>
+                        <ns49:tls/>
                     </ns11:request-encryption-methods>
                     <ns11:response-encryption-methods>
-                        <ns42:tls/>
+                        <ns50:tls/>
                     </ns11:response-encryption-methods>
                 </ns19:http-security>
                 <ns19:url>https://mobilidade.ipbeja.pt/mobilidadenet/ewp/ewpstage/iias_approval</ns19:url>
@@ -226,17 +229,17 @@
                 <admin-email>gri@ipbeja.pt</admin-email>
                 <ns17:http-security>
                     <ns11:client-auth-methods>
-                        <ns39:httpsig/>
+                        <ns47:httpsig/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
-                        <ns40:httpsig/>
-                        <ns36:tlscert/>
+                        <ns48:httpsig/>
+                        <ns44:tlscert/>
                     </ns11:server-auth-methods>
                     <ns11:request-encryption-methods>
-                        <ns41:tls/>
+                        <ns49:tls/>
                     </ns11:request-encryption-methods>
                     <ns11:response-encryption-methods>
-                        <ns42:tls/>
+                        <ns50:tls/>
                     </ns11:response-encryption-methods>
                 </ns17:http-security>
                 <ns17:url>https://mobilidade.ipbeja.pt/mobilidadenet/ewp/ewpstage/iias_approval_cnr</ns17:url>
@@ -244,18 +247,18 @@
             <ns22:factsheet version="1.1.0">
                 <ns22:http-security>
                     <ns11:client-auth-methods>
-                        <ns39:httpsig/>
-                        <ns38:anonymous/>
+                        <ns47:httpsig/>
+                        <ns46:anonymous/>
                     </ns11:client-auth-methods>
                     <ns11:server-auth-methods>
-                        <ns40:httpsig/>
-                        <ns36:tlscert/>
+                        <ns48:httpsig/>
+                        <ns44:tlscert/>
                     </ns11:server-auth-methods>
                     <ns11:request-encryption-methods>
-                        <ns41:tls/>
+                        <ns49:tls/>
                     </ns11:request-encryption-methods>
                     <ns11:response-encryption-methods>
-                        <ns42:tls/>
+                        <ns50:tls/>
                     </ns11:response-encryption-methods>
                 </ns22:http-security>
                 <ns22:url>https://mobilidade.ipbeja.pt/mobilidadenet/ewp/ewpstage/factsheet</ns22:url>
