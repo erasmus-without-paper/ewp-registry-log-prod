@@ -28,23 +28,23 @@
     xmlns:ns33="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v2/endpoints/get-response.xsd"
     xmlns:ns34="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/tree/stable-v1"
     xmlns:ns35="https://github.com/erasmus-without-paper/ewp-specs-api-courses/tree/stable-v1"
-    xmlns:ns36="https://github.com/erasmus-without-paper/ewp-specs-api-course-replication/tree/stable-v1"
-    xmlns:ns37="https://github.com/erasmus-without-paper/ewp-specs-types-academic-term/tree/stable-v1"
-    xmlns:ns38="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/tree/stable-v1"
-    xmlns:ns39="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v6/endpoints/index-response.xsd"
+    xmlns:ns36="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
+    xmlns:ns37="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
+    xmlns:ns38="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-none/tree/stable-v1"
+    xmlns:ns39="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
     xmlns:ns4="https://github.com/erasmus-without-paper/ewp-specs-api-echo/tree/stable-v2"
-    xmlns:ns40="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v2/endpoints/index-response.xsd"
-    xmlns:ns41="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/endpoints/index-response.xsd"
-    xmlns:ns42="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/endpoints/update-response.xsd"
-    xmlns:ns43="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/tree/stable-v2"
-    xmlns:ns44="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
-    xmlns:ns45="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
-    xmlns:ns46="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-none/tree/stable-v1"
-    xmlns:ns47="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
-    xmlns:ns48="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
-    xmlns:ns49="https://github.com/erasmus-without-paper/ewp-specs-sec-reqencr-tls/tree/stable-v1"
+    xmlns:ns40="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
+    xmlns:ns41="https://github.com/erasmus-without-paper/ewp-specs-sec-reqencr-tls/tree/stable-v1"
+    xmlns:ns42="https://github.com/erasmus-without-paper/ewp-specs-sec-resencr-tls/tree/stable-v1"
+    xmlns:ns43="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v2/endpoints/index-response.xsd"
+    xmlns:ns44="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/endpoints/index-response.xsd"
+    xmlns:ns45="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/endpoints/update-response.xsd"
+    xmlns:ns46="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/tree/stable-v2"
+    xmlns:ns47="https://github.com/erasmus-without-paper/ewp-specs-api-course-replication/tree/stable-v1"
+    xmlns:ns48="https://github.com/erasmus-without-paper/ewp-specs-types-academic-term/tree/stable-v1"
+    xmlns:ns49="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/tree/stable-v1"
     xmlns:ns5="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/endpoints/get-response.xsd"
-    xmlns:ns50="https://github.com/erasmus-without-paper/ewp-specs-sec-resencr-tls/tree/stable-v1"
+    xmlns:ns50="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v6/endpoints/index-response.xsd"
     xmlns:ns51="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/tree/stable-v1"
     xmlns:ns52="https://github.com/erasmus-without-paper/ewp-specs-api-iia-cnr/tree/stable-v2"
     xmlns:ns53="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/tree/stable-v1"
@@ -65,17 +65,17 @@
                 <admin-email>informatica@sp.ipl.pt</admin-email>
                 <ns20:http-security>
                     <ns8:client-auth-methods>
-                        <ns47:httpsig/>
+                        <ns39:httpsig/>
                     </ns8:client-auth-methods>
                     <ns8:server-auth-methods>
-                        <ns48:httpsig/>
-                        <ns44:tlscert/>
+                        <ns40:httpsig/>
+                        <ns36:tlscert/>
                     </ns8:server-auth-methods>
                     <ns8:request-encryption-methods>
-                        <ns49:tls/>
+                        <ns41:tls/>
                     </ns8:request-encryption-methods>
                     <ns8:response-encryption-methods>
-                        <ns50:tls/>
+                        <ns42:tls/>
                     </ns8:response-encryption-methods>
                 </ns20:http-security>
                 <ns20:url>https://portal.ipl.pt/mobilidade/ewp/ewpstage/echo</ns20:url>
@@ -84,18 +84,18 @@
                 <admin-email>informatica@sp.ipl.pt</admin-email>
                 <ns12:http-security>
                     <ns8:client-auth-methods>
-                        <ns47:httpsig/>
-                        <ns46:anonymous/>
+                        <ns39:httpsig/>
+                        <ns38:anonymous/>
                     </ns8:client-auth-methods>
                     <ns8:server-auth-methods>
-                        <ns48:httpsig/>
-                        <ns44:tlscert/>
+                        <ns40:httpsig/>
+                        <ns36:tlscert/>
                     </ns8:server-auth-methods>
                     <ns8:request-encryption-methods>
-                        <ns49:tls/>
+                        <ns41:tls/>
                     </ns8:request-encryption-methods>
                     <ns8:response-encryption-methods>
-                        <ns50:tls/>
+                        <ns42:tls/>
                     </ns8:response-encryption-methods>
                 </ns12:http-security>
                 <ns12:url>https://portal.ipl.pt/mobilidade/ewp/ewpstage/institutions</ns12:url>
@@ -105,17 +105,17 @@
                 <admin-email>informatica@sp.ipl.pt</admin-email>
                 <ns9:http-security>
                     <ns8:client-auth-methods>
-                        <ns47:httpsig/>
+                        <ns39:httpsig/>
                     </ns8:client-auth-methods>
                     <ns8:server-auth-methods>
-                        <ns48:httpsig/>
-                        <ns44:tlscert/>
+                        <ns40:httpsig/>
+                        <ns36:tlscert/>
                     </ns8:server-auth-methods>
                     <ns8:request-encryption-methods>
-                        <ns49:tls/>
+                        <ns41:tls/>
                     </ns8:request-encryption-methods>
                     <ns8:response-encryption-methods>
-                        <ns50:tls/>
+                        <ns42:tls/>
                     </ns8:response-encryption-methods>
                 </ns9:http-security>
                 <ns9:url>https://portal.ipl.pt/mobilidade/ewp/ewpstage/ounits</ns9:url>
@@ -126,17 +126,17 @@
                 <admin-email>informatica@sp.ipl.pt</admin-email>
                 <ns15:http-security>
                     <ns8:client-auth-methods>
-                        <ns47:httpsig/>
+                        <ns39:httpsig/>
                     </ns8:client-auth-methods>
                     <ns8:server-auth-methods>
-                        <ns48:httpsig/>
-                        <ns44:tlscert/>
+                        <ns40:httpsig/>
+                        <ns36:tlscert/>
                     </ns8:server-auth-methods>
                     <ns8:request-encryption-methods>
-                        <ns49:tls/>
+                        <ns41:tls/>
                     </ns8:request-encryption-methods>
                     <ns8:response-encryption-methods>
-                        <ns50:tls/>
+                        <ns42:tls/>
                     </ns8:response-encryption-methods>
                 </ns15:http-security>
                 <ns15:url>https://portal.ipl.pt/mobilidade/ewp/ewpstage/courses</ns15:url>
@@ -147,17 +147,17 @@
                 <admin-email>informatica@sp.ipl.pt</admin-email>
                 <ns13:http-security>
                     <ns8:client-auth-methods>
-                        <ns47:httpsig/>
+                        <ns39:httpsig/>
                     </ns8:client-auth-methods>
                     <ns8:server-auth-methods>
-                        <ns48:httpsig/>
-                        <ns44:tlscert/>
+                        <ns40:httpsig/>
+                        <ns36:tlscert/>
                     </ns8:server-auth-methods>
                     <ns8:request-encryption-methods>
-                        <ns49:tls/>
+                        <ns41:tls/>
                     </ns8:request-encryption-methods>
                     <ns8:response-encryption-methods>
-                        <ns50:tls/>
+                        <ns42:tls/>
                     </ns8:response-encryption-methods>
                 </ns13:http-security>
                 <ns13:url>https://portal.ipl.pt/mobilidade/ewp/ewpstage/courserep</ns13:url>
@@ -168,17 +168,17 @@
                 <admin-email>informatica@sp.ipl.pt</admin-email>
                 <ns27:http-security>
                     <ns8:client-auth-methods>
-                        <ns47:httpsig/>
+                        <ns39:httpsig/>
                     </ns8:client-auth-methods>
                     <ns8:server-auth-methods>
-                        <ns48:httpsig/>
-                        <ns44:tlscert/>
+                        <ns40:httpsig/>
+                        <ns36:tlscert/>
                     </ns8:server-auth-methods>
                     <ns8:request-encryption-methods>
-                        <ns49:tls/>
+                        <ns41:tls/>
                     </ns8:request-encryption-methods>
                     <ns8:response-encryption-methods>
-                        <ns50:tls/>
+                        <ns42:tls/>
                     </ns8:response-encryption-methods>
                 </ns27:http-security>
                 <ns27:get-url>https://portal.ipl.pt/mobilidade/ewp/ewpstage/iias_get</ns27:get-url>
@@ -190,17 +190,17 @@
                 <admin-email>informatica@sp.ipl.pt</admin-email>
                 <ns17:http-security>
                     <ns8:client-auth-methods>
-                        <ns47:httpsig/>
+                        <ns39:httpsig/>
                     </ns8:client-auth-methods>
                     <ns8:server-auth-methods>
-                        <ns48:httpsig/>
-                        <ns44:tlscert/>
+                        <ns40:httpsig/>
+                        <ns36:tlscert/>
                     </ns8:server-auth-methods>
                     <ns8:request-encryption-methods>
-                        <ns49:tls/>
+                        <ns41:tls/>
                     </ns8:request-encryption-methods>
                     <ns8:response-encryption-methods>
-                        <ns50:tls/>
+                        <ns42:tls/>
                     </ns8:response-encryption-methods>
                 </ns17:http-security>
                 <ns17:url>https://portal.ipl.pt/mobilidade/ewp/ewpstage/iias_cnr</ns17:url>
@@ -209,17 +209,17 @@
                 <admin-email>informatica@sp.ipl.pt</admin-email>
                 <ns16:http-security>
                     <ns8:client-auth-methods>
-                        <ns47:httpsig/>
+                        <ns39:httpsig/>
                     </ns8:client-auth-methods>
                     <ns8:server-auth-methods>
-                        <ns48:httpsig/>
-                        <ns44:tlscert/>
+                        <ns40:httpsig/>
+                        <ns36:tlscert/>
                     </ns8:server-auth-methods>
                     <ns8:request-encryption-methods>
-                        <ns49:tls/>
+                        <ns41:tls/>
                     </ns8:request-encryption-methods>
                     <ns8:response-encryption-methods>
-                        <ns50:tls/>
+                        <ns42:tls/>
                     </ns8:response-encryption-methods>
                 </ns16:http-security>
                 <ns16:url>https://portal.ipl.pt/mobilidade/ewp/ewpstage/iias_approval</ns16:url>
@@ -229,17 +229,17 @@
                 <admin-email>informatica@sp.ipl.pt</admin-email>
                 <ns14:http-security>
                     <ns8:client-auth-methods>
-                        <ns47:httpsig/>
+                        <ns39:httpsig/>
                     </ns8:client-auth-methods>
                     <ns8:server-auth-methods>
-                        <ns48:httpsig/>
-                        <ns44:tlscert/>
+                        <ns40:httpsig/>
+                        <ns36:tlscert/>
                     </ns8:server-auth-methods>
                     <ns8:request-encryption-methods>
-                        <ns49:tls/>
+                        <ns41:tls/>
                     </ns8:request-encryption-methods>
                     <ns8:response-encryption-methods>
-                        <ns50:tls/>
+                        <ns42:tls/>
                     </ns8:response-encryption-methods>
                 </ns14:http-security>
                 <ns14:url>https://portal.ipl.pt/mobilidade/ewp/ewpstage/iias_approval_cnr</ns14:url>
@@ -247,18 +247,18 @@
             <ns19:factsheet version="1.1.0">
                 <ns19:http-security>
                     <ns8:client-auth-methods>
-                        <ns47:httpsig/>
-                        <ns46:anonymous/>
+                        <ns39:httpsig/>
+                        <ns38:anonymous/>
                     </ns8:client-auth-methods>
                     <ns8:server-auth-methods>
-                        <ns48:httpsig/>
-                        <ns44:tlscert/>
+                        <ns40:httpsig/>
+                        <ns36:tlscert/>
                     </ns8:server-auth-methods>
                     <ns8:request-encryption-methods>
-                        <ns49:tls/>
+                        <ns41:tls/>
                     </ns8:request-encryption-methods>
                     <ns8:response-encryption-methods>
-                        <ns50:tls/>
+                        <ns42:tls/>
                     </ns8:response-encryption-methods>
                 </ns19:http-security>
                 <ns19:url>https://portal.ipl.pt/mobilidade/ewp/ewpstage/factsheet</ns19:url>
@@ -267,17 +267,17 @@
             <ns21:omobilities version="2.0.0">
                 <ns21:http-security>
                     <ns8:client-auth-methods>
-                        <ns47:httpsig/>
+                        <ns39:httpsig/>
                     </ns8:client-auth-methods>
                     <ns8:server-auth-methods>
-                        <ns48:httpsig/>
-                        <ns44:tlscert/>
+                        <ns40:httpsig/>
+                        <ns36:tlscert/>
                     </ns8:server-auth-methods>
                     <ns8:request-encryption-methods>
-                        <ns49:tls/>
+                        <ns41:tls/>
                     </ns8:request-encryption-methods>
                     <ns8:response-encryption-methods>
-                        <ns50:tls/>
+                        <ns42:tls/>
                     </ns8:response-encryption-methods>
                 </ns21:http-security>
                 <ns21:get-url>https://portal.ipl.pt/mobilidade/ewp/ewpstage/omobilities_get</ns21:get-url>
@@ -287,17 +287,17 @@
             <ns24:omobility-las version="1.2.0">
                 <ns24:http-security>
                     <ns8:client-auth-methods>
-                        <ns47:httpsig/>
+                        <ns39:httpsig/>
                     </ns8:client-auth-methods>
                     <ns8:server-auth-methods>
-                        <ns48:httpsig/>
-                        <ns44:tlscert/>
+                        <ns40:httpsig/>
+                        <ns36:tlscert/>
                     </ns8:server-auth-methods>
                     <ns8:request-encryption-methods>
-                        <ns49:tls/>
+                        <ns41:tls/>
                     </ns8:request-encryption-methods>
                     <ns8:response-encryption-methods>
-                        <ns50:tls/>
+                        <ns42:tls/>
                     </ns8:response-encryption-methods>
                 </ns24:http-security>
                 <ns24:get-url>https://portal.ipl.pt/mobilidade/ewp/ewpstage/omobility_la_get</ns24:get-url>
@@ -309,17 +309,17 @@
                 <admin-email>informatica@sp.ipl.pt</admin-email>
                 <ns26:http-security>
                     <ns8:client-auth-methods>
-                        <ns47:httpsig/>
+                        <ns39:httpsig/>
                     </ns8:client-auth-methods>
                     <ns8:server-auth-methods>
-                        <ns48:httpsig/>
-                        <ns44:tlscert/>
+                        <ns40:httpsig/>
+                        <ns36:tlscert/>
                     </ns8:server-auth-methods>
                     <ns8:request-encryption-methods>
-                        <ns49:tls/>
+                        <ns41:tls/>
                     </ns8:request-encryption-methods>
                     <ns8:response-encryption-methods>
-                        <ns50:tls/>
+                        <ns42:tls/>
                     </ns8:response-encryption-methods>
                 </ns26:http-security>
                 <ns26:url>https://portal.ipl.pt/mobilidade/ewp/ewpstage/omobility_cnr</ns26:url>
@@ -329,17 +329,17 @@
                 <admin-email>informatica@sp.ipl.pt</admin-email>
                 <ns11:http-security>
                     <ns8:client-auth-methods>
-                        <ns47:httpsig/>
+                        <ns39:httpsig/>
                     </ns8:client-auth-methods>
                     <ns8:server-auth-methods>
-                        <ns48:httpsig/>
-                        <ns44:tlscert/>
+                        <ns40:httpsig/>
+                        <ns36:tlscert/>
                     </ns8:server-auth-methods>
                     <ns8:request-encryption-methods>
-                        <ns49:tls/>
+                        <ns41:tls/>
                     </ns8:request-encryption-methods>
                     <ns8:response-encryption-methods>
-                        <ns50:tls/>
+                        <ns42:tls/>
                     </ns8:response-encryption-methods>
                 </ns11:http-security>
                 <ns11:url>https://portal.ipl.pt/mobilidade/ewp/ewpstage/omobility_la_cnr</ns11:url>
