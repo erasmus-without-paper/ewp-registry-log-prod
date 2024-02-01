@@ -29,6 +29,9 @@
         <admin-provider>Universitat de Girona (udg.edu)</admin-provider>
         <admin-notes>Version 01.04.00 of EWPCV manifest</admin-notes>
         <ns2:apis-implemented>
+            <ns24:discovery version="6.0.0">
+                <ns24:url>https://apps.udg.edu/ewpapi/discovery</ns24:url>
+            </ns24:discovery>
             <ns23:echo version="2.0.1">
                 <admin-notes>Echo service covered by tls or httpSig security</admin-notes>
                 <ns23:http-security>
