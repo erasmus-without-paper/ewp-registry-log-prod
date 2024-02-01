@@ -26,6 +26,9 @@
         <admin-provider>Brno University of Technology (Apollo)</admin-provider>
         <admin-notes>This is the production server.</admin-notes>
         <ns2:apis-implemented>
+            <d1:discovery version="6.0.0">
+                <d1:url>https://ewp-api.vut.cz/ewp/manifest.xml</d1:url>
+            </d1:discovery>
             <e1:echo version="2.0.1">
                 <e1:http-security>
                     <sec:client-auth-methods>
