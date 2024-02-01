@@ -39,6 +39,12 @@
         <ewp:admin-provider>CINECA Consorzio Interuniversitario</ewp:admin-provider>
         <ewp:admin-notes>UNINSUBRIA PROD environment</ewp:admin-notes>
         <r:apis-implemented>
+            <discovery
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6/manifest-entry.xsd"
+                version="6.0.0"
+            >
+                <url>https://ewp.cineca.it/api/v1/primary/manifest/uninsubria.it</url>
+            </discovery>
             <echo
                 xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd"
                 version="2.0.1"
