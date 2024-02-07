@@ -32,148 +32,7 @@
     <ns3:host>
         <admin-email>ewpstag@civ.zcu.cz</admin-email>
         <admin-provider>University of West Bohemia (IS/STAG)</admin-provider>
-        <ns2:apis-implemented>
-            <ns23:echo version="2.0.1">
-                <ns23:http-security>
-                    <ns5:client-auth-methods>
-                        <ns27:httpsig/>
-                    </ns5:client-auth-methods>
-                    <ns5:server-auth-methods>
-                        <ns29:tlscert/>
-                        <ns28:httpsig/>
-                    </ns5:server-auth-methods>
-                </ns23:http-security>
-                <ns23:url>https://ws.ujep.cz/ws/services/ewp/echo</ns23:url>
-            </ns23:echo>
-            <ns24:discovery version="6.0.0">
-                <ns24:url>https://ws.ujep.cz/ws/services/ewp/manifest</ns24:url>
-            </ns24:discovery>
-            <ns22:institutions version="2.2.0">
-                <ns22:http-security>
-                    <ns5:client-auth-methods>
-                        <ns27:httpsig/>
-                        <ns26:anonymous/>
-                    </ns5:client-auth-methods>
-                    <ns5:server-auth-methods>
-                        <ns29:tlscert/>
-                        <ns28:httpsig/>
-                    </ns5:server-auth-methods>
-                </ns22:http-security>
-                <ns22:url>https://ws.ujep.cz/ws/services/ewp/institutions</ns22:url>
-                <ns22:max-hei-ids>1</ns22:max-hei-ids>
-            </ns22:institutions>
-            <ns21:organizational-units version="2.1.1">
-                <ns21:http-security>
-                    <ns5:client-auth-methods>
-                        <ns27:httpsig/>
-                        <ns26:anonymous/>
-                    </ns5:client-auth-methods>
-                    <ns5:server-auth-methods>
-                        <ns29:tlscert/>
-                        <ns28:httpsig/>
-                    </ns5:server-auth-methods>
-                </ns21:http-security>
-                <ns21:url>https://ws.ujep.cz/ws/services/ewp/ounits</ns21:url>
-                <ns21:max-ounit-ids>10</ns21:max-ounit-ids>
-                <ns21:max-ounit-codes>10</ns21:max-ounit-codes>
-            </ns21:organizational-units>
-            <ns20:iias version="6.2.0">
-                <ns20:http-security>
-                    <ns5:client-auth-methods>
-                        <ns27:httpsig/>
-                    </ns5:client-auth-methods>
-                    <ns5:server-auth-methods>
-                        <ns29:tlscert/>
-                        <ns28:httpsig/>
-                    </ns5:server-auth-methods>
-                </ns20:http-security>
-                <ns20:get-url>https://ws.ujep.cz/ws/services/ewp/iias/get</ns20:get-url>
-                <ns20:max-iia-ids>10</ns20:max-iia-ids>
-                <ns20:max-iia-codes>10</ns20:max-iia-codes>
-                <ns20:index-url>https://ws.ujep.cz/ws/services/ewp/iias/index</ns20:index-url>
-                <ns20:stats-url>https://ws.ujep.cz/ws/services/ewp/iias/stats</ns20:stats-url>
-            </ns20:iias>
-            <ns19:iia-cnr version="2.0.3">
-                <ns19:http-security>
-                    <ns5:client-auth-methods>
-                        <ns27:httpsig/>
-                    </ns5:client-auth-methods>
-                    <ns5:server-auth-methods>
-                        <ns29:tlscert/>
-                        <ns28:httpsig/>
-                    </ns5:server-auth-methods>
-                </ns19:http-security>
-                <ns19:url>https://ws.ujep.cz/ws/services/ewp/iias/cnr</ns19:url>
-            </ns19:iia-cnr>
-            <ns18:iias-approval version="1.1.0">
-                <ns18:http-security>
-                    <ns5:client-auth-methods>
-                        <ns27:httpsig/>
-                    </ns5:client-auth-methods>
-                    <ns5:server-auth-methods>
-                        <ns29:tlscert/>
-                        <ns28:httpsig/>
-                    </ns5:server-auth-methods>
-                </ns18:http-security>
-                <ns18:url>https://ws.ujep.cz/ws/services/ewp/iias/approval</ns18:url>
-                <ns18:max-iia-ids>10</ns18:max-iia-ids>
-            </ns18:iias-approval>
-            <ns17:iia-approval-cnr version="1.1.0">
-                <ns17:http-security>
-                    <ns5:client-auth-methods>
-                        <ns27:httpsig/>
-                    </ns5:client-auth-methods>
-                    <ns5:server-auth-methods>
-                        <ns29:tlscert/>
-                        <ns28:httpsig/>
-                    </ns5:server-auth-methods>
-                </ns17:http-security>
-                <ns17:url>https://ws.ujep.cz/ws/services/ewp/iias/approval/cnr</ns17:url>
-            </ns17:iia-approval-cnr>
-            <ns16:factsheet version="1.1.0">
-                <ns16:http-security>
-                    <ns5:client-auth-methods>
-                        <ns27:httpsig/>
-                    </ns5:client-auth-methods>
-                    <ns5:server-auth-methods>
-                        <ns29:tlscert/>
-                        <ns28:httpsig/>
-                    </ns5:server-auth-methods>
-                </ns16:http-security>
-                <ns16:url>https://ws.ujep.cz/ws/services/ewp/factsheet</ns16:url>
-                <ns16:max-hei-ids>1</ns16:max-hei-ids>
-            </ns16:factsheet>
-            <ns12:omobility-las version="1.2.0">
-                <ns12:http-security>
-                    <ns5:client-auth-methods>
-                        <ns27:httpsig/>
-                    </ns5:client-auth-methods>
-                    <ns5:server-auth-methods>
-                        <ns29:tlscert/>
-                        <ns28:httpsig/>
-                    </ns5:server-auth-methods>
-                </ns12:http-security>
-                <ns12:get-url>https://ws.ujep.cz/ws/services/ewp/las/get</ns12:get-url>
-                <ns12:index-url>https://ws.ujep.cz/ws/services/ewp/las/index</ns12:index-url>
-                <ns12:update-url>https://ws.ujep.cz/ws/services/ewp/las/update</ns12:update-url>
-                <ns12:stats-url>https://ws.ujep.cz/ws/services/ewp/las/stats</ns12:stats-url>
-                <ns12:max-omobility-ids>10</ns12:max-omobility-ids>
-            </ns12:omobility-las>
-            <ns11:omobility-la-cnr version="1.1.0">
-                <ns11:http-security>
-                    <ns5:client-auth-methods>
-                        <ns27:httpsig/>
-                    </ns5:client-auth-methods>
-                    <ns5:server-auth-methods>
-                        <ns29:tlscert/>
-                        <ns28:httpsig/>
-                    </ns5:server-auth-methods>
-                </ns11:http-security>
-                <ns11:url>https://ws.ujep.cz/ws/services/ewp/las/cnr</ns11:url>
-                <ns11:stats-url>https://ws.ujep.cz/ws/services/ewp/las/cnr/stats</ns11:stats-url>
-                <ns11:max-omobility-ids>10</ns11:max-omobility-ids>
-            </ns11:omobility-la-cnr>
-        </ns2:apis-implemented>
+        <ns2:apis-implemented/>
         <ns3:institutions-covered>
             <ns2:hei id="ujep.cz">
                 <ns2:other-id type="pic">973510431</ns2:other-id>
@@ -184,23 +43,23 @@
             </ns2:hei>
         </ns3:institutions-covered>
         <ns3:client-credentials-in-use>
-            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlglxUrAjUJ9id2yoLgEj
-H4nXtxyENBYyRV1S6LkJ1TAUeWM5yVK4HYTxIi8yqnsW/+oIYExobFWHpLqanuwe
-06BE+Y/rMQuOO3cVp3BH8baDlrqXMghaCAHhJi8CsdwSTkCsWBV+IZlKD4Tp/LZI
-KD1RFlIv7vW7bUGaJWvA+LtGDrzb8slE4pugadTfLW+KpiYgHhT0OqiByAJ9ng13
-GpLlBbVrZpdFZgR6k5VuMxo5kGUYgW281mhVjq3rzcXG8hKu++A19Q6wfT8DZ1cu
-KLahwxu85lYjrKnGeauRnylMsfbqXWlS8wLveO82fSo/xlmuEu4RHNAVJNrgzVwA
-bwIDAQAB
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5eD1hHfDOAjbzEEDGGTW
+QWdgSTkiTXDcd0xRLraq42bocj+OQBc8UjPIr98dGS9U7zlPzUmfvcBYCYj5UUDN
+/48g1D0aY//vQXj/SNs5Tg9v7a4eHbeajMx+08TBU3GcAZq0tSuCImuak4kFccsi
+tlJL2WdlW6gnAYA5mqtbegc/XagazI5UvAONE5Eo+lNykyTmK1VSljKuD4AFp89k
+/TrWvUiX/yTTWo7YsC95z5XjuIi/4Xttrz7ZSEHf4YImm8a78Csl4GVuQSb4NLUA
+VLDUMM8vebbi7wn/tIJKWcYNYAFAm5LlOK71lw0w256ZHEhpvQXr/PMBy3UsF/Wp
+3wIDAQAB
 </ns3:rsa-public-key>
         </ns3:client-credentials-in-use>
         <ns3:server-credentials-in-use>
-            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlglxUrAjUJ9id2yoLgEj
-H4nXtxyENBYyRV1S6LkJ1TAUeWM5yVK4HYTxIi8yqnsW/+oIYExobFWHpLqanuwe
-06BE+Y/rMQuOO3cVp3BH8baDlrqXMghaCAHhJi8CsdwSTkCsWBV+IZlKD4Tp/LZI
-KD1RFlIv7vW7bUGaJWvA+LtGDrzb8slE4pugadTfLW+KpiYgHhT0OqiByAJ9ng13
-GpLlBbVrZpdFZgR6k5VuMxo5kGUYgW281mhVjq3rzcXG8hKu++A19Q6wfT8DZ1cu
-KLahwxu85lYjrKnGeauRnylMsfbqXWlS8wLveO82fSo/xlmuEu4RHNAVJNrgzVwA
-bwIDAQAB
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5eD1hHfDOAjbzEEDGGTW
+QWdgSTkiTXDcd0xRLraq42bocj+OQBc8UjPIr98dGS9U7zlPzUmfvcBYCYj5UUDN
+/48g1D0aY//vQXj/SNs5Tg9v7a4eHbeajMx+08TBU3GcAZq0tSuCImuak4kFccsi
+tlJL2WdlW6gnAYA5mqtbegc/XagazI5UvAONE5Eo+lNykyTmK1VSljKuD4AFp89k
+/TrWvUiX/yTTWo7YsC95z5XjuIi/4Xttrz7ZSEHf4YImm8a78Csl4GVuQSb4NLUA
+VLDUMM8vebbi7wn/tIJKWcYNYAFAm5LlOK71lw0w256ZHEhpvQXr/PMBy3UsF/Wp
+3wIDAQAB
 </ns3:rsa-public-key>
         </ns3:server-credentials-in-use>
     </ns3:host>
