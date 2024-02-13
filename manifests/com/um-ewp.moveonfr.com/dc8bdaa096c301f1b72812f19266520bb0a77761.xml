@@ -1,31 +1,51 @@
-<html>
-<head>
-<META HTTP-EQUIV="refresh" CONTENT="60">
-<title>Maintenance In Progress</title>
-<style type="text/css">
-body{background:url("/images/back-pattern.png") repeat scroll left top rgba(0, 0, 0, 0);font: 11px Tahoma,Myriad,Helvetica,Arial,clean,sans-serif; line-height: 1.3em;}
-#moveon-upgrade-in-progress{width:344px;margin: auto;background: url("/images/login_back.png") no-repeat scroll left top rgba(0, 0, 0, 0);border:0 none;height:248px;width:344px;margin:100px auto auto;overflow:hidden;padding:20px 30px;}
-#logo{background: url("/images/mainTopHeader2.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);height: 50px;height: 50px;margin-bottom: 5px;width: 175px;}
-#header{border-bottom: 1px solid #a3a6a6; padding:10px 0;}
-.text{padding-top: 17px;}
-#sig{padding-top:25px;}
-h1 {
-    color: #1085b2;
-    font-size: 1.4em;
-    font-weight: normal;
-	line-height: 1em;
-	margin-bottom:0px;
-}
-</style>
-</head>
-
-<body>
-<div id="moveon-upgrade-in-progress">
-<div id="logo"></div>
-<div id="header"><h1>MoveON is under maintenance</h1></div>
-<div class="text">We are currently doing maintenance work on our servers and working to bring them back online as soon as possible.</div>
-<div id="sig">Your MoveON Team</div>
-</div>
-</body>
-
-</html>
+<?xml version="1.0" encoding="UTF-8"?>
+<ns3:manifest xmlns:ns3="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6" xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd" xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1" xmlns:d6="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6/manifest-entry.xsd" xmlns:e2="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd" xmlns:in2="https://github.com/erasmus-without-paper/ewp-specs-api-institutions/blob/stable-v2/manifest-entry.xsd" xmlns:ou2="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/blob/stable-v2/manifest-entry.xsd" xmlns:ia6="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v6/manifest-entry.xsd" xmlns:f1="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd" xmlns:iac2="https://github.com/erasmus-without-paper/ewp-specs-api-iia-cnr/blob/stable-v2/manifest-entry.xsd" xmlns:iaa1="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd" xmlns:iaac1="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v1/manifest-entry.xsd" xmlns:im1="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v1/manifest-entry.xsd" xmlns:imc1="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-cnr/blob/stable-v1/manifest-entry.xsd" xmlns:om2="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v2/manifest-entry.xsd" xmlns:omc1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/blob/stable-v1/manifest-entry.xsd" xmlns:oml1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd" xmlns:omlc1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd" xmlns:file1="https://github.com/erasmus-without-paper/ewp-specs-api-file/blob/stable-v1/manifest-entry.xsd" xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2" xmlns:sec-A1="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1" xmlns:sec-A2="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1" xmlns:sec-B1="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1" xmlns:sec-B2="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1">
+  <ns3:host>
+    <ewp:admin-email>moveon-ewp@qs.com</ewp:admin-email>
+    <ewp:admin-provider>QS MoveON</ewp:admin-provider>
+    <r:apis-implemented>
+      <d6:discovery version="6.0.0">
+        <d6:url>https://um-ewp.moveonfr.com/v1/manifest</d6:url>
+      </d6:discovery>
+      <e2:echo version="2.0.1">
+        <e2:http-security>
+          <sec:client-auth-methods>
+            <sec-A2:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <sec-B2:httpsig/>
+          </sec:server-auth-methods>
+        </e2:http-security>
+        <e2:url>https://um-ewp.moveonfr.com/v1/echo</e2:url>
+      </e2:echo>
+    </r:apis-implemented>
+    <ns3:institutions-covered>
+      <r:hei id="unimaas.nl">
+        <r:other-id type="erasmus">NL MAASTRI01</r:other-id>
+        <r:other-id type="erasmus-charter">28843</r:other-id>
+        <r:other-id type="pic">999975911</r:other-id>
+        <r:name xml:lang="en">Maastricht University</r:name>
+      </r:hei>
+    </ns3:institutions-covered>
+    <ns3:client-credentials-in-use>
+      <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt7k+MabVIMTofR27+iow
+faSgwV8S5unq+qQ2OscC8F5q+61rYtpewAnyxyMNGVKYKis84mbOrmB70oBIEVYU
+SAfc+BahUvGMKrL3BHf1NuLCQU+7Bx2C1OreRq8YivumfmUp7MH4TNFSSbtb+NnS
+E5zT6NaUrfUOXQqW9RnlF9YK7Cou9kweWN6nwSbkcv4Mvq3oQtHHM86KAZv5JS+y
+vFzIird1VbC6m+kdsdlopCMdwDToQkIPvAovDvPsCDNKebwjBEnHdcAhqjINTTG9
+pD+hbvJKZb9u9jeY/WHvUj7nsQB6JXOzyFwkAJB9GYFnlRmeMhJXG+G2IaeFPmMI
+HQIDAQAB
+</ns3:rsa-public-key>
+    </ns3:client-credentials-in-use>
+    <ns3:server-credentials-in-use>
+      <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt7k+MabVIMTofR27+iow
+faSgwV8S5unq+qQ2OscC8F5q+61rYtpewAnyxyMNGVKYKis84mbOrmB70oBIEVYU
+SAfc+BahUvGMKrL3BHf1NuLCQU+7Bx2C1OreRq8YivumfmUp7MH4TNFSSbtb+NnS
+E5zT6NaUrfUOXQqW9RnlF9YK7Cou9kweWN6nwSbkcv4Mvq3oQtHHM86KAZv5JS+y
+vFzIird1VbC6m+kdsdlopCMdwDToQkIPvAovDvPsCDNKebwjBEnHdcAhqjINTTG9
+pD+hbvJKZb9u9jeY/WHvUj7nsQB6JXOzyFwkAJB9GYFnlRmeMhJXG+G2IaeFPmMI
+HQIDAQAB
+</ns3:rsa-public-key>
+    </ns3:server-credentials-in-use>
+  </ns3:host>
+</ns3:manifest>
