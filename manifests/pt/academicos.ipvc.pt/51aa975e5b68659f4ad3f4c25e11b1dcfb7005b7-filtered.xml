@@ -55,14 +55,14 @@
     xmlns:ns9="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-cnr/blob/stable-v1/manifest-entry.xsd"
 >
     <ns3:host>
-        <admin-email>si.academicos@ipvc.pt</admin-email>
+        <admin-email>ewp@digitalis.pt</admin-email>
         <admin-provider>Digitalis Informatica, Lda</admin-provider>
         <ns2:apis-implemented>
             <ns24:discovery version="6.0.0">
                 <ns24:url>https://academicos.ipvc.pt/mobilidadenet/ewp/ewpstage/manifest</ns24:url>
             </ns24:discovery>
             <ns19:echo version="2.0.1">
-                <admin-email>si.academicos@ipvc.pt</admin-email>
+                <admin-email>ewp@digitalis.pt</admin-email>
                 <ns19:http-security>
                     <ns7:client-auth-methods>
                         <ns45:httpsig/>
@@ -81,7 +81,7 @@
                 <ns19:url>https://academicos.ipvc.pt/mobilidadenet/ewp/ewpstage/echo</ns19:url>
             </ns19:echo>
             <ns11:institutions version="2.2.0">
-                <admin-email>si.academicos@ipvc.pt</admin-email>
+                <admin-email>ewp@digitalis.pt</admin-email>
                 <ns11:http-security>
                     <ns7:client-auth-methods>
                         <ns45:httpsig/>
@@ -102,7 +102,7 @@
                 <ns11:max-hei-ids>1</ns11:max-hei-ids>
             </ns11:institutions>
             <ns8:organizational-units version="2.1.1">
-                <admin-email>si.academicos@ipvc.pt</admin-email>
+                <admin-email>ewp@digitalis.pt</admin-email>
                 <ns8:http-security>
                     <ns7:client-auth-methods>
                         <ns45:httpsig/>
@@ -123,7 +123,7 @@
                 <ns8:max-ounit-codes>1</ns8:max-ounit-codes>
             </ns8:organizational-units>
             <ns14:courses version="0.7.1">
-                <admin-email>si.academicos@ipvc.pt</admin-email>
+                <admin-email>ewp@digitalis.pt</admin-email>
                 <ns14:http-security>
                     <ns7:client-auth-methods>
                         <ns45:httpsig/>
@@ -144,7 +144,7 @@
                 <ns14:max-los-codes>1</ns14:max-los-codes>
             </ns14:courses>
             <ns12:simple-course-replication version="1.0.0">
-                <admin-email>si.academicos@ipvc.pt</admin-email>
+                <admin-email>ewp@digitalis.pt</admin-email>
                 <ns12:http-security>
                     <ns7:client-auth-methods>
                         <ns45:httpsig/>
@@ -165,7 +165,7 @@
                 <ns12:supports-modified-since>false</ns12:supports-modified-since>
             </ns12:simple-course-replication>
             <ns26:iias version="6.2.0">
-                <admin-email>si.academicos@ipvc.pt</admin-email>
+                <admin-email>ewp@digitalis.pt</admin-email>
                 <ns26:http-security>
                     <ns7:client-auth-methods>
                         <ns45:httpsig/>
@@ -187,7 +187,7 @@
                 <ns26:index-url>https://academicos.ipvc.pt/mobilidadenet/ewp/ewpstage/iias_index</ns26:index-url>
             </ns26:iias>
             <ns16:iia-cnr version="2.0.3">
-                <admin-email>si.academicos@ipvc.pt</admin-email>
+                <admin-email>ewp@digitalis.pt</admin-email>
                 <ns16:http-security>
                     <ns7:client-auth-methods>
                         <ns45:httpsig/>
@@ -206,7 +206,7 @@
                 <ns16:url>https://academicos.ipvc.pt/mobilidadenet/ewp/ewpstage/iias_cnr</ns16:url>
             </ns16:iia-cnr>
             <ns15:iias-approval version="1.1.0">
-                <admin-email>si.academicos@ipvc.pt</admin-email>
+                <admin-email>ewp@digitalis.pt</admin-email>
                 <ns15:http-security>
                     <ns7:client-auth-methods>
                         <ns45:httpsig/>
@@ -226,7 +226,7 @@
                 <ns15:max-iia-ids>1</ns15:max-iia-ids>
             </ns15:iias-approval>
             <ns13:iia-approval-cnr version="1.1.0">
-                <admin-email>si.academicos@ipvc.pt</admin-email>
+                <admin-email>ewp@digitalis.pt</admin-email>
                 <ns13:http-security>
                     <ns7:client-auth-methods>
                         <ns45:httpsig/>
@@ -306,7 +306,7 @@
                 <ns23:max-omobility-ids>1</ns23:max-omobility-ids>
             </ns23:omobility-las>
             <ns25:omobility-cnr version="1.0.0">
-                <admin-email>si.academicos@ipvc.pt</admin-email>
+                <admin-email>ewp@digitalis.pt</admin-email>
                 <ns25:http-security>
                     <ns7:client-auth-methods>
                         <ns45:httpsig/>
@@ -326,7 +326,7 @@
                 <ns25:max-omobility-ids>1</ns25:max-omobility-ids>
             </ns25:omobility-cnr>
             <ns10:omobility-la-cnr version="1.1.0">
-                <admin-email>si.academicos@ipvc.pt</admin-email>
+                <admin-email>ewp@digitalis.pt</admin-email>
                 <ns10:http-security>
                     <ns7:client-auth-methods>
                         <ns45:httpsig/>
