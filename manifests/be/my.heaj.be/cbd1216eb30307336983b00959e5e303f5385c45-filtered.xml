@@ -60,40 +60,6 @@
                 <m:max-ounit-ids>10</m:max-ounit-ids>
                 <m:max-ounit-codes>10</m:max-ounit-codes>
             </m:organizational-units>
-            <i:iia-cnr version="3.0.0">
-                <i:http-security>
-                    <j:client-auth-methods>
-                        <b:httpsig/>
-                    </j:client-auth-methods>
-                    <j:server-auth-methods>
-                        <d:tlscert/>
-                    </j:server-auth-methods>
-                </i:http-security>
-                <i:url>https://my.heaj.be/ws_penelope/EWP/iias/cnr</i:url>
-            </i:iia-cnr>
-            <k:iias-approval version="2.0.0">
-                <k:http-security>
-                    <j:client-auth-methods>
-                        <b:httpsig/>
-                    </j:client-auth-methods>
-                    <j:server-auth-methods>
-                        <d:tlscert/>
-                    </j:server-auth-methods>
-                </k:http-security>
-                <k:url>https://my.heaj.be/ws_penelope/EWP/iias/approval</k:url>
-                <k:max-iia-ids>10</k:max-iia-ids>
-            </k:iias-approval>
-            <h:iia-approval-cnr version="2.0.0">
-                <h:http-security>
-                    <j:client-auth-methods>
-                        <b:httpsig/>
-                    </j:client-auth-methods>
-                    <j:server-auth-methods>
-                        <d:tlscert/>
-                    </j:server-auth-methods>
-                </h:http-security>
-                <h:url>https://my.heaj.be/ws_penelope/EWP/iias/approval/cnr</h:url>
-            </h:iia-approval-cnr>
             <g:file version="1.0.0">
                 <g:http-security>
                     <j:client-auth-methods>
