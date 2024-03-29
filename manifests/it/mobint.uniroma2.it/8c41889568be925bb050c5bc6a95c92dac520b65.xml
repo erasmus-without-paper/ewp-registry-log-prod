@@ -7,7 +7,7 @@
     xmlns:xml="http://www.w3.org/XML/1998/namespace"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="
-        https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6
+        https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6Fiia
         https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-api-discovery/stable-v6/manifest.xsd
 
         https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1
@@ -75,20 +75,6 @@
         <url>https://mobint.uniroma2.it/ewp/api/institutions.aspx</url>
         <max-hei-ids>1</max-hei-ids>
       </institutions>
-
-      <iia-cnr xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iia-cnr/blob/stable-v2/manifest-entry.xsd" version="2.0.3">
-        <http-security>
-          <sec:client-auth-methods>
-            <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
-          </sec:client-auth-methods>
-          <sec:server-auth-methods>
-            <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
-            <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
-          </sec:server-auth-methods>
-        </http-security>
-        <url>https://mobint.uniroma2.it/ewp/api/IIA_CNR.aspx</url>
-      </iia-cnr>
-
 	  <organizational-units xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/blob/stable-v2/manifest-entry.xsd" version="2.1.1">
         <http-security>
           <sec:client-auth-methods>
@@ -108,6 +94,19 @@
         <max-ounit-ids>10</max-ounit-ids>
         <max-ounit-codes>10</max-ounit-codes>
       </organizational-units>
+<!--
+      <iia-cnr xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iia-cnr/blob/stable-v2/manifest-entry.xsd" version="2.0.3">
+        <http-security>
+          <sec:client-auth-methods>
+            <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
+            <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+          </sec:server-auth-methods>
+        </http-security>
+        <url>https://mobint.uniroma2.it/ewp/api/IIA_CNR.aspx</url>
+      </iia-cnr>
 
       <iias-approval xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v1/manifest-entry.xsd" version="1.1.0">
         <http-security>
@@ -122,7 +121,7 @@
         <url>https://mobint.uniroma2.it/ewp/api/iia_approval.aspx</url>
         <max-iia-ids>10</max-iia-ids>
       </iias-approval>
-      
+ 
       <iia-approval-cnr xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v1/manifest-entry.xsd"  version="1.0.0">
         <http-security>
           <sec:client-auth-methods>
@@ -157,10 +156,8 @@
         <index-url>https://mobint.uniroma2.it/ewp/api/iia_index.aspx</index-url>
         <stats-url>https://mobint.uniroma2.it/ewp/api/iia_stats.aspx</stats-url>
       </iias>      
-    
-   
-    
-    
+-->  
+
     </r:apis-implemented>
 
     <mf:institutions-covered xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1">
