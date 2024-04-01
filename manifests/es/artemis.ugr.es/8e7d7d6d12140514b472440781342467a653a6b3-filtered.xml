@@ -86,9 +86,9 @@
                 <ns31:http-security>
                     <ns7:client-auth-methods>
                         <ns62:httpsig/>
-                        <ns61:anonymous/>
                     </ns7:client-auth-methods>
                     <ns7:server-auth-methods>
+                        <ns64:tlscert/>
                         <ns65:httpsig/>
                     </ns7:server-auth-methods>
                 </ns31:http-security>
@@ -100,6 +100,7 @@
                         <ns62:httpsig/>
                     </ns7:client-auth-methods>
                     <ns7:server-auth-methods>
+                        <ns64:tlscert/>
                         <ns65:httpsig/>
                     </ns7:server-auth-methods>
                 </ns28:http-security>
@@ -124,6 +125,7 @@
                         <ns62:httpsig/>
                     </ns7:client-auth-methods>
                     <ns7:server-auth-methods>
+                        <ns64:tlscert/>
                         <ns65:httpsig/>
                     </ns7:server-auth-methods>
                 </ns20:http-security>
