@@ -133,6 +133,58 @@
                 <ns20:max-ounit-ids>1</ns20:max-ounit-ids>
                 <ns20:max-ounit-codes>1</ns20:max-ounit-codes>
             </ns20:organizational-units>
+            <ns25:iias-approval version="2.0.0">
+                <ns25:http-security>
+                    <ns7:client-auth-methods>
+                        <ns62:httpsig/>
+                    </ns7:client-auth-methods>
+                    <ns7:server-auth-methods>
+                        <ns64:tlscert/>
+                        <ns65:httpsig/>
+                    </ns7:server-auth-methods>
+                </ns25:http-security>
+                <ns25:url>https://artemis.ugr.es/ewp/iias/approval</ns25:url>
+                <ns25:max-iia-ids>1</ns25:max-iia-ids>
+            </ns25:iias-approval>
+            <ns24:iia-cnr version="3.0.0">
+                <ns24:http-security>
+                    <ns7:client-auth-methods>
+                        <ns62:httpsig/>
+                    </ns7:client-auth-methods>
+                    <ns7:server-auth-methods>
+                        <ns64:tlscert/>
+                        <ns65:httpsig/>
+                    </ns7:server-auth-methods>
+                </ns24:http-security>
+                <ns24:url>https://artemis.ugr.es/ewp/iias/cnr</ns24:url>
+            </ns24:iia-cnr>
+            <ns22:iia-approval-cnr version="2.0.0">
+                <ns22:http-security>
+                    <ns7:client-auth-methods>
+                        <ns62:httpsig/>
+                    </ns7:client-auth-methods>
+                    <ns7:server-auth-methods>
+                        <ns64:tlscert/>
+                        <ns65:httpsig/>
+                    </ns7:server-auth-methods>
+                </ns22:http-security>
+                <ns22:url>https://artemis.ugr.es/ewp/iias/approval/cnr</ns22:url>
+            </ns22:iia-approval-cnr>
+            <ns27:iias version="7.0.0">
+                <ns27:http-security>
+                    <ns7:client-auth-methods>
+                        <ns62:httpsig/>
+                    </ns7:client-auth-methods>
+                    <ns7:server-auth-methods>
+                        <ns64:tlscert/>
+                        <ns65:httpsig/>
+                    </ns7:server-auth-methods>
+                </ns27:http-security>
+                <ns27:get-url>https://artemis.ugr.es/ewp/iias/get</ns27:get-url>
+                <ns27:max-iia-ids>1</ns27:max-iia-ids>
+                <ns27:index-url>https://artemis.ugr.es/ewp/iias/index</ns27:index-url>
+                <ns27:stats-url>https://artemis.ugr.es/ewp/iias/stats?hei_id=ugr.es</ns27:stats-url>
+            </ns27:iias>
         </ns35:apis-implemented>
         <ns34:institutions-covered>
             <ns35:hei id="ugr.es">
