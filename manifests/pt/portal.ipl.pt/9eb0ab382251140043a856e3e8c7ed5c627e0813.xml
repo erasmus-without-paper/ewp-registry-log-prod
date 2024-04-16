@@ -24,7 +24,7 @@
 <div class="holyhack">
     <div class="container">
         <div id="top">
-            <div class="datehour">Tue Apr 16 11:42:29 WEST 2024
+            <div class="datehour">Tue Apr 16 13:03:11 WEST 2024
             </div>
             <div id="contentlink"><a href="#contentonecolumn" title="" tabindex="">Saltar para conteúdo</a></div>
         </div>
@@ -76,7 +76,7 @@
         <div class="simpleopenbox">
             <h3>Stack Trace</h3>
             <div class="content">pt.digitalis.dif.exception.controller.ControllerException: java.lang.RuntimeException: Unable to proceed! A business exception was raised and no error views or stages were defined for redirection. Aborting... <br /><br /><div class="marginleft40">
-<i>pt.digitalis.dif.controller.AbstractDIFDispatcher</i> (<span class="underline">execute:593</span>)<br />
+<i>pt.digitalis.dif.controller.AbstractDIFDispatcher</i> (<span class="underline">execute:594</span>)<br />
 <i>pt.digitalis.dif.controller.AbstractDIFDispatcher</i> (<span class="underline">runDispatchingSteps:1221</span>)<br />
 <i>pt.digitalis.dif.controller.AbstractDIFDispatcher</i> (<span class="underline">dispatch:473</span>)<br />
 <i>pt.digitalis.dif.controller.AbstractChAL</i> (<span class="underline">serve:119</span>)<br />
@@ -140,7 +140,7 @@ java.lang.RuntimeException: Unable to proceed! A business exception was raised a
 <i>java.lang.Thread</i> (<span class="underline">run:748</span>)<br />
 </div><br />
 pt.digitalis.dif.exception.InternalFrameworkException: java.lang.NullPointerException<br /><div class="marginleft40">
-<i>pt.digitalis.dif.codegen.templates.TemplateResources</i> (<span class="underline">stageExecute:890</span>)<br />
+<i>pt.digitalis.dif.codegen.templates.TemplateResources</i> (<span class="underline">stageExecute:892</span>)<br />
 <i>pt.digitalis.mobilidadenet.entities.ewp.EWPStageCGStageInstance</i> (<span class="underline">_CG_execute:97</span>)<br />
 <i>pt.digitalis.dif.controller.AbstractDIFDispatcher</i> (<span class="underline">execute:578</span>)<br />
 <i>pt.digitalis.dif.controller.AbstractDIFDispatcher</i> (<span class="underline">runDispatchingSteps:1221</span>)<br />
@@ -173,6 +173,40 @@ pt.digitalis.dif.exception.InternalFrameworkException: java.lang.NullPointerExce
 <i>java.lang.Thread</i> (<span class="underline">run:748</span>)<br />
 </div><br />
 java.lang.NullPointerException<br /><div class="marginleft40">
+<i>pt.digitalis.mobilidadenet.entities.ewp.manager.EWPServerManager</i> (<span class="underline">executer:7002</span>)<br />
+<i>pt.digitalis.mobilidadenet.entities.ewp.EWPStage</i> (<span class="underline">getDocumentManifest:298</span>)<br />
+<i>pt.digitalis.mobilidadenet.entities.ewp.EWPStageCGStageInstance</i> (<span class="underline">callExecuteOnEventMethod:-1</span>)<br />
+<i>pt.digitalis.dif.codegen.templates.TemplateResources</i> (<span class="underline">stageExecute:825</span>)<br />
+<i>pt.digitalis.mobilidadenet.entities.ewp.EWPStageCGStageInstance</i> (<span class="underline">_CG_execute:97</span>)<br />
+<i>pt.digitalis.dif.controller.AbstractDIFDispatcher</i> (<span class="underline">execute:578</span>)<br />
+<i>pt.digitalis.dif.controller.AbstractDIFDispatcher</i> (<span class="underline">runDispatchingSteps:1221</span>)<br />
+<i>pt.digitalis.dif.controller.AbstractDIFDispatcher</i> (<span class="underline">dispatch:473</span>)<br />
+<i>pt.digitalis.dif.controller.AbstractChAL</i> (<span class="underline">serve:119</span>)<br />
+<i>pt.digitalis.dif.listeners.DocumentListener</i> (<span class="underline">processRequest:211</span>)<br />
+<i>pt.digitalis.dif.listeners.AbstractRESTfullHttpListener</i> (<span class="underline">doGet:64</span>)<br />
+<i>javax.servlet.http.HttpServlet</i> (<span class="underline">service:690</span>)<br />
+<i>javax.servlet.http.HttpServlet</i> (<span class="underline">service:803</span>)<br />
+<i>org.apache.catalina.core.ApplicationFilterChain</i> (<span class="underline">internalDoFilter:290</span>)<br />
+<i>org.apache.catalina.core.ApplicationFilterChain</i> (<span class="underline">doFilter:206</span>)<br />
+<i>pt.digitalis.dif.listeners.RESTRequestsFilter</i> (<span class="underline">doFilter:100</span>)<br />
+<i>org.apache.catalina.core.ApplicationFilterChain</i> (<span class="underline">internalDoFilter:235</span>)<br />
+<i>org.apache.catalina.core.ApplicationFilterChain</i> (<span class="underline">doFilter:206</span>)<br />
+<i>org.jboss.web.tomcat.filters.ReplyHeaderFilter</i> (<span class="underline">doFilter:96</span>)<br />
+<i>org.apache.catalina.core.ApplicationFilterChain</i> (<span class="underline">internalDoFilter:235</span>)<br />
+<i>org.apache.catalina.core.ApplicationFilterChain</i> (<span class="underline">doFilter:206</span>)<br />
+<i>org.apache.catalina.core.StandardWrapperValve</i> (<span class="underline">invoke:230</span>)<br />
+<i>org.apache.catalina.core.StandardContextValve</i> (<span class="underline">invoke:175</span>)<br />
+<i>org.jboss.web.tomcat.security.SecurityAssociationValve</i> (<span class="underline">invoke:182</span>)<br />
+<i>org.jboss.web.tomcat.security.JaccContextValve</i> (<span class="underline">invoke:84</span>)<br />
+<i>org.apache.catalina.core.StandardHostValve</i> (<span class="underline">invoke:127</span>)<br />
+<i>org.apache.catalina.valves.ErrorReportValve</i> (<span class="underline">invoke:102</span>)<br />
+<i>org.jboss.web.tomcat.service.jca.CachedConnectionValve</i> (<span class="underline">invoke:157</span>)<br />
+<i>org.apache.catalina.core.StandardEngineValve</i> (<span class="underline">invoke:109</span>)<br />
+<i>org.apache.catalina.connector.CoyoteAdapter</i> (<span class="underline">service:262</span>)<br />
+<i>org.apache.coyote.http11.Http11Processor</i> (<span class="underline">process:844</span>)<br />
+<i>org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler</i> (<span class="underline">process:583</span>)<br />
+<i>org.apache.tomcat.util.net.JIoEndpoint$Worker</i> (<span class="underline">run:446</span>)<br />
+<i>java.lang.Thread</i> (<span class="underline">run:748</span>)<br />
 </div><br />
 </ul>
 </div>
