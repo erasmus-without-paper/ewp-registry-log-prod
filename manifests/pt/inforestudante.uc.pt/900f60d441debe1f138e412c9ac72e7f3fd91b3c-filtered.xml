@@ -74,6 +74,17 @@
                 <ns22:max-ounit-ids>1</ns22:max-ounit-ids>
                 <ns22:max-ounit-codes>1</ns22:max-ounit-codes>
             </ns22:organizational-units>
+            <ns7:file version="1.0.0">
+                <ns7:http-security>
+                    <ns27:client-auth-methods>
+                        <ns25:httpsig/>
+                    </ns27:client-auth-methods>
+                    <ns27:server-auth-methods>
+                        <ns28:httpsig/>
+                    </ns27:server-auth-methods>
+                </ns7:http-security>
+                <ns7:url>https://inforestudante.uc.pt/nonio/rest/ewp/file</ns7:url>
+            </ns7:file>
             <ns11:iias version="7.0.0">
                 <ns11:http-security>
                     <ns27:client-auth-methods>
