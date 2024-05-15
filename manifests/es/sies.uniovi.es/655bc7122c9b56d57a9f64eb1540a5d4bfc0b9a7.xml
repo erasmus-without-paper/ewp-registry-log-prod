@@ -142,8 +142,7 @@
 				<max-los-codes>10</max-los-codes>
 			</courses>
 
-			<!-- Interinstitutional Agreements (Iias) API -->
-			<!--
+			<!-- Interinstitutional Agreements (Iias) API -->			
 			<iias
 				xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v7/manifest-entry.xsd"
 				version="7.0.0">
@@ -172,10 +171,9 @@
 				<index-url>https://sies.uniovi.es/pae/ewp/iias/v7/index</index-url>
 				<stats-url>https://sies.uniovi.es/pae/ewp/iias/v7/stats</stats-url>
 			</iias>
-			-->
+			
 
-			<!-- Interinstitutional Agreements CNR API -->
-			<!--
+			<!-- Interinstitutional Agreements CNR API -->			
 			<iia-cnr
 				xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iia-cnr/blob/stable-v3/manifest-entry.xsd"
 				version="3.0.0">
@@ -200,12 +198,10 @@
 					</sec:response-encryption-methods>
 				</http-security>
                 <url>https://sies.uniovi.es/pae/ewp/iiascnr/v3/cnr</url>
-            </iia-cnr>
-            -->
+            </iia-cnr>            
 
 
-			<!-- Interinstitutional Agreements Approval API -->
-			<!--
+			<!-- Interinstitutional Agreements Approval API -->			
 			<iias-approval
 				xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v2/manifest-entry.xsd"
 				version="2.0.0">
@@ -231,12 +227,10 @@
 				</http-security>
                 <url>https://sies.uniovi.es/pae/ewp/iiasappr/v2/appr</url>
                 <max-iia-ids>1</max-iia-ids>
-            </iias-approval>
-            -->
+            </iias-approval>            
 
 
-            <!-- Interinstitutional Agreements Approval CNR API -->
-            <!--
+            <!-- Interinstitutional Agreements Approval CNR API -->            
             <iaac1:iia-approval-cnr
 				xmlns:iaac1="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v2/manifest-entry.xsd"
 				version="2.0.0">
@@ -261,8 +255,7 @@
 					</sec:response-encryption-methods>
 				</iaac1:http-security>
 				<iaac1:url>https://sies.uniovi.es/pae/ewp/iiasapprcnr/v2/cnr</iaac1:url>
-			</iaac1:iia-approval-cnr>
-			-->
+			</iaac1:iia-approval-cnr>			
 
             <!-- Mobility Factsheet API -->
 			<factsheet
