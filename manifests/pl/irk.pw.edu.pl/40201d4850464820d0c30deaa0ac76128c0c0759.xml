@@ -1,29 +1,69 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
-"http://www.w3.org/TR/html4/strict.dtd">
-<html>
-<head>
-<title>Politechnika Warszawska</title>
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta http-equiv="Content-language" content="pol-PL" />
-<meta http-equiv="Refresh" content="180">
-<link rel="Shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" type="text/css" href="/assets/css/main.css"  />
-</head>
-<body>
-<div id="header"><a class="logo" href="https://www.pw.edu.pl">Politechnika<br/>Warszawska</a></div>
-<div id="info">
-  <p>Trwa przerwa techniczna.<br/>Przepraszamy, prosimy spróbować później.</p>
-</div>
-<div id="footer">
-    <div class="address">Politechnika Warszawska, Pl. Politechniki&nbsp;1, <span class="kod">00-661</span> Warszawa</div>
-    <div id="kanal-facebook">
-        <a href="https://www.facebook.com/politechnika.warszawska" target="_blank" title="Strona PW na Facebook">
-            <div class="kanal-ikonka"></div>
-            <p>PW na Facebook</p>
-        </a>
-    </div>
-</div>
-</body>
-</html>
+<manifest
+    xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
+    xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
+    xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
+    xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+>
+    <host>
+        <ewp:admin-email>5999@pw.edu.pl</ewp:admin-email>
+        <ewp:admin-provider>MUCI (USOS IRK)</ewp:admin-provider>
+        <r:apis-implemented>
+            <discovery xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6/manifest-entry.xsd" version="6.0.0">
+                <url>https://irk.pw.edu.pl/ewp/manifest/</url>
+            </discovery>
+            <echo xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd" version="2.0.1">
+                <http-security>
+    <client-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
+        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+    </client-auth-methods>
+    <server-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
+        <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
+        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+    </server-auth-methods>
+</http-security>
+                <url>https://irk.pw.edu.pl/ewp/echo/</url>
+            </echo>
+            <omobility-la-cnr xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd" version="1.1.0">
+                <http-security>
+    <client-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
+        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+    </client-auth-methods>
+    <server-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
+        <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
+        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+    </server-auth-methods>
+</http-security>
+                <url>https://irk.pw.edu.pl/ewp/la/cnr/</url>
+                <stats-url>https://irk.pw.edu.pl/ewp/la/cnr/stats/</stats-url>
+                <max-omobility-ids>100</max-omobility-ids>
+            </omobility-la-cnr>
+        </r:apis-implemented>
+        <institutions-covered>
+            <hei xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1" id="pw.edu.pl">
+                <other-id type="erasmus">PL WARSZAW02</other-id>
+                <other-id type="pic">999884052</other-id>
+                <name xml:lang="pl">Politechnika Warszawska</name>
+                <name xml:lang="en">Warsaw University of Technology</name>
+            </hei>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAu+70kOu7HRaVB4jghFsm
+PLzXQBrV3hFWoyO1XKPLsEE6LxpeJKv+etDEJn3Ws3GB6DNc+zJd2L38JPOfuRz7
+udMbrn8quiEkW9gTtsGycaoF5AiG/2V9/nw1P3UDDVJWEEEuqK15Ujoqry08VHon
+3PtoZDbThFAbwcbucp8dhzg8SFJBC/95HPqa5EzrLUc7o6LrF7ddTb5m2U5U5CKV
+XgkmR5uvdneSiu+dH3C9vGKHQEx9trPQccc5s8zoTYMCzZHP0rLRorzkfOOWUYW2
+0p0s/0WpgnfSIGa/8UoiosYMBKqs6IWs/Vyq4/Z8K9YlL5GfBMT1r629L1uwsakw
+fwIDAQAB</rsa-public-key>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAu+70kOu7HRaVB4jghFsm
+PLzXQBrV3hFWoyO1XKPLsEE6LxpeJKv+etDEJn3Ws3GB6DNc+zJd2L38JPOfuRz7
+udMbrn8quiEkW9gTtsGycaoF5AiG/2V9/nw1P3UDDVJWEEEuqK15Ujoqry08VHon
+3PtoZDbThFAbwcbucp8dhzg8SFJBC/95HPqa5EzrLUc7o6LrF7ddTb5m2U5U5CKV
+XgkmR5uvdneSiu+dH3C9vGKHQEx9trPQccc5s8zoTYMCzZHP0rLRorzkfOOWUYW2
+0p0s/0WpgnfSIGa/8UoiosYMBKqs6IWs/Vyq4/Z8K9YlL5GfBMT1r629L1uwsakw
+fwIDAQAB</rsa-public-key>
+        </server-credentials-in-use>
+    </host>
+</manifest>
