@@ -38,21 +38,20 @@
 			<ns24:discovery version="6.0.0">
 				<ns24:url>https://mobisis-ewp.it.auth.gr/rest/manifest/auth.gr</ns24:url>
 			</ns24:discovery>
-			<ns20:iias version="7.0.0">
-				<ns20:http-security>
-				<ns5:client-auth-methods>
-				<ns27:httpsig/>
-				</ns5:client-auth-methods>
-				<ns5:server-auth-methods>
-				<ns28:httpsig/>
-				</ns5:server-auth-methods>
-				</ns20:http-security>
-				<ns20:get-url>https://mobisis-ewp.it.auth.gr/rest/iias/get/auth.gr</ns20:get-url>
-				<ns20:max-iia-ids>1</ns20:max-iia-ids>
-				<ns20:max-iia-codes>1</ns20:max-iia-codes>
-				<ns20:index-url>https://mobisis-ewp.it.auth.gr/rest/iias/index/auth.gr</ns20:index-url>
-				<ns20:stats-url>https://mobisis-ewp.it.auth.gr/rest/iias/stats/auth.gr</ns20:stats-url>
-			</ns20:iias>
+			<iias xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v7/manifest-entry.xsd" version="7.0.0">
+				<http-security>
+					<sec:client-auth-methods>
+						<httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+					</sec:client-auth-methods>
+					<sec:server-auth-methods>
+						<httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+					</sec:server-auth-methods>
+				</http-security>
+				<get-url>https://mobisis-ewp.it.auth.gr/rest/iias/get/auth.gr</get-url>
+				<max-iia-ids>1</max-iia-ids>
+				<index-url>https://mobisis-ewp.it.auth.gr/rest/iias/index/auth.gr</index-url>
+				<stats-url>https://mobisis-ewp.it.auth.gr/rest/iias/stats/auth.gr</stats-url>
+			</iias>
 			<ns19:iia-cnr version="3.0.0">
 				<ns19:http-security>
 				<ns5:client-auth-methods>
