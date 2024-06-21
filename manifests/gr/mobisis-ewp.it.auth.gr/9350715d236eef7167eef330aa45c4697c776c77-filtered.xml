@@ -37,6 +37,23 @@
             <ns24:discovery version="6.0.0">
                 <ns24:url>https://mobisis-ewp.it.auth.gr/rest/manifest/auth.gr</ns24:url>
             </ns24:discovery>
+            <iias
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v7/manifest-entry.xsd"
+                version="7.0.0"
+            >
+                <http-security>
+                    <ns5:client-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </ns5:server-auth-methods>
+                </http-security>
+                <get-url>https://mobisis-ewp.it.auth.gr/rest/iias/get/auth.gr</get-url>
+                <max-iia-ids>1</max-iia-ids>
+                <index-url>https://mobisis-ewp.it.auth.gr/rest/iias/index/auth.gr</index-url>
+                <stats-url>https://mobisis-ewp.it.auth.gr/rest/iias/stats/auth.gr</stats-url>
+            </iias>
             <ns19:iia-cnr version="3.0.0">
                 <ns19:http-security>
                     <ns5:client-auth-methods>

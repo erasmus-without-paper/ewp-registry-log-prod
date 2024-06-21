@@ -40,12 +40,12 @@
 			</ns24:discovery>
 			<iias xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v7/manifest-entry.xsd" version="7.0.0">
 				<http-security>
-					<sec:client-auth-methods>
+					<ns5:client-auth-methods>
 						<httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
-					</sec:client-auth-methods>
-					<sec:server-auth-methods>
+					</ns5:client-auth-methods>
+					<ns5:server-auth-methods>
 						<httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
-					</sec:server-auth-methods>
+					</ns5:server-auth-methods>
 				</http-security>
 				<get-url>https://mobisis-ewp.it.auth.gr/rest/iias/get/auth.gr</get-url>
 				<max-iia-ids>1</max-iia-ids>
