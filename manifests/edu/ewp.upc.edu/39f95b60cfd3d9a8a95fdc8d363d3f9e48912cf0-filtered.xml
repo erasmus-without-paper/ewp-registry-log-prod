@@ -6,6 +6,8 @@
     xmlns:d="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6/manifest-entry.xsd"
     xmlns:e2="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd"
     xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
+    xmlns:fact="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
+    xmlns:file1="https://github.com/erasmus-without-paper/ewp-specs-api-file/blob/stable-v1/manifest-entry.xsd"
     xmlns:iaac1="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v2/manifest-entry.xsd"
     xmlns:iaasa1="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v2/manifest-entry.xsd"
     xmlns:iia="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v7/manifest-entry.xsd"
@@ -113,8 +115,8 @@
                 <olascnr:stats-url>https://ewp.upc.edu/api/omobility-las-cnr/stats</olascnr:stats-url>
                 <olascnr:max-omobility-ids>10</olascnr:max-omobility-ids>
             </olascnr:omobility-la-cnr>
-            <iia:iias version="7.0.0">
-                <iia:http-security>
+            <fact:factsheet version="1.2.0">
+                <fact:http-security>
                     <sec:client-auth-methods>
                         <cliauthsig1:httpsig/>
                     </sec:client-auth-methods>
@@ -122,14 +124,12 @@
                         <srvauthtls1:tlscert/>
                         <srvauthsig1:httpsig/>
                     </sec:server-auth-methods>
-                </iia:http-security>
-                <iia:get-url>https://ewp.des.upc.edu/api/iia/get</iia:get-url>
-                <iia:max-iia-ids>10</iia:max-iia-ids>
-                <iia:index-url>https://ewp.des.upc.edu/api/iia/index</iia:index-url>
-                <iia:stats-url>https://ewp.des.upc.edu/api/iia/stats</iia:stats-url>
-            </iia:iias>
-            <iiacnr:iia-cnr version="3.0.0">
-                <iiacnr:http-security>
+                </fact:http-security>
+                <fact:url>https://ewp.upc.edu/api/factsheet</fact:url>
+                <fact:max-hei-ids>1</fact:max-hei-ids>
+            </fact:factsheet>
+            <file1:file version="1.0.0">
+                <file1:http-security>
                     <sec:client-auth-methods>
                         <cliauthsig1:httpsig/>
                     </sec:client-auth-methods>
@@ -137,34 +137,9 @@
                         <srvauthtls1:tlscert/>
                         <srvauthsig1:httpsig/>
                     </sec:server-auth-methods>
-                </iiacnr:http-security>
-                <iiacnr:url>https://ewp.des.upc.edu/api/iia/ops/cnr</iiacnr:url>
-            </iiacnr:iia-cnr>
-            <iaasa1:iias-approval version="2.0.0">
-                <iaasa1:http-security>
-                    <sec:client-auth-methods>
-                        <cliauthsig1:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <srvauthtls1:tlscert/>
-                        <srvauthsig1:httpsig/>
-                    </sec:server-auth-methods>
-                </iaasa1:http-security>
-                <iaasa1:url>https://ewp.des.upc.edu/api/iia/ops/approval</iaasa1:url>
-                <iaasa1:max-iia-ids>10</iaasa1:max-iia-ids>
-            </iaasa1:iias-approval>
-            <iaac1:iia-approval-cnr version="2.0.0">
-                <iaac1:http-security>
-                    <sec:client-auth-methods>
-                        <cliauthsig1:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <srvauthtls1:tlscert/>
-                        <srvauthsig1:httpsig/>
-                    </sec:server-auth-methods>
-                </iaac1:http-security>
-                <iaac1:url>https://ewp.des.upc.edu/api/iia/ops/approval-cnr</iaac1:url>
-            </iaac1:iia-approval-cnr>
+                </file1:http-security>
+                <file1:url>https://ewp.upc.edu/api/file</file1:url>
+            </file1:file>
         </r:apis-implemented>
         <mf:institutions-covered>
             <hei
