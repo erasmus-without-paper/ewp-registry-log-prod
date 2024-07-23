@@ -21,8 +21,6 @@
           xmlns:iiacnr="https://github.com/erasmus-without-paper/ewp-specs-api-iia-cnr/blob/stable-v3/manifest-entry.xsd"
           xmlns:iaasa1="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v2/manifest-entry.xsd"
           xmlns:iaac1="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v2/manifest-entry.xsd"
-          xmlns:fact="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
-          xmlns:file1="https://github.com/erasmus-without-paper/ewp-specs-api-file/blob/stable-v1/manifest-entry.xsd"
 
           xsi:schemaLocation="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6
    https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-api-discovery/stable-v6/manifest.xsd
@@ -161,31 +159,6 @@
     </iaac1:http-security>
     <iaac1:url>https://ewp.des.upc.edu/api/iia/ops/approval-cnr</iaac1:url>
    </iaac1:iia-approval-cnr>
-   <fact:factsheet version="1.2.0">
-    <fact:http-security>
-     <sec:client-auth-methods>
-      <cliauthsig1:httpsig/>
-     </sec:client-auth-methods>
-     <sec:server-auth-methods>
-      <srvauthtls1:tlscert/>
-      <srvauthsig1:httpsig/>
-     </sec:server-auth-methods>
-    </fact:http-security>
-    <fact:url>https://ewp.des.upc.edu/api/factsheet</fact:url>
-    <fact:max-hei-ids>1</fact:max-hei-ids>
-   </fact:factsheet>
-   <file1:file version="1.0.0">
-    <file1:http-security>
-     <sec:client-auth-methods>
-      <cliauthsig1:httpsig/>
-     </sec:client-auth-methods>
-     <sec:server-auth-methods>
-      <srvauthtls1:tlscert/>
-      <srvauthsig1:httpsig/>
-     </sec:server-auth-methods>
-    </file1:http-security>
-    <file1:url>https://ewp.des.upc.edu/api/file</file1:url>
-   </file1:file>
   </r:apis-implemented>
   <mf:institutions-covered>
    <hei id="upc.edu" xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1">
