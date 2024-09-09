@@ -1,19 +1,58 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Ankieter</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <meta http-equiv=refresh content="10;URL=https://usosweb.umk.pl">
-	<link rel="shortcut icon" href="https://usosweb.umk.pl/favicon.ico">
-	<link rel='stylesheet' href='style_style.css'>
-</head>
-<body>
-<div id="gora"><img src="./usosweb_logo.png" alt=""></div>
-<div id="dokument">
-        <p> &nbsp;</p>
-        <p> &nbsp;</p>
-	<p class="komunikat">Przerwa administracyjna do godziny 18:00. 
-       <br><br><br>Przepraszamy za utrudnienia</p>
-</div>
-</body>
-</html>
+<?xml version="1.0"?>
+<manifest xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6" xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd" xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1">
+  <host>
+    <ewp:admin-email>usos@umk.pl</ewp:admin-email>
+    <ewp:admin-provider>MUCI (USOS)</ewp:admin-provider>
+    <r:apis-implemented>
+      <discovery xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6/manifest-entry.xsd" version="6.0.0">
+        <url>https://usosweb.umk.pl/api/manifest.php</url>
+      </discovery>
+      <emrex-data-access-point xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-emrex-data-access-point/blob/stable-v1/manifest-entry.xsd" version="1.0.0">
+        <url>https://usosweb.umk.pl/emp_endpoint.php</url>
+        <name>UMK</name>
+        <country-code>PL</country-code>
+        <institution>Nicolaus Copernicus University in Toru&#x144;</institution>
+        <certificate>MIIHfDCCBWSgAwIBAgIRAIDv0Vun1rB/858FqEm94NkwDQYJKoZIhvcNAQEMBQAw
+RDELMAkGA1UEBhMCTkwxGTAXBgNVBAoTEEdFQU5UIFZlcmVuaWdpbmcxGjAYBgNV
+BAMTEUdFQU5UIE9WIFJTQSBDQSA0MB4XDTIzMDkyMzAwMDAwMFoXDTI0MDkyMjIz
+NTk1OVowdzELMAkGA1UEBhMCUEwxGzAZBgNVBAgTEkt1amF3c2tvLXBvbW9yc2tp
+ZTEyMDAGA1UECgwpVW5pd2Vyc3l0ZXQgTWlrb8WCYWphIEtvcGVybmlrYSB3IFRv
+cnVuaXUxFzAVBgNVBAMTDnNpZ25pbmcudW1rLnBsMIIBIjANBgkqhkiG9w0BAQEF
+AAOCAQ8AMIIBCgKCAQEAuZdVxN7yggigVgPAep0RYa+Z1QwKD4xrS9oetoZgxdQc
+LCefEn4jpNa7WB1pdcROYl4g3tPh95MtrndDeRXLMNLmCDTlIqrW1NTnYOlr/pE/
+PuV4Y0Rf27eO0rGvw87C7JL7zRGyX+6p0cJbLRCrjkLaJRNpe+0Gbana9qO+dlPF
+n2tWRxBU/BX7EHMkgKyuvWdL89D94SkIYmwPJkEBSN2GBlg55kpai3XAyhgvqJQJ
+wh+0C9hH4bQ5HacaFZag3ovC44XtR9RVRw96sKJcy848mzUo/BbUPkG10tNBMsot
+P3tmWoRcAIwFvxU0kjLkrm8bnjbgPVvQWFjaN+tvUwIDAQABo4IDNDCCAzAwHwYD
+VR0jBBgwFoAUbx01SRBsMvpZoJ68iugflb5xegwwHQYDVR0OBBYEFPRtDqXLm+oq
+/eb0UJIoSssqySdzMA4GA1UdDwEB/wQEAwIFoDAMBgNVHRMBAf8EAjAAMB0GA1Ud
+JQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjBJBgNVHSAEQjBAMDQGCysGAQQBsjEB
+AgJPMCUwIwYIKwYBBQUHAgEWF2h0dHBzOi8vc2VjdGlnby5jb20vQ1BTMAgGBmeB
+DAECAjA/BgNVHR8EODA2MDSgMqAwhi5odHRwOi8vR0VBTlQuY3JsLnNlY3RpZ28u
+Y29tL0dFQU5UT1ZSU0FDQTQuY3JsMHUGCCsGAQUFBwEBBGkwZzA6BggrBgEFBQcw
+AoYuaHR0cDovL0dFQU5ULmNydC5zZWN0aWdvLmNvbS9HRUFOVE9WUlNBQ0E0LmNy
+dDApBggrBgEFBQcwAYYdaHR0cDovL0dFQU5ULm9jc3Auc2VjdGlnby5jb20wLQYD
+VR0RBCYwJIIOc2lnbmluZy51bWsucGyCEnd3dy5zaWduaW5nLnVtay5wbDCCAX0G
+CisGAQQB1nkCBAIEggFtBIIBaQFnAHUAdv+IPwq2+5VRwmHM9Ye6NLSkzbsp3GhC
+Cp/mZ0xaOnQAAAGKv12dowAABAMARjBEAiB8gqGjzmXjiD6QUsWpvl1mEZwldb2j
+varJEKGGM1op/wIgODa1bHrrBVnbYznPsnpKOTXNQ7jZZGjaQMi7l5f62n4AdQDa
+tr9rP7W2Ip+bwrtca+hwkXFsu1GEhTS9pD0wSNf7qwAAAYq/XZ39AAAEAwBGMEQC
+IB2q0swzwlKwPrEUTETb0Acl1w76UDJTeZtjO1swQxF0AiBtQIogXW0Mp0IPIuFK
+0LQXyz/TpZjW9AjEpZtra0jHoQB3AO7N0GTV2xrOxVy3nbTNE6Iyh0Z8vOzew1FI
+WUZxH7WbAAABir9dndAAAAQDAEgwRgIhAMdCWRkPJVhZOdDeWPsmM/RzG5jYHqsW
+ATUaBKH6ikRrAiEAw6f5QZmZoaiOsDdsGxBsLbjbwD2LyDbvEwmpOqnu6YMwDQYJ
+KoZIhvcNAQEMBQADggIBAFbtemg1W7dC2G42jCCm/bQTN0N0dIcs2kaob7lvWEaz
+7wsFRzoE+LoxTv4aopSAEFZWmtCKU1S/HEbsdc8eS3XJeexcI0yHI4U+HGnJzTvU
+PIpQGIa43JIWFrWm0DWp5dRIHWtUu4AXm3uYwgTPC1TvP2ycj8GxHA+voFT3K5Os
+z2zSCyN6bdqOBzclE0dsiwdv3fT3VN9XvLRFqCVP/It2wQ4TkMMuHFHlJ1gxgN8j
+GCpwd7iqMz90ra4+8tG46kXZjS933t7ZREM4cMOqWCzzm9p9l7m37HYMQWGpTfQb
+beaoeo8z97Bh/oMe0NgvWs/Qc5DwFKGkR76jIGOUCY8SoqdKmyDSSuY8ZBRp1IEC
+FHVSxrJ4ONhoBASkYxvI9zRGMypG7do6IxW0xcB9rPBnTNJLE4dLgIjaiGmTmbzH
+uGFwXsk/2E37+5tcLSA5Fm0vNKdJQ6zDxyj+uPmaiQjwo7Ivtq5PLG8t/gRiPdrk
+XrMTosKIVOx1jbMH1kFoVRfqFqqGyaHmcdswnUfhVQnmoZ+MRnqZMu+yslsvhddw
+6fcoxpC3vWuAZWg406sf1s9t5CN6vmr7HL+e9gwL0UPJXgjG//GwN5D1RSxkwRAH
++W16rCdXnXqGZDOlyTjj5i32iKmN4LrEfzSmuQhGlFzTomNI/5NwYDYSJ4VL/+hY</certificate>
+      </emrex-data-access-point>
+    </r:apis-implemented>
+  </host>
+</manifest>
