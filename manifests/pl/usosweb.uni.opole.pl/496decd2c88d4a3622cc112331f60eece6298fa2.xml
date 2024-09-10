@@ -1,87 +1,38 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="assets/ico/favicon.png">
-
-    <title>Przerwa techniczna</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="assets/css/soon.css" rel="stylesheet">
-
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="assets/js/html5shiv.js"></script>
-      <script src="assets/js/respond.min.js"></script>
-    <![endif]-->
-    
-    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
-
-  </head>
-  <!-- START BODY -->
-  <body class="nomobile">
-
-    <!-- START HEADER -->
-    <section id="header">
-        <div class="container">
-            <header>
-                <!-- HEADLINE -->
-                <h1 data-animated="GoIn"><b>TRWA AKTUALIZACJA SYSTEMU USOS</b></h1>
-            </header>
-            <!-- START TIMER -->
-            <div id="timer" data-animated="FadeIn">
-                <p id="message"></p>
-                <div id="days" class="timer_box"></div>
-                <div id="hours" class="timer_box"></div>
-                <div id="minutes" class="timer_box"></div>
-                <div id="seconds" class="timer_box"></div>
-		<p id="additionalmessage"></p>
-            </div>
-            <!-- END TIMER -->
-            
-        </div>
-        <!-- LAYER OVER THE SLIDER TO MAKE THE WHITE TEXTE READABLE -->
-        <div id="layer"></div>
-        <!-- END LAYER -->
-        <!-- START SLIDER -->
-        <div id="slider" class="rev_slider">
-            <ul>
-              <li data-transition="slideleft" data-slotamount="1" data-thumb="assets/img/slider/1.jpg">
-                <img src="assets/img/slider/1.jpg">
-              </li>
-              <li data-transition="slideleft" data-slotamount="1" data-thumb="assets/img/slider/2.jpg">
-                <img src="assets/img/slider/2.jpg">
-              </li>
-              <li data-transition="slideleft" data-slotamount="1" data-thumb="assets/img/slider/3.jpg">
-                <img src="assets/img/slider/3.jpg">
-              </li>
-              <li data-transition="slideleft" data-slotamount="1" data-thumb="assets/img/slider/4.jpg">
-                <img src="assets/img/slider/4.jpg">
-              </li>
-            </ul>
-        </div>
-        <!-- END SLIDER -->
-    </section>
-    <!-- END HEADER -->
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="assets/js/jquery.min.js"></script>
-	<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/soon/plugins.js"></script>
-    <!-- <script src="assets/js/soon/queryloader2.min.js"></script> -->
-    <script src="assets/js/soon/jquery.themepunch.revolution.min.js"></script>
-    <script src="assets/js/soon/custom.js"></script>
-  </body>
-  <!-- END BODY -->
-</html>
+<?xml version="1.0"?>
+<manifest xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6" xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd" xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1">
+  <host>
+    <ewp:admin-email>usosweb@uni.opole.pl</ewp:admin-email>
+    <ewp:admin-provider>MUCI (USOS)</ewp:admin-provider>
+    <r:apis-implemented>
+      <discovery xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6/manifest-entry.xsd" version="6.0.0">
+        <url>https://usosweb.uni.opole.pl/api/manifest.php</url>
+      </discovery>
+      <emrex-data-access-point xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-emrex-data-access-point/blob/stable-v1/manifest-entry.xsd" version="1.0.0">
+        <url>https://usosweb.uni.opole.pl/emp_endpoint.php</url>
+        <name>uni.opole.pl</name>
+        <country-code>PL</country-code>
+        <institution>University of Opole</institution>
+        <certificate>MIIDrzCCApegAwIBAgIJAOF/hfk9MzoFMA0GCSqGSIb3DQEBCwUAMG4xCzAJBgNV
+BAYTAlBMMREwDwYDVQQIDAhPcG9sc2tpZTEOMAwGA1UEBwwFT3BvbGUxHDAaBgNV
+BAoME1VuaXdlcnN5dGV0IE9wb2xza2kxHjAcBgNVBAsMFUNlbnRydW0gSW5mb3Jt
+YXR5Y3puZTAeFw0xNzA3MDMxMTQ3NTBaFw0yNzA3MDExMTQ3NTBaMG4xCzAJBgNV
+BAYTAlBMMREwDwYDVQQIDAhPcG9sc2tpZTEOMAwGA1UEBwwFT3BvbGUxHDAaBgNV
+BAoME1VuaXdlcnN5dGV0IE9wb2xza2kxHjAcBgNVBAsMFUNlbnRydW0gSW5mb3Jt
+YXR5Y3puZTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALUPaGea80ii
+/gfJR5Gj7wbzKK+4ssn1U1Z5u7D+grKewVHIjWBUA+uTGA0cJkP32qrsWiN2wM6L
+HOElpPDgmj+/cwOXl3gugdORVl5swuJo+9vD3Zc2/FyYxk9xnK1/8JED6ScD9Hbe
+onFDtsomXmkBbZcrXotIbtZg2imyw/xKiX7TPgJdgloxkXWGO3Ygq8Lj0ZkMtiEN
+fDnIus+QGObjaCBqazJSN15U6ZTwd/OB0P9Yd8rl0L4wg4hnXBA+b+wVuWYj0A6M
+JneIeCDRWsJ1CMK6tQL8UoQtxNXhl2VeJ+SonpBCelYyQs6svFnrXh2uH6wwq9am
+uvpFOmR0ewUCAwEAAaNQME4wHQYDVR0OBBYEFBmrBF8J9VjnCoAfG8v0V0HL44p5
+MB8GA1UdIwQYMBaAFBmrBF8J9VjnCoAfG8v0V0HL44p5MAwGA1UdEwQFMAMBAf8w
+DQYJKoZIhvcNAQELBQADggEBACmUPjozJ1CAijku7/SFPZMFg1bH85KyBVEw2Nen
+bZvQALugKlGENd8U7wZWxTSgp7B9NtM8i7uZgk0XWuDLHCLjLP7QTrLIoZQcDS95
+VjLz1PfHkjhMNK3C6H1Uns/Ns2C6fvr4o8lenach52z4ntIBrDGUzPmzQiARaAhv
+h42TSSGgL47XBspjhs0muWP3NDAmmm1m1zIvMJz3iSwWhgVyQOryQK/1PHwQL20l
++2vTcpxKOygeHCxy1wvsKY+rNRKczI14rnoIqqjUs+XlZHg0JdaRS1zec3hlE3du
+ooG+jlUsplFyFlGgoGzpS6sk3U/lWZRQ0QK6aHgZtgPfPFM=</certificate>
+      </emrex-data-access-point>
+    </r:apis-implemented>
+  </host>
+</manifest>
