@@ -412,7 +412,7 @@ java.sql.SQLNonTransientConnectionException: No operations allowed after connect
 <i>java.lang.Thread</i> (<span class="underline">run:748</span>)<br />
 </div><br />
 com.mysql.cj.exceptions.ConnectionIsClosedException: No operations allowed after connection closed.<br /><div class="marginleft40">
-<i>sun.reflect.GeneratedConstructorAccessor443</i> (<span class="underline">newInstance:-1</span>)<br />
+<i>sun.reflect.GeneratedConstructorAccessor546</i> (<span class="underline">newInstance:-1</span>)<br />
 <i>sun.reflect.DelegatingConstructorAccessorImpl</i> (<span class="underline">newInstance:45</span>)<br />
 <i>java.lang.reflect.Constructor</i> (<span class="underline">newInstance:423</span>)<br />
 <i>com.mysql.cj.exceptions.ExceptionFactory</i> (<span class="underline">createException:61</span>)<br />
@@ -540,29 +540,78 @@ com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure<b
 <i>com.mysql.cj.exceptions.ExceptionFactory</i> (<span class="underline">createException:151</span>)<br />
 <i>com.mysql.cj.exceptions.ExceptionFactory</i> (<span class="underline">createCommunicationsException:167</span>)<br />
 <i>com.mysql.cj.protocol.a.NativeProtocol</i> (<span class="underline">readMessage:519</span>)<br />
-<i>com.mysql.cj.protocol.a.NativeProtocol</i> (<span class="underline">checkErrorMessage:683</span>)<br />
-<i>com.mysql.cj.protocol.a.NativeProtocol</i> (<span class="underline">sendCommand:622</span>)<br />
-<i>com.mysql.cj.protocol.a.NativeProtocol</i> (<span class="underline">sendQueryPacket:970</span>)<br />
-<i>com.mysql.cj.protocol.a.NativeProtocol</i> (<span class="underline">sendQueryString:916</span>)<br />
-<i>com.mysql.cj.NativeSession</i> (<span class="underline">execSQL:660</span>)<br />
-<i>com.mysql.cj.jdbc.StatementImpl</i> (<span class="underline">executeQuery:1170</span>)<br />
-<i>org.jboss.resource.adapter.jdbc.WrappedStatement</i> (<span class="underline">executeQuery:226</span>)<br />
-<i>pt.digitalis.dif.model.jdbc.DIFDBStatementProxy</i> (<span class="underline">executeQuery:260</span>)<br />
-<i>pt.digitalis.dif.model.sql.SQLDataSet</i> (<span class="underline">executeJDBCQuery:454</span>)<br />
-<i>pt.digitalis.dif.model.sql.SQLDataSet</i> (<span class="underline">executeQuery:604</span>)<br />
+<i>com.mysql.cj.protocol.a.ColumnDefinitionReader</i> (<span class="underline">read:72</span>)<br />
+<i>com.mysql.cj.protocol.a.ColumnDefinitionReader</i> (<span class="underline">read:40</span>)<br />
+<i>com.mysql.cj.protocol.a.NativeProtocol</i> (<span class="underline">read:1570</span>)<br />
+<i>com.mysql.cj.protocol.a.TextResultsetReader</i> (<span class="underline">read:68</span>)<br />
+<i>com.mysql.cj.protocol.a.TextResultsetReader</i> (<span class="underline">read:48</span>)<br />
+<i>com.mysql.cj.protocol.a.NativeProtocol</i> (<span class="underline">read:1583</span>)<br />
+<i>com.mysql.cj.protocol.a.NativeProtocol</i> (<span class="underline">readAllResults:1637</span>)<br />
+<i>com.mysql.cj.protocol.a.NativeProtocol</i> (<span class="underline">sendQueryPacket:983</span>)<br />
+<i>com.mysql.cj.NativeSession</i> (<span class="underline">execSQL:662</span>)<br />
+<i>com.mysql.cj.jdbc.ClientPreparedStatement</i> (<span class="underline">executeInternal:930</span>)<br />
+<i>com.mysql.cj.jdbc.ClientPreparedStatement</i> (<span class="underline">executeQuery:1003</span>)<br />
+<i>org.jboss.resource.adapter.jdbc.CachedPreparedStatement</i> (<span class="underline">executeQuery:90</span>)<br />
+<i>org.jboss.resource.adapter.jdbc.WrappedPreparedStatement</i> (<span class="underline">executeQuery:342</span>)<br />
+<i>pt.digitalis.dif.model.jdbc.DIFDBPreparedStatementProxy</i> (<span class="underline">executeQuery:209</span>)<br />
+<i>org.hibernate.jdbc.AbstractBatcher</i> (<span class="underline">getResultSet:208</span>)<br />
+<i>org.hibernate.loader.Loader</i> (<span class="underline">getResultSet:1953</span>)<br />
+<i>org.hibernate.loader.Loader</i> (<span class="underline">doQuery:802</span>)<br />
+<i>org.hibernate.loader.Loader</i> (<span class="underline">doQueryAndInitializeNonLazyCollections:274</span>)<br />
+<i>org.hibernate.loader.Loader</i> (<span class="underline">doList:2542</span>)<br />
+<i>org.hibernate.loader.Loader</i> (<span class="underline">listIgnoreQueryCache:2276</span>)<br />
+<i>org.hibernate.loader.Loader</i> (<span class="underline">list:2271</span>)<br />
+<i>org.hibernate.loader.criteria.CriteriaLoader</i> (<span class="underline">list:119</span>)<br />
+<i>org.hibernate.impl.SessionImpl</i> (<span class="underline">list:1716</span>)<br />
+<i>org.hibernate.impl.CriteriaImpl</i> (<span class="underline">list:347</span>)<br />
+<i>pt.digitalis.dif.model.dataset.HibernateDataSet</i> (<span class="underline">innerExecuteQuery:1392</span>)<br />
+<i>pt.digitalis.dif.model.dataset.HibernateDataSet</i> (<span class="underline">executeQuery:561</span>)<br />
 <i>pt.digitalis.dif.model.dataset.Query</i> (<span class="underline">innerProcessList:431</span>)<br />
 <i>pt.digitalis.dif.model.dataset.Query</i> (<span class="underline">processList:634</span>)<br />
 <i>pt.digitalis.dif.model.dataset.Query</i> (<span class="underline">singleValue:734</span>)<br />
-<i>pt.digitalis.mobilidadenet.entities.backoffice.MyMobilityManagementHome</i> (<span class="underline">processTotals:324</span>)<br />
-<i>pt.digitalis.mobilidadenet.entities.backoffice.MyMobilityManagementHome</i> (<span class="underline">execute:119</span>)<br />
-<i>pt.digitalis.mobilidadenet.entities.backoffice.MyMobilityManagementHomeCGStageInstance</i> (<span class="underline">callExecuteMethod:-1</span>)<br />
-<i>pt.digitalis.dif.codegen.templates.TemplateResources</i> (<span class="underline">stageExecute:733</span>)<br />
-<i>pt.digitalis.mobilidadenet.entities.backoffice.MyMobilityManagementHomeCGStageInstance</i> (<span class="underline">_CG_execute:97</span>)<br />
-<i>pt.digitalis.dif.controller.AbstractDIFDispatcher</i> (<span class="underline">execute:578</span>)<br />
+<i>pt.digitalis.mobilidadenet.business.rules.AbstractMobilityProcessRules</i> (<span class="underline">getLastMobilityProcessActive:3291</span>)<br />
+<i>pt.digitalis.mobilidadenet.business.rules.MobilityProcessRulesImpl</i> (<span class="underline">getLastMobilityProcessActive:-1</span>)<br />
+<i>pt.digitalis.mobilidadenet.business.utils.MobilityProcessUtils</i> (<span class="underline">getMobilityProcess:75</span>)<br />
+<i>pt.digitalis.mobilidadenet.entities.frontoffice.utils.AbstractStudent</i> (<span class="underline">getMobilityProcess:271</span>)<br />
+<i>pt.digitalis.mobilidadenet.entities.frontoffice.utils.AbstractStudent</i> (<span class="underline">getMobilityProcessId:300</span>)<br />
+<i>pt.digitalis.mobilidadenet.entities.frontoffice.utils.AbstractStudent</i> (<span class="underline">getMobilityProcessRole:335</span>)<br />
+<i>pt.digitalis.mobilidadenet.entities.frontoffice.utils.AbstractStudent</i> (<span class="underline">init:667</span>)<br />
+<i>pt.digitalis.mobilidadenet.entities.frontoffice.documents.ManageDocumentsLanguageCGStageInstance</i> (<span class="underline">callInitMethod:-1</span>)<br />
+<i>pt.digitalis.mobilidadenet.entities.frontoffice.documents.ManageDocumentsLanguageCGStageInstance</i> (<span class="underline">_CG_init:169</span>)<br />
+<i>pt.digitalis.dif.controller.AbstractDIFDispatcher</i> (<span class="underline">execute:568</span>)<br />
 <i>pt.digitalis.dif.controller.AbstractDIFDispatcher</i> (<span class="underline">runDispatchingSteps:1221</span>)<br />
 <i>pt.digitalis.dif.controller.AbstractDIFDispatcher</i> (<span class="underline">dispatch:473</span>)<br />
 <i>pt.digitalis.dif.controller.AbstractChAL</i> (<span class="underline">serve:119</span>)<br />
 <i>pt.digitalis.dif.listeners.HttpListener</i> (<span class="underline">processRequest:72</span>)<br />
+<i>pt.digitalis.dif.listeners.AbstractRESTfullHttpListener</i> (<span class="underline">doGet:64</span>)<br />
+<i>javax.servlet.http.HttpServlet</i> (<span class="underline">service:690</span>)<br />
+<i>javax.servlet.http.HttpServlet</i> (<span class="underline">service:803</span>)<br />
+<i>org.apache.catalina.core.ApplicationFilterChain</i> (<span class="underline">internalDoFilter:290</span>)<br />
+<i>org.apache.catalina.core.ApplicationFilterChain</i> (<span class="underline">doFilter:206</span>)<br />
+<i>org.apache.catalina.core.ApplicationDispatcher</i> (<span class="underline">invoke:654</span>)<br />
+<i>org.apache.catalina.core.ApplicationDispatcher</i> (<span class="underline">doInclude:557</span>)<br />
+<i>org.apache.catalina.core.ApplicationDispatcher</i> (<span class="underline">include:481</span>)<br />
+<i>org.apache.jasper.runtime.JspRuntimeLibrary</i> (<span class="underline">include:968</span>)<br />
+<i>org.apache.jasper.runtime.PageContextImpl</i> (<span class="underline">doInclude:638</span>)<br />
+<i>org.apache.jasper.runtime.PageContextImpl</i> (<span class="underline">include:632</span>)<br />
+<i>pt.digitalis.dif.presentation.views.jsp.taglibs.TagLibUtils</i> (<span class="underline">includeStage:948</span>)<br />
+<i>pt.digitalis.dif.presentation.views.jsp.objects.contributions.WebUIHTMLGeneratorImpl</i> (<span class="underline">getComponentStage:807</span>)<br />
+<i>pt.digitalis.dif.presentation.views.jsp.taglibs.integration.Component</i> (<span class="underline">doStartTag:78</span>)<br />
+<i>org.apache.jsp.mobilidadenet.backoffice.learningagreement.ManageLearningAgreement_jsp</i> (<span class="underline">_jspx_meth_dif_005fcomponent_005f0:1840</span>)<br />
+<i>org.apache.jsp.mobilidadenet.backoffice.learningagreement.ManageLearningAgreement_jsp</i> (<span class="underline">_jspService:341</span>)<br />
+<i>org.apache.jasper.runtime.HttpJspBase</i> (<span class="underline">service:70</span>)<br />
+<i>javax.servlet.http.HttpServlet</i> (<span class="underline">service:803</span>)<br />
+<i>org.apache.jasper.servlet.JspServletWrapper</i> (<span class="underline">service:373</span>)<br />
+<i>org.apache.jasper.servlet.JspServlet</i> (<span class="underline">serviceJspFile:336</span>)<br />
+<i>org.apache.jasper.servlet.JspServlet</i> (<span class="underline">service:265</span>)<br />
+<i>javax.servlet.http.HttpServlet</i> (<span class="underline">service:803</span>)<br />
+<i>org.apache.catalina.core.ApplicationFilterChain</i> (<span class="underline">internalDoFilter:290</span>)<br />
+<i>org.apache.catalina.core.ApplicationFilterChain</i> (<span class="underline">doFilter:206</span>)<br />
+<i>org.apache.catalina.core.ApplicationDispatcher</i> (<span class="underline">invoke:654</span>)<br />
+<i>org.apache.catalina.core.ApplicationDispatcher</i> (<span class="underline">doInclude:557</span>)<br />
+<i>org.apache.catalina.core.ApplicationDispatcher</i> (<span class="underline">include:481</span>)<br />
+<i>pt.digitalis.dif.presentation.renderers.impl.ViewRendererJSPImpl</i> (<span class="underline">renderView:108</span>)<br />
+<i>pt.digitalis.dif.listeners.HttpListener</i> (<span class="underline">processRequest:141</span>)<br />
 <i>pt.digitalis.dif.listeners.AbstractRESTfullHttpListener</i> (<span class="underline">doGet:64</span>)<br />
 <i>javax.servlet.http.HttpServlet</i> (<span class="underline">service:690</span>)<br />
 <i>javax.servlet.http.HttpServlet</i> (<span class="underline">service:803</span>)<br />
@@ -588,38 +637,87 @@ com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure<b
 <i>org.apache.tomcat.util.net.JIoEndpoint$Worker</i> (<span class="underline">run:446</span>)<br />
 <i>java.lang.Thread</i> (<span class="underline">run:748</span>)<br />
 </div><br />
-java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.<br /><div class="marginleft40">
+java.io.EOFException: Can not read response from server. Expected to read 91 bytes, read 17 bytes before connection was unexpectedly lost.<br /><div class="marginleft40">
 <i>com.mysql.cj.protocol.FullReadInputStream</i> (<span class="underline">readFully:67</span>)<br />
-<i>com.mysql.cj.protocol.a.SimplePacketReader</i> (<span class="underline">readHeader:63</span>)<br />
-<i>com.mysql.cj.protocol.a.SimplePacketReader</i> (<span class="underline">readHeader:45</span>)<br />
-<i>com.mysql.cj.protocol.a.TimeTrackingPacketReader</i> (<span class="underline">readHeader:52</span>)<br />
-<i>com.mysql.cj.protocol.a.TimeTrackingPacketReader</i> (<span class="underline">readHeader:41</span>)<br />
-<i>com.mysql.cj.protocol.a.MultiPacketReader</i> (<span class="underline">readHeader:54</span>)<br />
-<i>com.mysql.cj.protocol.a.MultiPacketReader</i> (<span class="underline">readHeader:44</span>)<br />
-<i>com.mysql.cj.protocol.a.NativeProtocol</i> (<span class="underline">readMessage:513</span>)<br />
-<i>com.mysql.cj.protocol.a.NativeProtocol</i> (<span class="underline">checkErrorMessage:683</span>)<br />
-<i>com.mysql.cj.protocol.a.NativeProtocol</i> (<span class="underline">sendCommand:622</span>)<br />
-<i>com.mysql.cj.protocol.a.NativeProtocol</i> (<span class="underline">sendQueryPacket:970</span>)<br />
-<i>com.mysql.cj.protocol.a.NativeProtocol</i> (<span class="underline">sendQueryString:916</span>)<br />
-<i>com.mysql.cj.NativeSession</i> (<span class="underline">execSQL:660</span>)<br />
-<i>com.mysql.cj.jdbc.StatementImpl</i> (<span class="underline">executeQuery:1170</span>)<br />
-<i>org.jboss.resource.adapter.jdbc.WrappedStatement</i> (<span class="underline">executeQuery:226</span>)<br />
-<i>pt.digitalis.dif.model.jdbc.DIFDBStatementProxy</i> (<span class="underline">executeQuery:260</span>)<br />
-<i>pt.digitalis.dif.model.sql.SQLDataSet</i> (<span class="underline">executeJDBCQuery:454</span>)<br />
-<i>pt.digitalis.dif.model.sql.SQLDataSet</i> (<span class="underline">executeQuery:604</span>)<br />
+<i>com.mysql.cj.protocol.a.SimplePacketReader</i> (<span class="underline">readMessage:108</span>)<br />
+<i>com.mysql.cj.protocol.a.SimplePacketReader</i> (<span class="underline">readMessage:45</span>)<br />
+<i>com.mysql.cj.protocol.a.TimeTrackingPacketReader</i> (<span class="underline">readMessage:57</span>)<br />
+<i>com.mysql.cj.protocol.a.TimeTrackingPacketReader</i> (<span class="underline">readMessage:41</span>)<br />
+<i>com.mysql.cj.protocol.a.MultiPacketReader</i> (<span class="underline">readMessage:61</span>)<br />
+<i>com.mysql.cj.protocol.a.MultiPacketReader</i> (<span class="underline">readMessage:44</span>)<br />
+<i>com.mysql.cj.protocol.a.NativeProtocol</i> (<span class="underline">readMessage:514</span>)<br />
+<i>com.mysql.cj.protocol.a.ColumnDefinitionReader</i> (<span class="underline">read:72</span>)<br />
+<i>com.mysql.cj.protocol.a.ColumnDefinitionReader</i> (<span class="underline">read:40</span>)<br />
+<i>com.mysql.cj.protocol.a.NativeProtocol</i> (<span class="underline">read:1570</span>)<br />
+<i>com.mysql.cj.protocol.a.TextResultsetReader</i> (<span class="underline">read:68</span>)<br />
+<i>com.mysql.cj.protocol.a.TextResultsetReader</i> (<span class="underline">read:48</span>)<br />
+<i>com.mysql.cj.protocol.a.NativeProtocol</i> (<span class="underline">read:1583</span>)<br />
+<i>com.mysql.cj.protocol.a.NativeProtocol</i> (<span class="underline">readAllResults:1637</span>)<br />
+<i>com.mysql.cj.protocol.a.NativeProtocol</i> (<span class="underline">sendQueryPacket:983</span>)<br />
+<i>com.mysql.cj.NativeSession</i> (<span class="underline">execSQL:662</span>)<br />
+<i>com.mysql.cj.jdbc.ClientPreparedStatement</i> (<span class="underline">executeInternal:930</span>)<br />
+<i>com.mysql.cj.jdbc.ClientPreparedStatement</i> (<span class="underline">executeQuery:1003</span>)<br />
+<i>org.jboss.resource.adapter.jdbc.CachedPreparedStatement</i> (<span class="underline">executeQuery:90</span>)<br />
+<i>org.jboss.resource.adapter.jdbc.WrappedPreparedStatement</i> (<span class="underline">executeQuery:342</span>)<br />
+<i>pt.digitalis.dif.model.jdbc.DIFDBPreparedStatementProxy</i> (<span class="underline">executeQuery:209</span>)<br />
+<i>org.hibernate.jdbc.AbstractBatcher</i> (<span class="underline">getResultSet:208</span>)<br />
+<i>org.hibernate.loader.Loader</i> (<span class="underline">getResultSet:1953</span>)<br />
+<i>org.hibernate.loader.Loader</i> (<span class="underline">doQuery:802</span>)<br />
+<i>org.hibernate.loader.Loader</i> (<span class="underline">doQueryAndInitializeNonLazyCollections:274</span>)<br />
+<i>org.hibernate.loader.Loader</i> (<span class="underline">doList:2542</span>)<br />
+<i>org.hibernate.loader.Loader</i> (<span class="underline">listIgnoreQueryCache:2276</span>)<br />
+<i>org.hibernate.loader.Loader</i> (<span class="underline">list:2271</span>)<br />
+<i>org.hibernate.loader.criteria.CriteriaLoader</i> (<span class="underline">list:119</span>)<br />
+<i>org.hibernate.impl.SessionImpl</i> (<span class="underline">list:1716</span>)<br />
+<i>org.hibernate.impl.CriteriaImpl</i> (<span class="underline">list:347</span>)<br />
+<i>pt.digitalis.dif.model.dataset.HibernateDataSet</i> (<span class="underline">innerExecuteQuery:1392</span>)<br />
+<i>pt.digitalis.dif.model.dataset.HibernateDataSet</i> (<span class="underline">executeQuery:561</span>)<br />
 <i>pt.digitalis.dif.model.dataset.Query</i> (<span class="underline">innerProcessList:431</span>)<br />
 <i>pt.digitalis.dif.model.dataset.Query</i> (<span class="underline">processList:634</span>)<br />
 <i>pt.digitalis.dif.model.dataset.Query</i> (<span class="underline">singleValue:734</span>)<br />
-<i>pt.digitalis.mobilidadenet.entities.backoffice.MyMobilityManagementHome</i> (<span class="underline">processTotals:324</span>)<br />
-<i>pt.digitalis.mobilidadenet.entities.backoffice.MyMobilityManagementHome</i> (<span class="underline">execute:119</span>)<br />
-<i>pt.digitalis.mobilidadenet.entities.backoffice.MyMobilityManagementHomeCGStageInstance</i> (<span class="underline">callExecuteMethod:-1</span>)<br />
-<i>pt.digitalis.dif.codegen.templates.TemplateResources</i> (<span class="underline">stageExecute:733</span>)<br />
-<i>pt.digitalis.mobilidadenet.entities.backoffice.MyMobilityManagementHomeCGStageInstance</i> (<span class="underline">_CG_execute:97</span>)<br />
-<i>pt.digitalis.dif.controller.AbstractDIFDispatcher</i> (<span class="underline">execute:578</span>)<br />
+<i>pt.digitalis.mobilidadenet.business.rules.AbstractMobilityProcessRules</i> (<span class="underline">getLastMobilityProcessActive:3291</span>)<br />
+<i>pt.digitalis.mobilidadenet.business.rules.MobilityProcessRulesImpl</i> (<span class="underline">getLastMobilityProcessActive:-1</span>)<br />
+<i>pt.digitalis.mobilidadenet.business.utils.MobilityProcessUtils</i> (<span class="underline">getMobilityProcess:75</span>)<br />
+<i>pt.digitalis.mobilidadenet.entities.frontoffice.utils.AbstractStudent</i> (<span class="underline">getMobilityProcess:271</span>)<br />
+<i>pt.digitalis.mobilidadenet.entities.frontoffice.utils.AbstractStudent</i> (<span class="underline">getMobilityProcessId:300</span>)<br />
+<i>pt.digitalis.mobilidadenet.entities.frontoffice.utils.AbstractStudent</i> (<span class="underline">getMobilityProcessRole:335</span>)<br />
+<i>pt.digitalis.mobilidadenet.entities.frontoffice.utils.AbstractStudent</i> (<span class="underline">init:667</span>)<br />
+<i>pt.digitalis.mobilidadenet.entities.frontoffice.documents.ManageDocumentsLanguageCGStageInstance</i> (<span class="underline">callInitMethod:-1</span>)<br />
+<i>pt.digitalis.mobilidadenet.entities.frontoffice.documents.ManageDocumentsLanguageCGStageInstance</i> (<span class="underline">_CG_init:169</span>)<br />
+<i>pt.digitalis.dif.controller.AbstractDIFDispatcher</i> (<span class="underline">execute:568</span>)<br />
 <i>pt.digitalis.dif.controller.AbstractDIFDispatcher</i> (<span class="underline">runDispatchingSteps:1221</span>)<br />
 <i>pt.digitalis.dif.controller.AbstractDIFDispatcher</i> (<span class="underline">dispatch:473</span>)<br />
 <i>pt.digitalis.dif.controller.AbstractChAL</i> (<span class="underline">serve:119</span>)<br />
 <i>pt.digitalis.dif.listeners.HttpListener</i> (<span class="underline">processRequest:72</span>)<br />
+<i>pt.digitalis.dif.listeners.AbstractRESTfullHttpListener</i> (<span class="underline">doGet:64</span>)<br />
+<i>javax.servlet.http.HttpServlet</i> (<span class="underline">service:690</span>)<br />
+<i>javax.servlet.http.HttpServlet</i> (<span class="underline">service:803</span>)<br />
+<i>org.apache.catalina.core.ApplicationFilterChain</i> (<span class="underline">internalDoFilter:290</span>)<br />
+<i>org.apache.catalina.core.ApplicationFilterChain</i> (<span class="underline">doFilter:206</span>)<br />
+<i>org.apache.catalina.core.ApplicationDispatcher</i> (<span class="underline">invoke:654</span>)<br />
+<i>org.apache.catalina.core.ApplicationDispatcher</i> (<span class="underline">doInclude:557</span>)<br />
+<i>org.apache.catalina.core.ApplicationDispatcher</i> (<span class="underline">include:481</span>)<br />
+<i>org.apache.jasper.runtime.JspRuntimeLibrary</i> (<span class="underline">include:968</span>)<br />
+<i>org.apache.jasper.runtime.PageContextImpl</i> (<span class="underline">doInclude:638</span>)<br />
+<i>org.apache.jasper.runtime.PageContextImpl</i> (<span class="underline">include:632</span>)<br />
+<i>pt.digitalis.dif.presentation.views.jsp.taglibs.TagLibUtils</i> (<span class="underline">includeStage:948</span>)<br />
+<i>pt.digitalis.dif.presentation.views.jsp.objects.contributions.WebUIHTMLGeneratorImpl</i> (<span class="underline">getComponentStage:807</span>)<br />
+<i>pt.digitalis.dif.presentation.views.jsp.taglibs.integration.Component</i> (<span class="underline">doStartTag:78</span>)<br />
+<i>org.apache.jsp.mobilidadenet.backoffice.learningagreement.ManageLearningAgreement_jsp</i> (<span class="underline">_jspx_meth_dif_005fcomponent_005f0:1840</span>)<br />
+<i>org.apache.jsp.mobilidadenet.backoffice.learningagreement.ManageLearningAgreement_jsp</i> (<span class="underline">_jspService:341</span>)<br />
+<i>org.apache.jasper.runtime.HttpJspBase</i> (<span class="underline">service:70</span>)<br />
+<i>javax.servlet.http.HttpServlet</i> (<span class="underline">service:803</span>)<br />
+<i>org.apache.jasper.servlet.JspServletWrapper</i> (<span class="underline">service:373</span>)<br />
+<i>org.apache.jasper.servlet.JspServlet</i> (<span class="underline">serviceJspFile:336</span>)<br />
+<i>org.apache.jasper.servlet.JspServlet</i> (<span class="underline">service:265</span>)<br />
+<i>javax.servlet.http.HttpServlet</i> (<span class="underline">service:803</span>)<br />
+<i>org.apache.catalina.core.ApplicationFilterChain</i> (<span class="underline">internalDoFilter:290</span>)<br />
+<i>org.apache.catalina.core.ApplicationFilterChain</i> (<span class="underline">doFilter:206</span>)<br />
+<i>org.apache.catalina.core.ApplicationDispatcher</i> (<span class="underline">invoke:654</span>)<br />
+<i>org.apache.catalina.core.ApplicationDispatcher</i> (<span class="underline">doInclude:557</span>)<br />
+<i>org.apache.catalina.core.ApplicationDispatcher</i> (<span class="underline">include:481</span>)<br />
+<i>pt.digitalis.dif.presentation.renderers.impl.ViewRendererJSPImpl</i> (<span class="underline">renderView:108</span>)<br />
+<i>pt.digitalis.dif.listeners.HttpListener</i> (<span class="underline">processRequest:141</span>)<br />
 <i>pt.digitalis.dif.listeners.AbstractRESTfullHttpListener</i> (<span class="underline">doGet:64</span>)<br />
 <i>javax.servlet.http.HttpServlet</i> (<span class="underline">service:690</span>)<br />
 <i>javax.servlet.http.HttpServlet</i> (<span class="underline">service:803</span>)<br />
@@ -670,9 +768,9 @@ java.io.EOFException: Can not read response from server. Expected to read 4 byte
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Popup&nbsp;Mode:&nbsp;false
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;REST&nbsp;URL&nbsp;Mode:&nbsp;false
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Help&nbsp;Mode:&nbsp;false
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Session:&nbsp;&nbsp;&nbsp;|&nbsp;Session&nbsp;ID:&nbsp;httpB83A2929C0A7B119424E7A7864D3702E
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;First&nbsp;Access&nbsp;Time:&nbsp;1728552597367
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Last&nbsp;Access&nbsp;Time:&nbsp;1728552597385
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Session:&nbsp;&nbsp;&nbsp;|&nbsp;Session&nbsp;ID:&nbsp;httpB1FC59CFA792EFB459B9DED7B1B817AC
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;First&nbsp;Access&nbsp;Time:&nbsp;1728557149465
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Last&nbsp;Access&nbsp;Time:&nbsp;1728557149485
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;language:&nbsp;pt
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;User&nbsp;in&nbsp;session:&nbsp;null
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Attributes:&nbsp;[
@@ -691,11 +789,11 @@ java.io.EOFException: Can not read response from server. Expected to read 4 byte
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#5&nbsp;mainResponseCharset&nbsp;=&nbsp;"UTF-8"
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#6&nbsp;parentComponentTag&nbsp;=&nbsp;pt.digitalis.dif.presentation.views.jsp.taglibs.integration.Component@4ee0ecea
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#7&nbsp;responsive_ui_mode&nbsp;=&nbsp;false
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#8&nbsp;contentStage&nbsp;=&nbsp;pt.digitalis.dif.presentation.entities.system.error.HibernateErrorStageCGStageInstance@68667385
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#9&nbsp;originalRequest&nbsp;=&nbsp;pt.digitalis.dif.listeners.objects.RESTCacheRequestBodyFilter@71c68dd
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#8&nbsp;contentStage&nbsp;=&nbsp;pt.digitalis.dif.presentation.entities.system.error.HibernateErrorStageCGStageInstance@4fd0e453
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#9&nbsp;originalRequest&nbsp;=&nbsp;pt.digitalis.dif.listeners.objects.RESTCacheRequestBodyFilter@21cd3ac1
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#10&nbsp;mainDocumentObject&nbsp;=&nbsp;pt.digitalis.dif.presentation.views.jsp.taglibs.core.Document@4160d475
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#11&nbsp;javax.servlet.include.servlet_path&nbsp;=&nbsp;"/ewp"
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#12&nbsp;mainDocumentTagObject&nbsp;=&nbsp;pt.digitalis.dif.presentation.views.jsp.taglibs.core.Document@32cebd80
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#12&nbsp;mainDocumentTagObject&nbsp;=&nbsp;pt.digitalis.dif.presentation.views.jsp.taglibs.core.Document@2f7504ad
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#13&nbsp;mainResponseObject&nbsp;=&nbsp;&nbsp;&nbsp;|&nbsp;View:&nbsp;&nbsp;&nbsp;|&nbsp;ID:&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Name:&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Type:&nbsp;NORMAL
@@ -722,15 +820,15 @@ java.io.EOFException: Can not read response from server. Expected to read 4 byte
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Popup&nbsp;Mode:&nbsp;false
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;REST&nbsp;URL&nbsp;Mode:&nbsp;true
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Help&nbsp;Mode:&nbsp;false
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Session:&nbsp;&nbsp;&nbsp;|&nbsp;Session&nbsp;ID:&nbsp;httpB83A2929C0A7B119424E7A7864D3702E
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;First&nbsp;Access&nbsp;Time:&nbsp;1728552597367
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Last&nbsp;Access&nbsp;Time:&nbsp;1728552597385
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Session:&nbsp;&nbsp;&nbsp;|&nbsp;Session&nbsp;ID:&nbsp;httpB1FC59CFA792EFB459B9DED7B1B817AC
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;First&nbsp;Access&nbsp;Time:&nbsp;1728557149465
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Last&nbsp;Access&nbsp;Time:&nbsp;1728557149485
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;language:&nbsp;pt
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;User&nbsp;in&nbsp;session:&nbsp;null
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Attributes:&nbsp;[
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Attributes:&nbsp;[
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#1&nbsp;originalRequest&nbsp;=&nbsp;pt.digitalis.dif.listeners.objects.RESTCacheRequestBodyFilter@71c68dd
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#1&nbsp;originalRequest&nbsp;=&nbsp;pt.digitalis.dif.listeners.objects.RESTCacheRequestBodyFilter@21cd3ac1
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#2&nbsp;RaisedExceptionCaghtInHandler&nbsp;=&nbsp;org.hibernate.TransactionException:&nbsp;JDBC&nbsp;rollback&nbsp;failed
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#3&nbsp;clientValidationsAttributeId&nbsp;=&nbsp;false
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]
@@ -786,9 +884,9 @@ java.io.EOFException: Can not read response from server. Expected to read 4 byte
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Popup&nbsp;Mode:&nbsp;false
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;REST&nbsp;URL&nbsp;Mode:&nbsp;false
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Help&nbsp;Mode:&nbsp;false
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Session:&nbsp;&nbsp;&nbsp;|&nbsp;Session&nbsp;ID:&nbsp;httpB83A2929C0A7B119424E7A7864D3702E
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;First&nbsp;Access&nbsp;Time:&nbsp;1728552597367
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Last&nbsp;Access&nbsp;Time:&nbsp;1728552597385
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Session:&nbsp;&nbsp;&nbsp;|&nbsp;Session&nbsp;ID:&nbsp;httpB1FC59CFA792EFB459B9DED7B1B817AC
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;First&nbsp;Access&nbsp;Time:&nbsp;1728557149465
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Last&nbsp;Access&nbsp;Time:&nbsp;1728557149485
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;language:&nbsp;pt
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;User&nbsp;in&nbsp;session:&nbsp;null
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Attributes:&nbsp;[
@@ -807,11 +905,11 @@ java.io.EOFException: Can not read response from server. Expected to read 4 byte
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#5&nbsp;mainResponseCharset&nbsp;=&nbsp;"UTF-8"
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#6&nbsp;parentComponentTag&nbsp;=&nbsp;pt.digitalis.dif.presentation.views.jsp.taglibs.integration.Component@4ee0ecea
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#7&nbsp;responsive_ui_mode&nbsp;=&nbsp;false
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#8&nbsp;contentStage&nbsp;=&nbsp;pt.digitalis.dif.presentation.entities.system.error.HibernateErrorStageCGStageInstance@68667385
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#9&nbsp;originalRequest&nbsp;=&nbsp;pt.digitalis.dif.listeners.objects.RESTCacheRequestBodyFilter@71c68dd
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#8&nbsp;contentStage&nbsp;=&nbsp;pt.digitalis.dif.presentation.entities.system.error.HibernateErrorStageCGStageInstance@4fd0e453
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#9&nbsp;originalRequest&nbsp;=&nbsp;pt.digitalis.dif.listeners.objects.RESTCacheRequestBodyFilter@21cd3ac1
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#10&nbsp;mainDocumentObject&nbsp;=&nbsp;pt.digitalis.dif.presentation.views.jsp.taglibs.core.Document@4160d475
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#11&nbsp;javax.servlet.include.servlet_path&nbsp;=&nbsp;"/ewp"
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#12&nbsp;mainDocumentTagObject&nbsp;=&nbsp;pt.digitalis.dif.presentation.views.jsp.taglibs.core.Document@32cebd80
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#12&nbsp;mainDocumentTagObject&nbsp;=&nbsp;pt.digitalis.dif.presentation.views.jsp.taglibs.core.Document@2f7504ad
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#13&nbsp;mainResponseObject&nbsp;=&nbsp;&nbsp;&nbsp;|&nbsp;View:&nbsp;&nbsp;&nbsp;|&nbsp;ID:&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Name:&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Type:&nbsp;NORMAL
@@ -838,15 +936,15 @@ java.io.EOFException: Can not read response from server. Expected to read 4 byte
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Popup&nbsp;Mode:&nbsp;false
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;REST&nbsp;URL&nbsp;Mode:&nbsp;true
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Help&nbsp;Mode:&nbsp;false
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Session:&nbsp;&nbsp;&nbsp;|&nbsp;Session&nbsp;ID:&nbsp;httpB83A2929C0A7B119424E7A7864D3702E
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;First&nbsp;Access&nbsp;Time:&nbsp;1728552597367
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Last&nbsp;Access&nbsp;Time:&nbsp;1728552597385
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Session:&nbsp;&nbsp;&nbsp;|&nbsp;Session&nbsp;ID:&nbsp;httpB1FC59CFA792EFB459B9DED7B1B817AC
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;First&nbsp;Access&nbsp;Time:&nbsp;1728557149465
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Last&nbsp;Access&nbsp;Time:&nbsp;1728557149485
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;language:&nbsp;pt
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;User&nbsp;in&nbsp;session:&nbsp;null
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Attributes:&nbsp;[
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Attributes:&nbsp;[
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#1&nbsp;originalRequest&nbsp;=&nbsp;pt.digitalis.dif.listeners.objects.RESTCacheRequestBodyFilter@71c68dd
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#1&nbsp;originalRequest&nbsp;=&nbsp;pt.digitalis.dif.listeners.objects.RESTCacheRequestBodyFilter@21cd3ac1
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#2&nbsp;RaisedExceptionCaghtInHandler&nbsp;=&nbsp;org.hibernate.TransactionException:&nbsp;JDBC&nbsp;rollback&nbsp;failed
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#3&nbsp;clientValidationsAttributeId&nbsp;=&nbsp;false
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]
@@ -880,7 +978,7 @@ java.io.EOFException: Can not read response from server. Expected to read 4 byte
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</code>
 </div></div>
 <div class="hide"><div id="infoPanel3Content" class="margin10">
-(10:29:57 AM) <span class="bold">EWP Server Execution Stage</span> [ewpstage]<br />
+(11:45:49 AM) <span class="bold">EWP Server Execution Stage</span> [ewpstage]<br />
 
 </div></div>
 
@@ -1076,7 +1174,7 @@ java.sql.SQLNonTransientConnectionException: No operations allowed after connect
 <i>java.lang.Thread</i> (<span class="underline">run:748</span>)<br />
 </div><br />
 com.mysql.cj.exceptions.ConnectionIsClosedException: No operations allowed after connection closed.<br /><div class="marginleft40">
-<i>sun.reflect.GeneratedConstructorAccessor443</i> (<span class="underline">newInstance:-1</span>)<br />
+<i>sun.reflect.GeneratedConstructorAccessor546</i> (<span class="underline">newInstance:-1</span>)<br />
 <i>sun.reflect.DelegatingConstructorAccessorImpl</i> (<span class="underline">newInstance:45</span>)<br />
 <i>java.lang.reflect.Constructor</i> (<span class="underline">newInstance:423</span>)<br />
 <i>com.mysql.cj.exceptions.ExceptionFactory</i> (<span class="underline">createException:61</span>)<br />
@@ -1143,29 +1241,78 @@ com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure<b
 <i>com.mysql.cj.exceptions.ExceptionFactory</i> (<span class="underline">createException:151</span>)<br />
 <i>com.mysql.cj.exceptions.ExceptionFactory</i> (<span class="underline">createCommunicationsException:167</span>)<br />
 <i>com.mysql.cj.protocol.a.NativeProtocol</i> (<span class="underline">readMessage:519</span>)<br />
-<i>com.mysql.cj.protocol.a.NativeProtocol</i> (<span class="underline">checkErrorMessage:683</span>)<br />
-<i>com.mysql.cj.protocol.a.NativeProtocol</i> (<span class="underline">sendCommand:622</span>)<br />
-<i>com.mysql.cj.protocol.a.NativeProtocol</i> (<span class="underline">sendQueryPacket:970</span>)<br />
-<i>com.mysql.cj.protocol.a.NativeProtocol</i> (<span class="underline">sendQueryString:916</span>)<br />
-<i>com.mysql.cj.NativeSession</i> (<span class="underline">execSQL:660</span>)<br />
-<i>com.mysql.cj.jdbc.StatementImpl</i> (<span class="underline">executeQuery:1170</span>)<br />
-<i>org.jboss.resource.adapter.jdbc.WrappedStatement</i> (<span class="underline">executeQuery:226</span>)<br />
-<i>pt.digitalis.dif.model.jdbc.DIFDBStatementProxy</i> (<span class="underline">executeQuery:260</span>)<br />
-<i>pt.digitalis.dif.model.sql.SQLDataSet</i> (<span class="underline">executeJDBCQuery:454</span>)<br />
-<i>pt.digitalis.dif.model.sql.SQLDataSet</i> (<span class="underline">executeQuery:604</span>)<br />
+<i>com.mysql.cj.protocol.a.ColumnDefinitionReader</i> (<span class="underline">read:72</span>)<br />
+<i>com.mysql.cj.protocol.a.ColumnDefinitionReader</i> (<span class="underline">read:40</span>)<br />
+<i>com.mysql.cj.protocol.a.NativeProtocol</i> (<span class="underline">read:1570</span>)<br />
+<i>com.mysql.cj.protocol.a.TextResultsetReader</i> (<span class="underline">read:68</span>)<br />
+<i>com.mysql.cj.protocol.a.TextResultsetReader</i> (<span class="underline">read:48</span>)<br />
+<i>com.mysql.cj.protocol.a.NativeProtocol</i> (<span class="underline">read:1583</span>)<br />
+<i>com.mysql.cj.protocol.a.NativeProtocol</i> (<span class="underline">readAllResults:1637</span>)<br />
+<i>com.mysql.cj.protocol.a.NativeProtocol</i> (<span class="underline">sendQueryPacket:983</span>)<br />
+<i>com.mysql.cj.NativeSession</i> (<span class="underline">execSQL:662</span>)<br />
+<i>com.mysql.cj.jdbc.ClientPreparedStatement</i> (<span class="underline">executeInternal:930</span>)<br />
+<i>com.mysql.cj.jdbc.ClientPreparedStatement</i> (<span class="underline">executeQuery:1003</span>)<br />
+<i>org.jboss.resource.adapter.jdbc.CachedPreparedStatement</i> (<span class="underline">executeQuery:90</span>)<br />
+<i>org.jboss.resource.adapter.jdbc.WrappedPreparedStatement</i> (<span class="underline">executeQuery:342</span>)<br />
+<i>pt.digitalis.dif.model.jdbc.DIFDBPreparedStatementProxy</i> (<span class="underline">executeQuery:209</span>)<br />
+<i>org.hibernate.jdbc.AbstractBatcher</i> (<span class="underline">getResultSet:208</span>)<br />
+<i>org.hibernate.loader.Loader</i> (<span class="underline">getResultSet:1953</span>)<br />
+<i>org.hibernate.loader.Loader</i> (<span class="underline">doQuery:802</span>)<br />
+<i>org.hibernate.loader.Loader</i> (<span class="underline">doQueryAndInitializeNonLazyCollections:274</span>)<br />
+<i>org.hibernate.loader.Loader</i> (<span class="underline">doList:2542</span>)<br />
+<i>org.hibernate.loader.Loader</i> (<span class="underline">listIgnoreQueryCache:2276</span>)<br />
+<i>org.hibernate.loader.Loader</i> (<span class="underline">list:2271</span>)<br />
+<i>org.hibernate.loader.criteria.CriteriaLoader</i> (<span class="underline">list:119</span>)<br />
+<i>org.hibernate.impl.SessionImpl</i> (<span class="underline">list:1716</span>)<br />
+<i>org.hibernate.impl.CriteriaImpl</i> (<span class="underline">list:347</span>)<br />
+<i>pt.digitalis.dif.model.dataset.HibernateDataSet</i> (<span class="underline">innerExecuteQuery:1392</span>)<br />
+<i>pt.digitalis.dif.model.dataset.HibernateDataSet</i> (<span class="underline">executeQuery:561</span>)<br />
 <i>pt.digitalis.dif.model.dataset.Query</i> (<span class="underline">innerProcessList:431</span>)<br />
 <i>pt.digitalis.dif.model.dataset.Query</i> (<span class="underline">processList:634</span>)<br />
 <i>pt.digitalis.dif.model.dataset.Query</i> (<span class="underline">singleValue:734</span>)<br />
-<i>pt.digitalis.mobilidadenet.entities.backoffice.MyMobilityManagementHome</i> (<span class="underline">processTotals:324</span>)<br />
-<i>pt.digitalis.mobilidadenet.entities.backoffice.MyMobilityManagementHome</i> (<span class="underline">execute:119</span>)<br />
-<i>pt.digitalis.mobilidadenet.entities.backoffice.MyMobilityManagementHomeCGStageInstance</i> (<span class="underline">callExecuteMethod:-1</span>)<br />
-<i>pt.digitalis.dif.codegen.templates.TemplateResources</i> (<span class="underline">stageExecute:733</span>)<br />
-<i>pt.digitalis.mobilidadenet.entities.backoffice.MyMobilityManagementHomeCGStageInstance</i> (<span class="underline">_CG_execute:97</span>)<br />
-<i>pt.digitalis.dif.controller.AbstractDIFDispatcher</i> (<span class="underline">execute:578</span>)<br />
+<i>pt.digitalis.mobilidadenet.business.rules.AbstractMobilityProcessRules</i> (<span class="underline">getLastMobilityProcessActive:3291</span>)<br />
+<i>pt.digitalis.mobilidadenet.business.rules.MobilityProcessRulesImpl</i> (<span class="underline">getLastMobilityProcessActive:-1</span>)<br />
+<i>pt.digitalis.mobilidadenet.business.utils.MobilityProcessUtils</i> (<span class="underline">getMobilityProcess:75</span>)<br />
+<i>pt.digitalis.mobilidadenet.entities.frontoffice.utils.AbstractStudent</i> (<span class="underline">getMobilityProcess:271</span>)<br />
+<i>pt.digitalis.mobilidadenet.entities.frontoffice.utils.AbstractStudent</i> (<span class="underline">getMobilityProcessId:300</span>)<br />
+<i>pt.digitalis.mobilidadenet.entities.frontoffice.utils.AbstractStudent</i> (<span class="underline">getMobilityProcessRole:335</span>)<br />
+<i>pt.digitalis.mobilidadenet.entities.frontoffice.utils.AbstractStudent</i> (<span class="underline">init:667</span>)<br />
+<i>pt.digitalis.mobilidadenet.entities.frontoffice.documents.ManageDocumentsLanguageCGStageInstance</i> (<span class="underline">callInitMethod:-1</span>)<br />
+<i>pt.digitalis.mobilidadenet.entities.frontoffice.documents.ManageDocumentsLanguageCGStageInstance</i> (<span class="underline">_CG_init:169</span>)<br />
+<i>pt.digitalis.dif.controller.AbstractDIFDispatcher</i> (<span class="underline">execute:568</span>)<br />
 <i>pt.digitalis.dif.controller.AbstractDIFDispatcher</i> (<span class="underline">runDispatchingSteps:1221</span>)<br />
 <i>pt.digitalis.dif.controller.AbstractDIFDispatcher</i> (<span class="underline">dispatch:473</span>)<br />
 <i>pt.digitalis.dif.controller.AbstractChAL</i> (<span class="underline">serve:119</span>)<br />
 <i>pt.digitalis.dif.listeners.HttpListener</i> (<span class="underline">processRequest:72</span>)<br />
+<i>pt.digitalis.dif.listeners.AbstractRESTfullHttpListener</i> (<span class="underline">doGet:64</span>)<br />
+<i>javax.servlet.http.HttpServlet</i> (<span class="underline">service:690</span>)<br />
+<i>javax.servlet.http.HttpServlet</i> (<span class="underline">service:803</span>)<br />
+<i>org.apache.catalina.core.ApplicationFilterChain</i> (<span class="underline">internalDoFilter:290</span>)<br />
+<i>org.apache.catalina.core.ApplicationFilterChain</i> (<span class="underline">doFilter:206</span>)<br />
+<i>org.apache.catalina.core.ApplicationDispatcher</i> (<span class="underline">invoke:654</span>)<br />
+<i>org.apache.catalina.core.ApplicationDispatcher</i> (<span class="underline">doInclude:557</span>)<br />
+<i>org.apache.catalina.core.ApplicationDispatcher</i> (<span class="underline">include:481</span>)<br />
+<i>org.apache.jasper.runtime.JspRuntimeLibrary</i> (<span class="underline">include:968</span>)<br />
+<i>org.apache.jasper.runtime.PageContextImpl</i> (<span class="underline">doInclude:638</span>)<br />
+<i>org.apache.jasper.runtime.PageContextImpl</i> (<span class="underline">include:632</span>)<br />
+<i>pt.digitalis.dif.presentation.views.jsp.taglibs.TagLibUtils</i> (<span class="underline">includeStage:948</span>)<br />
+<i>pt.digitalis.dif.presentation.views.jsp.objects.contributions.WebUIHTMLGeneratorImpl</i> (<span class="underline">getComponentStage:807</span>)<br />
+<i>pt.digitalis.dif.presentation.views.jsp.taglibs.integration.Component</i> (<span class="underline">doStartTag:78</span>)<br />
+<i>org.apache.jsp.mobilidadenet.backoffice.learningagreement.ManageLearningAgreement_jsp</i> (<span class="underline">_jspx_meth_dif_005fcomponent_005f0:1840</span>)<br />
+<i>org.apache.jsp.mobilidadenet.backoffice.learningagreement.ManageLearningAgreement_jsp</i> (<span class="underline">_jspService:341</span>)<br />
+<i>org.apache.jasper.runtime.HttpJspBase</i> (<span class="underline">service:70</span>)<br />
+<i>javax.servlet.http.HttpServlet</i> (<span class="underline">service:803</span>)<br />
+<i>org.apache.jasper.servlet.JspServletWrapper</i> (<span class="underline">service:373</span>)<br />
+<i>org.apache.jasper.servlet.JspServlet</i> (<span class="underline">serviceJspFile:336</span>)<br />
+<i>org.apache.jasper.servlet.JspServlet</i> (<span class="underline">service:265</span>)<br />
+<i>javax.servlet.http.HttpServlet</i> (<span class="underline">service:803</span>)<br />
+<i>org.apache.catalina.core.ApplicationFilterChain</i> (<span class="underline">internalDoFilter:290</span>)<br />
+<i>org.apache.catalina.core.ApplicationFilterChain</i> (<span class="underline">doFilter:206</span>)<br />
+<i>org.apache.catalina.core.ApplicationDispatcher</i> (<span class="underline">invoke:654</span>)<br />
+<i>org.apache.catalina.core.ApplicationDispatcher</i> (<span class="underline">doInclude:557</span>)<br />
+<i>org.apache.catalina.core.ApplicationDispatcher</i> (<span class="underline">include:481</span>)<br />
+<i>pt.digitalis.dif.presentation.renderers.impl.ViewRendererJSPImpl</i> (<span class="underline">renderView:108</span>)<br />
+<i>pt.digitalis.dif.listeners.HttpListener</i> (<span class="underline">processRequest:141</span>)<br />
 <i>pt.digitalis.dif.listeners.AbstractRESTfullHttpListener</i> (<span class="underline">doGet:64</span>)<br />
 <i>javax.servlet.http.HttpServlet</i> (<span class="underline">service:690</span>)<br />
 <i>javax.servlet.http.HttpServlet</i> (<span class="underline">service:803</span>)<br />
@@ -1191,38 +1338,87 @@ com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure<b
 <i>org.apache.tomcat.util.net.JIoEndpoint$Worker</i> (<span class="underline">run:446</span>)<br />
 <i>java.lang.Thread</i> (<span class="underline">run:748</span>)<br />
 </div><br />
-java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.<br /><div class="marginleft40">
+java.io.EOFException: Can not read response from server. Expected to read 91 bytes, read 17 bytes before connection was unexpectedly lost.<br /><div class="marginleft40">
 <i>com.mysql.cj.protocol.FullReadInputStream</i> (<span class="underline">readFully:67</span>)<br />
-<i>com.mysql.cj.protocol.a.SimplePacketReader</i> (<span class="underline">readHeader:63</span>)<br />
-<i>com.mysql.cj.protocol.a.SimplePacketReader</i> (<span class="underline">readHeader:45</span>)<br />
-<i>com.mysql.cj.protocol.a.TimeTrackingPacketReader</i> (<span class="underline">readHeader:52</span>)<br />
-<i>com.mysql.cj.protocol.a.TimeTrackingPacketReader</i> (<span class="underline">readHeader:41</span>)<br />
-<i>com.mysql.cj.protocol.a.MultiPacketReader</i> (<span class="underline">readHeader:54</span>)<br />
-<i>com.mysql.cj.protocol.a.MultiPacketReader</i> (<span class="underline">readHeader:44</span>)<br />
-<i>com.mysql.cj.protocol.a.NativeProtocol</i> (<span class="underline">readMessage:513</span>)<br />
-<i>com.mysql.cj.protocol.a.NativeProtocol</i> (<span class="underline">checkErrorMessage:683</span>)<br />
-<i>com.mysql.cj.protocol.a.NativeProtocol</i> (<span class="underline">sendCommand:622</span>)<br />
-<i>com.mysql.cj.protocol.a.NativeProtocol</i> (<span class="underline">sendQueryPacket:970</span>)<br />
-<i>com.mysql.cj.protocol.a.NativeProtocol</i> (<span class="underline">sendQueryString:916</span>)<br />
-<i>com.mysql.cj.NativeSession</i> (<span class="underline">execSQL:660</span>)<br />
-<i>com.mysql.cj.jdbc.StatementImpl</i> (<span class="underline">executeQuery:1170</span>)<br />
-<i>org.jboss.resource.adapter.jdbc.WrappedStatement</i> (<span class="underline">executeQuery:226</span>)<br />
-<i>pt.digitalis.dif.model.jdbc.DIFDBStatementProxy</i> (<span class="underline">executeQuery:260</span>)<br />
-<i>pt.digitalis.dif.model.sql.SQLDataSet</i> (<span class="underline">executeJDBCQuery:454</span>)<br />
-<i>pt.digitalis.dif.model.sql.SQLDataSet</i> (<span class="underline">executeQuery:604</span>)<br />
+<i>com.mysql.cj.protocol.a.SimplePacketReader</i> (<span class="underline">readMessage:108</span>)<br />
+<i>com.mysql.cj.protocol.a.SimplePacketReader</i> (<span class="underline">readMessage:45</span>)<br />
+<i>com.mysql.cj.protocol.a.TimeTrackingPacketReader</i> (<span class="underline">readMessage:57</span>)<br />
+<i>com.mysql.cj.protocol.a.TimeTrackingPacketReader</i> (<span class="underline">readMessage:41</span>)<br />
+<i>com.mysql.cj.protocol.a.MultiPacketReader</i> (<span class="underline">readMessage:61</span>)<br />
+<i>com.mysql.cj.protocol.a.MultiPacketReader</i> (<span class="underline">readMessage:44</span>)<br />
+<i>com.mysql.cj.protocol.a.NativeProtocol</i> (<span class="underline">readMessage:514</span>)<br />
+<i>com.mysql.cj.protocol.a.ColumnDefinitionReader</i> (<span class="underline">read:72</span>)<br />
+<i>com.mysql.cj.protocol.a.ColumnDefinitionReader</i> (<span class="underline">read:40</span>)<br />
+<i>com.mysql.cj.protocol.a.NativeProtocol</i> (<span class="underline">read:1570</span>)<br />
+<i>com.mysql.cj.protocol.a.TextResultsetReader</i> (<span class="underline">read:68</span>)<br />
+<i>com.mysql.cj.protocol.a.TextResultsetReader</i> (<span class="underline">read:48</span>)<br />
+<i>com.mysql.cj.protocol.a.NativeProtocol</i> (<span class="underline">read:1583</span>)<br />
+<i>com.mysql.cj.protocol.a.NativeProtocol</i> (<span class="underline">readAllResults:1637</span>)<br />
+<i>com.mysql.cj.protocol.a.NativeProtocol</i> (<span class="underline">sendQueryPacket:983</span>)<br />
+<i>com.mysql.cj.NativeSession</i> (<span class="underline">execSQL:662</span>)<br />
+<i>com.mysql.cj.jdbc.ClientPreparedStatement</i> (<span class="underline">executeInternal:930</span>)<br />
+<i>com.mysql.cj.jdbc.ClientPreparedStatement</i> (<span class="underline">executeQuery:1003</span>)<br />
+<i>org.jboss.resource.adapter.jdbc.CachedPreparedStatement</i> (<span class="underline">executeQuery:90</span>)<br />
+<i>org.jboss.resource.adapter.jdbc.WrappedPreparedStatement</i> (<span class="underline">executeQuery:342</span>)<br />
+<i>pt.digitalis.dif.model.jdbc.DIFDBPreparedStatementProxy</i> (<span class="underline">executeQuery:209</span>)<br />
+<i>org.hibernate.jdbc.AbstractBatcher</i> (<span class="underline">getResultSet:208</span>)<br />
+<i>org.hibernate.loader.Loader</i> (<span class="underline">getResultSet:1953</span>)<br />
+<i>org.hibernate.loader.Loader</i> (<span class="underline">doQuery:802</span>)<br />
+<i>org.hibernate.loader.Loader</i> (<span class="underline">doQueryAndInitializeNonLazyCollections:274</span>)<br />
+<i>org.hibernate.loader.Loader</i> (<span class="underline">doList:2542</span>)<br />
+<i>org.hibernate.loader.Loader</i> (<span class="underline">listIgnoreQueryCache:2276</span>)<br />
+<i>org.hibernate.loader.Loader</i> (<span class="underline">list:2271</span>)<br />
+<i>org.hibernate.loader.criteria.CriteriaLoader</i> (<span class="underline">list:119</span>)<br />
+<i>org.hibernate.impl.SessionImpl</i> (<span class="underline">list:1716</span>)<br />
+<i>org.hibernate.impl.CriteriaImpl</i> (<span class="underline">list:347</span>)<br />
+<i>pt.digitalis.dif.model.dataset.HibernateDataSet</i> (<span class="underline">innerExecuteQuery:1392</span>)<br />
+<i>pt.digitalis.dif.model.dataset.HibernateDataSet</i> (<span class="underline">executeQuery:561</span>)<br />
 <i>pt.digitalis.dif.model.dataset.Query</i> (<span class="underline">innerProcessList:431</span>)<br />
 <i>pt.digitalis.dif.model.dataset.Query</i> (<span class="underline">processList:634</span>)<br />
 <i>pt.digitalis.dif.model.dataset.Query</i> (<span class="underline">singleValue:734</span>)<br />
-<i>pt.digitalis.mobilidadenet.entities.backoffice.MyMobilityManagementHome</i> (<span class="underline">processTotals:324</span>)<br />
-<i>pt.digitalis.mobilidadenet.entities.backoffice.MyMobilityManagementHome</i> (<span class="underline">execute:119</span>)<br />
-<i>pt.digitalis.mobilidadenet.entities.backoffice.MyMobilityManagementHomeCGStageInstance</i> (<span class="underline">callExecuteMethod:-1</span>)<br />
-<i>pt.digitalis.dif.codegen.templates.TemplateResources</i> (<span class="underline">stageExecute:733</span>)<br />
-<i>pt.digitalis.mobilidadenet.entities.backoffice.MyMobilityManagementHomeCGStageInstance</i> (<span class="underline">_CG_execute:97</span>)<br />
-<i>pt.digitalis.dif.controller.AbstractDIFDispatcher</i> (<span class="underline">execute:578</span>)<br />
+<i>pt.digitalis.mobilidadenet.business.rules.AbstractMobilityProcessRules</i> (<span class="underline">getLastMobilityProcessActive:3291</span>)<br />
+<i>pt.digitalis.mobilidadenet.business.rules.MobilityProcessRulesImpl</i> (<span class="underline">getLastMobilityProcessActive:-1</span>)<br />
+<i>pt.digitalis.mobilidadenet.business.utils.MobilityProcessUtils</i> (<span class="underline">getMobilityProcess:75</span>)<br />
+<i>pt.digitalis.mobilidadenet.entities.frontoffice.utils.AbstractStudent</i> (<span class="underline">getMobilityProcess:271</span>)<br />
+<i>pt.digitalis.mobilidadenet.entities.frontoffice.utils.AbstractStudent</i> (<span class="underline">getMobilityProcessId:300</span>)<br />
+<i>pt.digitalis.mobilidadenet.entities.frontoffice.utils.AbstractStudent</i> (<span class="underline">getMobilityProcessRole:335</span>)<br />
+<i>pt.digitalis.mobilidadenet.entities.frontoffice.utils.AbstractStudent</i> (<span class="underline">init:667</span>)<br />
+<i>pt.digitalis.mobilidadenet.entities.frontoffice.documents.ManageDocumentsLanguageCGStageInstance</i> (<span class="underline">callInitMethod:-1</span>)<br />
+<i>pt.digitalis.mobilidadenet.entities.frontoffice.documents.ManageDocumentsLanguageCGStageInstance</i> (<span class="underline">_CG_init:169</span>)<br />
+<i>pt.digitalis.dif.controller.AbstractDIFDispatcher</i> (<span class="underline">execute:568</span>)<br />
 <i>pt.digitalis.dif.controller.AbstractDIFDispatcher</i> (<span class="underline">runDispatchingSteps:1221</span>)<br />
 <i>pt.digitalis.dif.controller.AbstractDIFDispatcher</i> (<span class="underline">dispatch:473</span>)<br />
 <i>pt.digitalis.dif.controller.AbstractChAL</i> (<span class="underline">serve:119</span>)<br />
 <i>pt.digitalis.dif.listeners.HttpListener</i> (<span class="underline">processRequest:72</span>)<br />
+<i>pt.digitalis.dif.listeners.AbstractRESTfullHttpListener</i> (<span class="underline">doGet:64</span>)<br />
+<i>javax.servlet.http.HttpServlet</i> (<span class="underline">service:690</span>)<br />
+<i>javax.servlet.http.HttpServlet</i> (<span class="underline">service:803</span>)<br />
+<i>org.apache.catalina.core.ApplicationFilterChain</i> (<span class="underline">internalDoFilter:290</span>)<br />
+<i>org.apache.catalina.core.ApplicationFilterChain</i> (<span class="underline">doFilter:206</span>)<br />
+<i>org.apache.catalina.core.ApplicationDispatcher</i> (<span class="underline">invoke:654</span>)<br />
+<i>org.apache.catalina.core.ApplicationDispatcher</i> (<span class="underline">doInclude:557</span>)<br />
+<i>org.apache.catalina.core.ApplicationDispatcher</i> (<span class="underline">include:481</span>)<br />
+<i>org.apache.jasper.runtime.JspRuntimeLibrary</i> (<span class="underline">include:968</span>)<br />
+<i>org.apache.jasper.runtime.PageContextImpl</i> (<span class="underline">doInclude:638</span>)<br />
+<i>org.apache.jasper.runtime.PageContextImpl</i> (<span class="underline">include:632</span>)<br />
+<i>pt.digitalis.dif.presentation.views.jsp.taglibs.TagLibUtils</i> (<span class="underline">includeStage:948</span>)<br />
+<i>pt.digitalis.dif.presentation.views.jsp.objects.contributions.WebUIHTMLGeneratorImpl</i> (<span class="underline">getComponentStage:807</span>)<br />
+<i>pt.digitalis.dif.presentation.views.jsp.taglibs.integration.Component</i> (<span class="underline">doStartTag:78</span>)<br />
+<i>org.apache.jsp.mobilidadenet.backoffice.learningagreement.ManageLearningAgreement_jsp</i> (<span class="underline">_jspx_meth_dif_005fcomponent_005f0:1840</span>)<br />
+<i>org.apache.jsp.mobilidadenet.backoffice.learningagreement.ManageLearningAgreement_jsp</i> (<span class="underline">_jspService:341</span>)<br />
+<i>org.apache.jasper.runtime.HttpJspBase</i> (<span class="underline">service:70</span>)<br />
+<i>javax.servlet.http.HttpServlet</i> (<span class="underline">service:803</span>)<br />
+<i>org.apache.jasper.servlet.JspServletWrapper</i> (<span class="underline">service:373</span>)<br />
+<i>org.apache.jasper.servlet.JspServlet</i> (<span class="underline">serviceJspFile:336</span>)<br />
+<i>org.apache.jasper.servlet.JspServlet</i> (<span class="underline">service:265</span>)<br />
+<i>javax.servlet.http.HttpServlet</i> (<span class="underline">service:803</span>)<br />
+<i>org.apache.catalina.core.ApplicationFilterChain</i> (<span class="underline">internalDoFilter:290</span>)<br />
+<i>org.apache.catalina.core.ApplicationFilterChain</i> (<span class="underline">doFilter:206</span>)<br />
+<i>org.apache.catalina.core.ApplicationDispatcher</i> (<span class="underline">invoke:654</span>)<br />
+<i>org.apache.catalina.core.ApplicationDispatcher</i> (<span class="underline">doInclude:557</span>)<br />
+<i>org.apache.catalina.core.ApplicationDispatcher</i> (<span class="underline">include:481</span>)<br />
+<i>pt.digitalis.dif.presentation.renderers.impl.ViewRendererJSPImpl</i> (<span class="underline">renderView:108</span>)<br />
+<i>pt.digitalis.dif.listeners.HttpListener</i> (<span class="underline">processRequest:141</span>)<br />
 <i>pt.digitalis.dif.listeners.AbstractRESTfullHttpListener</i> (<span class="underline">doGet:64</span>)<br />
 <i>javax.servlet.http.HttpServlet</i> (<span class="underline">service:690</span>)<br />
 <i>javax.servlet.http.HttpServlet</i> (<span class="underline">service:803</span>)<br />
@@ -1273,15 +1469,15 @@ java.io.EOFException: Can not read response from server. Expected to read 4 byte
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Popup&nbsp;Mode:&nbsp;false
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;REST&nbsp;URL&nbsp;Mode:&nbsp;true
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Help&nbsp;Mode:&nbsp;false
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Session:&nbsp;&nbsp;&nbsp;|&nbsp;Session&nbsp;ID:&nbsp;httpB83A2929C0A7B119424E7A7864D3702E
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;First&nbsp;Access&nbsp;Time:&nbsp;1728552597367
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Last&nbsp;Access&nbsp;Time:&nbsp;1728552597374
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Session:&nbsp;&nbsp;&nbsp;|&nbsp;Session&nbsp;ID:&nbsp;httpB1FC59CFA792EFB459B9DED7B1B817AC
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;First&nbsp;Access&nbsp;Time:&nbsp;1728557149465
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Last&nbsp;Access&nbsp;Time:&nbsp;1728557149473
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;language:&nbsp;pt
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;User&nbsp;in&nbsp;session:&nbsp;null
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Attributes:&nbsp;[
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Attributes:&nbsp;[
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#1&nbsp;originalRequest&nbsp;=&nbsp;pt.digitalis.dif.listeners.objects.RESTCacheRequestBodyFilter@71c68dd
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#1&nbsp;originalRequest&nbsp;=&nbsp;pt.digitalis.dif.listeners.objects.RESTCacheRequestBodyFilter@21cd3ac1
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#2&nbsp;RaisedExceptionCaghtInHandler&nbsp;=&nbsp;org.hibernate.TransactionException:&nbsp;JDBC&nbsp;rollback&nbsp;failed
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#3&nbsp;clientValidationsAttributeId&nbsp;=&nbsp;false
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]
@@ -1316,15 +1512,15 @@ java.io.EOFException: Can not read response from server. Expected to read 4 byte
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Popup&nbsp;Mode:&nbsp;false
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;REST&nbsp;URL&nbsp;Mode:&nbsp;true
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Help&nbsp;Mode:&nbsp;false
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Session:&nbsp;&nbsp;&nbsp;|&nbsp;Session&nbsp;ID:&nbsp;httpB83A2929C0A7B119424E7A7864D3702E
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;First&nbsp;Access&nbsp;Time:&nbsp;1728552597367
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Last&nbsp;Access&nbsp;Time:&nbsp;1728552597374
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Session:&nbsp;&nbsp;&nbsp;|&nbsp;Session&nbsp;ID:&nbsp;httpB1FC59CFA792EFB459B9DED7B1B817AC
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;First&nbsp;Access&nbsp;Time:&nbsp;1728557149465
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Last&nbsp;Access&nbsp;Time:&nbsp;1728557149473
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;language:&nbsp;pt
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;User&nbsp;in&nbsp;session:&nbsp;null
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Attributes:&nbsp;[
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Attributes:&nbsp;[
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#1&nbsp;originalRequest&nbsp;=&nbsp;pt.digitalis.dif.listeners.objects.RESTCacheRequestBodyFilter@71c68dd
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#1&nbsp;originalRequest&nbsp;=&nbsp;pt.digitalis.dif.listeners.objects.RESTCacheRequestBodyFilter@21cd3ac1
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#2&nbsp;RaisedExceptionCaghtInHandler&nbsp;=&nbsp;org.hibernate.TransactionException:&nbsp;JDBC&nbsp;rollback&nbsp;failed
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#3&nbsp;clientValidationsAttributeId&nbsp;=&nbsp;false
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]
@@ -1337,7 +1533,7 @@ java.io.EOFException: Can not read response from server. Expected to read 4 byte
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]</code>
 </div></div>
 <div class="hide"><div id="infoPanel3Content" class="margin10">
-(10:29:57 AM) <span class="bold">EWP Server Execution Stage</span> [ewpstage]<br />
+(11:45:49 AM) <span class="bold">EWP Server Execution Stage</span> [ewpstage]<br />
 
 </div></div>
 
