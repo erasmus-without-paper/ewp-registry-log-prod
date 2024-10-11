@@ -59,7 +59,7 @@
     xmlns:ns8="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
 >
     <ns9:host>
-        <ns8:admin-email>sysadmin@bonasoft.pl</ns8:admin-email>
+        <ns8:admin-email>erasmus@uczelniaoswiecim.edu.pl</ns8:admin-email>
         <ns8:admin-provider>MUCI (USOS)</ns8:admin-provider>
         <ns7:apis-implemented>
             <ns10:discovery version="6.0.0">
@@ -285,6 +285,8 @@
         </ns7:apis-implemented>
         <ns9:institutions-covered>
             <ns7:hei id="uczelniaoswiecim.edu.pl">
+                <ns7:other-id type="erasmus">PL OSWIECI01</ns7:other-id>
+                <ns7:other-id type="pic">944798625</ns7:other-id>
                 <ns7:name xml:lang="pl">Małopolska Uczelnia Państwowa im. rtm. Witolda Pileckiego w Oświęcimiu</ns7:name>
             </ns7:hei>
         </ns9:institutions-covered>
