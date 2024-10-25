@@ -1,0 +1,104 @@
+<manifest
+    xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
+    xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
+    xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
+    xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
+    xmlns:sec-cli-anon="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-none/tree/stable-v1"
+    xmlns:sec-cli-http="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
+    xmlns:sec-cli-tls="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
+    xmlns:sec-svr-http="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
+    xmlns:sec-svr-tls="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
+>
+    <host>
+        <ewp:admin-email>ewp-plus@it.auth.gr</ewp:admin-email>
+        <ewp:admin-email>ewp-monitor@it.auth.gr</ewp:admin-email>
+        <ewp:admin-provider>EWP Dashboard</ewp:admin-provider>
+        <ewp:admin-notes>Manifest File for general endpoints Erasmus Dashboard.</ewp:admin-notes>
+        <r:apis-implemented>
+            <discovery
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6/manifest-entry.xsd"
+                version="6.0.0"
+            >
+                <url>https://unizoneewp.it.auth.gr/rest/manifest/univ-rennes2.fr</url>
+            </discovery>
+            <omobility-las
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd"
+                version="1.2.0"
+            >
+                <http-security>
+                    <sec:client-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </sec:server-auth-methods>
+                </http-security>
+                <get-url>https://unizoneewp.it.auth.gr/rest/las/get/univ-rennes2.fr</get-url>
+                <index-url>https://unizoneewp.it.auth.gr/rest/las/index/univ-rennes2.fr</index-url>
+                <update-url>https://unizoneewp.it.auth.gr/rest/las/update/univ-rennes2.fr</update-url>
+                <stats-url>https://unizoneewp.it.auth.gr/rest/las/stats/outgoing/univ-rennes2.fr</stats-url>
+                <max-omobility-ids>1</max-omobility-ids>
+            </omobility-las>
+            <omobility-la-cnr
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="1.1.0"
+            >
+                <http-security>
+                    <sec:client-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </sec:server-auth-methods>
+                </http-security>
+                <url>https://unizoneewp.it.auth.gr/rest/las/cnr/univ-rennes2.fr</url>
+                <stats-url>https://unizoneewp.it.auth.gr/rest/las/stats/incoming/univ-rennes2.fr</stats-url>
+                <max-omobility-ids>1</max-omobility-ids>
+            </omobility-la-cnr>
+            <imobility-tors
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-tors/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.0"
+            >
+                <http-security>
+                    <sec:client-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </sec:server-auth-methods>
+                </http-security>
+                <get-url>https://unizoneewp.it.auth.gr/rest/tors/imobilities/get/univ-rennes2.fr</get-url>
+                <index-url>https://unizoneewp.it.auth.gr/rest/tors/imobilities/index/univ-rennes2.fr</index-url>
+                <max-omobility-ids>1</max-omobility-ids>
+            </imobility-tors>
+            <imobility-tor-cnr
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-tor-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <http-security>
+                    <sec:client-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </sec:server-auth-methods>
+                </http-security>
+                <url>https://unizoneewp.it.auth.gr/rest/tors/imobilities/cnr/univ-rennes2.fr</url>
+                <max-omobility-ids>1</max-omobility-ids>
+            </imobility-tor-cnr>
+        </r:apis-implemented>
+        <institutions-covered>
+            <r:hei id="univ-rennes2.fr">
+                <r:other-id type="erasmus">F  RENNES02</r:other-id>
+                <r:other-id type="pic">999956220</r:other-id>
+                <r:name>UNIVERSITE RENNES II</r:name>
+            </r:hei>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <rsa-public-key>MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA2289Plfvy2Egui+PsLp+cUvNkP7fjMzo4BXlyjmeThtrOiRrQc4Yd9hPJA9KV0uPxT2um5nolSJ0VjaI/RqeYL7+/PWdY5pyOS7vBYCkUh3dQlGeXLda+XXV0tgUaTEKVcySUrkit35dnD8L5QoGoNl+GbBl621n8G7trOdGeArebgi2AkKfdYaYnrVr/SoOx9OpM4xhijdVwK5p849NFZ8rBFJC5qy20gE9fG1H/ZA3Z/XD5YuVWA6BlMRzxWBaOmqtA4gFIXyHfgRsDAt7A7B72hNbjikPpx3/fMJUT+M8084JeGILeh5g1ZOPPIGHg04NewcQ38h4M5O1l02gsnH9BG4DBi2DO+mICfpy/zjb60pNwVEMR7pO/uggM4cNA0SmliKfqfzlMJRzWz2Fvh3Ixeen7pFVulR/f1wVA3PCEu9mKbUOjBusmO7je1p387QxLoLYTo2o+iUQR8zwDl42w5QYGnFafIKhRl8ub+zCKDVAoZfWw+8dmniRf3/l55btxdu3hnmVz0y48Sm83JEMsdMX9A13IVoIsaLVpqDv0fP01cmpzVj1CSl4zk0HFwTmgXZdHsHdjdDs+Rzh2QViWUj6xs8FOEqWJTZaedt7Bk8eSb6wU7RadU/t6sYCDH2Gi36/KO+XJRLzpON3PY6lSOyiprgjmXdVShhcC6sCAwEAAQ==</rsa-public-key>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key>MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA2289Plfvy2Egui+PsLp+cUvNkP7fjMzo4BXlyjmeThtrOiRrQc4Yd9hPJA9KV0uPxT2um5nolSJ0VjaI/RqeYL7+/PWdY5pyOS7vBYCkUh3dQlGeXLda+XXV0tgUaTEKVcySUrkit35dnD8L5QoGoNl+GbBl621n8G7trOdGeArebgi2AkKfdYaYnrVr/SoOx9OpM4xhijdVwK5p849NFZ8rBFJC5qy20gE9fG1H/ZA3Z/XD5YuVWA6BlMRzxWBaOmqtA4gFIXyHfgRsDAt7A7B72hNbjikPpx3/fMJUT+M8084JeGILeh5g1ZOPPIGHg04NewcQ38h4M5O1l02gsnH9BG4DBi2DO+mICfpy/zjb60pNwVEMR7pO/uggM4cNA0SmliKfqfzlMJRzWz2Fvh3Ixeen7pFVulR/f1wVA3PCEu9mKbUOjBusmO7je1p387QxLoLYTo2o+iUQR8zwDl42w5QYGnFafIKhRl8ub+zCKDVAoZfWw+8dmniRf3/l55btxdu3hnmVz0y48Sm83JEMsdMX9A13IVoIsaLVpqDv0fP01cmpzVj1CSl4zk0HFwTmgXZdHsHdjdDs+Rzh2QViWUj6xs8FOEqWJTZaedt7Bk8eSb6wU7RadU/t6sYCDH2Gi36/KO+XJRLzpON3PY6lSOyiprgjmXdVShhcC6sCAwEAAQ==</rsa-public-key>
+        </server-credentials-in-use>
+    </host>
+</manifest>
