@@ -1,59 +1,39 @@
-<?xml version="1.0"?>
-<manifest xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6" xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd" xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1">
-  <host>
-    <ewp:admin-email>dsksysadm@adm.uw.edu.pl</ewp:admin-email>
-    <ewp:admin-provider>MUCI (USOS)</ewp:admin-provider>
-    <r:apis-implemented>
-      <discovery xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6/manifest-entry.xsd" version="6.0.0">
-        <url>https://usosweb.uw.edu.pl/api/manifest.php</url>
-      </discovery>
-      <emrex-data-access-point xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-emrex-data-access-point/blob/stable-v1/manifest-entry.xsd" version="1.0.0">
-        <url>https://usosweb.uw.edu.pl/emp_endpoint.php</url>
-        <name>UW</name>
-        <country-code>PL</country-code>
-        <institution>University of Warsaw</institution>
-        <certificate>MIIHhjCCBW6gAwIBAgIRANnRns7IQUfs92h5E4O/KZEwDQYJKoZIhvcNAQEMBQAw
-RDELMAkGA1UEBhMCTkwxGTAXBgNVBAoTEEdFQU5UIFZlcmVuaWdpbmcxGjAYBgNV
-BAMTEUdFQU5UIE9WIFJTQSBDQSA0MB4XDTI0MTAxNDAwMDAwMFoXDTI1MTAxNDIz
-NTk1OVowaDELMAkGA1UEBhMCUEwxFDASBgNVBAgTC01hem93aWVja2llMR8wHQYD
-VQQKExZVbml3ZXJzeXRldCBXYXJzemF3c2tpMSIwIAYDVQQDExlzaWduaW5nLnVz
-b3N3ZWIudXcuZWR1LnBsMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA
-x4bCsitm5F0t9lrUnmMHaBTZh1vCQeEd7hZtV3SQzVbahqBDURkxPKXusugORxGP
-5X04HAe8/PyTwScTmLF9QLsyJK5zq/9YOXOSaxJMkpgdnLaxzuKRWTrzD8sbrcj0
-ISTGv0qh1eMMmviMeTMLoBLc1h2sdxwA0qI0mjzFHoOcWVVaWf1M+5qibnwRyiqY
-9F5KUJ+V8gSKZOcd9/gxsTUPeSvNnFdgA6TDYl9VD296odkRUK7XQEObSUTaIyf7
-DyF7Z7S+rtwyhTV5g412JYiTHIxegTSJoJg2jpubJvGe9EC5qXha/TD9NIEKoXIB
-a7GqcB7AjuX0ouwlONamVQIDAQABo4IDTTCCA0kwHwYDVR0jBBgwFoAUbx01SRBs
-MvpZoJ68iugflb5xegwwHQYDVR0OBBYEFOJcQSZWtXDHr+YINTrDytzAtWBZMA4G
-A1UdDwEB/wQEAwIFoDAMBgNVHRMBAf8EAjAAMB0GA1UdJQQWMBQGCCsGAQUFBwMB
-BggrBgEFBQcDAjBJBgNVHSAEQjBAMDQGCysGAQQBsjEBAgJPMCUwIwYIKwYBBQUH
-AgEWF2h0dHBzOi8vc2VjdGlnby5jb20vQ1BTMAgGBmeBDAECAjA/BgNVHR8EODA2
-MDSgMqAwhi5odHRwOi8vR0VBTlQuY3JsLnNlY3RpZ28uY29tL0dFQU5UT1ZSU0FD
-QTQuY3JsMHUGCCsGAQUFBwEBBGkwZzA6BggrBgEFBQcwAoYuaHR0cDovL0dFQU5U
-LmNydC5zZWN0aWdvLmNvbS9HRUFOVE9WUlNBQ0E0LmNydDApBggrBgEFBQcwAYYd
-aHR0cDovL0dFQU5ULm9jc3Auc2VjdGlnby5jb20wQwYDVR0RBDwwOoIZc2lnbmlu
-Zy51c29zd2ViLnV3LmVkdS5wbIIdd3d3LnNpZ25pbmcudXNvc3dlYi51dy5lZHUu
-cGwwggGABgorBgEEAdZ5AgQCBIIBcASCAWwBagB3AN3cyjSV1+EWBeeVMvrHn/g9
-HFDf2wA6FBJ2Ciysu8gqAAABkototDIAAAQDAEgwRgIhAJ8uaR+RKSMhmhAcM2cZ
-9P9FQALrUAzlEeV03p797e8xAiEA12pZ/SQmSztSO+RgMWVXZDtvUcqZ67mEHIK2
-UFuzlS8AdgDM+w9qhXEJZf6Vm1PO6bJ8IumFXA2XjbapflTA/kwNsAAAAZKLaLQ+
-AAAEAwBHMEUCIQDpiGuI9WFvGCskszTe5GE9uDJnD2MtcyNgasvBIMMIbgIgGiCp
-L7rRqau49er7FP3BrmWLga6mci7kih1eZheg3GwAdwAS8U40vVNyTIQGGcOPP3oT
-+Oe1YoeInG0wBYTr5YYmOgAAAZKLaLQTAAAEAwBIMEYCIQDoJQs20Dxj/2bIA6MU
-AB0tKDu+VkqFJr6G3/vBgLDowwIhAIegBScruJH+IXW5uSPpBNroOfTSvqmrvDzJ
-I5UHJRL6MA0GCSqGSIb3DQEBDAUAA4ICAQAPtf7FuEdemuHn9nnuKQ98F/G47KuC
-xnJesRo7qWJNV6gNTagKV0ccpGEkN2SbAFQVof0fcGW1xh/o/FK9GIQlxjRnaKwd
-EVV428neuPz2SapVlG1i4xKYDguD46Jj2iCwzHdodApg9eqxBEnzwHgC+Rx9Tq5n
-IiFijsjbmiEIXZJA5QlXG98A0GkYcsCdLoVUXAVpBdJ2jyxck8j+25xev0ttPWJy
-J+T6XvjlDslICxQRlqRjrH7cjPQLpHJvdqNg6KOAnR2FywdtoB4knKrP/7g8bkjI
-U3n4R0eXvcQJfUX8r+A8li13uEy/U8xGPzNmKTMApM4Z5tk1JX3e7QyCBPlx1CBQ
-RMkFnuTGWpnU8FWq+ylcMJpXPz/dQsNvKHLn9c8xFsvt9gkgkkJ0LxiKUwoVZJ2z
-Fgcko5NmOHDvFtgR67VoNSRKB/z3O/430s0YgrYzzUCN/2q/nvtKa36ro1dM10/k
-N4sgOMmM0QWMUsGdGdUPgu5gs1c/x+h/7de4YlBP3Myb7toX2qPUvHpFsN4fOp5F
-igvCBszve70reCmPKrMc4hCOlBA6ieNWHAPCsVbkqIKMBqIuaX9tVYP7X9ZvKBBj
-44nhPiP/u27Joq8kGqDm7fP09TaGlN4s4i8T0jUAqiSQ1fSsbar4WxZDJhr3/NIl
-zsG0HyDl1qspgw==</certificate>
-      </emrex-data-access-point>
-    </r:apis-implemented>
-  </host>
-</manifest>
+<!DOCTYPE html>
+<!-- saved from url=(0030)https://graylog.net.uw.edu.pl/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript">window["_gaUserPrefs"] = { ioo : function() { return true; } }</script>
+
+<title>Serwis chwilowo niedostępny</title>
+<style>
+  body {  margin:0; padding:0;}
+  #topBaner {margin:0; padding:10px; color:#fff; background:#093E67;  font: 13px Helvetica, sans-serif; }
+  #topBaner a{color:#fff;}
+  #topBaner a:hover{color:#999;}
+  #topBaner img {padding-bottom: 2px; padding-right: 6px;}
+  
+  h1 { font-size: 45px; }
+  body { font: 20px Helvetica, sans-serif; color: #333; }
+  @media (max-width: 800px) {article { display: block; text-align: left; width: 80%; margin: 0 auto; padding-top: 120px; }}
+  @media (min-width: 800px) {article { display: block; text-align: left; width: 40%; margin: 0 auto; padding-top: 120px; }}
+  
+  a { color: #dc8100; text-decoration: none; }
+  a:hover { color: #333; text-decoration: none; }
+</style>
+</head>
+<body>
+	<div id="topBaner"><a href="http://www.uw.edu.pl/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAFCAYAAACXU8ZrAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADBJREFUeNpi+v//PwMU/0dio2AmBgj4D8SMDDgAC1QBAxKNVREjIZNg1jHiMwkgwADzyCDyJwSfoQAAAABJRU5ErkJggg=="> Przejdź na stronę główną Uniwersytetu Warszawskiego</a></div>
+<article>
+
+	
+    <h1>Serwis chwilowo niedostępny</h1>
+
+    <div>
+	    <p>Spróbuj ponownie za chwilę</p>
+
+        <p>Aktualne informacje o pracach serwisowych <a href="https://it.uw.edu.pl/">it.uw.edu.pl</a></p>
+    </div>
+</article>
+
+
+
+
+</body></html>
