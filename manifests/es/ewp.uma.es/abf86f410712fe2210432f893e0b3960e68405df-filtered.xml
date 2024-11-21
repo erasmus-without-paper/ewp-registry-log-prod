@@ -32,31 +32,9 @@
         <admin-provider>UNIVERSIDAD DE MALAGA</admin-provider>
         <admin-notes>This is a EWP reference connector instance.</admin-notes>
         <ns2:apis-implemented>
-            <ns21:institutions version="2.2.0">
-                <ns21:http-security>
-                    <ns5:client-auth-methods>
-                        <ns25:httpsig/>
-                    </ns5:client-auth-methods>
-                    <ns5:server-auth-methods>
-                        <ns27:tlscert/>
-                        <ns26:httpsig/>
-                    </ns5:server-auth-methods>
-                </ns21:http-security>
-                <ns21:url>https://ewp.uma.es/rest/institutions</ns21:url>
-                <ns21:max-hei-ids>100</ns21:max-hei-ids>
-            </ns21:institutions>
-            <ns16:iia-approval-cnr version="2.0.0">
-                <ns16:http-security>
-                    <ns5:client-auth-methods>
-                        <ns25:httpsig/>
-                    </ns5:client-auth-methods>
-                    <ns5:server-auth-methods>
-                        <ns27:tlscert/>
-                        <ns26:httpsig/>
-                    </ns5:server-auth-methods>
-                </ns16:http-security>
-                <ns16:url>https://ewp.uma.es/rest/iiasApproval/cnr</ns16:url>
-            </ns16:iia-approval-cnr>
+            <ns23:discovery version="6.0.0">
+                <ns23:url>https://ewp.uma.es/rest/manifest</ns23:url>
+            </ns23:discovery>
             <ns20:organizational-units version="2.1.1">
                 <ns20:http-security>
                     <ns5:client-auth-methods>
@@ -71,9 +49,31 @@
                 <ns20:max-ounit-ids>100</ns20:max-ounit-ids>
                 <ns20:max-ounit-codes>1</ns20:max-ounit-codes>
             </ns20:organizational-units>
-            <ns23:discovery version="6.0.0">
-                <ns23:url>https://ewp.uma.es/rest/manifest</ns23:url>
-            </ns23:discovery>
+            <ns18:iia-cnr version="3.0.0">
+                <ns18:http-security>
+                    <ns5:client-auth-methods>
+                        <ns25:httpsig/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns27:tlscert/>
+                        <ns26:httpsig/>
+                    </ns5:server-auth-methods>
+                </ns18:http-security>
+                <ns18:url>https://ewp.uma.es/rest/iias/cnr</ns18:url>
+            </ns18:iia-cnr>
+            <ns21:institutions version="2.2.0">
+                <ns21:http-security>
+                    <ns5:client-auth-methods>
+                        <ns25:httpsig/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns27:tlscert/>
+                        <ns26:httpsig/>
+                    </ns5:server-auth-methods>
+                </ns21:http-security>
+                <ns21:url>https://ewp.uma.es/rest/institutions</ns21:url>
+                <ns21:max-hei-ids>100</ns21:max-hei-ids>
+            </ns21:institutions>
             <ns17:iias-approval version="2.0.0">
                 <ns17:http-security>
                     <ns5:client-auth-methods>
@@ -102,6 +102,18 @@
                 <ns19:index-url>https://ewp.uma.es/rest/iias/index</ns19:index-url>
                 <ns19:stats-url>https://ewp.uma.es/rest/iias/stats</ns19:stats-url>
             </ns19:iias>
+            <ns16:iia-approval-cnr version="2.0.0">
+                <ns16:http-security>
+                    <ns5:client-auth-methods>
+                        <ns25:httpsig/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns27:tlscert/>
+                        <ns26:httpsig/>
+                    </ns5:server-auth-methods>
+                </ns16:http-security>
+                <ns16:url>https://ewp.uma.es/rest/iiasApproval/cnr</ns16:url>
+            </ns16:iia-approval-cnr>
             <ns22:echo version="2.0.1">
                 <ns22:http-security>
                     <ns5:client-auth-methods>
@@ -114,18 +126,6 @@
                 </ns22:http-security>
                 <ns22:url>https://ewp.uma.es/rest/echo</ns22:url>
             </ns22:echo>
-            <ns18:iia-cnr version="3.0.0">
-                <ns18:http-security>
-                    <ns5:client-auth-methods>
-                        <ns25:httpsig/>
-                    </ns5:client-auth-methods>
-                    <ns5:server-auth-methods>
-                        <ns27:tlscert/>
-                        <ns26:httpsig/>
-                    </ns5:server-auth-methods>
-                </ns18:http-security>
-                <ns18:url>https://ewp.uma.es/rest/iias/cnr</ns18:url>
-            </ns18:iia-cnr>
         </ns2:apis-implemented>
         <ns3:institutions-covered>
             <ns2:hei id="uma.es">
@@ -136,24 +136,24 @@
             </ns2:hei>
         </ns3:institutions-covered>
         <ns3:client-credentials-in-use>
-            <ns3:certificate>MIIIVDCCBjygAwIBAgIRAPUDFXBtAvOaatKZND0k1tYwDQYJKoZIhvcNAQEMBQAw
+            <ns3:certificate>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
-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
+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
-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
+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
@@ -161,54 +161,54 @@ MqAwhi5odHRwOi8vR0VBTlQuY3JsLnNlY3RpZ28uY29tL0dFQU5UT1ZSU0FDQTQu
 Y3JsMHUGCCsGAQUFBwEBBGkwZzA6BggrBgEFBQcwAoYuaHR0cDovL0dFQU5ULmNy
 dC5zZWN0aWdvLmNvbS9HRUFOVE9WUlNBQ0E0LmNydDApBggrBgEFBQcwAYYdaHR0
 cDovL0dFQU5ULm9jc3Auc2VjdGlnby5jb20wJQYDVR0RBB4wHIIKZXdwLnVtYS5l
-c4IOd3d3LmV3cC51bWEuZXMwggF/BgorBgEEAdZ5AgQCBIIBbwSCAWsBaQB2AHb/
-iD8KtvuVUcJhzPWHujS0pM27KdxoQgqf5mdMWjp0AAABi/XlmNIAAAQDAEcwRQIg
-Q+dfQYCJPldwdXQOCKn/EIT6BliRK+Thcuvdua+stCsCIQDdqt4MQ94JOsEgm1K+
-RppEz8A6nb1856WWB1gLF0YGTQB3AD8XS0/XIkdYlB1lHIS+DRLtkDd/H4Vq68G/
-KIXs+GRuAAABi/XlmPwAAAQDAEgwRgIhAMX1kP/tevItw7JxtgTjR8MBMWDyAzE+
-DgnLhB+IxYPvAiEA0OnYcvI/NMT4PHhsxu15+eI/7kPWWjhzcO/bCP3fS5oAdgDu
-zdBk1dsazsVct520zROiModGfLzs3sNRSFlGcR+1mwAAAYv15ZkAAAAEAwBHMEUC
-IQDe9jdTuVguA5XucaRqQfvDq0hgAn9VfSCyMa03ZEj0vQIgdyb4VlZa6TGqDrwJ
-0YixIpqIwYtkFs0jXfyfL0RjUBcwDQYJKoZIhvcNAQEMBQADggIBAIFCTCQaSvur
-+7XwoeegfAsNtHdhy/oFeg1YPCEYwWcvj4NElnTOxA+FKgiSEZOFn6FxaQ+Oyish
-YU+Z+sxydZLbAdWqjtHgiGS6TWe8b5PDOWo019x8ciVco0KoTTkm6GbU/TlYJ4zL
-4YQHqpHwBXUiP8n0hCA3o/70qGUy9+UU/dpqDp7DwPRmH83coIysLt/0BwYIqVqd
-gaPy9ze75hkVdJX/sK/WiSop6ZyhnvPgCh3CJlRKhbnISJBWtNvc8m4Lb/BN/BWj
-TBO9ud5OLpjbSFkBgovQgZkvRIM6QsL44blF7K9zjIEgfm9c3linm6oMxaBJb+m3
-GaCVEm9z1gO93eHQn8hiqyGeAb0BLXAdaR4QQBQsKHSd6OEhdmm/y3gHNHYwRK8W
-UigRiYpFW0dg3Mq9xLXxbMBYZl17GnKMO4wU/1/pNK94MxRRyzM1VCgBqVEfguHS
-UCeSCGUrF1yHRp0tQh3h6ihbkKtxtk1GKF9aeiv5TMTg03vnsBmtaq4FlNqbr1+g
-Ma7yVz17GYn5HZH3Dod61NryCifkpkZmlD1ORh6q/XXsKh1qaQO5nRKfuQul515/
-h/4LxsNLYPrLNSi4sCr6UlNPpDlj5VNQYzwKkhcl1lbuSGAd2Yb/1ibJ1g3mzZBP
-UX9xuvrVBSlTeIC4ftGUxPQwtYBFFMmq
+c4IOd3d3LmV3cC51bWEuZXMwggF/BgorBgEEAdZ5AgQCBIIBbwSCAWsBaQB3AN3c
+yjSV1+EWBeeVMvrHn/g9HFDf2wA6FBJ2Ciysu8gqAAABk0m/0U0AAAQDAEgwRgIh
+APp5MuNlOvZDoVcDOvKyUzRiHNliW7wlisJ72iRwsnHfAiEApzBqF1biKk95Dlpa
+i50vgUahtEQD40USbO1zLDJKMuQAdQDM+w9qhXEJZf6Vm1PO6bJ8IumFXA2Xjbap
+flTA/kwNsAAAAZNJv9FPAAAEAwBGMEQCIH5R+Ddv1/DsK0SBLeKYwp5DSBO9Ur47
++bKgAWPxRfctAiBbsQCTbVxue24930NrK6MC59dMnUjHHpExHXJnhvgYCQB3ABLx
+TjS9U3JMhAYZw48/ehP457Vih4icbTAFhOvlhiY6AAABk0m/0XkAAAQDAEgwRgIh
+AKHDaKkNXwSyqPgPzSbCOB/46cGfR3DSQt9QB0Vpvld4AiEAiT0gYrgmXpRfyl0I
+ZnL8bBZ56FTaMOj7Mj4NvdwqDeAwDQYJKoZIhvcNAQEMBQADggIBAC140lM1Uzav
+od9bdK0Z17mb5UtEUOAVZOp8ZjaNVCKhoTuJelXvATv3G6FMtljZmgynWXVghPsz
+w1YxBerpcukBbcVQn0YABUGXBdb5rVEZEFy5ykbyh3uIdiPBRc2Vrq8iJpsMTDn+
+jpzB7EYehwjrkN9wDxFtH0FulxMwmzc04XZ3o/S1G+bqW0Zev7dlECIvbC2I8B+d
+jsV0dnqiMSHJvuLkFUtLapFcNR2ihcQwCOuh2uZG+sMo7jagxCBG2JvGuFO4xlzd
+EZ7bqpj47Y/TQOJxdr4gk6c33XR4LjnnN5iDR7UxtRr2gYuT3Pj7F2Gs/Go68Y62
+LP9Z/haN1c5uBs3eJCkIxWNlp6vXMWX5azDr2Ayuvm/FYMVDSwWJEALEKGdnmuRZ
+hUBbrKa+e3avJAwV98S8HW7Mib15s4r0FjQ+9HxzpI2MmXyrRMYJM+wxs7bPPga8
+pfdytCEYOT3Pe91N3Lftm0dOVGQUmC/Hmg/dPe/4Z5BqzKWwq3MlzsJoOo4y47/B
+07AuKwyYhgpuRV/AXZ2h9Nd69jNFltkqOu1DTxGABb33341/JbRbajgTg8s4jsUk
+pYRoT1FT7XTvExsqZCqa/47TsnRBzDf9PFJS/lgz1tLDX3JEXUiIjmpb7iwULiiF
+0QPUQy8wNBSq+MeDxz8FynlKWf36KNUu
 </ns3:certificate>
-            <ns3:rsa-public-key>MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAvnLZCldd7ms96pk673Mz
-wHAqytSU1n1aLfc0Ro7ckM1NHwrCQtGrT9kq2hjqlaIdGsM7G+fIFc2Cr44h5ibH
-GERAj0Juh+eYn3rexv9mtM1nU+YRClfkkEaDYRIIDXEE0TBbfBPpVx6uc3IIX8E8
-CC+21sJtrMcqYCgPJJfN8famJZaLZzBRTOyt5+0yIMSh1eOOiKEcPpAawZFeg+pP
-QnoYje9iMWjb+VHBRjEX6rLcyOWQjVM3qTbkSocwcnez3+Br0visfxJCiPXF2C95
-sflx7EGs+AtC9MNp1Ll2ocwCdbEjH+XuIAoxb29a27rp6njOPbQNz0t0rxSbB/v3
-CiwASoQOK6bjc+76sYsN0AiJjoacPzsa7AUnRSNV99Pp3Cdt5si5aT5hsTTkxci9
-AXi4C//DouZZ54ERfQrphnpocmrhwlh0uRFs1c6dyhPWN6GPc67B5l1QAkxOXCnZ
-DOl+RiiFs83HQGuuK7+snkVr0D/0/VCDlc85zSID9OHQ+8igVhDkDCL26u12VAq+
-yhGjqK874BHVBuga1tFEmajcQOpO/da7GUp0yH6xrzXnhhJc7uO5jdE2QK6ikd5t
-LWW0Zm25f8j8sifNmhi7pq2yzbH1UxsGsRmyEJ206TfSIWb1Gpf+O6iwId89yqCq
-dp/cXpdZ6ZV7OzvQ56IDmysCAwEAAQ==
+            <ns3:rsa-public-key>MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA6aqmF02gVbpG+olmXgOw
+85K8L1f4DHQ3xdF6psI3YFeb+ngZz9c0JKRSYFf1xHrlQorIH8a9bCqp9hi0ZI2Q
+lIQL3niCvoEdA9ZzB58BPuloKJLIH83XQFcE4PXHBVhvTmQGvWlMhe5wJpsDpAk/
+QWjmw8LFpIQ1/JB8XeKz0aeRU6MXag85fxzVYBBvtGLqtoVC6c/BozkRSRDJh0H7
+njkktR4VinynfEnq01bBZK8JEbZMBErYsIkgDxL+bXHEgTZL+gZW2ezf7KDTDRIF
+UHnMJTr8TV9a9GRJoKIpU2UJ7cATi0+Xl/apcW8tPpqYFMB4IWyq58y9xRRrgn76
+QWtjqFzxRW+8YcLT24tk9Yh2eTY73B4eivbD0nopo4jwWH1Z53HjJK46+XXCxl2O
+Vtr+S9zgJtdABrfhhIrMaUlwksYeybcHX5OJc9Hg+hpBBa9OJyg2h+GybZ9PS8cD
+1AoFKyN9iWkUCWITaGfLG2nFPoXtI9tdfgHhuWRqz3AxPBhoKBNc0CIN1ODmvcAn
+ExzZE+TxPWHMsZC0I7/NKIVpZEYEqjVSQArFupxIRJ/qZhRY3Se7JEwSbI3o4kiE
+e43ADKfDbP8DGYf/rNA4hv5HS7/SS5P0sa2/0r3llLBeCPr2y7qYTyMmK3ikNP1V
+KivbscKiyVP/mj0OTs8gYIMCAwEAAQ==
 </ns3:rsa-public-key>
         </ns3:client-credentials-in-use>
         <ns3:server-credentials-in-use>
-            <ns3:rsa-public-key>MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAvnLZCldd7ms96pk673Mz
-wHAqytSU1n1aLfc0Ro7ckM1NHwrCQtGrT9kq2hjqlaIdGsM7G+fIFc2Cr44h5ibH
-GERAj0Juh+eYn3rexv9mtM1nU+YRClfkkEaDYRIIDXEE0TBbfBPpVx6uc3IIX8E8
-CC+21sJtrMcqYCgPJJfN8famJZaLZzBRTOyt5+0yIMSh1eOOiKEcPpAawZFeg+pP
-QnoYje9iMWjb+VHBRjEX6rLcyOWQjVM3qTbkSocwcnez3+Br0visfxJCiPXF2C95
-sflx7EGs+AtC9MNp1Ll2ocwCdbEjH+XuIAoxb29a27rp6njOPbQNz0t0rxSbB/v3
-CiwASoQOK6bjc+76sYsN0AiJjoacPzsa7AUnRSNV99Pp3Cdt5si5aT5hsTTkxci9
-AXi4C//DouZZ54ERfQrphnpocmrhwlh0uRFs1c6dyhPWN6GPc67B5l1QAkxOXCnZ
-DOl+RiiFs83HQGuuK7+snkVr0D/0/VCDlc85zSID9OHQ+8igVhDkDCL26u12VAq+
-yhGjqK874BHVBuga1tFEmajcQOpO/da7GUp0yH6xrzXnhhJc7uO5jdE2QK6ikd5t
-LWW0Zm25f8j8sifNmhi7pq2yzbH1UxsGsRmyEJ206TfSIWb1Gpf+O6iwId89yqCq
-dp/cXpdZ6ZV7OzvQ56IDmysCAwEAAQ==
+            <ns3:rsa-public-key>MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA6aqmF02gVbpG+olmXgOw
+85K8L1f4DHQ3xdF6psI3YFeb+ngZz9c0JKRSYFf1xHrlQorIH8a9bCqp9hi0ZI2Q
+lIQL3niCvoEdA9ZzB58BPuloKJLIH83XQFcE4PXHBVhvTmQGvWlMhe5wJpsDpAk/
+QWjmw8LFpIQ1/JB8XeKz0aeRU6MXag85fxzVYBBvtGLqtoVC6c/BozkRSRDJh0H7
+njkktR4VinynfEnq01bBZK8JEbZMBErYsIkgDxL+bXHEgTZL+gZW2ezf7KDTDRIF
+UHnMJTr8TV9a9GRJoKIpU2UJ7cATi0+Xl/apcW8tPpqYFMB4IWyq58y9xRRrgn76
+QWtjqFzxRW+8YcLT24tk9Yh2eTY73B4eivbD0nopo4jwWH1Z53HjJK46+XXCxl2O
+Vtr+S9zgJtdABrfhhIrMaUlwksYeybcHX5OJc9Hg+hpBBa9OJyg2h+GybZ9PS8cD
+1AoFKyN9iWkUCWITaGfLG2nFPoXtI9tdfgHhuWRqz3AxPBhoKBNc0CIN1ODmvcAn
+ExzZE+TxPWHMsZC0I7/NKIVpZEYEqjVSQArFupxIRJ/qZhRY3Se7JEwSbI3o4kiE
+e43ADKfDbP8DGYf/rNA4hv5HS7/SS5P0sa2/0r3llLBeCPr2y7qYTyMmK3ikNP1V
+KivbscKiyVP/mj0OTs8gYIMCAwEAAQ==
 </ns3:rsa-public-key>
         </ns3:server-credentials-in-use>
     </ns3:host>
