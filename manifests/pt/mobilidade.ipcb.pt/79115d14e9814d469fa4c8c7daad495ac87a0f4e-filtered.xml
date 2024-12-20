@@ -38,15 +38,15 @@
     xmlns:ns42="https://github.com/erasmus-without-paper/ewp-specs-api-courses/blob/stable-v1/manifest-entry.xsd"
     xmlns:ns43="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/blob/stable-v1/manifest-entry.xsd"
     xmlns:ns44="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v2/manifest-entry.xsd"
-    xmlns:ns45="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
-    xmlns:ns46="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
-    xmlns:ns47="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-none/tree/stable-v1"
-    xmlns:ns48="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
-    xmlns:ns49="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
+    xmlns:ns45="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/tree/stable-v1"
+    xmlns:ns46="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
+    xmlns:ns47="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
+    xmlns:ns48="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-none/tree/stable-v1"
+    xmlns:ns49="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
     xmlns:ns5="https://github.com/erasmus-without-paper/ewp-specs-types-contact/tree/stable-v1"
-    xmlns:ns50="https://github.com/erasmus-without-paper/ewp-specs-sec-reqencr-tls/tree/stable-v1"
-    xmlns:ns51="https://github.com/erasmus-without-paper/ewp-specs-sec-resencr-tls/tree/stable-v1"
-    xmlns:ns52="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/tree/stable-v1"
+    xmlns:ns50="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
+    xmlns:ns51="https://github.com/erasmus-without-paper/ewp-specs-sec-reqencr-tls/tree/stable-v1"
+    xmlns:ns52="https://github.com/erasmus-without-paper/ewp-specs-sec-resencr-tls/tree/stable-v1"
     xmlns:ns53="https://github.com/erasmus-without-paper/ewp-specs-api-echo/tree/stable-v2"
     xmlns:ns54="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/endpoints/update-request.xsd"
     xmlns:ns55="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/tree/stable-v2"
@@ -69,17 +69,17 @@
                 <admin-email>ewp@digitalis.pt</admin-email>
                 <ns32:http-security>
                     <ns25:client-auth-methods>
-                        <ns48:httpsig/>
+                        <ns49:httpsig/>
                     </ns25:client-auth-methods>
                     <ns25:server-auth-methods>
-                        <ns49:httpsig/>
-                        <ns45:tlscert/>
+                        <ns50:httpsig/>
+                        <ns46:tlscert/>
                     </ns25:server-auth-methods>
                     <ns25:request-encryption-methods>
-                        <ns50:tls/>
+                        <ns51:tls/>
                     </ns25:request-encryption-methods>
                     <ns25:response-encryption-methods>
-                        <ns51:tls/>
+                        <ns52:tls/>
                     </ns25:response-encryption-methods>
                 </ns32:http-security>
                 <ns32:url>https://mobilidade.ipcb.pt/mobilidadenet/ewp/ewpstage/echo</ns32:url>
@@ -88,18 +88,18 @@
                 <admin-email>ewp@digitalis.pt</admin-email>
                 <ns36:http-security>
                     <ns25:client-auth-methods>
-                        <ns48:httpsig/>
-                        <ns47:anonymous/>
+                        <ns49:httpsig/>
+                        <ns48:anonymous/>
                     </ns25:client-auth-methods>
                     <ns25:server-auth-methods>
-                        <ns49:httpsig/>
-                        <ns45:tlscert/>
+                        <ns50:httpsig/>
+                        <ns46:tlscert/>
                     </ns25:server-auth-methods>
                     <ns25:request-encryption-methods>
-                        <ns50:tls/>
+                        <ns51:tls/>
                     </ns25:request-encryption-methods>
                     <ns25:response-encryption-methods>
-                        <ns51:tls/>
+                        <ns52:tls/>
                     </ns25:response-encryption-methods>
                 </ns36:http-security>
                 <ns36:url>https://mobilidade.ipcb.pt/mobilidadenet/ewp/ewpstage/institutions</ns36:url>
@@ -109,17 +109,17 @@
                 <admin-email>ewp@digitalis.pt</admin-email>
                 <ns38:http-security>
                     <ns25:client-auth-methods>
-                        <ns48:httpsig/>
+                        <ns49:httpsig/>
                     </ns25:client-auth-methods>
                     <ns25:server-auth-methods>
-                        <ns49:httpsig/>
-                        <ns45:tlscert/>
+                        <ns50:httpsig/>
+                        <ns46:tlscert/>
                     </ns25:server-auth-methods>
                     <ns25:request-encryption-methods>
-                        <ns50:tls/>
+                        <ns51:tls/>
                     </ns25:request-encryption-methods>
                     <ns25:response-encryption-methods>
-                        <ns51:tls/>
+                        <ns52:tls/>
                     </ns25:response-encryption-methods>
                 </ns38:http-security>
                 <ns38:url>https://mobilidade.ipcb.pt/mobilidadenet/ewp/ewpstage/ounits</ns38:url>
@@ -130,17 +130,17 @@
                 <admin-email>ewp@digitalis.pt</admin-email>
                 <ns42:http-security>
                     <ns25:client-auth-methods>
-                        <ns48:httpsig/>
+                        <ns49:httpsig/>
                     </ns25:client-auth-methods>
                     <ns25:server-auth-methods>
-                        <ns49:httpsig/>
-                        <ns45:tlscert/>
+                        <ns50:httpsig/>
+                        <ns46:tlscert/>
                     </ns25:server-auth-methods>
                     <ns25:request-encryption-methods>
-                        <ns50:tls/>
+                        <ns51:tls/>
                     </ns25:request-encryption-methods>
                     <ns25:response-encryption-methods>
-                        <ns51:tls/>
+                        <ns52:tls/>
                     </ns25:response-encryption-methods>
                 </ns42:http-security>
                 <ns42:url>https://mobilidade.ipcb.pt/mobilidadenet/ewp/ewpstage/courses</ns42:url>
@@ -151,17 +151,17 @@
                 <admin-email>ewp@digitalis.pt</admin-email>
                 <ns30:http-security>
                     <ns25:client-auth-methods>
-                        <ns48:httpsig/>
+                        <ns49:httpsig/>
                     </ns25:client-auth-methods>
                     <ns25:server-auth-methods>
-                        <ns49:httpsig/>
-                        <ns45:tlscert/>
+                        <ns50:httpsig/>
+                        <ns46:tlscert/>
                     </ns25:server-auth-methods>
                     <ns25:request-encryption-methods>
-                        <ns50:tls/>
+                        <ns51:tls/>
                     </ns25:request-encryption-methods>
                     <ns25:response-encryption-methods>
-                        <ns51:tls/>
+                        <ns52:tls/>
                     </ns25:response-encryption-methods>
                 </ns30:http-security>
                 <ns30:url>https://mobilidade.ipcb.pt/mobilidadenet/ewp/ewpstage/courserep</ns30:url>
@@ -172,17 +172,17 @@
                 <admin-email>ewp@digitalis.pt</admin-email>
                 <ns28:http-security>
                     <ns25:client-auth-methods>
-                        <ns48:httpsig/>
+                        <ns49:httpsig/>
                     </ns25:client-auth-methods>
                     <ns25:server-auth-methods>
-                        <ns49:httpsig/>
-                        <ns45:tlscert/>
+                        <ns50:httpsig/>
+                        <ns46:tlscert/>
                     </ns25:server-auth-methods>
                     <ns25:request-encryption-methods>
-                        <ns50:tls/>
+                        <ns51:tls/>
                     </ns25:request-encryption-methods>
                     <ns25:response-encryption-methods>
-                        <ns51:tls/>
+                        <ns52:tls/>
                     </ns25:response-encryption-methods>
                 </ns28:http-security>
                 <ns28:get-url>https://mobilidade.ipcb.pt/mobilidadenet/ewp/ewpstage/iias_get</ns28:get-url>
@@ -194,17 +194,17 @@
                 <admin-email>ewp@digitalis.pt</admin-email>
                 <ns27:http-security>
                     <ns25:client-auth-methods>
-                        <ns48:httpsig/>
+                        <ns49:httpsig/>
                     </ns25:client-auth-methods>
                     <ns25:server-auth-methods>
-                        <ns49:httpsig/>
-                        <ns45:tlscert/>
+                        <ns50:httpsig/>
+                        <ns46:tlscert/>
                     </ns25:server-auth-methods>
                     <ns25:request-encryption-methods>
-                        <ns50:tls/>
+                        <ns51:tls/>
                     </ns25:request-encryption-methods>
                     <ns25:response-encryption-methods>
-                        <ns51:tls/>
+                        <ns52:tls/>
                     </ns25:response-encryption-methods>
                 </ns27:http-security>
                 <ns27:url>https://mobilidade.ipcb.pt/mobilidadenet/ewp/ewpstage/iias_cnr</ns27:url>
@@ -213,17 +213,17 @@
                 <admin-email>ewp@digitalis.pt</admin-email>
                 <ns35:http-security>
                     <ns25:client-auth-methods>
-                        <ns48:httpsig/>
+                        <ns49:httpsig/>
                     </ns25:client-auth-methods>
                     <ns25:server-auth-methods>
-                        <ns49:httpsig/>
-                        <ns45:tlscert/>
+                        <ns50:httpsig/>
+                        <ns46:tlscert/>
                     </ns25:server-auth-methods>
                     <ns25:request-encryption-methods>
-                        <ns50:tls/>
+                        <ns51:tls/>
                     </ns25:request-encryption-methods>
                     <ns25:response-encryption-methods>
-                        <ns51:tls/>
+                        <ns52:tls/>
                     </ns25:response-encryption-methods>
                 </ns35:http-security>
                 <ns35:url>https://mobilidade.ipcb.pt/mobilidadenet/ewp/ewpstage/iias_approval</ns35:url>
@@ -233,17 +233,17 @@
                 <admin-email>ewp@digitalis.pt</admin-email>
                 <ns39:http-security>
                     <ns25:client-auth-methods>
-                        <ns48:httpsig/>
+                        <ns49:httpsig/>
                     </ns25:client-auth-methods>
                     <ns25:server-auth-methods>
-                        <ns49:httpsig/>
-                        <ns45:tlscert/>
+                        <ns50:httpsig/>
+                        <ns46:tlscert/>
                     </ns25:server-auth-methods>
                     <ns25:request-encryption-methods>
-                        <ns50:tls/>
+                        <ns51:tls/>
                     </ns25:request-encryption-methods>
                     <ns25:response-encryption-methods>
-                        <ns51:tls/>
+                        <ns52:tls/>
                     </ns25:response-encryption-methods>
                 </ns39:http-security>
                 <ns39:url>https://mobilidade.ipcb.pt/mobilidadenet/ewp/ewpstage/iias_approval_cnr</ns39:url>
@@ -251,18 +251,18 @@
             <ns26:factsheet version="1.2.0">
                 <ns26:http-security>
                     <ns25:client-auth-methods>
-                        <ns48:httpsig/>
-                        <ns47:anonymous/>
+                        <ns49:httpsig/>
+                        <ns48:anonymous/>
                     </ns25:client-auth-methods>
                     <ns25:server-auth-methods>
-                        <ns49:httpsig/>
-                        <ns45:tlscert/>
+                        <ns50:httpsig/>
+                        <ns46:tlscert/>
                     </ns25:server-auth-methods>
                     <ns25:request-encryption-methods>
-                        <ns50:tls/>
+                        <ns51:tls/>
                     </ns25:request-encryption-methods>
                     <ns25:response-encryption-methods>
-                        <ns51:tls/>
+                        <ns52:tls/>
                     </ns25:response-encryption-methods>
                 </ns26:http-security>
                 <ns26:url>https://mobilidade.ipcb.pt/mobilidadenet/ewp/ewpstage/factsheet</ns26:url>
@@ -271,17 +271,17 @@
             <ns44:omobilities version="2.0.0">
                 <ns44:http-security>
                     <ns25:client-auth-methods>
-                        <ns48:httpsig/>
+                        <ns49:httpsig/>
                     </ns25:client-auth-methods>
                     <ns25:server-auth-methods>
-                        <ns49:httpsig/>
-                        <ns45:tlscert/>
+                        <ns50:httpsig/>
+                        <ns46:tlscert/>
                     </ns25:server-auth-methods>
                     <ns25:request-encryption-methods>
-                        <ns50:tls/>
+                        <ns51:tls/>
                     </ns25:request-encryption-methods>
                     <ns25:response-encryption-methods>
-                        <ns51:tls/>
+                        <ns52:tls/>
                     </ns25:response-encryption-methods>
                 </ns44:http-security>
                 <ns44:get-url>https://mobilidade.ipcb.pt/mobilidadenet/ewp/ewpstage/omobilities_get</ns44:get-url>
@@ -291,17 +291,17 @@
             <ns41:omobility-las version="1.2.0">
                 <ns41:http-security>
                     <ns25:client-auth-methods>
-                        <ns48:httpsig/>
+                        <ns49:httpsig/>
                     </ns25:client-auth-methods>
                     <ns25:server-auth-methods>
-                        <ns49:httpsig/>
-                        <ns45:tlscert/>
+                        <ns50:httpsig/>
+                        <ns46:tlscert/>
                     </ns25:server-auth-methods>
                     <ns25:request-encryption-methods>
-                        <ns50:tls/>
+                        <ns51:tls/>
                     </ns25:request-encryption-methods>
                     <ns25:response-encryption-methods>
-                        <ns51:tls/>
+                        <ns52:tls/>
                     </ns25:response-encryption-methods>
                 </ns41:http-security>
                 <ns41:get-url>https://mobilidade.ipcb.pt/mobilidadenet/ewp/ewpstage/omobility_la_get</ns41:get-url>
@@ -314,17 +314,17 @@
                 <admin-email>ewp@digitalis.pt</admin-email>
                 <ns43:http-security>
                     <ns25:client-auth-methods>
-                        <ns48:httpsig/>
+                        <ns49:httpsig/>
                     </ns25:client-auth-methods>
                     <ns25:server-auth-methods>
-                        <ns49:httpsig/>
-                        <ns45:tlscert/>
+                        <ns50:httpsig/>
+                        <ns46:tlscert/>
                     </ns25:server-auth-methods>
                     <ns25:request-encryption-methods>
-                        <ns50:tls/>
+                        <ns51:tls/>
                     </ns25:request-encryption-methods>
                     <ns25:response-encryption-methods>
-                        <ns51:tls/>
+                        <ns52:tls/>
                     </ns25:response-encryption-methods>
                 </ns43:http-security>
                 <ns43:url>https://mobilidade.ipcb.pt/mobilidadenet/ewp/ewpstage/omobility_cnr</ns43:url>
@@ -334,17 +334,17 @@
                 <admin-email>ewp@digitalis.pt</admin-email>
                 <ns40:http-security>
                     <ns25:client-auth-methods>
-                        <ns48:httpsig/>
+                        <ns49:httpsig/>
                     </ns25:client-auth-methods>
                     <ns25:server-auth-methods>
-                        <ns49:httpsig/>
-                        <ns45:tlscert/>
+                        <ns50:httpsig/>
+                        <ns46:tlscert/>
                     </ns25:server-auth-methods>
                     <ns25:request-encryption-methods>
-                        <ns50:tls/>
+                        <ns51:tls/>
                     </ns25:request-encryption-methods>
                     <ns25:response-encryption-methods>
-                        <ns51:tls/>
+                        <ns52:tls/>
                     </ns25:response-encryption-methods>
                 </ns40:http-security>
                 <ns40:url>https://mobilidade.ipcb.pt/mobilidadenet/ewp/ewpstage/omobility_la_cnr</ns40:url>
@@ -354,18 +354,18 @@
             <ns37:file version="1.0.0">
                 <ns37:http-security>
                     <ns25:client-auth-methods>
-                        <ns48:httpsig/>
-                        <ns47:anonymous/>
+                        <ns49:httpsig/>
+                        <ns48:anonymous/>
                     </ns25:client-auth-methods>
                     <ns25:server-auth-methods>
-                        <ns49:httpsig/>
-                        <ns45:tlscert/>
+                        <ns50:httpsig/>
+                        <ns46:tlscert/>
                     </ns25:server-auth-methods>
                     <ns25:request-encryption-methods>
-                        <ns50:tls/>
+                        <ns51:tls/>
                     </ns25:request-encryption-methods>
                     <ns25:response-encryption-methods>
-                        <ns51:tls/>
+                        <ns52:tls/>
                     </ns25:response-encryption-methods>
                 </ns37:http-security>
                 <ns37:url>https://mobilidade.ipcb.pt/mobilidadenet/ewp/ewpstage/file</ns37:url>
