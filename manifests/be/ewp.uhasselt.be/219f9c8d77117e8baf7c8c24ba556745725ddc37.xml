@@ -204,6 +204,9 @@
     	    	/>
 				</sec:server-auth-methods>
 			</http-security>
+			<get-url>https://ewp.uhasselt.be/api/uhasselt.be/outgoingmobilitylearningagreementsget</get-url>
+			<index-url>https://ewp.uhasselt.be/api/uhasselt.be/outgoingmobilitylearningagreementsindex</index-url>
+			<update-url>https://ewp.uhasselt.be/api/uhasselt.be/outgoingmobilitylearningagreementsupdate</update-url>
 			<stats-url>https://ewp.uhasselt.be/api/uhasselt.be/outgoingmobilitylearningagreementsstats</stats-url>
 			<max-omobility-ids>1</max-omobility-ids>
 		</omobility-las>
@@ -222,6 +225,7 @@
     	    	/>
 				</sec:server-auth-methods>
 			</http-security>
+			<url>https://ewp.uhasselt.be/api/uhasselt.be/outgoingmobilitylearningagreementscnr</url>
 			<stats-url>https://ewp.uhasselt.be/api/uhasselt.be/outgoingmobilitylearningagreementscnrstats</stats-url>
 			<max-omobility-ids>1</max-omobility-ids>
 		</omobility-la-cnr>
