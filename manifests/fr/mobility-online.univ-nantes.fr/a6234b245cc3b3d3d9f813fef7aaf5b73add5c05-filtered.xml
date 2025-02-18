@@ -120,6 +120,32 @@
                 </ns23:http-security>
                 <ns23:url>https://mobility-online.univ-nantes.fr/mobility/ewp/iias-approval-cnr/cnr/univ-nantes.fr</ns23:url>
             </ns23:iia-approval-cnr>
+            <ns19:omobilities version="2.0.0">
+                <ns19:http-security>
+                    <ns5:client-auth-methods>
+                        <ns37:httpsig/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns38:httpsig/>
+                    </ns5:server-auth-methods>
+                </ns19:http-security>
+                <ns19:get-url>https://mobility-online.univ-nantes.fr/mobility/ewp/mobility_out/get/univ-nantes.fr</ns19:get-url>
+                <ns19:index-url>https://mobility-online.univ-nantes.fr/mobility/ewp/mobility_out/index/univ-nantes.fr</ns19:index-url>
+                <ns19:max-omobility-ids>1</ns19:max-omobility-ids>
+                <ns19:sends-notifications/>
+            </ns19:omobilities>
+            <ns14:imobility-cnr version="1.0.0">
+                <ns14:http-security>
+                    <ns5:client-auth-methods>
+                        <ns37:httpsig/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns38:httpsig/>
+                    </ns5:server-auth-methods>
+                </ns14:http-security>
+                <ns14:url>https://mobility-online.univ-nantes.fr/mobility/ewp/mobility_in/cnr/univ-nantes.fr</ns14:url>
+                <ns14:max-omobility-ids>1</ns14:max-omobility-ids>
+            </ns14:imobility-cnr>
             <ns6:factsheet version="1.1.0">
                 <ns6:http-security>
                     <ns5:client-auth-methods>
