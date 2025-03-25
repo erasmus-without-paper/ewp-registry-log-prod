@@ -1,59 +1,19 @@
-<?xml version="1.0"?>
-<manifest xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6" xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd" xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1">
-  <host>
-    <ewp:admin-email>usos@umk.pl</ewp:admin-email>
-    <ewp:admin-provider>MUCI (USOS)</ewp:admin-provider>
-    <r:apis-implemented>
-      <discovery xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6/manifest-entry.xsd" version="6.0.0">
-        <url>https://usosweb.umk.pl/api/manifest.php</url>
-      </discovery>
-      <emrex-data-access-point xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-emrex-data-access-point/blob/stable-v1/manifest-entry.xsd" version="1.0.0">
-        <url>https://usosweb.umk.pl/emp_endpoint.php</url>
-        <name>UMK</name>
-        <country-code>PL</country-code>
-        <institution>Nicolaus Copernicus University in Toru&#x144;</institution>
-        <certificate>MIIHfTCCBWWgAwIBAgIRAKgVjMGC/b3RJwSn0dAc7qMwDQYJKoZIhvcNAQEMBQAw
-RDELMAkGA1UEBhMCTkwxGTAXBgNVBAoTEEdFQU5UIFZlcmVuaWdpbmcxGjAYBgNV
-BAMTEUdFQU5UIE9WIFJTQSBDQSA0MB4XDTI0MTIwMzAwMDAwMFoXDTI1MTIwMzIz
-NTk1OVowdzELMAkGA1UEBhMCUEwxGzAZBgNVBAgTEkt1amF3c2tvLVBvbW9yc2tp
-ZTEyMDAGA1UECgwpVW5pd2Vyc3l0ZXQgTWlrb8WCYWphIEtvcGVybmlrYSB3IFRv
-cnVuaXUxFzAVBgNVBAMTDnNpZ25pbmcudW1rLnBsMIIBIjANBgkqhkiG9w0BAQEF
-AAOCAQ8AMIIBCgKCAQEAuZdVxN7yggigVgPAep0RYa+Z1QwKD4xrS9oetoZgxdQc
-LCefEn4jpNa7WB1pdcROYl4g3tPh95MtrndDeRXLMNLmCDTlIqrW1NTnYOlr/pE/
-PuV4Y0Rf27eO0rGvw87C7JL7zRGyX+6p0cJbLRCrjkLaJRNpe+0Gbana9qO+dlPF
-n2tWRxBU/BX7EHMkgKyuvWdL89D94SkIYmwPJkEBSN2GBlg55kpai3XAyhgvqJQJ
-wh+0C9hH4bQ5HacaFZag3ovC44XtR9RVRw96sKJcy848mzUo/BbUPkG10tNBMsot
-P3tmWoRcAIwFvxU0kjLkrm8bnjbgPVvQWFjaN+tvUwIDAQABo4IDNTCCAzEwHwYD
-VR0jBBgwFoAUbx01SRBsMvpZoJ68iugflb5xegwwHQYDVR0OBBYEFPRtDqXLm+oq
-/eb0UJIoSssqySdzMA4GA1UdDwEB/wQEAwIFoDAMBgNVHRMBAf8EAjAAMB0GA1Ud
-JQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjBJBgNVHSAEQjBAMDQGCysGAQQBsjEB
-AgJPMCUwIwYIKwYBBQUHAgEWF2h0dHBzOi8vc2VjdGlnby5jb20vQ1BTMAgGBmeB
-DAECAjA/BgNVHR8EODA2MDSgMqAwhi5odHRwOi8vR0VBTlQuY3JsLnNlY3RpZ28u
-Y29tL0dFQU5UT1ZSU0FDQTQuY3JsMHUGCCsGAQUFBwEBBGkwZzA6BggrBgEFBQcw
-AoYuaHR0cDovL0dFQU5ULmNydC5zZWN0aWdvLmNvbS9HRUFOVE9WUlNBQ0E0LmNy
-dDApBggrBgEFBQcwAYYdaHR0cDovL0dFQU5ULm9jc3Auc2VjdGlnby5jb20wLQYD
-VR0RBCYwJIIOc2lnbmluZy51bWsucGyCEnd3dy5zaWduaW5nLnVtay5wbDCCAX4G
-CisGAQQB1nkCBAIEggFuBIIBagFoAHUA3dzKNJXX4RYF55Uy+sef+D0cUN/bADoU
-EnYKLKy7yCoAAAGTi9h+FwAABAMARjBEAiBl4NHMMEF6xEKv/NvWvwdiFvvHPthu
-NPpMBYsYNFKOGwIgPp9HiOiAhM4C/9d37LexeARDMOFjCF2YNFMYqIhV47kAdgDM
-+w9qhXEJZf6Vm1PO6bJ8IumFXA2XjbapflTA/kwNsAAAAZOL2H3ZAAAEAwBHMEUC
-IQCD8imU8dNYVDRmRJL41kypX3J0eMw9sczEb1QOxUjDxgIgbswIA6yvco3Kc6jA
-TJQD5maHeHSHUDe9sUnbQ/VVMaIAdwAS8U40vVNyTIQGGcOPP3oT+Oe1YoeInG0w
-BYTr5YYmOgAAAZOL2H28AAAEAwBIMEYCIQChXatJZT+WLKRFD9jRm/Z4gSsfyfzd
-JMfB7dUp+m8wIAIhALOXGdPThTMDHLpB4UPSNZcuks5KduhYuWh9QeF7bGMwMA0G
-CSqGSIb3DQEBDAUAA4ICAQBvcHoft0VpyJnlwmXbXaD8mSJ4+mNCAyhwBkYCqJNd
-LTx8vDQ2Lyqw42RFeXWGRiy/ZDZcpt6SECC2zwrz1BXzJlQazQtSCoKidk31Vd0j
-rR0WkfhAqdMi49OS9/462rRTt4w27Zfl6xAuKOInmHzjGnN5cIA6s9WcCGJ16ngy
-otZRDcWqD7xdxZWGG/oVQ+QVm/gjYV5eYB6xGyDTwKbvjTRQoCHQUAKCj8Mwzrk8
-O9SFDnUEosEWguDaq9TM17xKoiZUFNamFHQT8wtvPzphsgM4z80HPa24KnXywWZO
-1k/VQU1soZ8hxmwoav/QqhQCMFO7bj09vOqa+Yqx4vc6pGvYWnaQGyiI0VIxDKUk
-B9QjDUP38W/qiUKfytjDENhAN6WLhskMVVsMK45JNVH5jkUZLPNcwQ2qBjzHHQEr
-9XUwu81oyKqudJw407197rBFGFMBlizPEpnVfZjxpr6dj40Qki504T6qPYdhK00d
-Ct7qaKqvyZTxdWSXq8hvfJP4wiItPA1dS2HfBEzVWf45KP0CJLBjRFTyS+S1k7oW
-Mi1Zh6daH8KrPmhkTfb/uYxaRAm4cnuoXX+JLJ7CNNGFTz1OpcWwzvhsGXAll2xk
-9uDQxrc0+YaafkexX7s1TkJ4SNTQGIXPQqygpzEzzqNMMLqD7rRt+EWiLIJlDy+6
-aQ==</certificate>
-      </emrex-data-access-point>
-    </r:apis-implemented>
-  </host>
-</manifest>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>USOSweb</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv=refresh content="10;URL=https://usosweb.umk.pl">
+	<link rel="shortcut icon" href="https://usosweb.umk.pl/favicon.ico">
+	<link rel='stylesheet' href='style_style.css'>
+</head>
+<body>
+<div id="gora"><img src="./usosweb_logo.png" alt=""></div>
+<div id="dokument">
+        <p> &nbsp;</p>
+        <p> &nbsp;</p>
+	<p class="komunikat">Uprzejmie informujemy, że w dniu dzisiejszym w godzinach  9:00-12:00  system Usosweb bedzie niedostępny z powodu aktualizacji. 
+       <br><br><br>Przepraszamy za utrudnienia</p>
+</div>
+</body>
+</html>
