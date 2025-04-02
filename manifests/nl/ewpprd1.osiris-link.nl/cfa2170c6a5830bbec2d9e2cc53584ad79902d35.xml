@@ -1,0 +1,143 @@
+<manifest xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6" xmlns:mf="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6" xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd" xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2" xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="
+        https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6
+            https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-api-discovery/stable-v6/manifest.xsd
+        https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6
+        https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-api-discovery/stable-v6/manifest-entry.xsd
+        https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1
+        https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-api-registry/stable-v1/catalogue.xsd
+        https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd
+        https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-architecture/stable-v1/common-types.xsd
+        https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd
+        https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-api-echo/stable-v2/manifest-entry.xsd
+        https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2
+        https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-sec-intro/stable-v2/schema.xsd
+        https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-none/tree/stable-v1
+        https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-sec-cliauth-none/stable-v1/security-entries.xsd
+        https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1
+        https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/stable-v1/security-entries.xsd
+        https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1
+        https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/stable-v1/security-entries.xsd
+        https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1
+        https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/stable-v1/security-entries.xsd
+        https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1
+        https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/stable-v1/security-entries.xsd
+        https://github.com/erasmus-without-paper/ewp-specs-sec-reqencr-tls/tree/stable-v1
+        https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-sec-reqencr-tls/stable-v1/security-entries.xsd
+        https://github.com/erasmus-without-paper/ewp-specs-sec-resencr-tls/tree/stable-v1
+        https://raw.githubusercontent.com/erasmus-without-paper/ewp-specs-sec-resencr-tls/stable-v1/security-entries.xsd
+    ">
+    <host>
+        <ewp:admin-email>ewp@caci.nl</ewp:admin-email>
+        <ewp:admin-provider>CACI (Osiris)</ewp:admin-provider>
+
+        <r:apis-implemented>
+            <!-- The entry for the Discovery Manifest API (a self-reference). -->
+            <discovery xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6/manifest-entry.xsd" version="6.0.0">
+                <url>https://ewpprd1.osiris-link.nl/hz.nl/manifest.xml</url>
+            </discovery>
+
+            <echo xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd" version="2.0.1">
+                <http-security>
+                    <sec:client-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1" />
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1" />
+                    </sec:server-auth-methods>
+                </http-security>
+                <url>https://ewpprd1.osiris-link.nl/hz.nl/echo</url>
+            </echo>
+
+            <iia-cnr xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iia-cnr/blob/stable-v3/manifest-entry.xsd" version="3.0.0">
+    <http-security>
+        <sec:client-auth-methods>
+            <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1" />
+        </sec:client-auth-methods>
+        <sec:server-auth-methods>
+            <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1" />
+        </sec:server-auth-methods>
+    </http-security>
+    <url>https://ewpprd1.osiris-link.nl/hz.nl/iia/cnr</url>
+</iia-cnr>
+
+            <iias xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v7/manifest-entry.xsd" version="7.0.0">
+    <http-security>
+        <sec:client-auth-methods>
+            <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1" />
+        </sec:client-auth-methods>
+        <sec:server-auth-methods>
+            <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1" />
+        </sec:server-auth-methods>
+    </http-security>
+    <get-url>https://ewpprd1.osiris-link.nl/hz.nl/iia/get</get-url>
+    <max-iia-ids>1</max-iia-ids>
+    <index-url>https://ewpprd1.osiris-link.nl/hz.nl/iia/index</index-url>
+    <stats-url>https://ewpprd1.osiris-link.nl/hz.nl/iia/stats</stats-url>
+</iias>
+
+            <iias-approval xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v2/manifest-entry.xsd" version="2.0.0">
+    <http-security>
+        <sec:client-auth-methods>
+            <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1" />
+        </sec:client-auth-methods>
+        <sec:server-auth-methods>
+            <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1" />
+        </sec:server-auth-methods>
+    </http-security>
+    <url>https://ewpprd1.osiris-link.nl/hz.nl/iia/approval</url>
+    <max-iia-ids>1</max-iia-ids>
+</iias-approval>
+
+            <iia-approval-cnr xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v2/manifest-entry.xsd" version="2.0.0">
+    <http-security>
+        <sec:client-auth-methods>
+            <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1" />
+        </sec:client-auth-methods>
+        <sec:server-auth-methods>
+            <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1" />
+        </sec:server-auth-methods>
+    </http-security>
+    <url>https://ewpprd1.osiris-link.nl/hz.nl/iia/approval-cnr</url>
+</iia-approval-cnr>
+
+            
+
+            
+
+            
+
+            
+
+            
+
+            
+
+        </r:apis-implemented>
+
+        <mf:institutions-covered xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1">
+            <hei id="hz.nl"><other-id type="pic">949468302</other-id><other-id type="eche">101011345</other-id><other-id type="erasmus">NL VLISSIN01</other-id><other-id type="oid">E10094917</other-id><name xml:lang="nl">STICHTING HZ UNIVERSITY OF APPLIED SCIENCES</name></hei>
+        </mf:institutions-covered>
+
+        <client-credentials-in-use>
+
+            <!-- This one is used for TLS Client Authentication (optional) -->
+            <certificate>
+                MIIDdjCCAl6gAwIBAgIUV1WJBEYORVH3wOjmkScBlBuZclAwDQYJKoZIhvcNAQELBQAwdTELMAkGA1UEBhMCTkwxFjAUBgNVBAgMDU5vb3JkLUhvbGxhbmQxEjAQBgNVBAcMCUFtc3RlcmRhbTERMA8GA1UECgwIQ0FDSSBCLlYxDDAKBgNVBAsMA0lDVDEZMBcGA1UEAwwQKi5vc2lyaXMtbGluay5ubDAeFw0yNDEyMzEwNzIzNDhaFw0zNDEyMzEwNzIzNDhaMHUxCzAJBgNVBAYTAk5MMRYwFAYDVQQIDA1Ob29yZC1Ib2xsYW5kMRIwEAYDVQQHDAlBbXN0ZXJkYW0xETAPBgNVBAoMCENBQ0kgQi5WMQwwCgYDVQQLDANJQ1QxGTAXBgNVBAMMECoub3NpcmlzLWxpbmsubmwwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCiPthFvwY4SQ8KJjruDSvTlXGVAm3vC0ufPZGkNfc14GmxESm98dTk2iuU+b4jWbUn/4l1uezglg5hQkx56/leTOM1eEKAibt3bPfMP1niR12GqvGKcbaJMQ6XpQKlG0bE/mMs7cdRcziMS/X/Pvh5z+HG4YrF8Tk/ss5FBfrWwTjOhICs2z3+foJkTAw1/HOARLJhNqKpqIss92vS9xW1bEQy1D0zehXRSMqVe0HW4L5o4ZCKHq0NTf6L/kz7iE8UwZYkc6s1c79WCLmlhcaSGRCG/htB2FGsR8Cj2vUDDjxvRoMBD0JaURPiPoro4C3X/pwNWVc60J6itQcDeIwDAgMBAAEwDQYJKoZIhvcNAQELBQADggEBAGu72emrRdsczbozSIvBdRes40WP+1vr27sNr/qsvjkLWuJvqiM6B0DlQnpfnMcvBnF14G3aM9n/aJnvprmrgr3DdhAZsBSFcaQ9aHkjZ/Uetb0SVohtjj8ILbrk2vez2YobeCmT0y8SVj/5YzbRl1DcvF6yWb83F1eOPrEzQA0bXbfaZ1Vs5vLIpcYmfDNRni8V0ajX/yMzPxPlWWR9KzMeaG8yFoR0hQWhcKNuy5grhkSKmlYiF3CDLoEoOM3qGKX2Oc2j941Tev9DtkhmvRupLEYvnoXPNopL5PsVDz3gzc8gTUfLTH52lGsMgAwaWocRXOlUzd81kUVWxfFm91A=
+            </certificate>
+
+            <!-- And this one is used for HTTP Signature Authentication -->
+            <rsa-public-key>
+                MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoj7YRb8GOEkPCiY67g0r05VxlQJt7wtLnz2RpDX3NeBpsREpvfHU5NorlPm+I1m1J/+Jdbns4JYOYUJMeev5XkzjNXhCgIm7d2z3zD9Z4kddhqrxinG2iTEOl6UCpRtGxP5jLO3HUXM4jEv1/z74ec/hxuGKxfE5P7LORQX61sE4zoSArNs9/n6CZEwMNfxzgESyYTaiqaiLLPdr0vcVtWxEMtQ9M3oV0UjKlXtB1uC+aOGQih6tDU3+i/5M+4hPFMGWJHOrNXO/Vgi5pYXGkhkQhv4bQdhRrEfAo9r1Aw48b0aDAQ9CWlET4j6K6OAt1/6cDVlXOtCeorUHA3iMAwIDAQAB
+            </rsa-public-key>
+
+        </client-credentials-in-use>
+
+        <server-credentials-in-use>
+            <!-- Used for HTTP Signature Authentication -->
+            <rsa-public-key>
+                MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoj7YRb8GOEkPCiY67g0r05VxlQJt7wtLnz2RpDX3NeBpsREpvfHU5NorlPm+I1m1J/+Jdbns4JYOYUJMeev5XkzjNXhCgIm7d2z3zD9Z4kddhqrxinG2iTEOl6UCpRtGxP5jLO3HUXM4jEv1/z74ec/hxuGKxfE5P7LORQX61sE4zoSArNs9/n6CZEwMNfxzgESyYTaiqaiLLPdr0vcVtWxEMtQ9M3oV0UjKlXtB1uC+aOGQih6tDU3+i/5M+4hPFMGWJHOrNXO/Vgi5pYXGkhkQhv4bQdhRrEfAo9r1Aw48b0aDAQ9CWlET4j6K6OAt1/6cDVlXOtCeorUHA3iMAwIDAQAB
+            </rsa-public-key>
+
+        </server-credentials-in-use>
+    </host>
+</manifest>
