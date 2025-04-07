@@ -77,7 +77,7 @@
                     xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6/manifest-entry.xsd"
                     version="6.0.0"
             >
-                <url>https://erasmus.upb.ro/main/manifest.xml</url>
+                <url>https://erasmus.upb.ro/manifest.xml</url>
             </discovery>
 
             <!-- Some other API, just for the purpose of example. Each API entry has a
@@ -114,7 +114,7 @@
 
                 <!-- The URL at which this Echo API is served. See Echo API's manifest-entry.xsd
                 file for details. -->
-                <url>https://erasmus.upb.ro/main/ewp/echo</url>
+                <url>https://erasmus.upb.ro/ewp/echo</url>
             </echo>
 
             <!-- TODO -->
@@ -135,7 +135,7 @@
                                 xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
                     </sec:server-auth-methods>
                 </http-security>
-                <url>https://erasmus.upb.ro/main/ewp/institutions</url>
+                <url>https://erasmus.upb.ro/ewp/institutions</url>
                 <max-hei-ids>1</max-hei-ids>
             </institutions>
 
@@ -157,7 +157,7 @@
                                 xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
                     </sec:server-auth-methods>
                 </http-security>
-                <url>https://erasmus.upb.ro/main/ewp/orgunits</url>
+                <url>https://erasmus.upb.ro/ewp/orgunits</url>
                 <max-ounit-ids>5</max-ounit-ids>
                 <max-ounit-codes>5</max-ounit-codes>
             </organizational-units>
@@ -180,7 +180,7 @@
                                 xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
                     </sec:server-auth-methods>
                 </http-security>
-                <url>https://erasmus.upb.ro/main/ewp/courses</url>
+                <url>https://erasmus.upb.ro/ewp/courses</url>
                 <max-los-ids>5</max-los-ids>
                 <max-los-codes>5</max-los-codes>
             </courses> -->
@@ -203,7 +203,7 @@
                                 xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
                     </sec:server-auth-methods>
                 </http-security>
-                <url>https://erasmus.upb.ro/main/ewp/coursesreplication</url>
+                <url>https://erasmus.upb.ro/ewp/coursesreplication</url>
                 <allows-anonymous-access>false</allows-anonymous-access>
                 <supports-modified-since>true</supports-modified-since>
             </simple-course-replication> -->
@@ -223,10 +223,10 @@
                                 xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
                     </sec:server-auth-methods>
                 </http-security>
-                <get-url>https://erasmus.upb.ro/main/ewp/iias/get</get-url>
+                <get-url>https://erasmus.upb.ro/ewp/iias/get</get-url>
                 <max-iia-ids>2</max-iia-ids>
-                <index-url>https://erasmus.upb.ro/main/ewp/iias/index</index-url>
-                <stats-url>https://erasmus.upb.ro/main/ewp/iias/stats</stats-url> <!-- TODO - parsing error -->
+                <index-url>https://erasmus.upb.ro/ewp/iias/index</index-url>
+                <stats-url>https://erasmus.upb.ro/ewp/iias/stats</stats-url> <!-- TODO - parsing error -->
             </iias>
 
             <!-- TODO -->
@@ -245,7 +245,7 @@
                                 xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
                     </sec:server-auth-methods>
                 </http-security>
-                <url>https://erasmus.upb.ro/main/ewp/iias/cnr</url>
+                <url>https://erasmus.upb.ro/ewp/iias/cnr</url>
             </iia-cnr>
 
             <!-- TODO -->
@@ -264,7 +264,7 @@
                                 xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
                     </sec:server-auth-methods>
                 </http-security>
-                <url>https://erasmus.upb.ro/main/ewp/iias/approval</url>
+                <url>https://erasmus.upb.ro/ewp/iias/approval</url>
                 <max-iia-ids>1</max-iia-ids>
             </iias-approval>
 
@@ -284,7 +284,7 @@
                                 xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
                     </sec:server-auth-methods>
                 </http-security>
-                <url>https://erasmus.upb.ro/main/ewp/iias/approval/cnr</url>
+                <url>https://erasmus.upb.ro/ewp/iias/approval/cnr</url>
             </iia-approval-cnr>
 
             <!-- TODO -->
@@ -305,7 +305,7 @@
                                 xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
                     </sec:server-auth-methods>
                 </http-security>
-                <url>https://erasmus.upb.ro/main/ewp/iias/factsheet</url>
+                <url>https://erasmus.upb.ro/ewp/iias/factsheet</url>
                 <max-hei-ids>1</max-hei-ids>
             </factsheet>
 
@@ -326,8 +326,8 @@
                     </sec:server-auth-methods>
                 </http-security>
 
-                <get-url>https://erasmus.upb.ro/main/ewp/omobilities/get</get-url>
-                <index-url>https://erasmus.upb.ro/main/ewp/omobilities/index</index-url>
+                <get-url>https://erasmus.upb.ro/ewp/omobilities/get</get-url>
+                <index-url>https://erasmus.upb.ro/ewp/omobilities/index</index-url>
                 <max-omobility-ids>2</max-omobility-ids>
                 <sends-notifications/>
             </omobilities>
@@ -340,7 +340,7 @@
                         <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
                     </sec:server-auth-methods>
                 </http-security>
-                <url>https://erasmus.upb.ro/main/ewp/omobilities/cnr</url>
+                <url>https://erasmus.upb.ro/ewp/omobilities/cnr</url>
                 <max-omobility-ids>1</max-omobility-ids>
             </omobility-cnr>
             <omobility-las xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd" version="1.2.0">
@@ -352,10 +352,10 @@
                         <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
                     </sec:server-auth-methods>
                 </http-security>
-                <get-url>https://erasmus.upb.ro/main/ewp/omobilities-la/get</get-url>
-                <index-url>https://erasmus.upb.ro/main/ewp/omobilities-la/index</index-url>
-                <update-url>https://erasmus.upb.ro/main/ewp/omobilities-la/update</update-url>
-                <stats-url>https://erasmus.upb.ro/main/ewp/omobilities-la/stats</stats-url>
+                <get-url>https://erasmus.upb.ro/ewp/omobilities-la/get</get-url>
+                <index-url>https://erasmus.upb.ro/ewp/omobilities-la/index</index-url>
+                <update-url>https://erasmus.upb.ro/ewp/omobilities-la/update</update-url>
+                <stats-url>https://erasmus.upb.ro/ewp/omobilities-la/stats</stats-url>
                 <max-omobility-ids>1</max-omobility-ids>
             </omobility-las>
             <omobility-la-cnr xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd" version="1.1.0">
@@ -367,8 +367,8 @@
                         <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
                     </sec:server-auth-methods>
                 </http-security>
-                <url>https://erasmus.upb.ro/main/ewp/omobilities-la/cnr</url>
-                <stats-url>https://erasmus.upb.ro/main/ewp/omobilities-la/cnr/stats</stats-url>
+                <url>https://erasmus.upb.ro/ewp/omobilities-la/cnr</url>
+                <stats-url>https://erasmus.upb.ro/ewp/omobilities-la/cnr/stats</stats-url>
                 <max-omobility-ids>1</max-omobility-ids>
             </omobility-la-cnr>
             <imobilities
@@ -387,7 +387,7 @@
                     </sec:server-auth-methods>
                 </http-security>
 
-                <get-url>https://erasmus.upb.ro/main/ewp/imobilities/get</get-url>
+                <get-url>https://erasmus.upb.ro/ewp/imobilities/get</get-url>
                 <max-omobility-ids>2</max-omobility-ids>
                 <sends-notifications/>
             </imobilities>
@@ -401,7 +401,7 @@
                         <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
                     </sec:server-auth-methods>
                 </http-security>
-                <url>https://erasmus.upb.ro/main/ewp/imobilities/cnr</url>
+                <url>https://erasmus.upb.ro/ewp/imobilities/cnr</url>
                 <max-omobility-ids>1</max-omobility-ids>
             </imobility-cnr>
 
@@ -414,8 +414,8 @@
                         <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
                     </sec:server-auth-methods>
                 </http-security>
-                <get-url>https://erasmus.upb.ro/main/ewp/imobilities-tor/get</get-url>
-                <index-url>https://erasmus.upb.ro/main/ewp/imobilities-tor/index</index-url>
+                <get-url>https://erasmus.upb.ro/ewp/imobilities-tor/get</get-url>
+                <index-url>https://erasmus.upb.ro/ewp/imobilities-tor/index</index-url>
                 <max-omobility-ids>1</max-omobility-ids>
             </imobility-tors>
 
@@ -428,7 +428,7 @@
                         <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
                     </sec:server-auth-methods>
                 </http-security>
-                <url>https://erasmus.upb.ro/main/ewp/imobilities-tor/cnr</url>
+                <url>https://erasmus.upb.ro/ewp/imobilities-tor/cnr</url>
                 <max-omobility-ids>1</max-omobility-ids>
             </imobility-tor-cnr> -->
 
@@ -441,7 +441,7 @@
                         <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
                     </sec:server-auth-methods>
                 </http-security>
-                <url>https://erasmus.upb.ro/main/ewp/file</url>
+                <url>https://erasmus.upb.ro/ewp/file</url>
             </file> -->
         </r:apis-implemented>
 
