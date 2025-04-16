@@ -1,68 +1,69 @@
-<!doctype html>
-
-<head>
-
-    <meta charset="utf-8">
-
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-<title>Serwis chwilowo niedostępny</title>
-
-<style>
-
-  body {  margin:0; padding:0;}
-
-  #topBaner {width:100%; margin:0; padding:10px; color:#fff; background:#093E67;  font: 13px Helvetica, sans-serif; }
-
-  #topBaner a{color:#fff;}
-
-  #topBaner a:hover{color:#999;}
-
-  #topBaner img {padding-bottom: 2px; padding-right: 6px;}
-
-
-  h1 { font-size: 45px; }
-
-  body { font: 20px Helvetica, sans-serif; color: #333; }
-
-  @media (max-width: 800px) {article { display: block; text-align: left; width: 80%; margin: 0 auto; padding-top: 120px; }}
-
-  @media (min-width: 800px) {article { display: block; text-align: left; width: 40%; margin: 0 auto; padding-top: 120px; }}
-
-
-  a { color: #dc8100; text-decoration: none; }
-
-  a:hover { color: #333; text-decoration: none; }
-
-</style>
-
-</head>
-
-<body>
-
-	<div id="topBaner"><a href="http://www.uw.edu.pl"> Przejdź na stronę główną Uniwersytetu Warszawskiego</a></div>
-
-<article>
-
-	    <div>
-
-	</div>
-
-
-    <h1>W związku z aktualizacją systemu strona chwilowo niedostępna.</h1>
-
-
-    <div>
-
-	    <p>&mdash; Zespół administratorów DSK</p>
-
-    </div>
-
-</article>
-
-
-</body>
-
-</html>
+<manifest
+    xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
+    xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
+    xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
+    xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+>
+    <host>
+        <ewp:admin-email>ewp-irk@mimuw.edu.pl</ewp:admin-email>
+        <ewp:admin-provider>MUCI (USOS IRK)</ewp:admin-provider>
+        <r:apis-implemented>
+            <discovery xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6/manifest-entry.xsd" version="6.0.0">
+                <url>https://irk.uw.edu.pl/ewp/manifest/</url>
+            </discovery>
+            <echo xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd" version="2.0.1">
+                <http-security>
+    <client-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
+        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+    </client-auth-methods>
+    <server-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
+        <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
+        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+    </server-auth-methods>
+</http-security>
+                <url>https://irk.uw.edu.pl/ewp/echo/</url>
+            </echo>
+            <omobility-la-cnr xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd" version="1.1.0">
+                <http-security>
+    <client-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
+        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+    </client-auth-methods>
+    <server-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
+        <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
+        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+    </server-auth-methods>
+</http-security>
+                <url>https://irk.uw.edu.pl/ewp/la/cnr/</url>
+                <stats-url>https://irk.uw.edu.pl/ewp/la/cnr/stats/</stats-url>
+                <max-omobility-ids>100</max-omobility-ids>
+            </omobility-la-cnr>
+        </r:apis-implemented>
+        <institutions-covered>
+            <hei xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1" id="uw.edu.pl">
+                <other-id type="erasmus">PL WARSZAW01</other-id>
+                <other-id type="pic">999572294</other-id>
+                <name xml:lang="pl">Uniwersytet Warszawski</name>
+                <name xml:lang="en">University of Warsaw</name>
+            </hei>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAv8yKKqUlp6sxDOZ41NnH
+xk0+xwlN6BAA4JZn9pReFRVgWSpl2qhfUZSDCmJJ0RwWYBiCiLjdYIk4OEhLexz7
+n5myT1dybY1I2qoLk2E+ySvc5NFoz6Ol4yWlhiu969nS/pxDuPHEWvvdTJSwBanY
+2nCE/IcfjHNgBp2+ix7FvRTab0X0YdKiXSj0vtotGzQaaW3HUjxHgHQmiIbts8ge
+hCyX7eFv+0kv9A0Ju8iKBkpe4Xybo6SWKh1d8hv9iq9jSWmfka/4+HKPAQvcwleQ
+KbYsLGOW5xMmEOuGajBJKZiBA69M+oZsJDK3JEJi9D1Fkvv5W0SiHef/WtSMRicO
+3wIDAQAB</rsa-public-key>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAv8yKKqUlp6sxDOZ41NnH
+xk0+xwlN6BAA4JZn9pReFRVgWSpl2qhfUZSDCmJJ0RwWYBiCiLjdYIk4OEhLexz7
+n5myT1dybY1I2qoLk2E+ySvc5NFoz6Ol4yWlhiu969nS/pxDuPHEWvvdTJSwBanY
+2nCE/IcfjHNgBp2+ix7FvRTab0X0YdKiXSj0vtotGzQaaW3HUjxHgHQmiIbts8ge
+hCyX7eFv+0kv9A0Ju8iKBkpe4Xybo6SWKh1d8hv9iq9jSWmfka/4+HKPAQvcwleQ
+KbYsLGOW5xMmEOuGajBJKZiBA69M+oZsJDK3JEJi9D1Fkvv5W0SiHef/WtSMRicO
+3wIDAQAB</rsa-public-key>
+        </server-credentials-in-use>
+    </host>
+</manifest>
