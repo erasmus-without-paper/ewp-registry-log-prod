@@ -188,6 +188,18 @@
                 <ns27:index-url>https://artemis.ugr.es/ewp/iias/index</ns27:index-url>
                 <ns27:stats-url>https://artemis.ugr.es/ewp/iias/stats?hei_id=ugr.es</ns27:stats-url>
             </ns27:iias>
+            <ns29:file version="1.0.0">
+                <ns29:http-security>
+                    <ns7:client-auth-methods>
+                        <ns64:httpsig/>
+                    </ns7:client-auth-methods>
+                    <ns7:server-auth-methods>
+                        <ns66:tlscert/>
+                        <ns67:httpsig/>
+                    </ns7:server-auth-methods>
+                </ns29:http-security>
+                <ns29:url>https://artemis.ugr.es/ewp/file</ns29:url>
+            </ns29:file>
         </ns37:apis-implemented>
         <ns36:institutions-covered>
             <ns37:hei id="ugr.es">
