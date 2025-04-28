@@ -34,18 +34,6 @@
         <admin-provider>Aristotelio Panepistimio Thessalonikis (MobiSIS)</admin-provider>
         <admin-notes>This is the EWP connector instance for AUTh.</admin-notes>
         <ns2:apis-implemented>
-            <ns18:factsheet version="1.1.0">
-                <ns18:http-security>
-                    <ns5:client-auth-methods>
-                        <ns27:httpsig/>
-                    </ns5:client-auth-methods>
-                    <ns5:server-auth-methods>
-                        <ns28:httpsig/>
-                    </ns5:server-auth-methods>
-                </ns18:http-security>
-                <ns18:url>https://ewp.auth.gr/rest/factsheets/get</ns18:url>
-                <ns18:max-hei-ids>1</ns18:max-hei-ids>
-            </ns18:factsheet>
             <ns15:courses version="0.7.1">
                 <ns15:http-security>
                     <ns5:client-auth-methods>
@@ -59,6 +47,29 @@
                 <ns15:max-los-ids>1</ns15:max-los-ids>
                 <ns15:max-los-codes>1</ns15:max-los-codes>
             </ns15:courses>
+            <ns18:factsheet version="1.1.0">
+                <ns18:http-security>
+                    <ns5:client-auth-methods>
+                        <ns27:httpsig/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns28:httpsig/>
+                    </ns5:server-auth-methods>
+                </ns18:http-security>
+                <ns18:url>https://ewp.auth.gr/rest/factsheets/get</ns18:url>
+                <ns18:max-hei-ids>1</ns18:max-hei-ids>
+            </ns18:factsheet>
+            <ns23:echo version="2.0.1">
+                <ns23:http-security>
+                    <ns5:client-auth-methods>
+                        <ns27:httpsig/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns28:httpsig/>
+                    </ns5:server-auth-methods>
+                </ns23:http-security>
+                <ns23:url>https://ewp.auth.gr/rest/echo</ns23:url>
+            </ns23:echo>
             <ns21:organizational-units version="2.1.1">
                 <ns21:http-security>
                     <ns5:client-auth-methods>
@@ -72,18 +83,6 @@
                 <ns21:max-ounit-ids>1</ns21:max-ounit-ids>
                 <ns21:max-ounit-codes>1</ns21:max-ounit-codes>
             </ns21:organizational-units>
-            <ns22:institutions version="2.2.0">
-                <ns22:http-security>
-                    <ns5:client-auth-methods>
-                        <ns27:httpsig/>
-                    </ns5:client-auth-methods>
-                    <ns5:server-auth-methods>
-                        <ns28:httpsig/>
-                    </ns5:server-auth-methods>
-                </ns22:http-security>
-                <ns22:url>https://ewp.auth.gr/rest/institutions</ns22:url>
-                <ns22:max-hei-ids>1</ns22:max-hei-ids>
-            </ns22:institutions>
             <ns24:discovery version="6.0.0">
                 <ns24:url>https://ewp.auth.gr/rest/manifest</ns24:url>
             </ns24:discovery>
@@ -100,17 +99,18 @@
                 <ns14:allows-anonymous-access>true</ns14:allows-anonymous-access>
                 <ns14:supports-modified-since>true</ns14:supports-modified-since>
             </ns14:simple-course-replication>
-            <ns23:echo version="2.0.1">
-                <ns23:http-security>
+            <ns22:institutions version="2.2.0">
+                <ns22:http-security>
                     <ns5:client-auth-methods>
                         <ns27:httpsig/>
                     </ns5:client-auth-methods>
                     <ns5:server-auth-methods>
                         <ns28:httpsig/>
                     </ns5:server-auth-methods>
-                </ns23:http-security>
-                <ns23:url>https://ewp.auth.gr/rest/echo</ns23:url>
-            </ns23:echo>
+                </ns22:http-security>
+                <ns22:url>https://ewp.auth.gr/rest/institutions</ns22:url>
+                <ns22:max-hei-ids>1</ns22:max-hei-ids>
+            </ns22:institutions>
         </ns2:apis-implemented>
         <ns3:institutions-covered>
             <ns2:hei id="auth.gr">
@@ -121,23 +121,23 @@
             </ns2:hei>
         </ns3:institutions-covered>
         <ns3:client-credentials-in-use>
-            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkcKHefyC9/EA/W/rFde2
-V/rF3ouFELT2aRbLzCOlgukwJ0gK3QR1lERt38GADSHzWNxqASgdydN0IYqfhPji
-u2W90RL4m/0BcMPVraPzaeoVUj4MPosA2EJU687rlOPTtqOXbfy1r7oTGimHgFsV
-XtPPCAHMDmY2/G32FFQYW2K8FooNDgRT9sHqgD8fmGethBgDhDOn5XeRUSF+pFNJ
-RGWtxdw8Qj1hdsYbvYbUYtANsNtPvaZ36IYL00Gn5fsDaWP5ZNNlk+QWmcg9N/To
-9PHlWIa2H7qG7EGi8y0rOrs2eSpwIIDxCaWhrrbDUPkPnVH8QYOohHs9yetcctNu
-XQIDAQAB
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzWrqcXku2NzkItJbFEIn
+kvddAFga6Sz93MCk9jqARX7OQW/p0H0mtiAqgaHJA3n/H2eDBExKmrHtmOTX1QXb
++o2xfm/QGlP6jwwVqZTTx/pT0NnGyWfWD7jPKGVRs9TDVjCY/jkcvvoruBZO9wyl
+ax6jCHejL1BKMklBXL1/6OCP7ILZV/ZPe8gwWDkIUCgVL9Iscet3PG4+x00hZRHx
+CCCmy+GFb/CzbMtbqr4tftrqUJW8DZIT2YgIbb4hPhMzLO9OD8eXM/YGuzXFxcqX
+mwadfuZPQYoUefI/xeTsKYZpG6leCkgdUJGIHiK5mVFnbfbMKtt7qCxAGbsbiUBo
+IQIDAQAB
 </ns3:rsa-public-key>
         </ns3:client-credentials-in-use>
         <ns3:server-credentials-in-use>
-            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkcKHefyC9/EA/W/rFde2
-V/rF3ouFELT2aRbLzCOlgukwJ0gK3QR1lERt38GADSHzWNxqASgdydN0IYqfhPji
-u2W90RL4m/0BcMPVraPzaeoVUj4MPosA2EJU687rlOPTtqOXbfy1r7oTGimHgFsV
-XtPPCAHMDmY2/G32FFQYW2K8FooNDgRT9sHqgD8fmGethBgDhDOn5XeRUSF+pFNJ
-RGWtxdw8Qj1hdsYbvYbUYtANsNtPvaZ36IYL00Gn5fsDaWP5ZNNlk+QWmcg9N/To
-9PHlWIa2H7qG7EGi8y0rOrs2eSpwIIDxCaWhrrbDUPkPnVH8QYOohHs9yetcctNu
-XQIDAQAB
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzWrqcXku2NzkItJbFEIn
+kvddAFga6Sz93MCk9jqARX7OQW/p0H0mtiAqgaHJA3n/H2eDBExKmrHtmOTX1QXb
++o2xfm/QGlP6jwwVqZTTx/pT0NnGyWfWD7jPKGVRs9TDVjCY/jkcvvoruBZO9wyl
+ax6jCHejL1BKMklBXL1/6OCP7ILZV/ZPe8gwWDkIUCgVL9Iscet3PG4+x00hZRHx
+CCCmy+GFb/CzbMtbqr4tftrqUJW8DZIT2YgIbb4hPhMzLO9OD8eXM/YGuzXFxcqX
+mwadfuZPQYoUefI/xeTsKYZpG6leCkgdUJGIHiK5mVFnbfbMKtt7qCxAGbsbiUBo
+IQIDAQAB
 </ns3:rsa-public-key>
         </ns3:server-credentials-in-use>
     </ns3:host>
