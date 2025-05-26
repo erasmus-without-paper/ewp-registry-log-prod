@@ -12,7 +12,8 @@
     <host>
         <ewp:admin-email>ewp.admin@uniovi.es</ewp:admin-email>
         <ewp:admin-provider>Universidad de Oviedo</ewp:admin-provider>
-        <ewp:admin-notes>University of Oviedo. EWP manifest file PRO. In-house Java system</ewp:admin-notes>
+        <ewp:admin-notes>University of Oviedo. EWP manifest file PRO. In-house
+			Java system</ewp:admin-notes>
         <r:apis-implemented>
             <discovery
                 xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6/manifest-entry.xsd"
@@ -179,27 +180,6 @@
                 <url>https://sies.uniovi.es/pae/ewp/iiasappr/v2/appr</url>
                 <max-iia-ids>1</max-iia-ids>
             </iias-approval>
-            <iaac1:iia-approval-cnr
-                xmlns:iaac1="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v2/manifest-entry.xsd"
-                version="2.0.0"
-            >
-                <iaac1:http-security>
-                    <sec:client-auth-methods>
-                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
-                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
-                    </sec:server-auth-methods>
-                    <sec:request-encryption-methods>
-                        <tls xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-reqencr-tls/tree/stable-v1"/>
-                    </sec:request-encryption-methods>
-                    <sec:response-encryption-methods>
-                        <tls xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-resencr-tls/tree/stable-v1"/>
-                    </sec:response-encryption-methods>
-                </iaac1:http-security>
-                <iaac1:url>https://sies.uniovi.es/pae/ewp/iiasapprcnr/v2/cnr</iaac1:url>
-            </iaac1:iia-approval-cnr>
             <factsheet
                 xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
                 version="1.1.0"
@@ -243,9 +223,12 @@
                     </sec:response-encryption-methods>
                 </oml1:http-security>
                 <oml1:get-url>https://sies.uniovi.es/pae/ewp/olas/get</oml1:get-url>
-                <oml1:index-url>https://sies.uniovi.es/pae/ewp/olas/index</oml1:index-url>
-                <oml1:update-url>https://sies.uniovi.es/pae/ewp/olas/update</oml1:update-url>
-                <oml1:stats-url>https://sies.uniovi.es/pae/ewp/olas/stats</oml1:stats-url>
+                <oml1:index-url>https://sies.uniovi.es/pae/ewp/olas/index
+				</oml1:index-url>
+                <oml1:update-url>https://sies.uniovi.es/pae/ewp/olas/update
+				</oml1:update-url>
+                <oml1:stats-url>https://sies.uniovi.es/pae/ewp/olas/stats
+				</oml1:stats-url>
                 <oml1:max-omobility-ids>10</oml1:max-omobility-ids>
             </oml1:omobility-las>
             <omlc1:omobility-la-cnr
@@ -268,38 +251,17 @@
                     </sec:response-encryption-methods>
                 </omlc1:http-security>
                 <omlc1:url>https://sies.uniovi.es/pae/ewp/olas/cnr/cnr</omlc1:url>
-                <omlc1:stats-url>https://sies.uniovi.es/pae/ewp/olas/cnr/stats</omlc1:stats-url>
+                <omlc1:stats-url>https://sies.uniovi.es/pae/ewp/olas/cnr/stats
+				</omlc1:stats-url>
                 <omlc1:max-omobility-ids>1</omlc1:max-omobility-ids>
             </omlc1:omobility-la-cnr>
-            <file
-                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-file/blob/stable-v1/manifest-entry.xsd"
-                version="1.0.0"
-            >
-                <http-security>
-                    <sec:client-auth-methods>
-                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
-                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
-                    </sec:server-auth-methods>
-                    <sec:request-encryption-methods>
-                        <tls xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-reqencr-tls/tree/stable-v1"/>
-                    </sec:request-encryption-methods>
-                    <sec:response-encryption-methods>
-                        <tls xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-resencr-tls/tree/stable-v1"/>
-                    </sec:response-encryption-methods>
-                </http-security>
-                <url>
-					https://sies.uniovi.es/pae/ewp/file/file
-				</url>
-            </file>
         </r:apis-implemented>
         <institutions-covered>
             <r:hei id="uniovi.es">
                 <r:other-id type="pic">999848647</r:other-id>
-                <r:other-id type="erasmus">E  OVIEDO01</r:other-id>
-                <r:other-id type="erasmus-charter">29551-LA-1-2014-1-ES-E4AKA1-ECHE</r:other-id>
+                <r:other-id type="erasmus">E OVIEDO01</r:other-id>
+                <r:other-id type="erasmus-charter">29551-LA-1-2014-1-ES-E4AKA1-ECHE
+				</r:other-id>
                 <r:name xml:lang="es">Universidad de Oviedo</r:name>
                 <r:name xml:lang="en">University of Oviedo</r:name>
             </r:hei>
