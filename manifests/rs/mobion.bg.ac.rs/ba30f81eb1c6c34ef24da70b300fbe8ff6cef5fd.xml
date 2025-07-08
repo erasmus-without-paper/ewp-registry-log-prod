@@ -112,6 +112,18 @@
         <fs:url>https://mobion.bg.ac.rs/api/ewp/factsheet</fs:url>
         <fs:max-hei-ids>1</fs:max-hei-ids>
       </fs:factsheet>
+      <file1:file version="1.0.0">
+        <file1:http-security>
+          <sec:client-auth-methods>
+            <ns1:httpsig/>
+          </sec:client-auth-methods>
+          <sec:server-auth-methods>
+            <ns3:tlscert/>
+            <ns2:httpsig/>
+          </sec:server-auth-methods>
+        </file1:http-security>
+        <file1:url>https://mobion.bg.ac.rs/api/ewp/file-api</file1:url>
+      </file1:file>
     </r:apis-implemented>
     <mf:institutions-covered>
       <r:hei id="bg.ac.rs">
