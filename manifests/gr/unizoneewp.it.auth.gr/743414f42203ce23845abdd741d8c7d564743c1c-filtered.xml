@@ -1,0 +1,271 @@
+<manifest
+    xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
+    xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
+    xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
+    xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
+    xmlns:sec-cli-anon="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-none/tree/stable-v1"
+    xmlns:sec-cli-http="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
+    xmlns:sec-cli-tls="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
+    xmlns:sec-svr-http="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
+    xmlns:sec-svr-tls="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
+>
+    <host>
+        <ewp:admin-email>ewp-plus@it.auth.gr</ewp:admin-email>
+        <ewp:admin-email>ewp-monitor@it.auth.gr</ewp:admin-email>
+        <ewp:admin-provider>EWP Dashboard</ewp:admin-provider>
+        <ewp:admin-notes>Manifest File for general endpoints Erasmus Dashboard.</ewp:admin-notes>
+        <r:apis-implemented>
+            <discovery
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6/manifest-entry.xsd"
+                version="6.0.0"
+            >
+                <url>https://unizoneewp.it.auth.gr/rest/manifest/epoka.edu.al</url>
+            </discovery>
+            <institutions
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-institutions/blob/stable-v2/manifest-entry.xsd"
+                version="2.1.0"
+            >
+                <http-security>
+                    <sec:client-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </sec:server-auth-methods>
+                </http-security>
+                <url>https://unizoneewp.it.auth.gr/rest/institutions/epoka.edu.al</url>
+                <max-hei-ids>1</max-hei-ids>
+            </institutions>
+            <organizational-units
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/blob/stable-v2/manifest-entry.xsd"
+                version="2.1.0"
+            >
+                <http-security>
+                    <sec:client-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </sec:server-auth-methods>
+                </http-security>
+                <url>https://unizoneewp.it.auth.gr/rest/ounits/epoka.edu.al</url>
+                <max-ounit-ids>100</max-ounit-ids>
+                <max-ounit-codes>100</max-ounit-codes>
+            </organizational-units>
+            <iias
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v7/manifest-entry.xsd"
+                version="7.0.0"
+            >
+                <http-security>
+                    <sec:client-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </sec:server-auth-methods>
+                </http-security>
+                <get-url>https://unizoneewp.it.auth.gr/rest/iias/get/epoka.edu.al</get-url>
+                <max-iia-ids>1</max-iia-ids>
+                <index-url>https://unizoneewp.it.auth.gr/rest/iias/index/epoka.edu.al</index-url>
+                <stats-url>https://unizoneewp.it.auth.gr/rest/iias/stats/epoka.edu.al</stats-url>
+            </iias>
+            <iia-cnr
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iia-cnr/blob/stable-v3/manifest-entry.xsd"
+                version="3.0.0"
+            >
+                <http-security>
+                    <sec:client-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </sec:server-auth-methods>
+                </http-security>
+                <url>https://unizoneewp.it.auth.gr/rest/iias/cnr/epoka.edu.al</url>
+            </iia-cnr>
+            <iias-approval
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.0"
+            >
+                <http-security>
+                    <sec:client-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </sec:server-auth-methods>
+                </http-security>
+                <url>https://unizoneewp.it.auth.gr/rest/iias/app/epoka.edu.al</url>
+                <max-iia-ids>1</max-iia-ids>
+            </iias-approval>
+            <iia-approval-cnr
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.0"
+            >
+                <http-security>
+                    <sec:client-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </sec:server-auth-methods>
+                </http-security>
+                <url>https://unizoneewp.it.auth.gr/rest/iias/app/cnr/epoka.edu.al</url>
+            </iia-approval-cnr>
+            <omobilities
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.0"
+            >
+                <http-security>
+                    <sec:client-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </sec:server-auth-methods>
+                </http-security>
+                <get-url>https://unizoneewp.it.auth.gr/rest/nominations/omobilities/get/epoka.edu.al</get-url>
+                <index-url>https://unizoneewp.it.auth.gr/rest/nominations/omobilities/index/epoka.edu.al</index-url>
+                <max-omobility-ids>1</max-omobility-ids>
+            </omobilities>
+            <omobility-cnr
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <http-security>
+                    <sec:client-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </sec:server-auth-methods>
+                </http-security>
+                <url>https://unizoneewp.it.auth.gr/rest/nominations/omobilities/cnr/epoka.edu.al</url>
+                <max-omobility-ids>1</max-omobility-ids>
+            </omobility-cnr>
+            <imobilities
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <http-security>
+                    <sec:client-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </sec:server-auth-methods>
+                </http-security>
+                <get-url>https://unizoneewp.it.auth.gr/rest/nominations/imobilities/get/epoka.edu.al</get-url>
+                <max-omobility-ids>1</max-omobility-ids>
+            </imobilities>
+            <imobility-cnr
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <http-security>
+                    <sec:client-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </sec:server-auth-methods>
+                </http-security>
+                <url>https://unizoneewp.it.auth.gr/rest/nominations/imobilities/cnr/epoka.edu.al</url>
+                <max-omobility-ids>1</max-omobility-ids>
+            </imobility-cnr>
+            <omobility-las
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd"
+                version="1.2.0"
+            >
+                <http-security>
+                    <sec:client-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </sec:server-auth-methods>
+                </http-security>
+                <get-url>https://unizoneewp.it.auth.gr/rest/las/get/epoka.edu.al</get-url>
+                <index-url>https://unizoneewp.it.auth.gr/rest/las/index/epoka.edu.al</index-url>
+                <update-url>https://unizoneewp.it.auth.gr/rest/las/update/epoka.edu.al</update-url>
+                <stats-url>https://unizoneewp.it.auth.gr/rest/las/stats/outgoing/epoka.edu.al</stats-url>
+                <max-omobility-ids>1</max-omobility-ids>
+            </omobility-las>
+            <omobility-la-cnr
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="1.1.0"
+            >
+                <http-security>
+                    <sec:client-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </sec:server-auth-methods>
+                </http-security>
+                <url>https://unizoneewp.it.auth.gr/rest/las/cnr/epoka.edu.al</url>
+                <stats-url>https://unizoneewp.it.auth.gr/rest/las/stats/incoming/epoka.edu.al</stats-url>
+                <max-omobility-ids>1</max-omobility-ids>
+            </omobility-la-cnr>
+            <imobility-tors
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-tors/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.0"
+            >
+                <http-security>
+                    <sec:client-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </sec:server-auth-methods>
+                </http-security>
+                <get-url>https://unizoneewp.it.auth.gr/rest/tors/imobilities/get/epoka.edu.al</get-url>
+                <index-url>https://unizoneewp.it.auth.gr/rest/tors/imobilities/index/epoka.edu.al</index-url>
+                <max-omobility-ids>1</max-omobility-ids>
+            </imobility-tors>
+            <imobility-tor-cnr
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-tor-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <http-security>
+                    <sec:client-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </sec:server-auth-methods>
+                </http-security>
+                <url>https://unizoneewp.it.auth.gr/rest/tors/imobilities/cnr/epoka.edu.al</url>
+                <max-omobility-ids>1</max-omobility-ids>
+            </imobility-tor-cnr>
+            <factsheet
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
+                version="1.1.0"
+            >
+                <http-security>
+                    <sec:client-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </sec:server-auth-methods>
+                </http-security>
+                <url>https://unizoneewp.it.auth.gr/rest/factsheet/epoka.edu.al</url>
+                <max-hei-ids>1</max-hei-ids>
+            </factsheet>
+        </r:apis-implemented>
+        <institutions-covered>
+            <r:hei id="epoka.edu.al">
+                <r:other-id type="erasmus">AL TIRANA07</r:other-id>
+                <r:other-id type="pic">986013828</r:other-id>
+                <r:name>TURGUT OZAL EDUCATION SHA</r:name>
+            </r:hei>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <rsa-public-key>MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAuIklds9BmrwHBObpUReYAam23VxguNwJruEYi3KXkA4Oj3r2j07c5hv2b6LyhIv1Gofy4rjDTRv8FIrtg2r0Go1MlH599uxoLwALoTDDpRiCCcPjZGlRPuWzquGlt3DepSfr4y5f34J60OAAmZcTaBdbcJoLy+VoTAg4JKfUF0/6MF36Ndby9WrnAUzrbpcLJtmOIM0Ozfa/aYWKQxTqbNa3+uiGV9L3+lXLsWjA9b5et8GuZyh5eFF5UwjSI+AZTyi+mIe6CP20yK85VKTRCNPV/y9LPjDsAtrkvA6NMCNy3l4fJESvhB9QhO/m4jZPMUwZSB6Icj97X5dS9EWHfG0kD0DHAqIwHJWLWBSOD3hhVHFeEKEqGglmbKuvR76t5NOfG6o8uDL1U4o3nVNlTOl10M3xhSBvomPSu1MWadWx07QE5aBQ+KHlRJBkI/Lol0NP/YH4XcsSKA3D35KiFzMTFP5sL4MObrsFSyw6POEeRQaJcgr0Cy/sUTqkhLLmorJaXj3/XlTLusIB8NKvuT1tk1yThO797IWy/mcP4U/nrDaDEYwxlEw7mpGqpDP9MMYwEa9El7zf9yp0m67/Z92HWLkAaBfe6A1FsXSWtVMXQlEpI9Nmt20XOVwRnxz6XmM2Cm1GfM2hKH0YpMs2jz5t4raIXdBCXp40jiHFjEMCAwEAAQ==</rsa-public-key>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key>MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAuIklds9BmrwHBObpUReYAam23VxguNwJruEYi3KXkA4Oj3r2j07c5hv2b6LyhIv1Gofy4rjDTRv8FIrtg2r0Go1MlH599uxoLwALoTDDpRiCCcPjZGlRPuWzquGlt3DepSfr4y5f34J60OAAmZcTaBdbcJoLy+VoTAg4JKfUF0/6MF36Ndby9WrnAUzrbpcLJtmOIM0Ozfa/aYWKQxTqbNa3+uiGV9L3+lXLsWjA9b5et8GuZyh5eFF5UwjSI+AZTyi+mIe6CP20yK85VKTRCNPV/y9LPjDsAtrkvA6NMCNy3l4fJESvhB9QhO/m4jZPMUwZSB6Icj97X5dS9EWHfG0kD0DHAqIwHJWLWBSOD3hhVHFeEKEqGglmbKuvR76t5NOfG6o8uDL1U4o3nVNlTOl10M3xhSBvomPSu1MWadWx07QE5aBQ+KHlRJBkI/Lol0NP/YH4XcsSKA3D35KiFzMTFP5sL4MObrsFSyw6POEeRQaJcgr0Cy/sUTqkhLLmorJaXj3/XlTLusIB8NKvuT1tk1yThO797IWy/mcP4U/nrDaDEYwxlEw7mpGqpDP9MMYwEa9El7zf9yp0m67/Z92HWLkAaBfe6A1FsXSWtVMXQlEpI9Nmt20XOVwRnxz6XmM2Cm1GfM2hKH0YpMs2jz5t4raIXdBCXp40jiHFjEMCAwEAAQ==</rsa-public-key>
+        </server-credentials-in-use>
+    </host>
+</manifest>
