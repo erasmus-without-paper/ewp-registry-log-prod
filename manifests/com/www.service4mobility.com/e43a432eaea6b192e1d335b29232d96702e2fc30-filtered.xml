@@ -46,48 +46,11 @@
             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
             xml:lang="en"
             xsi:type="MultilineStringWithOptionalLang"
-        >stable v2.5121 (03/11/2025)</admin-notes>
+        >stable v2.5176 (05/11/2025)</admin-notes>
         <ns2:apis-implemented>
             <ns34:discovery version="6.0.0">
                 <ns34:url>https://www.service4mobility.com/europe/ewp/manifest/hfg-karlsruhe.de?api=all</ns34:url>
             </ns34:discovery>
-            <ns32:institutions version="2.2.0">
-                <ns32:http-security>
-                    <ns5:client-auth-methods>
-                        <ns37:httpsig/>
-                    </ns5:client-auth-methods>
-                    <ns5:server-auth-methods>
-                        <ns38:httpsig/>
-                    </ns5:server-auth-methods>
-                </ns32:http-security>
-                <ns32:url>https://www.service4mobility.com/europe/ewp/institutions/hfg-karlsruhe.de</ns32:url>
-                <ns32:max-hei-ids>3</ns32:max-hei-ids>
-            </ns32:institutions>
-            <ns31:organizational-units version="2.1.1">
-                <ns31:http-security>
-                    <ns5:client-auth-methods>
-                        <ns37:httpsig/>
-                    </ns5:client-auth-methods>
-                    <ns5:server-auth-methods>
-                        <ns38:httpsig/>
-                    </ns5:server-auth-methods>
-                </ns31:http-security>
-                <ns31:url>https://www.service4mobility.com/europe/ewp/ounits/hfg-karlsruhe.de</ns31:url>
-                <ns31:max-ounit-ids>3</ns31:max-ounit-ids>
-                <ns31:max-ounit-codes>3</ns31:max-ounit-codes>
-            </ns31:organizational-units>
-            <ns14:imobility-cnr version="1.0.0">
-                <ns14:http-security>
-                    <ns5:client-auth-methods>
-                        <ns37:httpsig/>
-                    </ns5:client-auth-methods>
-                    <ns5:server-auth-methods>
-                        <ns38:httpsig/>
-                    </ns5:server-auth-methods>
-                </ns14:http-security>
-                <ns14:url>https://www.service4mobility.com/europe/ewp/mobility_in/cnr/hfg-karlsruhe.de</ns14:url>
-                <ns14:max-omobility-ids>1</ns14:max-omobility-ids>
-            </ns14:imobility-cnr>
         </ns2:apis-implemented>
         <ns3:institutions-covered>
             <ns2:hei id="hfg-karlsruhe.de">
