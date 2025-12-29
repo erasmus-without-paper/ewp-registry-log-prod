@@ -46,19 +46,19 @@
                 <ns22:url>https://ewp.auth.gr/rest/institutions</ns22:url>
                 <ns22:max-hei-ids>1</ns22:max-hei-ids>
             </ns22:institutions>
-            <ns15:courses version="0.7.1">
-                <ns15:http-security>
+            <ns21:organizational-units version="2.1.1">
+                <ns21:http-security>
                     <ns5:client-auth-methods>
                         <ns27:httpsig/>
                     </ns5:client-auth-methods>
                     <ns5:server-auth-methods>
                         <ns28:httpsig/>
                     </ns5:server-auth-methods>
-                </ns15:http-security>
-                <ns15:url>https://ewp.auth.gr/rest/courses</ns15:url>
-                <ns15:max-los-ids>1</ns15:max-los-ids>
-                <ns15:max-los-codes>1</ns15:max-los-codes>
-            </ns15:courses>
+                </ns21:http-security>
+                <ns21:url>https://ewp.auth.gr/rest/ounits</ns21:url>
+                <ns21:max-ounit-ids>1</ns21:max-ounit-ids>
+                <ns21:max-ounit-codes>1</ns21:max-ounit-codes>
+            </ns21:organizational-units>
             <ns18:factsheet version="1.1.0">
                 <ns18:http-security>
                     <ns5:client-auth-methods>
@@ -84,9 +84,6 @@
                 <ns14:allows-anonymous-access>true</ns14:allows-anonymous-access>
                 <ns14:supports-modified-since>true</ns14:supports-modified-since>
             </ns14:simple-course-replication>
-            <ns24:discovery version="6.0.0">
-                <ns24:url>https://ewp.auth.gr/rest/manifest</ns24:url>
-            </ns24:discovery>
             <ns23:echo version="2.0.1">
                 <ns23:http-security>
                     <ns5:client-auth-methods>
@@ -98,19 +95,22 @@
                 </ns23:http-security>
                 <ns23:url>https://ewp.auth.gr/rest/echo</ns23:url>
             </ns23:echo>
-            <ns21:organizational-units version="2.1.1">
-                <ns21:http-security>
+            <ns24:discovery version="6.0.0">
+                <ns24:url>https://ewp.auth.gr/rest/manifest</ns24:url>
+            </ns24:discovery>
+            <ns15:courses version="0.7.1">
+                <ns15:http-security>
                     <ns5:client-auth-methods>
                         <ns27:httpsig/>
                     </ns5:client-auth-methods>
                     <ns5:server-auth-methods>
                         <ns28:httpsig/>
                     </ns5:server-auth-methods>
-                </ns21:http-security>
-                <ns21:url>https://ewp.auth.gr/rest/ounits</ns21:url>
-                <ns21:max-ounit-ids>1</ns21:max-ounit-ids>
-                <ns21:max-ounit-codes>1</ns21:max-ounit-codes>
-            </ns21:organizational-units>
+                </ns15:http-security>
+                <ns15:url>https://ewp.auth.gr/rest/courses</ns15:url>
+                <ns15:max-los-ids>1</ns15:max-los-ids>
+                <ns15:max-los-codes>1</ns15:max-los-codes>
+            </ns15:courses>
         </ns2:apis-implemented>
         <ns3:institutions-covered>
             <ns2:hei id="auth.gr">
@@ -121,23 +121,23 @@
             </ns2:hei>
         </ns3:institutions-covered>
         <ns3:client-credentials-in-use>
-            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzWrqcXku2NzkItJbFEIn
-kvddAFga6Sz93MCk9jqARX7OQW/p0H0mtiAqgaHJA3n/H2eDBExKmrHtmOTX1QXb
-+o2xfm/QGlP6jwwVqZTTx/pT0NnGyWfWD7jPKGVRs9TDVjCY/jkcvvoruBZO9wyl
-ax6jCHejL1BKMklBXL1/6OCP7ILZV/ZPe8gwWDkIUCgVL9Iscet3PG4+x00hZRHx
-CCCmy+GFb/CzbMtbqr4tftrqUJW8DZIT2YgIbb4hPhMzLO9OD8eXM/YGuzXFxcqX
-mwadfuZPQYoUefI/xeTsKYZpG6leCkgdUJGIHiK5mVFnbfbMKtt7qCxAGbsbiUBo
-IQIDAQAB
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnbDXenFNYEvxWtCq+mwN
+1FtjR47cdA5RlMeo051WlfUcKjj/NnIbvYgqLDngYT7C2JRkgtWIInwBXE9malpy
+NJwCFksLVIj4fGG2h33z9RhVGvugwLiyqTBavKxpfzzOmQpBDp+fkJ28lTe+eeUf
+oqR38cTAHgCF88apunbHTR+LNy4EbvdIQM90baeoOaPC0dhta/+e8pORpEHYRX90
+RpIesSLaSrf8+4TbJcENUKLFY31a1vKH10lv3NTzKpgv1o4izwixW5vLpD9nDDYQ
+fDourvb1pLfA7HNuUYAZNOZgBpneA8Q8kSTMlp4EkdhN1fD8X4QjdweFgWkceYrp
+IwIDAQAB
 </ns3:rsa-public-key>
         </ns3:client-credentials-in-use>
         <ns3:server-credentials-in-use>
-            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzWrqcXku2NzkItJbFEIn
-kvddAFga6Sz93MCk9jqARX7OQW/p0H0mtiAqgaHJA3n/H2eDBExKmrHtmOTX1QXb
-+o2xfm/QGlP6jwwVqZTTx/pT0NnGyWfWD7jPKGVRs9TDVjCY/jkcvvoruBZO9wyl
-ax6jCHejL1BKMklBXL1/6OCP7ILZV/ZPe8gwWDkIUCgVL9Iscet3PG4+x00hZRHx
-CCCmy+GFb/CzbMtbqr4tftrqUJW8DZIT2YgIbb4hPhMzLO9OD8eXM/YGuzXFxcqX
-mwadfuZPQYoUefI/xeTsKYZpG6leCkgdUJGIHiK5mVFnbfbMKtt7qCxAGbsbiUBo
-IQIDAQAB
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnbDXenFNYEvxWtCq+mwN
+1FtjR47cdA5RlMeo051WlfUcKjj/NnIbvYgqLDngYT7C2JRkgtWIInwBXE9malpy
+NJwCFksLVIj4fGG2h33z9RhVGvugwLiyqTBavKxpfzzOmQpBDp+fkJ28lTe+eeUf
+oqR38cTAHgCF88apunbHTR+LNy4EbvdIQM90baeoOaPC0dhta/+e8pORpEHYRX90
+RpIesSLaSrf8+4TbJcENUKLFY31a1vKH10lv3NTzKpgv1o4izwixW5vLpD9nDDYQ
+fDourvb1pLfA7HNuUYAZNOZgBpneA8Q8kSTMlp4EkdhN1fD8X4QjdweFgWkceYrp
+IwIDAQAB
 </ns3:rsa-public-key>
         </ns3:server-credentials-in-use>
     </ns3:host>
