@@ -42,9 +42,9 @@
     xmlns:ns46="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
     xmlns:ns47="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
     xmlns:ns48="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-none/tree/stable-v1"
-    xmlns:ns49="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
+    xmlns:ns49="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
     xmlns:ns5="https://github.com/erasmus-without-paper/ewp-specs-types-phonenumber/tree/stable-v1"
-    xmlns:ns50="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
+    xmlns:ns50="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
     xmlns:ns51="https://github.com/erasmus-without-paper/ewp-specs-sec-reqencr-tls/tree/stable-v1"
     xmlns:ns52="https://github.com/erasmus-without-paper/ewp-specs-sec-resencr-tls/tree/stable-v1"
     xmlns:ns53="https://github.com/erasmus-without-paper/ewp-specs-api-echo/tree/stable-v2"
@@ -69,10 +69,10 @@
                 <admin-email>ewp@digitalis.pt</admin-email>
                 <ns14:http-security>
                     <ns7:client-auth-methods>
-                        <ns50:httpsig/>
+                        <ns49:httpsig/>
                     </ns7:client-auth-methods>
                     <ns7:server-auth-methods>
-                        <ns49:httpsig/>
+                        <ns50:httpsig/>
                         <ns46:tlscert/>
                     </ns7:server-auth-methods>
                     <ns7:request-encryption-methods>
@@ -88,11 +88,11 @@
                 <admin-email>ewp@digitalis.pt</admin-email>
                 <ns18:http-security>
                     <ns7:client-auth-methods>
-                        <ns50:httpsig/>
+                        <ns49:httpsig/>
                         <ns48:anonymous/>
                     </ns7:client-auth-methods>
                     <ns7:server-auth-methods>
-                        <ns49:httpsig/>
+                        <ns50:httpsig/>
                         <ns46:tlscert/>
                     </ns7:server-auth-methods>
                     <ns7:request-encryption-methods>
@@ -109,10 +109,10 @@
                 <admin-email>ewp@digitalis.pt</admin-email>
                 <ns20:http-security>
                     <ns7:client-auth-methods>
-                        <ns50:httpsig/>
+                        <ns49:httpsig/>
                     </ns7:client-auth-methods>
                     <ns7:server-auth-methods>
-                        <ns49:httpsig/>
+                        <ns50:httpsig/>
                         <ns46:tlscert/>
                     </ns7:server-auth-methods>
                     <ns7:request-encryption-methods>
@@ -130,10 +130,10 @@
                 <admin-email>ewp@digitalis.pt</admin-email>
                 <ns25:http-security>
                     <ns7:client-auth-methods>
-                        <ns50:httpsig/>
+                        <ns49:httpsig/>
                     </ns7:client-auth-methods>
                     <ns7:server-auth-methods>
-                        <ns49:httpsig/>
+                        <ns50:httpsig/>
                         <ns46:tlscert/>
                     </ns7:server-auth-methods>
                     <ns7:request-encryption-methods>
@@ -151,10 +151,10 @@
                 <admin-email>ewp@digitalis.pt</admin-email>
                 <ns12:http-security>
                     <ns7:client-auth-methods>
-                        <ns50:httpsig/>
+                        <ns49:httpsig/>
                     </ns7:client-auth-methods>
                     <ns7:server-auth-methods>
-                        <ns49:httpsig/>
+                        <ns50:httpsig/>
                         <ns46:tlscert/>
                     </ns7:server-auth-methods>
                     <ns7:request-encryption-methods>
@@ -172,10 +172,10 @@
                 <admin-email>ewp@digitalis.pt</admin-email>
                 <ns10:http-security>
                     <ns7:client-auth-methods>
-                        <ns50:httpsig/>
+                        <ns49:httpsig/>
                     </ns7:client-auth-methods>
                     <ns7:server-auth-methods>
-                        <ns49:httpsig/>
+                        <ns50:httpsig/>
                         <ns46:tlscert/>
                     </ns7:server-auth-methods>
                     <ns7:request-encryption-methods>
@@ -194,10 +194,10 @@
                 <admin-email>ewp@digitalis.pt</admin-email>
                 <ns9:http-security>
                     <ns7:client-auth-methods>
-                        <ns50:httpsig/>
+                        <ns49:httpsig/>
                     </ns7:client-auth-methods>
                     <ns7:server-auth-methods>
-                        <ns49:httpsig/>
+                        <ns50:httpsig/>
                         <ns46:tlscert/>
                     </ns7:server-auth-methods>
                     <ns7:request-encryption-methods>
@@ -213,10 +213,10 @@
                 <admin-email>ewp@digitalis.pt</admin-email>
                 <ns17:http-security>
                     <ns7:client-auth-methods>
-                        <ns50:httpsig/>
+                        <ns49:httpsig/>
                     </ns7:client-auth-methods>
                     <ns7:server-auth-methods>
-                        <ns49:httpsig/>
+                        <ns50:httpsig/>
                         <ns46:tlscert/>
                     </ns7:server-auth-methods>
                     <ns7:request-encryption-methods>
@@ -233,10 +233,10 @@
                 <admin-email>ewp@digitalis.pt</admin-email>
                 <ns21:http-security>
                     <ns7:client-auth-methods>
-                        <ns50:httpsig/>
+                        <ns49:httpsig/>
                     </ns7:client-auth-methods>
                     <ns7:server-auth-methods>
-                        <ns49:httpsig/>
+                        <ns50:httpsig/>
                         <ns46:tlscert/>
                     </ns7:server-auth-methods>
                     <ns7:request-encryption-methods>
@@ -251,11 +251,11 @@
             <ns8:factsheet version="1.2.0">
                 <ns8:http-security>
                     <ns7:client-auth-methods>
-                        <ns50:httpsig/>
+                        <ns49:httpsig/>
                         <ns48:anonymous/>
                     </ns7:client-auth-methods>
                     <ns7:server-auth-methods>
-                        <ns49:httpsig/>
+                        <ns50:httpsig/>
                         <ns46:tlscert/>
                     </ns7:server-auth-methods>
                     <ns7:request-encryption-methods>
@@ -271,10 +271,10 @@
             <ns27:omobilities version="2.0.0">
                 <ns27:http-security>
                     <ns7:client-auth-methods>
-                        <ns50:httpsig/>
+                        <ns49:httpsig/>
                     </ns7:client-auth-methods>
                     <ns7:server-auth-methods>
-                        <ns49:httpsig/>
+                        <ns50:httpsig/>
                         <ns46:tlscert/>
                     </ns7:server-auth-methods>
                     <ns7:request-encryption-methods>
@@ -291,10 +291,10 @@
             <ns23:omobility-las version="1.2.0">
                 <ns23:http-security>
                     <ns7:client-auth-methods>
-                        <ns50:httpsig/>
+                        <ns49:httpsig/>
                     </ns7:client-auth-methods>
                     <ns7:server-auth-methods>
-                        <ns49:httpsig/>
+                        <ns50:httpsig/>
                         <ns46:tlscert/>
                     </ns7:server-auth-methods>
                     <ns7:request-encryption-methods>
@@ -314,10 +314,10 @@
                 <admin-email>ewp@digitalis.pt</admin-email>
                 <ns26:http-security>
                     <ns7:client-auth-methods>
-                        <ns50:httpsig/>
+                        <ns49:httpsig/>
                     </ns7:client-auth-methods>
                     <ns7:server-auth-methods>
-                        <ns49:httpsig/>
+                        <ns50:httpsig/>
                         <ns46:tlscert/>
                     </ns7:server-auth-methods>
                     <ns7:request-encryption-methods>
@@ -334,10 +334,10 @@
                 <admin-email>ewp@digitalis.pt</admin-email>
                 <ns22:http-security>
                     <ns7:client-auth-methods>
-                        <ns50:httpsig/>
+                        <ns49:httpsig/>
                     </ns7:client-auth-methods>
                     <ns7:server-auth-methods>
-                        <ns49:httpsig/>
+                        <ns50:httpsig/>
                         <ns46:tlscert/>
                     </ns7:server-auth-methods>
                     <ns7:request-encryption-methods>
@@ -354,11 +354,11 @@
             <ns19:file version="1.0.0">
                 <ns19:http-security>
                     <ns7:client-auth-methods>
-                        <ns50:httpsig/>
+                        <ns49:httpsig/>
                         <ns48:anonymous/>
                     </ns7:client-auth-methods>
                     <ns7:server-auth-methods>
-                        <ns49:httpsig/>
+                        <ns50:httpsig/>
                         <ns46:tlscert/>
                     </ns7:server-auth-methods>
                     <ns7:request-encryption-methods>
