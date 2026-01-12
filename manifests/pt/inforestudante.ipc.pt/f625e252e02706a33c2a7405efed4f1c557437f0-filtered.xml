@@ -134,6 +134,18 @@
                 </ns8:http-security>
                 <ns8:url>https://inforestudante.ipc.pt/nonio/rest/ewp/interinstitutionalagreementsapproval/cnr</ns8:url>
             </ns8:iia-approval-cnr>
+            <ns6:factsheet version="1.2.0">
+                <ns6:http-security>
+                    <ns28:client-auth-methods>
+                        <ns26:httpsig/>
+                    </ns28:client-auth-methods>
+                    <ns28:server-auth-methods>
+                        <ns29:httpsig/>
+                    </ns28:server-auth-methods>
+                </ns6:http-security>
+                <ns6:url>https://inforestudante.ipc.pt/nonio/rest/ewp/mobilityfactsheet</ns6:url>
+                <ns6:max-hei-ids>1</ns6:max-hei-ids>
+            </ns6:factsheet>
             <ns18:omobilities version="1.0.1">
                 <ns18:http-security>
                     <ns28:client-auth-methods>
