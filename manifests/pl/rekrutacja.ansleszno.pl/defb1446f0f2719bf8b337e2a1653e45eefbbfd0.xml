@@ -1,0 +1,69 @@
+<manifest
+    xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
+    xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
+    xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
+    xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace"
+>
+    <host>
+        <ewp:admin-email>irk-ewp@ansleszno.pl</ewp:admin-email>
+        <ewp:admin-provider>MUCI (USOS IRK)</ewp:admin-provider>
+        <ewp:admin-notes>Application version: 1.20.1 (7e35b281-dirty) :: 2025-12-10</ewp:admin-notes>
+        <r:apis-implemented>
+            <discovery xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6/manifest-entry.xsd" version="6.0.0">
+                <url>https://rekrutacja.ansleszno.pl/ewp/manifest/</url>
+            </discovery>
+            <echo xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd" version="2.0.1">
+                <http-security>
+    <client-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
+        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+    </client-auth-methods>
+    <server-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
+        <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
+        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+    </server-auth-methods>
+</http-security>
+                <url>https://rekrutacja.ansleszno.pl/ewp/echo/</url>
+            </echo>
+            <omobility-la-cnr xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd" version="1.1.0">
+                <http-security>
+    <client-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
+        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+    </client-auth-methods>
+    <server-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
+        <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
+        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+    </server-auth-methods>
+</http-security>
+                <url>https://rekrutacja.ansleszno.pl/ewp/la/cnr/</url>
+                <stats-url>https://rekrutacja.ansleszno.pl/ewp/la/cnr/stats/</stats-url>
+                <max-omobility-ids>100</max-omobility-ids>
+            </omobility-la-cnr>
+        </r:apis-implemented>
+        <institutions-covered>
+            <hei xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1" id="pwsz.edu.pl">
+                <other-id type="pic">945042968</other-id>
+                <name xml:lang="pl">Akademia Nauk Stosowanych im. Jana Amosa Komeńskiego w Lesznie</name>
+                <name xml:lang="en">University of Applied Sciences in Leszno</name>
+            </hei>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuT/wnbyuSiiDfGiJ1x/2
+9ze4dMfrNmVJc9A2ZLk/3fYppysu5ny1OatBjP3K9N+wrGUdTegEvEpEFQhEKWym
+YtLlQFknw5VLcddATTxVfy9ROnWoTV4lc0dQMDywRkf3YFZWhu6TSiJmSt4KzJqs
+IlUdz3zgSMOArewcdKZXF20vvF6aIHaEcm7opGHmc+/sluGbNvH6EBaql13M3o1Z
+PoPY8E8M3Kf5TigvKu0MX868ojLSNDQ4Tt7t+4fVDYoFJ7q/XTXx8T//cYL+x7Hc
+Yz8bVv92Pw+U9yfmz2Jh/xOYcbkXOMEs0Ffl0sIaezkV61OfJ0MtVlLgIDhK2lBa
+HQIDAQAB</rsa-public-key>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuT/wnbyuSiiDfGiJ1x/2
+9ze4dMfrNmVJc9A2ZLk/3fYppysu5ny1OatBjP3K9N+wrGUdTegEvEpEFQhEKWym
+YtLlQFknw5VLcddATTxVfy9ROnWoTV4lc0dQMDywRkf3YFZWhu6TSiJmSt4KzJqs
+IlUdz3zgSMOArewcdKZXF20vvF6aIHaEcm7opGHmc+/sluGbNvH6EBaql13M3o1Z
+PoPY8E8M3Kf5TigvKu0MX868ojLSNDQ4Tt7t+4fVDYoFJ7q/XTXx8T//cYL+x7Hc
+Yz8bVv92Pw+U9yfmz2Jh/xOYcbkXOMEs0Ffl0sIaezkV61OfJ0MtVlLgIDhK2lBa
+HQIDAQAB</rsa-public-key>
+        </server-credentials-in-use>
+    </host>
+</manifest>
