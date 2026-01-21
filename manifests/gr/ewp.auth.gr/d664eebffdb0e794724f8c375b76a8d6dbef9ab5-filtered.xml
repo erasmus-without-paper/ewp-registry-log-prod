@@ -59,6 +59,9 @@
                 <ns21:max-ounit-ids>1</ns21:max-ounit-ids>
                 <ns21:max-ounit-codes>1</ns21:max-ounit-codes>
             </ns21:organizational-units>
+            <ns24:discovery version="6.0.0">
+                <ns24:url>https://ewp.auth.gr/rest/manifest</ns24:url>
+            </ns24:discovery>
             <ns18:factsheet version="1.1.0">
                 <ns18:http-security>
                     <ns5:client-auth-methods>
@@ -82,9 +85,6 @@
                 </ns23:http-security>
                 <ns23:url>https://ewp.auth.gr/rest/echo</ns23:url>
             </ns23:echo>
-            <ns24:discovery version="6.0.0">
-                <ns24:url>https://ewp.auth.gr/rest/manifest</ns24:url>
-            </ns24:discovery>
             <ns15:courses version="0.7.1">
                 <ns15:http-security>
                     <ns5:client-auth-methods>
