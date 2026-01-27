@@ -1,17 +1,43 @@
-<?php
-
-include_once '../include.php';
-require_once __DIR__ . '/../../vendor/autoload.php';
-
-use USOSweb\ErrorHandling;
-use USOSweb\Utils\EMREX\NCP;
-
-ErrorHandling::init();
-
-function handleRequest()
-{
-    header('Content-Type: text/xml');
-    echo(NCP::dajManifest());
-}
-
-handleRequest();
+<?xml version="1.0"?>
+<manifest xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6" xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd" xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1">
+  <host>
+    <ewp:admin-email>helpdesk@amu.edu.pl</ewp:admin-email>
+    <ewp:admin-provider>MUCI (USOS)</ewp:admin-provider>
+    <r:apis-implemented>
+      <discovery xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6/manifest-entry.xsd" version="6.0.0">
+        <url>https://usosweb.amu.edu.pl/api/manifest.php</url>
+      </discovery>
+      <emrex-data-access-point xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-emrex-data-access-point/blob/stable-v1/manifest-entry.xsd" version="1.0.0">
+        <url>https://usosweb.amu.edu.pl/emp_endpoint.php</url>
+        <name>UAM</name>
+        <country-code>PL</country-code>
+        <institution>Adam Mickiewicz University, Pozna&#x144;</institution>
+        <certificate>MIIEqzCCA5OgAwIBAgIJAMnGzJJ6ps8rMA0GCSqGSIb3DQEBCwUAMIHrMQswCQYD
+VQQGEwJQTDEVMBMGA1UECAwMV2llbGtvcG9sc2thMQ8wDQYDVQQHDAZQb3puYW4x
+KjAoBgNVBAoMIVVuaXdlcnN5dGV0IGltLiBBZGFtYSBNaWNraWV3aWN6YTFIMEYG
+A1UECww/Q2VudHJ1bSBaYXJ6YWR6YW5pYSBJbmZyYXN0cnVrdHVyYSBpIFByb2pl
+a3RhbWkgSW5mb3JtYXR5Y3pueW1pMRswGQYDVQQDDBJ1c29zd2ViLmFtdS5lZHUu
+cGwxITAfBgkqhkiG9w0BCQEWEnVzb3N3ZWJAYW11LmVkdS5wbDAeFw0xNzAyMTMx
+MzU5NThaFw0yNzAyMTExMzU5NThaMIHrMQswCQYDVQQGEwJQTDEVMBMGA1UECAwM
+V2llbGtvcG9sc2thMQ8wDQYDVQQHDAZQb3puYW4xKjAoBgNVBAoMIVVuaXdlcnN5
+dGV0IGltLiBBZGFtYSBNaWNraWV3aWN6YTFIMEYGA1UECww/Q2VudHJ1bSBaYXJ6
+YWR6YW5pYSBJbmZyYXN0cnVrdHVyYSBpIFByb2pla3RhbWkgSW5mb3JtYXR5Y3pu
+eW1pMRswGQYDVQQDDBJ1c29zd2ViLmFtdS5lZHUucGwxITAfBgkqhkiG9w0BCQEW
+EnVzb3N3ZWJAYW11LmVkdS5wbDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC
+ggEBANEsZLMdzr3Vv144K5wFY2KDKLGgZdolH4/HDg9o1/+ix/s7f4k+sgAm97dw
+E6K8FcEzumZ5VD9+HdB8otkw4WKoaeDH2N3lA12o2Qe8m7Z0530xPQCDn2Xydk+9
+d9nPNIfcpJqNbGfuk+zDfafUv0Zy1fX0h4uzZkACjwj8Z9yWY8QVrGkLac4Na1rk
+pCa2iDAvJ2b4XDPLlZu02OojWbxK+EhFIVB9o8t8zddRAJnnJDFiiXBeqJG2XDug
+A0AiwZaYlyNk+3w1jdduf+WyoJYEoJcsYhfYzZDiupcX+nsb3pLy9mrjtP69a9Ij
+YUVD1TvV++3mJftP/PHUNsuaEe0CAwEAAaNQME4wHQYDVR0OBBYEFA77NUFP1tN7
+P6t2EOoyrIKzWOnHMB8GA1UdIwQYMBaAFA77NUFP1tN7P6t2EOoyrIKzWOnHMAwG
+A1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAEzdbPjuRlDB27693zhuJFpV
+VsWL75N4HcxnyR4dcOGZbeO7mNgg3GT/B4BtveslEcRisIHu5DBOOaRmsToj9GKk
+kXvFQGYX23XsHMydRPYs8p/lwVlHc+zR4/jVytfruh32gTSpLOBisT0Xwgq7/inD
+u2um4/h/8Ev+7LDEqZmFozSHhsLibeFgn0NLLmgkvmbDO8Z3LohnfYYBa+WLUSl4
+BSjkRBTkiuADeEyMgJJM9NRLTKvVjABYFxHaeO551TOE1pHk4wymeyM7d8hUI2my
+bunaVi5OSczr8JBKEpTFNsYfvAjXtHYR/wJmRVfodL1aa0mGlZ8jrHqhYotpRWU=</certificate>
+      </emrex-data-access-point>
+    </r:apis-implemented>
+  </host>
+</manifest>
