@@ -1,0 +1,91 @@
+<manifest
+    xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
+    xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
+    xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
+    xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
+>
+    <host>
+        <ewp:admin-email>admin-ewp@awf.katowice.pl</ewp:admin-email>
+        <ewp:admin-provider>MUCI (USOS IRK)</ewp:admin-provider>
+        <ewp:admin-notes>Application version: 1.19.2 (be6ef828) :: 2025-02-25</ewp:admin-notes>
+        <r:apis-implemented>
+            <discovery
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6/manifest-entry.xsd"
+                version="6.0.0"
+            >
+                <url>https://www.rekrutacja.awf.katowice.pl/ewp/manifest/</url>
+            </discovery>
+            <echo
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.1"
+            >
+                <http-security>
+                    <client-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </client-auth-methods>
+                    <server-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
+                        <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </server-auth-methods>
+                </http-security>
+                <url>https://www.rekrutacja.awf.katowice.pl/ewp/echo/</url>
+            </echo>
+            <omobility-la-cnr
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="1.1.0"
+            >
+                <http-security>
+                    <client-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </client-auth-methods>
+                    <server-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
+                        <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </server-auth-methods>
+                </http-security>
+                <url>https://www.rekrutacja.awf.katowice.pl/ewp/la/cnr/</url>
+                <stats-url>https://www.rekrutacja.awf.katowice.pl/ewp/la/cnr/stats/</stats-url>
+                <max-omobility-ids>100</max-omobility-ids>
+            </omobility-la-cnr>
+        </r:apis-implemented>
+        <institutions-covered>
+            <hei
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
+                id="awf.katowice.pl"
+            >
+                <other-id type="erasmus">PL KATOWIC05</other-id>
+                <other-id type="pic">998568053</other-id>
+                <name xml:lang="pl">Akademia Wychowania Fizycznego im. Jerzego Kukuczki w Katowicach</name>
+                <name xml:lang="en">The Jerzy Kukuczka Academy of Physical Education in Katowice</name>
+            </hei>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <rsa-public-key>MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAxJ9tVaARCyP3XHZuJGFz
+7vOe5cqa7hgCpNTqj9mZ/PxsTaDaEyA2oF8hZx8Bt3JRSGQu9KzZPNQvtexeACaK
+mEsLGuqV1OMhENZMNYBbmKdk1ra4UYN8FA+mUHxFoMBgSPKnaHcBCuhoUJ5RonwN
+5k2ewk87BAg2zJvpsdTBpLV5BleY3eU8cUMHQ0hwRAZfRfPK3+sRjw11F9T0aFVS
+iaCSnmRpTm5hyzSysE0KRWafWnL2fiKuA5gS/uz8HEYN1UkJddagFC/KjsYsrOc1
+80bpWSdl040Maec9C7IRmHec9fCxP9Y8KFJ7gRIJMHeUhREHM9Al5irM8Xa0bKgm
+9H1VJ+BeJ9EZ/AR/vuPgmdOY5IfSnXFhvUb/xYaFopLwtzbb5KpF16KILDHvtl9N
+SPB4h2QznUpWnSGlHUoYj6wnWF1xXjrR6hoCGyswonbknbWWUoFTjy33qeCu1uWo
+BQ6AzbGUEo2ZJv6FtS7h7Q2PJ0VaQrMwKAWPTlCoJB21T7hRgNwAvaC1m3SAgNj9
+XJas0kiEXJ7mXUULx0vlZGB7NT8EIaGVyJR7q2nGlSbxLVGAY04b0j7KD2bqPnlU
+3vxiFzjuwleCopYYHesGzuMdbI2nrc6IvBs4IGfEj+mdhay9Q1OjKvf+ghDtNe2X
+7frL5P7Z+Zu5SWMt++xSGVUCAwEAAQ==</rsa-public-key>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key>MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAxJ9tVaARCyP3XHZuJGFz
+7vOe5cqa7hgCpNTqj9mZ/PxsTaDaEyA2oF8hZx8Bt3JRSGQu9KzZPNQvtexeACaK
+mEsLGuqV1OMhENZMNYBbmKdk1ra4UYN8FA+mUHxFoMBgSPKnaHcBCuhoUJ5RonwN
+5k2ewk87BAg2zJvpsdTBpLV5BleY3eU8cUMHQ0hwRAZfRfPK3+sRjw11F9T0aFVS
+iaCSnmRpTm5hyzSysE0KRWafWnL2fiKuA5gS/uz8HEYN1UkJddagFC/KjsYsrOc1
+80bpWSdl040Maec9C7IRmHec9fCxP9Y8KFJ7gRIJMHeUhREHM9Al5irM8Xa0bKgm
+9H1VJ+BeJ9EZ/AR/vuPgmdOY5IfSnXFhvUb/xYaFopLwtzbb5KpF16KILDHvtl9N
+SPB4h2QznUpWnSGlHUoYj6wnWF1xXjrR6hoCGyswonbknbWWUoFTjy33qeCu1uWo
+BQ6AzbGUEo2ZJv6FtS7h7Q2PJ0VaQrMwKAWPTlCoJB21T7hRgNwAvaC1m3SAgNj9
+XJas0kiEXJ7mXUULx0vlZGB7NT8EIaGVyJR7q2nGlSbxLVGAY04b0j7KD2bqPnlU
+3vxiFzjuwleCopYYHesGzuMdbI2nrc6IvBs4IGfEj+mdhay9Q1OjKvf+ghDtNe2X
+7frL5P7Z+Zu5SWMt++xSGVUCAwEAAQ==</rsa-public-key>
+        </server-credentials-in-use>
+    </host>
+</manifest>
