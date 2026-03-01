@@ -125,8 +125,8 @@
                 <f1:max-hei-ids>25</f1:max-hei-ids>
             </f1:factsheet>
             <omobilities
-                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v1/manifest-entry.xsd"
-                version="1.0.0"
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.0"
             >
                 <http-security>
                     <sec:client-auth-methods>
@@ -139,7 +139,6 @@
                 <get-url>https://ewp.kion.com.tr/api/outgoingmobilities/get/gop</get-url>
                 <index-url>https://ewp.kion.com.tr/api/outgoingmobilities/index/gop</index-url>
                 <max-omobility-ids>25</max-omobility-ids>
-                <sends-notifications/>
             </omobilities>
             <omobility-cnr
                 xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/blob/stable-v1/manifest-entry.xsd"
