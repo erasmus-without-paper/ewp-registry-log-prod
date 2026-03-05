@@ -33,16 +33,16 @@
     xmlns:ns38="https://github.com/erasmus-without-paper/ewp-specs-api-course-replication/tree/stable-v1"
     xmlns:ns39="https://github.com/erasmus-without-paper/ewp-specs-types-academic-term/tree/stable-v1"
     xmlns:ns4="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
-    xmlns:ns40="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/endpoints/index-response.xsd"
-    xmlns:ns41="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/endpoints/update-response.xsd"
-    xmlns:ns42="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/tree/stable-v2"
-    xmlns:ns43="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/tree/stable-v1/endpoints/stats-response.xsd"
-    xmlns:ns44="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/endpoints/stats-response.xsd"
-    xmlns:ns45="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/tree/stable-v2"
-    xmlns:ns46="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v7/endpoints/index-response.xsd"
-    xmlns:ns47="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
-    xmlns:ns48="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
-    xmlns:ns49="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v2/endpoints/index-response.xsd"
+    xmlns:ns40="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/tree/stable-v2"
+    xmlns:ns41="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v7/endpoints/index-response.xsd"
+    xmlns:ns42="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v2/endpoints/index-response.xsd"
+    xmlns:ns43="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/endpoints/index-response.xsd"
+    xmlns:ns44="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/endpoints/update-response.xsd"
+    xmlns:ns45="https://github.com/erasmus-without-paper/ewp-specs-api-ounits/tree/stable-v2"
+    xmlns:ns46="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/tree/stable-v1/endpoints/stats-response.xsd"
+    xmlns:ns47="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/endpoints/stats-response.xsd"
+    xmlns:ns48="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
+    xmlns:ns49="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
     xmlns:ns5="https://github.com/erasmus-without-paper/ewp-specs-api-file/blob/stable-v1/manifest-entry.xsd"
     xmlns:ns50="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-none/tree/stable-v1"
     xmlns:ns51="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
@@ -73,7 +73,7 @@
                     </ns4:client-auth-methods>
                     <ns4:server-auth-methods>
                         <ns52:httpsig/>
-                        <ns47:tlscert/>
+                        <ns48:tlscert/>
                     </ns4:server-auth-methods>
                     <ns4:request-encryption-methods>
                         <ns53:tls/>
@@ -93,7 +93,7 @@
                     </ns4:client-auth-methods>
                     <ns4:server-auth-methods>
                         <ns52:httpsig/>
-                        <ns47:tlscert/>
+                        <ns48:tlscert/>
                     </ns4:server-auth-methods>
                     <ns4:request-encryption-methods>
                         <ns53:tls/>
@@ -113,7 +113,7 @@
                     </ns4:client-auth-methods>
                     <ns4:server-auth-methods>
                         <ns52:httpsig/>
-                        <ns47:tlscert/>
+                        <ns48:tlscert/>
                     </ns4:server-auth-methods>
                     <ns4:request-encryption-methods>
                         <ns53:tls/>
@@ -134,7 +134,7 @@
                     </ns4:client-auth-methods>
                     <ns4:server-auth-methods>
                         <ns52:httpsig/>
-                        <ns47:tlscert/>
+                        <ns48:tlscert/>
                     </ns4:server-auth-methods>
                     <ns4:request-encryption-methods>
                         <ns53:tls/>
@@ -155,7 +155,7 @@
                     </ns4:client-auth-methods>
                     <ns4:server-auth-methods>
                         <ns52:httpsig/>
-                        <ns47:tlscert/>
+                        <ns48:tlscert/>
                     </ns4:server-auth-methods>
                     <ns4:request-encryption-methods>
                         <ns53:tls/>
@@ -176,7 +176,7 @@
                     </ns4:client-auth-methods>
                     <ns4:server-auth-methods>
                         <ns52:httpsig/>
-                        <ns47:tlscert/>
+                        <ns48:tlscert/>
                     </ns4:server-auth-methods>
                     <ns4:request-encryption-methods>
                         <ns53:tls/>
@@ -198,7 +198,7 @@
                     </ns4:client-auth-methods>
                     <ns4:server-auth-methods>
                         <ns52:httpsig/>
-                        <ns47:tlscert/>
+                        <ns48:tlscert/>
                     </ns4:server-auth-methods>
                     <ns4:request-encryption-methods>
                         <ns53:tls/>
@@ -217,7 +217,7 @@
                     </ns4:client-auth-methods>
                     <ns4:server-auth-methods>
                         <ns52:httpsig/>
-                        <ns47:tlscert/>
+                        <ns48:tlscert/>
                     </ns4:server-auth-methods>
                     <ns4:request-encryption-methods>
                         <ns53:tls/>
@@ -237,7 +237,7 @@
                     </ns4:client-auth-methods>
                     <ns4:server-auth-methods>
                         <ns52:httpsig/>
-                        <ns47:tlscert/>
+                        <ns48:tlscert/>
                     </ns4:server-auth-methods>
                     <ns4:request-encryption-methods>
                         <ns53:tls/>
@@ -256,7 +256,7 @@
                     </ns4:client-auth-methods>
                     <ns4:server-auth-methods>
                         <ns52:httpsig/>
-                        <ns47:tlscert/>
+                        <ns48:tlscert/>
                     </ns4:server-auth-methods>
                     <ns4:request-encryption-methods>
                         <ns53:tls/>
@@ -276,7 +276,7 @@
                     </ns4:client-auth-methods>
                     <ns4:server-auth-methods>
                         <ns52:httpsig/>
-                        <ns47:tlscert/>
+                        <ns48:tlscert/>
                     </ns4:server-auth-methods>
                     <ns4:request-encryption-methods>
                         <ns53:tls/>
