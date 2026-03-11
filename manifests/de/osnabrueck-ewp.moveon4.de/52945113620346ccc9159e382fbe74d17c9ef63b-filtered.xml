@@ -93,30 +93,6 @@
                 </iac3:http-security>
                 <iac3:url>https://osnabrueck-ewp.moveon4.de/v1/iia/cnr</iac3:url>
             </iac3:iia-cnr>
-            <im2:imobilities version="2.0.0">
-                <im2:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </im2:http-security>
-                <im2:get-url>https://osnabrueck-ewp.moveon4.de/v1/imobility/get</im2:get-url>
-                <im2:max-omobility-ids>10</im2:max-omobility-ids>
-            </im2:imobilities>
-            <imc2:imobility-cnr version="2.0.0">
-                <imc2:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </imc2:http-security>
-                <imc2:url>https://osnabrueck-ewp.moveon4.de/v1/imobility/cnr</imc2:url>
-                <imc2:max-omobility-ids>10</imc2:max-omobility-ids>
-            </imc2:imobility-cnr>
             <iaa2:iias-approval version="2.0.0">
                 <iaa2:http-security>
                     <sec:client-auth-methods>
