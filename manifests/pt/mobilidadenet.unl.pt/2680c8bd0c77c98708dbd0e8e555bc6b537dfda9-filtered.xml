@@ -351,6 +351,25 @@
                 <ns30:stats-url>https://mobilidadenet.unl.pt/mobilidadenet/ewp/ewpstage/omobility_la_cnr_stats</ns30:stats-url>
                 <ns30:max-omobility-ids>1</ns30:max-omobility-ids>
             </ns30:omobility-la-cnr>
+            <ns27:file version="1.0.0">
+                <ns27:http-security>
+                    <ns15:client-auth-methods>
+                        <ns38:httpsig/>
+                        <ns37:anonymous/>
+                    </ns15:client-auth-methods>
+                    <ns15:server-auth-methods>
+                        <ns39:httpsig/>
+                        <ns35:tlscert/>
+                    </ns15:server-auth-methods>
+                    <ns15:request-encryption-methods>
+                        <ns40:tls/>
+                    </ns15:request-encryption-methods>
+                    <ns15:response-encryption-methods>
+                        <ns41:tls/>
+                    </ns15:response-encryption-methods>
+                </ns27:http-security>
+                <ns27:url>https://mobilidadenet.unl.pt/mobilidadenet/ewp/ewpstage/file</ns27:url>
+            </ns27:file>
         </ns2:apis-implemented>
         <ns3:institutions-covered>
             <ns2:hei id="unl.pt">
