@@ -1,0 +1,81 @@
+<manifest
+    xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
+    xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
+    xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
+    xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
+>
+    <host>
+        <ewp:admin-email>international@prawowroclaw.edu.pl</ewp:admin-email>
+        <ewp:admin-provider>MUCI (USOS IRK)</ewp:admin-provider>
+        <ewp:admin-notes>Application version: 1.20.0 (fbe0ea466-dirty) :: 2025-08-26</ewp:admin-notes>
+        <r:apis-implemented>
+            <discovery
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6/manifest-entry.xsd"
+                version="6.0.0"
+            >
+                <url>https://rekrutacja.prawowroclaw.edu.pl/ewp/manifest/</url>
+            </discovery>
+            <echo
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.1"
+            >
+                <http-security>
+                    <client-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </client-auth-methods>
+                    <server-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
+                        <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </server-auth-methods>
+                </http-security>
+                <url>https://rekrutacja.prawowroclaw.edu.pl/ewp/echo/</url>
+            </echo>
+            <omobility-la-cnr
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="1.1.0"
+            >
+                <http-security>
+                    <client-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </client-auth-methods>
+                    <server-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
+                        <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </server-auth-methods>
+                </http-security>
+                <url>https://rekrutacja.prawowroclaw.edu.pl/ewp/la/cnr/</url>
+                <stats-url>https://rekrutacja.prawowroclaw.edu.pl/ewp/la/cnr/stats/</stats-url>
+                <max-omobility-ids>100</max-omobility-ids>
+            </omobility-la-cnr>
+        </r:apis-implemented>
+        <institutions-covered>
+            <hei
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
+                id="prawowroclaw.edu.pl"
+            >
+                <other-id type="erasmus">PL WROCLAW30</other-id>
+                <other-id type="pic">913342107</other-id>
+                <name xml:lang="pl">Wyższa Szkoła Prawa we Wrocławiu</name>
+                <name xml:lang="en">University of Law</name>
+            </hei>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyK8VgWMbEJ+6x22apAy9
+b/DMS2Oz5s18ETAC1YY/4Vs0z1dHAGcyYbV1bHQF3n5MMGKQhZkf8JbtH/NMVeS6
+qiDZPEd1SrFtKEqCKtye/OOjsmQN6z+//qtJlP2ZJVtMXpzohNMe7utW2B+8b+os
+xH9fXMC/tCcKaS8Eg1Jeidrb7+n6vOYH9H2rKmZ3gO4ek803uWphewmmB/bhRYid
+9WlThydJDfkE8du+MkI+KQDCC2s5X343xvItbvWktJh0oZ2WcVKAO9+hm5nGGyNs
+dmB/KPphnH5K/GKv2dcewQ6X0AXCEV8cES0PRnMw/1c/JgXEmNIafK0BT6Wkm2TB
+7wIDAQAB</rsa-public-key>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyK8VgWMbEJ+6x22apAy9
+b/DMS2Oz5s18ETAC1YY/4Vs0z1dHAGcyYbV1bHQF3n5MMGKQhZkf8JbtH/NMVeS6
+qiDZPEd1SrFtKEqCKtye/OOjsmQN6z+//qtJlP2ZJVtMXpzohNMe7utW2B+8b+os
+xH9fXMC/tCcKaS8Eg1Jeidrb7+n6vOYH9H2rKmZ3gO4ek803uWphewmmB/bhRYid
+9WlThydJDfkE8du+MkI+KQDCC2s5X343xvItbvWktJh0oZ2WcVKAO9+hm5nGGyNs
+dmB/KPphnH5K/GKv2dcewQ6X0AXCEV8cES0PRnMw/1c/JgXEmNIafK0BT6Wkm2TB
+7wIDAQAB</rsa-public-key>
+        </server-credentials-in-use>
+    </host>
+</manifest>
