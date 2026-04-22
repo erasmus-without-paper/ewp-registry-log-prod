@@ -152,7 +152,7 @@
         </iaac2:http-security>
         <iaac2:url>https://hswt-ewp.moveon4.de/v1/iia/approval/cnr</iaac2:url>
       </iaac2:iia-approval-cnr>
-      <f1:factsheet version="1.1.0">
+      <f1:factsheet version="1.2.0">
         <f1:http-security>
           <sec:client-auth-methods>
             <sec-A2:httpsig/>
@@ -161,7 +161,7 @@
             <sec-B2:httpsig/>
           </sec:server-auth-methods>
         </f1:http-security>
-        <f1:url>https://hswt-ewp.moveon4.de/v1/factsheet/get</f1:url>
+        <f1:url>https://hswt-ewp.moveon4.de/v1/factsheet/get?v=20251027</f1:url>
         <f1:max-hei-ids>10</f1:max-hei-ids>
       </f1:factsheet>
       <file1:file version="1.0.0">
