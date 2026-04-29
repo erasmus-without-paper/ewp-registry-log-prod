@@ -1,70 +1,107 @@
-<manifest
-    xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
-    xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
-    xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
-    xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
-    xmlns:xml="http://www.w3.org/XML/1998/namespace"
->
-    <host>
-        <ewp:admin-email>ewp-admin@awf.krakow.pl</ewp:admin-email>
-        <ewp:admin-provider>MUCI (USOS IRK)</ewp:admin-provider>
-        <ewp:admin-notes>Application version: 1.21.0 (c92294c9-dirty) :: 2026-03-06</ewp:admin-notes>
-        <r:apis-implemented>
-            <discovery xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6/manifest-entry.xsd" version="6.0.0">
-                <url>https://irk.awf.krakow.pl/ewp/manifest/</url>
-            </discovery>
-            <echo xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-echo/blob/stable-v2/manifest-entry.xsd" version="2.0.1">
-                <http-security>
-    <client-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
-        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
-    </client-auth-methods>
-    <server-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
-        <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
-        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
-    </server-auth-methods>
-</http-security>
-                <url>https://irk.awf.krakow.pl/ewp/echo/</url>
-            </echo>
-            <omobility-la-cnr xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd" version="1.1.0">
-                <http-security>
-    <client-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
-        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
-    </client-auth-methods>
-    <server-auth-methods xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2">
-        <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
-        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
-    </server-auth-methods>
-</http-security>
-                <url>https://irk.awf.krakow.pl/ewp/la/cnr/</url>
-                <stats-url>https://irk.awf.krakow.pl/ewp/la/cnr/stats/</stats-url>
-                <max-omobility-ids>100</max-omobility-ids>
-            </omobility-la-cnr>
-        </r:apis-implemented>
-        <institutions-covered>
-            <hei xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1" id="awf.krakow.pl">
-                <other-id type="erasmus">PL KRAKOW12</other-id>
-                <other-id type="pic">949491776</other-id>
-                <name xml:lang="pl">Akademia Kultury Fizycznej im. Bronisława Czecha w Krakowie</name>
-                <name xml:lang="en">The University of Physical Culture in Krakow</name>
-            </hei>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApbE72QsBG1GCqvU5OfLZ
-v9wRmz3NKEzQ2rgGjd1Cxip3uBfAt7oprWpYZeqfS2BxxBbRkIsOwtbee+tMGVOU
-BRBAxEy8a4226350J4XLHqsIrU7lgtB7KIwtH0g38FrGzJnayMHOaMX2CeF3RVtB
-W4LzKnKX6zz4qXk9x2k/7pV37uPdjlNqpLFznkEPt6Jl8jubq0XWG2EMJKW3KsoL
-sUkIUX/ba7dAWoGr2jXCKGlZ1SJtlyQCKAMjRD2O0n9Fs1fEG4xSFqzN/HrXidfZ
-m3NeQ3OzFD100sNLADMnn5lJmE+aH9CS1w6zuhl+fbHYzlQnCIL2gEv8EOAFqN6b
-JwIDAQAB</rsa-public-key>
-        </client-credentials-in-use>
-        <server-credentials-in-use>
-            <rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApbE72QsBG1GCqvU5OfLZ
-v9wRmz3NKEzQ2rgGjd1Cxip3uBfAt7oprWpYZeqfS2BxxBbRkIsOwtbee+tMGVOU
-BRBAxEy8a4226350J4XLHqsIrU7lgtB7KIwtH0g38FrGzJnayMHOaMX2CeF3RVtB
-W4LzKnKX6zz4qXk9x2k/7pV37uPdjlNqpLFznkEPt6Jl8jubq0XWG2EMJKW3KsoL
-sUkIUX/ba7dAWoGr2jXCKGlZ1SJtlyQCKAMjRD2O0n9Fs1fEG4xSFqzN/HrXidfZ
-m3NeQ3OzFD100sNLADMnn5lJmE+aH9CS1w6zuhl+fbHYzlQnCIL2gEv8EOAFqN6b
-JwIDAQAB</rsa-public-key>
-        </server-credentials-in-use>
-    </host>
-</manifest>
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="/static/css/font-awesome/font-awesome.css"/>
+    <link type="text/css" rel="stylesheet" href="/static/css/general.css">
+    <title>Internetowa Rekrutacja Kandydatów</title>
+    <style type="text/css">
+      	body > header {
+          margin-top: 40px;
+        }
+      	a.lang_switch {
+          position: absolute;
+          top: 40px;
+          right: 20px;
+          height: 25px;
+          z-index: 5;
+      	}
+        a.lang_switch img {
+          height: 25px;
+          width: auto;
+          box-shadow: 2px 2px 10px grey;
+      	}
+        a.frontpage-box {
+            width: 30%;
+            display: inline-block;
+            border: 1px solid silver;
+            border-radius: 10px;
+            box-shadow: silver 0 0 10px;
+            margin: 1%;
+            text-align: center;
+            vertical-align: top;
+        }
+        a.frontpage-box:hover {
+            background: #eeeeee;
+        }
+        a.frontpage-box p {
+            font-size: 1.3em;
+            height: 60px;
+            margin: 10px;
+        }
+        a.frontpage-box p.icons{
+          	font-size: 50px;
+          	margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+  <header id="menus">
+
+    <div id="header">
+      <div>
+        <div>
+          <div>
+            <a href="/">
+              <img src="/static/images/logo/header-pl.svg" alt="Logo uczelni">
+            </a>
+          </div>
+          <div>
+            Internetowa Rekrutacja Kandydatów
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+<main>
+	<h1>Witaj w Akademii Kultury Fizycznej im. Bronisława Czecha w Krakowie</h1> 
+        <div class="links-container">           
+           <a class="frontpage-box" href="https://irk.akf.krakow.pl/pl/2025/?next=/home/">
+                <p>studia I i II stopnia oraz studia jednolite magisterskie</p>
+              	<p class="icons">
+              		<span class="fa fa-graduation-cap" style="margin-right: 50px"></span>
+              		<span class="fa fa-graduation-cap"></span>
+              		<span class="fa fa-graduation-cap"></span>
+                </p>
+            </a>
+			
+			<a class="frontpage-box" href="https://irk.akf.krakow.pl/pl/offer/2024-SD/programme/ASD-SD/?from=field:SD">
+                <p>Szkoła Doktorska</p>
+              	<p class="icons">
+              		<span class="fa fa-graduation-cap"></span>
+		            <span class="fa fa-graduation-cap"></span>
+              		<span class="fa fa-graduation-cap"></span>
+                </p>
+            </a>
+			
+ </div>
+  </main>
+<footer>
+    <section id="info">
+        <section>
+            <img src="/static/images/logo/footer-pl.svg" alt="">
+        </section>
+        <section>
+            <div>Akademia Kultury Fizycznej im. Bronisława Czecha w Krakowie </div>
+             <div><span class="fa fa-map-marker fa-fw"></span> Al. Jana Pawła II 78<br/>31-571 Kraków</div>
+                    <div><span class="fa fa-phone fa-fw"></span> tel:  +48 12 683 10 00</div>
+                    <div><span class="fa fa-globe fa-fw"></span> www: <a href="https://www.akf.krakow.pl">https://www.akf.krakow.pl</a></div><div><span class="fa fa-universal-access fa-fw"></span> <a href="https://irk.akf.krakow.pl/pl/accessibility/">deklaracja dostępności</a></div>
+        </section>
+    </section>
+    <section id="copyright">
+        <span class="fa fa-copyright"></span> <a href="http://www.muci.edu.pl/">Międzyuniwersyteckie Centrum Informatyzacji</a>. Wszelkie prawa zastrzeżone.
+    </section>
+</footer>
+<div id="black-footer-frame" class=""></div>
+</body>
+</html>
