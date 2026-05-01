@@ -414,6 +414,45 @@
                 <imc2:url>https://isois.jamu.cz/en/ewp/imobilityCnr/</imc2:url>
                 <imc2:max-omobility-ids>1</imc2:max-omobility-ids>
             </imc2:imobility-cnr>
+            <imt3:imobility-tors version="3.0.0">
+                <imt3:http-security>
+                    <sec:client-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </sec:server-auth-methods>
+                </imt3:http-security>
+                <imt3:get-url>https://isois.jamu.cz/en/ewp/imobilityTorGet/</imt3:get-url>
+                <imt3:index-url>https://isois.jamu.cz/en/ewp/imobilityTorIndex/</imt3:index-url>
+                <imt3:max-omobility-ids>1</imt3:max-omobility-ids>
+            </imt3:imobility-tors>
+            <imtc2:imobility-tor-cnr version="2.0.0">
+                <imtc2:http-security>
+                    <sec:client-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </sec:server-auth-methods>
+                </imtc2:http-security>
+                <imtc2:url>https://isois.jamu.cz/en/ewp/imobilityTorCnr/</imtc2:url>
+                <imtc2:max-omobility-ids>1</imtc2:max-omobility-ids>
+            </imtc2:imobility-tor-cnr>
+            <imts1:imobility-tor-stats version="1.0.0">
+                <imts1:http-security>
+                    <sec:client-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <tlscert xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"/>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </sec:server-auth-methods>
+                </imts1:http-security>
+                <imts1:url>https://isois.jamu.cz/en/ewp/imobilityTorStats/</imts1:url>
+            </imts1:imobility-tor-stats>
         </r:apis-implemented>
         <mf:institutions-covered xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1">
             <hei id="jamu.cz">
