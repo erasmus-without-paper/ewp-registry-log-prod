@@ -107,6 +107,18 @@
                 <ou2:max-ounit-ids>1</ou2:max-ounit-ids>
                 <ou2:max-ounit-codes>1</ou2:max-ounit-codes>
             </ou2:organizational-units>
+            <facs:factsheet version="1.2.0">
+                <facs:http-security>
+                    <sec:client-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </sec:server-auth-methods>
+                </facs:http-security>
+                <facs:url>https://ewp.url.edu/api/factsheet120</facs:url>
+                <facs:max-hei-ids>1</facs:max-hei-ids>
+            </facs:factsheet>
             <om3:omobilities version="3.0.0">
                 <om3:http-security>
                     <sec:client-auth-methods>
