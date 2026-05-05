@@ -49,6 +49,67 @@
             <ns34:discovery version="6.0.0">
                 <ns34:url>https://mobility.elte.hu/mobility/ewp/manifest/elte.hu?api=all</ns34:url>
             </ns34:discovery>
+            <ns19:omobilities version="3.0.0">
+                <ns19:http-security>
+                    <ns5:client-auth-methods>
+                        <ns36:httpsig/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns37:httpsig/>
+                    </ns5:server-auth-methods>
+                </ns19:http-security>
+                <ns19:get-url>https://mobility.elte.hu/mobility/ewp/mobility_out/get/elte.hu</ns19:get-url>
+                <ns19:index-url>https://mobility.elte.hu/mobility/ewp/mobility_out/index/elte.hu</ns19:index-url>
+                <ns19:update-url>https://mobility.elte.hu/mobility/ewp/mobility_out/update/elte.hu</ns19:update-url>
+                <ns19:max-omobility-ids>1</ns19:max-omobility-ids>
+            </ns19:omobilities>
+            <ns18:omobility-stats version="1.0.0">
+                <ns18:http-security>
+                    <ns5:client-auth-methods>
+                        <ns36:httpsig/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns37:httpsig/>
+                    </ns5:server-auth-methods>
+                </ns18:http-security>
+                <ns18:url>https://mobility.elte.hu/mobility/ewp/mobility_out/stats/elte.hu</ns18:url>
+            </ns18:omobility-stats>
+            <ns13:imobility-cnr version="2.0.0">
+                <ns13:http-security>
+                    <ns5:client-auth-methods>
+                        <ns36:httpsig/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns37:httpsig/>
+                    </ns5:server-auth-methods>
+                </ns13:http-security>
+                <ns13:url>https://mobility.elte.hu/mobility/ewp/mobility_in/cnr/elte.hu</ns13:url>
+                <ns13:max-omobility-ids>1</ns13:max-omobility-ids>
+            </ns13:imobility-cnr>
+            <ns14:imobilities version="2.0.0">
+                <ns14:http-security>
+                    <ns5:client-auth-methods>
+                        <ns36:httpsig/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns37:httpsig/>
+                    </ns5:server-auth-methods>
+                </ns14:http-security>
+                <ns14:get-url>https://mobility.elte.hu/mobility/ewp/mobility_in/get/elte.hu</ns14:get-url>
+                <ns14:max-omobility-ids>1</ns14:max-omobility-ids>
+            </ns14:imobilities>
+            <ns17:omobility-cnr version="2.0.0">
+                <ns17:http-security>
+                    <ns5:client-auth-methods>
+                        <ns36:httpsig/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns37:httpsig/>
+                    </ns5:server-auth-methods>
+                </ns17:http-security>
+                <ns17:url>https://mobility.elte.hu/mobility/ewp/mobility_out/cnr/elte.hu</ns17:url>
+                <ns17:max-omobility-ids>1</ns17:max-omobility-ids>
+            </ns17:omobility-cnr>
             <ns16:omobility-las version="1.2.0">
                 <ns16:http-security>
                     <ns5:client-auth-methods>
