@@ -1,0 +1,104 @@
+<manifest
+    xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
+    xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
+    xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
+    xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
+    xmlns:sec-cli-anon="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-none/tree/stable-v1"
+    xmlns:sec-cli-http="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
+    xmlns:sec-cli-tls="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
+    xmlns:sec-svr-http="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
+    xmlns:sec-svr-tls="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
+>
+    <host>
+        <ewp:admin-email>ewp-plus@it.auth.gr</ewp:admin-email>
+        <ewp:admin-email>ewp-monitor@it.auth.gr</ewp:admin-email>
+        <ewp:admin-provider>EWP Dashboard</ewp:admin-provider>
+        <ewp:admin-notes>Manifest File for general endpoints Erasmus Dashboard.</ewp:admin-notes>
+        <r:apis-implemented>
+            <discovery
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6/manifest-entry.xsd"
+                version="6.0.0"
+            >
+                <url>https://unizoneewp.it.auth.gr/rest/manifest/akademie-der-polizei.hamburg.de</url>
+            </discovery>
+            <omobility-las
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd"
+                version="1.2.0"
+            >
+                <http-security>
+                    <sec:client-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </sec:server-auth-methods>
+                </http-security>
+                <get-url>https://unizoneewp.it.auth.gr/rest/las/get/akademie-der-polizei.hamburg.de</get-url>
+                <index-url>https://unizoneewp.it.auth.gr/rest/las/index/akademie-der-polizei.hamburg.de</index-url>
+                <update-url>https://unizoneewp.it.auth.gr/rest/las/update/akademie-der-polizei.hamburg.de</update-url>
+                <stats-url>https://unizoneewp.it.auth.gr/rest/las/stats/outgoing/akademie-der-polizei.hamburg.de</stats-url>
+                <max-omobility-ids>1</max-omobility-ids>
+            </omobility-las>
+            <omobility-la-cnr
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="1.1.0"
+            >
+                <http-security>
+                    <sec:client-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </sec:server-auth-methods>
+                </http-security>
+                <url>https://unizoneewp.it.auth.gr/rest/las/cnr/akademie-der-polizei.hamburg.de</url>
+                <stats-url>https://unizoneewp.it.auth.gr/rest/las/stats/incoming/akademie-der-polizei.hamburg.de</stats-url>
+                <max-omobility-ids>1</max-omobility-ids>
+            </omobility-la-cnr>
+            <imobility-tors
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-tors/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.0"
+            >
+                <http-security>
+                    <sec:client-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </sec:server-auth-methods>
+                </http-security>
+                <get-url>https://unizoneewp.it.auth.gr/rest/tors/imobilities/get/akademie-der-polizei.hamburg.de</get-url>
+                <index-url>https://unizoneewp.it.auth.gr/rest/tors/imobilities/index/akademie-der-polizei.hamburg.de</index-url>
+                <max-omobility-ids>1</max-omobility-ids>
+            </imobility-tors>
+            <imobility-tor-cnr
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-tor-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <http-security>
+                    <sec:client-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <httpsig xmlns="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"/>
+                    </sec:server-auth-methods>
+                </http-security>
+                <url>https://unizoneewp.it.auth.gr/rest/tors/imobilities/cnr/akademie-der-polizei.hamburg.de</url>
+                <max-omobility-ids>1</max-omobility-ids>
+            </imobility-tor-cnr>
+        </r:apis-implemented>
+        <institutions-covered>
+            <r:hei id="akademie-der-polizei.hamburg.de">
+                <r:other-id type="erasmus">D  HAMBURG20</r:other-id>
+                <r:other-id type="pic">946710495</r:other-id>
+                <r:name>Akademie der Polizei Hamburg</r:name>
+            </r:hei>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <rsa-public-key>MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAochEUCE+SowAnXUFGc2M0OQumHOKxzrXgdBxuKWZA6Onk0Ovl/pIC8Neg/9nfyr1E2FWYXOkWW1WUpZPl4qu8Fk0rQ68fuqDaCiJn3vg/vOrLMiPkYPSKbbrlkr2R2jwdZ0PFqw4ZrCzoFUuHtzPdsq8WISsWZrBnlhLV2YfXZOH+pis6NNolYX5Vu9prYSS8zp0yLCEG25OB8fuGr+wh8SsY6mlmBRHSPElbxmb7a5Hc4fYE570S8VybkzKbTFtxO/A91v2H22vfcHodW3BF9d9Gip6Vp6dGxQLrdH2wT1qhbB/p3fZjvmLFrL1PIPb3L7IrE7YKgsbkb0H2g1vEFIyahrocZLVvHHmPPTFaPtHfWDZw9KlCO8+7yV1/EmfqFr3hPdbBCdlZUWBEK/48RPSgBzYJ45z3Ufhm4I3foT3lQyYZ8PduRnO8hINomO5qIcCQM+bPwj/3YAPMNxT6FacniVZRvNg3Co59Jw82C2YaNmeqpTZy7kEJVKCRvXsfk8QYDERni5MUChtoLzpHfaYE/tOYmf9YEfKjm7HKdHko51Rqmjhx4fZBSqIQ9tDWLiUZGpo1pmV9dS022kn51N+fB/hJtTlCrURqXHFeJTGMcIjhNBNtTxzXa+lfS8sznSZFL8SkdUSa/Zrxf8VJN7lCL1tRSWuM9ba+4VwdaECAwEAAQ==</rsa-public-key>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key>MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAochEUCE+SowAnXUFGc2M0OQumHOKxzrXgdBxuKWZA6Onk0Ovl/pIC8Neg/9nfyr1E2FWYXOkWW1WUpZPl4qu8Fk0rQ68fuqDaCiJn3vg/vOrLMiPkYPSKbbrlkr2R2jwdZ0PFqw4ZrCzoFUuHtzPdsq8WISsWZrBnlhLV2YfXZOH+pis6NNolYX5Vu9prYSS8zp0yLCEG25OB8fuGr+wh8SsY6mlmBRHSPElbxmb7a5Hc4fYE570S8VybkzKbTFtxO/A91v2H22vfcHodW3BF9d9Gip6Vp6dGxQLrdH2wT1qhbB/p3fZjvmLFrL1PIPb3L7IrE7YKgsbkb0H2g1vEFIyahrocZLVvHHmPPTFaPtHfWDZw9KlCO8+7yV1/EmfqFr3hPdbBCdlZUWBEK/48RPSgBzYJ45z3Ufhm4I3foT3lQyYZ8PduRnO8hINomO5qIcCQM+bPwj/3YAPMNxT6FacniVZRvNg3Co59Jw82C2YaNmeqpTZy7kEJVKCRvXsfk8QYDERni5MUChtoLzpHfaYE/tOYmf9YEfKjm7HKdHko51Rqmjhx4fZBSqIQ9tDWLiUZGpo1pmV9dS022kn51N+fB/hJtTlCrURqXHFeJTGMcIjhNBNtTxzXa+lfS8sznSZFL8SkdUSa/Zrxf8VJN7lCL1tRSWuM9ba+4VwdaECAwEAAQ==</rsa-public-key>
+        </server-credentials-in-use>
+    </host>
+</manifest>
