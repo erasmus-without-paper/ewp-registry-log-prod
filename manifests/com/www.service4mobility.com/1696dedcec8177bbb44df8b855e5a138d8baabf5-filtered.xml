@@ -44,7 +44,7 @@
             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
             xml:lang="en"
             xsi:type="MultilineStringWithOptionalLang"
-        >stable v2.19328 (09/07/2026)</admin-notes>
+        >stable v2.19352 (10/07/2026)</admin-notes>
         <ns2:apis-implemented>
             <ns34:discovery version="6.0.0">
                 <ns34:url>https://www.service4mobility.com/europe/ewp/manifest/hs-aalen.de?api=all</ns34:url>
@@ -61,6 +61,19 @@
                 <ns32:url>https://www.service4mobility.com/europe/ewp/institutions/hs-aalen.de</ns32:url>
                 <ns32:max-hei-ids>3</ns32:max-hei-ids>
             </ns32:institutions>
+            <ns31:organizational-units version="2.1.1">
+                <ns31:http-security>
+                    <ns5:client-auth-methods>
+                        <ns36:httpsig/>
+                    </ns5:client-auth-methods>
+                    <ns5:server-auth-methods>
+                        <ns37:httpsig/>
+                    </ns5:server-auth-methods>
+                </ns31:http-security>
+                <ns31:url>https://www.service4mobility.com/europe/ewp/ounits/hs-aalen.de</ns31:url>
+                <ns31:max-ounit-ids>3</ns31:max-ounit-ids>
+                <ns31:max-ounit-codes>3</ns31:max-ounit-codes>
+            </ns31:organizational-units>
             <ns28:iias version="7.0.0">
                 <ns28:http-security>
                     <ns5:client-auth-methods>
