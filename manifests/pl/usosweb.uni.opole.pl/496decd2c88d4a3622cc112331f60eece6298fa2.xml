@@ -7,7 +7,13 @@
 <meta name="description" content="Przerwa techniczna systemu USOS – Uniwersytet Opolski">
 <meta name="theme-color" content="#FF9800">
 <title>Przerwa techniczna – USOS – Uniwersytet Opolski</title>
-<link rel="icon" href="/assets/img/favicon.ico" sizes="any">
+<!-- Ikona USOS (z usos.edu.pl), trzymana lokalnie — zero zależności od sieci.
+     Kopia jako /favicon.ico jest konieczna: przeglądarki pytają o ten adres
+     wprost, a przy zaślepce serwowanej pod cudzą domeną try_files zwracał
+     tam HTML zamiast obrazka. Oba pliki to ten sam znak. -->
+<link rel="icon" type="image/png" href="/assets/img/favicon.png" sizes="128x128">
+<link rel="icon" type="image/x-icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="/assets/img/favicon.png">
 <link rel="stylesheet" href="/assets/css/zaslepka.css?v=1">
 </head>
 <body>
