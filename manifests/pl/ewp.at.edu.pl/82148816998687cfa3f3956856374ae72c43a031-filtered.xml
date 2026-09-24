@@ -1,5 +1,5 @@
-<ns36:manifest
-    xmlns:ns36="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
+<ns35:manifest
+    xmlns:ns35="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
     xmlns:iias="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v7/endpoints/get-response.xsd"
     xmlns:ns10="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/blob/stable-v1/manifest-entry.xsd"
     xmlns:ns11="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v2/manifest-entry.xsd"
@@ -28,7 +28,7 @@
     xmlns:ns32="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
     xmlns:ns33="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
     xmlns:ns34="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/tree/stable-v1"
-    xmlns:ns35="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
+    xmlns:ns36="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
     xmlns:ns37="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
     xmlns:ns38="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
     xmlns:ns39="https://github.com/erasmus-without-paper/ewp-specs-types-academic-term/tree/stable-v2"
@@ -58,11 +58,11 @@
     xmlns:ns8="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd"
     xmlns:ns9="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd"
 >
-    <ns36:host>
+    <ns35:host>
         <ns4:admin-email>informatyk@e-at.edu.pl</ns4:admin-email>
         <ns4:admin-provider>MUCI (USOS)</ns4:admin-provider>
         <ns4:admin-notes>Base build version: 7.3.1</ns4:admin-notes>
-        <ns35:apis-implemented>
+        <ns36:apis-implemented>
             <ns23:discovery version="6.0.0">
                 <ns23:url>https://ewp.at.edu.pl/ewp/manifest</ns23:url>
             </ns23:discovery>
@@ -255,32 +255,32 @@
                 <ns14:url>https://ewp.at.edu.pl/ewp/tors/cnr</ns14:url>
                 <ns14:max-omobility-ids>10</ns14:max-omobility-ids>
             </ns14:imobility-tor-cnr>
-        </ns35:apis-implemented>
-        <ns36:institutions-covered>
-            <ns35:hei id="at.edu.pl">
-                <ns35:other-id type="erasmus">PL WARSZAW11</ns35:other-id>
-                <ns35:other-id type="pic">949647267</ns35:other-id>
-                <ns35:name xml:lang="pl">Akademia Teatralna im. Aleksandra Zelwerowicza w Warszawie</ns35:name>
-                <ns35:name xml:lang="en">The Aleksander Zelwerowicz National Academy of Dramatic Art in Warsaw</ns35:name>
-            </ns35:hei>
-        </ns36:institutions-covered>
-        <ns36:client-credentials-in-use>
-            <ns36:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnyVtgR0hDj0zB/0xyAXh
+        </ns36:apis-implemented>
+        <ns35:institutions-covered>
+            <ns36:hei id="at.edu.pl">
+                <ns36:other-id type="erasmus">PL WARSZAW11</ns36:other-id>
+                <ns36:other-id type="pic">949647267</ns36:other-id>
+                <ns36:name xml:lang="pl">Akademia Teatralna im. Aleksandra Zelwerowicza w Warszawie</ns36:name>
+                <ns36:name xml:lang="en">The Aleksander Zelwerowicz National Academy of Dramatic Art in Warsaw</ns36:name>
+            </ns36:hei>
+        </ns35:institutions-covered>
+        <ns35:client-credentials-in-use>
+            <ns35:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnyVtgR0hDj0zB/0xyAXh
 Hh8LiR0wcDFgNC0TPuuhXz8PYvbYf52yNDwokhFBo+Wl24Sr525ZxjR6gAHiFBOB
 9YtMYRKxrHdvHcxzbzgXzbYjtdca72GKP/oWRjwZBcOuILt7s8+HNzEpaST7TrUW
 R2SfKBzXqeYxHuQrMOE1Msmsrtb850UTWLpf6XOzriW0WBM5NyOnOo+F5HxyvRzl
 EfeRVV/9RInqIHU1qhGiQSS9zlsiq1K2onOYP+TJcCMP41pU8wuQfRF8B81oliuE
 mVNSJxrzDj8qQY15U4eSM59oi999HEaj7WTbtC+l4x0fyR3lVzPvFNc6EMx145Sh
-UwIDAQAB</ns36:rsa-public-key>
-        </ns36:client-credentials-in-use>
-        <ns36:server-credentials-in-use>
-            <ns36:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnyVtgR0hDj0zB/0xyAXh
+UwIDAQAB</ns35:rsa-public-key>
+        </ns35:client-credentials-in-use>
+        <ns35:server-credentials-in-use>
+            <ns35:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnyVtgR0hDj0zB/0xyAXh
 Hh8LiR0wcDFgNC0TPuuhXz8PYvbYf52yNDwokhFBo+Wl24Sr525ZxjR6gAHiFBOB
 9YtMYRKxrHdvHcxzbzgXzbYjtdca72GKP/oWRjwZBcOuILt7s8+HNzEpaST7TrUW
 R2SfKBzXqeYxHuQrMOE1Msmsrtb850UTWLpf6XOzriW0WBM5NyOnOo+F5HxyvRzl
 EfeRVV/9RInqIHU1qhGiQSS9zlsiq1K2onOYP+TJcCMP41pU8wuQfRF8B81oliuE
 mVNSJxrzDj8qQY15U4eSM59oi999HEaj7WTbtC+l4x0fyR3lVzPvFNc6EMx145Sh
-UwIDAQAB</ns36:rsa-public-key>
-        </ns36:server-credentials-in-use>
-    </ns36:host>
-</ns36:manifest>
+UwIDAQAB</ns35:rsa-public-key>
+        </ns35:server-credentials-in-use>
+    </ns35:host>
+</ns35:manifest>
