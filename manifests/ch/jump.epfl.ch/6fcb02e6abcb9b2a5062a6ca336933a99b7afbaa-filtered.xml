@@ -125,19 +125,6 @@
                 <ns17:stats-url>https://jump.epfl.ch/mobility/ewp/mobility_out_la/get/stats/epfl.ch</ns17:stats-url>
                 <ns17:max-omobility-ids>1</ns17:max-omobility-ids>
             </ns17:omobility-las>
-            <ns16:omobility-la-cnr version="1.1.0">
-                <ns16:http-security>
-                    <ns5:client-auth-methods>
-                        <ns37:httpsig/>
-                    </ns5:client-auth-methods>
-                    <ns5:server-auth-methods>
-                        <ns38:httpsig/>
-                    </ns5:server-auth-methods>
-                </ns16:http-security>
-                <ns16:url>https://jump.epfl.ch/mobility/ewp/mobility_out_la/cnr/epfl.ch</ns16:url>
-                <ns16:stats-url>https://jump.epfl.ch/mobility/ewp/mobility_out_la/cnr/stats/epfl.ch</ns16:stats-url>
-                <ns16:max-omobility-ids>1</ns16:max-omobility-ids>
-            </ns16:omobility-la-cnr>
             <ns6:factsheet version="1.2.0">
                 <ns6:http-security>
                     <ns5:client-auth-methods>
@@ -155,15 +142,15 @@
             <ns2:hei id="epfl.ch">
                 <ns2:other-id type="pic">999903911</ns2:other-id>
                 <ns2:other-id type="erasmus">CH LAUSANN06</ns2:other-id>
-                <ns2:name xml:lang="de">École Polytechnique Fédérale de Lausanne (EPFL)</ns2:name>
-                <ns2:name xml:lang="en">École Polytechnique Fédérale de Lausanne (EPFL)</ns2:name>
+                <ns2:name xml:lang="de">Ecole polytechnique fédérale de Lausanne</ns2:name>
+                <ns2:name xml:lang="en">Ecole polytechnique fédérale de Lausanne</ns2:name>
             </ns2:hei>
         </ns3:institutions-covered>
         <ns3:client-credentials-in-use>
-            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApONzJYsyBSxRsgySyEJhh94UhJ3XCbGpQ44LYaLAN7y0eOJKkrq8dVTNDSjBIvZXVPPwp6xqbGdnbfjvWjwsiOKA9o0dMb5y2LEFjYpo3JSi5qbQoshNOISDoX70PHWQE7W3ZYLNCGORXSMP74MBVjXpglAQG5DLgZQyZdPA8H5tqCZ5WZ9HBFoZhMDrWAhoB9YU2vnViMynoXlv/7MvLo2LW9bK+zxczECA4etJZeCkdbpBmE+hHRIWPuzBjElyxvGsfadLeLA7eXe5Tc0EJwgwFCBiMbPEs5A9/LpzjI8+X7l0CVuHr1Fl+AVa0S2+oMbYyzH4g57c6DCzfUQhXwIDAQAB</ns3:rsa-public-key>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA33yTh2bv5KTzILtdBaXFVek9pRgeYHsdSAHceS15DJ1+iGdttthre73Rwjzy8oAmeUbvxbAy9t+IR3qeetqtECH0BmlGD04IchxUVjvhR3Vv+LLhroe27zyPgpZ0viUA233JJkJYPjIWm2XjsSkBCK3KRFloEmn4LEOv0IepLoGuPiwc2lHblElJh1yFMOPXWz3QhK7jxoAs5j8ax4vylk29ngHsxbQk9ADchu3+5kMsHW4ystUDzuE7OSYAuR3FeMjVVZOoEY+2Ruizk8YupvGgZxj0aq0GbQyEToMcir4IIYUVIMc22WTKN026oRMzmswCyNM8p5RJAN7CbBVNUwIDAQAB</ns3:rsa-public-key>
         </ns3:client-credentials-in-use>
         <ns3:server-credentials-in-use>
-            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApONzJYsyBSxRsgySyEJhh94UhJ3XCbGpQ44LYaLAN7y0eOJKkrq8dVTNDSjBIvZXVPPwp6xqbGdnbfjvWjwsiOKA9o0dMb5y2LEFjYpo3JSi5qbQoshNOISDoX70PHWQE7W3ZYLNCGORXSMP74MBVjXpglAQG5DLgZQyZdPA8H5tqCZ5WZ9HBFoZhMDrWAhoB9YU2vnViMynoXlv/7MvLo2LW9bK+zxczECA4etJZeCkdbpBmE+hHRIWPuzBjElyxvGsfadLeLA7eXe5Tc0EJwgwFCBiMbPEs5A9/LpzjI8+X7l0CVuHr1Fl+AVa0S2+oMbYyzH4g57c6DCzfUQhXwIDAQAB</ns3:rsa-public-key>
+            <ns3:rsa-public-key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA33yTh2bv5KTzILtdBaXFVek9pRgeYHsdSAHceS15DJ1+iGdttthre73Rwjzy8oAmeUbvxbAy9t+IR3qeetqtECH0BmlGD04IchxUVjvhR3Vv+LLhroe27zyPgpZ0viUA233JJkJYPjIWm2XjsSkBCK3KRFloEmn4LEOv0IepLoGuPiwc2lHblElJh1yFMOPXWz3QhK7jxoAs5j8ax4vylk29ngHsxbQk9ADchu3+5kMsHW4ystUDzuE7OSYAuR3FeMjVVZOoEY+2Ruizk8YupvGgZxj0aq0GbQyEToMcir4IIYUVIMc22WTKN026oRMzmswCyNM8p5RJAN7CbBVNUwIDAQAB</ns3:rsa-public-key>
         </ns3:server-credentials-in-use>
     </ns3:host>
 </ns3:manifest>
