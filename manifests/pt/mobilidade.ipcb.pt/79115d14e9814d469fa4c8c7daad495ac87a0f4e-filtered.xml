@@ -39,8 +39,8 @@
     xmlns:ns43="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/blob/stable-v1/manifest-entry.xsd"
     xmlns:ns44="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v2/manifest-entry.xsd"
     xmlns:ns45="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
-    xmlns:ns46="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-none/tree/stable-v1"
-    xmlns:ns47="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
+    xmlns:ns46="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
+    xmlns:ns47="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-none/tree/stable-v1"
     xmlns:ns48="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
     xmlns:ns49="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
     xmlns:ns5="https://github.com/erasmus-without-paper/ewp-specs-types-contact/tree/stable-v1"
@@ -89,7 +89,7 @@
                 <ns36:http-security>
                     <ns25:client-auth-methods>
                         <ns48:httpsig/>
-                        <ns46:anonymous/>
+                        <ns47:anonymous/>
                     </ns25:client-auth-methods>
                     <ns25:server-auth-methods>
                         <ns49:httpsig/>
@@ -252,7 +252,7 @@
                 <ns26:http-security>
                     <ns25:client-auth-methods>
                         <ns48:httpsig/>
-                        <ns46:anonymous/>
+                        <ns47:anonymous/>
                     </ns25:client-auth-methods>
                     <ns25:server-auth-methods>
                         <ns49:httpsig/>
