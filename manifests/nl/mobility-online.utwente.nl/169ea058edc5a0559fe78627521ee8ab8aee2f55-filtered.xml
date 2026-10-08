@@ -123,43 +123,6 @@
                 </ns23:http-security>
                 <ns23:url>https://mobility-online.utwente.nl/mobility/ewp/iias-approval-cnr/cnr/utwente.nl</ns23:url>
             </ns23:iia-approval-cnr>
-            <ns20:omobilities version="3.0.0">
-                <ns20:http-security>
-                    <ns5:client-auth-methods>
-                        <ns37:httpsig/>
-                    </ns5:client-auth-methods>
-                    <ns5:server-auth-methods>
-                        <ns38:httpsig/>
-                    </ns5:server-auth-methods>
-                </ns20:http-security>
-                <ns20:get-url>https://mobility-online.utwente.nl/mobility/ewp/mobility_out/get/utwente.nl</ns20:get-url>
-                <ns20:index-url>https://mobility-online.utwente.nl/mobility/ewp/mobility_out/index/utwente.nl</ns20:index-url>
-                <ns20:update-url>https://mobility-online.utwente.nl/mobility/ewp/mobility_out/update/utwente.nl</ns20:update-url>
-                <ns20:max-omobility-ids>1</ns20:max-omobility-ids>
-            </ns20:omobilities>
-            <ns19:omobility-stats version="1.0.0">
-                <ns19:http-security>
-                    <ns5:client-auth-methods>
-                        <ns37:httpsig/>
-                    </ns5:client-auth-methods>
-                    <ns5:server-auth-methods>
-                        <ns38:httpsig/>
-                    </ns5:server-auth-methods>
-                </ns19:http-security>
-                <ns19:url>https://mobility-online.utwente.nl/mobility/ewp/mobility_out/stats/utwente.nl</ns19:url>
-            </ns19:omobility-stats>
-            <ns14:imobility-cnr version="2.0.0">
-                <ns14:http-security>
-                    <ns5:client-auth-methods>
-                        <ns37:httpsig/>
-                    </ns5:client-auth-methods>
-                    <ns5:server-auth-methods>
-                        <ns38:httpsig/>
-                    </ns5:server-auth-methods>
-                </ns14:http-security>
-                <ns14:url>https://mobility-online.utwente.nl/mobility/ewp/mobility_in/cnr/utwente.nl</ns14:url>
-                <ns14:max-omobility-ids>1</ns14:max-omobility-ids>
-            </ns14:imobility-cnr>
             <ns15:imobilities version="2.0.0">
                 <ns15:http-security>
                     <ns5:client-auth-methods>
