@@ -707235,10 +707235,206 @@
             <d6:discovery version="6.0.0">
                 <d6:url>https://vega.gestion.uco.es/ewp/rest/manifest.xml</d6:url>
             </d6:discovery>
+            <e2:echo version="2.0.1">
+                <e2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                    <sec:request-encryption-methods>
+                        <sec-C1:tls/>
+                    </sec:request-encryption-methods>
+                    <sec:response-encryption-methods>
+                        <sec-D1:tls/>
+                    </sec:response-encryption-methods>
+                </e2:http-security>
+                <e2:url>https://vega.gestion.uco.es/ewp/rest/echo</e2:url>
+            </e2:echo>
+            <in2:institutions version="2.2.0">
+                <in2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                    <sec:request-encryption-methods>
+                        <sec-C1:tls/>
+                    </sec:request-encryption-methods>
+                    <sec:response-encryption-methods>
+                        <sec-D1:tls/>
+                    </sec:response-encryption-methods>
+                </in2:http-security>
+                <in2:url>https://vega.gestion.uco.es/ewp/rest/institutions/get</in2:url>
+                <in2:max-hei-ids>1</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.1.1">
+                <ou2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                    <sec:request-encryption-methods>
+                        <sec-C1:tls/>
+                    </sec:request-encryption-methods>
+                    <sec:response-encryption-methods>
+                        <sec-D1:tls/>
+                    </sec:response-encryption-methods>
+                </ou2:http-security>
+                <ou2:url>https://vega.gestion.uco.es/ewp/rest/departments/get</ou2:url>
+                <ou2:max-ounit-ids>5</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>5</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+            <omlc1:omobility-la-cnr
+                xmlns:omlc1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="1.1.0"
+            >
+                <omlc1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                    <sec:request-encryption-methods>
+                        <sec-C1:tls/>
+                    </sec:request-encryption-methods>
+                    <sec:response-encryption-methods>
+                        <sec-D1:tls/>
+                    </sec:response-encryption-methods>
+                </omlc1:http-security>
+                <omlc1:url>https://vega.gestion.uco.es/ewp/rest/omobility-las/cnr</omlc1:url>
+                <omlc1:stats-url>https://vega.gestion.uco.es/ewp/rest/omobility-las/cnr/stats</omlc1:stats-url>
+                <omlc1:max-omobility-ids>5</omlc1:max-omobility-ids>
+            </omlc1:omobility-la-cnr>
+            <oml1:omobility-las
+                xmlns:oml1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd"
+                version="1.2.0"
+            >
+                <oml1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                    <sec:request-encryption-methods>
+                        <sec-C1:tls/>
+                    </sec:request-encryption-methods>
+                    <sec:response-encryption-methods>
+                        <sec-D1:tls/>
+                    </sec:response-encryption-methods>
+                </oml1:http-security>
+                <oml1:get-url>https://vega.gestion.uco.es/ewp/rest/omobility-las/get</oml1:get-url>
+                <oml1:index-url>https://vega.gestion.uco.es/ewp/rest/omobility-las/index</oml1:index-url>
+                <oml1:update-url>https://vega.gestion.uco.es/ewp/rest/omobility-las/update</oml1:update-url>
+                <oml1:stats-url>https://vega.gestion.uco.es/ewp/rest/omobility-las/stats</oml1:stats-url>
+                <oml1:max-omobility-ids>5</oml1:max-omobility-ids>
+            </oml1:omobility-las>
+            <ia7:iias
+                xmlns:ia7="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v7/manifest-entry.xsd"
+                version="7.0.0"
+            >
+                <ia7:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                    <sec:request-encryption-methods>
+                        <sec-C1:tls/>
+                    </sec:request-encryption-methods>
+                    <sec:response-encryption-methods>
+                        <sec-D1:tls/>
+                    </sec:response-encryption-methods>
+                </ia7:http-security>
+                <ia7:get-url>https://vega.gestion.uco.es/ewp/rest/iias/get</ia7:get-url>
+                <ia7:max-iia-ids>5</ia7:max-iia-ids>
+                <ia7:index-url>https://vega.gestion.uco.es/ewp/rest/iias/index</ia7:index-url>
+                <ia7:stats-url>https://vega.gestion.uco.es/ewp/rest/iias/stats</ia7:stats-url>
+            </ia7:iias>
+            <iac3:iia-cnr version="3.0.0">
+                <iac3:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                    <sec:request-encryption-methods>
+                        <sec-C1:tls/>
+                    </sec:request-encryption-methods>
+                    <sec:response-encryption-methods>
+                        <sec-D1:tls/>
+                    </sec:response-encryption-methods>
+                </iac3:http-security>
+                <iac3:url>https://vega.gestion.uco.es/ewp/rest/iias/cnr</iac3:url>
+            </iac3:iia-cnr>
+            <iaa2:iias-approval
+                xmlns:iaa2="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.0"
+            >
+                <iaa2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                    <sec:request-encryption-methods>
+                        <sec-C1:tls/>
+                    </sec:request-encryption-methods>
+                    <sec:response-encryption-methods>
+                        <sec-D1:tls/>
+                    </sec:response-encryption-methods>
+                </iaa2:http-security>
+                <iaa2:url>https://vega.gestion.uco.es/ewp/rest/iias/approval</iaa2:url>
+                <iaa2:max-iia-ids>5</iaa2:max-iia-ids>
+            </iaa2:iias-approval>
+            <iaac2:iia-approval-cnr
+                xmlns:iaac2="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.0"
+            >
+                <iaac2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B1:tlscert/>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                    <sec:request-encryption-methods>
+                        <sec-C1:tls/>
+                    </sec:request-encryption-methods>
+                    <sec:response-encryption-methods>
+                        <sec-D1:tls/>
+                    </sec:response-encryption-methods>
+                </iaac2:http-security>
+                <iaac2:url>https://vega.gestion.uco.es/ewp/rest/iias/approval/cnr</iaac2:url>
+            </iaac2:iia-approval-cnr>
         </apis-implemented>
         <institutions-covered>
             <hei-id>uco.es</hei-id>
         </institutions-covered>
+        <client-credentials-in-use>
+            <rsa-public-key sha-256="d205a43cc41c2efbab7ca2734fab616acdabadf9a30d8459a66cd67cb036a933"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="d205a43cc41c2efbab7ca2734fab616acdabadf9a30d8459a66cd67cb036a933"/>
+        </server-credentials-in-use>
     </host>
     <host>
         <ewp:admin-email>udgp.sdsi@iscte-iul.pt</ewp:admin-email>
@@ -858653,6 +858849,14 @@ International Cooperation Office</name>
             dUONMW00aPdPrhhHKRltA7lKJNsQFp9NfJV5of9DOfFrM/cxzOMSJ3RXuqh4HJnSMCO/KvPGVSGz
             nvZAa5p6/2dVBYNFuFOnUiBHripXvbnld6Ea7WBvbFwyuh+NYG8PQHBAlSSynXzQW5iLhA1L/k7N
             LpqDBASNJG8CFJshrbvIl0en4Tj+jO1V2xw2HXhuS0sCAwEAAQ==
+        </rsa-public-key>
+        <rsa-public-key sha-256="d205a43cc41c2efbab7ca2734fab616acdabadf9a30d8459a66cd67cb036a933">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjLqHBzKSzVlERDODNl0axWSyB7IWfrIc
+            mKaByeGHTe04eTXid8GB4RY0BrdMgbzqI+pej4g+5PySdEebid/YTx2B7ZWQlvu86QXeaop7rOcc
+            LnijGVw5LtThgIX/NMIO5nvloheiIiCFMCvOMm90QJkHmNNHGGkhn5A9m7ASGWOazB6x0uE9oT7+
+            fEJFkG5sO2IWhUZpYMe3YT9/Y/KI1zpW5DLVTHhzAkP3yruE5jaigVFBSfSTprQ8TkNRSiGhxo7a
+            niIwkxhmKb2qEzMIB19yWi5PnO5DpfLWEe/swywjLDiw2+bRfvGbYu/HkUEflNxugIGyoKh6EqG0
+            8bESswIDAQAB
         </rsa-public-key>
         <rsa-public-key sha-256="d20f38d0311d0ace4cc7d5d7e759d5df901e9f7edba1b397f8c61d44e3c0c611">
             MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAxELnH+yQ/OWyjX/Gk6I4zvjDLwcEKagJ
