@@ -731970,22 +731970,20 @@
                 <ou2:max-ounit-ids>1</ou2:max-ounit-ids>
                 <ou2:max-ounit-codes>1</ou2:max-ounit-codes>
             </ou2:organizational-units>
-            <co1:courses
-                xmlns:co1="https://github.com/erasmus-without-paper/ewp-specs-api-courses/blob/stable-v1/manifest-entry.xsd"
-                version="0.7.1"
-            >
-                <co1:http-security>
+            <d6:discovery version="6.0.0">
+                <d6:url>https://ewp.auth.gr/rest/manifest</d6:url>
+            </d6:discovery>
+            <e2:echo version="2.0.1">
+                <e2:http-security>
                     <sec:client-auth-methods>
                         <sec-A2:httpsig/>
                     </sec:client-auth-methods>
                     <sec:server-auth-methods>
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
-                </co1:http-security>
-                <co1:url>https://ewp.auth.gr/rest/courses</co1:url>
-                <co1:max-los-ids>1</co1:max-los-ids>
-                <co1:max-los-codes>1</co1:max-los-codes>
-            </co1:courses>
+                </e2:http-security>
+                <e2:url>https://ewp.auth.gr/rest/echo</e2:url>
+            </e2:echo>
             <in2:institutions version="2.2.0">
                 <in2:http-security>
                     <sec:client-auth-methods>
@@ -731998,35 +731996,6 @@
                 <in2:url>https://ewp.auth.gr/rest/institutions</in2:url>
                 <in2:max-hei-ids>1</in2:max-hei-ids>
             </in2:institutions>
-            <f1:factsheet
-                xmlns:f1="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
-                version="1.2.0"
-            >
-                <f1:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </f1:http-security>
-                <f1:url>https://ewp.auth.gr/rest/factsheets/get</f1:url>
-                <f1:max-hei-ids>1</f1:max-hei-ids>
-            </f1:factsheet>
-            <e2:echo version="2.0.1">
-                <e2:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </e2:http-security>
-                <e2:url>https://ewp.auth.gr/rest/echo</e2:url>
-            </e2:echo>
-            <d6:discovery version="6.0.0">
-                <d6:url>https://ewp.auth.gr/rest/manifest</d6:url>
-            </d6:discovery>
             <cr1:simple-course-replication
                 xmlns:cr1="https://github.com/erasmus-without-paper/ewp-specs-api-course-replication/blob/stable-v1/manifest-entry.xsd"
                 version="1.0.0"
@@ -732043,15 +732012,46 @@
                 <cr1:allows-anonymous-access>true</cr1:allows-anonymous-access>
                 <cr1:supports-modified-since>true</cr1:supports-modified-since>
             </cr1:simple-course-replication>
+            <co1:courses
+                xmlns:co1="https://github.com/erasmus-without-paper/ewp-specs-api-courses/blob/stable-v1/manifest-entry.xsd"
+                version="0.7.1"
+            >
+                <co1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </co1:http-security>
+                <co1:url>https://ewp.auth.gr/rest/courses</co1:url>
+                <co1:max-los-ids>1</co1:max-los-ids>
+                <co1:max-los-codes>1</co1:max-los-codes>
+            </co1:courses>
+            <f1:factsheet
+                xmlns:f1="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
+                version="1.2.0"
+            >
+                <f1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </f1:http-security>
+                <f1:url>https://ewp.auth.gr/rest/factsheets/get</f1:url>
+                <f1:max-hei-ids>1</f1:max-hei-ids>
+            </f1:factsheet>
         </apis-implemented>
         <institutions-covered>
             <hei-id>auth.gr</hei-id>
         </institutions-covered>
         <client-credentials-in-use>
-            <rsa-public-key sha-256="8252ed3097de258109aa9005d6e0cb5f6db24392616eabdb0ecfe9ae1d3d5efd"/>
+            <rsa-public-key sha-256="3e93e27ccc587b025ca928261c1137c490375f24b5742dc3ccbcbda5e3e4f4b9"/>
         </client-credentials-in-use>
         <server-credentials-in-use>
-            <rsa-public-key sha-256="8252ed3097de258109aa9005d6e0cb5f6db24392616eabdb0ecfe9ae1d3d5efd"/>
+            <rsa-public-key sha-256="3e93e27ccc587b025ca928261c1137c490375f24b5742dc3ccbcbda5e3e4f4b9"/>
         </server-credentials-in-use>
     </host>
     <host>
@@ -834116,6 +834116,14 @@ International Cooperation Office</name>
             FTAKVRXiRZfmf/xXHVh+wKxAg9UyckJ6HvYTmCRmQmtcXTTNhBVkroOn/xxhrcZBlNg5BzWcLnfR
             WwSo98r2cIsFhakOW9Gh76+VvAytLFYrJ275mJsiAnsCAwEAAQ==
         </rsa-public-key>
+        <rsa-public-key sha-256="3e93e27ccc587b025ca928261c1137c490375f24b5742dc3ccbcbda5e3e4f4b9">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAram4Ivd3v4Namq96isMUSh2meHDMAEcq
+            tt+jtWKBVkp0Xlyan1ls9K1AN0XRbzCgKv/juh+8zMR+/fUfJKX3/jAQlJKFMmLXA6f5Z+LWyNAT
+            wh2Q0pwKQ1PL99xINCegD6xdPAHsrgphdppXb9qwyH3lSPeFP4lXXAMorfgXcPr79a0dzCpQNjIU
+            34RrVNdgZNf+h18xy6HPVK2AC4uh5vEVixhbxn1vbL1NvZmzjArgUSieVth/xz+Rjsa/TdZT/LED
+            gNy37GT0sT95QPco6MxLwFgft4Df8oRWDsOvL+AfsqDYf7DSPeMaVfrwmuSwfPols9MMJjQ04ISR
+            fPlnrQIDAQAB
+        </rsa-public-key>
         <rsa-public-key sha-256="3eaf18a2139525f52a05b257d275de6af56789b77f39d5d0bc3dbd2ed4c09c09">
             MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAm135EdOuFBp7QW9D/nK5mQge7J9pc2kA
             agXJSsfCa94RHCr+yWbJBrMUcNEAYZC0J4NZuiZjNb/kGIdCxBpReH6lf27dq1nqzvH2GrHShvHW
@@ -845455,14 +845463,6 @@ International Cooperation Office</name>
             fsur9pv7/quD54+Iqnde1I1a/CCBwNfMuPScRQVbTO9Z33UVBhSe1a18ESe9ceRURFjiy5N5nEht
             cOBRRwwyPWbodgMwwpJLH44ls64HfvASN8PG+aH6h9nu2y5Gca3nyXodxr0BPPm5nMscI4QrOG1z
             etnXzwIDAQAB
-        </rsa-public-key>
-        <rsa-public-key sha-256="8252ed3097de258109aa9005d6e0cb5f6db24392616eabdb0ecfe9ae1d3d5efd">
-            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAywLdZXBnbdWDziNJ+jcl3l/y46u4+zNX
-            BcRB2qcz+5yn3+f+9r8YY89EP0hRGY4pb7oVW5f6dStG4e0rvVTsKsr5hsQGi0dxKvR0Y/x2SbPJ
-            SBHdu7MD6zR5qYlDGoz6F0nOa7KuVcdv4Bj7Ac1rMzjsVnbuGpwu01pJZ+i9SR24/nC9R/C4PlA5
-            FQ0qHyepp2CFJ+T/p1CdiNlQbvOws9BsMD8ZdZxBDV4BOgyjhsasRgYyNWIFFMPW5JIG/UiHi9mp
-            MS9Hto6oQlh9R6AyFhQAk3OoQyaxwrTIt3yyQMULUE8eRwRB4QXZvKpkLotgrP4LWyCvdqjroFZh
-            sEGDlwIDAQAB
         </rsa-public-key>
         <rsa-public-key sha-256="825bd61af2386bffa205d3723c684b5af8e7a8bd7a6c4db051b5aaf5357e884a">
             MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAnzTuNIsXwpTsEv4ztVjvuZJAZNv+aIWG
