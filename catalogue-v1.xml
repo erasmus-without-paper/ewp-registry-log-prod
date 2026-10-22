@@ -605284,35 +605284,6 @@
         <ewp:admin-provider>QS MoveON</ewp:admin-provider>
         <apis-implemented>
             <d6:discovery version="6.0.0">
-                <d6:url>https://lruniv-ewp.moveonfr.com/v1/manifest</d6:url>
-            </d6:discovery>
-            <e2:echo version="2.0.1">
-                <e2:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </e2:http-security>
-                <e2:url>https://lruniv-ewp.moveonfr.com/v1/echo</e2:url>
-            </e2:echo>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>univ-larochelle.fr</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <rsa-public-key sha-256="0beabc81ea7d89e295e5bf48b531d8dac6ad35c1cb6b1d928314aeddb5b63b78"/>
-        </client-credentials-in-use>
-        <server-credentials-in-use>
-            <rsa-public-key sha-256="0beabc81ea7d89e295e5bf48b531d8dac6ad35c1cb6b1d928314aeddb5b63b78"/>
-        </server-credentials-in-use>
-    </host>
-    <host>
-        <ewp:admin-email>moveon-ewp@qs.com</ewp:admin-email>
-        <ewp:admin-provider>QS MoveON</ewp:admin-provider>
-        <apis-implemented>
-            <d6:discovery version="6.0.0">
                 <d6:url>https://scpobx-ewp.moveonfr.com/v1/manifest</d6:url>
             </d6:discovery>
             <e2:echo version="2.0.1">
@@ -821553,10 +821524,8 @@ Standort Lörrach</name>
         </hei>
         <hei id="univ-larochelle.fr">
             <other-id type="erasmus">F  LA-ROCH08</other-id>
-            <other-id type="erasmus-charter">27966</other-id>
             <other-id type="pic">999846804</other-id>
             <name>LA ROCHELLE UNIVERSITE</name>
-            <name xml:lang="en">Université de la Rochelle</name>
         </hei>
         <hei id="univ-lehavre.fr">
             <other-id type="erasmus">F  LE-HAVR11</other-id>
@@ -825594,14 +825563,6 @@ International Cooperation Office</name>
             +bjk/GyVoykxHJs5+vUrhVj/rLNGqRJCMh+1i3XS0+gCbyVbG0FDoX5WeQVzZOhIpq3rN5gJtGnw
             rt0Bt6S87L2yJrHo650ijzmkGzeYm+wkVd7pcJSYBqyLb0SvunQsh6h+njmmqEe4+dxzH/+zkwGG
             A78aI9zYBO8LLP/D/o2KouXzQKcHHUSOU39rbC/tM00CAwEAAQ==
-        </rsa-public-key>
-        <rsa-public-key sha-256="0beabc81ea7d89e295e5bf48b531d8dac6ad35c1cb6b1d928314aeddb5b63b78">
-            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2CMU095urddMpiUPqWCfKpSB0hQ7XetQ
-            S6Zs1hthaw5wtNL3fynpOh73vci1kGpbnsOYp1Mdi9pAArgW4oIBdAC2bS5MV4s6gpuQyWSdfgAe
-            KoX6A8MQuj97lTiEiTQm0RHD31/Swl1kSYR0zRAFhoK+UdLrR7WSQLMlMENs3dNXPn1BargqU7QN
-            pgwUPz/ZpCNYUItPVm9wRTVuqZPTwm991Qp+qwewG7c8/6wuDkdEcP2syBHXSC7+MzuNEhwkXyK8
-            9doFbi0LdRBfYubHW5BYIlcI3AdaTGYoBe/FghvbzM4bK8105+xmoBsOvlA2ggK9GNVHjKw8U8Be
-            DiWtnwIDAQAB
         </rsa-public-key>
         <rsa-public-key sha-256="0bfb69cf7e37c98f7144d794c0fdecce9267e5eccdf0214d070b8d4c9bd07af8">
             MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAscQsT4zdc3LgXpfHeiQKpQQsNkAn7H2B
