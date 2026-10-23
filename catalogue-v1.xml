@@ -79390,6 +79390,31 @@
             <d6:discovery version="6.0.0">
                 <d6:url>https://unizoneewp.it.auth.gr/rest/manifest/univ-larochelle.fr</d6:url>
             </d6:discovery>
+            <in2:institutions version="2.2.0">
+                <in2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </in2:http-security>
+                <in2:url>https://unizoneewp.it.auth.gr/rest/institutions/univ-larochelle.fr</in2:url>
+                <in2:max-hei-ids>1</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.1.1">
+                <ou2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </ou2:http-security>
+                <ou2:url>https://unizoneewp.it.auth.gr/rest/ounits/univ-larochelle.fr</ou2:url>
+                <ou2:max-ounit-ids>100</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>100</ou2:max-ounit-codes>
+            </ou2:organizational-units>
             <ia7:iias
                 xmlns:ia7="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v7/manifest-entry.xsd"
                 version="7.0.0"
@@ -79447,6 +79472,82 @@
                 </iaac2:http-security>
                 <iaac2:url>https://unizoneewp.it.auth.gr/rest/iias/app/cnr/univ-larochelle.fr</iaac2:url>
             </iaac2:iia-approval-cnr>
+            <om3:omobilities
+                xmlns:om3="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v3/manifest-entry.xsd"
+                version="3.0.0"
+            >
+                <om3:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </om3:http-security>
+                <om3:get-url>https://unizoneewp.it.auth.gr/rest/nominations/omobilities/get/univ-larochelle.fr</om3:get-url>
+                <om3:index-url>https://unizoneewp.it.auth.gr/rest/nominations/omobilities/index/univ-larochelle.fr</om3:index-url>
+                <om3:update-url>https://unizoneewp.it.auth.gr/rest/nominations/omobilities/update/univ-larochelle.fr</om3:update-url>
+                <om3:max-omobility-ids>1</om3:max-omobility-ids>
+            </om3:omobilities>
+            <omc2:omobility-cnr
+                xmlns:omc2="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.0"
+            >
+                <omc2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </omc2:http-security>
+                <omc2:url>https://unizoneewp.it.auth.gr/rest/nominations/omobilities/cnr/univ-larochelle.fr</omc2:url>
+                <omc2:max-omobility-ids>1</omc2:max-omobility-ids>
+            </omc2:omobility-cnr>
+            <oms1:omobility-stats
+                xmlns:oms1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-stats/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <oms1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </oms1:http-security>
+                <oms1:url>https://unizoneewp.it.auth.gr/rest/nominations/omobilities/stats/univ-larochelle.fr</oms1:url>
+            </oms1:omobility-stats>
+            <im2:imobilities
+                xmlns:im2="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.0"
+            >
+                <im2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </im2:http-security>
+                <im2:get-url>https://unizoneewp.it.auth.gr/rest/nominations/imobilities/get/univ-larochelle.fr</im2:get-url>
+                <im2:max-omobility-ids>1</im2:max-omobility-ids>
+            </im2:imobilities>
+            <imc2:imobility-cnr
+                xmlns:imc2="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-cnr/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.0"
+            >
+                <imc2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </imc2:http-security>
+                <imc2:url>https://unizoneewp.it.auth.gr/rest/nominations/imobilities/cnr/univ-larochelle.fr</imc2:url>
+                <imc2:max-omobility-ids>1</imc2:max-omobility-ids>
+            </imc2:imobility-cnr>
             <oml1:omobility-las
                 xmlns:oml1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd"
                 version="1.2.0"
