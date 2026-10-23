@@ -804420,6 +804420,264 @@
         </server-credentials-in-use>
     </host>
     <host>
+        <ewp:admin-email>ewp-plus@it.auth.gr</ewp:admin-email>
+        <ewp:admin-email>ewp-monitor@it.auth.gr</ewp:admin-email>
+        <ewp:admin-provider>EWP Dashboard</ewp:admin-provider>
+        <ewp:admin-notes>Manifest File for general endpoints Erasmus Dashboard.</ewp:admin-notes>
+        <apis-implemented>
+            <d6:discovery version="6.0.0">
+                <d6:url>https://unizoneewp.it.auth.gr/rest/manifest/noroff.no</d6:url>
+            </d6:discovery>
+            <in2:institutions version="2.2.0">
+                <in2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </in2:http-security>
+                <in2:url>https://unizoneewp.it.auth.gr/rest/institutions/noroff.no</in2:url>
+                <in2:max-hei-ids>1</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.1.1">
+                <ou2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </ou2:http-security>
+                <ou2:url>https://unizoneewp.it.auth.gr/rest/ounits/noroff.no</ou2:url>
+                <ou2:max-ounit-ids>100</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>100</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+            <ia7:iias
+                xmlns:ia7="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v7/manifest-entry.xsd"
+                version="7.0.0"
+            >
+                <ia7:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </ia7:http-security>
+                <ia7:get-url>https://unizoneewp.it.auth.gr/rest/iias/get/noroff.no</ia7:get-url>
+                <ia7:max-iia-ids>1</ia7:max-iia-ids>
+                <ia7:index-url>https://unizoneewp.it.auth.gr/rest/iias/index/noroff.no</ia7:index-url>
+                <ia7:stats-url>https://unizoneewp.it.auth.gr/rest/iias/stats/noroff.no</ia7:stats-url>
+            </ia7:iias>
+            <iac3:iia-cnr version="3.0.0">
+                <iac3:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </iac3:http-security>
+                <iac3:url>https://unizoneewp.it.auth.gr/rest/iias/cnr/noroff.no</iac3:url>
+            </iac3:iia-cnr>
+            <iaa2:iias-approval
+                xmlns:iaa2="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.0"
+            >
+                <iaa2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </iaa2:http-security>
+                <iaa2:url>https://unizoneewp.it.auth.gr/rest/iias/app/noroff.no</iaa2:url>
+                <iaa2:max-iia-ids>1</iaa2:max-iia-ids>
+            </iaa2:iias-approval>
+            <iaac2:iia-approval-cnr
+                xmlns:iaac2="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.0"
+            >
+                <iaac2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </iaac2:http-security>
+                <iaac2:url>https://unizoneewp.it.auth.gr/rest/iias/app/cnr/noroff.no</iaac2:url>
+            </iaac2:iia-approval-cnr>
+            <om3:omobilities
+                xmlns:om3="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v3/manifest-entry.xsd"
+                version="3.0.0"
+            >
+                <om3:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </om3:http-security>
+                <om3:get-url>https://unizoneewp.it.auth.gr/rest/nominations/omobilities/get/noroff.no</om3:get-url>
+                <om3:index-url>https://unizoneewp.it.auth.gr/rest/nominations/omobilities/index/noroff.no</om3:index-url>
+                <om3:update-url>https://unizoneewp.it.auth.gr/rest/nominations/omobilities/update/noroff.no</om3:update-url>
+                <om3:max-omobility-ids>1</om3:max-omobility-ids>
+            </om3:omobilities>
+            <omc2:omobility-cnr
+                xmlns:omc2="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.0"
+            >
+                <omc2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </omc2:http-security>
+                <omc2:url>https://unizoneewp.it.auth.gr/rest/nominations/omobilities/cnr/noroff.no</omc2:url>
+                <omc2:max-omobility-ids>1</omc2:max-omobility-ids>
+            </omc2:omobility-cnr>
+            <oms1:omobility-stats
+                xmlns:oms1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-stats/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <oms1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </oms1:http-security>
+                <oms1:url>https://unizoneewp.it.auth.gr/rest/nominations/omobilities/stats/noroff.no</oms1:url>
+            </oms1:omobility-stats>
+            <im2:imobilities
+                xmlns:im2="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.0"
+            >
+                <im2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </im2:http-security>
+                <im2:get-url>https://unizoneewp.it.auth.gr/rest/nominations/imobilities/get/noroff.no</im2:get-url>
+                <im2:max-omobility-ids>1</im2:max-omobility-ids>
+            </im2:imobilities>
+            <imc2:imobility-cnr
+                xmlns:imc2="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-cnr/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.0"
+            >
+                <imc2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </imc2:http-security>
+                <imc2:url>https://unizoneewp.it.auth.gr/rest/nominations/imobilities/cnr/noroff.no</imc2:url>
+                <imc2:max-omobility-ids>1</imc2:max-omobility-ids>
+            </imc2:imobility-cnr>
+            <oml1:omobility-las
+                xmlns:oml1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd"
+                version="1.2.0"
+            >
+                <oml1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </oml1:http-security>
+                <oml1:get-url>https://unizoneewp.it.auth.gr/rest/las/get/noroff.no</oml1:get-url>
+                <oml1:index-url>https://unizoneewp.it.auth.gr/rest/las/index/noroff.no</oml1:index-url>
+                <oml1:update-url>https://unizoneewp.it.auth.gr/rest/las/update/noroff.no</oml1:update-url>
+                <oml1:stats-url>https://unizoneewp.it.auth.gr/rest/las/stats/outgoing/noroff.no</oml1:stats-url>
+                <oml1:max-omobility-ids>1</oml1:max-omobility-ids>
+            </oml1:omobility-las>
+            <omlc1:omobility-la-cnr
+                xmlns:omlc1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="1.1.0"
+            >
+                <omlc1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </omlc1:http-security>
+                <omlc1:url>https://unizoneewp.it.auth.gr/rest/las/cnr/noroff.no</omlc1:url>
+                <omlc1:stats-url>https://unizoneewp.it.auth.gr/rest/las/stats/incoming/noroff.no</omlc1:stats-url>
+                <omlc1:max-omobility-ids>1</omlc1:max-omobility-ids>
+            </omlc1:omobility-la-cnr>
+            <imt2:imobility-tors
+                xmlns:imt2="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-tors/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.0"
+            >
+                <imt2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </imt2:http-security>
+                <imt2:get-url>https://unizoneewp.it.auth.gr/rest/tors/imobilities/get/noroff.no</imt2:get-url>
+                <imt2:index-url>https://unizoneewp.it.auth.gr/rest/tors/imobilities/index/noroff.no</imt2:index-url>
+                <imt2:max-omobility-ids>1</imt2:max-omobility-ids>
+            </imt2:imobility-tors>
+            <imtc1:imobility-tor-cnr
+                xmlns:imtc1="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-tor-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <imtc1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </imtc1:http-security>
+                <imtc1:url>https://unizoneewp.it.auth.gr/rest/tors/imobilities/cnr/noroff.no</imtc1:url>
+                <imtc1:max-omobility-ids>1</imtc1:max-omobility-ids>
+            </imtc1:imobility-tor-cnr>
+            <f1:factsheet
+                xmlns:f1="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
+                version="1.2.0"
+            >
+                <f1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </f1:http-security>
+                <f1:url>https://unizoneewp.it.auth.gr/rest/factsheet/noroff.no</f1:url>
+                <f1:max-hei-ids>1</f1:max-hei-ids>
+            </f1:factsheet>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>noroff.no</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <rsa-public-key sha-256="3cd89984514638f2a3638716911a045785b82b8212c0855d3f908b3e85d637dc"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="3cd89984514638f2a3638716911a045785b82b8212c0855d3f908b3e85d637dc"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
         <ewp:admin-email>emrex-admin@postit.csc.fi</ewp:admin-email>
         <ewp:admin-provider>CSC</ewp:admin-provider>
         <apis-implemented>
@@ -816980,6 +817238,11 @@ Standort Lörrach</name>
             <other-id type="pic">949555893</other-id>
             <name xml:lang="de">NORDAKADEMIE - Hochschule der Wirtschaft</name>
             <name xml:lang="en">NORDAKADEMIE, UNIVERSITY OF APPLIED SCIENCES</name>
+        </hei>
+        <hei id="noroff.no">
+            <other-id type="erasmus">N  KRISTIA05</other-id>
+            <other-id type="pic">937052884</other-id>
+            <name>Noroff University College AS</name>
         </hei>
         <hei id="northumbria.ac.uk">
             <other-id type="erasmus">UK NEWCAST02</other-id>
@@ -834240,6 +834503,18 @@ International Cooperation Office</name>
             7tXx49isyNA6y1aFjXXkQ1lYjuSjWAIYnIyc3N8dZ4wGIGtXbnNkvI8CUifipg8JCRg9SplGel4B
             0KZa/W5aV8NOTNdWWhYdMU83nfCqfFrHJR4u3R7dHRyDr5J99wv+1KF9EFI1r/t++c5HVyY3pb+y
             pDOGN+1S2qCyn+sJQ1Kwor39IkL3iUUM3FKkamj0q20CAwEAAQ==
+        </rsa-public-key>
+        <rsa-public-key sha-256="3cd89984514638f2a3638716911a045785b82b8212c0855d3f908b3e85d637dc">
+            MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAtRWlC7keaeOJrDDuSnUPUPNeLdFMVCG8
+            O7tZP1eJobslgL1VifL0C2GOi6ECGj0mdVzdcAJSmQJUHO5DZn9HuJVF3Kgtn8MU3YKsXt5JcD+v
+            HniB4MIUmlqA2SN+wR5gqu+kMT6WNyRATyqrOJYBV9vsHAJabG0QWbakYykHW/GVxhpr6uZ3/o0C
+            kj0q0NEN9xRu2lq6B2zG6QBIRV1nv0LspsDzsYlS07EUuLHS23hoNXA1zjYL+ahhIz52pOpiCmFb
+            MhSY42vNOfJDlEqeXRaWkysY1pFLQkXoBLHSK5WiM/Ne/1GWPxCkcZ5EzofQKUoaJhijk54bDp4y
+            27YAv46yVtc9J1s2l1IArWtGS9U6/hGknuUkvVRrk8eNlpErMh3nvb+Iq7rLn5Doy8w81yOwo0f0
+            xPnFCXPEXBf/wxX9UXPRE+MOin9TVwZDWeoW8iRpadIjXTry+YlGR/KcqEd5FsSPr78xNXvD9im1
+            klWxBS4VMStk3GvY4KCb289S7MidNNQ6oAnigH48gKpFbh6HOQQvD0Ar1YaXJnzF9rdERUXtmp+P
+            Eg59lIuZPmOIoTEL5L7/yNHK3jaYW22h7xjUibnf01LhJKUy1PzPrHLELLa6VdQi9rfcSmBXRnjK
+            hDPPwdkhy31fpNM1ixwG8K00XcB3Tbpo76wQVQjbcdsCAwEAAQ==
         </rsa-public-key>
         <rsa-public-key sha-256="3ce3d86d28d2477e470a70032fce611525ac974b45ca0510cbdc3fd98aff6a51">
             MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAyXmvBa2iFHo8g/5swsAhWk9htjkCuZ07
