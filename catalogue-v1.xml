@@ -804698,6 +804698,264 @@
         </server-credentials-in-use>
     </host>
     <host>
+        <ewp:admin-email>ewp-plus@it.auth.gr</ewp:admin-email>
+        <ewp:admin-email>ewp-monitor@it.auth.gr</ewp:admin-email>
+        <ewp:admin-provider>EWP Dashboard</ewp:admin-provider>
+        <ewp:admin-notes>Manifest File for general endpoints Erasmus Dashboard.</ewp:admin-notes>
+        <apis-implemented>
+            <d6:discovery version="6.0.0">
+                <d6:url>https://unizoneewp.it.auth.gr/rest/manifest/iesfmontseny.es</d6:url>
+            </d6:discovery>
+            <in2:institutions version="2.2.0">
+                <in2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </in2:http-security>
+                <in2:url>https://unizoneewp.it.auth.gr/rest/institutions/iesfmontseny.es</in2:url>
+                <in2:max-hei-ids>1</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.1.1">
+                <ou2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </ou2:http-security>
+                <ou2:url>https://unizoneewp.it.auth.gr/rest/ounits/iesfmontseny.es</ou2:url>
+                <ou2:max-ounit-ids>100</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>100</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+            <ia7:iias
+                xmlns:ia7="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v7/manifest-entry.xsd"
+                version="7.0.0"
+            >
+                <ia7:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </ia7:http-security>
+                <ia7:get-url>https://unizoneewp.it.auth.gr/rest/iias/get/iesfmontseny.es</ia7:get-url>
+                <ia7:max-iia-ids>1</ia7:max-iia-ids>
+                <ia7:index-url>https://unizoneewp.it.auth.gr/rest/iias/index/iesfmontseny.es</ia7:index-url>
+                <ia7:stats-url>https://unizoneewp.it.auth.gr/rest/iias/stats/iesfmontseny.es</ia7:stats-url>
+            </ia7:iias>
+            <iac3:iia-cnr version="3.0.0">
+                <iac3:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </iac3:http-security>
+                <iac3:url>https://unizoneewp.it.auth.gr/rest/iias/cnr/iesfmontseny.es</iac3:url>
+            </iac3:iia-cnr>
+            <iaa2:iias-approval
+                xmlns:iaa2="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.0"
+            >
+                <iaa2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </iaa2:http-security>
+                <iaa2:url>https://unizoneewp.it.auth.gr/rest/iias/app/iesfmontseny.es</iaa2:url>
+                <iaa2:max-iia-ids>1</iaa2:max-iia-ids>
+            </iaa2:iias-approval>
+            <iaac2:iia-approval-cnr
+                xmlns:iaac2="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.0"
+            >
+                <iaac2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </iaac2:http-security>
+                <iaac2:url>https://unizoneewp.it.auth.gr/rest/iias/app/cnr/iesfmontseny.es</iaac2:url>
+            </iaac2:iia-approval-cnr>
+            <om3:omobilities
+                xmlns:om3="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v3/manifest-entry.xsd"
+                version="3.0.0"
+            >
+                <om3:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </om3:http-security>
+                <om3:get-url>https://unizoneewp.it.auth.gr/rest/nominations/omobilities/get/iesfmontseny.es</om3:get-url>
+                <om3:index-url>https://unizoneewp.it.auth.gr/rest/nominations/omobilities/index/iesfmontseny.es</om3:index-url>
+                <om3:update-url>https://unizoneewp.it.auth.gr/rest/nominations/omobilities/update/iesfmontseny.es</om3:update-url>
+                <om3:max-omobility-ids>1</om3:max-omobility-ids>
+            </om3:omobilities>
+            <omc2:omobility-cnr
+                xmlns:omc2="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.0"
+            >
+                <omc2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </omc2:http-security>
+                <omc2:url>https://unizoneewp.it.auth.gr/rest/nominations/omobilities/cnr/iesfmontseny.es</omc2:url>
+                <omc2:max-omobility-ids>1</omc2:max-omobility-ids>
+            </omc2:omobility-cnr>
+            <oms1:omobility-stats
+                xmlns:oms1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-stats/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <oms1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </oms1:http-security>
+                <oms1:url>https://unizoneewp.it.auth.gr/rest/nominations/omobilities/stats/iesfmontseny.es</oms1:url>
+            </oms1:omobility-stats>
+            <im2:imobilities
+                xmlns:im2="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.0"
+            >
+                <im2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </im2:http-security>
+                <im2:get-url>https://unizoneewp.it.auth.gr/rest/nominations/imobilities/get/iesfmontseny.es</im2:get-url>
+                <im2:max-omobility-ids>1</im2:max-omobility-ids>
+            </im2:imobilities>
+            <imc2:imobility-cnr
+                xmlns:imc2="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-cnr/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.0"
+            >
+                <imc2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </imc2:http-security>
+                <imc2:url>https://unizoneewp.it.auth.gr/rest/nominations/imobilities/cnr/iesfmontseny.es</imc2:url>
+                <imc2:max-omobility-ids>1</imc2:max-omobility-ids>
+            </imc2:imobility-cnr>
+            <oml1:omobility-las
+                xmlns:oml1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd"
+                version="1.2.0"
+            >
+                <oml1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </oml1:http-security>
+                <oml1:get-url>https://unizoneewp.it.auth.gr/rest/las/get/iesfmontseny.es</oml1:get-url>
+                <oml1:index-url>https://unizoneewp.it.auth.gr/rest/las/index/iesfmontseny.es</oml1:index-url>
+                <oml1:update-url>https://unizoneewp.it.auth.gr/rest/las/update/iesfmontseny.es</oml1:update-url>
+                <oml1:stats-url>https://unizoneewp.it.auth.gr/rest/las/stats/outgoing/iesfmontseny.es</oml1:stats-url>
+                <oml1:max-omobility-ids>1</oml1:max-omobility-ids>
+            </oml1:omobility-las>
+            <omlc1:omobility-la-cnr
+                xmlns:omlc1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="1.1.0"
+            >
+                <omlc1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </omlc1:http-security>
+                <omlc1:url>https://unizoneewp.it.auth.gr/rest/las/cnr/iesfmontseny.es</omlc1:url>
+                <omlc1:stats-url>https://unizoneewp.it.auth.gr/rest/las/stats/incoming/iesfmontseny.es</omlc1:stats-url>
+                <omlc1:max-omobility-ids>1</omlc1:max-omobility-ids>
+            </omlc1:omobility-la-cnr>
+            <imt2:imobility-tors
+                xmlns:imt2="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-tors/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.0"
+            >
+                <imt2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </imt2:http-security>
+                <imt2:get-url>https://unizoneewp.it.auth.gr/rest/tors/imobilities/get/iesfmontseny.es</imt2:get-url>
+                <imt2:index-url>https://unizoneewp.it.auth.gr/rest/tors/imobilities/index/iesfmontseny.es</imt2:index-url>
+                <imt2:max-omobility-ids>1</imt2:max-omobility-ids>
+            </imt2:imobility-tors>
+            <imtc1:imobility-tor-cnr
+                xmlns:imtc1="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-tor-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <imtc1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </imtc1:http-security>
+                <imtc1:url>https://unizoneewp.it.auth.gr/rest/tors/imobilities/cnr/iesfmontseny.es</imtc1:url>
+                <imtc1:max-omobility-ids>1</imtc1:max-omobility-ids>
+            </imtc1:imobility-tor-cnr>
+            <f1:factsheet
+                xmlns:f1="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
+                version="1.2.0"
+            >
+                <f1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </f1:http-security>
+                <f1:url>https://unizoneewp.it.auth.gr/rest/factsheet/iesfmontseny.es</f1:url>
+                <f1:max-hei-ids>1</f1:max-hei-ids>
+            </f1:factsheet>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>iesfmontseny.es</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <rsa-public-key sha-256="411c29526db580f0147fd266040e438cd06a73ca69b8e65750dda7da5bc9af6d"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="411c29526db580f0147fd266040e438cd06a73ca69b8e65750dda7da5bc9af6d"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
         <ewp:admin-email>emrex-admin@postit.csc.fi</ewp:admin-email>
         <ewp:admin-provider>CSC</ewp:admin-provider>
         <apis-implemented>
@@ -813353,6 +813611,11 @@ Standort Lörrach</name>
             <other-id type="erasmus">E  BARCELO39</other-id>
             <other-id type="pic">947713863</other-id>
             <name>Institut Esteve Terradas i Illa</name>
+        </hei>
+        <hei id="iesfmontseny.es">
+            <other-id type="erasmus">E  VALENCI52</other-id>
+            <other-id type="pic">949248500</other-id>
+            <name>IES FEDERICA MONTSENY</name>
         </hei>
         <hei id="iesfmz.org">
             <other-id type="erasmus">E  SEVILLA36</other-id>
@@ -835180,6 +835443,18 @@ International Cooperation Office</name>
             KbRMQeUHWmrx16RybFie48MAH/Qo5ZeOmjMhUXvqEf8Iy7OwuiVUXebEP8YiDMjucC4XXiRo60me
             pDVCex+EYvbfhXitXQxZdZkRgRphQ9Z3m1L+AXz9ZRx1fqvce60wHY56+klrtFUaU2f61voDuXx7
             8uV7tkIOyse0ooBlkDYzSkC3dy8tcmTKEQY+8D1yhs0CAwEAAQ==
+        </rsa-public-key>
+        <rsa-public-key sha-256="411c29526db580f0147fd266040e438cd06a73ca69b8e65750dda7da5bc9af6d">
+            MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAtShepIxlo/4yUwc2uOrPndpHwT8KD+vb
+            57gJaq2+k70Pl5C6x2IMH/swMdyZdQx6u22UvAYpvqO+QiI1E6KVh8raixIxf051hvjb2zjs8BNE
+            S4rjSnzd7HJHXTW0c8756zlrOChWiadJqtIl0q3fY1geL+RoRmAGO6yxi0TyxGe1DJfLQLST9J3O
+            wa0pujUrryqXAWimeVGR1L2YxSlTKQgd98NxFB6fltu0B18R00Bfp33BmeT+yebAUDeBatm7qYcw
+            fhxALvZlBQx0NKmrOb4sYI8Fc8mKWumpFOxrZ+SjtTn+EiqKLlXZGBSwmP85A5z9sd//Voln3lrm
+            yI4EiL9400iA/rcRzU3p0OhJmO+xIHQ1skI0xLwdh7zqTs5qbJp6ooK/nJQi6Rk2y5gRiV4+lEci
+            sUgDmnsK+ZKZJaBuxY4Bs8tqvjxoMqz81iLBTNkKRR42S8YEB/21j2iMnzfcNCA7CpWAZcp5KSbu
+            BH+d147wfcLR+QqHq7UeRCo9i3KC9zRtB/4kEQrbvweLrD2WkaVcVRbCRgKyuYeVc3QqRDf0pYaS
+            QEVySwtgohxEyS+TebbRmDi4aHcu6XvcL7mUaRU7saOuqaq1UMIrN+oaUUM0H4cWiLi1bs47TMt7
+            +GApuPirGqJckoTAjGgIH/ACZnBwsBv5d9956nBJLwUCAwEAAQ==
         </rsa-public-key>
         <rsa-public-key sha-256="41203b28da1f0d710a18189f7eb9754ccdf515e7de997323c2de17c6637df071">
             MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEApxXn2LFYpRBTn4qR4UMQIym75N/rt/cw
