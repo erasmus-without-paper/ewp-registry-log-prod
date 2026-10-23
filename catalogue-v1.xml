@@ -805249,6 +805249,26 @@
         </server-credentials-in-use>
     </host>
     <host>
+        <ewp:admin-email>ewp-plus@it.auth.gr</ewp:admin-email>
+        <ewp:admin-email>ewp-monitor@it.auth.gr</ewp:admin-email>
+        <ewp:admin-provider>EWP Dashboard</ewp:admin-provider>
+        <ewp:admin-notes>Manifest File for general endpoints Erasmus Dashboard.</ewp:admin-notes>
+        <apis-implemented>
+            <d6:discovery version="6.0.0">
+                <d6:url>https://unizoneewp.it.auth.gr/rest/manifest/salford.ac.uk</d6:url>
+            </d6:discovery>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>salford.ac.uk</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <rsa-public-key sha-256="be5420ce8f23c047b3de4676110cdffba7e69ae69dd8a69e993893818d47c9ce"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="be5420ce8f23c047b3de4676110cdffba7e69ae69dd8a69e993893818d47c9ce"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
         <ewp:admin-email>emrex-admin@postit.csc.fi</ewp:admin-email>
         <ewp:admin-provider>CSC</ewp:admin-provider>
         <apis-implemented>
@@ -819182,6 +819202,11 @@ Standort Lörrach</name>
             <other-id type="erasmus">E  BARCELO71</other-id>
             <other-id type="pic">946619412</other-id>
             <name>Escoles Professionals Salesianes, Institut Politècnic</name>
+        </hei>
+        <hei id="salford.ac.uk">
+            <other-id type="erasmus">UK SALFORD01</other-id>
+            <other-id type="pic">999829441</other-id>
+            <name>The University of Salford</name>
         </hei>
         <hei id="samas.no">
             <other-id type="erasmus">N  KAUTOKE01</other-id>
@@ -857132,6 +857157,18 @@ International Cooperation Office</name>
             7fxjrgXi5dg6PxRa2NhjwZZkfluLWwZebvEKyUWmHYZkaN1ElbGt1GK2qKkcIaBRBSEMCuu0ugSS
             1Ogasw11K+pa8Ow9GpLW8mYNQXuffUJo0xGruOoJNPTK8lNEGqKQs3beHjf3CROhhU4pHaC7bowy
             MNm3VwIDAQAB
+        </rsa-public-key>
+        <rsa-public-key sha-256="be5420ce8f23c047b3de4676110cdffba7e69ae69dd8a69e993893818d47c9ce">
+            MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAxOF5yN2CbFK3iSUzelhTsWDR8GfDGqKU
+            /sKewUY1yD4Ew+6sGk9qeNiyERtsh3vXhYFvcKPmrrP6cQCGLqZ7TiK1ITVvvopeSXWFnPDzY8gv
+            sP/T76GptXIaB+aIu5XBv8ELyB/jzOHoqa6CQYar1QmTKjBSi1T2IzBrIgvqY1NqdCCw8a3hHGLc
+            etFl6TUhiJGKbrrMlyB4fmzdqUNwvHVq7EIzwzqR0FSBmBQ1DjkWuGLZlQrwDdqjMM4btcK0QPaS
+            eNMyYUNZ1caYPPk/sjr2geSvnWenuJIGEOa4hPhWLDPHcbbYRwC3IfTsRacG70xCpTap+g2c48ap
+            9M4IzrwAELPTxbdLUSluYKmcVXC2r/w50jTikouyzV0sSqF00J1jpAgX5Cw/E+YVOReGOExZGzK+
+            NDMVrRJMdSxBUquOPc84koQ8p8xayYc0VrtZGPISd2bQWQkKbrp+olUorvnxZCq4Fk+H3d0ZnEN9
+            +UZGjgpa2T7PksUO2ThSKfk8lQsFWlUJgByphPfexnMkFGX/ESPcdbr30neOBw6c2CUSF64hj/oF
+            +/Prl8EKPnag7I7L4kdP6h1HZOVYh01oiW7PHrrMX37yP7wQTleAPArTUECnSbbmGTE8c2186bKA
+            ecGmU2jrhFowYhHaw23ls4rsejAGVl1Av/ZLGiYyM5UCAwEAAQ==
         </rsa-public-key>
         <rsa-public-key sha-256="be6a4da2c1e072564c23411762e9bf20b05521bea6c416778b4e20a0e34a4d07">
             MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAsu3tZBmbYomKevx+dEbNS40iQpZ0YseW
