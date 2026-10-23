@@ -805209,6 +805209,26 @@
         </server-credentials-in-use>
     </host>
     <host>
+        <ewp:admin-email>ewp-plus@it.auth.gr</ewp:admin-email>
+        <ewp:admin-email>ewp-monitor@it.auth.gr</ewp:admin-email>
+        <ewp:admin-provider>EWP Dashboard</ewp:admin-provider>
+        <ewp:admin-notes>Manifest File for general endpoints Erasmus Dashboard.</ewp:admin-notes>
+        <apis-implemented>
+            <d6:discovery version="6.0.0">
+                <d6:url>https://unizoneewp.it.auth.gr/rest/manifest/umt.edu.al</d6:url>
+            </d6:discovery>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>umt.edu.al</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <rsa-public-key sha-256="61b1e7b12675c905b1d4889f838ea8b4acd1fc24870ff09937f53cbc238d5422"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="61b1e7b12675c905b1d4889f838ea8b4acd1fc24870ff09937f53cbc238d5422"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
         <ewp:admin-email>emrex-admin@postit.csc.fi</ewp:admin-email>
         <ewp:admin-provider>CSC</ewp:admin-provider>
         <apis-implemented>
@@ -821566,6 +821586,11 @@ Standort Lörrach</name>
             <other-id type="erasmus">AL TIRANA01</other-id>
             <other-id type="pic">890250966</other-id>
             <name>MESDHEU EDUCATION SHPK</name>
+        </hei>
+        <hei id="umt.edu.al">
+            <other-id type="erasmus">AL TIRANA04</other-id>
+            <other-id type="pic">925634044</other-id>
+            <name>UNIVERSITETI METROPOLITAN TIRANA</name>
         </hei>
         <hei id="umu.se">
             <other-id type="erasmus">S  UMEA01</other-id>
@@ -840850,6 +840875,18 @@ International Cooperation Office</name>
             fVnlscH7zqmAlunQEYbpaJREowLjZfLRuQNhmWNsNoito9hNbXJLpZ9E/2nX9U2B/pH/hJQe/CpS
             jspk8Mg46O13bErFg5fcXcZrYaG8TYjHgmVXyK1Z0x5DiwtYAkceehm76DZrtkct8gXFaovpFc+1
             PDdYxOQe/DrPS93KdPpB/I1G/w1AOYOOvF55rpl6N4sCAwEAAQ==
+        </rsa-public-key>
+        <rsa-public-key sha-256="61b1e7b12675c905b1d4889f838ea8b4acd1fc24870ff09937f53cbc238d5422">
+            MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA2MtKzHSFYs7wruOubRj9xnD1hFUHXlct
+            GP3/ew8lzArmqnepbHQ36xJd4y0iML9hLo0pyv8Q7KfGcuZIsQO+khQZBw6AVqJ3jMpfv7M5BVdQ
+            R8VhZ3PFDW2InYmxeHFjVMnDoG3Nm+oXmRvihMwj38X5Ee5l3DNBk13+OHKuqTJnxsBPM9g+LcB8
+            cCfJTgTO+x6l/JWfbtPrUjoipF0XYBqxpPYxcR6KUH78kinbyp7IdYkXu9c8MpiiVVLj6YPTXkvV
+            MVdRjr9Ei6pzF5wT1duC5mIZfqPqQLXtDNj78RMmrnm5RfbB3T+TmSxtgH3Tx/hYA6VMHI3mhpEx
+            BLay5Wo5T7+hJOLMcQlRgOkGNkJVs3yKkdGp363rwHIzeuMfhfOEuPA2M+deEmuSwJj06ig0Nmcz
+            /ihVHCvSYpvzpoTXK99kpVJZHNLNbJu4XGFjFepn7OdOqFFq1iu2YPr2S2bb7efsgYNLmMi8wqK1
+            nOtnar55z+cjJMgseIuIfsBew3KtiSeEw0PMi1WwywA9x3GK5rNsqhOaj5AnEyLxjNCx5pyyyjHz
+            1sRN2wvutYmCsy6A6t2kvIJUbCJvcot5cOvhRQfStIpVOe4qqMETgM11pYk/DEHGrv/d3PrLelrz
+            XHXETNnuJBE6y0Q/DJFKHaMWLFgXk6b30n9Fife/xdsCAwEAAQ==
         </rsa-public-key>
         <rsa-public-key sha-256="61baf3a6c1ee364a16cdf9355666a50a117f64d2b2e772ecfbf72d7041a9d6b4">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArmRHkoeSsqLPAM1ICyspcXVgA5E59Dic
