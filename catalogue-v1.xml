@@ -805036,6 +805036,159 @@
         </server-credentials-in-use>
     </host>
     <host>
+        <ewp:admin-email>ewp-plus@it.auth.gr</ewp:admin-email>
+        <ewp:admin-email>ewp-monitor@it.auth.gr</ewp:admin-email>
+        <ewp:admin-provider>EWP Dashboard</ewp:admin-provider>
+        <ewp:admin-notes>Manifest File for general endpoints Erasmus Dashboard.</ewp:admin-notes>
+        <apis-implemented>
+            <d6:discovery version="6.0.0">
+                <d6:url>https://unizoneewp.it.auth.gr/rest/manifest/umed.edu.al</d6:url>
+            </d6:discovery>
+            <ia7:iias
+                xmlns:ia7="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v7/manifest-entry.xsd"
+                version="7.0.0"
+            >
+                <ia7:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </ia7:http-security>
+                <ia7:get-url>https://unizoneewp.it.auth.gr/rest/iias/get/umed.edu.al</ia7:get-url>
+                <ia7:max-iia-ids>1</ia7:max-iia-ids>
+                <ia7:index-url>https://unizoneewp.it.auth.gr/rest/iias/index/umed.edu.al</ia7:index-url>
+                <ia7:stats-url>https://unizoneewp.it.auth.gr/rest/iias/stats/umed.edu.al</ia7:stats-url>
+            </ia7:iias>
+            <iac3:iia-cnr version="3.0.0">
+                <iac3:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </iac3:http-security>
+                <iac3:url>https://unizoneewp.it.auth.gr/rest/iias/cnr/umed.edu.al</iac3:url>
+            </iac3:iia-cnr>
+            <iaa2:iias-approval
+                xmlns:iaa2="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.0"
+            >
+                <iaa2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </iaa2:http-security>
+                <iaa2:url>https://unizoneewp.it.auth.gr/rest/iias/app/umed.edu.al</iaa2:url>
+                <iaa2:max-iia-ids>1</iaa2:max-iia-ids>
+            </iaa2:iias-approval>
+            <iaac2:iia-approval-cnr
+                xmlns:iaac2="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.0"
+            >
+                <iaac2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </iaac2:http-security>
+                <iaac2:url>https://unizoneewp.it.auth.gr/rest/iias/app/cnr/umed.edu.al</iaac2:url>
+            </iaac2:iia-approval-cnr>
+            <om3:omobilities
+                xmlns:om3="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v3/manifest-entry.xsd"
+                version="3.0.0"
+            >
+                <om3:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </om3:http-security>
+                <om3:get-url>https://unizoneewp.it.auth.gr/rest/nominations/omobilities/get/umed.edu.al</om3:get-url>
+                <om3:index-url>https://unizoneewp.it.auth.gr/rest/nominations/omobilities/index/umed.edu.al</om3:index-url>
+                <om3:update-url>https://unizoneewp.it.auth.gr/rest/nominations/omobilities/update/umed.edu.al</om3:update-url>
+                <om3:max-omobility-ids>1</om3:max-omobility-ids>
+            </om3:omobilities>
+            <omc2:omobility-cnr
+                xmlns:omc2="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.0"
+            >
+                <omc2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </omc2:http-security>
+                <omc2:url>https://unizoneewp.it.auth.gr/rest/nominations/omobilities/cnr/umed.edu.al</omc2:url>
+                <omc2:max-omobility-ids>1</omc2:max-omobility-ids>
+            </omc2:omobility-cnr>
+            <oms1:omobility-stats
+                xmlns:oms1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-stats/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <oms1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </oms1:http-security>
+                <oms1:url>https://unizoneewp.it.auth.gr/rest/nominations/omobilities/stats/umed.edu.al</oms1:url>
+            </oms1:omobility-stats>
+            <im2:imobilities
+                xmlns:im2="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.0"
+            >
+                <im2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </im2:http-security>
+                <im2:get-url>https://unizoneewp.it.auth.gr/rest/nominations/imobilities/get/umed.edu.al</im2:get-url>
+                <im2:max-omobility-ids>1</im2:max-omobility-ids>
+            </im2:imobilities>
+            <imc2:imobility-cnr
+                xmlns:imc2="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-cnr/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.0"
+            >
+                <imc2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </imc2:http-security>
+                <imc2:url>https://unizoneewp.it.auth.gr/rest/nominations/imobilities/cnr/umed.edu.al</imc2:url>
+                <imc2:max-omobility-ids>1</imc2:max-omobility-ids>
+            </imc2:imobility-cnr>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>umed.edu.al</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <rsa-public-key sha-256="9ea8812ff4c09bd3427eb689a30fb070aea56943b6f98a7f2aeeb332f497ee56"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="9ea8812ff4c09bd3427eb689a30fb070aea56943b6f98a7f2aeeb332f497ee56"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
         <ewp:admin-email>emrex-admin@postit.csc.fi</ewp:admin-email>
         <ewp:admin-provider>CSC</ewp:admin-provider>
         <apis-implemented>
@@ -821295,6 +821448,11 @@ Standort Lörrach</name>
             <name xml:lang="en">Maria Curie-Sklodowska University</name>
             <name xml:lang="en">Maria Curie-Skłodowska University in Lublin</name>
             <name xml:lang="pl">Uniwersytet Marii Curie-Skłodowskiej w Lublinie</name>
+        </hei>
+        <hei id="umed.edu.al">
+            <other-id type="erasmus">AL TIRANA17</other-id>
+            <other-id type="pic">940940353</other-id>
+            <name>UNIVERSITETI I MJEKESISE TIRANE</name>
         </hei>
         <hei id="umed.lodz.pl">
             <other-id type="erasmus">PL LODZ03</other-id>
@@ -851391,6 +851549,18 @@ International Cooperation Office</name>
             5KJGXiMm5+HPWRXhm/+BfV9FXk5NnhqFUFD02HB3vLY0d4+Ap20O4NJ7yO4Ej6QDNAkSUWtwLu7t
             AZW0I2QM0UmR91uYaoZaLzWS3LRCzytOxqpWWXMNoru+bJTiCpw++VOFidd1Wx1xzRyqCyRoCeZc
             DhptgH/qAvUw6xBmxJVWWlfTIU3kWm8GbsBIdPFsT18CAwEAAQ==
+        </rsa-public-key>
+        <rsa-public-key sha-256="9ea8812ff4c09bd3427eb689a30fb070aea56943b6f98a7f2aeeb332f497ee56">
+            MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAraYQHvPeLTs/P2qgkKjNEG262BfbRhHR
+            Df0tLyyH5+Ck72gV1iXSDbdUt6x58wywGPDSo5b2b4JJzBKLBntFSxQIE18XfI4k9M6V7ZQfDmeB
+            No7Np7bCTd3ZiA4DUep6cjZBWy1xkWmIvFsYOkM1IPTtmR/ntxxQYX1wxIOb3HviZzk/CcUiEpH9
+            1aumhHKTSBpa9Yi1fqeQnfu/tb4zXoKSNHD3gZNYGRlsQB+bjlS+8aDcqrqeplWq4O8FxFJNUkih
+            3ON5mOWF0pYLOHgdMcHOrNlQWTP8HTevpxhMmA8lVEDaTg32vtONd9hp2x1GswaiAKdjI6f1HIqu
+            yq/5cieyO6TDb7HHn/l96gooaIr/VfLzjkjDnFytG2Tq7qqKfRwmzCIxJTu1b1Yn8glZLpLVqQuG
+            xq/7doRaSEQjetnegco2fkfIoJ8pe5WMUv+L7URGhYoLW46Gfo4DC7X+vh3F1Mn9YalyEwCh3szm
+            fAFYl10bU98eIs87E/90s1EI31f6vWWid8sNUuJfupaX8pOavITrVlV4KHULIVqaMjyVH/eozjY6
+            XCoO1ka+8I4RicyjkT5v29tH/lnG1cUFUZOyEJycq1vHcjToYnujlNUy/D9j20l9hursChGOBISd
+            BMiCM3uKxpTwWS0MPCzC4R+goQcLuTJ6MZHKPoUhGJsCAwEAAQ==
         </rsa-public-key>
         <rsa-public-key sha-256="9eb719c2a1286fdf6ab46af8045acbfd15e689ce6c6da5ee7eceaa2ef0ce0b55">
             MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAtQ2vTnKkmdoCK60VWhEeDbf8xAvYzAtY
