@@ -1,0 +1,39 @@
+<manifest
+    xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/tree/stable-v6"
+    xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
+    xmlns:r="https://github.com/erasmus-without-paper/ewp-specs-api-registry/tree/stable-v1"
+    xmlns:sec="https://github.com/erasmus-without-paper/ewp-specs-sec-intro/tree/stable-v2"
+    xmlns:sec-cli-anon="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-none/tree/stable-v1"
+    xmlns:sec-cli-http="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
+    xmlns:sec-cli-tls="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-tlscert/tree/stable-v1"
+    xmlns:sec-svr-http="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
+    xmlns:sec-svr-tls="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-tlscert/tree/stable-v1"
+>
+    <host>
+        <ewp:admin-email>ewp-plus@it.auth.gr</ewp:admin-email>
+        <ewp:admin-email>ewp-monitor@it.auth.gr</ewp:admin-email>
+        <ewp:admin-provider>EWP Dashboard</ewp:admin-provider>
+        <ewp:admin-notes>Manifest File for general endpoints Erasmus Dashboard.</ewp:admin-notes>
+        <r:apis-implemented>
+            <discovery
+                xmlns="https://github.com/erasmus-without-paper/ewp-specs-api-discovery/blob/stable-v6/manifest-entry.xsd"
+                version="6.0.0"
+            >
+                <url>https://unizoneewp.it.auth.gr/rest/manifest/ims-nantes.com</url>
+            </discovery>
+        </r:apis-implemented>
+        <institutions-covered>
+            <r:hei id="ims-nantes.com">
+                <r:other-id type="erasmus">F  NANTES79</r:other-id>
+                <r:other-id type="pic">924638533</r:other-id>
+                <r:name>Institut des Métiers de l&amp;#39;Enseignement Supérieur</r:name>
+            </r:hei>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <rsa-public-key>MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAsR2m5Tdb4qdDWAIvjSJYuI3qq6fWj50Jv8ub7ySRScGZPvrXBeZiq4DTJKeawBxyk9BPZAc0f8KYB+RACiAsC+XQrkCX0d7KffWFZgvtHKqI5ll/CFQy9isbRgr8qgQnhGPIHhUgFpTNBR3IM6vtXE+HFkZvJQ7Zs9Gu++ffja9LTDno/veEe18Srp+kzN5y0Pnj1VAxvGMt7ilMiACfv9QaD8xZs5Cq/11Nuilkn36f+GgQTgqA1ub2WGWgG7KKlwfNMr9GqqGuyC1tT2Kj8iyh1+iwGB8w0cfsl7kBJlsp1d6NI6DYDH8GLsJUYdE+5oS12pP1fg8mfSt/yVli6Fg/jw4+/tQCaxCNMw7Ba11n/XL027u7YHkUMsNIA7LpEL5ZccFTvWpBMQfScxxhrNSMu01EwMtVtjOhPEHfApTYzmtVfqL3FsrVLeQjtg8q9CUx7r0DpDAFKl7dMYxLcRaaHpTXc7sfW3y59B0uZqeqkJNzjblOVUMlbhSYEHPdH4l+dU+yaXSnMZ1LQfjx7QXc85Uy1yjkr5wLeXf1ZCHtatmUZ/zofX+WqWmQW1GVNvgOSxjsDT0CZUqjyEmuHyrQUYPfB/G8xmCO8ewquBkyMpaVRX9oBS86FzyWHcB5ppdnKJNDBqMNkazrvNbyVXmjLeRfLrJascH6KlEWdfkCAwEAAQ==</rsa-public-key>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key>MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAsR2m5Tdb4qdDWAIvjSJYuI3qq6fWj50Jv8ub7ySRScGZPvrXBeZiq4DTJKeawBxyk9BPZAc0f8KYB+RACiAsC+XQrkCX0d7KffWFZgvtHKqI5ll/CFQy9isbRgr8qgQnhGPIHhUgFpTNBR3IM6vtXE+HFkZvJQ7Zs9Gu++ffja9LTDno/veEe18Srp+kzN5y0Pnj1VAxvGMt7ilMiACfv9QaD8xZs5Cq/11Nuilkn36f+GgQTgqA1ub2WGWgG7KKlwfNMr9GqqGuyC1tT2Kj8iyh1+iwGB8w0cfsl7kBJlsp1d6NI6DYDH8GLsJUYdE+5oS12pP1fg8mfSt/yVli6Fg/jw4+/tQCaxCNMw7Ba11n/XL027u7YHkUMsNIA7LpEL5ZccFTvWpBMQfScxxhrNSMu01EwMtVtjOhPEHfApTYzmtVfqL3FsrVLeQjtg8q9CUx7r0DpDAFKl7dMYxLcRaaHpTXc7sfW3y59B0uZqeqkJNzjblOVUMlbhSYEHPdH4l+dU+yaXSnMZ1LQfjx7QXc85Uy1yjkr5wLeXf1ZCHtatmUZ/zofX+WqWmQW1GVNvgOSxjsDT0CZUqjyEmuHyrQUYPfB/G8xmCO8ewquBkyMpaVRX9oBS86FzyWHcB5ppdnKJNDBqMNkazrvNbyVXmjLeRfLrJascH6KlEWdfkCAwEAAQ==</rsa-public-key>
+        </server-credentials-in-use>
+    </host>
+</manifest>

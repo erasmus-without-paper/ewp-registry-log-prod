@@ -804678,6 +804678,26 @@
         </server-credentials-in-use>
     </host>
     <host>
+        <ewp:admin-email>ewp-plus@it.auth.gr</ewp:admin-email>
+        <ewp:admin-email>ewp-monitor@it.auth.gr</ewp:admin-email>
+        <ewp:admin-provider>EWP Dashboard</ewp:admin-provider>
+        <ewp:admin-notes>Manifest File for general endpoints Erasmus Dashboard.</ewp:admin-notes>
+        <apis-implemented>
+            <d6:discovery version="6.0.0">
+                <d6:url>https://unizoneewp.it.auth.gr/rest/manifest/ims-nantes.com</d6:url>
+            </d6:discovery>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>ims-nantes.com</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <rsa-public-key sha-256="63604e3d49cdccd8a73331c971eef9fded92a44f988b904a376b7dc7ee00664c"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="63604e3d49cdccd8a73331c971eef9fded92a44f988b904a376b7dc7ee00664c"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
         <ewp:admin-email>emrex-admin@postit.csc.fi</ewp:admin-email>
         <ewp:admin-provider>CSC</ewp:admin-provider>
         <apis-implemented>
@@ -813840,6 +813860,11 @@ Standort Lörrach</name>
             <other-id type="erasmus">PL GDANSK14</other-id>
             <other-id type="pic">999489650</other-id>
             <name>INSTYTUT MASZYN PRZEPLYWOWYCH IM ROBERTA SZEWALSKIEGO POLSKIEJ AKADEMII NAUK - IMP PAN</name>
+        </hei>
+        <hei id="ims-nantes.com">
+            <other-id type="erasmus">F  NANTES79</other-id>
+            <other-id type="pic">924638533</other-id>
+            <name>Institut des Métiers de l&amp;#39;Enseignement Supérieur</name>
         </hei>
         <hei id="imt-atlantique.fr">
             <other-id type="eche">EACEA-03-2020 ECHE-LP-2020</other-id>
@@ -840431,6 +840456,18 @@ International Cooperation Office</name>
             xbZzWHXzjRd/u7Cpb+NNe6jTYu4F0jCWj4wKULHoMFD0dmg1m8547GI+GlVwo9SvqdWYDwLq+Xgf
             WNXZHIyjTbi1sXXVhrIs86OU+woPvmmNhx/gH92U0lvs3xA9UdDnM5Cefkl2Y3OgWaJvuumrY9Q2
             4nLckluYnHQPIZB+PceLYKTvk2GfDjfvF23inZW+TEcCAwEAAQ==
+        </rsa-public-key>
+        <rsa-public-key sha-256="63604e3d49cdccd8a73331c971eef9fded92a44f988b904a376b7dc7ee00664c">
+            MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAsR2m5Tdb4qdDWAIvjSJYuI3qq6fWj50J
+            v8ub7ySRScGZPvrXBeZiq4DTJKeawBxyk9BPZAc0f8KYB+RACiAsC+XQrkCX0d7KffWFZgvtHKqI
+            5ll/CFQy9isbRgr8qgQnhGPIHhUgFpTNBR3IM6vtXE+HFkZvJQ7Zs9Gu++ffja9LTDno/veEe18S
+            rp+kzN5y0Pnj1VAxvGMt7ilMiACfv9QaD8xZs5Cq/11Nuilkn36f+GgQTgqA1ub2WGWgG7KKlwfN
+            Mr9GqqGuyC1tT2Kj8iyh1+iwGB8w0cfsl7kBJlsp1d6NI6DYDH8GLsJUYdE+5oS12pP1fg8mfSt/
+            yVli6Fg/jw4+/tQCaxCNMw7Ba11n/XL027u7YHkUMsNIA7LpEL5ZccFTvWpBMQfScxxhrNSMu01E
+            wMtVtjOhPEHfApTYzmtVfqL3FsrVLeQjtg8q9CUx7r0DpDAFKl7dMYxLcRaaHpTXc7sfW3y59B0u
+            ZqeqkJNzjblOVUMlbhSYEHPdH4l+dU+yaXSnMZ1LQfjx7QXc85Uy1yjkr5wLeXf1ZCHtatmUZ/zo
+            fX+WqWmQW1GVNvgOSxjsDT0CZUqjyEmuHyrQUYPfB/G8xmCO8ewquBkyMpaVRX9oBS86FzyWHcB5
+            ppdnKJNDBqMNkazrvNbyVXmjLeRfLrJascH6KlEWdfkCAwEAAQ==
         </rsa-public-key>
         <rsa-public-key sha-256="63646ffa898ff2eb7b695aa25b9ea20f93fb95a53698497565f8d08381722054">
             MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAwVl2uHfniGh7UIxuiekKarcE1J8Fq8ew
