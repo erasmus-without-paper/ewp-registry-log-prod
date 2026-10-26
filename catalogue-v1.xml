@@ -449387,63 +449387,6 @@
                 <ou2:max-ounit-ids>100</ou2:max-ounit-ids>
                 <ou2:max-ounit-codes>100</ou2:max-ounit-codes>
             </ou2:organizational-units>
-            <ia7:iias
-                xmlns:ia7="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v7/manifest-entry.xsd"
-                version="7.0.0"
-            >
-                <ia7:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </ia7:http-security>
-                <ia7:get-url>https://unizoneewp.it.auth.gr/rest/iias/get/cam.ac.uk</ia7:get-url>
-                <ia7:max-iia-ids>1</ia7:max-iia-ids>
-                <ia7:index-url>https://unizoneewp.it.auth.gr/rest/iias/index/cam.ac.uk</ia7:index-url>
-                <ia7:stats-url>https://unizoneewp.it.auth.gr/rest/iias/stats/cam.ac.uk</ia7:stats-url>
-            </ia7:iias>
-            <iac3:iia-cnr version="3.0.0">
-                <iac3:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </iac3:http-security>
-                <iac3:url>https://unizoneewp.it.auth.gr/rest/iias/cnr/cam.ac.uk</iac3:url>
-            </iac3:iia-cnr>
-            <iaa2:iias-approval
-                xmlns:iaa2="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v2/manifest-entry.xsd"
-                version="2.0.0"
-            >
-                <iaa2:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </iaa2:http-security>
-                <iaa2:url>https://unizoneewp.it.auth.gr/rest/iias/app/cam.ac.uk</iaa2:url>
-                <iaa2:max-iia-ids>1</iaa2:max-iia-ids>
-            </iaa2:iias-approval>
-            <iaac2:iia-approval-cnr
-                xmlns:iaac2="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v2/manifest-entry.xsd"
-                version="2.0.0"
-            >
-                <iaac2:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </iaac2:http-security>
-                <iaac2:url>https://unizoneewp.it.auth.gr/rest/iias/app/cnr/cam.ac.uk</iaac2:url>
-            </iaac2:iia-approval-cnr>
             <oml1:omobility-las
                 xmlns:oml1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd"
                 version="1.2.0"
