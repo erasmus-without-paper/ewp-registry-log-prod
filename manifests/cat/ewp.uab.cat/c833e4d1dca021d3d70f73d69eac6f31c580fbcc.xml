@@ -1,69 +1,183 @@
-<!doctype html>
-
-<html lang="en">
+<!-- © 2025 Universitat Autònoma de Barcelona -->
+<!DOCTYPE html>
+<html lang="ca">
 <head>
-    <meta charset="utf-8">
-    <title>En manteniment</title>
-    <meta name="description" content="Lloc web en manteniment">
-    <meta name="author" content="Universitat Autònoma de Barcelona - APSI">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700" rel="stylesheet">
-    <link rel="stylesheet" href="/css/estils.css?v=1.0" >
-    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-    
+	<title data-translate="pageTitle">
+		En manteniment
+	</title>
+	<meta charset="UTF-8">
+	<meta name="robots" content="noindex">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" type="image/png" href="pagines_error/img/simbol.png">
+	<link rel="preload" href="pagines_error/font/Mona-Sans.woff2" as="font" type="font/woff2" crossorigin="">
+	<link rel="preload" href="pagines_error/font/Hubot-Sans.woff2" as="font" type="font/woff2" crossorigin="">
+	<link rel="stylesheet" href="pagines_error/css/error.css">
 </head>
-
 <body>
+	<header>
+		<div class="contenidor">
+			<form class="idioma" aria-labelledby="seleccio-idioma">
+				<fieldset>
+					<legend id="seleccio-idioma" data-translate="canviIdiomaText">Idioma</legend>
+					<label><input type="radio" name="lang" value="ca" checked="checked">Català</label>
+					<label><input type="radio" name="lang" value="es">Español</label>
+					<label><input type="radio" name="lang" value="en">English</label>
+				</fieldset>
+			</form>
+			<div class="logo">
+				<a href="http://www.uab.cat" aria-label="Universitat Autònoma de Barcelona" data-translate-aria="ariaUabLogoText">
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewbox="0 0 585 108" xml:space="preserve">
+						<path d="M.9.9h23.8v61.8c0 20.2 7.7 25.3 23 25.3s23-5.2 23-25.3V.9h23.6v65c0 27.1-15.5 41.4-46.6 41.4S.9 93.1.9 65.9V.9zM317.5 76.6c0 17.5-11.4 28.3-33.6 28.3H227V.9h58c22.2 0 31.1 11.6 31.1 25.6 0 15.3-9.5 22.2-21.4 24.7 13 2.1 22.9 8.8 22.8 25.4m-66.7-57.7v24.9h26.4c10.3 0 14.1-5 14.1-12.5 0-8-3.4-12.4-13.3-12.4h-27.2zm42 54.4c0-8.3-4.2-13.6-15.6-13.6h-26.4v27.1h27.8c10.6-.1 14.2-5.9 14.2-13.5"></path>
+						<path d="M176.4.8h-33.5l-41.4 104h23.4c.3-.9.8-2.2 1.1-3 1.9-4.6 4.8-8.4 8.3-11.7 5.8-5.4 12.8-7.7 20.1-8.3 4.9-.4 10.7-.5 15.7-.5h15.3l9.1 23.5h23.4L176.4.8zm-8.1 62.3h-1.8c-12.3.1-22.5 3-32.2 17.3l25.4-63.1 18.4 45.8h-9.8"></path>
+						<path d="M351.5.8h5.6v14.5c0 4.7 1.8 6 5.4 6s5.4-1.2 5.4-6V.8h5.6v15.3c0 6.4-3.6 9.8-11 9.8s-11-3.3-11-9.8V.8zM396.5 14v11.3h-5.4V14.9c0-2.9-1.3-4.1-3.5-4.1-2.9 0-4.5 1.8-4.5 6.2v8.4h-5.4V6.9h5.4v3.6c1.2-2.5 3.3-4.2 6.6-4.2 4.8 0 6.8 2.9 6.8 7.7zM400.3.8h5.9v3.6h-5.9V.8zm.3 6.1h5.4v18.4h-5.4V6.9zM429 6.9l-6.4 18.4h-7.7l-6.4-18.4h5.6l4.9 14.2 4.9-14.2h5.1zM444 19.8h5.2c-.5 2.9-2.9 6.2-9.5 6.2-7.2 0-9.9-4.6-9.9-9.8s3.1-9.8 9.9-9.8 9.5 4.5 9.5 9.7c0 .6 0 1.1-.1 1.5h-14c.3 3.5 2.1 4.6 4.7 4.6 2.4 0 3.7-1.1 4.2-2.4zm-8.8-5.6h8.9c-.2-2.8-1.5-4.2-4.3-4.2s-4.2 1.1-4.6 4.2zM464.6 6.6v5.3h-1.8c-3.6 0-4.9 2-4.9 6.1v7.3h-5.4V6.9h5.3v3.9c.9-2.6 2.5-4.2 5.6-4.2h1.2zM471.1 19.3c.1 1.8 1.5 3.2 4.2 3.2 2.5 0 3.3-.8 3.3-2.1 0-1.1-.5-1.9-2.6-2.2l-4.1-.5c-3.5-.4-5.3-2.3-5.3-5.4 0-4.1 3.5-6 8.4-6s8.3 2 8.6 6h-5c-.2-1.5-1.3-2.6-3.6-2.6s-3.3.9-3.3 2.1c0 .9.5 1.7 2.3 1.9l3.9.4c4.4.6 6 2.4 6 5.7 0 3.6-2.3 6.1-8.6 6.1s-9-3.1-9.1-6.6h4.9zM486.9.8h5.9v3.6h-5.9V.8zm.3 6.1h5.4v18.4h-5.4V6.9zM498.7 18.7V11h-3.3V8.4l3.8-1.5 2.2-4.3h2.8V7h5.3v4h-5.3v10h4.8v4.3h-3.5c-5.3 0-6.8-2.2-6.8-6.6zM511.8 20.4c0-2.9 1.3-4.9 6-5.7l4.3-.7c1.7-.3 2.3-.8 2.3-1.8 0-1.3-.7-2.1-3.2-2.1s-3.7 1-3.8 2.9h-5.3c.1-3.9 3.4-6.6 9-6.6s8.3 2.4 8.3 6.3v8c0 1.7.1 3.2.3 4.8H525c-.2-1.2-.3-2.4-.3-3.9-.8 2.5-3.1 4.4-6.8 4.4s-6.1-2.3-6.1-5.6zm12.6-3.8v-.8c-1 .7-1.9.9-3 1.2l-1.5.4c-2 .5-2.7 1.2-2.7 2.6 0 1.5 1.1 2.2 2.6 2.2 2.8-.1 4.6-2.2 4.6-5.6zM534.7 18.7V11h-3.3V8.4l3.8-1.5 2.2-4.3h2.8V7h5.3v4h-5.3v10h4.8v4.3h-3.5c-5.3 0-6.8-2.2-6.8-6.6zM368.9 60h-11l-1.8 5h-5.6l8.6-24.5h8.5l8.6 24.5h-5.6l-1.7-5zm-1.5-4.3-4-11.3-4 11.3h8zM397.3 46.6V65h-5.4v-3.5c-1.1 2.5-3.2 4.1-6.5 4.1-4.8 0-7-2.9-7-7.7V46.6h5.4V57c0 2.9 1.3 4.1 3.6 4.1 2.7 0 4.4-2 4.4-6.2v-8.4l5.5.1zM403.4 58.4v-7.7h-3.3v-2.6l3.8-1.5 2.2-4.3h2.8v4.4h5.3v4.1h-5.3v9.9h4.8V65h-3.5c-5.2 0-6.8-2.2-6.8-6.6zM416.1 55.8c0-5.1 2.9-9.8 10.2-9.8s10.2 4.7 10.2 9.8-2.8 9.8-10.2 9.8-10.2-4.7-10.2-9.8zm6.1-15.9 9.3 3.2-.4 1.4-9.9-1.2 1-3.4zm4.1 21.4c3.3 0 4.7-1.4 4.7-5.5s-1.4-5.5-4.7-5.5c-3.3 0-4.7 1.4-4.7 5.5s1.4 5.5 4.7 5.5zM458.7 53.7V65h-5.4V54.5c0-2.9-1.3-4.1-3.5-4.1-2.9 0-4.5 1.8-4.5 6.2V65h-5.4V46.6h5.4v3.6c1.2-2.5 3.3-4.2 6.6-4.2 4.8 0 6.8 2.9 6.8 7.7zM461.7 55.8c0-5.1 2.9-9.8 10.2-9.8s10.2 4.7 10.2 9.8-2.8 9.8-10.2 9.8c-7.3 0-10.2-4.7-10.2-9.8zm10.2 5.5c3.3 0 4.7-1.4 4.7-5.5s-1.4-5.5-4.7-5.5c-3.3 0-4.7 1.4-4.7 5.5s1.4 5.5 4.7 5.5zM516.5 53.7V65h-5.4V54.5c0-2.8-1.1-4-3.3-4-2.8 0-4.2 1.8-4.2 6.2V65h-5.3V54.5c0-2.8-1.1-4-3.3-4-2.8 0-4.2 1.8-4.2 6.2V65h-5.4V46.6h5.4V50c1.1-2.4 3.1-3.9 6.3-3.9s5.3 1.5 6.1 4.3c1.1-2.5 3.1-4.3 6.6-4.3 4.6-.1 6.7 2.8 6.7 7.6zM519.7 60.1c0-2.9 1.3-4.9 6-5.7l4.3-.7c1.7-.3 2.3-.8 2.3-1.8 0-1.3-.7-2.1-3.2-2.1s-3.7 1-3.8 2.9H520c.1-3.9 3.4-6.6 9-6.6s8.3 2.4 8.3 6.3v8c0 1.7.1 3.2.3 4.8h-4.7c-.2-1.2-.3-2.4-.3-3.9-.8 2.5-3.1 4.4-6.8 4.4s-6.1-2.3-6.1-5.6zm12.7-3.9v-.8c-1 .7-1.9.9-3 1.2l-1.5.4c-2 .5-2.7 1.2-2.7 2.6 0 1.5 1.1 2.2 2.6 2.2 2.7 0 4.6-2.1 4.6-5.6zM369.8 78.9v25.8h-5.4V102c-1.3 2.1-3.4 3.3-6.6 3.3-6 0-8.5-4.5-8.5-9.8s2.5-9.8 8.5-9.8c3.2 0 5.3 1.3 6.6 3.3V78.9h5.4zm-5.4 16.6c0-3.8-1.5-5.5-4.9-5.5s-4.7 1.7-4.7 5.5 1.3 5.5 4.7 5.5 4.9-1.8 4.9-5.5zM387 99.1h5.2c-.5 2.9-2.9 6.2-9.5 6.2-7.2 0-9.9-4.6-9.9-9.8s3.1-9.8 9.9-9.8 9.5 4.5 9.5 9.7c0 .6 0 1.1-.1 1.5h-14c.3 3.5 2.1 4.6 4.7 4.6 2.5 0 3.7-1 4.2-2.4zm-8.8-5.5h8.9c-.2-2.8-1.5-4.2-4.3-4.2-2.7 0-4.1 1-4.6 4.2zM425.5 98c0 4.1-2.7 6.7-7.9 6.7h-13.4V80.2h13.7c5.2 0 7.3 2.7 7.3 6 0 3.6-2.2 5.2-5 5.8 3 .5 5.3 2.1 5.3 6zm-15.7-13.6v5.9h6.2c2.4 0 3.3-1.2 3.3-2.9 0-1.9-.8-2.9-3.1-2.9l-6.4-.1zm9.9 12.8c0-2-1-3.2-3.7-3.2h-6.2v6.4h6.6c2.5 0 3.3-1.4 3.3-3.2zM428.8 99.8c0-2.9 1.3-4.9 6-5.7l4.3-.7c1.7-.3 2.3-.8 2.3-1.8 0-1.3-.7-2.1-3.2-2.1s-3.7 1-3.8 2.9h-5.3c.1-3.9 3.4-6.6 9-6.6s8.3 2.4 8.3 6.3v8c0 1.7.1 3.2.3 4.8H442c-.2-1.2-.3-2.4-.3-3.9-.8 2.5-3.1 4.4-6.8 4.4s-6.1-2.3-6.1-5.6zm12.7-3.9v-.8c-1 .7-1.9.9-3 1.2l-1.5.4c-2 .5-2.7 1.2-2.7 2.6 0 1.5 1.1 2.2 2.6 2.2 2.7-.1 4.6-2.2 4.6-5.6zM463.4 86v5.3h-1.8c-3.6 0-4.9 2-4.9 6.1v7.3h-5.4V86.3h5.3v3.9c.9-2.6 2.5-4.2 5.6-4.2h1.2zM475 85.7c6.4 0 9.5 3.5 9.6 8.1h-5.3c-.2-2.3-1.4-3.8-4.2-3.8-2.9 0-4.7 1.4-4.7 5.5s1.7 5.5 4.6 5.5 4.2-1.7 4.4-3.9h5.3c-.1 4.3-3.2 8.2-9.6 8.2-7.2 0-10.2-4.6-10.2-9.8 0-5.2 3-9.8 10.1-9.8zM501.3 99.1h5.2c-.5 2.9-2.9 6.2-9.5 6.2-7.2 0-9.9-4.6-9.9-9.8s3.1-9.8 9.9-9.8 9.5 4.5 9.5 9.7c0 .6 0 1.1-.1 1.5h-14c.3 3.5 2.1 4.6 4.7 4.6 2.5 0 3.7-1 4.2-2.4zm-8.8-5.5h8.9c-.2-2.8-1.5-4.2-4.3-4.2-2.7 0-4.1 1-4.6 4.2zM509.7 78.9h5.4v25.8h-5.4V78.9zM518.5 95.4c0-5.1 2.9-9.8 10.2-9.8s10.2 4.7 10.2 9.8c0 5-2.8 9.8-10.2 9.8s-10.2-4.6-10.2-9.8zm10.2 5.6c3.3 0 4.7-1.4 4.7-5.5S532 90 528.7 90s-4.7 1.4-4.7 5.5 1.4 5.5 4.7 5.5zM561.1 93.4v11.3h-5.4V94.2c0-2.9-1.3-4.1-3.5-4.1-2.9 0-4.5 1.8-4.5 6.2v8.4h-5.4V86.3h5.4v3.6c1.2-2.5 3.3-4.2 6.6-4.2 4.8 0 6.9 2.9 6.8 7.7zM564.7 99.8c0-2.9 1.3-4.9 6-5.7l4.3-.7c1.7-.3 2.3-.8 2.3-1.8 0-1.3-.7-2.1-3.2-2.1s-3.7 1-3.8 2.9H565c.1-3.9 3.4-6.6 9-6.6s8.3 2.4 8.3 6.3v8c0 1.7.1 3.2.3 4.8h-4.7c-.2-1.2-.3-2.4-.3-3.9-.8 2.5-3.1 4.4-6.8 4.4-3.8-.2-6.1-2.3-6.1-5.6zm12.6-3.9v-.8c-1 .7-1.9.9-3 1.2l-1.5.4c-2 .5-2.7 1.2-2.7 2.6 0 1.5 1.1 2.2 2.6 2.2 2.8-.1 4.6-2.2 4.6-5.6z"></path>
+					</svg>
+				</a>
+			</div>
+		</div>
+	</header>
+	<main>
+		<h1 data-translate="pageTitle" class="codi">En manteniment</h1>
+    <div class="cos-text">
+      <p data-translate="explicacio">Degut a tasques de manteniment, l'accés a l'aplicació no està disponible.</p>
+    
 
-<div class="container">
-
-<div class="uab">
-    <a href="http://www.uab.cat">Universitat Autònoma de Barcelona</a>
-</div>
-
-<h1 lang="ca">Direcció TIC: Avisos per manteniment</h1>
-<h1 lang="es">Direcció TIC: Avisos por mantenimiento</h1>
-<h1 lang="en">Direcció TIC: Notices for maintenance</h1>
-
-<div class="banner"></div>
-
-<div id="canvi-idioma"></div>
-
-<div lang="ca" class="detall">
-    <h2>En manteniment</h2>
-    <p>Degut a tasques de manteniment, l'accés a l'aplicació no està disponible.</p>
-    <p>Podeu trobar més informació a la pàgina <span class="icona enllac"></span> <a href="https://www.uab.cat/web/incidencies-i-planificacions-d-actuacions-1345831309417.html">www.uab.cat/dtic</a>.</p>
-    <p>Per a més informació podeu contactar amb el CAS:</p>
-    <p><span class="icona correu"></span> <a href="mailto:cas@uab.cat">cas@uab.cat</a> <span class="icona telefon"></span> 935812100</p>
-</div>
-
-<div lang="es" class="detall">
-    <h2>En mantenimiento</h2>
-    <p>Debido a tareas de mantenimiento, el acceso a la aplicación no esta disponible.</p>
-    <p>Pueden encontrar más información en la página <span class="icona enllac"></span> <a href="https://www.uab.cat/web/incidencies-i-planificacions-d-actuacions-1345831309417.html">www.uab.cat/dtic</a>.</p>
-    <p>Para más información pueden contactar con el CAS:</p>
-    <p><span class="icona correu"></span> <a href="mailto:cas@uab.cat">cas@uab.cat</a> <span class="icona telefon"></span> 935812100</p>
-</div>
-
-<div lang="en" class="detall">
-    <h2>Under maintenance</h2>
-    <p>Due to maintenance tasks, access to the application is not available.</p>
-    <p>You can find more information at <span class="icona enllac"></span> <a href="https://www.uab.cat/web/incidencies-i-planificacions-d-actuacions-1345831309417.html">www.uab.cat/dtic</a>.</p>
-    <p>For more information, you can contact the CAS:</p>
-    <p><span class="icona correu"></span> <a href="mailto:cas@uab.cat">cas@uab.cat</a> <span class="icona telefon"></span> 935812100</p>
-</div>
-
-    <script src="/js/jquery-3.6.0.min.js" ></script>
-    <script src="/js/jquery.lang-switcher.js"></script>
-    <script language="javascript" >
-        $(document).ready(function () {
-            install_switch(
-                $("#canvi-idioma"),
-                $("body"),
-                '<a class="$lang" href="#"></a>' 
-            );
-        });
-    </script>
+    </div>
+	</main>
+	<footer>
+		<div class="contenidor-ajuda">
+      <div class="contacte">
+        <h2 data-translate="contacteText">Centre d'Atenció i Suport (CAS)</h2>
+        <p data-translate="correuText">Correu electrònic: <a href="mailto:cas@uab.cat">cas@uab.cat</a></p>
+        <p data-translate="telefonText">Telèfon: 935812100</p>
+      </div>
+			<div class="dreceres">
+				<h2 data-translate="dreceresText">Més informació</h2>
+				<ul>
+					<li data-translate="drecera1Text">
+						<a href="https://www.uab.cat/web/incidencies-i-planificacions-d-actuacions-1345831309417.html">Incidències i intervencions</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="contenidor-legal">
+			<p class="lema" data-translate="experienciesText">La UAB és una universitat jove, pública i capdavantera. Líder als rànquings internacionals i referent en recerca. Barcelonina, catalana i internacional. Una universitat transformadora, solidària, diversa i igualitària, sostenible i saludable, participativa i cultural. I una universitat de campus, amb les facultats i les escoles, els instituts de recerca i els serveis en un entorn natural on viure experiències úniques.</p>
+			<nav aria-label="Informació tècnica i legal" data-translate-aria="ariaLegalText">
+				<ul>
+					<li data-translate="legal1Text">
+						<a href="https://www.uab.cat/web/la-uab/itineraris/avis-legal-1345668257191.html">Avís legal</a>
+					</li>
+					<li data-translate="legal2Text">
+						<a href="https://www.uab.cat/web/la-uab/itineraris/proteccio-de-dades-1345668257177.html">Protecció de dades</a>
+					</li>
+					<li data-translate="legal3Text">
+						<a href="https://www.uab.cat/web/la-uab/itineraris/accessibilitat-web-1345799763683.html">Accessibilitat web</a>
+					</li>
+					<li data-translate="legal4Text">
+						<a href="https://www.uab.cat/web/la-uab/mapa-web-1345821257206.html">Mapa del web UAB</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</footer>
+	<script>
+		const translations = {
+			ca: {
+				canviIdiomaText: "Idioma",
+				pageTitle: "En manteniment",
+        explicacio: "Degut a tasques de manteniment, l'accés a l'aplicació no està disponible. </br> </br>Per a més informació podeu contactar amb el CAS.",
+				contacteText: "Centre d'Atenció i Suport (CAS)",
+        correuText: "Correu electrònic: <a href='mailto:cas@uab.cat'>cas@uab.cat</a>",
+        telefonText: "Telèfon: 935812100",
+        dreceresText: "Més informació",
+				drecera1Text: "<a href='https://www.uab.cat/web/incidencies-i-planificacions-d-actuacions-1345831309417.html'>Incidències i intervencions</a>",
+				experienciesText: "La UAB és una universitat jove, pública i capdavantera. Líder als rànquings internacionals i referent en recerca. Barcelonina, catalana i internacional. Una universitat transformadora, solidària, diversa i igualitària, sostenible i saludable, participativa i cultural. I una universitat de campus, amb les facultats i les escoles, els instituts de recerca i els serveis en un entorn natural on viure experiències úniques.",
+				ariaUabLogoText: "Universitat Autònoma de Barcelona",
+				ariaLegalText: "Informació tècnica i legal",
+				legal1Text: "<a href='https://www.uab.cat/web/la-uab/itineraris/avis-legal-1345668257191.html'>Avís legal</a>",
+				legal2Text: "<a href='https://www.uab.cat/web/la-uab/itineraris/proteccio-de-dades-1345668257177.html'>Protecció de dades</a>",
+				legal3Text: "<a href='https://www.uab.cat/web/la-uab/itineraris/accessibilitat-web-1345799763683.html'>Accessibilitat web</a>",
+				legal4Text: "<a href='https://www.uab.cat/web/la-uab/mapa-web-1345821257206.html'>Mapa del web UAB</a>"
+			},
+			es: {
+				canviIdiomaText: "Idioma",
+				pageTitle: "En mantenimiento",
+				explicacio: "Debido a tareas de mantenimiento, el acceso a la aplicación no está disponible. </br> </br>Para más información, podéis contactar con el CAS.",
+				contacteText: "Centre d'Atenció i Suport (CAS)",
+        correuText: "Correo electrónico: <a href='mailto:cas@uab.cat'>cas@uab.cat</a>",
+        telefonText: "Teléfono: 935812100",
+        dreceresText: "Más información",
+				drecera1Text: "<a href='https://www.uab.cat/web/incidencies-i-planificacions-d-actuacions-1345831309417.html'>Incidencias e intervenciones</a>",
+				experienciesText: "La UAB es una universidad joven, pública y puntera. Líder en los rankings internacionales y referente en investigación. Barcelonesa, catalana e internacional. Una universidad transformadora, solidaria, diversa e igualitaria, sostenible y saludable, participativa y cultural. Y una universidad de campus, con las facultades y las escuelas, los institutos de investigación y los servicios en un entorno natural donde vivir experiencias únicas.",
+				ariaUabLogoText: "Universitat Autònoma de Barcelona",
+				ariaLegalText: "Información técnica y legal",
+				legal1Text: "<a href='https://www.uab.cat/web/la-uab/itineraris/aviso-legal-1345668684684.html'>Aviso legal</a>",
+				legal2Text: "<a href='https://www.uab.cat/web/la-uab/itineraris/proteccion-de-datos-1345672265351.html'>Protección de datos</a>",
+				legal3Text: "<a href='https://www.uab.cat/web/la-uab/itineraris/accesibilidad-web-1345805993876.html'>Accesibilidad web</a>",
+				legal4Text: "<a href='https://www.uab.cat/web/la-uab/mapa-web-1345821643192.html'>Mapa del web UAB</a>"
+			},
+			en: {
+				canviIdiomaText: "Language",
+				pageTitle: "Under maintenance",
+        explicacio: "Due to maintenance tasks, access to the application is not available. </br> </br> For more information, you can contact the CAS.",
+				contacteText: "Centre d'Atenció i Suport (CAS)",
+        correuText: "Email: <a href='mailto:cas@uab.cat'>cas@uab.cat</a>",
+        telefonText: "Phone: 935812100",
+        dreceresText: "More information",
+				drecera1Text: "<a href='https://www.uab.cat/web/incidencies-i-planificacions-d-actuacions-1345831309417.html'>Technical issues and interventions</a>",
+				experienciesText: "The UAB is a young, public and groundbreaking university. A leader in international rankings and a benchmark in research. Barcelonian, Catalan and international. A transformative, supportive, diverse and egalitarian, sustainable and healthy, participative and cultural university. And a campus university, with its faculties and schools, research institutes and services all within a natural environment that offers a variety of unique experiences.",
+				ariaLegalText: "Technical and legal information",
+				legal1Text: "<a href='https://www.uab.cat/web/about-the-uab/itineraries/legal-notice-1345668684716.html'>Legal notice</a>",
+				legal2Text: "<a href='https://www.uab.cat/web/about-the-uab/itineraries/data-protection-1345672265358.html'>Data protection</a>",
+				legal3Text: "<a href='https://www.uab.cat/web/about-the-uab/itineraries/web-accessibility-1345805993931.html'>Web accessibility</a>",
+				legal4Text: "<a href='https://www.uab.cat/web/about-the-uab/site-map-1345821644307.html'>UAB Site map</a>"
+			}
+		};
+		function getBrowserLanguage() {
+			const browserLang = navigator
+				.language
+				.slice(0, 2);
+			return ['ca', 'es', 'en'].includes(browserLang) ?
+				browserLang :
+				'ca';
+		}
+		function changeLanguage(lang) {
+			if (!translations.hasOwnProperty(lang)) {
+				console.warn(`Invalid language: ${lang}`);
+				lang = 'ca';
+			}
+			const translationsForLang = translations[lang];
+			const elements = document.querySelectorAll('[data-translate]');
+			document.documentElement.lang = lang;
+			try {
+				const radio = document.querySelector(`input[name="lang"][value="${lang}"]`);
+				if (radio)
+					radio.checked = true;
+			} catch (e) {
+				console.warn('Language radio button not found');
+			}
+			document
+				.querySelectorAll('[data-translate-aria]')
+				.forEach(el => {
+					const key = el.getAttribute('data-translate-aria');
+					if (translationsForLang.hasOwnProperty(key)) {
+						el.setAttribute('aria-label', translationsForLang[key]);
+					}
+				});
+			elements.forEach(el => {
+				const key = el.getAttribute('data-translate');
+				if (translationsForLang.hasOwnProperty(key)) {
+					el.innerHTML = translationsForLang[key];
+				} else {
+					console.warn(`Missing translation for key: ${key}`);
+				}
+			});
+		}
+		document.addEventListener('DOMContentLoaded', () => {
+			changeLanguage(getBrowserLanguage());
+			document
+				.querySelectorAll('input[name="lang"]')
+				.forEach(radio => radio.addEventListener('change', e => changeLanguage(e.target.value)));
+		});
+	</script>
 </body>
 </html>
-
-
