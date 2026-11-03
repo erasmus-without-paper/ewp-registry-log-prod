@@ -806140,6 +806140,26 @@
         </server-credentials-in-use>
     </host>
     <host>
+        <ewp:admin-email>ewp-plus@it.auth.gr</ewp:admin-email>
+        <ewp:admin-email>ewp-monitor@it.auth.gr</ewp:admin-email>
+        <ewp:admin-provider>EWP Dashboard</ewp:admin-provider>
+        <ewp:admin-notes>Manifest File for general endpoints Erasmus Dashboard.</ewp:admin-notes>
+        <apis-implemented>
+            <d6:discovery version="6.0.0">
+                <d6:url>https://unizoneewp.it.auth.gr/rest/manifest/clarolineconnect.univ-lyon1.fr</d6:url>
+            </d6:discovery>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>clarolineconnect.univ-lyon1.fr</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <rsa-public-key sha-256="4f14fc5a553728ddf75b01d5f4152a7f637b962f6506f10c1034e323db8c5860"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="4f14fc5a553728ddf75b01d5f4152a7f637b962f6506f10c1034e323db8c5860"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
         <ewp:admin-email>emrex-admin@postit.csc.fi</ewp:admin-email>
         <ewp:admin-provider>CSC</ewp:admin-provider>
         <apis-implemented>
@@ -809265,6 +809285,11 @@ O2lmO4YPfXD/givJW3wEAXhWIRwp</certificate>
             <other-id type="erasmus">PL WARSZAW35</other-id>
             <other-id type="pic">999837395</other-id>
             <name>Uniwersytet Civitas</name>
+        </hei>
+        <hei id="clarolineconnect.univ-lyon1.fr">
+            <other-id type="erasmus">F  ST-ETIE37</other-id>
+            <other-id type="pic">880227277</other-id>
+            <name>CTRE HOSPITALIER DU FOREZ</name>
         </hei>
         <hei id="claudiomoyano.es">
             <other-id type="erasmus">E  ZAMORA05</other-id>
@@ -838891,6 +838916,18 @@ International Cooperation Office</name>
             +eiYihMPswwG/XBwnNjNXeW/nL0e0EY1EbxD+1pAM7svlwdlacWUSqGYRFnSKnTmc/hKq9y75rcL
             YHqUo9m5uboxLFfLRcU2D/ITHAK3MTJ0B+dj4BXZ3F72aW7koIi41P4Y6k8DdzXlhC1mCfroLU4S
             QyBnPsW6c3lCJDpA131L0EXFfVnOhrS/oaNgsW1uYEkCAwEAAQ==
+        </rsa-public-key>
+        <rsa-public-key sha-256="4f14fc5a553728ddf75b01d5f4152a7f637b962f6506f10c1034e323db8c5860">
+            MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAxWyAp1nGJPCzdFE9e3uAcTZKTeqAJr3N
+            p0AxV0epRIq5VQt8tsNXTgZgIdg+BGM2ZLFRw5JyqQsgPbd/Wpmp2GWZqJ85EVS2w1cLdgJaqYVV
+            w378IGw38wLiMCCtygWtT/svExK1JpJFxcW72tCi+RAjz7Z3qw7zn+VHe7z5x3nmHe36IsJTU63F
+            40van1vHjuilUdtVb2xVCG1wwjPqNVbz18dZMOQN8VVDVb8xKuT1Q3WXdWGugiTyTjM70RzvP3lH
+            9NzCaePMcQ2su96CJVhsrS4GDIeqa6b68crD8RbF3HRK3CRfPo1vtXuPKgrLKXHaOGePBnPPIoRq
+            1SEo3joPKuBS25e75Tg5TLJQk3ziWmh9pVb1vmJdnssFdHEHIRxBOqz8CYcCrn9KUqGSMud4vEkX
+            QrD8zNIk4L7eOwjoj61IvUFkovcNwI5WECx5+1NUYAetRc5+OyeV11apWbgmPxmjNI2NOnJqiJhX
+            Wj8KdVqMowsc+A7kB2nEK0vnfwyPeQbPEMBeEc91CFm1QG977f6SYja+KmiGVpEFfP9Mc8ht2T0c
+            7wdpjzaxhbzKrz8q/ZM6oJSPd29Ub+aQ2SU93KF+5Auq/bhx8BrtfgAedbBGJ50vhXZgrXN1CJpS
+            5yZFMIbzrOB/2ZvubjzbuzULfrvy17ZPVbg1thVRCqkCAwEAAQ==
         </rsa-public-key>
         <rsa-public-key sha-256="4f32893832ff7d4500b785292c5a1f6201d5f5f3d696fff19df35ef504fb496f">
             MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA+7qfmWHxsiuA08F/iz3/WwDPVe2L0uCY
