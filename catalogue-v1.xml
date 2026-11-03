@@ -547245,31 +547245,6 @@
             <d6:discovery version="6.0.0">
                 <d6:url>https://unizoneewp.it.auth.gr/rest/manifest/usn.no</d6:url>
             </d6:discovery>
-            <in2:institutions version="2.2.0">
-                <in2:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </in2:http-security>
-                <in2:url>https://unizoneewp.it.auth.gr/rest/institutions/usn.no</in2:url>
-                <in2:max-hei-ids>1</in2:max-hei-ids>
-            </in2:institutions>
-            <ou2:organizational-units version="2.1.1">
-                <ou2:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </ou2:http-security>
-                <ou2:url>https://unizoneewp.it.auth.gr/rest/ounits/usn.no</ou2:url>
-                <ou2:max-ounit-ids>100</ou2:max-ounit-ids>
-                <ou2:max-ounit-codes>100</ou2:max-ounit-codes>
-            </ou2:organizational-units>
             <om3:omobilities
                 xmlns:om3="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v3/manifest-entry.xsd"
                 version="3.0.0"
@@ -547411,21 +547386,6 @@
                 <imtc1:url>https://unizoneewp.it.auth.gr/rest/tors/imobilities/cnr/usn.no</imtc1:url>
                 <imtc1:max-omobility-ids>1</imtc1:max-omobility-ids>
             </imtc1:imobility-tor-cnr>
-            <f1:factsheet
-                xmlns:f1="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
-                version="1.2.0"
-            >
-                <f1:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </f1:http-security>
-                <f1:url>https://unizoneewp.it.auth.gr/rest/factsheet/usn.no</f1:url>
-                <f1:max-hei-ids>1</f1:max-hei-ids>
-            </f1:factsheet>
         </apis-implemented>
         <institutions-covered>
             <hei-id>usn.no</hei-id>
