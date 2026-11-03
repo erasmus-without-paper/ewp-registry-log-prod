@@ -664214,25 +664214,6 @@
     <host>
         <ewp:admin-email>ewp@sop.co.at</ewp:admin-email>
         <ewp:admin-provider>Mobility-Online</ewp:admin-provider>
-        <ewp:admin-notes>stable v2.19926 (05/08/2026)</ewp:admin-notes>
-        <apis-implemented>
-            <d6:discovery version="6.0.0">
-                <d6:url>https://www.service4mobility.com/tudelft/ewp/manifest?api=all</d6:url>
-            </d6:discovery>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>tudelft.nl</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <rsa-public-key sha-256="642dea1adb9b39e27af6603e8cd0ed0728b8611bfc01822c870c3c37be1de383"/>
-        </client-credentials-in-use>
-        <server-credentials-in-use>
-            <rsa-public-key sha-256="642dea1adb9b39e27af6603e8cd0ed0728b8611bfc01822c870c3c37be1de383"/>
-        </server-credentials-in-use>
-    </host>
-    <host>
-        <ewp:admin-email>ewp@sop.co.at</ewp:admin-email>
-        <ewp:admin-provider>Mobility-Online</ewp:admin-provider>
         <ewp:admin-notes>stable v2.22383 (22/10/2026)</ewp:admin-notes>
         <apis-implemented>
             <d6:discovery version="6.0.0">
@@ -674678,25 +674659,6 @@
         </client-credentials-in-use>
         <server-credentials-in-use>
             <rsa-public-key sha-256="a1f2aebd96e33ed2cfb9a05d2550df7316ccdc9498b9d9a059499192e9422c51"/>
-        </server-credentials-in-use>
-    </host>
-    <host>
-        <ewp:admin-email>ewp@sop.co.at</ewp:admin-email>
-        <ewp:admin-provider>Mobility-Online</ewp:admin-provider>
-        <ewp:admin-notes>stable v2.22646 (02/11/2026)</ewp:admin-notes>
-        <apis-implemented>
-            <d6:discovery version="6.0.0">
-                <d6:url>https://www.service4mobility.com/mobility_connect/ewp/manifest/haaga-helia.fi?api=all</d6:url>
-            </d6:discovery>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>haaga-helia.fi</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <rsa-public-key sha-256="cbf904aacda2faca2514f7cb30b654b97e71f4954c5b22c96979d952ae609eb2"/>
-        </client-credentials-in-use>
-        <server-credentials-in-use>
-            <rsa-public-key sha-256="cbf904aacda2faca2514f7cb30b654b97e71f4954c5b22c96979d952ae609eb2"/>
         </server-credentials-in-use>
     </host>
     <host>
@@ -689193,25 +689155,6 @@
         </client-credentials-in-use>
         <server-credentials-in-use>
             <rsa-public-key sha-256="daa2acab509c976360158436a47f3151b1889a836e82966bd755ea12a3790e7f"/>
-        </server-credentials-in-use>
-    </host>
-    <host>
-        <ewp:admin-email>ewp@sop.co.at</ewp:admin-email>
-        <ewp:admin-provider>Mobility-Online</ewp:admin-provider>
-        <ewp:admin-notes>stable v2.22297 (19/10/2026)</ewp:admin-notes>
-        <apis-implemented>
-            <d6:discovery version="6.0.0">
-                <d6:url>https://www.service4mobility.com/europe/ewp/manifest/ntu.ac.uk?api=all</d6:url>
-            </d6:discovery>
-        </apis-implemented>
-        <institutions-covered>
-            <hei-id>ntu.ac.uk</hei-id>
-        </institutions-covered>
-        <client-credentials-in-use>
-            <rsa-public-key sha-256="c45a167cbf512ee52cff2de0b48a7d76899cda4a093c85cfb9ae3ffdbf5b53f1"/>
-        </client-credentials-in-use>
-        <server-credentials-in-use>
-            <rsa-public-key sha-256="c45a167cbf512ee52cff2de0b48a7d76899cda4a093c85cfb9ae3ffdbf5b53f1"/>
         </server-credentials-in-use>
     </host>
     <host>
@@ -812936,13 +812879,10 @@ Standort Lörrach</name>
             <name xml:lang="en">Åland University of Applied Sciences</name>
         </hei>
         <hei id="haaga-helia.fi">
-            <other-id type="eche">236545-EPP-1-2014-1-FI-EPPKA3-ECHE</other-id>
             <other-id type="erasmus">SF HELSINK40</other-id>
             <other-id type="erasmus-charter">236545</other-id>
             <other-id type="pic">952871159</other-id>
             <name xml:lang="en">HAAGA-HELIA Ammattikorkeakoulu</name>
-            <name xml:lang="en">Haaga-Helia University of Applied Sciences</name>
-            <name xml:lang="fi">Haaga-Helia University of Applied Sciences</name>
         </hei>
         <hei id="hacercreativo.com">
             <other-id type="erasmus">E  ZARAGOZ51</other-id>
@@ -818478,11 +818418,6 @@ Standort Lörrach</name>
             <name xml:lang="en">Norwegian University of Science and Technology</name>
             <name xml:lang="no">NORGES TEKNISK-NATURVITENSKAPELIGE UNIVERSITET NTNU</name>
         </hei>
-        <hei id="ntu.ac.uk">
-            <other-id type="erasmus">UK NOTTING02</other-id>
-            <other-id type="pic">999824494</other-id>
-            <name xml:lang="en">NOTTINGHAM TRENT UNIVERSITY</name>
-        </hei>
         <hei id="ntua.gr">
             <other-id type="erasmus">G  ATHINE02</other-id>
             <other-id type="pic">999978142</other-id>
@@ -821051,7 +820986,6 @@ Standort Lörrach</name>
             <other-id type="erasmus">NL DELFT01</other-id>
             <other-id type="oid">E10209395</other-id>
             <other-id type="pic">999977366</other-id>
-            <name xml:lang="en">Delft University of Technology</name>
             <name xml:lang="nl">Technische Universiteit Delft</name>
         </hei>
         <hei id="tudublin.ie">
@@ -841817,14 +841751,6 @@ International Cooperation Office</name>
             i4gYYgHxapmZ5FFKRBkWs3FkJkMa9sPJ1OLa5uHk7yKzk4pKbOqOgDWH7Vi84tczgyVsqmz4wCgl
             +3HdkNmL2LWTW4nb8XU8AnHClpWDkpNshpY2jfW5GnECAwEAAQ==
         </rsa-public-key>
-        <rsa-public-key sha-256="642dea1adb9b39e27af6603e8cd0ed0728b8611bfc01822c870c3c37be1de383">
-            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzDZqYgbtaZE8K2pHdDhOIz3dvBegHo3c
-            vM5SxONRAZD7r5XyqMhpNYRYUNHFru+3dHFbc1UupI/xMESTWwIK+2mTdBdsa8XAv3rBescjw06T
-            pS1ocaIRMigmStaQntJnubP9tpr75ifEG+eFa89hIBv/uuMRiVHX/NksWXfuz+JfD4uqGdWHPBRr
-            jUExjZtTskxe6mejg1sPafqppp2NgmRWWK11WGe1b6UgIdCCRSEH0tk1lTCmUXlh7WyE5OQnljOT
-            VHQMuU0kui0CgoxEk8Q96n4fWD1APICmvXuA9If8rNdbgotIYjrFeuyThbfqMRCnqc1isdsgKyqi
-            qubmNQIDAQAB
-        </rsa-public-key>
         <rsa-public-key sha-256="6467d9481f2a00dfaaf9e0268aea4ce83df9dca6ff841f35c8edeb4f57fa6766">
             MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA0KuHI0+KlnMrEwgpaYXHQPxwsXCwYpIH
             3bvqBf/fr28ZjnaTlbOkYF9PMik3OCQDTFZRJZQ4zB546rGOJu0eO0nfMIdnhJAEz3daa9cKDD8N
@@ -858897,14 +858823,6 @@ International Cooperation Office</name>
             zhUsWjvsRvNieksvyx9Hwu2YGbBraKKecRzgpYobYxIsNrSn8AA1E02Rrho3bwTiS7gRU50kcq/l
             mdHD4jRPw5xzt/7mw6vap9ilVOaAGHa2PLW/tTChF30CAwEAAQ==
         </rsa-public-key>
-        <rsa-public-key sha-256="c45a167cbf512ee52cff2de0b48a7d76899cda4a093c85cfb9ae3ffdbf5b53f1">
-            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxXZfOjO+wy7cvqgs7SsxuwzCKc2pOMNb
-            d4XeTceE/9jjitqtdwfj9WpdXF4UfI4mWx4R7OjYy2qbBXTQyGJ+7Xy0ronnx5/Xs9EDHHTCuDst
-            uhNI0R2tGsgVL8i8aeNndLp62DUWcfMK5V9XAEMdz65PZFaJi6FsV8YJTbh4l9Zv36+KI5uzKlpz
-            c0gM64rvpqGPpetxb1SsxWJTVjrKMs8sLBifpNfkyrB45PBzQDCGd7TI5E/Kox69QdaG2csYlkoM
-            Kdctg1qntYg39FCT9Djw8gx+qge80TN9+AiTSvE/KPmWWBCrHApngSQYZDlgEAqGD4f/w8IGJCkx
-            DxjaHQIDAQAB
-        </rsa-public-key>
         <rsa-public-key sha-256="c45b96f176d147df343d4f8cd18249a2283a07f7413cee39c533f63a42ba1258">
             MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA1ijpBEIXnu95/dFU6+UvO4vLz32vvN66
             aOFke0rxkhcAeyTmJYFjzDHrwzcG6dp0Ee4LS2QKKoOQZL03iBaw6Dnu3B8ucHTRt/BVmWAnjTVW
@@ -860244,14 +860162,6 @@ International Cooperation Office</name>
             b+zCKDVAoZfWw+8dmniRf3/l55btxdu3hnmVz0y48Sm83JEMsdMX9A13IVoIsaLVpqDv0fP01cmp
             zVj1CSl4zk0HFwTmgXZdHsHdjdDs+Rzh2QViWUj6xs8FOEqWJTZaedt7Bk8eSb6wU7RadU/t6sYC
             DH2Gi36/KO+XJRLzpON3PY6lSOyiprgjmXdVShhcC6sCAwEAAQ==
-        </rsa-public-key>
-        <rsa-public-key sha-256="cbf904aacda2faca2514f7cb30b654b97e71f4954c5b22c96979d952ae609eb2">
-            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3slrJttLnd093szMAl7taiR5ugmtmrud
-            xr0SxJcwF+IvwnwCgn/O+anPyoKHt8AZIaIzHFdy0NK7Bspgi06dxhxLFquuybY1S2hD5n3TVshz
-            uuGfpnchWw5DnHHz/jREabC3ovP6dEgn4vGuNHzYCMsv+z26bS8cQFfGzix2AUTA7bxW5yUNOvZJ
-            kW7NkvDxfBL6/W6mqJwnlu9KszM4IVdm4GxGGLAKtE+fyasefb39EPM7lmLmDrFMtWsWWbq0NZIX
-            nZC87FSeIlyN933Dp355WlsL7coQ5VAWYLU1Xy37oeJbQqfWopzQgHgoiIFZdrIHG32JFW+1AT1k
-            0Q/dhwIDAQAB
         </rsa-public-key>
         <rsa-public-key sha-256="cbfb7826bbb162f1e77743ee08b782db148905e01d84ac9b0d091922baf3b50a">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoE7LsmN9c9sRq8Fe1+RqakO2LG2CHxGo
