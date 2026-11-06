@@ -268,26 +268,6 @@
                 <ns6:url>https://seconline.egasmoniz.edu.pt/mobilidadenet/ewp/ewpstage/factsheet</ns6:url>
                 <ns6:max-hei-ids>1</ns6:max-hei-ids>
             </ns6:factsheet>
-            <ns24:omobilities version="2.0.0">
-                <ns24:http-security>
-                    <ns4:client-auth-methods>
-                        <ns44:httpsig/>
-                    </ns4:client-auth-methods>
-                    <ns4:server-auth-methods>
-                        <ns45:httpsig/>
-                        <ns41:tlscert/>
-                    </ns4:server-auth-methods>
-                    <ns4:request-encryption-methods>
-                        <ns46:tls/>
-                    </ns4:request-encryption-methods>
-                    <ns4:response-encryption-methods>
-                        <ns47:tls/>
-                    </ns4:response-encryption-methods>
-                </ns24:http-security>
-                <ns24:get-url>https://seconline.egasmoniz.edu.pt/mobilidadenet/ewp/ewpstage/omobilities_get</ns24:get-url>
-                <ns24:index-url>https://seconline.egasmoniz.edu.pt/mobilidadenet/ewp/ewpstage/omobilities_index</ns24:index-url>
-                <ns24:max-omobility-ids>1</ns24:max-omobility-ids>
-            </ns24:omobilities>
             <ns20:omobility-las version="1.2.0">
                 <ns20:http-security>
                     <ns4:client-auth-methods>
@@ -310,26 +290,6 @@
                 <ns20:stats-url>https://seconline.egasmoniz.edu.pt/mobilidadenet/ewp/ewpstage/omobility_la_stats</ns20:stats-url>
                 <ns20:max-omobility-ids>1</ns20:max-omobility-ids>
             </ns20:omobility-las>
-            <ns23:omobility-cnr version="1.0.0">
-                <admin-email>ewp@digitalis.pt</admin-email>
-                <ns23:http-security>
-                    <ns4:client-auth-methods>
-                        <ns44:httpsig/>
-                    </ns4:client-auth-methods>
-                    <ns4:server-auth-methods>
-                        <ns45:httpsig/>
-                        <ns41:tlscert/>
-                    </ns4:server-auth-methods>
-                    <ns4:request-encryption-methods>
-                        <ns46:tls/>
-                    </ns4:request-encryption-methods>
-                    <ns4:response-encryption-methods>
-                        <ns47:tls/>
-                    </ns4:response-encryption-methods>
-                </ns23:http-security>
-                <ns23:url>https://seconline.egasmoniz.edu.pt/mobilidadenet/ewp/ewpstage/omobility_cnr</ns23:url>
-                <ns23:max-omobility-ids>1</ns23:max-omobility-ids>
-            </ns23:omobility-cnr>
             <ns19:omobility-la-cnr version="1.1.0">
                 <admin-email>ewp@digitalis.pt</admin-email>
                 <ns19:http-security>
