@@ -268,26 +268,6 @@
                 <ns7:url>https://international.ualg.pt/mobilidadenet/ewp/ewpstage/factsheet</ns7:url>
                 <ns7:max-hei-ids>1</ns7:max-hei-ids>
             </ns7:factsheet>
-            <ns25:omobilities version="2.0.0">
-                <ns25:http-security>
-                    <ns5:client-auth-methods>
-                        <ns45:httpsig/>
-                    </ns5:client-auth-methods>
-                    <ns5:server-auth-methods>
-                        <ns38:httpsig/>
-                        <ns40:tlscert/>
-                    </ns5:server-auth-methods>
-                    <ns5:request-encryption-methods>
-                        <ns36:tls/>
-                    </ns5:request-encryption-methods>
-                    <ns5:response-encryption-methods>
-                        <ns39:tls/>
-                    </ns5:response-encryption-methods>
-                </ns25:http-security>
-                <ns25:get-url>https://international.ualg.pt/mobilidadenet/ewp/ewpstage/omobilities_get</ns25:get-url>
-                <ns25:index-url>https://international.ualg.pt/mobilidadenet/ewp/ewpstage/omobilities_index</ns25:index-url>
-                <ns25:max-omobility-ids>1</ns25:max-omobility-ids>
-            </ns25:omobilities>
             <ns21:omobility-las version="1.2.0">
                 <ns21:http-security>
                     <ns5:client-auth-methods>
@@ -310,26 +290,6 @@
                 <ns21:stats-url>https://international.ualg.pt/mobilidadenet/ewp/ewpstage/omobility_la_stats</ns21:stats-url>
                 <ns21:max-omobility-ids>1</ns21:max-omobility-ids>
             </ns21:omobility-las>
-            <ns24:omobility-cnr version="1.0.0">
-                <admin-email>ewp@digitalis.pt</admin-email>
-                <ns24:http-security>
-                    <ns5:client-auth-methods>
-                        <ns45:httpsig/>
-                    </ns5:client-auth-methods>
-                    <ns5:server-auth-methods>
-                        <ns38:httpsig/>
-                        <ns40:tlscert/>
-                    </ns5:server-auth-methods>
-                    <ns5:request-encryption-methods>
-                        <ns36:tls/>
-                    </ns5:request-encryption-methods>
-                    <ns5:response-encryption-methods>
-                        <ns39:tls/>
-                    </ns5:response-encryption-methods>
-                </ns24:http-security>
-                <ns24:url>https://international.ualg.pt/mobilidadenet/ewp/ewpstage/omobility_cnr</ns24:url>
-                <ns24:max-omobility-ids>1</ns24:max-omobility-ids>
-            </ns24:omobility-cnr>
             <ns20:omobility-la-cnr version="1.1.0">
                 <admin-email>ewp@digitalis.pt</admin-email>
                 <ns20:http-security>
