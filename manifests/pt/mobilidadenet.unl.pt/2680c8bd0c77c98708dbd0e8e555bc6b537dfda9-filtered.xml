@@ -44,9 +44,9 @@
     xmlns:ns48="https://github.com/erasmus-without-paper/ewp-specs-sec-cliauth-httpsig/tree/stable-v1"
     xmlns:ns49="https://github.com/erasmus-without-paper/ewp-specs-sec-srvauth-httpsig/tree/stable-v1"
     xmlns:ns5="https://github.com/erasmus-without-paper/ewp-specs-types-contact/tree/stable-v1"
-    xmlns:ns50="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/tree/stable-v1"
-    xmlns:ns51="https://github.com/erasmus-without-paper/ewp-specs-sec-reqencr-tls/tree/stable-v1"
-    xmlns:ns52="https://github.com/erasmus-without-paper/ewp-specs-sec-resencr-tls/tree/stable-v1"
+    xmlns:ns50="https://github.com/erasmus-without-paper/ewp-specs-sec-reqencr-tls/tree/stable-v1"
+    xmlns:ns51="https://github.com/erasmus-without-paper/ewp-specs-sec-resencr-tls/tree/stable-v1"
+    xmlns:ns52="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/tree/stable-v1"
     xmlns:ns53="https://github.com/erasmus-without-paper/ewp-specs-api-echo/tree/stable-v2"
     xmlns:ns54="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/endpoints/update-request.xsd"
     xmlns:ns55="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/tree/stable-v2"
@@ -76,10 +76,10 @@
                         <ns45:tlscert/>
                     </ns25:server-auth-methods>
                     <ns25:request-encryption-methods>
-                        <ns51:tls/>
+                        <ns50:tls/>
                     </ns25:request-encryption-methods>
                     <ns25:response-encryption-methods>
-                        <ns52:tls/>
+                        <ns51:tls/>
                     </ns25:response-encryption-methods>
                 </ns32:http-security>
                 <ns32:url>https://mobilidadenet.unl.pt/mobilidadenet/ewp/ewpstage/echo</ns32:url>
@@ -96,10 +96,10 @@
                         <ns45:tlscert/>
                     </ns25:server-auth-methods>
                     <ns25:request-encryption-methods>
-                        <ns51:tls/>
+                        <ns50:tls/>
                     </ns25:request-encryption-methods>
                     <ns25:response-encryption-methods>
-                        <ns52:tls/>
+                        <ns51:tls/>
                     </ns25:response-encryption-methods>
                 </ns36:http-security>
                 <ns36:url>https://mobilidadenet.unl.pt/mobilidadenet/ewp/ewpstage/institutions</ns36:url>
@@ -116,10 +116,10 @@
                         <ns45:tlscert/>
                     </ns25:server-auth-methods>
                     <ns25:request-encryption-methods>
-                        <ns51:tls/>
+                        <ns50:tls/>
                     </ns25:request-encryption-methods>
                     <ns25:response-encryption-methods>
-                        <ns52:tls/>
+                        <ns51:tls/>
                     </ns25:response-encryption-methods>
                 </ns38:http-security>
                 <ns38:url>https://mobilidadenet.unl.pt/mobilidadenet/ewp/ewpstage/ounits</ns38:url>
@@ -137,10 +137,10 @@
                         <ns45:tlscert/>
                     </ns25:server-auth-methods>
                     <ns25:request-encryption-methods>
-                        <ns51:tls/>
+                        <ns50:tls/>
                     </ns25:request-encryption-methods>
                     <ns25:response-encryption-methods>
-                        <ns52:tls/>
+                        <ns51:tls/>
                     </ns25:response-encryption-methods>
                 </ns42:http-security>
                 <ns42:url>https://mobilidadenet.unl.pt/mobilidadenet/ewp/ewpstage/courses</ns42:url>
@@ -158,10 +158,10 @@
                         <ns45:tlscert/>
                     </ns25:server-auth-methods>
                     <ns25:request-encryption-methods>
-                        <ns51:tls/>
+                        <ns50:tls/>
                     </ns25:request-encryption-methods>
                     <ns25:response-encryption-methods>
-                        <ns52:tls/>
+                        <ns51:tls/>
                     </ns25:response-encryption-methods>
                 </ns30:http-security>
                 <ns30:url>https://mobilidadenet.unl.pt/mobilidadenet/ewp/ewpstage/courserep</ns30:url>
@@ -179,10 +179,10 @@
                         <ns45:tlscert/>
                     </ns25:server-auth-methods>
                     <ns25:request-encryption-methods>
-                        <ns51:tls/>
+                        <ns50:tls/>
                     </ns25:request-encryption-methods>
                     <ns25:response-encryption-methods>
-                        <ns52:tls/>
+                        <ns51:tls/>
                     </ns25:response-encryption-methods>
                 </ns28:http-security>
                 <ns28:get-url>https://mobilidadenet.unl.pt/mobilidadenet/ewp/ewpstage/iias_get</ns28:get-url>
@@ -201,10 +201,10 @@
                         <ns45:tlscert/>
                     </ns25:server-auth-methods>
                     <ns25:request-encryption-methods>
-                        <ns51:tls/>
+                        <ns50:tls/>
                     </ns25:request-encryption-methods>
                     <ns25:response-encryption-methods>
-                        <ns52:tls/>
+                        <ns51:tls/>
                     </ns25:response-encryption-methods>
                 </ns27:http-security>
                 <ns27:url>https://mobilidadenet.unl.pt/mobilidadenet/ewp/ewpstage/iias_cnr</ns27:url>
@@ -220,10 +220,10 @@
                         <ns45:tlscert/>
                     </ns25:server-auth-methods>
                     <ns25:request-encryption-methods>
-                        <ns51:tls/>
+                        <ns50:tls/>
                     </ns25:request-encryption-methods>
                     <ns25:response-encryption-methods>
-                        <ns52:tls/>
+                        <ns51:tls/>
                     </ns25:response-encryption-methods>
                 </ns35:http-security>
                 <ns35:url>https://mobilidadenet.unl.pt/mobilidadenet/ewp/ewpstage/iias_approval</ns35:url>
@@ -240,10 +240,10 @@
                         <ns45:tlscert/>
                     </ns25:server-auth-methods>
                     <ns25:request-encryption-methods>
-                        <ns51:tls/>
+                        <ns50:tls/>
                     </ns25:request-encryption-methods>
                     <ns25:response-encryption-methods>
-                        <ns52:tls/>
+                        <ns51:tls/>
                     </ns25:response-encryption-methods>
                 </ns39:http-security>
                 <ns39:url>https://mobilidadenet.unl.pt/mobilidadenet/ewp/ewpstage/iias_approval_cnr</ns39:url>
@@ -259,10 +259,10 @@
                         <ns45:tlscert/>
                     </ns25:server-auth-methods>
                     <ns25:request-encryption-methods>
-                        <ns51:tls/>
+                        <ns50:tls/>
                     </ns25:request-encryption-methods>
                     <ns25:response-encryption-methods>
-                        <ns52:tls/>
+                        <ns51:tls/>
                     </ns25:response-encryption-methods>
                 </ns26:http-security>
                 <ns26:url>https://mobilidadenet.unl.pt/mobilidadenet/ewp/ewpstage/factsheet</ns26:url>
@@ -278,10 +278,10 @@
                         <ns45:tlscert/>
                     </ns25:server-auth-methods>
                     <ns25:request-encryption-methods>
-                        <ns51:tls/>
+                        <ns50:tls/>
                     </ns25:request-encryption-methods>
                     <ns25:response-encryption-methods>
-                        <ns52:tls/>
+                        <ns51:tls/>
                     </ns25:response-encryption-methods>
                 </ns37:http-security>
                 <ns37:url>https://mobilidadenet.unl.pt/mobilidadenet/ewp/ewpstage/file</ns37:url>
