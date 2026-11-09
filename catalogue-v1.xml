@@ -806333,6 +806333,36 @@
         </server-credentials-in-use>
     </host>
     <host>
+        <ewp:admin-email>ewp@sop.co.at</ewp:admin-email>
+        <ewp:admin-provider>Mobility-Online</ewp:admin-provider>
+        <ewp:admin-notes>develop v2.22933 (09/11/2026)</ewp:admin-notes>
+        <apis-implemented>
+            <d6:discovery version="6.0.0">
+                <d6:url>https://www.service4mobility.com/europe_test/ewp/manifest/usn.no?api=all</d6:url>
+            </d6:discovery>
+            <e2:echo version="2.0.0">
+                <e2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </e2:http-security>
+                <e2:url>https://www.service4mobility.com/europe_test/ewp/echo/usn.no</e2:url>
+            </e2:echo>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>usn.no</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <rsa-public-key sha-256="090cb6d3219df64b7333ee6a5395fb0334981d72cc5f603b76f7322fcabe3de9"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="090cb6d3219df64b7333ee6a5395fb0334981d72cc5f603b76f7322fcabe3de9"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
         <ewp:admin-email>emrex-admin@postit.csc.fi</ewp:admin-email>
         <ewp:admin-provider>CSC</ewp:admin-provider>
         <apis-implemented>
@@ -824770,6 +824800,8 @@ Standort Lörrach</name>
             <other-id type="erasmus">N  KONGSBE02</other-id>
             <other-id type="pic">921767430</other-id>
             <name>UNIVERSITETET I SOROST-NORGE</name>
+            <name xml:lang="en">University of South-Eastern Norway (USN)</name>
+            <name xml:lang="no">UNIVERSITETET I SOROST-NORGE</name>
         </hei>
         <hei id="uspceu.com">
             <other-id type="erasmus">E  MADRID21</other-id>
@@ -827657,6 +827689,14 @@ International Cooperation Office</name>
             mlD5oTCUhCdjPlMdAgy/iTHWtSl1ErQRqjzvHw0JdfHwJnAT4kKvl5+n7102I3DQpwdlSEAiu2FE
             Dec8/fT9Nu051+YGCY+24p8BZRwGEGQWwLYrpcEUD8Skwc2EePsXo6khUBmmxG48ueIEGMsbhlRV
             kJkcGSTWYclNgxMbZZ4z0Ca82JK1VCughAaXmVluNf0CAwEAAQ==
+        </rsa-public-key>
+        <rsa-public-key sha-256="090cb6d3219df64b7333ee6a5395fb0334981d72cc5f603b76f7322fcabe3de9">
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmkaoGS9BE0pp8N8qY1eoNIccGEDe+tu4
+            VQqt1+YWO/1bC1n2ovoLiPxw+NmarbLeM5tsMSCc2CKdZEYP9CwqBlHCZuptsamZ0Eokk9T2HjxT
+            21ARFATrq71/SEjhA1/2MHc4JIsK8K//pgCWdxrUQPXRRJgvWu9C/PgbJsGT4LsHPgyaohLCzTVd
+            OxWyWJ3GFMwmgf+Fr8/CwFakQKkk33BDJjJqyU0j4WW57jG2O2xG0JSvsz+N9Ynir+KeHjhVhMC/
+            nLA/NTDuEZ6jbtff5dOaQ4PrCQDAxT+LhQng0Oek/7Za5M9De7peJ4LxlkV1I+PkvtOf5VjOclGx
+            LjeHzwIDAQAB
         </rsa-public-key>
         <rsa-public-key sha-256="0919e0dc40bc05c2c0da1bf15852afe0faa964fa3f5c372e3d8a9452852fda21">
             MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAsDzoR2ztjUlvWcXerlG2P/XlRqm0Wb9d
