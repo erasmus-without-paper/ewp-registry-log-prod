@@ -807357,6 +807357,264 @@
         </server-credentials-in-use>
     </host>
     <host>
+        <ewp:admin-email>ewp-plus@it.auth.gr</ewp:admin-email>
+        <ewp:admin-email>ewp-monitor@it.auth.gr</ewp:admin-email>
+        <ewp:admin-provider>EWP Dashboard</ewp:admin-provider>
+        <ewp:admin-notes>Manifest File for general endpoints Erasmus Dashboard.</ewp:admin-notes>
+        <apis-implemented>
+            <d6:discovery version="6.0.0">
+                <d6:url>https://unizoneewp.it.auth.gr/rest/manifest/escolavitae.com</d6:url>
+            </d6:discovery>
+            <in2:institutions version="2.2.0">
+                <in2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </in2:http-security>
+                <in2:url>https://unizoneewp.it.auth.gr/rest/institutions/escolavitae.com</in2:url>
+                <in2:max-hei-ids>1</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.1.1">
+                <ou2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </ou2:http-security>
+                <ou2:url>https://unizoneewp.it.auth.gr/rest/ounits/escolavitae.com</ou2:url>
+                <ou2:max-ounit-ids>100</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>100</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+            <ia7:iias
+                xmlns:ia7="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v7/manifest-entry.xsd"
+                version="7.0.0"
+            >
+                <ia7:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </ia7:http-security>
+                <ia7:get-url>https://unizoneewp.it.auth.gr/rest/iias/get/escolavitae.com</ia7:get-url>
+                <ia7:max-iia-ids>1</ia7:max-iia-ids>
+                <ia7:index-url>https://unizoneewp.it.auth.gr/rest/iias/index/escolavitae.com</ia7:index-url>
+                <ia7:stats-url>https://unizoneewp.it.auth.gr/rest/iias/stats/escolavitae.com</ia7:stats-url>
+            </ia7:iias>
+            <iac3:iia-cnr version="3.0.0">
+                <iac3:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </iac3:http-security>
+                <iac3:url>https://unizoneewp.it.auth.gr/rest/iias/cnr/escolavitae.com</iac3:url>
+            </iac3:iia-cnr>
+            <iaa2:iias-approval
+                xmlns:iaa2="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.0"
+            >
+                <iaa2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </iaa2:http-security>
+                <iaa2:url>https://unizoneewp.it.auth.gr/rest/iias/app/escolavitae.com</iaa2:url>
+                <iaa2:max-iia-ids>1</iaa2:max-iia-ids>
+            </iaa2:iias-approval>
+            <iaac2:iia-approval-cnr
+                xmlns:iaac2="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.0"
+            >
+                <iaac2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </iaac2:http-security>
+                <iaac2:url>https://unizoneewp.it.auth.gr/rest/iias/app/cnr/escolavitae.com</iaac2:url>
+            </iaac2:iia-approval-cnr>
+            <om3:omobilities
+                xmlns:om3="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v3/manifest-entry.xsd"
+                version="3.0.0"
+            >
+                <om3:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </om3:http-security>
+                <om3:get-url>https://unizoneewp.it.auth.gr/rest/nominations/omobilities/get/escolavitae.com</om3:get-url>
+                <om3:index-url>https://unizoneewp.it.auth.gr/rest/nominations/omobilities/index/escolavitae.com</om3:index-url>
+                <om3:update-url>https://unizoneewp.it.auth.gr/rest/nominations/omobilities/update/escolavitae.com</om3:update-url>
+                <om3:max-omobility-ids>1</om3:max-omobility-ids>
+            </om3:omobilities>
+            <omc2:omobility-cnr
+                xmlns:omc2="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.0"
+            >
+                <omc2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </omc2:http-security>
+                <omc2:url>https://unizoneewp.it.auth.gr/rest/nominations/omobilities/cnr/escolavitae.com</omc2:url>
+                <omc2:max-omobility-ids>1</omc2:max-omobility-ids>
+            </omc2:omobility-cnr>
+            <oms1:omobility-stats
+                xmlns:oms1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-stats/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <oms1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </oms1:http-security>
+                <oms1:url>https://unizoneewp.it.auth.gr/rest/nominations/omobilities/stats/escolavitae.com</oms1:url>
+            </oms1:omobility-stats>
+            <im2:imobilities
+                xmlns:im2="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.0"
+            >
+                <im2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </im2:http-security>
+                <im2:get-url>https://unizoneewp.it.auth.gr/rest/nominations/imobilities/get/escolavitae.com</im2:get-url>
+                <im2:max-omobility-ids>1</im2:max-omobility-ids>
+            </im2:imobilities>
+            <imc2:imobility-cnr
+                xmlns:imc2="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-cnr/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.0"
+            >
+                <imc2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </imc2:http-security>
+                <imc2:url>https://unizoneewp.it.auth.gr/rest/nominations/imobilities/cnr/escolavitae.com</imc2:url>
+                <imc2:max-omobility-ids>1</imc2:max-omobility-ids>
+            </imc2:imobility-cnr>
+            <oml1:omobility-las
+                xmlns:oml1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd"
+                version="1.2.0"
+            >
+                <oml1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </oml1:http-security>
+                <oml1:get-url>https://unizoneewp.it.auth.gr/rest/las/get/escolavitae.com</oml1:get-url>
+                <oml1:index-url>https://unizoneewp.it.auth.gr/rest/las/index/escolavitae.com</oml1:index-url>
+                <oml1:update-url>https://unizoneewp.it.auth.gr/rest/las/update/escolavitae.com</oml1:update-url>
+                <oml1:stats-url>https://unizoneewp.it.auth.gr/rest/las/stats/outgoing/escolavitae.com</oml1:stats-url>
+                <oml1:max-omobility-ids>1</oml1:max-omobility-ids>
+            </oml1:omobility-las>
+            <omlc1:omobility-la-cnr
+                xmlns:omlc1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="1.1.0"
+            >
+                <omlc1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </omlc1:http-security>
+                <omlc1:url>https://unizoneewp.it.auth.gr/rest/las/cnr/escolavitae.com</omlc1:url>
+                <omlc1:stats-url>https://unizoneewp.it.auth.gr/rest/las/stats/incoming/escolavitae.com</omlc1:stats-url>
+                <omlc1:max-omobility-ids>1</omlc1:max-omobility-ids>
+            </omlc1:omobility-la-cnr>
+            <imt2:imobility-tors
+                xmlns:imt2="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-tors/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.0"
+            >
+                <imt2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </imt2:http-security>
+                <imt2:get-url>https://unizoneewp.it.auth.gr/rest/tors/imobilities/get/escolavitae.com</imt2:get-url>
+                <imt2:index-url>https://unizoneewp.it.auth.gr/rest/tors/imobilities/index/escolavitae.com</imt2:index-url>
+                <imt2:max-omobility-ids>1</imt2:max-omobility-ids>
+            </imt2:imobility-tors>
+            <imtc1:imobility-tor-cnr
+                xmlns:imtc1="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-tor-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <imtc1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </imtc1:http-security>
+                <imtc1:url>https://unizoneewp.it.auth.gr/rest/tors/imobilities/cnr/escolavitae.com</imtc1:url>
+                <imtc1:max-omobility-ids>1</imtc1:max-omobility-ids>
+            </imtc1:imobility-tor-cnr>
+            <f1:factsheet
+                xmlns:f1="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
+                version="1.2.0"
+            >
+                <f1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </f1:http-security>
+                <f1:url>https://unizoneewp.it.auth.gr/rest/factsheet/escolavitae.com</f1:url>
+                <f1:max-hei-ids>1</f1:max-hei-ids>
+            </f1:factsheet>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>escolavitae.com</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <rsa-public-key sha-256="c9af1a4446a1f20bdf7cdc6ac0cc0f7ee5bd2ec9f6847ce52f237df02b946390"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="c9af1a4446a1f20bdf7cdc6ac0cc0f7ee5bd2ec9f6847ce52f237df02b946390"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
         <ewp:admin-email>emrex-admin@postit.csc.fi</ewp:admin-email>
         <ewp:admin-provider>CSC</ewp:admin-provider>
         <apis-implemented>
@@ -812938,6 +813196,11 @@ Standort Lörrach</name>
             <other-id type="erasmus">E  GIRONA14</other-id>
             <other-id type="pic">949455013</other-id>
             <name>ESCOLA ART I SUPERIOR DE DISSENY D&amp;#39;OLOT</name>
+        </hei>
+        <hei id="escolavitae.com">
+            <other-id type="erasmus">E  BARCELO309</other-id>
+            <other-id type="pic">867983549</other-id>
+            <name>Format en Formació Professional S.L.</name>
         </hei>
         <hei id="escom.fr">
             <other-id type="erasmus">F  COMPIEG05</other-id>
@@ -861237,6 +861500,18 @@ International Cooperation Office</name>
             VU2OsRamxcdR/4YNxUzyMsE+jhRmye8+g++3H8pxHVXopsOlLE1BWb86BLx8hvr123qYy9Gry3kQ
             HQp4xUfdt6Z0RacRI/mZHqFYuWw7LqzyrBsiJdwsEi8hcmf54Bz9Y0vlqD0X1kIjPKQyKt55pViE
             qOYTFtNkcTmccp/wHdM6Ad8+Kp/oauYv6L/g6vwk9scCAwEAAQ==
+        </rsa-public-key>
+        <rsa-public-key sha-256="c9af1a4446a1f20bdf7cdc6ac0cc0f7ee5bd2ec9f6847ce52f237df02b946390">
+            MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA+h1a0vsxu/wMyBqeg0F/3IozZLIScpfM
+            lzDLavNU0A0W7CUATUXQ5/32p+DJyiUQSI4WFF4OlbqHSjTvPjwmlQYHHwSyHIsEEHXslLcDATNy
+            yi40wJTV3EQOI2SOB0ykPoRAR/wYIbR5Suw8xEANkK1CxTJBzA56jM9/psBvsQrL9xmKaETxew/G
+            qZo+9V4P3MkdySQj+fsTxVwsGB7LyWbl2MB3C8GeDxCyCXkz5b0c68L6FbidSxAm+GJAO2HDfUdJ
+            U912rcEfjN0xmuRLUOKXqJRnjdtAsncVGrZkyvw7RACPgCmooCkAYdRYvrSBB/TmSLukZbGD5UKQ
+            Ajm+AeDnQ8EmD5TBAhPUAgkzLSGftgIUqC2GdCrrd5/T88lZIw4z/dV/DxKpCbEZS1/vfRMoambk
+            MBg42yWfMbAlxMbnxr32Z7kwtXmBiUKog55vhy3frpm05gzumnaSj2p1VqzVqTQBrtcm0FBa/9Ki
+            7271PNXuqWzMsqesdNTEcejjGfJfhI52mAdWnGRLlZalefeVwW6xkyncg2hUCyhSD/BPh/5qBVBN
+            qDB5cb0SdiePjjJzLEqUv8HRZNXJmL8WnoAs0fZUUvqp1V4UiB1v+Gv8qc0oLIN75rLU9WKYoCk8
+            CYqkbPX508ZoidyuECWZvuVaA2rX0PIkI6IsZc5qvvECAwEAAQ==
         </rsa-public-key>
         <rsa-public-key sha-256="c9c22bfe416f5601f2ba1ffa9c275482efee5560f3a672350b60dc9da3595317">
             MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAySE4WHS5mUnfbAY+uU8tD0cz9LRu3eod
