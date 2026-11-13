@@ -807615,6 +807615,26 @@
         </server-credentials-in-use>
     </host>
     <host>
+        <ewp:admin-email>ewp-plus@it.auth.gr</ewp:admin-email>
+        <ewp:admin-email>ewp-monitor@it.auth.gr</ewp:admin-email>
+        <ewp:admin-provider>EWP Dashboard</ewp:admin-provider>
+        <ewp:admin-notes>Manifest File for general endpoints Erasmus Dashboard.</ewp:admin-notes>
+        <apis-implemented>
+            <d6:discovery version="6.0.0">
+                <d6:url>https://unizoneewp.it.auth.gr/rest/manifest/ideaeducation.com</d6:url>
+            </d6:discovery>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>ideaeducation.com</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <rsa-public-key sha-256="b7f66e0a2d0544ddbfeef27d6ae3fdd65df14f090b0c8d0cc88c5f7673b03f11"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="b7f66e0a2d0544ddbfeef27d6ae3fdd65df14f090b0c8d0cc88c5f7673b03f11"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
         <ewp:admin-email>emrex-admin@postit.csc.fi</ewp:admin-email>
         <ewp:admin-provider>CSC</ewp:admin-provider>
         <apis-implemented>
@@ -816036,6 +816056,11 @@ Standort Lörrach</name>
             <other-id type="erasmus">E  VITORIA15</other-id>
             <other-id type="pic">949514571</other-id>
             <name>ESCUELA DE ARTE Y SUPERIOR DE DISEÑO VITORIA-GASTEIZ</name>
+        </hei>
+        <hei id="ideaeducation.com">
+            <other-id type="erasmus">MT MALTA19</other-id>
+            <other-id type="pic">880240954</other-id>
+            <name>IDEA Academy Limited</name>
         </hei>
         <hei id="idheo.com">
             <other-id type="erasmus">F  NANTES57</other-id>
@@ -858264,6 +858289,18 @@ International Cooperation Office</name>
             QFykDobPVo+4YGcL+ugON/AbHSrqa3qmOg0aKhshvJaZOu79j/LEypmJUeSMrhvwiZDfCQvBwrN/
             zbchlOjnUNinr8i1VeI7m6/9HGNeTsryEcl5GhWEpm6izTRcAOUcUBj5w76K7xYRf9JlUq8TY2vG
             rJL4/aRDd1EqJP12DSm1SGvUM3N2evxcwcwUilxMT3MCAwEAAQ==
+        </rsa-public-key>
+        <rsa-public-key sha-256="b7f66e0a2d0544ddbfeef27d6ae3fdd65df14f090b0c8d0cc88c5f7673b03f11">
+            MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAy2eS0OEEb6JOpyO+TUINTNMLB8uAJFcz
+            YwhD5H4aGUl8zbc5HanI1W754+Jr1NA6gN9sizc9Q3SyQGSO1r5+9eDHtQs5aejlv7MrLlQ2/B52
+            ulenNJ1vdftjvsCt9VoWAumAv9VEN/B8nKnFmjLsQjU90GSvW0Whzw7S5VzFiMj/U4J/Iw8W/dwS
+            KwY4spLvZNhj58/omqvEOl0fIfqgWWj/nMYYYe5yDTMJhfo05JK81ePLPzB3BeiYGuUA6k0zQdFu
+            8rs9yrWz2SEQPskICzNx+2FbiMmBAknqjQlwHzFq5lFfVSBdzUmmq+OELxmZxkckHvnoGFfpjktE
+            Cla8rP9x7kod2eKfCd+Au7562uisQEVveoN4tddLhOBP4zghFEZqjrerz3BRbvm/UJhSPLihh+zy
+            2S4qzr6ggsl4zwqwi9frpOlBzNGeR9TbqYYIXn7kn87krOcHD4GOpsBs9CQzsH8EQhaRKf3O/iFJ
+            awjScrvdgYkdkhY5vq/UWjcUIhwQ+DpFwSh6OM2q25nwXMbdYTZgkhjUR7cX6QtBNROAY5zw1G/k
+            lsjgQDx/HLl2zjGT/kh781TRV5OMEhQDV3Y1TxOTmCI6Jz60L+x46J/3p3JdV+2l5rHVyCwGTuIw
+            bxOFcDEzHDznFyBSRfiR8QAFEBB3jdwjZvtiLjBqVkcCAwEAAQ==
         </rsa-public-key>
         <rsa-public-key sha-256="b81b8771c2778b77395626b6b1334769cb6fe41f071b82063ee5cd302f11fb9e">
             MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAqihmbR4nI7T1c1SMk3jNRQltl7oldX5b
