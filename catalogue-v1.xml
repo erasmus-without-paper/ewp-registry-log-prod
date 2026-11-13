@@ -807635,6 +807635,26 @@
         </server-credentials-in-use>
     </host>
     <host>
+        <ewp:admin-email>ewp-plus@it.auth.gr</ewp:admin-email>
+        <ewp:admin-email>ewp-monitor@it.auth.gr</ewp:admin-email>
+        <ewp:admin-provider>EWP Dashboard</ewp:admin-provider>
+        <ewp:admin-notes>Manifest File for general endpoints Erasmus Dashboard.</ewp:admin-notes>
+        <apis-implemented>
+            <d6:discovery version="6.0.0">
+                <d6:url>https://unizoneewp.it.auth.gr/rest/manifest/if-pan.krakow.pl</d6:url>
+            </d6:discovery>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>if-pan.krakow.pl</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <rsa-public-key sha-256="bfc70cb690aae6658589b4f86c7dc08f4e5ca34d8b21aec9751a327e562760a9"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="bfc70cb690aae6658589b4f86c7dc08f4e5ca34d8b21aec9751a327e562760a9"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
         <ewp:admin-email>emrex-admin@postit.csc.fi</ewp:admin-email>
         <ewp:admin-provider>CSC</ewp:admin-provider>
         <apis-implemented>
@@ -816573,6 +816593,11 @@ Standort Lörrach</name>
             <other-id type="erasmus">E  LAS-PAL28</other-id>
             <other-id type="pic">946740953</other-id>
             <name>CENTRO INTEGRADO DE FORMACIÓN PROFESIONAL ZONZAMAS</name>
+        </hei>
+        <hei id="if-pan.krakow.pl">
+            <other-id type="erasmus">PL KRAKOW29</other-id>
+            <other-id type="pic">998322352</other-id>
+            <name>INSTYTUT FARMAKOLOGII IM. JERZEGO MAJA POLSKIEJ AKADEMII NAUK</name>
         </hei>
         <hei id="ifa.fau.de">
             <other-id type="erasmus">D  ERLANGE02</other-id>
@@ -859681,6 +859706,18 @@ International Cooperation Office</name>
             6NkqD+sqz7nnja5Y6V1a3+dm7ZDlHY6Vlv43G6Xe2r7NXvsI1xdVtu/MXBc/1nJC/67s8/M3CY6v
             ZnRereJzOJHbL0lfgq76+yTDsV/4cgOEw12bSBCumsD7rhchZy5hXMQSWh3hLdYc/Z0dEiCtqpC6
             0ezwAJUjfWGdOfRoIXfptO8wHZWyftnySd0kobuhT0sCAwEAAQ==
+        </rsa-public-key>
+        <rsa-public-key sha-256="bfc70cb690aae6658589b4f86c7dc08f4e5ca34d8b21aec9751a327e562760a9">
+            MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAwSn5W+r8n/93z2p/vDkkjDNvaesWsOuG
+            9qoFxnUfF9+TmE6fNKWdytNn+ZG4chhqdlfvqaOoCU0MTLaE96oj2Jg/tRzTj3rBbD5LvegbcndZ
+            byBLjnDtUo8xxLzqClBbdF7+cT8FSeXU+ysco3qtN0vN8HiVFUCTk+duRGwOZ9gFnsZy0GWNth60
+            QDYIUEHGh39YodyG7hQeFS0OJO9GHaCXne9fXhwb3lmCDrQKMptIGRRUVWk1bVBcft94QNIe/rcC
+            3XMP+Bp30LecrsrCLUmhcdf9NHy4A5WRYJKx3cNgoF1d9AwZdGXKwgkTjZwjqLACx++aO+gw38y7
+            Zmb/ZAoY2uSRT4O/+tzOCUbgRKCz3urxV7QvVmzWH4fON54yhuug8cjR544Zs0Ue0QUvRfVEHJp6
+            5gfGnGdRFTKEPxv+py/5RH99/MG8Jn/GygCSx8nSRt1eVCZfE3GG2TmzwXk65cXbAexJDmU3gmKg
+            I29PPt5iNho3tL1LyhNivjwLBRsDLYyjSBAAaMBtJ7Lt1WMdJU/rAzQmmD1f8NR0pOHcMJOfiKsO
+            s9YPBQ1utwZ8t+SBmMDphf30V/qyxF6dhblqaBMoV1AU/lLpiAYDn/uc4e5dIlTaQh0bEKFg0cwg
+            8A5AjS+n2PRG8AMX1f/v454ZxbkmsgNivUhRN1/RJnECAwEAAQ==
         </rsa-public-key>
         <rsa-public-key sha-256="bfccd0ab5ffc4484f194a9bd3cb9a3052182b7836aacf8ff5111d0fa1dbf20ab">
             MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAuQ7w93tBuhWmcFIgudXmHVnl2v1OAPAi
