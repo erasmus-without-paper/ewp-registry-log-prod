@@ -807655,6 +807655,98 @@
         </server-credentials-in-use>
     </host>
     <host>
+        <ewp:admin-email>ewp-plus@it.auth.gr</ewp:admin-email>
+        <ewp:admin-email>ewp-monitor@it.auth.gr</ewp:admin-email>
+        <ewp:admin-provider>EWP Dashboard</ewp:admin-provider>
+        <ewp:admin-notes>Manifest File for general endpoints Erasmus Dashboard.</ewp:admin-notes>
+        <apis-implemented>
+            <d6:discovery version="6.0.0">
+                <d6:url>https://unizoneewp.it.auth.gr/rest/manifest/lycee-jhinglo.ac-reunion.fr</d6:url>
+            </d6:discovery>
+            <ia7:iias
+                xmlns:ia7="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v7/manifest-entry.xsd"
+                version="7.0.0"
+            >
+                <ia7:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </ia7:http-security>
+                <ia7:get-url>https://unizoneewp.it.auth.gr/rest/iias/get/lycee-jhinglo.ac-reunion.fr</ia7:get-url>
+                <ia7:max-iia-ids>1</ia7:max-iia-ids>
+                <ia7:index-url>https://unizoneewp.it.auth.gr/rest/iias/index/lycee-jhinglo.ac-reunion.fr</ia7:index-url>
+                <ia7:stats-url>https://unizoneewp.it.auth.gr/rest/iias/stats/lycee-jhinglo.ac-reunion.fr</ia7:stats-url>
+            </ia7:iias>
+            <iac3:iia-cnr version="3.0.0">
+                <iac3:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </iac3:http-security>
+                <iac3:url>https://unizoneewp.it.auth.gr/rest/iias/cnr/lycee-jhinglo.ac-reunion.fr</iac3:url>
+            </iac3:iia-cnr>
+            <iaa2:iias-approval
+                xmlns:iaa2="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.0"
+            >
+                <iaa2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </iaa2:http-security>
+                <iaa2:url>https://unizoneewp.it.auth.gr/rest/iias/app/lycee-jhinglo.ac-reunion.fr</iaa2:url>
+                <iaa2:max-iia-ids>1</iaa2:max-iia-ids>
+            </iaa2:iias-approval>
+            <iaac2:iia-approval-cnr
+                xmlns:iaac2="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.0"
+            >
+                <iaac2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </iaac2:http-security>
+                <iaac2:url>https://unizoneewp.it.auth.gr/rest/iias/app/cnr/lycee-jhinglo.ac-reunion.fr</iaac2:url>
+            </iaac2:iia-approval-cnr>
+            <f1:factsheet
+                xmlns:f1="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
+                version="1.2.0"
+            >
+                <f1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </f1:http-security>
+                <f1:url>https://unizoneewp.it.auth.gr/rest/factsheet/lycee-jhinglo.ac-reunion.fr</f1:url>
+                <f1:max-hei-ids>1</f1:max-hei-ids>
+            </f1:factsheet>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>lycee-jhinglo.ac-reunion.fr</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <rsa-public-key sha-256="a61f02832a0234e7c1dafa14ea590a7cace18a1ad86b3c292e6f4180520cd7c7"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="a61f02832a0234e7c1dafa14ea590a7cace18a1ad86b3c292e6f4180520cd7c7"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
         <ewp:admin-email>emrex-admin@postit.csc.fi</ewp:admin-email>
         <ewp:admin-provider>CSC</ewp:admin-provider>
         <apis-implemented>
@@ -819198,6 +819290,11 @@ Standort Lörrach</name>
             <other-id type="erasmus">F  BASTIA01</other-id>
             <other-id type="pic">896820873</other-id>
             <name>Lycée général et technologique Giocante de Casabianca</name>
+        </hei>
+        <hei id="lycee-jhinglo.ac-reunion.fr">
+            <other-id type="erasmus">F  LE-PORT02</other-id>
+            <other-id type="pic">943198513</other-id>
+            <name>Lycée Jean Hinglo</name>
         </hei>
         <hei id="lycee-ledantec.ac-rennes.fr">
             <other-id type="erasmus">F  LANNION05</other-id>
@@ -855358,6 +855455,18 @@ International Cooperation Office</name>
             6MAKvBgPIqmj97/Ud6R5U0VWc5N5wJH9VNUAkBprIh11PR/oWp+OkpjYRITHNIYpZRoM7RSPDFIN
             KsCE6yIeiaHsAs88qC5tUKviyYS9faMxuk1UXxIA4B515rBIONRsAbPTvUiOP4vEH9bBg1VSLgBQ
             fewAA5xedi7fu4MaUsMNeXqPFpdOCRw6RHdnhDEFhV8CAwEAAQ==
+        </rsa-public-key>
+        <rsa-public-key sha-256="a61f02832a0234e7c1dafa14ea590a7cace18a1ad86b3c292e6f4180520cd7c7">
+            MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAsaEQfkx+qAOsC0t3MwIWJAXThnJ9uhz5
+            bPCYHmH4eh86FeSgKVlPGuErLgIdY36N5Sb1vzko/6elMpfsQRcqU9jECRilkd52GHFpFU/4lJKL
+            1vyPejCBlOWGxJOH7T6Eko+V4ZvZl2k0dvUm5jtp2KLGB8BswS7SFsONtim68TyaH0B+m6H50nGP
+            6dZ5wQH4NYKDFFBO7+ElJVDVC8aBfKjuPi2L79nKaXuRLsP09tPyU6oG4kqLi/Ua5MFZVx6xHxOi
+            +cEFqzgE/lf9xLxJ8XcaXCpD+oISK0oZZEJqeAaIBPZiHKO6yBrCj90fiD60XnYkCbwrZbgkmke5
+            YjKmEWPXwcGYqAM29T86QlIbR3c/U1PC/p70JHU/KOAXuSk5+reyuXYTXUZAYzS/AGb9hM9/IZ6b
+            eddT9THhnCD43Bkai4b3tEcY9Jhcf20DLw6K1PUlO+yVWUhgWlS3J0jpSGXgr1/g916qBqZM13x9
+            8D8uHPMbhvxKCoXv/eSV+TIKPvSDsHvx0xfVEiTyeGPc9Oyzgj5S4+qsaJbqCrekTZVsJCcrYka1
+            UZC91ZOai5vGPRkkl6uz0tE+XNTwDXzVLEy0yuUTyXkSZ6aZ9/n1AYeQtHnuGHZXwV/gn9LkUNKr
+            Gt51v47BOsSOL/MHVputzgXk6ScX6P8kPz3M4aLXpuECAwEAAQ==
         </rsa-public-key>
         <rsa-public-key sha-256="a6317c669c87760e28c47620c6c9001fb0a7b2e389c29ced8ba6d04ecf33228b">
             MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEApSD0yl8A/tMPZV/SKbC1RED6xmv5/HfV
