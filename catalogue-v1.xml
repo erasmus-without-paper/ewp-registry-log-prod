@@ -702245,7 +702245,7 @@
             </f1:factsheet>
             <ia7:iias
                 xmlns:ia7="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v7/manifest-entry.xsd"
-                version="7.0.0"
+                version="7.0.1"
             >
                 <ia7:http-security>
                     <sec:client-auth-methods>
@@ -702334,68 +702334,68 @@
                 <omlc1:stats-url>https://intranet.comillas.edu/ewp/api/OMobilityLaCNR/Stats</omlc1:stats-url>
                 <omlc1:max-omobility-ids>1</omlc1:max-omobility-ids>
             </omlc1:omobility-la-cnr>
-            <omc1:omobility-cnr
-                xmlns:omc1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/blob/stable-v1/manifest-entry.xsd"
-                version="1.0.0"
-            >
-                <omc1:http-security>
-                    <sec:client-auth-methods>
-                        <sec-A2:httpsig/>
-                    </sec:client-auth-methods>
-                    <sec:server-auth-methods>
-                        <sec-B2:httpsig/>
-                    </sec:server-auth-methods>
-                </omc1:http-security>
-                <omc1:url>https://intranet.comillas.edu/ewp/api/OMobilityCNR</omc1:url>
-                <omc1:max-omobility-ids>1</omc1:max-omobility-ids>
-            </omc1:omobility-cnr>
-            <om2:omobilities
-                xmlns:om2="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v2/manifest-entry.xsd"
+            <omc2:omobility-cnr
+                xmlns:omc2="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/blob/stable-v2/manifest-entry.xsd"
                 version="2.0.0"
             >
-                <om2:http-security>
+                <omc2:http-security>
                     <sec:client-auth-methods>
                         <sec-A2:httpsig/>
                     </sec:client-auth-methods>
                     <sec:server-auth-methods>
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
-                </om2:http-security>
-                <om2:get-url>https://intranet.comillas.edu/ewp/api/OMobility</om2:get-url>
-                <om2:index-url>https://intranet.comillas.edu/ewp/api/OMobility/Index</om2:index-url>
-                <om2:max-omobility-ids>1</om2:max-omobility-ids>
-            </om2:omobilities>
-            <im1:imobilities
-                xmlns:im1="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v1/manifest-entry.xsd"
-                version="1.0.0"
+                </omc2:http-security>
+                <omc2:url>https://intranet.comillas.edu/ewp/api/OMobilityCNR</omc2:url>
+                <omc2:max-omobility-ids>1</omc2:max-omobility-ids>
+            </omc2:omobility-cnr>
+            <om3:omobilities
+                xmlns:om3="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v3/manifest-entry.xsd"
+                version="3.0.0"
             >
-                <im1:http-security>
+                <om3:http-security>
                     <sec:client-auth-methods>
                         <sec-A2:httpsig/>
                     </sec:client-auth-methods>
                     <sec:server-auth-methods>
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
-                </im1:http-security>
-                <im1:get-url>https://intranet.comillas.edu/ewp/api/IMobility</im1:get-url>
-                <im1:max-omobility-ids>1</im1:max-omobility-ids>
-                <im1:sends-notifications/>
-            </im1:imobilities>
-            <imc1:imobility-cnr
-                xmlns:imc1="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-cnr/blob/stable-v1/manifest-entry.xsd"
-                version="1.0.0"
+                </om3:http-security>
+                <om3:get-url>https://intranet.comillas.edu/ewp/api/OMobility</om3:get-url>
+                <om3:index-url>https://intranet.comillas.edu/ewp/api/OMobility/Index</om3:index-url>
+                <om3:update-url>https://intranet.comillas.edu/ewp/api/OMobility/Update</om3:update-url>
+                <om3:max-omobility-ids>1</om3:max-omobility-ids>
+            </om3:omobilities>
+            <im2:imobilities
+                xmlns:im2="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.0"
             >
-                <imc1:http-security>
+                <im2:http-security>
                     <sec:client-auth-methods>
                         <sec-A2:httpsig/>
                     </sec:client-auth-methods>
                     <sec:server-auth-methods>
                         <sec-B2:httpsig/>
                     </sec:server-auth-methods>
-                </imc1:http-security>
-                <imc1:url>https://intranet.comillas.edu/ewp/api/IMobilityCNR</imc1:url>
-                <imc1:max-omobility-ids>1</imc1:max-omobility-ids>
-            </imc1:imobility-cnr>
+                </im2:http-security>
+                <im2:get-url>https://intranet.comillas.edu/ewp/api/IMobility</im2:get-url>
+                <im2:max-omobility-ids>1</im2:max-omobility-ids>
+            </im2:imobilities>
+            <imc2:imobility-cnr
+                xmlns:imc2="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-cnr/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.0"
+            >
+                <imc2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </imc2:http-security>
+                <imc2:url>https://intranet.comillas.edu/ewp/api/IMobilityCNR</imc2:url>
+                <imc2:max-omobility-ids>1</imc2:max-omobility-ids>
+            </imc2:imobility-cnr>
         </apis-implemented>
         <institutions-covered>
             <hei-id>comillas.edu</hei-id>
