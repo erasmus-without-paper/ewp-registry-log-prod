@@ -808262,6 +808262,26 @@
         </server-credentials-in-use>
     </host>
     <host>
+        <ewp:admin-email>ewp-plus@it.auth.gr</ewp:admin-email>
+        <ewp:admin-email>ewp-monitor@it.auth.gr</ewp:admin-email>
+        <ewp:admin-provider>EWP Dashboard</ewp:admin-provider>
+        <ewp:admin-notes>Manifest File for general endpoints Erasmus Dashboard.</ewp:admin-notes>
+        <apis-implemented>
+            <d6:discovery version="6.0.0">
+                <d6:url>https://unizoneewp.it.auth.gr/rest/manifest/rafflesmilano.it</d6:url>
+            </d6:discovery>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>rafflesmilano.it</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <rsa-public-key sha-256="28bf3d042172809b86ff96969492a64d896f3f2631986b0d1b7b9146aecc139f"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="28bf3d042172809b86ff96969492a64d896f3f2631986b0d1b7b9146aecc139f"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
         <ewp:admin-email>emrex-admin@postit.csc.fi</ewp:admin-email>
         <ewp:admin-provider>CSC</ewp:admin-provider>
         <apis-implemented>
@@ -821892,6 +821912,11 @@ Standort Lörrach</name>
             <other-id type="pic">879465051</other-id>
             <name>SVEUCILISTE ALGEBRA BERNAYS</name>
         </hei>
+        <hei id="rafflesmilano.it">
+            <other-id type="erasmus">I  MILANO35</other-id>
+            <other-id type="pic">866005234</other-id>
+            <name>Raffles Education Italy s.r.l con socio unico</name>
+        </hei>
         <hei id="rai.lv">
             <other-id type="erasmus">LV RIGA50</other-id>
             <other-id type="pic">938965821</other-id>
@@ -835054,6 +835079,18 @@ International Cooperation Office</name>
             Tqd01Y2ADSDFMTwo6cyuIa26iRyvSLrWs/VnQVPb1zJzze0VH/RXZC6XzUaoc9mn2dBv0UvN2bnr
             MCpwNnANBl3mDyt0VsCsT310CxtItSpN0WW/Y3k4VJCkfgqsvPveDiQUmIpzMg94KGRJVDkVIRIC
             D25jIw29frPeVZDuYGfCePISv5IQFxpWp99ZVDO4Y70CAwEAAQ==
+        </rsa-public-key>
+        <rsa-public-key sha-256="28bf3d042172809b86ff96969492a64d896f3f2631986b0d1b7b9146aecc139f">
+            MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA4N0rOsCKWp1I164CV7EAHZMWaQSdVywl
+            OOIhMAPVv7Ywr3m9eOTx3ReiWF6XC6uLPQp91/+yPVOBZrqo+dhefz4+Da6trMlen+Uv4McD4TjS
+            um5XustPU132HjOgrQFYvy02p2MIxkfphYQmKvG5tjaI8l+YzJUFerWjVV8CjBU+5oXBuzOFqPOt
+            1A+wz9lawxWtGi89VHG+LLDuJ8PdkoHw+CN9Jw6t+DxtmfM5+oMmPHDJrPl7O20WIcEJkzg1h/Xj
+            WfIqtOWp4xR0hALa0SKXmvCHf1ilZu02tSAyRKnTIykkK2KR7jikIjGJCwm8dVs6hySM66y+/vco
+            Kz1vW9sYfEhixD/AJ6K/6A6XVI8kv2vDHqZNrvqFZ2SSi5TAq9zJvmBZPI/ih2qT9wFXueulo49F
+            vsjboJy6vJI6YY0E+Y2olnSuTnflq7Ul75hm9mlhqAOHbGEHxrSXq3RyaWst047iep1g/GoxO3e0
+            /bPzA5zV0z5dGrU4TjFdoEPLgngd3n54DpyNbjtZ/Ro/emL3HKdNJyvRJ2lqubhuGDV7IjegngcD
+            U4pLr44h0pMxybXiWaCZnZhK9tNfRgfirN1x9uEIeo8LqpnoFGbkH4wQdIM40+ujK+oQcl3r8q3R
+            M/MJf6xL6cBr5lXUr4207qI75ALPAGYz2DNIpIamBpkCAwEAAQ==
         </rsa-public-key>
         <rsa-public-key sha-256="28ca9a4bb8b9f7b5054781f27f65e746c48343f9111497c9a8a7a2a687334906">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAreeTx4+zE+6qL+LsdbwD/o4WOUUPTPkt
