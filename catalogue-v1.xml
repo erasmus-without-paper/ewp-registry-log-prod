@@ -807984,6 +807984,264 @@
         </server-credentials-in-use>
     </host>
     <host>
+        <ewp:admin-email>ewp-plus@it.auth.gr</ewp:admin-email>
+        <ewp:admin-email>ewp-monitor@it.auth.gr</ewp:admin-email>
+        <ewp:admin-provider>EWP Dashboard</ewp:admin-provider>
+        <ewp:admin-notes>Manifest File for general endpoints Erasmus Dashboard.</ewp:admin-notes>
+        <apis-implemented>
+            <d6:discovery version="6.0.0">
+                <d6:url>https://unizoneewp.it.auth.gr/rest/manifest/escueladeartealgeciras.org</d6:url>
+            </d6:discovery>
+            <in2:institutions version="2.2.0">
+                <in2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </in2:http-security>
+                <in2:url>https://unizoneewp.it.auth.gr/rest/institutions/escueladeartealgeciras.org</in2:url>
+                <in2:max-hei-ids>1</in2:max-hei-ids>
+            </in2:institutions>
+            <ou2:organizational-units version="2.1.1">
+                <ou2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </ou2:http-security>
+                <ou2:url>https://unizoneewp.it.auth.gr/rest/ounits/escueladeartealgeciras.org</ou2:url>
+                <ou2:max-ounit-ids>100</ou2:max-ounit-ids>
+                <ou2:max-ounit-codes>100</ou2:max-ounit-codes>
+            </ou2:organizational-units>
+            <ia7:iias
+                xmlns:ia7="https://github.com/erasmus-without-paper/ewp-specs-api-iias/blob/stable-v7/manifest-entry.xsd"
+                version="7.0.0"
+            >
+                <ia7:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </ia7:http-security>
+                <ia7:get-url>https://unizoneewp.it.auth.gr/rest/iias/get/escueladeartealgeciras.org</ia7:get-url>
+                <ia7:max-iia-ids>1</ia7:max-iia-ids>
+                <ia7:index-url>https://unizoneewp.it.auth.gr/rest/iias/index/escueladeartealgeciras.org</ia7:index-url>
+                <ia7:stats-url>https://unizoneewp.it.auth.gr/rest/iias/stats/escueladeartealgeciras.org</ia7:stats-url>
+            </ia7:iias>
+            <iac3:iia-cnr version="3.0.0">
+                <iac3:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </iac3:http-security>
+                <iac3:url>https://unizoneewp.it.auth.gr/rest/iias/cnr/escueladeartealgeciras.org</iac3:url>
+            </iac3:iia-cnr>
+            <iaa2:iias-approval
+                xmlns:iaa2="https://github.com/erasmus-without-paper/ewp-specs-api-iias-approval/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.0"
+            >
+                <iaa2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </iaa2:http-security>
+                <iaa2:url>https://unizoneewp.it.auth.gr/rest/iias/app/escueladeartealgeciras.org</iaa2:url>
+                <iaa2:max-iia-ids>1</iaa2:max-iia-ids>
+            </iaa2:iias-approval>
+            <iaac2:iia-approval-cnr
+                xmlns:iaac2="https://github.com/erasmus-without-paper/ewp-specs-api-iia-approval-cnr/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.0"
+            >
+                <iaac2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </iaac2:http-security>
+                <iaac2:url>https://unizoneewp.it.auth.gr/rest/iias/app/cnr/escueladeartealgeciras.org</iaac2:url>
+            </iaac2:iia-approval-cnr>
+            <om3:omobilities
+                xmlns:om3="https://github.com/erasmus-without-paper/ewp-specs-api-omobilities/blob/stable-v3/manifest-entry.xsd"
+                version="3.0.0"
+            >
+                <om3:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </om3:http-security>
+                <om3:get-url>https://unizoneewp.it.auth.gr/rest/nominations/omobilities/get/escueladeartealgeciras.org</om3:get-url>
+                <om3:index-url>https://unizoneewp.it.auth.gr/rest/nominations/omobilities/index/escueladeartealgeciras.org</om3:index-url>
+                <om3:update-url>https://unizoneewp.it.auth.gr/rest/nominations/omobilities/update/escueladeartealgeciras.org</om3:update-url>
+                <om3:max-omobility-ids>1</om3:max-omobility-ids>
+            </om3:omobilities>
+            <omc2:omobility-cnr
+                xmlns:omc2="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-cnr/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.0"
+            >
+                <omc2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </omc2:http-security>
+                <omc2:url>https://unizoneewp.it.auth.gr/rest/nominations/omobilities/cnr/escueladeartealgeciras.org</omc2:url>
+                <omc2:max-omobility-ids>1</omc2:max-omobility-ids>
+            </omc2:omobility-cnr>
+            <oms1:omobility-stats
+                xmlns:oms1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-stats/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <oms1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </oms1:http-security>
+                <oms1:url>https://unizoneewp.it.auth.gr/rest/nominations/omobilities/stats/escueladeartealgeciras.org</oms1:url>
+            </oms1:omobility-stats>
+            <im2:imobilities
+                xmlns:im2="https://github.com/erasmus-without-paper/ewp-specs-api-imobilities/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.0"
+            >
+                <im2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </im2:http-security>
+                <im2:get-url>https://unizoneewp.it.auth.gr/rest/nominations/imobilities/get/escueladeartealgeciras.org</im2:get-url>
+                <im2:max-omobility-ids>1</im2:max-omobility-ids>
+            </im2:imobilities>
+            <imc2:imobility-cnr
+                xmlns:imc2="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-cnr/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.0"
+            >
+                <imc2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </imc2:http-security>
+                <imc2:url>https://unizoneewp.it.auth.gr/rest/nominations/imobilities/cnr/escueladeartealgeciras.org</imc2:url>
+                <imc2:max-omobility-ids>1</imc2:max-omobility-ids>
+            </imc2:imobility-cnr>
+            <oml1:omobility-las
+                xmlns:oml1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-las/blob/stable-v1/manifest-entry.xsd"
+                version="1.2.0"
+            >
+                <oml1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </oml1:http-security>
+                <oml1:get-url>https://unizoneewp.it.auth.gr/rest/las/get/escueladeartealgeciras.org</oml1:get-url>
+                <oml1:index-url>https://unizoneewp.it.auth.gr/rest/las/index/escueladeartealgeciras.org</oml1:index-url>
+                <oml1:update-url>https://unizoneewp.it.auth.gr/rest/las/update/escueladeartealgeciras.org</oml1:update-url>
+                <oml1:stats-url>https://unizoneewp.it.auth.gr/rest/las/stats/outgoing/escueladeartealgeciras.org</oml1:stats-url>
+                <oml1:max-omobility-ids>1</oml1:max-omobility-ids>
+            </oml1:omobility-las>
+            <omlc1:omobility-la-cnr
+                xmlns:omlc1="https://github.com/erasmus-without-paper/ewp-specs-api-omobility-la-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="1.1.0"
+            >
+                <omlc1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </omlc1:http-security>
+                <omlc1:url>https://unizoneewp.it.auth.gr/rest/las/cnr/escueladeartealgeciras.org</omlc1:url>
+                <omlc1:stats-url>https://unizoneewp.it.auth.gr/rest/las/stats/incoming/escueladeartealgeciras.org</omlc1:stats-url>
+                <omlc1:max-omobility-ids>1</omlc1:max-omobility-ids>
+            </omlc1:omobility-la-cnr>
+            <imt2:imobility-tors
+                xmlns:imt2="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-tors/blob/stable-v2/manifest-entry.xsd"
+                version="2.0.0"
+            >
+                <imt2:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </imt2:http-security>
+                <imt2:get-url>https://unizoneewp.it.auth.gr/rest/tors/imobilities/get/escueladeartealgeciras.org</imt2:get-url>
+                <imt2:index-url>https://unizoneewp.it.auth.gr/rest/tors/imobilities/index/escueladeartealgeciras.org</imt2:index-url>
+                <imt2:max-omobility-ids>1</imt2:max-omobility-ids>
+            </imt2:imobility-tors>
+            <imtc1:imobility-tor-cnr
+                xmlns:imtc1="https://github.com/erasmus-without-paper/ewp-specs-api-imobility-tor-cnr/blob/stable-v1/manifest-entry.xsd"
+                version="1.0.0"
+            >
+                <imtc1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </imtc1:http-security>
+                <imtc1:url>https://unizoneewp.it.auth.gr/rest/tors/imobilities/cnr/escueladeartealgeciras.org</imtc1:url>
+                <imtc1:max-omobility-ids>1</imtc1:max-omobility-ids>
+            </imtc1:imobility-tor-cnr>
+            <f1:factsheet
+                xmlns:f1="https://github.com/erasmus-without-paper/ewp-specs-api-factsheet/blob/stable-v1/manifest-entry.xsd"
+                version="1.2.0"
+            >
+                <f1:http-security>
+                    <sec:client-auth-methods>
+                        <sec-A2:httpsig/>
+                    </sec:client-auth-methods>
+                    <sec:server-auth-methods>
+                        <sec-B2:httpsig/>
+                    </sec:server-auth-methods>
+                </f1:http-security>
+                <f1:url>https://unizoneewp.it.auth.gr/rest/factsheet/escueladeartealgeciras.org</f1:url>
+                <f1:max-hei-ids>1</f1:max-hei-ids>
+            </f1:factsheet>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>escueladeartealgeciras.org</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <rsa-public-key sha-256="d70e2d2beb54989c42f6caf4080a6613f956f87079c4106103c50b8ff6eaa44d"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="d70e2d2beb54989c42f6caf4080a6613f956f87079c4106103c50b8ff6eaa44d"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
         <ewp:admin-email>emrex-admin@postit.csc.fi</ewp:admin-email>
         <ewp:admin-provider>CSC</ewp:admin-provider>
         <apis-implemented>
@@ -813617,6 +813875,11 @@ Standort Lörrach</name>
             <other-id type="erasmus">E  ALBACET14</other-id>
             <other-id type="pic">948900852</other-id>
             <name>Escuela de Arte Albacete</name>
+        </hei>
+        <hei id="escueladeartealgeciras.org">
+            <other-id type="erasmus">E  CADIZ49</other-id>
+            <other-id type="pic">914998576</other-id>
+            <name>Escuela de Arte Algeciras</name>
         </hei>
         <hei id="escueladeartecorella.com">
             <other-id type="erasmus">E  LOGRONO19</other-id>
@@ -864286,6 +864549,18 @@ International Cooperation Office</name>
             C8zIO05DQY0G7RT7Tmvcp6T3lvGJ94uP+sxBwZbJDkZASqmmy0A1tEdJv8z1H3DoARqYbhlKQuHw
             t9EjYhWzcKRfc/JBtHhpUAay21KXI6v6hEJeR1pf+ERxWvh4J0wOuaSHP39wAgb1ZG9Kkp5CbLDR
             2XqM2L2wRn/x3/UqZVOQX/eFeWSmgzQJBVK/gtC1n98CAwEAAQ==
+        </rsa-public-key>
+        <rsa-public-key sha-256="d70e2d2beb54989c42f6caf4080a6613f956f87079c4106103c50b8ff6eaa44d">
+            MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA3179vZWAvHa5mFZxbbggWZxFLsk9HnCA
+            sz77dmaQNsD8IDF20hq2vdVxtNioseY0+RsupKRc8EA3UuQMIM0ap5NcA7zt6e2w73nQYhJfnpyu
+            jhfC3mxJs5tXGlqMf8V1OImeQEX8M5+tM1BbUXm7s+vu27+usCPrKbC4B6X8oZFcYmgsZeh7NT9Y
+            y4ACvE9kSmOjg11aHmsvsEYD9qxVWLxySRFZrR+qhgxkeoxDyr9/u9GKco94wNXMZw8h8e2PwLUe
+            gv6R+PA/qgzCG90qpUEssGz+1L0jhYIWim+xnx2LbvkKmhxI3hlxK23tTy2ymRGEucKSEd429k/5
+            TkitT8THvYuEdyeWQxBTCNbsj6HRjsJ8jQO4xmyGMK7340ftpynfUe7jKeVmWK2TYXCtIIQNWrV3
+            0khTFb0kcAUr+8HMKhU2xm75Ssm7TeeAlOhlyM6GPnl0N/G6s3gstxV+FTCQqq84Tuy0fKW1QSVC
+            Z8VuSVvLoIPpvCZeyjXEXClCXdcyuJhRgIgigD8PQQXgKmQmTsiOAYKKjBdcah7vNUfJo16ovqnq
+            K+uo6DFzwH3Ctognp4PnS4OjZkdph0CBtVBorA+IpI1qPaI8t+3i49oHbYCJfgJhrVs+v7BikGyR
+            UGDusb+KX3zQb/IQsKvshwq/xHTh/Vl5vyvHaR7eFLkCAwEAAQ==
         </rsa-public-key>
         <rsa-public-key sha-256="d7224f6b98e41d91e2e02f83c61c355197cb5f0e0a33a7aa5511bfce4a1e3e92">
             MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4ZuF2trr/dEo9EL5qZv4sXmA36B3rd4R
