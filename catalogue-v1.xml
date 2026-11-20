@@ -808242,6 +808242,26 @@
         </server-credentials-in-use>
     </host>
     <host>
+        <ewp:admin-email>ewp-plus@it.auth.gr</ewp:admin-email>
+        <ewp:admin-email>ewp-monitor@it.auth.gr</ewp:admin-email>
+        <ewp:admin-provider>EWP Dashboard</ewp:admin-provider>
+        <ewp:admin-notes>Manifest File for general endpoints Erasmus Dashboard.</ewp:admin-notes>
+        <apis-implemented>
+            <d6:discovery version="6.0.0">
+                <d6:url>https://unizoneewp.it.auth.gr/rest/manifest/etrs.si</d6:url>
+            </d6:discovery>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>etrs.si</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <rsa-public-key sha-256="d26da8f2aebfba547c27efe4ad6500620e0a8d693b05bac46713d75c4cdaa8fd"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="d26da8f2aebfba547c27efe4ad6500620e0a8d693b05bac46713d75c4cdaa8fd"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
         <ewp:admin-email>emrex-admin@postit.csc.fi</ewp:admin-email>
         <ewp:admin-provider>CSC</ewp:admin-provider>
         <apis-implemented>
@@ -814299,6 +814319,11 @@ Standort Lörrach</name>
             <other-id type="erasmus">PL KIELCE08</other-id>
             <other-id type="pic">949406125</other-id>
             <name>STAROPOLSKA AKADEMIA NAUK STOSOWANYCH W KIELCACH</name>
+        </hei>
+        <hei id="etrs.si">
+            <other-id type="erasmus">SI BREZICE01</other-id>
+            <other-id type="pic">946841057</other-id>
+            <name>Ekonomska in trgovska sola Brezice</name>
         </hei>
         <hei id="etsco.fr">
             <other-id type="erasmus">F  ANGERS14</other-id>
@@ -863753,6 +863778,18 @@ International Cooperation Office</name>
             EMD6/A12cmMMdwkc9yzH6G7WyxdXfFPVXUAuuTp8xUBxzSqVu92SvHi4FWwneGuzb0R2Kj9KGc0l
             K6NuM1ApP5Apux5nH8BoqWQZX32D/ZqRWFFAm5cH09SGhxloh0jAvemagyIHVrHws9K49hoqM64e
             vBt+GgxQSkXH4lkclxCvito7+twLDpiysDFOuQ33E80CAwEAAQ==
+        </rsa-public-key>
+        <rsa-public-key sha-256="d26da8f2aebfba547c27efe4ad6500620e0a8d693b05bac46713d75c4cdaa8fd">
+            MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA1jxkzvM0oj7sMvPvrFJqDs34Sn90rk4I
+            71lLQI68VJwtLEXtc9GQCUIAI12LQ+aIblL7Fub7GCln4qIElsz+eurA2vZK1JBgyK472wI08rcy
+            s/lXGRPSPQQPtqZCxOWwop57rSWOKxS4PcxWdSkGpzIThE/vF+6EdrQ/g853vZYAugTbn2+EYIJb
+            W4zLqY7xO5JQtip9RPEjshMJ5nyBUQvfIj9aX9KTZ/BMycs+Fea2qpqEr04b9OM1+il4Y58YQ0az
+            U1BO2KSaXfe6og1EdX5vFhUVfZvR46xAA26v56mbC8Eeb1e5Nz/BArz5kSUFJEELTheZedVbhQJ4
+            g+kPlpmc1NcDgUPHlKXNOIPgczejzqwBvoMepjDDzBG4NobxkXlYaIgj0hoUPrSqh5hEPEAqF4hA
+            y2Y0egCG1JL+ewwRsAW4Ny53XQA+bDJI/D4jU3CZEYeyiExMo7Ho6woePxpclxBwj/Y9a6LOZf1P
+            EpJGx2wHnaBfkS8Ix6Z0n7AP0ex4sQUWZztIVRodwwb/oRySfpCGsL48ysw0JSmqrgZreESzrZsi
+            AWMc0osAYu9D0kLrZHJZAa/FCP55hUC4JInbtt75AvHTT2mDP2VXUeJK6LNg8pt6FDNUT7GgLZNb
+            0ZHyuTSh8bsWUvKSWJHrdVdMqaAYjtmqhnBH2odAqRUCAwEAAQ==
         </rsa-public-key>
         <rsa-public-key sha-256="d273ea59d5aa81d4292fde682d5aeab0f1dca69cd6ad9409eccfc964e9c1e16c">
             MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAxh2ppiiMZSlRr2K3TjTtjjpoG65golrh
