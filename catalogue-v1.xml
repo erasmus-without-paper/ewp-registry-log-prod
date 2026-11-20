@@ -808282,6 +808282,26 @@
         </server-credentials-in-use>
     </host>
     <host>
+        <ewp:admin-email>ewp-plus@it.auth.gr</ewp:admin-email>
+        <ewp:admin-email>ewp-monitor@it.auth.gr</ewp:admin-email>
+        <ewp:admin-provider>EWP Dashboard</ewp:admin-provider>
+        <ewp:admin-notes>Manifest File for general endpoints Erasmus Dashboard.</ewp:admin-notes>
+        <apis-implemented>
+            <d6:discovery version="6.0.0">
+                <d6:url>https://unizoneewp.it.auth.gr/rest/manifest/ihnpan.pl</d6:url>
+            </d6:discovery>
+        </apis-implemented>
+        <institutions-covered>
+            <hei-id>ihnpan.pl</hei-id>
+        </institutions-covered>
+        <client-credentials-in-use>
+            <rsa-public-key sha-256="1e563541b9d402ae14ee053fad142ab9d346af3379e95dfa0063906de392c0a2"/>
+        </client-credentials-in-use>
+        <server-credentials-in-use>
+            <rsa-public-key sha-256="1e563541b9d402ae14ee053fad142ab9d346af3379e95dfa0063906de392c0a2"/>
+        </server-credentials-in-use>
+    </host>
+    <host>
         <ewp:admin-email>emrex-admin@postit.csc.fi</ewp:admin-email>
         <ewp:admin-provider>CSC</ewp:admin-provider>
         <apis-implemented>
@@ -817335,6 +817355,11 @@ Standort Lörrach</name>
             <other-id type="pic">949545223</other-id>
             <name xml:lang="en">Ignatianum University in Cracow</name>
             <name xml:lang="pl">Uniwersytet Ignatianum w Krakowie</name>
+        </hei>
+        <hei id="ihnpan.pl">
+            <other-id type="erasmus">PL WARSZAW113</other-id>
+            <other-id type="pic">905589285</other-id>
+            <name>Instytut Historii Nauki imienia Ludwika i Aleksandra Birkenmajerów Polskiej Akademii Nauk</name>
         </hei>
         <hei id="ihpan.edu.pl">
             <other-id type="erasmus">PL WARSZAW87</other-id>
@@ -833247,6 +833272,18 @@ International Cooperation Office</name>
             MMyeIE+XrqD2bGforUjRY58xE24SwLN+l3c5TkVfRtKkXnjyVUBC70ngKCkHtax/TsUBfgSNObsW
             GxrAxkQozWI5tCTwAIB3PB/+DlAPT3QK9pLaGCmkSR4oOQWmlrUUsQqFsG7fM9H240A7Ci9TQxX4
             0Pqj5QIDAQAB
+        </rsa-public-key>
+        <rsa-public-key sha-256="1e563541b9d402ae14ee053fad142ab9d346af3379e95dfa0063906de392c0a2">
+            MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAmIvOt9gfwtzwWP1nUJyzEY9OWnieUwXN
+            Nj9Rv/gUS3BbNDpDBtzHvlrTacxTeSmIX6dmTzACxp+ipXUMsyj4bwvQ6peqTddeUpV3iW5E/qfX
+            1smVHYvRHNd7LjA8issNVyAhUwo6Y/K5uHjAI/2mqDAt6k7Rw++QUvSDev8UstNa1fD7BmyXE1Tn
+            +b9lKMnPCU8ddPXVbMNE5s9rrXUAuDsPW/J3dtsEIVycbA057v/lFTuBfg01cLPxvC7YPT2okOlh
+            bk3SSwL9Cq4tirXYaMH5FJ3ZYhILcIs1eB0pzkZNjX8uz606Y8+O6zUblHcDInzjOgxJ4iQ7w0Nl
+            o8qqcnbL220Ud0w4LwPZOLJvCuzaNPHS15eb77bEipavCq08PbfX9XDshW6z+Y4KjdyFTSC/pZKJ
+            auymqaLEaF3Ge7y2JjJbqB3YvhxGcOb6brLiC/XoO8fnJbH4YFvbbmpryIEV9fJs2Vnvrl6Nxcw+
+            cOJASpAEjHz0oWSWTXXftgH3Nz40ZmBmhE4BBKOhsHFh0w6mj6C7h+d6zhE9hh09H0OD0ub6qwCy
+            mntuMELKQt2+jCIUuEo9RCKd0UVv+ZQPsEA/zfK4WSnkLstnYeflnfITPyWsobyzBvw1XYTJF+kO
+            5BX3kMey+9LgtfYaCOL4Rs1AqqRoQWv+NqncnECoZ+8CAwEAAQ==
         </rsa-public-key>
         <rsa-public-key sha-256="1e99ee7c4f33e6cae4cd21499a494ebf54d14fe590dd7e5c3dd8f219a6f33328">
             MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAzXIdFWPvs+wZhnIi7jLIhsGAY2wjb9z3
